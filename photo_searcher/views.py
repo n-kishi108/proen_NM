@@ -18,10 +18,10 @@ from photo_searcher.models.search_model import convert_to_basic_form
 def index():
 
     # ファイルから画像リストを取得、その長さを測る
-    rows, row_cnt, message = set_show_data('')
+    # rows, row_cnt = set_show_data('')
 
     #レンダリング
-    return render_template('index.html', page = 'index', file = rows, row_cnt = row_cnt, message = '')
+    return render_template('index.html', page = 'index', file = '', row_cnt = '', message = '')
 
 
 #
@@ -36,7 +36,7 @@ def search():
     page = int(request.args.get('page'))  # ページ番号を取得
 
     # ファイルから画像リストを取得、その長さを測る
-    rows, row_cnt, _ = set_show_data(keyword)
+    rows, row_cnt = set_show_data(keyword)
 
     #レンダリング
     return render_template('index.html', page = 'search', section = page - 1, file = rows, row_cnt = row_cnt, message = keyword)
