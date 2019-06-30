@@ -1,0 +1,10 @@
+var A4Uclient = "is";
+var A4Uwidth = "120";
+var A4Uheight = "240";
+var A4Udomain = "";
+var A4Uencode = "EUC-JP";
+var A4Usite = "is";
+var A4Ucont = "plazauser";
+var A4Utype = "w120.h240";
+document.write('<scr'+'ipt TYPE="text/javascript" SRC="http://grp01.ias.rakuten.co.jp/content/ad/DCBT/delivery/script/198.js">\n');
+document.write('</scr'+'ipt>\n');

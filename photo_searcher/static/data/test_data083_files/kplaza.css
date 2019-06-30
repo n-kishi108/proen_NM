@@ -1,0 +1,122 @@
+<style type="text/css">
+/*背景カラー*/
+body { background-color: #FFFFFF;
+font-family:"HGP創英角ｺﾞｼｯｸUB","ヒラギノ角ゴ Pro W3","MS UI Gothic","ＭＳ Ｐゴシック","MS PGothic";
+}
+/*基本フォントサイズ*/
+td{ font-size:	12px; color : #333333;  line-height: 130%;}
+/*リンク設定*/
+a:link {COLOR:  #336699; TEXT-DECORATION: underline;}
+a:visited {COLOR:  #336699; TEXT-DECORATION: underline;}
+a:hover {COLOR:  #FF3333; TEXT-DECORATION: underline;}
+a:active {COLOR: #FF3333; TEXT-DECORATION: underline}
+
+.gr:link {COLOR: #8291AA; TEXT-DECORATION: none}
+.gr:visited {COLOR: #8291AA; TEXT-DECORATION: none}
+.gr:hover {COLOR: #FF3399; TEXT-DECORATION: underline}
+.gr:active {COLOR: #FF3399; TEXT-DECORATION: underline}
+
+.blr:link {COLOR: #333333; TEXT-DECORATION:  none}
+.blr:visited {COLOR: #333333; TEXT-DECORATION:  none}
+.blr:hover {COLOR: #FF3333; TEXT-DECORATION: underline}
+.blr:active {COLOR: #FF3333; TEXT-DECORATION: underline}
+
+.b:link {COLOR:  #FFFFFF; TEXT-DECORATION: none}
+.b:visited {COLOR:  #FFFFFF; TEXT-DECORATION: none}
+.b:hover {COLOR:  #00CCFF; TEXT-DECORATION: none}
+.b:active {COLOR: #00CCFF; TEXT-DECORATION: underline}
+
+.bgr:link {COLOR: #CCCCCC; font-size:11px; TEXT-DECORATION: none}
+.bgr:visited {COLOR: #CCCCCC; font-size:11px; TEXT-DECORATION: none}
+.bgr:hover {COLOR: #FF3399; font-size:11px; TEXT-DECORATION: none}
+.bgr:active {COLOR: #FF3399; font-size:11px; TEXT-DECORATION: underline}
+
+
+.c:link {COLOR: #333333; font-size:11px; TEXT-DECORATION: none}
+.c:visited {COLOR: #333333; font-size:11px; TEXT-DECORATION: none}
+.c:hover {COLOR: #FF3399; font-size:11px; TEXT-DECORATION: none}
+.c:active {COLOR: #FF3399; font-size:11px; TEXT-DECORATION: underline}
+
+
+/*テキスト-赤色-*/
+.dr { font-size : 12px; color : #FF3333; line-height: 130%;}
+
+.dr2:link {COLOR: #FF3333; TEXT-DECORATION: none}
+.dr2:visited {COLOR: #FF3333; TEXT-DECORATION: none}
+.dr2:hover {COLOR: #FF3399; TEXT-DECORATION: underline}
+.dr2:active {COLOR: #FF3399; TEXT-DECORATION: underline}
+
+/*テキスト-小さい-*/
+.sm { font-size : 11px; color : #FF3333; line-height: 130%;}
+.blm { font-size : 11px; color : #999999; line-height: 130%;}
+
+/*音楽追加*/
+.ns:link {COLOR: #999999; TEXT-DECORATION: underline}
+.ns:visited {COLOR: #999999; TEXT-DECORATION: underline}
+.ns:hover {COLOR: #FF3333; TEXT-DECORATION: underline}
+.ns:active {COLOR: #FF3333; TEXT-DECORATION: underline}
+
+.up:link {COLOR: #999999; TEXT-DECORATION: none}
+.up:visited {COLOR: #999999; TEXT-DECORATION: none}
+.up:hover {COLOR: #999999; TEXT-DECORATION: underline}
+.up:active {COLOR: #999999; TEXT-DECORATION: underline}
+
+.size11 { font-size : 11px; color : #333333; line-height: 130%;}
+
+/*ショッピング*/
+ul.shop_navi{
+	margin:0;
+	padding:0;
+}
+
+
+li.shop_blog{
+	list-style-type: none;
+	float: right;
+	margin-right:10px;
+	padding: 0px;
+	line-height:150%;
+}
+
+li.shop_change{
+	list-style-type: none;
+	float: right;
+	margin-right:10px;
+	padding: 0px;
+	line-height:150%;
+}
+
+li.shop_status{
+	list-style-type: none;
+	float: right;
+	margin-right:10px;
+	padding: 0px;
+	line-height:150%;
+}
+
+li.shop_heip{
+	list-style-type: none;
+	float: right;
+	padding: 0px;
+	line-height:150%;
+}
+
+ol.shop_faq{
+line-height:150%;
+}
+
+
+.rei{
+	background-color:#FFFFCC;
+    padding,margin:1px;
+	color:#FF6600;
+	font-weight:bold;
+}
+
+.numorante{
+color:#FFFFFF;
+background-color:#FF6600;
+font-weight:bold;
+padding:2px;
+margin:0px;
+}

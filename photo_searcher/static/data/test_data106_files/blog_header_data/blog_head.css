@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+*{
+	font-family									:"verdana","helvetica","osaka","lr oSVbN",ans-serif;
+}
+
+#bar{
+	width:100%;
+	height:28px;
+	background:#EFEFEF url(/_img/cust/bloghead.gif) left top;
+	border-bottom:1px solid #999999;
+	text-align:right;
+}
+
+.blogbartext{
+	font-size:12px;
+	line-height:26px;
+}
+
+.blogbartext{color:#666666;text-decoration:underline;}
+.blogbartext:link{color:#666666;text-decoration:underline;}
+.blogbartext:visited{color:#666666;text-decoration:underline;}
+.blogbartext:active{color:#0000FF;text-decoration:none;}
+.blogbartext:hover{color:#0000FF;text-decoration:none;}

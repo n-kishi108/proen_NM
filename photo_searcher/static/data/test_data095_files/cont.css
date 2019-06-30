@@ -1,0 +1,198 @@
+ 
+.acs{
+  font-size : 12pt;
+  padding-left : 5px;
+  padding-right : 0px;
+  font-weight : bold;
+  color : white;
+  padding-top : 3px;
+  padding-bottom : 3px;
+}
+.acs2{
+  font-size : 11pt;
+  font-weight : bold;
+  padding-top : 4px;
+  padding-bottom : 4px;
+  padding-left : 7px;
+  color : white;
+}
+.acs3{
+  font-size : 11pt;
+  font-weight : normal;
+  padding-left : 12px;
+  color : white;
+  padding-top : 4px;
+  padding-bottom : 4px;
+}
+.new{
+  font-size : 11pt;
+  padding-top : 10px;
+  padding-left : 10px;
+  padding-right : 5px;
+  padding-bottom : 5px;
+}
+.lab1{
+  font-size : 12pt;
+  line-height : 10px;
+  color : navy;
+  padding-top : 7px;
+  padding-bottom : 7px;
+  font-weight : bold;
+  letter-spacing : 7px;
+}
+.lab2{
+  font-size : 10pt;
+  line-height : 16pt;
+  text-align : justify;
+  text-justify : inter-ideograph ;
+  padding-right : 15px;
+  padding-left : 10px;
+}
+.lab3{
+  font-size : 11pt;
+  font-weight : normal;
+  font-style : italic;
+  text-decoration : underline;
+  text-align : center;
+  color : white;
+}
+.lab4{
+  font-size : 11pt;
+  line-height : 20pt;
+  padding-left : 40px;
+}
+.lab5{
+  font-size : 10pt;
+  
+  text-align : center;
+  padding-top : 5px;
+  padding-bottom : 5px;
+}
+A.mem{text-decoration:none;color:#0066cc;
+  font-size : 10pt; text-align : center;
+}
+A.mem:hover{text-decoration:underline;color:#99ccff;}
+
+A.lab{text-decoration:none;color:#ffffff;}
+A.lab:HOVER{text-decoration:underline;color:#ffffcc;}
+
+.lab6{
+  font-size : 11pt;
+  line-height : 20pt;
+  padding-left : 10px;
+}
+.mem01{
+  font-size : 12pt;
+  
+  padding-left : 8px;
+  
+  font-weight : 600;
+  color : #3a5b28;
+ 
+}
+.mem06{
+  font-size : 11pt;
+  
+  padding-left : 8px;
+  
+  font-weight : 600;
+  color : #3a5b28;
+ 
+}
+.mem02{
+  font-size : 10pt;
+  color : #3a5b28;
+  text-align : center;
+  padding-top : 3px;
+  padding-bottom : 3px;
+  
+}
+TD.mem{
+  
+  text-align : center;
+}
+.mem03{
+  font-size : 10pt;
+  text-align : center;
+  
+}
+.mem04{
+  font-size : 10pt;
+  color : #525252;
+  padding-top : 7px;
+  padding-left : 10px;
+  padding-right : 10px;
+  padding-bottom : 7px;
+}
+.mem05{
+  font-size : 10pt;
+  color : #0a6517;
+  text-align : right;
+  padding-right : 15px;
+}
+.wr01{
+  font-size : 11pt;
+  padding-top : 7px;
+  padding-bottom : 7px;
+  color : #426741;
+  font-weight : bold;
+  text-align : center;
+}
+.wr02{
+  font-size : 14pt;
+  font-weight : 600;
+  padding-left : 8px;
+  color : #265f16;
+  padding-top : 10px;
+}
+.wr03{
+  font-size : 11pt;
+  padding-top : 8px;
+  padding-right : 15px;
+  padding-bottom : 8px;
+  line-height : 23px;
+  letter-spacing : 1px;
+}
+.wr04{
+  font-size : 9pt;
+  color : #203377;
+  padding-top : 15px;
+  padding-left : 20px;
+  padding-right : 20px;
+  line-height : 12pt;
+}
+.wr05{
+  font-size : 11pt;
+  padding-top : 7px;
+  padding-bottom : 7px;
+  color : #426741;
+  font-weight : bold;
+  padding-left : 7px;
+}
+.new01{
+  font-size : 10pt;
+  padding-top : 7px;
+  
+  padding-bottom : 7px;
+  text-align : center;
+}
+.new02{
+  font-size : 11pt;
+  padding-top : 7px;
+  padding-left : 10px;
+  padding-bottom : 7px;
+}
+.gal01{
+  font-size : 11pt;
+  line-height : 13pt;
+  color : #203f1d;
+}
+.ga02{
+  text-align : center;
+  padding-top : 5px;
+  padding-bottom : 5px;
+  font-size : 11pt;
+}
+.mem07{
+  padding-right : 8px;
+}

@@ -1,0 +1,209 @@
+#mainContentsArea div.wiki{
+/* \*/
+position:relative;
+/* */
+font-size:0.75em;
+line-height:1.4;
+word-break:break-all;
+word-wrap:break-word;
+overflow:hidden;
+}
+
+#mainContentsArea div.wiki pre.wiki{
+width:540px;
+padding:8px;
+border:3px solid #D6F7B3;
+color:#333;
+background-color:#F9FADD;
+font-size:1em;
+line-height:1.6em;
+white-space: -moz-pre-wrap;
+white-space: -pre-wrap;
+white-space: -o-pre-wrap;
+white-space: pre-wrap;
+word-break:break-all;
+word-wrap:break-word;
+overflow:hidden;
+clear:both;
+}
+
+#mainContentsArea div.wiki pre.wikiGuestbook{
+width:413px;
+padding:8px;
+border:3px solid #D6F7B3;
+color:#333;
+background-color:#F9FADD;
+font-size:1em;
+line-height:1.6em;
+white-space: -moz-pre-wrap;
+white-space: -pre-wrap;
+white-space: -o-pre-wrap;
+white-space: pre-wrap;
+word-break:break-all;
+word-wrap:break-word;
+overflow:hidden;
+clear:both;
+}
+
+#mainContentsArea div.wiki div.quote {
+padding:8px;
+font-size:1em;
+line-height:1.6em;
+color:#4B4B4B;
+background-color:#eee;
+border:1px solid #ccc;
+word-break:break-all;
+white-space: -moz-pre-wrap;
+white-space: -pre-wrap;
+white-space: -o-pre-wrap;
+white-space: pre-wrap;
+word-wrap: break-word;
+}
+
+/* hide from Mac IE \*/
+* html #mainContentsArea div.wiki div.quote  { 
+width:97%;
+}
+/* */ 
+
+#mainContentsArea div.wiki table.wiki{
+border: 0px outset #ddddb0;
+}
+
+#mainContentsArea div.wiki tr.wiki{
+background-color:#D8F2E9;
+}
+
+#mainContentsArea div.wiki td.wiki{
+padding:8px;
+border:0px inset #E2ECE5;
+color:#4B4B4B;
+font-size:1em;
+line-height:1.125em;
+}
+
+#mainContentsArea div.wiki textarea.wiki{
+width:100%;
+}
+
+#mainContentsArea div.wiki h1,
+#mainContentsArea div.wiki h2,
+#mainContentsArea div.wiki h3,
+#mainContentsArea div.wiki h4,
+#mainContentsArea div.wiki h5{
+margin-top:1em;
+margin-bottom:1.1667em;
+}
+
+#mainContentsArea div.wiki h1{
+padding:4px;
+color:#255282;
+background-color:#E1EFED;
+font-size:1.5556em;
+}
+
+#mainContentsArea div.wiki h2{
+padding:4px;
+border:1px solid #dcdcdc;
+color:#fff;
+background-color:#A5A9AD;
+font-size:1.3333em;
+}
+
+#mainContentsArea div.wiki h3{
+padding:4px;
+color:#255282;
+background-color:#E1EFED;
+font-size:1.3333em;
+}
+
+#mainContentsArea div.wiki h4{
+padding:4px;
+border:1px solid #dcdcdc;
+color:#fff;
+background-color:#A5A9AD;
+font-size:1.1111em;
+}
+
+#mainContentsArea div.wiki h5{
+padding:4px;
+color:#255282;
+background-color:#E1EFED;
+font-size:1em;
+}
+
+#mainContentsArea div.wiki tt.wiki{
+color:#333;
+background-color:#E1FFCB;
+}
+
+#mainContentsArea div.wiki hr.wiki {
+height:1px;
+margin:2px 0 6px;
+padding:0;
+border:0px solid;
+color:#ccc;
+background-color:#369;
+}
+
+#mainContentsArea div.wiki div.indent{
+padding-left:1.5em;
+}
+
+#mainContentsArea div.wiki div.code{
+font-size:1em;
+padding:8px;
+background-color:#FBFDE0;
+}
+
+#mainContentsArea div.wiki div.hint {
+padding:5px;
+color:#369;
+background-color:#fcfcfc; 
+font-size:0.9167em; 
+line-height:1em;
+}
+
+#mainContentsArea div.wiki #wikiHint{
+font-size:0.8333em;
+background-color:#E2DAE2;
+}
+
+#mainContentsArea div.wiki img.alignLeft{
+float:left;
+margin:0 5px 5px 0;
+}
+
+#mainContentsArea div.wiki img.alignRight{
+float:right;
+margin:0 0 5px 5px;
+}
+
+#mainContentsArea div.wiki .alignCenter{
+width:100%;
+text-align:center;
+margin:0 0 5px 0;
+}
+
+#mainContentsArea .entry .entryBody table tr td.entryTd,
+#mainContentsArea .moduleContents table tr td.entryTd{
+margin:0;
+padding:0;
+border:0;
+}
+
+#mainContentsArea .entry .entryBody table tr td.entryTd img.entryThumbnail,
+#mainContentsArea .module .moduleContents table tr td.entryTd img.entryThumbnail{
+margin:3px;
+}
+
+
+#mainContentsArea div.wiki .outImg{
+width:558px;
+text-align:center;
+overflow:hidden;
+}
+
+#mainContentsArea .commentsArea .commentsContents .comment {
+position:static;
+}

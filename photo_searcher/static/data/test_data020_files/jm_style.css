@@ -1,0 +1,279 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	}
+
+body {
+	text-align: center;
+	color:#333;
+	font-size: 14px;
+	font-family: "Verdana", "ヒラギノ角ゴ Pro W3", "ＭＳ ゴシック", "Osaka‐等幅";
+	background-color: #d6eaff;
+	}
+
+#wrapper_body {
+	width: 780px;
+	text-align: left;
+	line-height: 150%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #ffffff;
+}
+
+#wrapper_body table,td,tr,div { margin:0px; padding:0px;}
+
+a         {color: #0000ff; text-decoration: underline;}
+a:hover   {color: #63b5d6; text-decoration: none;}
+
+
+#wrapper_body  img {
+	padding: 1px;
+	background: #FFF;
+	border: 0px;
+	}
+
+#wrapper_body  li {
+	list-style-type: none;
+	margin-bottom:5px;
+	}
+
+/* ************************************************ 
+ *	ページレイアウト
+ * ************************************************ */
+
+#header {
+background: url(http://hot-scoop.img.jugem.jp/20070916_224261.jpg) no-repeat;
+margin-bottom: 20px;
+}
+
+/*　画面左側の幅　*/
+#main {
+width: 530px;
+margin: 0px 10px 10px 10px;
+float: left;
+}
+
+/*　レイアウト調整　*/
+#side {
+margin: 10px;
+float: right;
+}
+
+/*　画面右側メニューの幅　*/
+.side_in {
+width:200px;
+}
+
+/*　フッター　*/
+#footer {
+text-align: center;
+height: 50px;
+clear: both;
+background: url(http://hot-scoop.img.jugem.jp/20070916_224260.jpg) no-repeat;
+}
+
+
+
+
+/* ************************************************ 
+ *	サイトタイトル
+ * ************************************************ */
+
+h1 { 
+font-size: 22px;
+font-weight: bolder;
+padding: 160px 15px 10px 15px;
+}
+
+#header h1 a {
+color: #356375;
+font-weight: bolder;
+text-decoration: none;
+}
+
+.description {
+font-size:14px;
+color:#4d4d4dE;
+padding: 15px 14px;
+border-top: none;
+}
+
+
+
+
+/* ************************************************ 
+ *	サイド
+ * ************************************************ */
+
+h3 {
+	color: #356375;
+	font-size: 13px;
+	border-top: 2px solid #63b5d6;
+	border-left: 8px solid #63b5d6;
+	padding: 5px 0px 0px 12px;
+	margin-bottom: 10px;
+	}
+
+.comment li{
+	background:url(./template/cmsp-plain/img/disc.gif) no-repeat;
+	background-position:0px 6px;
+	text-indent:8px;
+	line-height:130%;
+	margin-bottom:5px;
+	}
+
+.side_in ul {
+padding-left: 15px;
+margin-bottom: 20px;
+}
+
+.side_in form {
+margin-bottom: 20px;
+}
+
+.linktext {
+padding-left: 15px;
+margin-bottom: 20px;
+}
+
+
+/* カレンダー ---------*/
+
+.calendar {
+	font-family: "Verdana";
+	text-align:center;
+	line-height: 140%;
+	margin-bottom:10px;
+	}
+
+.calendar table {
+	width:100%;
+	margin:0px auto;
+	text-align:center;
+	}
+
+.weekday { padding: 2px;}
+.cell    { padding: 2px;}
+
+.cell a:link {font-weight: bolder;}
+
+
+/* ************************************************ 
+ *	エントリー
+ * ************************************************ */
+#entry {
+	margin-top: 0px;
+	margin-bottom: 30px;
+	}
+
+.entry_navi {
+	margin-bottom:20px;
+	padding: 5px 0px;
+	}
+
+.entry_state {
+	text-align:right;
+	padding-bottom:5px;
+	padding-right:15px;
+	margin-top:10px;
+	border-bottom: 2px solid #63b5d6;
+	border-right: 8px solid #63b5d6;
+	}
+
+.entry_title {
+	margin-top:10px;
+	font-size: 13px;
+	font-weight:bolder;
+	}
+
+.entry_title h2 {
+	font-size: 14px;
+	border-top: 2px solid #63b5d6;
+	border-left: 8px solid #63b5d6;
+	padding: 7px 0 2px 12px;
+	margin-bottom: 10px;
+	}
+
+.entry_body {
+	margin:10px 15px;
+	line-height:170%;
+	}
+
+.entry_body p {
+	margin:10px 0;
+	line-height:170%;
+	padding:10px 0;
+	}
+
+.entry_body .emoji {
+	display: inline;	
+	}
+
+.entry_more {
+	padding-top:10px;
+	}
+
+.entry_back {
+	text-align:right;
+	padding-top:10px;
+	}
+
+blockquote {
+	color: #999;
+	border-left:3px solid;
+	margin: 10px 5px;
+	padding:0px 5px;
+	}
+
+.pict { }
+
+
+
+/* ------------------------------------- 
+ *	コメント・トラックバック
+ * ------------------------------------- */
+
+#trackback { padding-top: 20px;padding-bottom:10px;}
+
+#trackback .tb_main_title {
+	font-weight: bolder;
+	margin-bottom:20px;
+	border-bottom:1px dotted #63b5d6;
+	padding: 5px 0px;
+	border-top: 2px solid #63b5d6;
+	}
+
+#trackback .tb_url {
+	font-size: 11px;
+	padding: 5px 10px 5px 10px;
+	}
+
+#trackback .tb {
+	margin-bottom: 10px;
+	border: 1px solid #63b5d6;
+	}
+
+
+#trackback .tb_title {
+	font-weight: bold;
+	padding: 5px 10px;
+	}
+
+#trackback .tb_body {
+	line-height: 150%;
+	padding: 5px 10px;
+	}
+
+#trackback .tb_state {
+	border-top: 1px dotted #63b5d6;
+	padding: 5px;
+	text-align:right;
+	}
+
+#trackback .formarea {
+	padding: 5px;
+	background:#F8F8F8;
+	border:1px dotted #63b5d6;
+	color:#999;
+	margin-top:20px; 
+	}

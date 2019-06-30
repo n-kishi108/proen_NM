@@ -1,0 +1,38 @@
+document.write('<style type="text/css">');
+document.write('<!--');
+document.write('div#exBlogpartsWorldWeb{color:#999999;width:150px;background-image:url(http://image.excite.co.jp/jp/exblog/blogparts/exBlogpartsNewsBg.gif);background-repeat:no-repeat;padding-top:12px;text-align:left;}');
+document.write('.exBlogpartsNavi{margin-left:1px;padding-bottom:2px;}');
+document.write('.exBlogpartsNavi img{border-style:none;}');
+document.write('div#exBlogpartsWorldWeb ul,div#exBlogpartsWorldWeb li{margin:0px;padding:0px;list-style-type:none;font-size:12px;line-height:1.2;}');
+document.write('div#exBlogpartsWorldWeb li{border-bottom:1px solid #dcdcdc;margin:5px 1px 0px;padding:0px 3px 3px 16px;background-position:3px 4px;background-repeat:no-repeat;}');
+document.write('div#exBlogpartsWorldWeb a:link,div#exBlogpartsWorldWeb a:visited{color: #424242;text-decoration: none;}');
+document.write('div#exBlogpartsWorldWeb a:hover{color:#FF6600;text-decoration:underline;}');
+document.write('div#exBlogpartsWorldWeb .moreLink{font-size:12px;text-align:right;margin:3px 4px 0px 0px;}');
+document.write('div#exBlogpartsWorldWeb .arr{font-family:Verdana;font-weight:bold;margin-right:2px}');
+document.write('.exBlogpartsLogo{width:150px;background-image:url(http://image.excite.co.jp/jp/exblog/blogparts/exBlogpartsNewsBg.gif);background-repeat:no-repeat;background-position:0px bottom;text-align:center;padding:4px 0px;}');
+document.write('-->');
+document.write('</style>');
+document.write('<div id="exBlogpartsWorldWeb">');
+document.write(' <ul>');
+document.write(' <li style="background-image:url(http://image.excite.co.jp/jp/exblog/blogparts/exBlogpartsWorldEn.gif);margin-top:0;"><a href="javascript:worldSubmitWeb(\'english\',\'JAEN\');">Translate to English</a></li>');
+document.write(' <li style="background-image:url(http://image.excite.co.jp/jp/exblog/blogparts/exBlogpartsWorldCh.gif);"><a href="javascript:worldSubmitWeb(\'chinese\',\'JACH\');">&#32763;&#35793;&#25104;&#20013;&#25991;&#40;&#31616;&#41;</a></li>');
+document.write(' <li style="background-image:url(http://image.excite.co.jp/jp/exblog/blogparts/exBlogpartsWorldKo.gif);"><a href="javascript:worldSubmitWeb(\'korean\',\'JAKO\');">&#54620;&#44397;&#50612;&#50640;&#32;&#48264;&#50669;</a></li>');
+document.write(' <li style="background-image:url(http://image.excite.co.jp/jp/exblog/blogparts/exBlogpartsWorldFr.gif);"><a href="javascript:worldSubmitWeb(\'french\',\'JAFR\');">&#84;&#114;&#97;&#100;&#117;&#105;&#115;&#101;&#122;&#32;&#101;&#110;&#32;&#102;&#114;&#97;&#110;&#231;&#97;&#105;&#115;</a></li>');
+document.write(' <li style="background-image:url(http://image.excite.co.jp/jp/exblog/blogparts/exBlogpartsWorldDe.gif);"><a href="javascript:worldSubmitWeb(\'german\',\'JADE\');">&#220;&#98;&#101;&#114;&#115;&#101;&#116;&#122;&#101;&#110;&#32;&#83;&#105;&#101;&#32;&#105;&#110;&#32;&#68;&#101;&#117;&#116;&#115;&#99;&#104;</a></li>');
+document.write(' <li style="background-image:url(http://image.excite.co.jp/jp/exblog/blogparts/exBlogpartsWorldIt.gif);"><a href="javascript:worldSubmitWeb(\'italian\',\'JAIT\');">&#84;&#114;&#97;&#100;&#117;&#99;&#97;&#32;&#105;&#110;&#32;&#105;&#116;&#97;&#108;&#105;&#97;&#110;&#111;</a></li>');
+document.write(' <li style="background-image:url(http://image.excite.co.jp/jp/exblog/blogparts/exBlogpartsWorldEs.gif);"><a href="javascript:worldSubmitWeb(\'spanish\',\'JAES\');">&#84;&#114;&#97;&#100;&#117;&#122;&#99;&#97;&#32;&#101;&#110;&#32;&#101;&#115;&#112;&#97;&#241;&#111;&#108;</a></li>');
+document.write(' <li style="background-image:url(http://image.excite.co.jp/jp/exblog/blogparts/exBlogpartsWorldPt.gif);"><a href="javascript:worldSubmitWeb(\'portuguese\',\'JAPT\');">&#84;&#114;&#97;&#100;&#117;&#122;&#97;&#32;&#101;&#109;&#32;&#112;&#111;&#114;&#116;&#117;&#103;&#117;&#234;&#115;</a></li>');
+document.write(' </ul>');
+document.write('<form action="" method="post" id="exBlogpartsWorldWeb_form" target="_blank" style="display:none;">');
+document.write(' <input type="hidden" name="wb_url" value="">');
+document.write(' <input type="hidden" name="wb_lp" value="">');
+document.write('</form>');
+document.write('</div>');
+document.write('<div class="exBlogpartsLogo"><a href="http://www.excite.co.jp/world/"><img src="http://image.excite.co.jp/jp/exblog/blogparts/exBlogpartsLogoWorld.gif" alt="エキサイト 翻訳" title="エキサイト 翻訳" width="148" height="24" border="0" /></a></div>');
+function worldSubmitWeb(path,wb_lp){
+var o = document.getElementById('exBlogpartsWorldWeb_form');
+o.action = 'http://www.excite.co.jp/world/'+path+'/web/';
+o.wb_lp.value = wb_lp;
+o.wb_url.value = document.location;
+o.submit();
+}

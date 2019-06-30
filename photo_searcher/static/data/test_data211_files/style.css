@@ -1,0 +1,256 @@
+@charset "UTF-8";
+/*  
+Theme Name: HIROMI PHOTO Blog
+Theme URI: 
+Description: 
+Version: 0.1
+Author: 
+Author URI: 
+*/
+
+* {
+ margin: 0;
+ padding: 0;
+ color: #666666;
+ text-decoration: none;
+}
+html, body {
+ min-height: 100%;
+ width: 100%;
+}
+body {
+ margin: 0;
+ padding: 0;
+ background: #FFFFFF;
+ font-family: 'Optima', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'Verdana', Arial, sans-serif;
+ font-size: 12px;
+}
+h1, h2, h3 {
+ font-weight: normal;
+}
+p, ul, ol {
+ margin: 0 0 1.6em 0;
+ text-align: justify;
+ line-height: 1.6;
+}
+ol {
+ list-style: decimal inside;
+}
+a {
+ color: #0690E6;
+}
+a:hover {
+ color: #E62D06;
+}
+img, a img {
+ border: 0;
+}
+
+/* Page */
+#page {
+ width: 100%;
+}
+#page-inner {
+ width: 480px;
+ margin: 0 auto;
+ position: relative;
+ padding-top: 48px;
+ padding-bottom: 48px;
+}
+
+/* Content */
+#content {
+ width: 100%;
+ position: relative;
+}
+.navigation {
+}
+.alignleft {
+ float: left;
+}
+.alignright {
+ float: right;
+}
+.aligncenter,
+.alignnone {
+ text-align: center;
+ display: block;
+ margin-right: auto;
+ margin-left: auto;
+}
+
+/* Post */
+.post {}
+.post .title {
+ margin-bottom: 24px;
+ font-size: 14px;
+ line-height: 1.2;
+}
+.post .title a:link, .post .title a:active, .post .title a:visited {}
+.post .title a:hover {}
+.post .entry {
+ padding-bottom: 2em;
+}
+.post .meta {
+ padding: 6px 0 120px 0;
+ background: url(images/img03.gif) repeat-x left top;
+}
+.post .meta p {
+ margin: 0;
+ line-height: normal;
+ color: #999999;
+}
+.post .meta .byline {
+ float: left;
+}
+.post .meta .links {
+ float: right;
+}
+.post .meta .more {
+ padding: 0 20px 0 18px;
+ background: url(images/img06.gif) no-repeat left center;
+}
+.post .meta .comments {
+ padding-left: 22px;
+ background: url(images/img07.gif) no-repeat left center;
+}
+
+/* Comments */
+#comments {}
+#comments p, #comments ol, #comments ul {
+ line-height: 1.5;
+}
+#comments ol li {
+ padding-bottom: 2em;
+}
+.commentmetadata {
+}
+#comments input {
+ padding: 3px;
+ background: #ECECEC url(images/img08.gif) repeat-x left bottom;
+ border: none;
+ text-transform: lowercase;
+ font-size: 11px;
+ color: #4F4F4F;
+}
+#comments #submit {
+ background: #FFFFFF url(images/spacer.gif);
+ border: 1px solid #F0F0F0;
+}
+#comment {
+ width: 500px;
+}
+
+/* Respond */
+#respond {
+}
+#respond p {
+ margin-bottom: 5px;
+ line-height: normal;
+}
+
+/* Footer */
+#footer {
+ width: 100%;
+ height: auto;
+ clear: both;
+ background: #0690E6;
+ float: left;
+}
+#footer-inner {
+ width: 480px;
+ margin: 0 auto;
+ padding-top: 48px;
+ padding-bottom: 48px;
+ position: relative;
+}
+#footer-inner h1 {
+ font-size: 24px;
+ line-height: 1;
+ margin-bottom: 10px;
+}
+#footer-inner h2 {
+ font-size: 12px;
+ line-height: 1.2;
+ margin-bottom: 177px;
+}
+
+#sidebar-1,
+#sidebar-2 {
+ width: 228px;
+ float: left;
+}
+#sidebar-2 {
+ margin-left: 24px;
+}
+#footer-inner ul {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+#footer-inner li {
+ margin-bottom: 48px;
+ float: left;
+ width: 100%;
+ clear: left;
+}
+#footer-inner li ul,
+#footer-inner li li {
+ margin: 0;
+}
+#footer-inner ul h2 {
+ margin-bottom: 10px;
+ font-size: 12px;
+ padding-bottom: 5px;
+ border-bottom: 1px solid #44ABEC;
+ color: #7FC6F3;
+}
+#footer-inner li,
+#footer-inner h2,
+#footer-inner a {
+ color: #E1F1FB;
+}
+#footer-inner ul h2,
+#footer-inner a:hover,
+#footer-inner li li.current-cat a,
+#footer-inner li li.current_page_item a {
+ color: #FFFFFF;
+}
+#footer-inner li li.current-cat a,
+#footer-inner li li.current_page_item a {
+ text-decoration: line-through;
+}
+
+/* Search */
+#search {
+}
+#search br {
+ display: none;
+}
+#search h2 {
+ margin-bottom: 20px;
+}
+#search input {
+ padding: 3px;
+ background: #ECECEC url(images/img08.gif) repeat-x left bottom;
+ border: none;
+ text-transform: lowercase;
+ font-size: 11px;
+ color: #4F4F4F;
+}
+#search #s {
+ width: 120px;
+ margin-right: 5px;
+ background: #FFFFFF url(images/spacer.gif);
+ border: 1px solid #F0F0F0;
+}
+/* Form */
+form {
+}
+fieldset {
+}
+input, textarea, select {
+ font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ color: #333333;
+}

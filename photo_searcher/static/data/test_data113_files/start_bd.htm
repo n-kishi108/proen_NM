@@ -1,0 +1,18 @@
+
+function __afbFunc_pvc() {
+	var ref;
+	if (parent.frames.length > 0) ref = parent.document.referrer; else ref = document.referrer;
+	ref = escapeHtml(ref);
+	var img_src = "https://track.affiliate-b.com/start_1.php?" + "ref="+ref+"&adv=K2136M";
+	document.write('<img src="' + img_src + '" width=1 height=1 boder=0 style="display:none;">');
+}
+__afbFunc_pvc();
+
+function escapeHtml(str) { 
+    str = str.replace(/&/g,"&amp;") ;
+    str = str.replace(/"/g,"&quot;") ;
+    str = str.replace(/'/g,"&#039;") ;
+    str = str.replace(/</g,"&lt;") ;
+    str = str.replace(/>/g,"&gt;") ;
+    return str ;
+}

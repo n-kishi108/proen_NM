@@ -1,0 +1,51 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BZaWG_Jq1S9mbMoyg6QOI7uimB7r0waoB7oCLmw3AjbcBgMSqIhABGAQgzaKdFygDOABQ2PLZsgVgieu9hOAToAG2r-X5A7IBEmhvdC1zY29vcC5qdWdlbS5qcMgBAdoBIWh0dHA6Ly9ob3Qtc2Nvb3AuanVnZW0uanAvP2VpZD05NYACAakCzuASo4_lRj7IAsyYrQ6oAwHoA-YC6AP7A-gDJPUDAAAAxPUDBAAAAA&amp;num=4&amp;sig=AGiWqtx4nGu4iyNmsldamgaMJkt-qDuMkw&amp;client=ca-paperboy-jugem_js&amp;adurl=http://www.sastty.com/event/662/"; 
+google_ad.visible_url = "www.sastty.com"; 
+google_ad.line1 = "\x26#28961;\x26#28155;\x26#21152;\x26#12398;\x26#30333;\x26#39658;\x26#26579;\x26#12417;\x26#12394;\x26#12425;"; 
+google_ad.line2 = "\x26#39658;\x26#12392;\x26#38957;\x26#30382;\x26#12434;\x26#20663;\x26#12388;\x26#12369;\x26#12394;\x26#12356;\x26#12504;\x26#12450;\x26#12459;\x26#12521;\x26#12540;\x26#12290;"; 
+google_ad.line3 = "\x26#21033;\x26#23611;\x26#12504;\x26#12450;\x26#12459;\x26#12521;\x26#12540;\x26#12488;\x26#12522;\x26#12540;\x26#12488;\x26#12513;\x26#12531;\x26#12488;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BRNO1_Jq1S9mbMoyg6QOI7uimB-Lu5pwB5sm4gxHAjbcBgPWyDBACGAUgzaKdFygDOABQ-KeBigNgieu9hOAToAGo_pD5A7IBEmhvdC1zY29vcC5qdWdlbS5qcMgBAdoBIWh0dHA6Ly9ob3Qtc2Nvb3AuanVnZW0uanAvP2VpZD05NakCzuASo4_lRj7IArzElAyoAwHoA-YC6AP7A-gDJPUDAAAAxPUDBAAAAA&amp;num=5&amp;sig=AGiWqtypfFsi41EouUSxMuYK7KpsVnxQDA&amp;client=ca-paperboy-jugem_js&amp;adurl=http://www.sukkiri-life.com/gl/2/"; 
+google_ad.visible_url = "sukkiri-life.com"; 
+google_ad.line1 = "\x26#19979;\x26#33145;\x26#12506;\x26#12483;\x26#12479;\x26#12531;\x26#12467;\x26#12391;\x26#22082;\x26#12398;\x26#12362;\x26#33590;"; 
+google_ad.line2 = "\x26#32716;\x26#26397;\x26#12489;\x26#12489;\x26#12540;! \x26#12362;\x26#12394;\x26#12363;\x26#12413;\x26#12387;\x26#12371;\x26#12426;\x26#12395;\x26#24745;\x26#12416;"; 
+google_ad.line3 = "\x26#20027;\x26#23142;\x26#12395;\x26#12496;\x26#12459;\x26#22770;\x26#12428;\x26#12398;\x26#12362;\x26#33590;\x26#12434;\x26#35430;\x26#12375;\x26#12390;\x26#12415;\x26#12390;\x26#12399;?"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BdXhA_Jq1S9mbMoyg6QOI7uimB72htLEB95W06RHAjbcBgOrlGBADGAYgzaKdFygDOABQv-DCugRgieu9hOAToAHNuuHsA7IBEmhvdC1zY29vcC5qdWdlbS5qcMgBAdoBIWh0dHA6Ly9ob3Qtc2Nvb3AuanVnZW0uanAvP2VpZD05NakCzuASo4_lRj7IAqPNjg-oAwHoA-YC6AP7A-gDJPUDAAAAxPUDBAAAAA&amp;num=6&amp;sig=AGiWqtxLCXYOKi2FlPwmEnnmQMA8DV4YWQ&amp;client=ca-paperboy-jugem_js&amp;adurl=http://www.do-organic.com/shop/a/aW005/"; 
+google_ad.visible_url = "do-organic.com"; 
+google_ad.line1 = "\x26#33398;\x26#20986;\x26#12375;\x26#12473;\x26#12461;\x26#12531;\x26#12465;\x26#12450;\x26#12362;\x26#35430;\x26#12375;Set"; 
+google_ad.line2 = "\x26#12383;\x26#12427;\x26#12383;\x26#12427;\x26#27611;\x26#31348;\x26#12434;\x26#12500;\x26#12540;\x26#12531;\x26#12392;\x26#12289;\x26#24382;\x26#12416;\x26#12424;\x26#12358;\x26#12394;"; 
+google_ad.line3 = "\x26#33398;\x26#32908;\x26#12408;\x26#65295;\x26#36865;\x26#26009;\x26#28961;\x26#26009;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://hot-scoop.jugem.jp/%253Feid%253D95%26hl%3Dja%26client%3Dca-paperboy-jugem_js%26adU%3Dwww.sastty.com%26adT%3D%25E7%2584%25A1%25E6%25B7%25BB%25E5%258A%25A0%25E3%2581%25AE%25E7%2599%25BD%25E9%25AB%25AA%25E6%259F%2593%25E3%2582%2581%25E3%2581%25AA%25E3%2582%2589%26adU%3Dsukkiri-life.com%26adT%3D%25E4%25B8%258B%25E8%2585%25B9%25E3%2583%259A%25E3%2583%2583%25E3%2582%25BF%25E3%2583%25B3%25E3%2582%25B3%25E3%2581%25A7%25E5%2599%2582%25E3%2581%25AE%25E3%2581%258A%25E8%258C%25B6%26adU%3Ddo-organic.com%26adT%3D%25E8%2589%25B6%25E5%2587%25BA%25E3%2581%2597%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25B3%25E3%2582%25B1%25E3%2582%25A2%25E3%2581%258A%25E8%25A9%25A6%25E3%2581%2597Set%26gl%3DJP\x26usg\x3dAFQjCNFauMVWD_6o46Y9l5BfAPx_HnSA8g"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

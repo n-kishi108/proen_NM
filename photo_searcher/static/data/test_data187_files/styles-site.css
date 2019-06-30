@@ -1,0 +1,776 @@
+/*
+===== CONTENTS ==============================
+    1: universal reset
+    2: body and base setting
+        : general params
+        : acronyms and abbreviations styles
+    3: link setting
+	4: text setting
+=============================================
+*/
+/*
+===== 1: universal reset =================================
+*/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+/*
+===== 2: body and base setting ===========================
+*/
+
+body {
+	background: url(images/bg.jpg) left top repeat-x;
+	color:#454545;
+	text-align:center;/* box centering */
+	font: normal 62.5% /*Verdana, */"ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3", HiraKakuPro-W3, Osaka, verdana, arial, sans-serif;
+	margin:0px;
+	padding:0px;
+}
+
+/* general params
+--------------------*/
+h2, h3, h4, h5, h6,
+div, pre, ul, ol, dl, dt, dd,
+address, form, blockquote{
+	padding: 0;/* margin&padding reset */
+	line-height: 1.4;/* base line height */
+	text-align: left;
+	display: block;
+	margin: 0px;
+	font-size:small;
+}
+
+p{
+	padding: 0;/* margin&padding reset */
+	line-height: 1.4;/* base line height */
+	display: block;
+	margin: 0px;
+	font-size:small;
+}
+
+table {margin : 0;empty-cells: show; font-size:small;}
+hr,.areaAnchor,.anchor { display : none; }
+img {
+	border: none;/* img do not want a border */
+
+}
+li { list-style: none; }/* link do not want a dot */
+
+/* acronyms and abbreviations styles 
+-------------------------------------*/
+acronym,abbr{cursor:help;}
+
+/*
+===== 3: link setting ===========================
+*/
+a:link{
+	color:#112F84;
+	text-decoration:underline;
+}
+
+a:visited{
+	color:#112F84;
+}
+
+a:hover{
+	color:#1E6EE1;
+}
+
+a:active{
+	color:#112F84;
+}
+
+
+/*
+
+/* ---------- 囲み ---------- */
+#container{
+	width:760px;
+	margin:0 auto;
+	background:	url(images/cont_bg.gif) left top repeat-y;
+	text-align:left;
+}
+
+html>body#container{
+	width:760px;
+	background:	url(images/cont_bg.gif) left top repeat-y;
+	margin:0 auto;
+	text-align:center;
+}
+
+
+
+/* -------------------- ヘッダ -------------------- */
+#header{
+	width:760px;
+	height:71px;
+	margin:0 auto;
+	background: url(images/header_01.jpg) left top no-repeat;
+}
+
+
+/* ----------ロゴ---------- */
+h1{
+	width:299px;
+	float:left;
+}
+
+h1 a{
+	background:url(images/spacer.gif) left top no-repeat;
+	margin:0;
+	padding:0;
+	width:299px;
+	height:68px;
+	text-indent:-9999px;
+	text-decoration:none;
+	outline:none;
+	display:block;
+	float:left;
+}
+
+
+/* ----------ヘッダ右コンテンツ ---------- */
+
+#headerCon{
+	width:380px;
+	padding-top:5px;
+	float:right;
+}
+
+#headerCon form{
+	float:left;
+}
+
+#headerCon input#search{
+	width:100px;
+}
+
+#fav a{
+	width:119px;
+	height:17px;
+	background: url(images/header_fav.gif) left top no-repeat;
+	text-indent:-9999px;
+	text-decoration:none;
+	display:block;
+	margin:3px 0 0 25px;
+	outline:none;
+	float:left;
+}
+
+/* モダンブラウザ向けclear */
+#fav:after{ 
+   display: block;
+   height: 0;
+   visibility: hidden;
+   clear: both;
+   content: ".";
+}
+
+/* 追加 MacIE 5 と WinIE 7 向け */
+#fav{
+   display: inline-block;
+}
+
+/*MacIE \*/
+   * html #fav {height: 1em;}
+   #fav {display: block;}
+/*  */
+
+/* ----------メインボタン ---------- */
+#navi{
+	width:370px;
+	margin:0;
+	padding-top:5px;
+}
+
+/* モダンブラウザ向けclear */
+#navi:after{ 
+   display: block;
+   height: 0;
+   visibility: hidden;
+   clear: both;
+   content: ".";
+}
+
+/* 追加 MacIE 5 と WinIE 7 向け */
+#navi{
+   display: inline-block;
+}
+
+/*MacIE \*/
+   * html #navi {height: 1em;}
+   #navi {display: block;}
+/*  */
+
+
+#navi ul{
+}
+
+#navi ul li{
+	float:left;
+}
+
+#navi ul li a{
+	width:83px;
+	height:27px;
+	background: url(images/navi.gif) left top no-repeat;
+	text-indent:-9999px;
+	text-decoration:none;
+	display:block;
+	outline:0;
+}
+
+#navi ul li#navi01 a{
+	width:111px;
+	background-position:0 0;
+
+}
+
+#navi ul li#navi01 a:hover{
+	background-position:0 -27px;
+
+}
+
+#navi ul li#navi02 a{
+	width:84px;
+	background-position:-111px 0;
+
+}
+
+#navi ul li#navi02 a:hover{
+	background-position:-111px -27px;
+}
+
+#navi ul li#navi03 a{
+	width:91px;
+	background-position:-195px 0;
+
+}
+
+#navi ul li#navi03 a:hover{
+	background-position:-195px -27px;
+}
+
+#navi ul li#navi04 a{
+	background-position:-286px 0;
+
+}
+
+#navi ul li#navi04 a:hover{
+	background-position:-286px -27px;
+}
+
+
+/* ----------メイン画像 ---------- */
+
+#topPhoto{
+	background:url(images/top_bg.gif) 0 0 no-repeat;
+	width:760px;
+	height:308px;
+}
+
+#topPhoto p{
+	width:733px;
+	margin:0 auto;
+	padding:10px 0;
+}
+
+#topPhoto2{
+	background:url(images/top_bg.gif) 0 0 no-repeat;
+	width:760px;
+	padding-top:15px;
+}
+
+/* ---------- メインコンテンツ ---------- */
+#pagebody{
+	width:760px;
+}
+
+/* モダンブラウザ向けclear */
+#pagebody:after{ 
+   display: block;
+   height: 0;
+   visibility: hidden;
+   clear: both;
+   content: ".";
+}
+
+/* 追加 MacIE 5 と WinIE 7 向け */
+#pagebody{
+   display: inline-block;
+}
+
+/*MacIE \*/
+   * html #pagebody {height: 1em;}
+   #pagebody {display: block;}
+/*  */
+
+
+/* ----------------------------------------------------- 左側 ---------------------------------------------------------- */
+#contentsBox{
+	margin:0 0 0 10px;
+	width:542px;
+	float:left;
+}
+
+#alpha, #gamma, #delta
+{
+   display: inline; /* ie win bugfix */
+   position: relative;
+   float: left;
+   min-height: 1px;
+}
+
+
+/* ----- 内部ページ左BOX ----- */
+#contentsMain{
+	margin-left:5px;
+}
+
+.pan{
+	margin-bottom:10px;
+}
+
+.pan2{
+	margin-bottom:10px;
+	text-align:right;
+	width:510px;
+}
+
+
+/* ----- カテゴリー タイトル ----- */
+.category-header{
+	padding:0 20px 0 0;
+	text-indent:20px;
+	background: url(images/cate_title.gif) no-repeat 0 0;
+	width: 502px;
+	margin:0 0 5px 5px;
+	color:#FFFFFF;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration:none;
+	font-family:"ヒラギノ角ゴ Pro W3";
+	height:35px;
+	overflow:hidden;
+	line-height:35px;
+}
+
+/* ----- エントリー タイトル ----- */
+
+.entry{
+	width:500px;
+	margin:10px auto;
+}
+
+/* 日付 */
+.date-header{
+	font-size:12px;
+	margin:0 0 10px 0;
+	padding:5px 0 0;
+	text-align:left;
+	font-weight:bold;
+	color:#7a735d;
+	border-bottom:solid 3px #a2cbdc;
+}
+
+/* タイトル */
+.entry-header{
+	padding:0 0 0 10px;
+	margin:0 0 10px 0;
+	border-left: solid 5px #1d86b2;
+	color:#1d86b2;
+	background-color: #F1F8FC;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.entry-header a{
+	color:#1d86b2;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.entry-header a:hover{
+	color:#1d86b2;
+}
+
+/*エントリーフッタ*/
+.entry-footer{
+	border-top:dotted 1px #0066CC;
+	font-size:10px;
+	text-align:right;
+}
+
+
+/*エントリー内容*/
+.maintext{
+	margin:0 0 10px 10px;
+	padding:0;
+	line-height:200%;
+	font-size:12px;
+}
+
+
+.maintext strong{
+	font-weight:bold;
+}
+
+.maintext p{
+	clear:both;
+}
+
+.maintext p img{
+	margin:0 10px;
+}
+
+/*続きを読む*/
+
+.entry-more-link a{
+	background:url(images/cate_link.gif) 0 4px no-repeat;
+	padding-left:14px;
+	font-size:12px;
+	text-decoration:underline;
+	display:block;
+	color:#1d86b2;
+}
+
+/* -----資料請求ボタン ------ */
+
+#formBtn a{
+	background:url(images/form_btn.gif) 0 0 no-repeat;
+	width:327px;
+	height:48px;
+	text-indent:-9999px;
+	text-decoration:none;
+	outline:none;
+	margin:10px;
+	clear:both;
+	display:block;
+}
+
+#formBtn a:hover{
+	background-position:0 -48px;
+}
+
+/* -----検索結果 ------ */
+
+.search-results-header{
+	margin:15px auto;
+	border:solid 1px #3399CC;
+	padding:5px;
+}
+
+
+.search-results-container h3{
+	padding:0 0 0 15px;
+	background:url(images/cate_link.gif) 0 3px no-repeat;
+	margin:0 0 5px 0;
+	color:#1d86b2;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.search-results-container p{
+	padding-left:15px;
+}
+
+
+/* ------------------------------------------ 右側 ------------------------------------------------------ */
+#beta{
+	width:180px;
+	margin:0 0 0 10px;
+}
+
+#beta
+{
+   display: inline; /* ie win bugfix */
+   float:left;
+   min-height: 1px;
+}
+
+/*カテゴリー*/
+#category{
+	background: url(images/category_bg.gif) left bottom no-repeat;
+	width:182px;
+	padding-bottom:10px;
+}
+
+#category h2{
+	background:url(images/category_header.gif) 0 0 no-repeat;
+	width:182px;
+	height:29px;
+	text-indent:-9999px;
+}
+
+#category li{
+	background: url(images/category_btn.gif) 0 0 no-repeat;
+	width:178px;
+	height:37px;
+	margin:5px auto;
+	font-size:18px;
+	line-height:37px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Osaka?等幅";
+	color:#db3074;
+	text-indent:20px;
+}
+
+#category li a{
+	font-size:18px;
+	font-family:"ヒラギノ角ゴ Pro W3";
+	color:#db3074;
+	text-decoration:none;
+}
+
+/* ----- 学科の取り組みボタン ----- */
+#departmentBtn a{
+	background:url(images/department_btn.gif) 0 0 no-repeat;
+	width:178px;
+	height:77px;
+	text-indent:-9999px;
+	text-decoration:none;
+	outline:none;
+	display:block;
+	margin:10px 0;
+}
+
+/*カレンダー*/
+
+#calendar{
+	background:url(images/clendar_bg.gif) 0 0 no-repeat;
+	text-align:center;
+	height:148px;
+}
+
+/*カレンダー テーブル*/
+#calendar table{
+	border-collapse:collapse;
+	border: 0px;
+	width:150px;
+}
+
+/*カレンダー 年*/
+#calendar caption {
+    color:#1268bf;
+    text-align:center;
+    text-transform:uppercase;
+    font-family:verdana;
+    font-size:12px;
+    padding-top:8px;
+}
+
+/*カレンダー 週*/
+#calendar th{
+	text-align: center;
+	font-family:verdana;
+	color: #1268bf;
+}
+
+/*カレンダー 日にち*/
+#calendar td {
+	text-align: center;
+	font-family:verdana;
+	color: #6A6B6A;
+	font-size:10px;
+}
+
+
+#calendar td a{
+	color:#0099CC;
+}
+
+.today {
+    display: block;
+    border: 1px solid #444444;
+}
+
+/*RSS*/
+.feed{
+	border:solid 1px #CCCCCC;
+	text-align:center;
+	padding:5px 0;
+	margin:10px 0;
+}
+
+/* --------------------------------------------------- フッタ ---------------------------------------------- */
+#footer{
+	width:760px;
+	background:#FFF url(images/footer_bg.gif) left top no-repeat;
+	margin:0 auto;
+}
+
+
+/* ----------メインボタン ---------- */
+#footerNavi{
+	width:750px;
+	margin:0;
+}
+
+/* モダンブラウザ向けclear */
+#footerNavi:after{ 
+   display: block;
+   height: 0;
+   visibility: hidden;
+   clear: both;
+   content: ".";
+}
+
+/* 追加 MacIE 5 と WinIE 7 向け */
+#footerNavi{
+   display: inline-block;
+}
+
+/*MacIE \*/
+   * html #footerNavi {height: 1em;}
+   #footerNavi {display: block;}
+/*  */
+
+
+#footerNavi ul{
+}
+
+#footerNavi ul li{
+	float:left;
+}
+
+#footerNavi ul li a{
+	width:68px;
+	height:33px;
+	background: url(images/spacer.gif) left top no-repeat;
+	text-indent:-9999px;
+	text-decoration:none;
+	display:block;
+	outline:0;
+}
+
+#footerNavi ul li#navi2_00 a{
+	width:163px;
+	background-position:0 0;
+
+}
+
+#footerNavi ul li#navi2_01 a{
+	background-position:0 0;
+
+}
+
+#footerNavi ul li#navi2_02 a{
+	width:107px;
+	background-position:-163px 0;
+
+}
+
+#footerNavi ul li#navi2_03 a{
+	width:85px;
+	background-position:-164px 0;
+
+}
+
+#footerNavi ul li#navi2_04 a{
+	width:133px;
+	margin-left:171px;
+	background-position:-246px 0;
+
+}
+
+#footerNavi li.last{
+	border-right:none;
+	padding-right:0;
+	margin-right:0;
+}
+
+/* ---------- 住所 ---------- */
+address{
+	width:750px;
+	font-family:verdana;
+	font-style:normal;
+	font-size:12px;
+}
+
+/* ---------- 学科の取り組み ---------- */
+
+/* タイトル */
+.department h2{
+	width: 502px;
+	padding:0 0 0 10px;
+	margin:0 0 10px 0;
+	border-left: solid 5px #1d86b2;
+	color:#1d86b2;
+	background-color: #F1F8FC;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+/*エントリー内容*/
+.departmentBox{
+	margin:0 0 10px 10px;
+	width:500px;
+	padding:0;
+	line-height:200%;
+	font-size:12px;
+}
+
+.departmentBox p{
+	padding:5px 0 10px;
+}
+
+.departmentBox h3{
+	font-size:14px;
+}
+
+
+/* ---------- 学科カレンダー ---------- */
+#departCalendar h2{
+	padding:0 20px 0 0;
+	text-indent:20px;
+	background: url(images/cate_title.gif) no-repeat 0 0;
+	width: 502px;
+	margin:0 0 5px 5px;
+	color:#FFFFFF;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration:none;
+	font-family:"ヒラギノ角ゴ Pro W3";
+	height:35px;
+	overflow:hidden;
+	line-height:35px;
+}
+
+#departCalendar span{
+	width: 510px;
+	text-align:right;
+	display:block;
+}
+
+#departCalendar table{
+	width:500px;
+	margin:0 0 25px 20px;
+	padding:0;
+	line-height:200%;
+	font-size:12px;
+}
+
+#departCalendar table th{
+	border-bottom:dotted 1px #999999;
+	padding:3px;
+	margin:0;
+	vertical-align:top;
+	color:#1d86b2;
+	font-weight:normal;
+}
+
+#departCalendar table td{
+	border-bottom:dotted 1px #999999;
+	padding:3px;
+	margin:0;
+	vertical-align:top;
+}
+
+
+

@@ -1,0 +1,51 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BeGtymFC1S7jPKI206QOC9ZHtB47Y4AvqxOa6CsCNtwGAttwFEAEYASD7w7MPKAM4AFCvvNGE______8BYInrvYTgE6ABivmR_gOyARBibG9nLmxpdmVkb29yLmpwyAEB2gE9aHR0cDovL2Jsb2cubGl2ZWRvb3IuanAvYnViYmxlX29rYXlhbWEvYXJjaGl2ZXMvNTA0MTExNDguaHRtbIACAakCzWgTpXXxRj6oAwHoA4oF6AML6AOvBvUDAgAAxPUDBAAAAA&amp;num=1&amp;sig=AGiWqtzS_nnjvmi-mnzDuom09MWpdy7TTg&amp;client=ca-livedoor-blog_js&amp;adurl=http://sasaki-kougyo.com/interior/sugi-muku-door1.htm"; 
+google_ad.visible_url = "sasaki-kougyo.com"; 
+google_ad.line1 = "\x26#28961;\x26#22434;\x26#12489;\x26#12450;\x26#12539;\x26#29572;\x26#38306;\x26#21454;\x26#32013;\x26#12398;\x26#36009;\x26#22770;"; 
+google_ad.line2 = "\x26#20869;\x26#35013;\x26#12489;\x26#12450;,\x26#12463;\x26#12525;\x26#65293;\x26#12476;\x26#12483;\x26#12488;,\x26#29572;\x26#38306;\x26#21454;\x26#32013;"; 
+google_ad.line3 = "\x26#21644;\x26#39080;\x26#24314;\x26#31689;\x26#36039;\x26#26448;\x26#12398;\x26#23554;\x26#38272;-\x26#20304;\x26#12293;\x26#26408;\x26#24037;\x26#26989;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BRCEdmFC1S7jPKI206QOC9ZHtB63VhX21yqqUB8CNtwGAyNAHEAIYAiD7w7MPKAM4AFCg56u9BGCJ672E4BOgAfe_zfEDsgEQYmxvZy5saXZlZG9vci5qcMgBAdoBPWh0dHA6Ly9ibG9nLmxpdmVkb29yLmpwL2J1YmJsZV9va2F5YW1hL2FyY2hpdmVzLzUwNDExMTQ4Lmh0bWyAAgGpAs1oE6V18UY-qAMB6AOKBegDC-gDrwb1AwIAAMT1AwQAAAA&amp;num=2&amp;sig=AGiWqtwMJry6mJJXELKaqMvHvxnMP-0ivg&amp;client=ca-livedoor-blog_js&amp;adurl=http://www.chanoki.co.jp/door/index.html"; 
+google_ad.visible_url = "www.chanoki.co.jp"; 
+google_ad.line1 = "\x26#23460;\x26#20869;\x26#12489;\x26#12450;\x26#12434;\x26#12362;\x26#27714;\x26#12417;\x26#12391;\x26#12375;\x26#12383;\x26#12425;"; 
+google_ad.line2 = "\x26#20154;\x26#12395;\x26#20778;\x26#12375;\x26#12356;\x26#23460;\x26#20869;\x26#12489;\x26#12450;\x26#12434;\x26#12372;\x26#27880;\x26#25991;\x26#38914;\x26#12365;"; 
+google_ad.line3 = "\x26#33258;\x26#20027;\x26#26045;\x26#24037;\x26#12391;\x26#12418;\x26#20381;\x26#38972;\x26#12391;\x26#12418;\x26#12467;\x26#12473;\x26#12488;\x26#12480;\x26#12454;\x26#12531;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BkTpEmFC1S7jPKI206QOC9ZHtB9Tnz4ABop7NqxHAjbcBgKDCHhADGAMg-8OzDygDOABQxJ6eggNgieu9hOATsgEQYmxvZy5saXZlZG9vci5qcMgBAdoBPWh0dHA6Ly9ibG9nLmxpdmVkb29yLmpwL2J1YmJsZV9va2F5YW1hL2FyY2hpdmVzLzUwNDExMTQ4Lmh0bWypAs1oE6V18UY-qAMB6AOKBegDC-gDrwb1AwIAAMT1AwQAAAA&amp;num=3&amp;sig=AGiWqtyjkNe4x3qBNoLbUr45DX4T-G5MLA&amp;client=ca-livedoor-blog_js&amp;adurl=http://item.rakuten.co.jp/little-globe/c/0000000120/"; 
+google_ad.visible_url = "www.rakuten.co.jp/little-globe/"; 
+google_ad.line1 = "Little Globe"; 
+google_ad.line2 = "\x26#20840;\x26#21830;\x26#21697;\x26#36865;\x26#26009;\x26#28961;\x26#26009;\x26#65281;"; 
+google_ad.line3 = "\x26#33521;\x26#22269;\x26#39640;\x26#32026;\x26#12452;\x26#12531;\x26#12486;\x26#12522;\x26#12450;\x26#38609;\x26#36008;\x26#36664;\x26#20837;\x26#36009;\x26#22770;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://blog.livedoor.jp/bubble_okayama/archives/50411148.html%26hl%3Dja%26client%3Dca-livedoor-blog_js%26adU%3Dsasaki-kougyo.com%26adT%3D%25E7%2584%25A1%25E5%259E%25A2%25E3%2583%2589%25E3%2582%25A2%25E3%2583%25BB%25E7%258E%2584%25E9%2596%25A2%25E5%258F%258E%25E7%25B4%258D%25E3%2581%25AE%25E8%25B2%25A9%25E5%25A3%25B2%26adU%3Dwww.chanoki.co.jp%26adT%3D%25E5%25AE%25A4%25E5%2586%2585%25E3%2583%2589%25E3%2582%25A2%25E3%2582%2592%25E3%2581%258A%25E6%25B1%2582%25E3%2582%2581%25E3%2581%25A7%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%26adU%3Dwww.rakuten.co.jp/little-globe/%26adT%3DLittle%2BGlobe%26gl%3DJP%26hideleadgen%3D1\x26usg\x3dAFQjCNFlvwnPOHB1k5WNoJEZ0d_1f2V9-A"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

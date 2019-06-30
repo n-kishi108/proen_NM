@@ -1,0 +1,3551 @@
+
+input,textarea,select {
+  border: solid 1px #cdcdcd;
+  background:#fff;
+}
+
+p.submessage {
+	color: #373737;
+	font-size: 90%;
+	line-height: 120%;
+}
+
+div.modelimage {
+	margin-bottom: 10px;
+}
+div.ad_amazon {
+	margin: 10px 0 10px 0;
+}
+div.ad {
+	margin: 10px 0 10px 0;
+}
+
+div.classification-generator {
+        margin-bottom: 4px;
+}
+
+/* FOTOCOLOR */
+
+#hatena-fotolife-fotocolor #breadcrumbs {
+  padding:11px 20px;
+}
+
+table.fotocolor {
+	text-align: center;
+}
+
+#trackbackdelete ul{
+list-style:none;
+}
+
+/* comment */
+
+
+p.tooltip-comment-body {
+  text-align:left !important;
+  font-size:80% !important;
+}
+
+.currenttag {
+	font-weight: bold;
+}
+
+div.google_afc {
+  margin-left:17px;
+  margin-top:20px;
+  margin-bottom:35px;
+  padding:5px 0 10px 0;
+  text-align:left;
+  font-size:80%;
+  clear:both;
+}
+
+div.google_afc dt a {
+  color:#000;
+}
+
+div.google_afc dd a {
+  color: #666 !important;
+}
+
+
+div.google_afc {
+  font-size: 100% !important;
+}
+
+div.google_afc .google_ads_by {
+  font-size:70% !important;
+  font-weight:normal !important;
+  margin-left:0.3em !important;
+  margin-bottom:5px !important;
+  margin-top:0 !important;
+  color:#000 !important;
+}
+
+div.google_afc dl {
+  margin-left:0.3em !important;
+  line-height:1.5 !important;
+}
+
+
+div.google_afc .visible_url a {
+  font-size:80% !important;
+}
+
+div.google_afc dd {
+  margin-bottom:10px !important;
+  font-size:80% !important;
+}
+
+
+/* RENEWAL */
+
+body {
+  background:#fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+a {
+  text-decoration:none;
+  color:#666;
+}
+
+img {
+  border: 0;
+}
+
+label {
+  cursor:pointer;
+}
+
+fieldset {
+  border:0;
+  margin:0;
+  padding:0;
+  width:100%;
+}
+
+option.new {
+  background:#eaffcc;
+  font-weight:bold;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+#header {
+  background:#000;
+  height:36px;
+  border-bottom:1px solid #ccc;
+  position:relative;
+  z-index:100;
+  text-align:left;
+}
+
+#header ul.menu {
+  font-size:80%;
+  margin:0;
+  padding:0;
+  list-style:none;
+  position:absolute;
+  top:10px;
+  right:0;
+  color:#ccc;
+}
+
+#header ul.menu li{
+  display:inline;
+}
+
+#header ul.menu li a{
+  color:#ccc;
+  margin-right:7px;
+}
+#header ul.menu li.welcome {
+  margin-right:20px;
+}
+#header ul.menu li.welcome a {
+  margin-right:2px;
+  margin-left:
+}
+
+#header ul.menu li img.profile-image{
+background:#FFFFFF none repeat scroll 0 0;
+border:1px solid #CCCCCC;
+margin-right:4px;
+padding:0;
+vertical-align:bottom;
+}
+
+#header form.searchform {
+  position:absolute;
+  top:8px;
+  left:175px;
+  z-index:1000;
+  margin:0;
+  padding:0;
+  display:inline;
+  width:160px;
+}
+
+#header form.searchform fieldset{
+  display:inline;
+}
+
+#header form.searchform input{
+  background:#000;
+  border:1px solid #666;
+  vertical-align:top;
+  color:#eee;
+}
+
+#header form.searchform input.searchword{
+  width:100px;
+}
+
+#header form.searchform input.searchbutton{
+}
+
+#container {
+zoom:1;
+}
+
+
+
+#footer {
+  font-size:80%;
+  padding-top:50px;
+  padding-bottom:20px;
+  margin-right:220px;
+  color:#666;
+  clear:both;
+}
+
+#hatena-fotolife-user-option #footer, #hatena-fotolife-user-config #footer ,#hatena-fotolife-guide #footer ,#hatena-fotolife-help #footer ,#hatena-fotolife #footer,#hatena-fotolife-plus #footer,#hatena-fotolife-print #footer,,#hatena-fotolife-print-confirm #footer {
+  margin-right:0;
+}
+
+#body {
+  width:90%;
+  margin:0 auto;
+  text-align:left;
+}
+
+#navigation {
+  position:relative;
+  border-bottom:1px solid #dedede;
+}
+
+.global #navigation {
+  border-bottom:1px solid #fff;
+}
+
+#breadcrumbs {
+  text-align:left;
+  margin:0 auto;
+  padding:7px 20px;
+  color:#999;
+  font-size:90%;
+  background:#fff;
+}
+
+#breadcrumbs img.profile-image,
+#breadcrumbs span.selected img.profile-image {
+  margin-left:0;
+  vertical-align:middle;
+  margin-bottom:3px;
+}
+
+#navigation div.appendix {
+  position:absolute;
+  top:10px;
+  right:0;
+  z-index:1000;
+}
+
+#navigation div.appendix a{
+  background:#fff;
+}
+
+body.global #navigation div.appendix {
+  right:12px;
+}
+
+#breadcrumbs a{
+  color:#de002f;
+}
+
+#breadcrumbs a img{
+  margin-right:4px;
+}
+
+#breadcrumbs input {
+  border:none;
+  /* font-size:130%; */
+  /* font-weight:bold; */
+  font-family:"arial","helvetica",sans-serif;
+  cursor:pointer;
+  letter-spacing:-1px;
+  padding:0;
+  margin-top:5px;
+}
+
+#breadcrumbs span.selected {
+  font-size:130%;
+  font-weight:bold;
+  color:#000;
+  letter-spacing:-1px;
+  margin-right:5px;
+}
+#breadcrumbs h1 {
+  display:inline;
+  font-size:100%;
+  font-weight:bold;
+  color:#000;
+}
+
+#breadcrumbs span.selected a{
+  color:#000;
+}
+
+#breadcrumbs span.selected img{
+  margin-right:4px;
+  margin-left:2px;
+}
+
+#breadcrumbs img.rss, #breadcrumbs img.kml {
+  margin-right:5px;
+}
+
+#breadcrumbs img.icon-cc {
+  vertical-align:middle;
+  margin-bottom:3px;
+ _margin-bottom:0;
+ *margin-bottom:0;
+  margin-left:3px;
+}
+
+#breadcrumbs span.colorblock {
+  margin-right:5px;
+}
+
+#breadcrumbs span.colorblock img {
+  margin-bottom:2px;
+}
+
+
+ul#tab-menu{
+  list-style: none;
+  margin: 0 0 25px 0;
+  padding: 0 0 0 5px;
+  font-size: 80%;
+  height: 25px;
+  clear: both;
+  background:url(/images/tab-bg.gif) left bottom repeat-x ;
+}
+
+ul#tab-menu li{
+  margin: 0 5px 0 0;
+  padding: 3px 0 0 0;
+ _padding: 6px 0 3px 0;
+  width: 70px;
+  float: left;
+  text-align: center;
+  height: 20px;
+ _height: 17px;
+  position:relative;
+  border-top:1px solid #dedede;
+  border-right:1px solid #dedede;
+  border-left:1px solid #dedede;
+  background:#efefef;
+}
+
+ul#tab-menu li.selected{
+  padding-top: 4px;
+ _padding-top:7px;
+  background:#ffffff;
+  color:#000;
+}
+
+ul#tab-menu li a{
+  display: block;
+  width:100%;
+}
+
+ul#tab-menu li.selected a{
+  font-weight: bold;
+  color:#000;
+}
+
+ul#tab-menu li.selected a:hover{
+  text-decoration: none;
+}
+
+ul#tab-menu li img{
+  text-decoration: none;
+  vertical-align: middle;
+  margin-right: 2px;
+  margin-bottom: 1px;
+}
+
+.icon-arrow {
+  margin-right:4px;
+  margin-left:6px;
+  vertical-align:middle;
+  margin-bottom:2px;
+}
+
+.icon-user {
+  vertical-align:middle;
+  margin-right:3px;
+  margin-bottom:2px;
+ _margin-bottom:0;
+ *margin-bottom:0;
+}
+
+div.errormessage{
+  background: #ffeed8 url(/images/error-bg.gif) 5px 50% no-repeat;
+  border: 1px solid #f5c8a7;
+  margin:1em 0;
+  padding: 0.7em 0.7em 0.7em 35px;
+  clear: both;
+  text-align:left;
+}
+
+div.okmessage{
+  background: #e3f9db url(/images/success-bg.gif) 5px 50% no-repeat;
+  border: 1px solid #c5daba;
+  margin:1em 0;
+  padding: 0.7em 0.7em 0.7em 35px;
+  clear:both;
+  text-align:left;
+}
+
+div.okmessage a, div.errormessage a{
+  color:#000;
+  text-decoration:underline;
+}
+
+div.pager {
+  font-size:80%;
+  text-align:right;
+  float:right;
+  clear:both;
+}
+
+div.pager p{
+  margin:0;
+  padding:15px 0 10px 0;
+}
+
+div.pager p a{
+  margin-left:3px;
+}
+
+div.pager p span.selected, div.pager p span.currentpage {
+  font-weight:bold;
+  margin-left:3px;
+}
+
+div.datepager {
+  clear:both;
+  font-size:80%;
+  text-align:left;
+  margin-top:-15px;
+  line-height:1.5;
+}
+
+div.sortorder, div.typeselect {
+  font-size:80%;
+  text-align:right;
+  float:left;
+}
+div.sortorder p, div.typeselect p {
+  margin:0;
+  padding: 15px 0 10px;
+}
+div.sortorder p span.currentorder, div.typeselect p span.currentpage {
+  font-weight:bold;
+}
+div.sortorder p span.separator, div.typeselect p span.separator  {
+  color:#dedede;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+div.appendix {
+  font-size:80%;
+}
+
+div.appendix a{
+  margin-right:8px;
+}
+
+div.appendix a img{
+  vertical-align:middle;
+  margin-bottom:2px;
+ *margin-bottom:0;
+  margin-right:3px;
+}
+
+div.send-button input{
+  padding:3px;
+  border-top:1px solid #cdcdcd;
+  border-bottom:1px solid #cdcdcd;
+  border-right:1px solid #9e9e9e;
+  border-bottom:1px solid #9e9e9e;
+  background:#fff;
+  margin-top:10px;
+  margin-bottom:20px;  
+}
+
+div.nofoto-message {
+  margin-top:20px;
+  font-size:80%;
+  color:#666;
+}
+
+div.nofoto-message a{
+  text-decoration:underline;
+}
+
+div.folder-delete {
+  font-size:80%;
+  text-align:right;
+  margin-top:-45px;
+ *margin-top:-40px;
+ _margin-top:-40px;
+  margin-bottom:35px;
+}
+
+div.folder-delete img{
+  vertical-align:middle;
+  margin-right:4px;
+  margin-bottom:2px;
+ _margin-bottom:0;
+ *margin-bottom:0;
+}
+
+div.folder-delete span.note {
+  color:#999;
+  line-height:3;
+  font-size:90%;
+}
+
+option.folder-top {
+  padding-left:20px;
+  background:url(/images/folder-top.gif) 2px 50% no-repeat;
+}
+
+option.folder-top-private {
+  padding-left:20px;
+  background:url(/images/folder-top-private.gif) 2px 50% no-repeat;
+}
+
+option.folder {
+  padding-left:20px;
+  background:url(/images/folder.gif) 2px 50% no-repeat;
+}
+
+option.folder-private {
+  padding-left:20px;
+  background:url(/images/folder-private.gif) 2px 50% no-repeat;
+}
+
+option.folder-new {
+  padding-left:20px;
+  background:#eaffcc url(/images/folder-add.gif) 2px 50% no-repeat;
+}
+
+
+div.foto {
+  padding-top:10px;
+  padding-bottom:100px;
+  border-bottom:1px solid #dedede;
+  width:100%;
+  text-align:center;
+  position:relative;
+  background:#fff;
+}
+
+div.foto-body {
+  border:1px solid #dedede;
+  margin:0 auto;
+  padding:5px 5px 0 5px;
+/*  overflow:hidden;
+ _overflow:visible; */
+  text-align:center;
+  background:#fff;
+}
+
+#hatena-fotolife-user-favorite div.foto-body {
+border:none;
+border-top:1px solid #DEDEDE;
+}
+
+div.foto-body table.edit td.send-button input{
+  vertical-align:middle;
+}
+
+div.foto-body table.edit th {
+  padding-left:5px;
+  padding-right:5px;
+}
+
+form {
+  display:inline;
+  margin:0;
+  padding:0;
+}
+
+
+img.foto{
+  margin-bottom:5px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+div.fotoinfo {
+  text-align:left;
+}
+
+div.fototitle {
+  text-align:center;
+  line-height:2;
+  font-size:100%;
+  white-space:nowrap;
+}
+
+div.fototitle a{
+  color:#000;
+}
+
+div.fotoinfo-detail{
+  font-size:80%;
+  padding:2px 5px;
+  color:#666;
+}
+
+div.fotoinfo-detail a{
+  color:#666;
+}
+
+div.fotoinfo-detail span.tag {
+  margin-right:3px;
+}
+
+div.fotoinfo-detail span.tag img {
+  vertical-align:middle;
+  margin-right:3px;
+}
+div.fotoinfo-embed{
+  font-size:80%;
+  padding:2px 5px;
+  color:#666;
+  margin-bottom:3px;
+}
+div.fotoinfo-embed label{
+  width:100px;
+  float:left;
+  cursor:pointer;
+}
+div.fotoinfo-embed p{
+  margin: 2px 0px;
+}
+div.fotoinfo-embed input {
+  color:#666;
+  width:70%;
+  float:left;
+}
+
+div.fotoinfo-follow{
+color:#666666;
+font-size:80%;
+margin:0 auto;
+padding:5px 5px 0;
+text-align:left;
+}
+
+.hatena-star-add-button-image {
+  background-image: url(http://s.hatena.ne.jp/images/add_dg.gif);
+}
+.hatena-star-comment-button-image {
+  background-image: url(http://s.hatena.ne.jp/images/comment_dg.gif);
+}
+
+img.hatena-star-add-button {
+  margin-left:0 !important;
+}
+
+img.hatena-star-star {
+  vertical-align:middle;
+}
+
+div.star-container {
+  text-align:left;
+  padding:3px 0;
+}
+
+div.edit {
+  margin-top:-5px;
+  text-align:right;
+  margin-right:0px;
+  zoom:1;
+  margin-bottom:3px;
+  white-space:nowrap;
+}
+
+div.edit:after {
+  clear:both;
+  content:"";
+  display:block;
+}
+
+div.edit a {
+  font-size:80%;
+  margin-left:2px;
+  padding:3px;
+/*
+  border-top:1px solid #ccc;
+  border-right:1px solid #ccc;
+  border-left:1px solid #ccc;
+*/
+}
+
+div.edit img {
+  vertical-align:middle;
+  margin-bottom:2px;
+  margin-right:3px;
+}
+
+div.foto div.pager {
+  position:absolute;
+  top:10px;
+  right:0;
+  width:80px;
+  font-size:80%;
+  padding:3px 3px 3px 0;
+  background:#000;
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  border-left:1px solid #ccc;
+  color:#ccc;
+}
+
+div.foto div.pager a{
+  color:#ccc;
+}
+
+div.foto div.pager-prev {
+  position:absolute;
+  top:10px;
+  left:1px;
+  width:70px;
+  font-size:80%;
+  padding:3px;
+  background:#000;
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  border-right:1px solid #ccc;
+  color:#CCCCCC;
+  z-index:2;
+}
+
+div.foto div.pager-prev a{
+  color:#ccc;
+  display:block;
+}
+
+div.foto div.pager-next {
+  position:absolute;
+  top:10px;
+  right:0;
+  width:70px;
+  font-size:80%;
+  padding:3px 0 3px 3px;
+  background:#000;
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  border-left:1px solid #ccc;
+  color:#ccc;
+  z-index:2;
+}
+
+div.foto div.pager-thumbs {
+  margin-top:4px;
+}
+
+div.foto div.pager-thumbs img{
+  margin-top:3px;
+  margin-right:1px ;
+  border:1px solid #666;
+}
+
+div.foto div.pager-next a{
+  color:#ccc;
+  display:block;
+}
+
+div.foto div.pager-next div.pager-thumbs-more, div.foto div.pager-prev div.pager-thumbs-more  {
+  line-height:0;
+  height:8px;
+}
+
+div.foto div.pager-next div.pager-thumbs-more img.pager-thumbs-more, div.foto div.pager-prev div.pager-thumbs-more img.pager-thumbs-more {
+  border:0;
+  margin-top:3px;
+  margin-bottom:5px;
+  cursor:pointer;
+}
+
+
+div.trackback {
+  width:473px;               /* å„Ç≈èëÇ´ä∑Ç¶ */
+  padding:5px 0 30px 0;
+  text-align:left;
+  color:#666;
+  font-size:80%;
+  margin:0 auto;
+}
+
+div.trackback div.trackbacktitle{
+  margin-top:5px;
+  margin-bottom:3px;
+  font-weight:bold;
+}
+
+div.trackback ul{
+  list-style:none;
+  margin:5px 0 10px 0;
+  padding:0;
+  border-top:1px solid #e1e1e1;
+}
+
+div.trackback ul li{
+  padding:3px 2px;
+  border-bottom:1px solid #e1e1e1;
+}
+
+div.trackback ul li a{
+  color:#666;
+}
+
+div.trackback input.deletebutton {
+  margin-top:10px;
+  background:#fff;
+  border:1px solid #cdcdcd;
+  padding:3px;
+}
+
+div.fotolist {
+  text-align:left;
+  margin-right:215px;
+  margin-left:20px;
+  clear:both;
+  zoom:1;
+  float:left;
+  _float:none;
+}
+
+body#hatena-fotolife div.fotolist,
+body#hatena-fotolife-hotofoto div.fotolist,
+body#hatena-fotolife-calendar div.fotolist,
+body#hatena-fotolife-fotocolorindex div.fotolist,
+body#hatena-fotolife-focallength div.fotolist,
+body#hatena-fotolife-model div.fotolist,
+body#hatena-fotolife-license div.fotolist,
+body#hatena-fotolife-keyword-index div.fotolist,
+body#hatena-fotolife-t-index div.fotolist{
+  float:none;
+}
+
+ul.fotolist {
+  clear:both;
+}
+
+div.fotolist ul.fotolist{
+  list-style:none;
+  margin:10px 0 0 0;
+  padding:0;
+}
+
+div.fotolist ul.fotolist li{
+  float:left;
+  margin:0 0 10px 0;
+  padding:0;
+  width:134px;
+  height:134px;
+  text-align:center;
+  position:relative;
+}
+
+div.fotolist ul.fotolist li.global{
+  height:170px;
+  overflow:hidden;
+}
+
+div.fotolist ul.fotolist li.global img.foto_thumb{
+  position:absolute;
+}
+
+div.fotolist ul.fotolist li a.edit {
+  display:none;
+  white-space:nowrap;
+  font-size:80%;
+}
+
+div.fotolist ul.fotolist li:hover a.edit {
+  display:inline;
+}
+
+div.fotolist ul.fotolist li div.username {
+  font-size:80%;
+  margin-top:128px;
+  text-align:center;
+}
+
+div.fotolist ul.fotolist li div.username img {
+  vertical-align:middle;
+}
+
+
+div.fotolist ul.fotolist li div.fotooption img{
+  vertical-align:middle;
+  margin-right:3px;
+  margin-bottom:3px;
+ _margin-bottom:1px;
+ *margin-bottom:1px;
+}
+
+div.fotolist ul.fotolist li span.star {
+  color:#f4b128;
+  font-size:70%;
+}
+
+div.fotolist ul.fotolist li a.edit img{
+  margin-right:4px;
+  vertical-align:middle;
+  margin-bottom:2px;
+}
+
+div.fotolist div.pager {
+
+}
+
+div.fotolist div.appendix {
+  padding-left:0;
+  padding-top:15px;
+  padding-bottom:10px;
+  clear:both;
+}
+
+div.permission{
+  background:#f3f3f3;
+  padding:5px;
+  margin:5px 0 3px 0;
+}
+
+td.permission select{
+  margin-top:3px;
+}
+
+
+div.permission dl {
+  margin:3px;
+  padding:0;
+  width:100%;
+}
+
+table.config 
+
+div.permission dl dt{
+  margin:0;
+  padding:0;
+  float:left;
+  line-height:1.5;
+  font-weight:bold;
+  width:7.9em;
+  clear:both;
+}
+
+div.permission dl dd{
+  margin:0 0 0 8em;
+  padding:0;
+  line-height:1.5;
+  white-space:normal;
+}
+
+div.permission dl dd span.username, div.permission dl dd span.groupname {
+  margin-right:8px;
+
+}
+
+
+div.permission dl dd span.username img{
+  margin-right:3px !important;
+  margin-left:0 !important;
+}
+
+div.permission-edit       {
+  display: block;
+  text-align: right;
+  clear:both;
+  padding-top:5px;
+}
+
+span.permission a {
+  white-space:nowrap;
+  display:none;
+}
+
+
+/* FOTOEDIT */
+
+div.edit-body {
+  width:100%;
+}
+
+#hatena-fotolife-user-favorite div.edit-body {
+margin:0 auto;
+width:90%;
+}
+
+#hatena-fotolife-user-favorite div.edit-body input {
+font-size:100%;
+}
+
+
+
+table.edit {
+  width:100%;
+  border-collapse:collapse;
+}
+
+table.edit th {
+  font-size:80%;
+  text-align:center;
+  white-space:nowrap;
+  background:#efefef;
+  padding:5px 3px;
+  font-weight:normal;
+  border:1px solid #fff;
+  width:20%;
+}
+
+table.edit th img{
+  vertical-align:middle;
+  margin:0 3px 2px 3px;
+}
+
+table.edit td {
+  font-size:80%;
+  color:#666;
+  text-align:left;
+  padding:3px 5px;
+}
+
+table.edit td a:link, table.edit td a:visited {
+  text-decoration: underline;
+}
+
+table.edit td input , table.edit td select{
+  border:1px solid #cdcdcd;
+}
+
+table.edit td input {
+  padding:3px;
+  background:#fff;
+}
+
+table.edit td.map input {
+  margin:1px ;
+}
+
+table.edit td.map input.mapbutton {
+  border-top:1px solid #cdcdcd;
+  border-bottom:1px solid #cdcdcd;
+  border-right:1px solid #9e9e9e;
+  border-bottom:1px solid #9e9e9e;
+}
+
+table.edit td.send-button {
+  padding-left:0;
+  padding-top:25px;
+} 
+
+table.edit td.send-button input{
+  border-top:1px solid #cdcdcd;
+  border-bottom:1px solid #cdcdcd;
+  border-right:1px solid #9e9e9e;
+  border-bottom:1px solid #9e9e9e;
+}
+
+table.edit td.rotate img, table.edit td.send-button img {
+  margin-right:3px;
+  vertical-align:middle;
+  margin-bottom:2px;
+}
+
+/* FAVORITE */
+
+p.tooltip-comment-body {
+  padding:3px;
+  text-align:left;
+  font-size:90%;
+  color:#666;
+  margin:0;
+}
+
+ul li.favorite-list-item div img{
+  display:none;
+}
+
+ul li.favorite-list-item a.edit {
+  position:absolute;
+  right:0;
+  bottom:0;
+  background:#fff;
+  padding:0 5px;
+  line-height:2;
+}
+
+
+
+/* UPLOAD */
+
+div.sizemessage{
+  margin:40px 0 0 0;
+  font-size:80%;
+  color:#74AA0D;
+  line-height:1.3;
+  position:relative;
+  background:#f3f3f3;
+  width:100%;
+}
+
+div.sizemessage-bar{
+  background:#DBFF96;
+  height:5px;
+  line-height:0;
+}
+
+div.sizemessage-info {
+  position:absolute;
+  top:-31px;
+  left:5px;
+}
+
+
+.sizemessage span.parcent {
+  font-weight:bold;
+  font-size:180%;
+  vertical-align:middle;
+  margin-right:5px;
+  font-style:italic;
+}
+
+.sizemessage span.disksize {
+  color:#96BB50;
+}
+
+div.disksizefull {
+  color:#EF2F2F;
+}
+
+div.disksizefull div.sizemessage-bar{
+  background:#FDB9B9;
+}
+
+div.disksizefull span.disksize {
+  color:#FA8181;
+}
+
+.option-message{
+  margin-top:10px;
+  color:#F76868;
+  border:1px solid #FDB9B9;
+  background:#FFF3F3;
+  font-size:80%;
+  line-height:1.5;
+  padding:5px;
+}
+
+.option-message strong {
+  color:#ef2f2f;
+}
+
+.option-message .option-message-navigation{
+  text-align:right;
+  padding-top:5px;
+}
+
+
+.option-message .option-message-navigation a{
+  color:#F76868;
+  text-decoration:underline;
+  background:url(/images/icon-arrow.gif) 0 50% no-repeat;
+  padding-left:15px;
+}
+
+div#upload-form {
+  margin:0;
+  padding:0;
+  position:relative;
+  width:100%;
+}
+
+span.fotosize {
+  font-size:80%;
+  color:#666;
+  margin-right:5px;
+  display:none;
+}
+
+span.fotosize input{
+  width:5em;
+
+}
+
+span.fototitle input{
+  width:120px;
+ _width:118px;
+}
+
+span.fototitle input.titleBeforeFocus {
+  color:#ccc !important;
+}
+
+div#upload-form .file-lists {
+  padding-top:10px;
+  margin-right:280px;
+  zoom:1;
+}
+
+div#upload-form .file-list {
+  position:relative;
+  width:134px;
+  height:140px;
+  float:left;
+}
+
+div#upload-form .file-list .file-data {
+  width:120px;
+  height:120px;
+  margin-bottom:5px;
+  border:1px solid #cdcdcd;
+  background:#f7f7f7;
+  text-align:center;
+  position:relative;
+  font-size:80%;
+  overflow:hidden;
+  color:#33;
+}
+
+div#upload-form .file-list .file-data .file-data-bar{
+  height:5px;
+  text-align:left;
+  margin-left:0;
+  position:absolute;
+  top:115px;
+  left:0;
+  z-index:1000;
+}
+
+div#upload-form .file-list .file-data .file-data-info {
+  padding-top:55px;
+  background:url(/images/icon-file.gif) 52px 35px no-repeat;
+  width:120px;
+  text-align:center;
+}
+
+div#upload-form .file-list .file-data .file-data-info span{
+  display:block;
+  padding:2px 0;
+  font-size:90%;
+  color:#999;
+}
+
+div#upload-form .file-list .file-data .file-data-info span.filename{
+  font-size:90%;
+  color:#333;
+}
+
+div#upload-form .file-open .file-data .file-data-info {
+  color:#85AD3A;
+  background:url(/images/file-open.gif) 48px 35px no-repeat;
+}
+
+
+
+div#upload-form .file-open .file-data-bar {
+  background:#dbff96 ;
+}
+
+div#upload-form .file-complete .file-data-bar {
+
+}
+
+div#upload-form .file-complete .file-data img {
+  position:absolute;
+}
+
+div#upload-form .file-open .file-data{
+  border:1px solid #C3EF70;
+  background:#F4FFDF;
+}
+
+div#upload-form .file-error .file-data{
+  color:#F76868;
+  border:1px solid #FDB9B9;
+  background:#FFF3F3;
+}
+
+div#upload-form .file-complete .file-data{
+  border:1px solid #dedede;
+  color:#7BAA22;
+  background:#fff;
+}
+
+div#upload-form .file-error .file-data .file-data-info span.filename{
+  color:#F76868;
+}
+
+div#upload-form .file-open .file-data .file-data-info span.filename{
+  color:#7BAA22;
+}
+
+
+div#upload-form .file-complete .file-data .file-data-info span.filename{
+  color:#7BAA22;
+}
+
+div#upload-form .file-thumbs .file-data{
+  border:1px solid #fff !important;
+  background:#EAFFC1 url(/images/file-complete.gif) 50% 50% no-repeat;
+} 
+
+div#upload-form .file-complete .file-inputs {
+  text-align:right;
+  font-size:80%;
+  margin-right:10px;
+}
+
+div#upload-form .file-complete .file-inputs img{
+  vertical-align:middle;
+  margin-right:4px;
+  margin-bottom:2px;
+}
+
+div#upload-form .file-complete .imagesize,div#upload-form .file-error .imagesize {
+  display:none !important;
+}
+
+div#upload-form  .file-inputs {
+  display:none;
+}
+
+div#upload-form .file-inputs input{
+  margin-right:5px;
+  border-top:1px solid #cdcdcd;
+  text-indent:2px;
+ _text-indent:0;
+}
+
+
+div#upload-form span.remove_button img{
+  cursor:pointer;
+  position:absolute;
+  top:5px;
+  right:17px;
+}
+
+div#file-add-buttons {
+  clear:both;
+  padding-top:5px;
+}
+
+
+div#file-add-buttons input {
+  background:#fff;
+  font-size:120%;
+  font-weight:bold;
+  padding:5px 5px 5px 25px;
+  border-top:1px solid #cdcdcd;
+  border-left:1px solid #cdcdcd;
+  border-right:1px solid #9e9e9e;
+  border-bottom:1px solid #9e9e9e;
+  margin-right:5px;
+
+}
+
+div#file-add-buttons input#file-add-button {
+  background:url(/images/file-upload.gif) 6px 50% no-repeat;
+ _width:260px;
+ *width:260px;
+}
+
+div.upload-message {
+  margin:0.5em 280px 0 0;
+  padding: 10px 10px 10px 0;
+  clear:both;
+  line-height:1.5;
+  color:#53A900;
+  font-size:90%;
+}
+
+div.loading-message{
+/*  background: #efefef;
+  border: 1px solid #dedede; */
+  margin:0.5em 280px 1em 0;
+  padding: 10px 10px 10px 28px;
+  clear:both;
+  background:url(/images/file-open.gif) 0 7px no-repeat;
+  color:#53A900;
+}
+
+div.loading-message a{
+  color:#53A900;
+}
+
+div#upload-form div.errormessage {
+  margin:0.5em 280px 1em 0;
+  padding: 10px 10px 10px 28px;
+  clear:both;
+  background:url(/images/error-bg-small.gif) 0 7px no-repeat;
+  color:#53A900;
+  border:0;
+}
+
+div#upload-form div.errormessage a{
+  color:#53A900;
+}
+
+div#upload-form div.okmessage {
+  margin:0.5em 280px 1em 0;
+  padding: 10px 10px 10px 28px;
+  clear:both;
+  background:url(/images/success-bg-small.gif) 0 7px no-repeat;
+  color:#53A900;
+  border:0;
+}
+
+div#upload-form div.okmessage a{
+  color:#53A900;
+}
+
+div.campaign-message {
+  font-size:80%;
+  background:#f3f3f3;
+  margin-top:10px;
+  padding:5px;
+  border:1px solid #dedede;
+  color:#666;
+}
+
+div.campaign-message a{
+  text-decoration:underline;
+}
+
+/* Javascript off */
+
+ol.upload-table-list {
+  margin:5px 0 0 0;
+  padding:0;
+  list-style:none;
+  width:100%;
+}
+
+
+ol.upload-table-list li{
+  padding-top:10px;
+  width:330px;
+}
+
+ol.upload-table-list li table {
+  width:320px;
+  margin-right:10px;
+}
+
+ol.upload-table-list li table.edit th{
+  white-space:nowrap;
+}
+
+div.upload-submit {
+  clear:both;
+  padding-top:10px;
+  text-align:left;
+}
+
+div.upload-submit input{
+  padding:5px 0;
+  text-align:left;
+  width:150px;
+  white-space:nowrap;
+  margin-bottom:0;
+  font-size:120%;
+  font-weight:bold;
+  border-top:1px solid #cdcdcd;
+  border-left:1px solid #cdcdcd;
+  border-right:1px solid #9e9e9e;
+  border-bottom:1px solid #9e9e9e;
+  text-align:center;
+  float:left;
+  background:#fff;
+}
+
+#hatena-fotolife-user-up table.edit td.send-button {
+  padding-top:10px;
+}
+
+#hatena-fotolife-user-up table.edit td.send-button input{
+  padding:3px 5px;
+  border-top:1px solid #cdcdcd;
+  border-left:1px solid #cdcdcd;
+  border-right:1px solid #9e9e9e;
+  border-bottom:1px solid #9e9e9e;
+  font-size:120%;
+  background:#fff;
+  font-weight:bold;
+}
+
+div.upload-submit div.note {
+  font-size:80%;
+  padding-top:10px;
+}
+
+div.upload-submit div.note img{
+  vertical-align:middle;
+  margin-right:4px;
+}
+
+div.upload-option {
+  clear:both;
+  position:absolute;
+  width:290px;
+  top:0;
+  right:0;
+  background:#fff;
+}
+
+div.upload-option table{
+  width:100%;
+  margin-bottom:20px;
+}
+
+div.upload-option table th{
+  padding:3px 6px;
+}
+
+div.upload-option table td input#taglist {
+  width:150px;
+  margin-bottom:3px;
+}
+
+div.upload-option div.upload-option-title{
+  font-weight:bold;
+  padding-bottom:5px;
+  font-size:80%;
+}
+
+div.upload-option h3 {
+  font-size:80%;
+  margin:15px 0 7px 0;
+  padding:0;
+}
+
+div.upload-option div.classic-upload-link, div.classic-upload-link {
+  font-size:80%;
+  padding-top:10px;
+  clear:both;
+}
+
+div.upload-option div.classic-upload-link a{
+}
+#gmap-infowindow-fotos {
+   text-align:center;
+   height:150px;
+   width:217px;
+}
+
+#gmap-infowindow-controls {
+    font-size : 10pt;
+    color   : #666666;
+    position: absolute;
+    bottom :-5px;
+    width:217px;
+    left:0px;
+}
+#gmap-infowindow-controls {
+    font-size : 10pt;
+    color   : #666666;
+}
+#gmap-infowindow-controls-prev {
+    margin-right : 10px;
+}
+#gmap-infowindow-controls-next {
+    margin-left : 10px;
+}
+
+#gmap-infowindow-fotos div.object_wrapper  {
+    width:217px;
+}
+#gmap-infowindow-fotos img,#gmap-infowindow-fotos div.object_wrapper  {
+    display:none;
+}
+
+#gmap-infowindow-fotos object{
+    display:inline;
+}
+#gmap-infowindow-fotos img.selected,#gmap-infowindow-fotos div.selected {
+    display:inline;
+}
+#gmap-message {
+    margin:1px 0px;
+
+}
+div.map-private-message {
+    clear:both;
+    color:#666666;
+    margin:5px;
+    float:left;
+    font-size:80%;
+}
+
+
+/* WEBCOM */
+
+#webcam {
+  border:1px solid #efefef;
+  width:480px;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+/* IMAGEEDIT */
+
+#hatena-fotolife-user-imageedit {
+  margin:0 0 50px 0;
+  padding:0;
+  overflow:hidden;
+}
+
+#hatena-fotolife-user-imageedit #header{
+  display:block;
+}
+
+/* CONFIG */
+
+table.config,table.config th,table.config td {
+  border:1px solid #cdcdcd;
+}
+
+table.config td {
+  color:#000;
+}
+
+table.config td ul{
+  list-style:none;
+  margin:0 3px;
+  padding:0;
+}
+
+table.config td ul li{
+  padding:2px 0;
+}
+
+table.config td input{
+  vertical-align:middle;
+  border:1px solid #cdcdcd;
+}
+
+table.config td ul li.selected{
+  font-weight:bold;
+}
+
+table.config td.send-button {
+  border:1px solid #fff;
+  padding-top:10px;
+}
+
+table.config td.send-button input{
+  background:#fff;
+  color:#000;
+  border-top:1px solid #cdcdcd;
+  border-left:1px solid #cdcdcd;
+  border-right:1px solid #9e9e9e;
+  border-bottom:1px solid #9e9e9e;
+}
+
+#hatena-fotolife-user-config h2,#hatena-fotolife-user-option h2 {
+  font-size: 100%;
+  margin:20px 0 5px 0;
+  padding:0;
+  color:#000;
+}
+
+#hatena-fotolife-user-config h2 a,#hatena-fotolife-user-option h2 a{
+  color:#000;
+  text-decoration:none;
+}
+
+#hatena-fotolife-user-config table.config td,#hatena-fotolife-user-option table.config td {
+  line-height:1.75;
+}
+
+table.config td.point strong {
+  margin-left:5px;
+  font-size:130%;
+}
+
+table.config td.point a {
+  color:#000;
+  text-decoration:underline;
+}
+
+table.config td.point span.note {
+  color:#666;
+  margin-left:10px;
+}
+
+div.configoption-message{
+  font-size:80%;
+  padding-top:10px;
+  color:#609300;
+  border-top:1px solid #dedede;
+}
+
+div.configoption-message em{
+  font-size:130%;
+  font-style:normal;
+}
+
+div.configoption-message strong{
+  font-size:140%;
+  margin:0 2px;
+}
+
+/* HELP */
+
+#hatena-fotolife-help #body {
+  font-size:90%;
+  line-height:1.7;
+}
+
+#hatena-fotolife-help #body h2, #hatena-fotolife-help #body h2 {
+  font-size:130%;
+  color:#000;
+  margin-bottom:10px;
+  margin-top:20px;
+  border-bottom:1px solid #dedede;
+}
+
+#hatena-fotolife-help #body h2 a{
+  text-decoration:none;
+  color:#000;
+}
+
+#hatena-fotolife-help #body h3 {
+  color:#000;
+  margin:0;
+  padding:0;
+  font-size:100%;
+}
+
+#hatena-fotolife-help #body h3 a{
+  color:#000;
+}
+
+#hatena-fotolife-help #body h3 a:hover{
+  text-decoration:none;
+}
+
+#hatena-fotolife-help #body .section {
+  margin:0 0 30px 0;
+  padding:0;
+}
+
+#hatena-fotolife-help #body .section a {
+  color:#000;
+  text-decoration:underline;
+}
+
+#hatena-fotolife-help #body .section p {
+  margin:0 0 10px 0;
+  padding:0;
+  line-height:1.5;
+}
+
+#hatena-fotolife-help table {
+  border-collapse:collapse;
+}
+
+#hatena-fotolife-help div.section table {
+  text-align:center;
+  white-space:nowrap;
+  background:#efefef;
+  padding:5px 3px;
+  font-weight:normal;
+  border:1px solid #dedede;
+  width:20%;
+}
+
+#hatena-fotolife-help div.section table th {
+  background:#efefef;
+  font-size:100%;
+  border:1px solid #dedede;
+  padding:3px 5px;
+  white-space:nowrap;
+}
+
+#hatena-fotolife-help div.section table td {
+  font-size:100%;
+  text-align:left;
+  padding:3px 5px;
+  background:#fff;
+  font-size:100%;
+  border:1px solid #dedede;
+  white-space:nowrap;
+}
+
+#hatena-fotolife-help table td strong{
+  font-size:110%;
+}
+
+#hatena-fotolife-help ul.globallink {
+  list-style:none;
+  margin-left:0;
+  padding-left:0;
+} 
+
+#hatena-fotolife-help ul.globallink li a {
+}
+
+#hatena-fotolife-help ul.globallink li a img{
+  margin-right:4px;
+  text-decoration:none;
+}
+
+#hatena-fotolife-help ul.globallink ul {
+  margin-left:0;
+  padding-left:0;
+  list-style:none;
+  margin-bottom:10px;
+}
+
+
+#hatena-fotolife-help ol.howto {
+  list-style:none;
+  margin-left:0;
+  padding-left:0;
+}
+
+#hatena-fotolife-help ol.howto li {
+  padding-left:32px;
+  padding-bottom:10px;
+}
+
+#hatena-fotolife-help ol.howto li img {
+  margin-top:3px;
+}
+
+#hatena-fotolife-help ol.howto li span.title{
+  font-weight:bold;
+}
+#hatena-fotolife-help ol.howto li ol {
+  margin-left:0px;
+  padding-left:23px;
+  margin-bottom:15px;
+}
+#hatena-fotolife-help ol.howto li li{
+  padding-left:0;
+  padding-bottom:0;
+}
+
+#hatena-fotolife-help ol.howto li.howto01{ background:url(/images/howto01.gif)  no-repeat; }
+#hatena-fotolife-help ol.howto li.howto02{ background:url(/images/howto02.gif)  no-repeat; }
+#hatena-fotolife-help ol.howto li.howto03{ background:url(/images/howto03.gif)  no-repeat; }
+#hatena-fotolife-help ol.howto li.howto04{ background:url(/images/howto04.gif)  no-repeat; }
+#hatena-fotolife-help ol.howto li.howto05{ background:url(/images/howto05.gif)  no-repeat; }
+
+#hatena-fotolife-help table.config td ul {
+  list-style:circle;
+  margin-left:20px;
+}
+
+/* NEWFOLDER */
+
+p.description {
+    font-size: 80%;
+    text-align: left;
+    margin:20px 0 10px 0;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+  width:200px;
+  right:0;
+  position:absolute;
+  font-size:80%;
+  overflow:hidden;
+}
+
+body#hatena-fotolife-hotofoto #sidebar,
+body#hatena-fotolife-hotofoto #sidebar,
+body#hatena-fotolife-calendar #sidebar,
+body#hatena-fotolife-fotocolorindex #sidebar,
+body#hatena-fotolife-focallength #sidebar,
+body#hatena-fotolife-model #sidebar,
+body#hatena-fotolife-license #sidebar,
+body#hatena-fotolife-keyword-index #sidebar,
+body#hatena-fotolife-t-index #sidebar{
+  top:70px;
+}
+
+body#hatena-fotolife-user #sidebar,
+body#hatena-fotolife-user-favorite #sidebar,
+body#hatena-fotolife-user-fan #sidebar{
+  _top:73px;
+}
+
+
+#sidebar div.sidebar-title {
+  text-align:left;
+  font-weight:bold;
+  padding:20px 0 5px 8px;
+  color:#de002f;
+}
+
+#sidebar div.sidebar-title a{
+  color:#de002f;
+}
+
+#sidebar ul.sidebar-list {
+  list-style:none;
+  margin:0 0 5px 0;
+  padding:0;
+}
+
+#sidebar ul.sidebar-list li {
+  margin:0;
+  padding:3px 0px 3px 10px;
+  line-height:1.35;
+  text-align:left;
+  position:relative;
+}
+
+#sidebar ul.sidebar-list li.selected{
+  background:#fff;
+  font-weight:bold;
+  color:#000;
+  border-bottom:1px solid #dedede;
+  border-top:1px solid #dedede;
+  padding-bottom:3;
+  padding-right:0;
+}
+
+#sidebar ul.sidebar-list li.selected a{
+  color:#000;
+}
+#sidebar ul.sidebar-list li.selected a.edit {
+  color:#666;
+}
+
+#sidebar ul.sidebar-list li.newfolder {
+  font-weight:bold;
+}
+
+#sidebar ul.sidebar-list li img{
+  vertical-align:middle;
+  margin-right:5px;
+  margin-bottom:3px;
+ *margin-bottom:0;
+}
+
+#sidebar ul#favorite-list li.selected{
+  padding-bottom:0;
+  border-bottom:1px solid #efefef;
+}
+
+#sidebar ul.sidebar-list li .edit{
+  display:none;
+  font-weight:normal;
+  top:3px;
+  right:3px;
+  position:absolute;
+}
+
+#sidebar ul.sidebar-list li .edit img{
+  margin-right:2px;
+  vertical-align:middle;
+}
+
+#sidebar ul.sidebar-list li span.count {
+  margin-left:5px;
+  font-weight:normal;
+  color:#aaa !important;
+}
+
+#sidebar ul.sidebar-list ul.favorite-taglist {
+  list-style:none;
+  margin:3px 0 0 -10px;
+  padding:0;
+  background:#efefef url(/images/sidebar.gif) repeat-y;
+}
+
+#sidebar ul.sidebar-list li.selected ul.favorite-taglist {
+  border-top:1px solid #dedede;
+}
+
+#sidebar ul.sidebar-list ul.favorite-taglist li{
+  padding-left:28px;
+  padding-top:3px;
+  padding-bottom:3px;
+  font-weight:normal;
+  background:url(/images/favorite-taglist.gif) 10px 50% no-repeat;
+}
+
+
+#sidebar ul.sidebar-list ul.favorite-taglist li a{
+  color:#666;
+}
+
+#sidebar ul#favorite-list ul.favorite-taglist li.selected {
+  font-weight:bold;
+  background:#fff url(/images/favorite-taglist.gif) 10px 50% no-repeat;
+  border-bottom:1px solid #cdcdcd;
+  padding-bottom:3px;
+}
+
+#sidebar ul.sidebar-list ul.favorite-taglist li.selected a{
+  color:#000;
+}
+
+#sidebar ul.sidebar-list li.more {
+  text-align:right;
+  padding-right:5px;
+}
+
+#sidebar ul.sidebar-list li.more img{
+  margin-top:5px;
+}
+
+#sidebar ul.sidebar-sublist {
+  list-style:none;
+  margin:0 0 0 0;
+  padding:0;
+  font-weight:normal;
+}
+#sidebar ul.sidebar-sublist span.separator {
+  color:#DEDEDE;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#sidebar ul.sidebar-sublist span.currentpage {
+  font-weight: bold;
+  color: #000000;
+}
+#sidebar ul.sidebar-sublist span.selected {
+  font-weight:bold;
+}
+#sidebar ul.sidebar-sublist li {
+  padding-left: 20px;
+}
+
+#sidebar ul#auction.sidebar-list {
+    margin-top: 9px;
+}
+
+#sidebar ul.sidebar-list li.auction  {
+    padding: 0;
+    font-size: 90%;
+    text-align: center;
+    height: 170px;
+    margin-bottom: 10px;
+    top: 12px;
+}
+
+#sidebar ul.sidebar-list li#related-keyword {
+  margin-bottom: 2px;
+}
+
+#sidebar ul.sidebar-list li.auction span.auction-img  {
+  display: block;
+  overflow: hidden;
+  margin-right: 3px;
+  zoom: 1;
+  position: relative;
+}
+
+#sidebar ul.sidebar-list li.auction ul li {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar ul.sidebar-list li.auction ul.auction-info {
+  padding: 12px 0 0 0;
+   margin: 0; 
+  zoom: 1;
+  overflow: hidden;
+}
+
+#sidebar ul.sidebar-list a.auction {
+    line-height: 1.2;
+    color: #666666;
+    zoom: 1;
+    display: block;
+    overflow: hidden;
+}
+
+#sidebar ul.sidebar-list li img.auction {
+    position: relative;
+    margin: 14px 0 0 0;
+}
+
+#sidebar ul.sidebar-list li.auction ul li.auction-title {
+    margin: 0 0 0 17px;
+    text-align: left;
+}
+
+#sidebar ul.sidebar-list li.auction ul li {
+    font-size: 95%;
+    line-height: 1;
+    margin-top: 2px;
+    color: #777;
+}
+
+#sidebar ul.sidebar-list li.auction strong {
+	color: #e82719;
+}
+
+/* INDEX */
+#hatena-fotolife #sidebar {
+  top:45px;
+  /* height:470px; */
+  height:525px;
+}
+
+#hatena-fotolife #sidebar div.sidebar-title {
+  padding-top:15px;
+  margin-left:2px;
+}
+
+#hatena-fotolife #sidebar img.message{
+  margin-bottom:5px;
+}
+
+#sidebar ul.sidebar-list div.sidebar-title img {
+    margin:0 5px -1px 0;
+}
+
+#sidebar ul.sidebar-list ul.follow-user-list {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:4px 0 6px 13px;
+padding:0;
+}
+
+#sidebar ul.sidebar-list ul.follow-user-list li{
+display:inline;
+margin:0;
+padding:0;
+}
+
+#sidebar ul.sidebar-list ul.follow-user-list li img{
+margin:0 1px 1px 0;
+padding:0;
+}
+
+
+
+#hatena-fotolife div.fotolist {
+  text-align:center;
+  margin-left:0;
+  margin-right:200px;
+}
+
+#hatena-fotolife #hotfoto {
+  margin:0 auto;
+  overflow:hidden;
+}
+
+#hatena-fotolife #hotfoto img{
+  margin-top:15px;
+}
+
+#hatena-fotolife #footer {
+  background:#efefef;
+}
+
+div.indexfotolist {
+  zoom:1;
+  margin:5px auto 0 auto;
+  overflow:hidden;
+  text-align:left;
+}
+
+div.indexfotolist:after {
+  clear:both;
+  content:"";
+  display:block;
+}
+
+ul.indexfotolist-body {
+  list-style:none;
+  margin:0;
+ _margin:0 0 0 40px;
+ *margin:0 0 0 40px;
+  padding:0;
+}
+
+ul.indexfotolist-body li{
+  width:62px;
+  height:120px;
+  margin-right:5px;
+  float:left;
+  position:relative;
+  margin-top:35px;
+}
+
+ul.indexfotolist-body li img{
+  border:2px solid #efefef;
+}
+
+ul.indexfotolist-body li a:hover img{
+}
+
+div.more {
+  font-size:80%;
+  text-align:right;
+  padding:5px 20px 10px 0 ;
+  clear:both;
+}
+
+div.more a{
+  padding-left:10px;
+  background:url(/images/icon-arrow2.gif) 0 50% no-repeat;
+}
+
+#sidebar div.more {
+  font-size:100%;
+  padding-top:0;
+  margin-top:-7px;
+}
+
+div.everyones-foto {
+  margin-top:20px;
+ _margin-top:15px;
+  padding:10px 0 10px 20px;
+  background:#efefef;
+  border-top:1px solid #dedede;
+  clear:both;
+  text-align:left;
+}
+
+div.everyones-foto h2{
+  font-size:80%;
+  margin:0 0 7px 0;
+  padding:0;
+  position:relative;
+}
+
+div.everyones-foto h2 a{
+  color:#666;
+}
+
+div.everyones-foto h2 span.more{
+  position:absolute;
+  top:0;
+  right:20px;
+  font-weight:normal;
+}
+
+div.everyones-foto h2 span.more a{
+  padding-left:10px;
+  background:url(/images/icon-arrow2.gif) 0 50% no-repeat;
+}
+
+div.everyones-foto h2 span.colorblock {
+  margin-left:3px;
+}
+
+div.everyones-foto h2 span.colorblock img{
+  vertical-align:middle;
+  border:1px solid #dedede;
+  margin-bottom:2px;
+}
+
+div.guestmessage {
+  text-align:left;
+  background:#fff;
+  line-height:1.5;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:10px;
+}
+
+div.guestmessage img {
+  vertical-align:bottom;
+}
+
+div.fotolife-infomation {
+  position:relative;
+}
+
+div.fotolife-infomation div.sidebar-title {
+  font-weight:bold;
+  font-size:90%;
+}
+
+div.fotolife-infomation div.more{
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+div.fotolife-infomation ul.sidebar-list {
+  margin:10px 1px;
+  list-style:none;
+  padding:0;
+  font-size:80%;
+}
+
+div.fotolife-infomation ul.sidebar-list li{
+  padding-bottom:3px;
+}
+
+div.fotolife-infomation ul.sidebar-list li a{
+  text-decoration:underline;
+}
+
+
+
+/* COLOR */
+
+div.color-body {
+  width:100%;
+  margin-top:10px;
+}
+
+div.color-body table {
+  border-collapse:collapse;
+  width:100%; 
+  margin-top:10px;
+}
+
+div.color-body table td,div.color-body table th{
+  border:1px solid #fff;
+}
+
+div.color-body table th{
+  font-size:80%;
+  background:#000;
+  color:#fff;
+  text-align:center;
+  height:5px;
+  line-height:0;
+}
+
+div.color-body table td{
+  vertical-align:middle;
+  padding:5px 0 0 0px;
+  text-align:center;
+}
+
+div.color-body table th.row {
+  width:5px;
+}
+
+div.color-body table th img{
+  margin:0;
+  padding:0;
+}
+
+div.color-body table th.r {
+  background:#DD1515;
+}
+
+div.color-body table th.y {
+  background:#FFE508;
+}
+
+div.color-body table th.g {
+  background:#68E55C;
+}
+
+div.color-body table th.c {
+  background:#57DCDC;
+}
+
+div.color-body table th.b {
+  background:#3B6BD8;
+}
+
+div.color-body table th.m {
+  background:#C55FC5;
+}
+
+div.color-body table th.w {
+  background:#f3f3f3;
+}
+
+span.count {
+  font-size:90%;
+  color:#999;
+}
+
+span.count img{
+  margin-right:3px;
+}
+
+/* MODEL */
+
+div.modelinfo {
+  zoom:1;
+  padding:15px 5px 15px 5px;
+  font-size:90%;
+  border-bottom:1px solid #dedede;
+}
+
+div.modelinfo:after {
+  clear:both;
+  display:block;
+  content:"";
+}
+
+ul.modelinfodetail {
+  list-style:none;
+  margin:0 0 0 180px;;
+  padding:0;
+}
+
+ul.modelinfodetail li{
+  padding-top:3px;
+}
+
+ul.modelinfodetail li.count{
+  font-size:110%;
+  padding-bottom:5px;
+}
+
+ul.modelinfodetail li span.count {
+  margin-right:5px;
+  color:#000;
+}
+
+ul.modelinfodetail li span.count img{
+  margin-right:3px;
+}
+
+ul.modelinfodetail li img {
+  vertical-align:middle;
+  margin-right:4px;
+}
+
+img.modelfoto {
+  float:left;
+  margin-right:20px;
+  margin-left:10px;
+}
+
+div.modelinfo form{
+  margin-top:10px;
+}
+
+div.modelinfo form input{
+  background:#fff;
+  padding:2px;
+  margin-right:3px;
+  margin-top:5px;
+  border-top:1px solid #cdcdcd;
+  border-left:1px solid #cdcdcd;
+  border-right:1px solid #9e9e9e;
+  border-bottom:1px solid #9e9e9e;
+}
+
+div.modellistinfo {
+  font-size:80%;
+  text-aling:center;
+  margin-top:80px;
+}
+
+div.modellistinfo span.modelname{
+  display:block;
+}
+div.model-pager {
+  display:inline;
+}
+div.mymodel div.pager{
+ margin:-42px 0 0 0;
+}
+
+
+
+/* FOCALLENGTH */
+
+#hatena-fotolife-focallength div.dayfoto img {
+  margin-top:3px;
+}
+
+/* CALENDAR */
+
+div.calendar-body {
+  width:100%;
+  clear:both;
+}
+
+div.calendar-body table {
+  border:1px solid #dedede;
+  border-collapse:collapse;
+  width:100%;
+}
+
+div.calendar-body table td,div.calendar-body table th{
+  border:1px solid #ccc;
+}
+
+div.calendar-body table th{
+  font-size:80%;
+  padding:5px;
+  background:#000;
+  color:#fff;
+  width:13%;
+  text-align:center;
+}
+
+div.calendar-body table th a{
+  color:#fff;
+}
+
+div.calendar-body table td{
+  vertical-align:top;
+  padding:3px 0 3px 5px;
+  font-size:80%;
+  color:#aaa;
+}
+
+div.calendar-body table td div.dayfoto {
+  text-align:center;
+}
+
+div.calendar-body table td div.dayfoto img{
+}
+
+div.calendar-body table td div.dayfoto span.count{
+  display:block;
+}
+
+div.calendar-body table td.brank_day {
+  background:#EfEfEf;
+}
+
+div.calendar-body table td.sun_today a,div.calendar-body table td.sat_today a,div.calendar-body table td.other_today a{
+  color:#fff;
+}
+
+/* KEYWORD */
+
+ul.wordlist {
+  margin:20px 0;
+  padding:0;
+  list-style:none;
+  width:100%;
+}
+
+table.wordlist {
+  margin:20px 0;
+  padding:0;
+  list-style:none;
+}
+
+table.wordlist tr td{
+  vertical-align:middle;
+  padding:2px 5px 2px 0px;
+  white-space:nowrap;
+}
+
+table.wordlist tr td span.count{
+  margin-left:10px;
+}
+
+table.wordlist tr td.day{
+  width:80px;
+}
+
+#hatena-fotolife li.word, #hatena-fotolife-keyword-index li.word,#hatena-fotolife-t-index li.word,#hatena-fotolife-search span.word,#hatena-fotolife-date li.word {
+  line-height:2;
+  margin-right:10px;
+  white-space:nowrap;
+ _white-space:normal;
+ *white-space:normal;
+  display:inline;
+}
+
+#hatena-fotolife li.word a, #hatena-fotolife-keyword-index li.word a,#hatena-fotolife-t-index li.word a,#hatena-fotolife-search span.word a{
+  margin-right:4px;
+  color:#000;
+}
+
+#hatena-fotolife span.count, #hatena-fotolife-keyword-index span.count,#hatena-fotolife-t-index span.count,#hatena-fotolife-search span.count, #hatena-fotolife-fotocolorindex span.count{
+  font-size:70%;
+  color:#999;
+}
+
+#hatena-fotolife ul.wordlist {
+  margin:0;
+}
+
+/* SEARCH */
+
+div.no-search-result {
+  font-size:90%;
+  padding-top:10px;
+}
+
+div.no-search-result ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+div.no-search-result ul li img{
+  vertical-align:middle;
+  margin-right:3px; 
+  margin-bottom:2px;
+}
+
+div.no-search-result ul li {
+  display:inline;
+  margin-right:10px;
+}
+
+/* OTHER (MEMO)*/
+
+#hatena-fotolife-foto,#hatena-fotolife-foto-edit {
+  background:#efefef;
+}
+
+#hatena-fotolife-foto #navigation, #hatena-fotolife-foto-edit #navigation, #hatena-fotolife-user-up #navigation {
+  border-bottom:0;
+}
+
+#hatena-fotolife-foto-edit div.okmessage, #hatena-fotolife-foto-edit div.errormessage,#hatena-fotolife-foto div.okmessage, #hatena-fotolife-foto div.errormessage {
+  margin:0 auto 5px auto;
+}
+
+#hatena-fotolife-user-edit h2,#hatena-fotolife-user-up h2, #hatena-fotolife-user-tag-edit h2 {
+  font-size:100%;
+  margin-top:20px;
+  padding-bottom:5px;
+  margin-bottom:0;
+  border-bottom:1px solid #dedede;
+}
+
+#hatena-fotolife-user-up h2 {
+  position:relative;
+}
+
+#hatena-fotolife-user-up h2 span.nav{
+  font-size:80%;
+  position:absolute;
+  top:0;
+  right:0;
+  font-weight:normal;
+}
+
+#hatena-fotolife-user-up h2 span.nav a{
+  margin-left:5px;
+}
+
+#hatena-fotolife-user-edit h2 img,#hatena-fotolife-user-up h2 img, #hatena-fotolife-user-tag-edit h2 img{
+  vertical-align:middle;
+  margin-right:4px;
+  margin-bottom:2px;
+}
+
+#hatena-fotolife-user-edit table.edit td.send-button {
+  padding:10px 0 20px 0;
+}
+
+#hatena-fotolife-user-edit div.fotolist div.pager {
+  margin-top:0;
+  padding-top:0;
+}
+
+#hatena-fotolife-user-edit div.fotolist div.pager p{
+  padding-bottom:15px;
+  padding-top:10px;
+}
+
+#hatena-fotolife-user-edit div.edit-button {
+  text-align:left;
+  padding:7px;
+  background:#efefef;
+  margin-bottom:15px;
+  font-size:80%;
+  clear:both;
+  /* margin-top:15px; */
+}
+
+#hatena-fotolife-user-edit div.edit-button button, #hatena-fotolife-user-edit div.edit-button input,#hatena-fotolife-user-edit div.edit-button select {
+  background:#fff;
+  padding:1px 3px 2px;
+  border-top:1px solid #cdcdcd;
+  border-left:1px solid #cdcdcd;
+  border-right:1px solid #9e9e9e;
+  border-bottom:1px solid #9e9e9e;
+ _vertical-align:middle;
+ *vertical-align:middle;
+  overflow: visible
+}
+#hatena-fotolife-user-edit div.edit-button button {
+  border-left:0;
+}
+#hatena-fotolife-user-edit div.edit-button button img {
+  vertical-align:middle;
+}
+
+#hatena-fotolife-user-edit div.edit-button select {
+  border-bottom:1px solid #cdcdcd;
+  border-right:1px solid #cdcdcd;
+  border-top:1px solid #9e9e9e;
+  border-left:1px solid #9e9e9e;
+}
+
+#hatena-fotolife-user-edit div.edit-button input.change-btn {
+ _width:110px;
+ *width:110px;
+}
+
+#hatena-fotolife-user-edit div.edit-button input.delete-btn {
+ _width:60px;
+ *width:60px;
+}
+
+#hatena-fotolife-user-edit div.edit-button input.classify-btn {
+ _width:70px;
+ *width:70px;
+  margin-left:1px;
+}
+
+#hatena-fotolife-user-edit div.edit-button input.rotate-minus-button,#hatena-fotolife-user-edit div.edit-button input.rotate-plus-button {
+ *width:65px;
+ _width:65px;
+}
+
+#hatena-fotolife-user-edit div.edit-button input.rotate-minus-button {
+  padding-left:14px;
+  background:#fff url(/images/turn-90.gif) 3px 4px no-repeat ;
+}
+
+#hatena-fotolife-user-edit div.edit-button input.rotate-plus-button {
+  padding-left:14px;
+  background:#fff url(/images/turn90.gif) 3px 4px no-repeat;
+  border-left:0;
+}
+
+#hatena-fotolife-user-edit div.edit-button input.delete-btn {
+  padding-left:14px;
+  background:#fff url(/images/delete.gif) 3px 4px no-repeat ;
+  border-left:0;
+}
+
+#hatena-fotolife-user-edit div.edit-button input.print-button {
+  padding:1px 0 2px 40px;
+  *padding-left:44px;
+  background:#fff url(/images/digipri-gray.gif) 4px 6px no-repeat;
+  *background-position:4px 4px;
+  border-left:0;
+  overflow:visible;
+}
+
+#hatena-fotolife-user-edit div.edit-button input.map-btn {
+  border-right:0;
+  overflow: visible
+
+}
+
+#map-controls{
+    margin-top:5px;
+}
+#map-controls #map-lat-lng-commit {
+  margin-left:20px;
+  display :none; 
+}
+#hatena-fotolife-user-edit #Map {
+    margin-bottom:5px;
+}
+div.fotolist #Map {
+    margin:10px 0 0;
+}
+div.fotolist ul.fotolist li.over a.edit {
+  display:block !important;
+  position:absolute;
+  right:0;
+  bottom:0;
+  background:#fff;
+  white-space:nowrap;
+  font-size:12px;
+  width:40px;
+  padding:5px;
+}
+
+#hatena-fotolife-user-edit div.fotolist ul.fotolist li{
+  cursor:pointer;
+  border:1px solid #dedede;
+  margin-right:8px;
+  width:124px;
+  margin-bottom:32px;
+}
+
+#hatena-fotolife-user-edit div.fotolist ul.fotolist li input.fototitle{
+  position:absolute;
+  top:138px;
+  left:-1px;
+  width:124px;
+}
+#hatena-fotolife-user-edit div.fotolist ul.fotolist li.selected input.fototitle{
+  left:-2px;
+  top:137px;
+}
+#hatena-fotolife-user-edit div.fotolist ul.fotolist li.over {
+  border:1px solid #98DE11;
+}
+
+#hatena-fotolife-user-edit div.fotolist ul.fotolist li.selected {
+  background:#F4FFDF;
+  border:2px solid #619301;
+  width:122px;
+  height:132px;
+}
+
+#hatena-fotolife-user-edit div.fotolist ul.fotolist li.selected a.edit{
+  background:#F4FFDF;
+  padding-right:4px;
+  padding-bottom:4px;
+  color:#666;
+}
+
+#hatena-fotolife-user-edit div.fotolist ul.fotolist li.selected a.edit:hover,#hatena-fotolife-user-edit div.fotolist ul.fotolist li.over a.edit:hover{
+  text-decoration:none;
+}
+
+
+#hatena-fotolife-user-edit div.fotolist ul.fotolist li.over span.check {
+  display:block;
+  background:url(/images/check.gif) no-repeat;
+  width:55px;
+  height:25px;
+  position:absolute;
+  bottom:1px;
+  left:1px;
+}
+
+#hatena-fotolife-user-edit div.fotolist ul.fotolist li.selected span.check {
+  display:block;
+  background:url(/images/check-on.gif) no-repeat;
+  width:55px;
+  height:25px;
+  position:absolute;
+  bottom:0;
+  left:0;
+}
+
+
+
+#hatena-fotolife-user-edit div.fotolist ul.fotolist li img.foto_thumb{
+  margin-top:2px;
+}
+
+div.videopop,img.videopop {
+    font-size:8pt;
+    background-color:#FFFFFF;
+    width:50px;
+    height:38px;
+    position:absolute;
+    display:none;
+    top:0px;
+}
+
+div.videopop, img.videopop {
+  background:transparent !important;
+  position:absolute;
+  top:48px ;
+  left:37px;
+ _filter: alpha(opacity=70);
+}
+
+#hatena-fotolife-hotfoto div.pager p {
+  padding-top:0;
+}
+
+#hatena-fotolife-user-upload table.config {
+  margin-top:15px;
+}
+
+#hatena-fotolife-user-upload table.config td table td {
+  border:0;
+  font-size:110%;
+
+}
+
+#hatena-fotolife-user-upload div.send-button input {
+  margin-bottom:0;
+}
+
+#hatena-fotolife-user-upload h3 {
+  font-size:80%;
+  margin:0;
+  padding:0;
+}
+
+#hatena-fotolife-user-upload div.note {
+  font-size:80%;
+  line-height:1.5;
+  color:#666;
+  padding:5px;
+  background:#f3f3f3;
+  margin-top:10px;
+  border:1px solid #dedede;
+}
+
+.with_sidebar{
+  background:#fff url(/images/sidebar.gif) top right repeat-y;
+}
+
+#hatena-fotolife-t .with_keyword div.pager, #hatena-fotolife-keyword div.pager, #hatena-fotolife-user-tag div.pager, #hatena-fotolife-user-favorite-tag div.pager {
+  margin-top:-42px;
+}
+#hatena-fotolife-keyword div.pager-adjuster {
+    height:42px;
+}
+
+/* MAIL */
+
+#hatena-fotolife-user-mail h2 {
+  color:#000000;
+  font-size:110%;
+  margin-bottom:0pt;
+  margin-top:20px;
+  border-bottom:1px solid #DEDEDE;
+}
+
+#hatena-fotolife-user-mail p {
+  font-size:90%;
+  line-height:1.5;
+}
+
+#hatena-fotolife-user-mail .address {
+  margin:0.5em 0;
+}
+
+#hatena-fotolife-user-mail .address strong {
+  font-size:140%;
+  font-weight:bold;
+}
+
+#hatena-fotolife-user-mail .address strong a, #hatena-fotolife-user-mail .address strong span {
+  color:#DE002f;
+}
+
+#hatena-fotolife-user-mail .address img {
+  margin:0 3px 0 10px;
+}
+
+#hatena-fotolife-user-mail .note,
+#hatena-fotolife-starfriends .note,
+#hatena-fotolife-user-favorite .note,
+#hatena-fotolife-user-fan .note {
+  font-size:90%;
+  margin:1.5em 0;
+  padding:0.5em;
+  background:#EFEFEF;
+  border:1px solid #DEDEDE;
+  line-height:1.5;
+  clear:both;
+}
+
+/* GUIDE */
+
+#hatena-fotolife-guide #body {
+  width:720px;
+}
+
+#hatena-fotolife-guide #body div.campaign-description{
+  font-size:80%;
+  margin-bottom:30px;
+  margin-top:0;
+}
+
+#hatena-fotolife-guide #body div.campaign-description img.btn {
+  float:right;
+  margin-left:15px;
+}
+
+#hatena-fotolife-guide #body div.campaign-description img.campaign-header{
+  vertical-align:bottom;
+}
+
+#hatena-fotolife-guide #body div.campaign-description img.campaign-footer{
+  vertical-align:top;
+}
+
+#hatena-fotolife-guide #body div.campaign-description div.campaign-description-body{
+  border-left:1px solid #C7DD9E;
+  border-right:1px solid #C7DD9E;
+  background:#E7FFBA;
+  padding:0 10px;
+  line-height:1.5;
+}
+
+#hatena-fotolife-guide #breadcrumbs {
+  position:relative;
+  z-index:100;
+  background:transparent !important;
+}
+
+#hatena-fotolife-guide #body h1 {
+  margin-top:-20px;
+  margin-bottom:0;
+  padding:0;
+}
+#hatena-fotolife-guide #body h2 {
+  clear:both;
+  margin-top:10px;
+  margin-bottom:5px;
+  padding:0;
+}
+
+#hatena-fotolife-guide #body div.section {
+  padding-bottom:25px;
+  margin-left:2px;
+}
+
+#hatena-fotolife-guide #body div.section p{
+  font-size:90%;
+  line-height:1.7;
+  margin:0;
+  padding:0;
+}
+
+#hatena-fotolife-guide #body div.section p a.icon-arrow{
+  text-decoration:underline;
+  color:#5B8B00;
+  background:url(/images/arrow.gif) 0 50% no-repeat;
+  padding-left:12px;
+}
+
+#hatena-fotolife-guide #body div.section img.guide-image{
+  float:right;
+  margin-bottom:20px;
+  margin-left:20px;
+  margin-top:3px;
+}
+
+#hatena-fotolife-guide #body div.register-link {
+  text-align:center;
+  line-height:2;
+  padding-top:20px;
+}
+
+#hatena-fotolife-user-newfolder table.config input,#hatena-fotolife-user-edit table.config input {
+  width:8em;
+}
+
+#hatena-fotolife-user-newfolder table.config td span.note{
+  color:#666;
+  margin-left:10px;
+}
+
+
+/* CC LISENCE */
+
+div#license-description{
+  padding:30px 7px 7px 7px;
+  margin:5px 0 3px 0;
+  line-height:1.35;
+}
+
+div#license-description p {
+  margin:0;
+  padding:0;
+}
+
+div#license-description p.cc-link{
+  text-align:right;
+  margin-bottom:0;
+  padding-bottom:0;
+  padding-top:5px;
+}
+
+div#license-description p.cc-link a{
+  background:url(/images/icon-arrow.gif) 0 50% no-repeat;
+  padding-left:13px;
+}
+
+td.license select{
+  margin-top:3px;
+}
+
+#hatena-fotolife-license div.license-description {
+  clear:both;
+  text-align:left;
+  border-bottom:1px solid #dedede;
+  padding-bottom:3px;
+}
+
+#hatena-fotolife-license div.license-description h2 {
+  font-size:135%;
+  padding:20px 0 0 0;
+  margin:0;
+}
+
+#hatena-fotolife-license div.license-description h2 a{
+  color:#333;
+}
+
+#hatena-fotolife-license div.license-description h2 img{
+  margin-right:3px;
+}
+
+#hatena-fotolife-license div.more {
+  padding-right:0;
+}
+
+#hatena-fotolife-license div.license-description p{
+  font-size:80%;
+  line-height:1.5;
+  margin-top:0;
+  margin-bottom:0;
+  padding-bottom:3px;
+}
+
+#hatena-fotolife-license div.license-description form{
+  display:inline;
+}
+
+#hatena-fotolife-foto div.foto div.license img {
+  vertical-align:middle;
+  margin-bottom:2px;
+}
+
+#hatena-fotolife-license div.search {
+  font-size:80%;
+  margin-top:25px;
+}
+
+#hatena-fotolife-license div.pager {
+  margin-top:-45px;
+ *margin-top:-55px;
+}
+
+table.edit tr td.license div.by {
+  background:#f3f3f3 url(/images/icon-cc-by.gif) 8px 8px no-repeat ;
+}
+
+table.edit tr td.license div.by-nd {
+  background:#f3f3f3 url(/images/icon-cc-by-nd.gif) 8px 8px no-repeat ;
+}
+
+table.edit tr td.license div.by-nc-nd {
+  background:#f3f3f3 url(/images/icon-cc-by-nc-nd.gif) 8px 8px no-repeat ;
+}
+
+table.edit tr td.license div.by-nc {
+  background:#f3f3f3 url(/images/icon-cc-by-nc.gif) 8px 8px no-repeat ;
+}
+
+table.edit tr td.license div.by-sa {
+  background:#f3f3f3 url(/images/icon-cc-by-sa.gif) 8px 8px no-repeat ;
+}
+
+table.edit tr td.license div.by-nc-sa {
+  background:#f3f3f3 url(/images/icon-cc-by-nc-sa.gif) 8px 8px no-repeat ;
+}
+
+div.cc-description {
+  font-size:90%;
+  background:#efefef url(/images/image-cc.gif) 5px 8px no-repeat;
+  padding:7px;
+  margin-top:15px;
+  line-height:1.5;
+  padding-left:62px;
+}
+
+div.cc-description p{
+  margin:0;
+  padding:0;
+}
+
+div.cc-description p.cc-link{
+  margin-top:5px;
+  text-align:right;
+  font-size:90%;
+}
+
+div.cc-description p.cc-link a{
+  background:url(/images/icon-arrow.gif) 0 50% no-repeat;
+  padding-left:13px;
+}
+
+table.edit td.license a.cc-link {
+  background:url(/images/icon-arrow.gif) 0 50% no-repeat;
+  padding-left:13px;
+  margin-left:3px;
+}
+
+div.appendix img.icon-cc {
+  vertical-align:middle;
+  margin-right:2px;
+  margin-bottom:2px;
+}
+
+
+div.t-bottom {
+  clear:both;
+  zoom:1;
+}
+
+div.t-bottom:after {
+  content:"";
+  clear:both;
+  display:block;
+}
+
+div.t-bottom ul{
+  list-style:none;
+  margin:5px 0;
+  padding:0;
+}
+
+div.t-bottom ul li{
+  padding-bottom:2px;
+  padding-left:3px;
+  width:210px;
+  float:left;
+}
+
+div.t-bottom p.cc-link {
+  clear:both;
+}
+
+div.t-bottom ul li img{
+  margin-bottom:2px;
+ *margin-bottom:0;
+ _margin-bottom:0;
+  margin-right:5px;
+  vertical-align:middle;
+}
+
+/* amazon */
+
+#keyword-amazon {
+  width:100%;
+  overflow:hidden;
+  background:#eee;
+  padding-top: 5px;
+  position: relative;
+}
+
+#keyword-amazon a.sponsor {
+  position: relative;
+  width: 1%;
+}
+
+#keyword-amazon a.sponsor img {
+  max-height: 75px;
+  max-width: 75px;
+  _height: 75px;
+}
+
+#keyword-amazon a.sponsor img.sponsor-icon {
+  position: absolute;
+  bottom: 4px;
+  _bottom: 10px;
+ right: 0;
+ _right: 1px;
+  z-index: 10000;
+  line-height: 1.05;
+  display: block;
+  width: 16px !important;
+  height: 9px;
+}
+
+#keyword-amazon a.sponsor img.sponsor-icon-amazon {
+  position: absolute;
+  bottom: 4px;
+  _bottom: 10px;
+ right: 0;
+ _right: 1px;
+  z-index: 10000;
+  line-height: 1.05;
+  display: block;
+  width: 16px !important;
+  height: 16px;
+}
+
+#keyword-amazon span {
+    color: #aaa;
+    font-size: 70%;
+    margin: 0;
+    padding: 0;
+    bottom: 8px;
+    vertical-align: bottom;
+    position:absolute;
+    right:8px;
+}
+
+keyword-amazon table {
+  border-collapse:collapse;
+}
+
+#keyword-amazon table td{
+  vertical-align:bottom;
+  padding-left: 10px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+#keyword-amazon table td.amazon-sponsor {
+    text-align: right;
+}
+
+#keyword-amazon table td.dokoiku a{
+  display:block;
+  width:40px;
+  text-indent:-100%;
+  overflow:hidden;
+}
+
+#keyword-amazon table td.dokoiku img {
+  max-height:120px ;
+  max-width:120px ;
+  height:60px !important;
+}
+
+ul.tab {
+  margin:20px 0 0 0;
+  padding:0;
+  list-style:none;
+  height:37px;
+  background:url(/images/tab-bg.gif) bottom left repeat-x
+}
+
+ul.tab li {
+  float:left;
+  margin-left:8px;
+}
+
+/* safari3 */
+body:first-of-type #keyword-amazon a.sponsor img.sponsor-icon {
+  bottom: 0;
+}
+
+/* Favorite */
+
+body#hatena-fotolife-user-fan ul#follow-user li{
+border:1px solid #CDCDCD;
+display:inline-block;
+/display: inline;
+/zoom: 1;
+margin:0 10px 10px 0;
+padding:6px 5px 6px 6px;
+}
+
+body#hatena-fotolife-user-fan ul#follow-user li.following{
+background:#FAFFF2 none repeat scroll 0 0;
+border:1px solid #73AD08;
+}
+
+body#hatena-fotolife-user-fan ul#follow-user li.private-user{
+background:#F2F2F2 none repeat scroll 0 0;
+border:1px solid #DEDEDE;
+}
+
+
+body#hatena-fotolife-user-fan ul#follow-user li div.user-info{
+color:#808080;
+float:left;
+font-size:90%;
+margin-left:6px;
+overflow:hidden;
+width:10.5em;
+}
+
+body#hatena-fotolife-user-fan ul#follow-user li div.profile-image{
+float:left;
+}
+
+body#hatena-fotolife-user-fan ul#follow-user li.private-user div.profile-image{
+background: transparent;
+filter: alpha(opacity=60);
+-moz-opacity:0.6;
+opacity:0.6;
+}
+
+body#hatena-fotolife-user-fan ul#follow-user a.follow-btn,
+ul.user-profile a.follow-btn{
+background:#FFFFFF url(/images/follow.gif) no-repeat scroll 2px center;
+border-color:#CDCDCD #9E9E9E #9E9E9E #CDCDCD;
+border-style:solid;
+border-width:1px;
+color:#666666;
+cursor:pointer;
+font-family:"arial","helvetica",sans-serif;
+font-size:80%;
+font-weight:bold;
+letter-spacing:-0.5px;
+margin:0;
+padding:2px 3px 2px 16px;
+vertical-align:middle;
+text-decoration:none;
+display:inline-block;
+/display: inline;
+/zoom: 1;
+}
+
+ul.user-profile a.follow-btn{
+font-size:65%;
+margin:2px 0 7px;
+padding:1px 3px 0 17px;
+}
+
+body#hatena-fotolife-user-fan ul#follow-user a.follow-btn.following,
+ul.user-profile a.follow-btn.following{
+background:#FFFFFF url(/images/remove.gif) no-repeat scroll 2px center;
+padding-left:17px;
+}
+
+body#hatena-fotolife-user-fan ul#follow-user li div.user-info span {
+display:block;
+margin:5px 0 0;
+padding:0;
+text-align:right;
+}
+
+
+ul.user-profile span.user-info-private {
+background:#EDEDED url(/images/icon-lock.gif) no-repeat scroll 2px center;
+color:#666666;
+display:block;
+font-size:70%;
+margin:3px 30px 7px 0;
+padding:1px 3px 0 15px;
+}
+
+
+body#hatena-fotolife-user-fan span.user-info-private {
+background:#EDEDED url(/images/icon-lock.gif) no-repeat scroll 2px center;
+color:#666666;
+display:block;
+font-size:70%;
+margin:3px 30px 7px 0;
+padding:1px 3px 0 15px;
+}
+
+ul.user-profile{
+background:#FFFFFF none repeat scroll 0 0;
+border-bottom:1px solid #DEDEDE;
+_border-top:1px solid #DEDEDE;
+_border-left:1px solid #DEDEDE;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0 0 4px 1px;
+padding:15px 5px 10px 10px;
+text-align:left;
+}
+
+#sidebar ul.user-profile li.user-image {
+color:#000000;
+float:left;
+text-align:left;
+margin-bottom:12px;
+}
+
+#sidebar ul.user-profile li.user-info {
+float:left;
+font-size:120%;
+font-weight:bold;
+line-height:1em;
+margin-left:3px;
+margin-top:-2px;
+width:132px;
+word-wrap:break-word;
+}
+
+#sidebar ul.user-profile li.user-info.none-medal{
+margin-left:0;
+width:148px;
+}
+
+#sidebar ul.user-profile li.user-info.none-follow-btn{
+margin-top:5px;
+}
+
+#sidebar ul.user-profile li.user-info span.loadingicon{
+padding-top:3px;
+}
+
+#sidebar ul.user-profile li.user-info span.loadingicon,
+body#hatena-fotolife-user-fan ul#follow-user span.loadingicon,
+body#hatena-fotolife-foto span.loadingicon {
+color:#666666;
+font-size:80%;
+font-weight:normal;
+}
+
+#sidebar ul.user-profile li.user-info span.loadingicon img,
+body#hatena-fotolife-user-fan ul#follow-user span.loadingicon img,
+body#hatena-fotolife-foto span.loadingicon img {
+vertical-align:middle;
+}
+
+#sidebar ul.user-profile li.user-profile-medal {
+float:left;
+width:14px;
+}
+
+#sidebar ul.user-profile li.user-profile-follow-count,
+#sidebar ul.user-profile li.user-profile-fan-count {
+text-align:left;
+clear:both;
+display:inline;
+padding-right:5px;
+}
+
+#sidebar ul.user-profile li.user-profile-foto-count,
+#sidebar ul.user-profile li.user-profile-latest-model{
+margin:3px 0;
+clear:both;
+}
+
+#sidebar ul.user-profile li img {
+vertical-align:middle;
+margin-right:3px;
+}
+
+#sidebar ul.user-profile li.user-info-medal img{
+margin-right:0;
+}
+
+#sidebar ul.user-profile li.user-info img.icon-lock-image{
+margin-left:3px;
+vertical-align:middle;
+}
+
+
+#sidebar #fan-icon-list{
+padding:8px 0 14px 8px;
+text-align:left;
+}
+
+#sidebar #fan-icon-list a{
+margin-right:10px;
+}

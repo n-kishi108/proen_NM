@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>china.org.cn</title>
+<style type="text/css">
+<!--
+* {margin: 0px; padding:0px;}
+body { font-size:14px; font-family:Verdana, Arial, Helvetica, sans-serif; background-color:#FBFCFD;}
+a { text-decoration:none; color:#000000;}
+img { border:0px;}
+
+.main { width:185px;}
+.main p { font-size:14px; line-height:20px; margin-bottom:10px;}
+h1 { font-size:14px; background-image:url(http://images.china.cn/images1/ja/ent09/3_5.gif); height:30px; padding-top:8px; padding-left:12px;}
+
+
+.tab { width:185px; height:40px;}
+
+.tijiao { width:185px; padding-bottom:15px; text-align:center; padding-top:10px;}
+.tijiao img { margin-right:10px;}
+
+-->
+</style>
+<script language="javascript" type="text/javascript">
+function submitCheck() { 
+	document.forms["myform"].author.value = "ユーザー" ;
+	if (document.forms["myform"].content.value.length > 1000) {
+		alert("コメントは長すぎます！");
+		return false;
+	}
+	if (document.forms["myform"].content.value.indexOf("<script") != -1 || document.forms["myform"].content.value.indexOf("</") != -1) {
+		alert("コメントには特別なコードを書き入れてはなりません！");
+		return false;
+	}
+	if (trim(document.forms["myform"].content.value) == "") {
+     alert("コメントをお書きください！");
+     return false;
+  }
+	alert("どうもありがとうございました！");
+	document.forms["myform"].submit();
+	document.location.href=document.location.href;
+
+}
+
+function viewComment() {
+var nodeid=0;
+var nsid=0;
+try{
+nodeid=document.forms["myform"].nodeid.value;
+nsid=document.forms["myform"].nsid.value;
+}catch(e){}
+    document.forms["myform"].action = "http://comments.china.com.cn/comments/servlet/DisplayComments?nodeid="+nodeid+"&nsid="+nsid;
+    document.forms["myform"].submit();
+}
+
+function trim(s) {
+	if (s == null || s == "") {
+		return "";
+	}
+	var Str = new String(s);
+	var newstr = Str.replace(/^\s*/, "");
+	return (newstr.replace(/\s*$/, ""));
+}
+
+
+</script>
+</head><body>
+<div class="main">
+  <p>「酒井法子覚せい剤事件」は中国でも大変注目されていますが、この事件に対してどう思われますか。
+</p>
+<form name="myform" 
+action="http://comments.china.com.cn/comments/do/AddCommentAction" 
+method="post" target="_blank">
+<input value="10040011" name="nodeid" type="hidden"> 
+<input value="酒井法子覚せい剤事件" name="nodename" type="hidden"> 
+<input value="0" name="nsid" type="hidden"> 
+<input value="1004" name="siteid" type="hidden"> 
+<input value="酒井法子覚せい剤事件" name="title" type="hidden"> 
+<input 
+value="FounderCommenthttp://japanese.china.org.cn/life/node_2173850.htm"
+ name="puburl" type="hidden">
+	<input name="author" id="author" style="display: none;" type="text">
+    <textarea name="content" id="content" type="text" class="tab"></textarea>
+  </form>
+</div>
+<div class="tijiao">
+<input onclick="javascript:return submitCheck();" name="Submit" 
+style="background-image: 
+url(&quot;http://images.china.cn/images1/ja/ent09/3_8.gif&quot;); width:
+ 38px; height: 17px; border: 0px none;" value="" type="button">&nbsp;&nbsp;
+<input onclick="javascript:viewComment();" name="Submit2" 
+style="background-image: 
+url(&quot;http://images.china.cn/images1/ja/ent09/3_9.gif&quot;); width:
+ 79px; height: 17px; border: 0px none;" value="" type="button">
+</div>
+</body></html>

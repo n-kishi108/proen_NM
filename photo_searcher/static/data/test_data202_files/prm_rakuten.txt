@@ -1,0 +1,6 @@
+eTDksnYPa.jsonCallback({"data":[
+	{
+		text:"³ÚÅ·»Ô¾ì",
+		url:"http://rd.rakuten.co.jp/s/?R2=http%3A%2F%2Fwww%2Erakuten%2Eco%2Ejp%2F&D2=2548.0.7775558.0.10058137.2&C3=c762eb5d3455bf620b2308ea59cfca2deb1c1904"
+	}
+]});

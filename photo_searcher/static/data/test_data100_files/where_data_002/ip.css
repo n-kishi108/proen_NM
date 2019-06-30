@@ -1,0 +1,22 @@
+.pad0 {
+	margin: 0px;
+	padding: 0px;
+}
+.f10 {
+	font-size: 10px;
+	margin: 0px;
+	padding: 0px;
+}
+.f9 {
+	font-size: 9px;
+	margin: 0px;
+	padding: 0px;
+}
+.f12 {
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+.line {
+	border: 1px solid #999999;
+}

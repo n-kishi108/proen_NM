@@ -1,0 +1,1076 @@
+@charset "EUC-JP";
+
+/* Information
+==================================================
+livedoor Blog CSS
+ Name   : default_2008_aqua_3c
+ Layout : 3カラム リキッド
+
+ Update : 2009.02.26
+==================================================
+*/
+
+
+/* Table of Contents
+==================================================
+	01. Text - フォント・リンク
+	02. Layout - 全体の枠組み
+	03. Title - ブログタイトルエリア
+	04. SubTitle - アーカイブタイトルエリア
+	05. Pager - ページャ
+	06. Main - 記事エリア
+	07. Option - トラックバック・コメントエリア
+	08. Sub & Extra - プラグインエリア
+	09. Header & Footer - ヘッダー・フッター
+	10. Others - ADエリア etc.
+==================================================
+*/
+
+
+/* =============================================== */
+/** 01. Text - フォント・リンク */
+/* ----------------------------------------------- */
+
+* {
+	word-break: break-all;
+}
+
+body
+, textarea {
+	font-family: "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","ＭＳ Ｐゴシック",sans-serif;
+}
+
+body {
+	color: #000000;
+}
+
+a:link
+, a:active
+, a:visited {}
+
+a:hover {
+	text-decoration: none;
+}
+
+table#header a:link
+, table#header a:active
+, table#header a:visited
+, table#header a:hover {
+	color: #0000fe;
+}
+
+h1#blog-title a:link
+, h1#blog-title a:active
+, h1#blog-title a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+h1#blog-title a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+p#blog-description {
+	color: #ffffff;
+}
+
+h2.archives-title {
+	color: #ffffff;
+}
+
+div.article-body a:link
+, div.article-body a:active {
+	color: #0e8cfe;
+}
+
+div.article-body a:visited {
+	color: #858e96;
+}
+
+h2.article-title a:link
+, h2.article-title a:active
+, h2.article-title a:visited {
+	color: #06a5ff;
+	text-decoration: none;
+}
+
+h2.article-title a:hover {
+	background-color: #fffadd;
+	text-decoration: underline;
+}
+
+ul.article-post li a {
+	color: #000000;
+}
+
+dl.article-category dd a {
+	color: #575e69;
+}
+
+div.pager a {
+	color: #000000;
+}
+
+div.article-date-outer {
+	color: #515e69;
+}
+
+ul.ping-info li.ping-date
+, ul.comment-info li.comment-date {
+	color: #8d8d8d;
+}
+
+div.article-body a:link
+, div.article-body a:active {
+	color: #0e8cfe;
+}
+
+div.article-body a:visited {
+	color: #858e96;
+}
+
+div.article-option h3 {
+	color: #0287ff;
+}
+
+div.trackback-set a
+, div.comment-set a {
+	color: #000000;
+}
+
+div.comment-auth-announcement p a {
+	color: #000000;
+	font-weight: bold;
+}
+
+div.sidetitle {
+	color: #0287ff;
+}
+
+div.sidetitle a {
+	color: #0287ff;
+}
+
+div.calendarhead {
+	color: #0287ff;
+}
+
+div.calendarhead a {
+	color: #0287ff;
+}
+
+div.side a:link
+, div.side a:active {
+	color: #000000;
+}
+
+div.side a:visited {
+	color: #858e96;
+}
+
+div.side a:hover {
+	color: #000000;
+}
+
+div#footer p
+, div#footer p a {
+	color: #000000;
+}
+
+/* =============================================== */
+/** 02. Layout - レイアウト（全体の枠組み） */
+/* ----------------------------------------------- */
+
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 775px;
+	background-color: #aed7ff;
+	text-align: center;
+}
+
+div#container {
+	width: 94%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+div#content {}
+
+div#main
+, div#sub
+, div#extra {
+	overflow: hidden;
+}
+
+div#main {
+	float: left;
+	display: inline;
+	width: 100%;
+}
+
+div#main div.column-inner {
+	margin: 0 230px;
+}
+
+div#sub {
+	float: left;
+	margin-left: -100%;
+	display: inline;
+	width: 220px;
+	background: #d3e9ff url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/side_top.gif) no-repeat;/* 背景画像：上 */
+	padding-top: 15px;
+}
+
+div#sub div.column-inner {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/side_bottom.gif) no-repeat bottom;/* 背景画像： 下 */
+	padding-bottom: 30px;
+}
+
+div#extra {
+	float: left;
+	margin-left: -220px;
+	display: inline;
+	width: 220px;
+	background: #d3e9ff url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/side_top.gif) no-repeat;/* 背景画像：上 */
+	padding-top: 15px;
+}
+
+div#extra div.column-inner {
+	padding-bottom: 30px;
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/side_bottom.gif) no-repeat bottom;/* 背景画像： 下 */
+}
+
+
+/* ----------------------------------------------- */
+/** clearfix */
+
+div#container:after
+, div#content:after
+, ul.article-navigator:after
+, ul.archives-navigator:after
+, div.article-body:after
+, div.article-body div.article-body-more:after
+, div#trackback-form ul:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+/** hasLayout */
+div.blog-title-outer
+, h2.archives-title
+, div.article-body
+, div.article-footer
+, h2.article-title
+, div.pager
+, ul
+, div.index-navigator-outer {
+	height: 1%;
+}
+
+/** peek-a-boo bug */
+div#trackback-form
+, div#trackbacks-list
+, div#comments-list
+, div#comment-form {
+	height: 1%;
+}
+
+/* =============================================== */
+/** 03. Title - ブログタイトルエリア */
+/* ----------------------------------------------- */
+
+div.blog-title-outer {
+	background: #63abec url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/line_r_top_right.gif) no-repeat right top;/* 背景画像：右上 */
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+div.blog-title-outer-2 {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/line_r_bottom_right.gif) no-repeat right bottom;/* 背景画像：右下 */
+	padding-right: 10px;
+
+}
+
+div.blog-title-outer-3 {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/line_r_top_left.gif) no-repeat left top;/* 背景画像：左上 */
+}
+
+h1#blog-title {
+	margin: 0;
+	padding: 35px 20px 0 30px;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+div.blog-description-outer {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/line_r_bottom_left.gif) no-repeat left bottom;/* 背景画像：左下 */
+}
+
+p#blog-description {
+	margin: 0;
+	padding: 10px 30px 35px;
+	line-height: 135%;
+}
+
+/* =============================================== */
+/** 04. SubTitle - アーカイブタイトルエリア */
+/* ----------------------------------------------- */
+
+div.archives-title-outer {
+	background: #63abec url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/r_top_left.gif) no-repeat left top;/* 背景画像：左上 */
+	margin-bottom: 10px;
+}
+
+div.archives-title-outer-2 {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/r_top_right.gif) no-repeat right top;/* 背景画像：右上 */
+	padding-top: 15px;
+}
+
+div.archives-title-outer-3 {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/r_bottom_right.gif) no-repeat right bottom;/* 背景画像：右下 */
+	padding-right: 20px;
+}
+
+h2.archives-title {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/r_bottom_left.gif) no-repeat left bottom;/* 背景画像：左下 */
+	margin: 0;
+	padding: 0 0 15px;
+	text-align: center;
+	font-size: 108%;
+}
+
+/* =============================================== */
+/** 05. Pager - ページャ */
+/* ----------------------------------------------- */
+
+div.pager {
+	background: #d3e9ff url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/r_bottom_left.gif) no-repeat bottom left;/* 背景画像：左下 */
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+div.pager-inner {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/r_bottom_right.gif) no-repeat bottom right;/* 背景画像：右下 */
+	padding-bottom: 15px;
+}
+
+div.index-navigator-outer
+, div.archives-pager-outer
+, div.article-pager-outer {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/r_top_right.gif) no-repeat right top;/* 背景画像：右上 */
+}
+
+/* ----------------------------------------------- */
+/** IndexNavigator - トップページ */
+
+ul.index-navigator {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/r_top_left.gif) no-repeat left top;/* 背景画像：左上 */
+	padding-top: 15px;
+	font-size: 90%;
+}
+
+ul.index-navigator li a {
+	padding: 0 7px;
+}
+
+/* ----------------------------------------------- */
+/** ArchivesPager - アーカイブページ */
+
+ul.archives-pager {
+	list-style-type: none;
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/r_top_left.gif) no-repeat left top;/* 背景画像：左上 */
+	padding-top: 15px;
+	font-size: 90%;
+}
+
+ul.archives-pager li {
+	padding: 2px 5px;
+}
+
+ul.archives-pager li a {
+	padding: 0 5px;
+}
+
+ul.archives-pager li.both {
+	border-left: 1px solid #575e69;
+}
+
+/* ----------------------------------------------- */
+/** ArticlePager - 個別記事ページ */
+
+ul.article-pager {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/r_top_left.gif) no-repeat left top;/* 背景画像：左上 */
+	padding-top: 15px;
+	font-size: 90%;
+}
+
+ul.article-pager li {
+	float: left;
+	width: 49%;
+	line-height: 1.25;
+}
+
+/* = special tech ... borderの高さを揃えるため */
+ul.article-pager {
+	overflow: hidden;
+}
+
+ul.article-pager li {
+	padding-top: 1px;/* 1px余白（上部） */
+	padding-bottom: 32768px;
+	margin-bottom: -32767px;/* 1px余白（下部） */
+}
+
+ul.article-pager li a {
+	display: block;
+	margin: 0 10px;
+}
+
+ul.article-pager li.prev {
+	text-align: right;
+}
+
+ul.article-pager li.next {
+	text-align: left;
+}
+
+ul.article-pager li.both {
+	border-left: 1px solid #8d8d8d;
+}
+
+/* =============================================== */
+/** 06. Main - 記事エリア */
+/* ----------------------------------------------- */
+
+div.article-outer {
+	background: #ffffff url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/r_bottom_right.gif) no-repeat bottom right;/* 背景画像：右下 */
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+div.article-outer-2 {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/r_bottom_left.gif) no-repeat bottom left;/* 背景画像：左下 */
+	padding-bottom: 6px;
+}
+
+div.article-outer-3 {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/r_top_left.gif) no-repeat;/* 背景画像：左上 */
+	padding-bottom: 30px;
+}
+
+/* ----------------------------------------------- */
+/** 記事ヘッダー */
+
+div.article-header {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/r_top_right.gif) no-repeat right top;/* 背景画像：右上 */
+	padding-top: 20px;
+}
+
+/*** 日付 */
+div.article-date-outer {
+	float: left;
+	padding-left: 20px;
+	font-size: 90%;
+	font-weight: bold;
+}
+div.article-date-outer span.article-date {
+	margin-right: 3px;
+	margin-right: 0.25em;
+}
+div.article-date-outer span.article-time {}
+
+/*** カテゴリ */
+div.article-category-outer {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/common/category.gif) no-repeat;
+	margin-left: 12.5em;/* 日付の幅 */
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+div.article-category-outer dl.article-category {
+	margin: 0;
+	padding: 0;
+	line-height: 1.25;
+}
+
+div.article-category-outer dl.article-category dt
+, div.article-category-outer dl.article-category dd {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	margin-right: 5px;
+	font-size: 90%;
+}
+
+div.article-category-outer dl.article-category dt {
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	text-indent: -9999px;
+}
+
+/*** カテゴリアーカイブページではカテゴリを非表示にする */
+body.category div.article-category-outer {
+	display: none;
+}
+
+/*** 記事タイトル */
+div.article-title-outer {
+	padding-right: 20px;
+}
+
+h2.article-title {
+	clear: left;
+	margin: 0;
+	padding: 10px 20px 20px;
+	font-size: 125%;
+	font-weight: bold;
+}
+
+/* ----------------------------------------------- */
+/** 記事本文 */
+
+div.article-body {
+	background-color: #ffffff;
+	padding: 20px 20px 5px;
+	line-height: 170%;
+	font-size: 100%;
+}
+
+div.article-body-inner {
+	width: 100%;
+	overflow: hidden;
+}
+
+/*** 続きを読む */
+div.article-body span.article-continue {
+	display: block;
+	margin-top: 1em;
+}
+
+div.article-body div.article-body-more
+, div.article-body div.article-body-private {
+	clear: both;
+	margin-top: 1em;
+}
+
+/*** blockquote & pre */
+div.article-body blockquote
+, div.article-body pre {
+	background-color: #f5f5f5;
+	padding: 5px 15px;
+	margin: 5px 0;
+	color: #595d68;
+}
+
+/*** img */
+div.article-body img.pict {
+	margin: 0 5px 5px 0;
+}
+
+/*** 共通テーマ */
+body.default_2008 dl.common-theme {
+	margin: 0 10px 25px;
+}
+
+/*** 記事タグ */
+body.default_2008 dl.article-tags {
+	margin: 25px 10px 0;
+}
+
+/*** プライベートモード */
+div.private-mode-announcement {
+	border-color: #858585;
+	line-height: 135%;
+	font-size: 90%;
+}
+
+/* ----------------------------------------------- */
+/** 記事フッター */
+
+div.article-footer {
+	background-color: #ffffff;
+	padding: 0 20px;
+}
+
+ul.article-post {
+	padding: 10px 5px 0;
+	text-align: right;
+}
+
+ul.article-post li {
+	min-height: 16px;
+	font-size: 82%;
+}
+
+/* =============================================== */
+/** 07. Option - トラックバック＆コメントエリア */
+/* ----------------------------------------------- */
+
+div#article-options {
+	background-color: #ffffff;
+	padding: 10px 20px;
+}
+
+div.article-option {
+	padding: 15px 0;
+}
+
+div.article-option h3 {
+	margin: 0 0 10px;
+	padding: 0;
+	font-size: 100%;
+}
+
+/*** 指定しやすいようstyleReset */
+	h4.ping-title
+	, ul.ping-info
+	, ul.ping-info li
+	, ul.comment-info
+	, ul.comment-info li {
+		padding: 0;
+		margin: 0;
+	}
+
+	ul.ping-info li
+	, ul.comment-info li {
+		list-style-type: none;
+	}
+
+/* ----------------------------------------------- */
+/** トラックバックURL */
+
+div#trackback-form ul {
+	margin: 0 30px;
+	padding: 0;
+}
+
+div#trackback-form ul li {
+	list-style-type: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+div#trackback-form ul li.trackback-form-url {
+	width: 100%;
+	margin-right: -90px;
+}
+
+div#trackback-form ul li.trackback-form-url span input {
+	width: 100%;
+}
+
+div#trackback-form ul li.trackback-form-url span {
+	display: block;
+	padding-right: 100px;
+	/* >> trackbackURL とsubmitボタンとの余白 100px-90px=10px となる */
+}
+
+div#trackback-form ul li.trackback-form-submit {
+	width: 80px;
+}
+
+div#trackback-form ul li.trackback-form-submit input {}
+
+/* ----------------------------------------------- */
+/** トラックバック一覧 */
+
+div.trackback-set {
+	padding: 0 0 10px 20px;
+	font-size: 90%;
+}
+
+h4.ping-title {
+	display: inline;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+ul.ping-info {
+	display: inline;
+}
+
+ul.ping-info li.ping-blog-name {
+	display: inline;
+	margin-left: 20px;
+}
+
+ul.ping-info li.ping-blog-name span {
+	margin: 0 10px;
+}
+
+ul.ping-info li.ping-date {
+	display: inline;
+	margin-left: 10px;
+}
+
+ul.ping-info li.ping-excerpt {
+	display: block;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+ul.ping-info li.ping-excerpt img.trackback-rating {}
+
+/* ----------------------------------------------- */
+/** コメント一覧 */
+
+li.comment-set {
+	padding: 0 0 10px 20px;
+	font-size: 90%;
+}
+
+ul.comment-info li.comment-author {
+	display: inline;
+}
+
+ul.comment-info li.comment-date {
+	display: inline;
+	margin-left: 10px;
+}
+
+ul.comment-info li {
+	display: inline;
+}
+
+ul.comment-info li.comment-body {
+	display: block;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+ul.comment-info li.comment-body img.trackback-rating {}
+
+/* ----------------------------------------------- */
+/** コメントフォーム */
+
+div#comment-form-body {
+	background-color: #f5f5f5;
+	padding: 15px 0 15px 5px;
+}
+
+div#comment-form-body table {
+	border: 0;
+	width: 95%;
+	line-height: 25px;
+	font-size: 90%;
+}
+
+div#comment-form-body table th {
+	width: 3em;
+	padding-right: 5px;
+	text-align: right;
+	font-weight: normal;
+}
+
+input#author {
+	width: 65%;
+}
+
+input#email {
+	width: 65%;
+}
+
+input#url {
+	width: 85%;
+}
+
+input#bake {
+	margin: 0 0 0 5px;
+}
+
+textarea#text {
+	width: 90%;
+	height: 250px;
+}
+
+input.button {
+	margin-top: 10px;
+	width: 80px;
+}
+
+div#comment-form-body table tr.input-etc td {
+	padding-top: 6px;
+}
+
+label.input-rating {
+	margin-left: 20px;
+}
+
+label.input-rating select {
+	margin-left: 3px;
+}
+
+label.input-rating-face {
+	margin-left: 5px;
+}
+
+label.input-rating-star {}
+
+div#comment-form-body table tr.submit td {
+	text-align: center;
+}
+
+/*** コメント認証 */
+div.comment-auth-announcement {
+	margin: 10px 0;
+	border-color: #858585;
+	font-size: 90%;
+}
+
+div.comment-auth-announcement p a {
+	margin: 0 3px;
+}
+
+/* ----------------------------------------------- */
+/** 関連記事 */
+
+div.related-articles{
+	padding: 15px 0 0;
+}
+div.related-articles h3{
+	color: #0287ff;
+	margin: 0 0 10px;
+	padding: 0;
+	font-size: 100%;
+}
+div.related-articles ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+}
+div.related-articles ul li{
+	background: url(http://parts.blog.livedoor.jp/img/cmn/dot.gif) no-repeat 0 8px;
+	padding: 0 0 5px 9px;
+	margin-left: 5px;
+}
+
+
+/* =============================================== */
+/** 08. Sub & Extra - プラグインエリア */
+/* ----------------------------------------------- */
+
+div.sidetitlebody {}
+
+div.sidetitle {
+	padding: 0 20px 10px;
+	text-align: left;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+div.sidetop
+, div.sidebottom {
+	display: none;
+}
+
+div.side {
+	margin: 0 20px 20px;
+	text-align: center;
+	font-size: 90%;
+}
+
+div.sidebody {
+	background: url(http://parts.blog.livedoor.jp/img/usr/livedoor/web_directors/side_body.gif) no-repeat 0 8px;
+	padding: 0 0 5px 9px;
+	margin-left: 5px;
+	text-align: left;
+}
+
+/* ----------------------------------------------- */
+/** カレンダー */
+
+div.calendarheadbody {}
+div.calendarheadbody div.calendarhead {
+	padding: 0 20px 10px;
+	text-align: center;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+div.caltop
+, div.calbottom {
+	display: none;
+}
+
+div.calbody {}
+
+table.caltbl {
+	width: 180px;
+	margin: 0 auto;
+	border: 0;
+}
+div.calbody table.calendartable {}
+td.caltblwkbg {}
+td.calendarwd {}
+td table.caltblwk td {
+	font-size: 90%;
+	font-weight: bold;
+	height: 20px;
+}
+
+td table.caltblwk td.weekday {}
+td table.caltblwk td.sat {}
+td table.caltblwk td.sun {}
+td table.caltblwk td span.calendarweek {}
+td.caltbldaybg {}
+td table.caltblday {
+	margin: 0 auto 25px;
+	width: 180px;
+	color: #8d8d8d;
+	font-size: 82%;
+}
+td table.caltblday td {
+	width: 20px;
+	height: 24px;
+	padding: 0;
+	text-align: center;
+}
+td table.caltblday td.caloff {}
+td table.caltblday td.calendard {}
+td table.caltblday td.calon {}
+td table.caltblday td.calon a {}
+td table.caltblday td.calendardbg {}
+td table.caltblday td span.calendar {}
+
+/* ----------------------------------------------- */
+/** プロフィール（プラグイン） */
+
+.nickname {
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.message {
+	text-align: left;
+	line-height: 125%;
+}
+
+/* ----------------------------------------------- */
+/** LDServices */
+
+ul#ld-services {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/banner_base.gif) no-repeat center;
+	padding-top: 20px;
+}
+
+/* =============================================== */
+/** 09. Header & Footer - ヘッダー・フッター */
+/* ----------------------------------------------- */
+/** Header */
+
+table#header {
+	font-size: 75%;
+}
+
+/* ----------------------------------------------- */
+/** Footer */
+
+div.footer-outer {
+	width: 94%;
+	margin: 0 auto 50px;
+	background: #63abec url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/line_r_top_right.gif) no-repeat right top;/* 背景画像：右上 */
+}
+
+div.footer-outer-2 {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/line_r_bottom_right.gif) no-repeat right bottom;/* 背景画像：右下 */
+
+	padding-right: 10px;
+}
+
+div#footer {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/line_r_top_left.gif) no-repeat left top;/* 背景画像：左上 */
+	height: 38px;
+}
+
+div#footer p {
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/line_r_bottom_left.gif) no-repeat left bottom;/* 背景画像：左下 */
+	line-height: 38px;
+	font-size: 75%;
+}
+
+/* =============================================== */
+/** 10. Others - ADエリア etc. */
+/* ----------------------------------------------- */
+/** ADエリア */
+
+div#ad {
+	margin: 25px auto 0;
+	text-align: center;
+}
+
+div#ad iframe {
+	margin: 10px auto;
+}
+
+div.gAdsense {
+	padding: 10px 0;
+}
+
+body.ad {
+	background: transparent;
+	text-align: left;
+}
+
+a.adtitle {
+	color: #0000ff!important;
+	font-weight: bold;
+}
+
+a.adtitle span {
+	font-size: 90%!important;
+}
+
+a.addescription {
+	color: #000000!important;
+}
+
+a.addescription span {
+	font-size: 82%!important;
+}
+
+a.adurl {
+	color: #1b8d1c!important;
+	text-decoration: none;
+}
+
+a.adurl span {
+	font-size: 82%!important;
+}
+
+a.adld {
+	color: #666666!important;
+	text-decoration: underline;
+	font-size: 110%;
+}
+
+.adbox{}
+.adbox .adtop{
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/ads_off.gif) no-repeat left 7px;
+	padding-left: 20px !important;
+}
+.adhover{}
+.adhover .adtop{
+	background: url(http://parts.blog.livedoor.jp/img/usr/default_2008/aqua/ads_on.gif) no-repeat left 7px;
+	padding-left: 20px !important;
+}
+
+
+/* Update History
+==================================================
+New
+・ads背景変更
+・2007.12.28 リリース
+==================================================
+*/
+
+/* End */

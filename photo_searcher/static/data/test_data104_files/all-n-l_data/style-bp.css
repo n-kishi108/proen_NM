@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+div,p,h1,h2,h3,h4,h5,h6,body,ul { margin:0; padding:0;}
+
+li { list-style:none outside; }
+
+body {line-height:100%; font-family: "ＭＳ Ｐゴシック", "Osaka", verdana, arial, sans-serif,palatino, georgia, "ヒラギノ角ゴ Pro W3"; 
+		text-align:center; }
+
+
+.bar { text-align:center; font-size:11px; font-weight:bold; color:#FFF; }
+
+ul.news { line-height:110%; } 
+ul.news li { padding-top:2px; padding-bottom:2px; }
+
+/* ##### anchor ######*/
+a:link { color:#00B; text-decoration:none; }
+a:visited { color:#008; text-decoration:none; }
+a:active { color:#00B; text-decoration:underline;}
+a:hover { color:#F33; text-decoration:underline;}
+
+
+
+/* チームアイコン */
+.teams-g  { background:url(../image/icon/g.png) no-repeat 1px center ; padding-left:20px;}
+.teams-t  { background:url(../image/icon/t.png) no-repeat 1px center ; padding-left:20px;}
+.teams-d  { background:url(../image/icon/d.png) no-repeat 1px center ; padding-left:20px;}
+.teams-c  { background:url(../image/icon/c.png) no-repeat 1px center ; padding-left:20px;}
+.teams-s  { background:url(../image/icon/s.png) no-repeat 1px center ; padding-left:20px;}
+.teams-yb { background:url(../image/icon/yb.png) no-repeat 1px center ; padding-left:20px;}
+.teams-l  { background:url(../image/icon/l.png) no-repeat 1px center ; padding-left:20px;}
+.teams-bs { background:url(../image/icon/bs.png) no-repeat 1px center ; padding-left:20px;}
+.teams-f  { background:url(../image/icon/f.png) no-repeat 1px center ; padding-left:20px;}
+.teams-m  { background:url(../image/icon/m.png) no-repeat 1px center ; padding-left:20px;}
+.teams-e  { background:url(../image/icon/e.png) no-repeat 1px center ; padding-left:20px;}
+.teams-h  { background:url(../image/icon/h.png) no-repeat 1px center ; padding-left:20px;}
+.teams-mj { background:url(../image/icon/mj.png) no-repeat 1px center ; padding-left:20px;}
+.teams-o  { background:url(../image/icon/o.png) no-repeat 1px center ; padding-left:20px;}
+
+/* チームメニューアイコン */
+.teammenu-news  { background:url(../image/icon-teammenu/news.gif) no-repeat 1px center ; padding-left:20px;}
+.teammenu-blogs  { background:url(../image/icon-teammenu/blogs.gif) no-repeat 1px center ; padding-left:20px;}
+.teammenu-website  { background:url(../image/icon-teammenu/website.gif) no-repeat 1px center ; padding-left:20px;}
+.teammenu-fanblog  { background:url(../image/icon-teammenu/fanblog.gif) no-repeat 1px center ; padding-left:20px;}
+
+/* ニュースサイトアイコン */
+.news-snc  { background:url(../image/icon-news/snc.png) no-repeat 1px center ; padding-left:20px;}
+.news-ssp  { background:url(../image/icon-news/ssp.png) no-repeat 1px center ; padding-left:20px;}
+.news-snv  { background:url(../image/icon-news/snv.png) no-repeat 1px center ; padding-left:20px;}
+.news-nsp  { background:url(../image/icon-news/nsp.png) no-repeat 1px center ; padding-left:20px;}
+.news-huc  { background:url(../image/icon-news/huc.png) no-repeat 1px center ; padding-left:20px;}
+.news-dly  { background:url(../image/icon-news/dly.png) no-repeat 1px center ; padding-left:20px;}
+.news-dsn  { background:url(../image/icon-news/dsn.png) no-repeat 1px center ; padding-left:20px;}
+.news-nis  { background:url(../image/icon-news/nis.png) no-repeat 1px center ; padding-left:20px;}
+.news-khk  { background:url(../image/icon-news/khk.png) no-repeat 1px center ; padding-left:20px;}
+.news-cgk  { background:url(../image/icon-news/cgk.png) no-repeat 1px center ; padding-left:20px;}
+.news-cnc  { background:url(../image/icon-news/cnc.png) no-repeat 1px center ; padding-left:20px;}
+.news-kng  { background:url(../image/icon-news/kng.png) no-repeat 1px center ; padding-left:20px;}
+.news-chi  { background:url(../image/icon-news/chi.png) no-repeat 1px center ; padding-left:20px;}
+
+.news-skp { background:url(../image/icon-news/skp.png) no-repeat 1px center ; padding-left:20px; }

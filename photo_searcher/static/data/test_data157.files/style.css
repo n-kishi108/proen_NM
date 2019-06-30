@@ -1,0 +1,423 @@
+* {
+	FONT-FAMILY: "verdana", "helvetica", "osaka", "‚l‚r ‚oƒSƒVƒbƒN", sans-serif
+}
+TEXTAREA {
+	FONT-FAMILY: "ƒqƒ‰ƒMƒm–¾’© Pro W6", "Osaka", "‚l‚r ‚oƒSƒVƒbƒN", "trebuchet MS", "trebuchet", "verdana", "arial", "sans-serif"
+}
+BODY {
+	TEXT-ALIGN: center; MARGIN: 0px; BACKGROUND: url(http://www.kyo2.jp/_img/photolog_2cam_1/potob01.jpg) #cccccc repeat-y 50% 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TABLE.form {
+	MARGIN: 25px 0px 0px 13px
+}
+IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+UL.rss {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL.rss LI {
+	FONT-STYLE: normal; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.5em; DISPLAY: inline; LETTER-SPACING: 0px; FONT-SIZE: 12px; FONT-WEIGHT: bold; MARGIN-RIGHT: 0.3em; BORDER-RIGHT: #999 1px solid
+}
+UL.rss A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+UL.rss A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+UL.rss A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+UL.rss A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A:link {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A:hover {
+	
+}
+A.acalendar {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.acalendar:link {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.acalendar:visited {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.acalendar:active {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.acalendar:hover {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.acontinues {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.acontinues:link {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.acontinues:unknown {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.acontinues:active {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.acontinues:hover {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.amenu {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.amenu:link {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.amenu:visited {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.amenu:active {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.amenu:hover {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+#container {
+	TEXT-ALIGN: left; BACKGROUND-COLOR: #000000; MARGIN: 0px auto; WIDTH: 740px; FONT-SIZE: 12px
+}
+#banner {
+	BACKGROUND: #000000 center bottom; HEIGHT: 80px
+}
+#subbanner {
+	BACKGROUND: #000000 center bottom; HEIGHT: 80px
+}
+#banner A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#banner A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#banner A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#banner A:active {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+#banner A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+#subbanner A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#subbanner A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#subbanner A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#subbanner A:active {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+#subbanner A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.blogtitle {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 50px; LETTER-SPACING: 2px; FONT-SIZE: 30px; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+.description {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 50px; LETTER-SPACING: 2px; COLOR: #ffffff; FONT-SIZE: 12px; PADDING-TOP: 4px
+}
+#content {
+	WIDTH: 543px; FLOAT: right
+}
+#links {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #000000; MARGIN: 0px; PADDING-LEFT: 10px; WIDTH: 185px; PADDING-RIGHT: 0px; FLOAT: left; COLOR: #fff; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+#footer {
+	CLEAR: both
+}
+#copyright {
+	BORDER-BOTTOM: #484848 1px solid; TEXT-ALIGN: center; PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; BACKGROUND-COLOR: #000; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 16px; COLOR: #ffffff; FONT-SIZE: 10px; BORDER-TOP: #484848 1px solid; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+.blog {
+	MARGIN: 20px 10px 20px 15px
+}
+.date {
+	BORDER-BOTTOM: #484848 1px; BORDER-LEFT: #484848 1px; PADDING-BOTTOM: 5px; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; BACKGROUND: url(http://www.kyo2.jp/_img/photolog_2cam_1/potob03.jpg) #000000 0px 0px; LETTER-SPACING: 2px; COLOR: #d7d7d7; FONT-SIZE: 12px; BORDER-TOP: #484848 1px; BORDER-RIGHT: #484848 1px; PADDING-TOP: 5px
+}
+.blogbody {
+	BORDER-BOTTOM: #484848 1px; BORDER-LEFT: #484848 1px; PADDING-BOTTOM: 8px; MARGIN: 0px 0px 10px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BACKGROUND: #000000; BORDER-RIGHT: #484848 1px; PADDING-TOP: 8px
+}
+.titletp {
+	BORDER-BOTTOM: #484848 1px; BORDER-LEFT: #484848 1px; PADDING-BOTTOM: 5px; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; BACKGROUND: url(http://www.kyo2.jp/_img/photolog_2cam_1/potob03.jpg) #000000 0px 0px; LETTER-SPACING: 2px; COLOR: #d7d7d7; FONT-SIZE: 12px; BORDER-TOP: #484848 1px; BORDER-RIGHT: #484848 1px; PADDING-TOP: 5px
+}
+.title {
+	BACKGROUND-IMAGE: url(http://www.kyo2.jp/_img/photolog_2cam_1/pototop02.jpg); PADDING-LEFT: 18px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 15px; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.main {
+	LINE-HEIGHT: 135%; MARGIN: 16px 10px 15px 0px; WIDTH: 490px; COLOR: #ffffff; FONT-SIZE: 12px; OVERFLOW: auto
+}
+.main IMG {
+	MARGIN: 0px 5px 5px
+}
+.main-continues {
+	FONT-SIZE: 10px
+}
+.posted {
+	TEXT-ALIGN: right; MARGIN: 0px 0px 25px; WIDTH: auto; HEIGHT: auto; COLOR: #ffffff; FONT-SIZE: 10px
+}
+A.aposted {
+	COLOR: #d7d7d7; FONT-SIZE: 10px; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+A.aposted:link {
+	COLOR: #d7d7d7; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+A.aposted:visited {
+	COLOR: #d7d7d7; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+A.aposted:active {
+	COLOR: #d7d7d7; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.aposted:hover {
+	COLOR: #d7d7d7; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.menu {
+	TEXT-ALIGN: right; COLOR: #fff; FONT-SIZE: 12px
+}
+.comments-head {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 10px; COLOR: #fff; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.comments-body {
+	LINE-HEIGHT: 135%; MARGIN: 20px 0px 15px 13px; COLOR: #fff; FONT-SIZE: 12px
+}
+.comments-post {
+	TEXT-ALIGN: right; MARGIN: 0px 0px 25px; COLOR: #fff; FONT-SIZE: 12px
+}
+.trackback-url {
+	MARGIN: 20px 0px 15px 13px; WIDTH: auto; HEIGHT: auto; COLOR: #fff; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.trackback-body {
+	LINE-HEIGHT: 135%; MARGIN: 20px 0px 15px 13px; WIDTH: auto; HEIGHT: auto; COLOR: #ffffff; FONT-SIZE: 12px
+}
+.trackback-post {
+	TEXT-ALIGN: right; MARGIN: 0px 0px 25px; WIDTH: auto; HEIGHT: auto; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+A.atrackback-post {
+	COLOR: #ffffff; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.atrackback-post:link {
+	COLOR: #ffffff; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.atrackback-post:visited {
+	COLOR: #ffffff; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.atrackback-post:active {
+	COLOR: #ffffff; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.atrackback-post:hover {
+	COLOR: #ffffff; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+LABEL {
+	COLOR: #ffffff; FONT-SIZE: 11px; FONT-WEIGHT: normal
+}
+#author {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; WIDTH: 200px; COLOR: #000; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid
+}
+#email {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; WIDTH: 200px; COLOR: #000; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid
+}
+#url {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; WIDTH: 200px; COLOR: #000; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid
+}
+#text {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; WIDTH: 240px; HEIGHT: 150px; COLOR: #000; FONT-SIZE: 12px; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid
+}
+.pagetop {
+	TEXT-ALIGN: right; MARGIN: 0px 0px 25px; FONT-SIZE: 10px
+}
+.calendarhead {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 5px; BACKGROUND: #000000 left top; LETTER-SPACING: 2px; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+.calendartable {
+	BORDER-BOTTOM: #484848 1px; TEXT-ALIGN: left; BORDER-LEFT: #484848 1px; PADDING-BOTTOM: 0px; MARGIN: 0px auto 10px; PADDING-LEFT: 0px; BORDER-SPACING: 0px; WIDTH: 185px; PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; EMPTY-CELLS: show; BACKGROUND: #000000; BORDER-TOP: #484848 1px; BORDER-RIGHT: #484848 1px; PADDING-TOP: 0px
+}
+.calendarweek {
+	FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.calendarwd {
+	BORDER-BOTTOM: #484848 1px; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 5px; PADDING-RIGHT: 0px; BACKGROUND: url(http://www.kyo2.jp/_img/photolog_2cam_1/potob02.jpg) #000000 -30px 0px; LETTER-SPACING: 2px; COLOR: #ffffff; FONT-SIZE: 12px; BORDER-LEFT-STYLE: none; BORDER-TOP: #484848 1px; PADDING-TOP: 5px
+}
+.calendard {
+	TEXT-ALIGN: center; COLOR: #ffffff
+}
+.calendardbg {
+	
+}
+.calender {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; COLOR: #ffffff; FONT-SIZE: 12px; PADDING-TOP: 4px
+}
+.sidetitle {
+	BORDER-BOTTOM: #484848 1px; TEXT-ALIGN: center; BORDER-LEFT: #484848 1px; PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; WIDTH: 185px; PADDING-RIGHT: 0px; BACKGROUND: url(http://www.kyo2.jp/_img/photolog_2cam_1/potob02_1.jpg) #666666 -5px 1px; LETTER-SPACING: 1px; COLOR: #00bceb; FONT-SIZE: 12px; BORDER-TOP: #484848 1px; BORDER-RIGHT: #484848 1px; PADDING-TOP: 5px
+}
+.side {
+	BORDER-BOTTOM: #484848 1px; BORDER-LEFT: #484848 1px; PADDING-BOTTOM: 5px; LINE-HEIGHT: 140%; MARGIN: 0px 0px 10px; PADDING-LEFT: 5px; WIDTH: 180px; PADDING-RIGHT: 5px; FONT-SIZE: 12px; BORDER-RIGHT: #484848 1px; PADDING-TOP: 5px
+}
+.side .text {
+	WIDTH: 80px
+}
+.sidebody {
+	COLOR: #d7d7d7
+}
+A.aside {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.aside:link {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.aside:visited {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.aside:active {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.aside:hover {
+	TEXT-DECORATION: underline
+}
+A.arss {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.arss:link {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.arss:visited {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.arss:active {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+A.arss:hover {
+	COLOR: #d7d7d7; TEXT-DECORATION: underline
+}
+.photo {
+	TEXT-ALIGN: center
+}
+.nickname {
+	MARGIN: 10px 0px; COLOR: #ffffff; FONT-SIZE: 10px; FONT-WEIGHT: bold
+}
+.message {
+	FONT-SIZE: 10px
+}
+.quotetable {
+	
+}
+.quote {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; COLOR: #000; FONT-SIZE: 10px; PADDING-TOP: 1px
+}
+.blogtimes {
+	TEXT-ALIGN: center; MARGIN: 0px 0px 16px
+}
+.powered {
+	TEXT-ALIGN: center; MARGIN: 0px 0px 10px
+}
+.syndicate {
+	TEXT-ALIGN: center; FONT-SIZE: 10px
+}
+.checkers {
+	MARGIN-TOP: 10px; FONT-SIZE: 10px
+}
+A.adtitle {
+	FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.adtitle:link {
+	FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.adtitle:visited {
+	FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.adtitle:active {
+	FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.adtitle:hover {
+	FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.addescription {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.addescription:link {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.addescription:visited {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.addescription:active {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.addescription:hover {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.adurl {
+	COLOR: blue; TEXT-DECORATION: none
+}
+A.adurl:link {
+	COLOR: #0000ff; TEXT-DECORATION: none
+}
+A.adurl:visited {
+	COLOR: #0000ff; TEXT-DECORATION: none
+}
+A.adurl:active {
+	COLOR: #0000ff; TEXT-DECORATION: none
+}
+A.adurl:hover {
+	COLOR: #0000ff; TEXT-DECORATION: none
+}
+A.adld {
+	TEXT-DECORATION: underline
+}
+A.adld:link {
+	TEXT-DECORATION: underline
+}
+A.adld:visited {
+	TEXT-DECORATION: underline
+}
+A.adld:active {
+	TEXT-DECORATION: underline
+}
+A.adld:hover {
+	TEXT-DECORATION: underline
+}
+BODY.ad {
+	
+}
+.photo {
+	BORDER-BOTTOM: #484848 1px; TEXT-ALIGN: center; BORDER-LEFT: #484848 1px; PADDING-BOTTOM: 3px; MARGIN: 10px 2px 5px; PADDING-LEFT: 3px; WIDTH: 160px; PADDING-RIGHT: 3px; BACKGROUND: #000000; FLOAT: left; OVERFLOW: hidden; BORDER-TOP: #484848 1px; BORDER-RIGHT: #484848 1px; PADDING-TOP: 3px
+}
+.photo IMG {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid; MARGIN: 0px 4px; WIDTH: 160px; HEIGHT: 120px; BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid
+}
+.photo H3.title {
+	PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px; PADDING-LEFT: 0px; WIDTH: 160px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 12px; COLOR: #ffffff; OVERFLOW: hidden; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+.photo H2.date {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: none; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 160px; PADDING-RIGHT: 0px; BORDER-TOP-STYLE: none; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 10px; BORDER-LEFT-STYLE: none; FONT-WEIGHT: normal; PADDING-TOP: 0px; colof: #666
+}

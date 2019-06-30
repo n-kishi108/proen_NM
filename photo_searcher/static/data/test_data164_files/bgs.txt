@@ -1,0 +1,2 @@
+document.write('<a href="http://az.zozo.jp/bc.asp?bccid=103670&lu=http%3A%2F%2Fzozo%2Ejp%2F%5Fnews%2F4343%2F4343%2Ehtml" ><img src="http://img4.zozo.jp/bn/12_2010323195111.jpg"   alt="t•¨Šé‰æ05"></a>');
+

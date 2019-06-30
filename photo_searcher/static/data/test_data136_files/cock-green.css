@@ -1,0 +1,494 @@
+@charset "euc-jp";
+
+
+/** |01.Common Section| ****************************************************************** START **/
+
+/* 回込解除 */
+.clear{
+	clear:both;
+}
+
+/* リンク色 */
+a:link, a:visited{
+	color:#517026;
+	text-decoration:none;
+}
+
+a:hover, a:active{
+	color:#87bc3f;
+	text-decoration:underline;
+}
+
+/** |01.Common Section| ******************************************************************** END **/
+
+
+
+/** |02.Element Section| ***************************************************************** START **/
+
+/* 画像 ***********************************************************************/
+
+img{
+	border:none;
+}
+
+/** |02.Element Section| ******************************************************************* END **/
+
+
+
+/** |03.Layout Section| ****************************************************************** START **/
+
+body{
+	text-align:center;
+	background:#87bc3f;
+	margin:0px;
+	padding:0px;
+}
+
+h1{
+	width:862px;
+	font-size:100%;
+	font-family:"Tahoma","Verdana",Sans-serif;
+	background:#ffffff url("h1.jpg") center top no-repeat;
+	color:#517026;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:0px;
+	padding:200px 0px 90px 0px;
+}
+
+div.hatena-body{
+	width:862px;
+	background:url("hatena_body.gif") center top repeat-y;
+	margin:0px auto;
+	padding:0px 0px 20px 0px;
+	display:inline-block;
+}
+
+div.hatena-body:after{
+	content:".";
+	font-size:0px;
+	height:0;
+	clear:both;
+	display:block;
+	visibility:hidden;
+}
+
+/* main：size */
+div.main{
+	width:636px;
+	float:right;
+	margin:0px;
+	padding:0px 0px 50px 0px;
+	text-align:left;
+}
+
+/* sidebar：size */
+div.sidebar{
+	width:226px;
+	float:left;
+	background:url("hatena_side.gif") left top repeat-y;
+	padding-bottom:50px;
+}
+
+/* main ***************************************************/
+/* 各要素 */
+div.main p, div.section p, div.main li, div.main td{
+	font-size:90%;
+	text-align:left;
+	margin:0px;
+	line-height:150%;
+}
+
+div.main p{
+	margin-bottom:10px;
+	word-wrap:break-word;
+}
+
+div.main li{
+	list-style-position:inside;
+}
+
+/* 幅 */
+div.calendar, div.ad, div.day{
+	margin:0px 27px 20px 28px;
+}
+
+/* タイトル */
+div.main div.day{
+	background:url("h2_top.gif") left top no-repeat;
+	padding-top:5px;
+	text-align:left;
+}
+
+div.day img.photo{
+	float:right;
+}
+
+div.day h2{
+	background-color:#517026;
+	color:#ffffff;
+	font-size:90%;
+	padding:5px 10px;
+	text-align:left;
+}
+
+div.main div.day h2{
+	color:#ffffff;
+	font-size:90%;
+	background:#517026 url("h2_bottom.gif") left bottom no-repeat;
+	padding-top:0px;
+	margin-top:0px;
+	padding-left:10px;
+	padding-bottom:5px;
+	margin-bottom:10px;
+}
+
+div.day{
+	text-align:left;
+	clear:both;
+}
+
+div.day h2 a:link, div.day h2 a:visited, div.day h2 a:hover, div.day h2 a:active{
+	color:#ffffff;
+}
+
+div.day h3{
+	display:inline-block;
+	font-size:90%;
+	margin:0px;
+	padding:25px 0px 25px 0px;
+	text-align:left;
+	/*white-space:nowrap;*/
+}
+
+div.day h3:after{
+	content:".";
+	font-size:0px;
+	height:0;
+	clear:both;
+	display:block;
+	visibility:hidden;
+}
+/*
+div.day h3 a{
+	width:36px;
+	height:13px;
+	background:url("h3_img.gif") left top no-repeat;
+	display:block;
+	float:left;
+	text-align:left;
+	text-decoration:none;
+	text-indent:-6000px;
+}
+*/
+div.day h3 a.sectioncategory{
+	width:auto;
+	height:auto;
+	background-image:none;
+	display:inline;
+	float:none;
+	text-align:left;
+	text-decoration:auto;
+	text-indent:auto;
+}
+
+div.day h3 a.keyword{
+	width:auto;
+	height:auto;
+	background-image:none;
+	display:inline;
+	float:none;
+	text-align:left;
+	text-decoration:auto;
+	text-indent:auto;
+}
+
+div.day h3 a.bookmark-icon{
+	width:auto;
+	height:auto;
+	background-image:none;
+	display:inline;
+	float:none;
+	text-align:left;
+	text-decoration:auto;
+	text-indent:auto;
+}
+
+div.day h3 span.sanchor{
+	width:36px;
+	height:13px;
+	background:url("h3_img.gif") left top no-repeat;
+	display:block;
+	float:left;
+	text-align:left;
+	text-decoration:none;
+	text-indent:-6000px;
+}
+
+.body h3.title {
+    margin-bottom: 0;
+    background:url("h3_img.gif") top left no-repeat;
+    padding:0 0 0 38px;
+}
+
+.body h3.title a {
+    text-decoration: none;
+    color: #000;
+}
+
+.body {
+  zoom:1;
+}
+
+div.body:after {
+  content:"";
+  display:block;
+  clear:both;
+}
+
+
+div.main p.sectionheader {
+    text-align: right;
+}
+
+
+/* コメント、トラックバック */
+div.comment, div.refererlist{
+	background:#f4f4f4 url("caption_bottom.gif") left bottom no-repeat;
+	font-size:90%;
+	margin-bottom:20px;
+}
+
+div.caption{
+	background:url("caption_top.gif") left top no-repeat;
+	margin-bottom:5px;
+	padding:10px;
+}
+
+div.commentshort{
+	border-top:dotted 1px #bbb5b5;
+	padding:10px;
+}
+
+div.refererlist ul{
+	border-top:dotted 1px #bbb5b5;
+	padding:10px;
+	margin:0px;
+}
+
+div.refererlist li{
+	list-style:circle;
+	list-style-position:inside;
+	word-wrap:break-word;
+}
+
+/* 記事ページャー */
+div.calendar{
+	font-size:80%;
+	text-align:right;
+}
+
+/* module *************************************************/
+div.hatena-module{
+	margin:20px 20px 30px 20px;
+}
+
+/* hatena-moduletitle */
+div.hatena-moduletitle{
+	border-bottom:dotted 1px #bbb5b5;
+	color:#87bc3f;
+	font-size:90%;
+	font-weight:bold;
+	padding-bottom:3px;
+	text-align:left;
+}
+
+
+/* hatena-modulebody */
+/* 各要素 */
+div.hatena-modulebody p{
+	margin:0px;
+	padding-top:10px;
+	text-align:left;
+	word-wrap:break-word;
+}
+
+div.hatena-modulebody form{
+	font-size:90%;
+	margin-top:10px;
+	text-align:left;
+}
+
+div.hatena-modulebody table{
+	margin-top:10px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+div.hatena-modulebody th, div.hatena-modulebody td{
+	font-size:90%;
+	padding:3px;
+}
+
+div.hatena-modulebody ul{
+	margin:0px;
+	padding:0px;
+}
+
+div.hatena-modulebody li{
+	font-size:90%;
+	list-style-type:circle;
+	list-style-position:inside;
+	padding-top:10px;
+	text-align:left;
+	word-wrap:break-word;
+}
+
+div.hatena-modulebody dt{
+	font-size:90%;
+	padding-top:10px;
+	text-align:left;
+	word-wrap:break-word;
+}
+
+div.hatena-modulebody dd{
+	font-size:90%;
+	padding-top:5px;
+	padding-left:0px;
+	margin-left:0px;
+	text-align:left;
+	word-wrap:break-word;
+}
+
+/* profile */
+div.hatena-modulebody p.hatena-profile-id{
+	font-weight:bold;
+	word-wrap:break-word;
+}
+
+/* calendar */
+table.calendar td{
+	font-size:80%;
+	text-align:center;
+}
+
+td.calendar-prev-month, td.calendar-current-month, td.calendar-next-month, td.calendar-sunday, td.calendar-weekday, td.calendar-saturday{
+	font-weight:bold;
+}
+
+div.hatena-modulebody td.calendar-next-month{
+	text-align:right;
+}
+
+div.hatena-modulebody td.day-today{
+	background-color:#ddf6ba;
+	color:#517026;
+	font-weight:bold;
+}
+
+/* 画像リスト */
+ul.hatena-photo li{
+	list-style:none;
+}
+
+/* 画像calendar */
+div.hatena-modulebody td.day-selected img, div.hatena-modulebody td.calendar-day img{
+	width:20px;
+	height:20px;
+}
+
+/* グラフ */
+div.hatena-graph{
+	padding-top:10px;
+}
+
+/* カウンタ */
+span.hatena-counter{
+	display:block;
+	margin-top:10px;
+}
+
+/* 1ペイン ************************************************/
+div#hatena-about, div#hatena-archive{
+	width:862px;
+	text-align:left;
+}	
+
+div#hatena-about div.day, div#hatena-archive div.day{
+	margin-left:253px;
+	margin-right:27px;
+	text-align:left;
+}
+
+div#hatena-about img.photo{
+	float:right;
+}
+
+div#hatena-about div.section h3, div#hatena-about div.section p, div#hatena-about div.section ul{
+	width:auto;
+	overflow:hidden;
+	margin-left:0px;
+}
+
+div#hatena-about li, div#hatena-archive li{
+	list-style:circle;
+	list-style-position:inside;
+}
+
+/* pre対応 */
+div.section pre{
+	word-wrap:break-word;
+}
+
+div.main blockquote, div.section blockquote{
+	border:solid #517026 1px;
+	margin:0px;
+	padding:10px;
+}
+
+/** |03.Layout Section| ******************************************************************** END **/
+
+
+
+/** |04.Decoration Section| ************************************************************** START **/
+
+/** |04.Decoration Section| **************************************************************** END **/
+
+/* Hatena ADD */
+
+.hatena-asin-detail-image {
+  float: left;
+  margin-right:25px;
+}
+
+.hatena-asin-detail-foot {
+  clear: both;
+}
+
+/* Hatena-Star */
+
+.hatena-star-comment-button-image {
+  background-image: url("http://s.hatena.ne.jp/images/comment_gr.gif");
+}
+
+.hatena-star-add-button-image {
+  background-image: url("http://s.hatena.ne.jp/images/add_gr.gif");
+}
+
+/* adsense */
+
+.google_color_text { color:#000000; }
+.google_color_link { color:#517026; }
+.google_color_url { color:#000000; }
+.google_color_bg { color:#ffffff; }
+.google_color_border { color:#ffffff; }
+
+/* max-width */
+
+div.main div.section img.hatena-fotolife {
+  max-width:580px;
+}
+
+div.section img.hatena-fotolife {
+  max-width:807px;
+}

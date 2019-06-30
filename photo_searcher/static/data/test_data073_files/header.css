@@ -1,0 +1,85 @@
+@charset "Shift_JIS";
+
+/* 全体構造
+---------------------------------------------------- */
+body {
+  margin:0px;
+  padding:0px;
+  color: #333333;
+  text-align:center;
+  word-break:break-all;
+}
+
+#wrapper {
+  width: 750px;
+  margin: 0 auto;
+  text-align:left;
+
+}
+
+/* ナビゲーションスキップ
+---------------------------------------------------- */
+#navi_skip {
+  width:750px;
+}
+
+/* ヘッダ
+---------------------------------------------------- */
+#header {
+	width:750px;
+	padding:10px 0px;
+}
+
+/* ツール
+---------------------------------------------------- */
+#tool {
+	clear:both;
+	margin:0px;
+	padding: 2px 0px;
+	text-align: center;
+	vertical-align:middle;
+/*-- 2006.05.11 検索ボックス暫定削除のため 以下を追加 */
+/*	float:right;*/
+}
+
+#tool ul {
+	margin: 0;
+	list-style: none;
+}
+#tool li {
+	display: inline;
+	white-space : nowrap;
+}
+
+#tool img {
+	vertical-align:middle;
+}
+
+/* メインメニュー
+---------------------------------------------------- */
+#menu {
+	clear:both;
+  width:752px;
+  margin:0px;
+  padding: 0px;
+}
+
+/* パンくずリスト
+---------------------------------------------------- */
+#header_navi {
+	width:750px;
+	float:left;
+	text-align: left;
+	padding: 5px 0px;
+}
+#header_list {
+	width:640px;
+	float:left;
+	text-align: left;
+	font-size: x-small;
+}
+#header_back {
+	width:100px;
+	float:right;
+	text-align: right;
+}

@@ -1,0 +1,46 @@
+@charset "euc-jp";
+
+#yahooIdentityContactCard {
+font-size:75.4%;
+line-height:1.56em;
+color:inherit;
+background:transparent;
+text-align:left;
+width:149px;
+}
+
+#yahooIdentityContactCard a{
+text-decoration:underline;
+}
+
+#modules .module h2 #yahooIdentityContactCard .contactCardTitleWrap .generic_bannerTitle span.title {
+display:inline;
+padding:0;
+}
+
+#modules .module h2 #yahooIdentityContactCard .contactCardTitleWrap .generic_bannerTitle span.state {
+display:inline;
+padding:0;
+}
+
+#yahooIdentityContactCard .yahooIdentityContactCardFooter img {
+position:relative;
+top:-2px;
+left:-2px;
+}
+
+#yahooIdentityContactCard .contactCardTitleWrap {
+margin:0pt 2px 0pt 3px;
+padding:2px 5px;
+}
+
+#yahooIdentityContactCard .yahooIdentityContactCardWrap .friendName .wbr{
+clear:none;
+width:0;
+height:auto;
+white-space:nowrap;
+float:none;
+display:inline;
+padding:0;
+}
+

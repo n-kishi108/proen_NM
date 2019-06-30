@@ -1,0 +1,515 @@
+if( !window.gooap_parts_flg_yuuki_ono_99_Sb3U77X9FsZm) {
+    window.gooap_parts_flg_yuuki_ono_99_Sb3U77X9FsZm=true;
+    try{
+        if( document.referrer == parent.frames.location ){
+            sRefer = top.document.referrer.toString();
+        }
+        else {
+            sRefer = document.referrer.toString();
+        }
+        if( refer.length == "" && window.opener != null ) {
+            sRefer = window.opener.location.toString();
+        }
+    }
+    catch(e){
+        sRefer = document.referrer.toString();
+    }
+
+    document.write( "<SC" + "RIPT type=\"text/javascript\" src=\""
+    + ( location.protocol == "https" ? "https://" :  "http://" ) + 'ashiato.goo.ne.jp' + '/parts/index/?goo_id='
+    + 'yuuki_ono_99'
+    + '&url_hash='
+    + 'Sb3U77X9FsZm'
+    + '&referer='
+    + encode_url( sRefer )
+    + '&title='
+    + encode_url( document.title )
+    + '&css='
+    + 'on'
+    +"\"></SC" + "RIPT>" );
+    
+    // Append Click-Baloon
+    set_event_handler(window, "load", set_baloon_element, false);
+}
+
+
+function set_baloon_element()
+{
+    var gooapBaloonElement = document.createElement('div');
+    gooapBaloonElement.setAttribute("id", "gooapClickBaloonId");
+    var sType = get_browser_type();
+    var objElement = null;
+
+    if( sType == "IE_7" || sType == "IE_6" || sType == "IE_" ){
+        gooapBaloonElement.setAttribute("className", "gooapClickBaloon");
+    } 
+    else {
+        gooapBaloonElement.setAttribute("class", "gooapClickBaloon");
+    }
+    document.body.appendChild(gooapBaloonElement);
+}
+
+
+/********************************************************************************
+* A tag click log send function( click event handler )
+********************************************************************************/
+function click_handle(e)
+{
+    var sType = get_browser_type();
+    var objElement = null;
+
+    if( sType == "IE_7" || sType == "IE_6" || sType == "IE_" ){
+        objElement = event.srcElement;
+    } 
+    else {
+        objElement = e.target;
+        if( !objElement.tagName ){
+            return;
+        }
+    }
+
+    // search A tag 
+    var sTagName = objElement.tagName.toString();
+    while( (sTagName.toLowerCase() != 'a') && (sTagName.toLowerCase() != '') ){
+        objElement = objElement.parentNode;
+        
+        if( !objElement.tagName ){
+            return;
+        }
+        sTagName = objElement.tagName.toString();
+    }
+
+    // if A tag matches send log
+    if( objElement.tagName.toLowerCase() == 'a' 
+        && objElement.href != null
+        && objElement.href != ''){
+
+        if (objElement.href == location.href) {
+            return;
+        }
+        
+        if(is_child_of_parts(objElement)) {
+            return;
+        }
+
+        g_isTimeout = false;
+
+        send_click_log(objElement.href);
+    }
+}
+
+/********************************************************************************
+* force add event for show and hide click num tooltip
+********************************************************************************/
+function set_event_show_clicknum()
+{
+    var objElements = document.getElementsByTagName( "a" );
+    for( var n = 0; n < objElements.length; n++ ){
+        var objAnchor = objElements[n];
+        set_event_handler( objAnchor, "mouseover", show_clicknum, false );
+        set_event_handler( objAnchor, "mouseout",  show_clicknum, false );
+    }
+}
+
+/********************************************************************************
+* send vote data
+********************************************************************************/
+function send_vote(vote_select)
+{
+    var VOTE_URL = ASHIATO_URL_BASE + '/vote?';
+
+    var aryParam = new Array();
+
+    aryParam.push( "goo_id=" + ASHIATO_GID );
+    aryParam.push( "url_hash=" + ASHIATO_UID );
+    aryParam.push( "vote_id=" + vote_select.value );
+    VOTE_URL += aryParam.join( "&" );
+
+    scelm = document.createElement('script');
+    scelm.type = 'text/javascript'; 
+    scelm.src = VOTE_URL;
+    document.body.appendChild(scelm);
+}
+
+/********************************************************************************
+* delete request ashiato icon
+********************************************************************************/
+function send_delete_icon(ashiato_id) {
+    var ASHIATO_DELETE_URL = ASHIATO_URL_BASE + '/delicon?type=2&';
+
+    var aryParam = new Array();
+
+    aryParam.push( "goo_id=" + ASHIATO_GID );
+    aryParam.push( "url_hash=" + ASHIATO_UID );
+    aryParam.push( "aid=" + ashiato_id );
+    ASHIATO_DELETE_URL += aryParam.join( "&" );
+
+    scelm = document.createElement('script');
+    scelm.type = 'text/javascript'; 
+    scelm.src = ASHIATO_DELETE_URL;
+    document.body.appendChild(scelm);
+}
+
+/********************************************************************************
+* event handler for show and hide click num tooltip
+********************************************************************************/
+/*onMouseOver, onMouseOut*/
+var timer = null;
+function show_clicknum(e)
+{
+    var sType      = get_browser_type();
+    var objElement = null;
+    var objEvent   = null;
+    var x = 0;
+    var y = 0;
+    var clientWidth = 0;
+    var clientHeight = 0;
+    
+    if ( sType == "IE_7" || sType == "IE_6" || sType == "IE_"){
+        objEvent   = event;
+        objElement = event.srcElement;
+
+        x = (document.documentElement && document.documentElement.scrollLeft) ? document.documentElement.scrollLeft : document.body.scrollLeft;
+        y = (document.documentElement && document.documentElement.scrollTop) ? document.documentElement.scrollTop : document.body.scrollTop;
+        clientWidth  = x + document.body.clientWidth;   //document.documentElement.clientWidth;
+        clientHeight = y + document.body.clientHeight;  //document.documentElement.clientHeight;
+        x += window.event.clientX;
+        y += window.event.clientY;
+
+    } else {
+        objEvent   = e;
+        objElement = e.target;
+        x = objEvent.pageX;
+        y = objEvent.pageY;
+        clientWidth  = window.innerWidth;
+        clientHeight = window.innerHeight;
+    }
+
+    var sTagName = objElement.tagName.toString();
+    while( (sTagName.toLowerCase() != 'a') && (sTagName.toLowerCase() != '') ){
+        objElement = objElement.parentNode;
+        if( !objElement.tagName ){
+            return;
+        }
+        sTagName = objElement.tagName.toString();
+    }
+    
+    var href = htmlspecialchars(del_path_sep(objElement.href));
+    if ( !(sType == "SAF_" && objEvent.type == "mouseout") ) { 
+        if (!click_list[href]) {
+            return;
+        } 
+    }
+    if(is_child_of_parts(objElement)) {
+        return;
+    }
+
+    if ( !(sType == "SAF_" && objEvent.type == "mouseout") ) { 
+        if (!inner_click_log_flg || !outer_click_log_flg) {
+            var linkHostName = href.replace(/http(|s):\/\//, "").replace(/\/.*/, "");
+
+            if (!inner_click_log_flg) {
+                if(linkHostName == location.host) {
+                    return;
+                }
+            }
+            if(!outer_click_log_flg) {
+                if(linkHostName != location.host) {
+                    return;
+                }
+            }
+        }
+    }
+
+    var objClickFrame = document.getElementById( "gooapClickBaloonId" );
+    var objClickHtml = document.getElementById( "gooapClickBaloonBodyBase" ).innerHTML;
+
+
+    switch( objEvent.type ){
+        case "mouseover":
+
+            if (timer != null) {
+                clearTimeout(timer);
+            }
+
+            objClickFrame.innerHTML = objClickHtml.replace("___click_num___", click_list[href]);
+            objClickFrame.style.display = "block";
+
+            x = x - 20;
+            if( (y - 20 - objClickFrame.offsetHeight) < 0) {
+                y = y + 20;
+            } else {
+                y = (y - 20 - objClickFrame.offsetHeight);
+            }
+
+            objClickFrame.style.left = (x) + "px";
+            objClickFrame.style.top  = y + "px";
+
+            break;
+        
+        case "mouseout":
+            timer = setTimeout( function(){objClickFrame.style.display = "none"}, 500);
+            break;
+    }
+}
+
+/********************************************************************************
+* send log tracking data
+********************************************************************************/
+function send_click_log(sExitUrl)
+{    
+    var LOG_TRACK_URL = ASHIATO_URL_BASE + "/clktrack?";
+    var sRefer = "";
+    
+    try{
+        if( document.referrer == parent.frames.location ){
+            sRefer = top.document.referrer.toString();
+        } 
+        else {
+            sRefer = document.referrer.toString();
+        }
+        if( refer.length == "" && window.opener != null ) {
+            sRefer = window.opener.location.toString();
+        }
+    }
+    catch(e){
+        sRefer = document.referrer.toString();
+    }
+    
+    var aryParam = new Array();
+    sRefer     = encode_url( sRefer );
+    var sUrl   = LOG_TRACK_URL;
+    var sTitle = encode_url( document.title );
+    
+    aryParam.push( "gooid=" + ASHIATO_GID );
+    aryParam.push( "url_hash=" + ASHIATO_UID );
+    aryParam.push( "url=" + encode_url(sExitUrl) );
+    aryParam.push( "tid=" + (new Date).getTime() );
+    
+    sUrl += aryParam.join( "&" );
+    
+    var objImg = new Image(1, 1);
+    objImg.src = sUrl;
+    
+    
+    //wait( loop for timeout or get complete graphic data)
+    var n = 0;
+    while( objImg.complete == false ){
+        n++;
+        if( n > 9 ){
+            break;
+        }
+        sleep( 100 );
+    }
+}
+
+/********************************************************************************
+*check clicked location
+********************************************************************************/
+function is_child_of_parts( element ) {
+//gooAshiatoParts
+    while ((element = element.parentNode)) {
+        if (element.id == "gooAshiatoParts") {
+            return true;
+        }
+    } 
+}
+
+/********************************************************************************
+*set event handler function( general )
+********************************************************************************/
+function set_event_handler(objElement, sEventName, func, isCapture)
+{
+    var sType = get_browser_type();
+    
+    if( sType == "IE_7" || sType == "IE_6" || sType == "IE_"){
+        objElement.attachEvent( "on" + sEventName, func );
+    }
+    else{
+        objElement.addEventListener( sEventName, func, isCapture );
+        //objElement.onclick = func;
+    }
+}
+
+/********************************************************************************
+*switch show or hide for compornent 
+********************************************************************************/
+function gooap_show(name, flg) {
+    var obj = document.getElementById( name );
+
+    obj.style.display = (flg == 0 ? 'none' : 'block');
+}
+
+/********************************************************************************
+* browser type
+********************************************************************************/
+function get_browser_type()
+{
+    var nMajor = parseInt( navigator.appVersion );
+    var nMinor = parseFloat( navigator.appVersion );
+    var sAgent = navigator.userAgent.toLowerCase();
+
+
+    /* Netscape */
+    if( (sAgent.indexOf('mozilla')    != -1) && 
+        (sAgent.indexOf('spoofer')    == -1) && 
+        (sAgent.indexOf('compatible') == -1) && 
+        (sAgent.indexOf('opera')      == -1) && 
+        (sAgent.indexOf('safari')     == -1) &&
+        (sAgent.indexOf('firefox')    == -1) ) {
+
+        if(      nMajor <  4 ){    return "NAV_3";    }
+        else if( nMajor >= 4 ){    return "NAV_4";    }
+        else {                     return "NAV_";    }
+    }
+
+    /* IE */
+    if( sAgent.indexOf("msie")  != -1 && 
+        sAgent.indexOf("opera") == -1 ) {
+
+        if (     nMajor == 4 && sAgent.indexOf("msie 6.") != -1 ){    return "IE_6";        }
+        else if( nMajor == 4 && sAgent.indexOf("msie 7.") != -1 ){    return "IE_7";        }
+        else {                                                        return "IE_";        }
+    }
+
+    /* firefox */
+    if( sAgent.indexOf('gecko')   != -1 && 
+        sAgent.indexOf('firefox') != -1 ){
+
+        return "FF_";
+    }
+
+    /* safari */
+    if ( sAgent.indexOf('gecko')  != -1 && 
+         sAgent.indexOf('safari') != -1 ){
+
+        return "SAF_";
+    }
+
+
+    return "OTH_";
+}
+
+/********************************************************************************
+*add separtor
+********************************************************************************/
+function add_path_sep(sPath, sSepChar)
+{
+	if( !sSepChar ){
+		sSepChar = "/";
+	}
+	
+	if( trim(sPath) == "" ){
+		return "";
+	}
+	
+	var nLen = sPath.length;
+	if( sPath.substr(nLen - 1, 1) == sSepChar ) {
+		return sPath;
+	}
+	
+	return sPath + sSepChar;
+}
+
+/********************************************************************************
+*delete separtor
+********************************************************************************/
+function del_path_sep(sPath, sSepChar)
+{
+	if( !sSepChar ){
+		sSepChar = "/";
+	}
+	
+	if( trim(sPath) == "" ){
+		return "";
+	}
+	
+	var nLen = sPath.length;
+	if( sPath.substr(nLen - 1, 1) != sSepChar ) {
+		return sPath;
+	}
+	
+	sPath = sPath.substr(0, nLen - 1);
+	
+	return del_path_sep(sPath, sSepChar);
+}
+
+
+/********************************************************************************
+*trim
+********************************************************************************/
+function trim(sData)
+{
+    return ltrim(rtrim(sData));
+}
+
+function ltrim(sData)
+{
+    return String(sData).replace(/^[ 　]*/gim, "");
+}
+
+function rtrim(sData)
+{
+    return String(sData).replace(/[ 　]*$/gim, "");
+}
+
+/********************************************************************************
+*sleep
+********************************************************************************/
+function sleep(msec){
+    var start = new Date().getTime(); 
+    var end = start + msec;
+    while ( new Date().getTime() < end ) {}
+}
+/********************************************************************************
+*url encoding
+********************************************************************************/
+function encode_url(str){
+    var s0, i, s, u;
+    s0 = "";                // encoded str
+    for (i = 0; i < str.length; i++){   // scan the source
+        s = str.charAt(i);
+        u = str.charCodeAt(i);          // get unicode of the char
+        if (s == " "){s0 += "+";}       // SP should be converted to "+"
+        else {
+            if ( u == 0x2a || u == 0x2d || u == 0x2e || u == 0x5f || ((u >= 0x30) && (u <= 0x39)) || ((u >= 0x41) && (u <= 0x5a)) || ((u >= 0x61) && (u <= 0x7a))){     // check for escape
+                s0 = s0 + s;           // don't escape
+            }
+            else {                      // escape
+                if ((u >= 0x0) && (u <= 0x7f)){     // single byte format
+                    s = "0"+u.toString(16);
+                    s0 += "%"+ s.substr(s.length-2);
+                }
+                else if (u > 0x1fffff){     // quaternary byte format (extended)
+                    s0 += "%" + (0xf0 + ((u & 0x1c0000) >> 18)).toString(16);
+                    s0 += "%" + (0x80 + ((u & 0x3f000) >> 12)).toString(16);
+                    s0 += "%" + (0x80 + ((u & 0xfc0) >> 6)).toString(16);
+                    s0 += "%" + (0x80 + (u & 0x3f)).toString(16);
+                }
+                else if (u > 0x7ff){        // triple byte format
+                    s0 += "%" + (0xe0 + ((u & 0xf000) >> 12)).toString(16);
+                    s0 += "%" + (0x80 + ((u & 0xfc0) >> 6)).toString(16);
+                    s0 += "%" + (0x80 + (u & 0x3f)).toString(16);
+                }
+                else {                      // double byte format
+                    s0 += "%" + (0xc0 + ((u & 0x7c0) >> 6)).toString(16);
+                    s0 += "%" + (0x80 + (u & 0x3f)).toString(16);
+                }
+            }
+        }
+    }
+    return s0;
+}
+
+ /********************************************************************************
+  * convert HTML entities
+  ********************************************************************************/
+function htmlspecialchars(ch) {
+    ch = ch.replace(/&/g,"&amp;") ;
+    ch = ch.replace(/"/g,"&quot;") ;
+    ch = ch.replace(/'/g,"&#039;") ;
+    ch = ch.replace(/</g,"&lt;") ;
+    ch = ch.replace(/>/g,"&gt;") ;
+    return ch ;
+}
+

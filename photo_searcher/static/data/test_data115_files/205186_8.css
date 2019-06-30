@@ -1,0 +1,11 @@
+﻿@charset "utf-8";
+
+.BrowserLMenu_torinet_default3
+/* モジュール全体 */
+{
+  color: black;
+  font-size: 110%;
+  text-align: left;
+  margin: 0px;
+  margin-botom:12px;
+}

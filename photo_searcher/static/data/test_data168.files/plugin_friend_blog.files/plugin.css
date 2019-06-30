@@ -1,0 +1,129 @@
+.pluginLevel {
+	TEXT-ALIGN: center; WIDTH: 100%
+}
+#plugMyfriend {
+	PADDING-BOTTOM: 10px
+}
+#plugCircle {
+	PADDING-BOTTOM: 10px
+}
+#plugProfile {
+	PADDING-BOTTOM: 10px
+}
+#plugFriendblog {
+	PADDING-BOTTOM: 10px
+}
+.pluginLevel UL {
+	PADDING-BOTTOM: 2px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; LIST-STYLE-IMAGE: none; PADDING-TOP: 2px
+}
+.pluginLevel LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 0px
+}
+#plugMyfriend P {
+	PADDING-BOTTOM: 4px; MARGIN: 0px; DISPLAY: block; CLEAR: both; FONT-SIZE: 12px; BORDER-TOP: #cccccc 1px dotted; PADDING-TOP: 4px
+}
+#plugCircle P {
+	PADDING-BOTTOM: 4px; MARGIN: 0px; DISPLAY: block; CLEAR: both; FONT-SIZE: 12px; BORDER-TOP: #cccccc 1px dotted; PADDING-TOP: 4px
+}
+#plugCircle IMG {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.pluginLevel .clumn3 LI {
+	WIDTH: 46px; FLOAT: left; HEIGHT: 70px; OVERFLOW: hidden
+}
+.pluginLevel .clumn3 IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 42px; DISPLAY: block; HEIGHT: 42px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.pluginLevel UL.clumn3 {
+	MARGIN-LEFT: 5px
+}
+.pluginLevel .clumn3 SPAN {
+	WIDTH: 42px; DISPLAY: block; HEIGHT: 1em; FONT-SIZE: 10px; OVERFLOW: hidden
+}
+.pluginLevel .clumn2 IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 68px; DISPLAY: block; HEIGHT: 68px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.pluginLevel .clumn2 LI {
+	WIDTH: 72px; FLOAT: left; HEIGHT: 100px
+}
+.pluginLevel .clumn2 SPAN {
+	WIDTH: 68px; DISPLAY: block; HEIGHT: 1em; FONT-SIZE: 12px; OVERFLOW: hidden
+}
+.pluginLevel UL.clumn2 {
+	WIDTH: 144px; DISPLAY: block; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.pluginLevel .clumn1 IMG {
+	WIDTH: 100px; DISPLAY: block; HEIGHT: 100px
+}
+.pluginLevel .clumn1 LI {
+	HEIGHT: 130px
+}
+.pluginLevel .clumn1 SPAN {
+	WIDTH: 100px; DISPLAY: block; HEIGHT: 1em; FONT-SIZE: 12px; OVERFLOW: hidden
+}
+.pluginLevel UL.clumn1 {
+	WIDTH: 100px; DISPLAY: block; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.pluginLevel .clumn4 IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 32px; DISPLAY: block; HEIGHT: 32px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.pluginLevel .clumn4 LI {
+	WIDTH: 36px; FLOAT: left; HEIGHT: 60px
+}
+.pluginLevel .clumn4 SPAN {
+	WIDTH: 36px; DISPLAY: block; HEIGHT: 12px; FONT-SIZE: 9px; OVERFLOW: hidden
+}
+.pluginLevel UL.clumn4 {
+	WIDTH: 144px; DISPLAY: block; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#plugFriendblog UL {
+	PADDING-BOTTOM: 0px; MARGIN: 4px 4px 6px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 0px
+}
+#plugFriendblog LI {
+	TEXT-ALIGN: left; LINE-HEIGHT: 1.4em; FONT-SIZE: 80%
+}
+#plugFriendblog P {
+	PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 12px; BORDER-TOP: #cccccc 1px dotted; PADDING-TOP: 4px
+}
+.friend_secondlist {
+	MARGIN-LEFT: 20px
+}
+#plugProfile .profilePhoto {
+	BORDER-BOTTOM: #cccccc 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #cccccc 1px solid; BACKGROUND-COLOR: #f0f0f0; MARGIN: 4px auto; WIDTH: 108px; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+#plugProfile .profilePhoto IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-TOP: 4px; MARGIN-BOTTOM: 4px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+#plugProfile .profileName {
+	PADDING-BOTTOM: 0px; MARGIN-TOP: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 10px; FONT-SIZE: 80%; FONT-WEIGHT: bold; PADDING-TOP: 4px
+}
+#plugProfile TABLE P {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 4px; MARGIN: 0px 0px 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; FONT-SIZE: 80%; PADDING-TOP: 4px
+}
+#plugProfile TH P {
+	BACKGROUND-COLOR: #e7e7e7
+}
+#plugProfile TABLE {
+	
+}
+#plugProfile TD P {
+	BACKGROUND-COLOR: #ffffff
+}
+#plugProfile .profileDocument {
+	BORDER-BOTTOM: #cccccc 1px dotted; TEXT-ALIGN: left; PADDING-BOTTOM: 4px; LINE-HEIGHT: 1.4em; MARGIN-TOP: 10px; WIDTH: 142px; MARGIN-LEFT: auto; FONT-SIZE: 80%; OVERFLOW: hidden; MARGIN-RIGHT: auto
+}
+#plugProfile .profileDocument .profileDocTitle {
+	BORDER-BOTTOM: #cccccc 1px dotted; MARGIN-BOTTOM: 4px; BORDER-TOP: #cccccc 1px dotted; FONT-WEIGHT: bold
+}
+#plugProfile P {
+	PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 12px; BORDER-TOP: #cccccc 1px dotted; PADDING-TOP: 4px
+}
+#plugMyfriend IMG {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.ad_plg_free {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; FONT-SIZE: 80%; PADDING-TOP: 4px
+}
+.noText {
+	PADDING-BOTTOM: 10px; COLOR: #666666; FONT-SIZE: 70%; PADDING-TOP: 10px
+}

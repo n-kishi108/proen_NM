@@ -1,0 +1,4477 @@
+@charset "euc-jp";
+/* -----------------------------------------------------------
+CSS Information
+
+ file name:auct_exhibitflow.css
+ author:Yahoo! JAPAN
+ auth level:css/00/submit/
+ last updated:2010.1.8
+----------------------------------------------------------- */
+
+/* COMMON PARTS ********************************************************************************** */
+/* ------------------------------------------------------
+FOOTER LINK
+------------------------------------------------------- */
+#modFootLink{
+	line-height:150%;
+	text-align:center;
+}
+#modFootLink  a:hover{
+	text-decoration:underline;
+}
+#modFootLink .decTx01{
+	margin-bottom:15px;
+}
+#modFootLink .decBtm{
+	margin-bottom:25px;
+}
+/* MODULE ********************************************************************************** */
+/* ------------------------------------------------------
+STEP
+------------------------------------------------------- */
+#modStep{
+	margin-bottom:17px;
+	text-align:center;
+}
+#modStep ul{
+	width:815px;
+	margin:0 auto;
+	padding:0;
+}
+#modStep ul li{
+	float:left;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+/* ------------------------------------------------------
+ALERT
+------------------------------------------------------- */
+#modAlertBox{
+	display:block;
+	width:100%;
+	margin-bottom:20px;
+	padding:0;
+	color:#333333;
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-x top #ffffe3;
+}
+#modAlertBox a:hover{
+	text-decoration:underline;
+}
+#modAlertBox .decBg01{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-x bottom;
+}
+#modAlertBox .decBg02{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top left;
+}
+#modAlertBox .decBg03{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top right;
+}
+#modAlertBox .decBg04{
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_01.gif) no-repeat top left;
+}
+#modAlertBox .decBg05{
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_03.gif) no-repeat top right;
+}
+#modAlertBox .decBg06{
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_02.gif) no-repeat bottom left;
+}
+#modAlertBox .decBg07{
+	padding:10px 15px;
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_04.gif) no-repeat bottom right;
+}
+#modAlertBox .untHead{
+	font-size:100%;
+	font-weight:bold;
+	line-height:150%;
+	color:#ff6000;
+}
+#modAlertBox .untHead .decNoBid{
+	text-align:center;
+	color:#333333;
+}
+#modAlertBox .untBody{
+	margin:10px 0 0 0;
+	font-size:100%;
+	font-weight:bold;
+}
+#modAlertBox table{
+	margin:0;
+	padding:0;
+}
+#modAlertBox td{
+	margin:0;
+	padding:0;
+	vertical-align:top;
+}
+#modAlertBox .decTx01{
+	text-align:center;
+}
+#modAlertBox .decTop01{
+	margin-top:20px;
+	font-size:0;
+}
+/*** JavaScript ON ***/
+#modAlertBox .untHead .decJS{
+	padding:11px 0 11px 63px;
+	background:url(/images/auct/template/ui/auc_mod/ic_014.gif) no-repeat left;
+}
+/*** DRAFT ***/
+#modAlertBox .untHead .decDraft{
+	padding:8px 0 8px 63px;
+	background:url(/images/auct/template/ui/auc_mod/ic_008.gif) no-repeat left;
+	color:#994711;
+}
+#modAlertBox .untRight{
+	font-size:75%;
+	text-align:right;
+	color:#333333;
+}
+#modAlertBox .untRight p{
+	float:right;
+	margin:0;
+	padding:0;
+}
+#modAlertBox .untRight ul{
+	float:right;
+	margin:5px 0 10px 0;
+	font-weight:bold;
+	list-style:none;
+}
+#modAlertBox .untRight li{
+	float:left;
+	margin:0 0 0 10px;
+	padding:0 0 0 15px;
+	list-style:none;
+	font-weight:bold;
+	white-space:nowrap;
+}
+#modAlertBox .untRight .decBg01{
+	background:url(/images/auct/template/ui/auc_mod/ic_009.gif) left no-repeat;
+}
+#modAlertBox .untRight li a{
+	text-decoration:none;
+}
+#modAlertBox .untRight li a:hover{
+	text-decoration:underline;
+}
+/*** NO AGREEMENT CATEGORY ALERT ***/
+#modAlertBox .untHead .decNoCtg{
+	text-align:center;
+}
+#modAlertBox .untHead .decNoCtg p{
+	color:#333333;
+}
+#modAlertBox .untBody .decNoCtg{
+	text-align:center;
+	font-weight:normal;
+}
+#modAlertBox .untBody .decNoCtg ul{
+	width:300px;
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+	text-align:left;
+}
+#modAlertBox .untBody .decNoCtg ul li span{
+	margin-left:0.9em;
+}
+/*** DRAFT ***/
+#modAlertBox .untBody .decFormSelect .decTop{
+	line-height:0;
+	height:0;
+	font-size:0;
+	overflow:hidden;
+}
+/*** SUCCESSFUL BID ***/
+#modAlertBox .untHead .decBid{
+	text-align:center;
+}
+#modAlertBox .untHead .decBid table{
+	margin:0 auto;
+	color:#994711;
+}
+#modAlertBox .untHead .decBid td{
+	vertical-align:middle;
+	text-align:left;
+}
+#modAlertBox .untHead .decBid td img{
+	padding-right:10px;
+}
+/* ------------------------------------------------------
+BOTTOM SPACE
+------------------------------------------------------- */
+.decBgBtm{
+	margin-bottom:25px;
+	font-size:0;
+}
+/* ------------------------------------------------------
+CATEGORY CHOICE
+------------------------------------------------------- */
+#modCtgSlctBox{
+	display:block;
+	margin-bottom:25px;
+	padding:0;
+	color:#333333;
+}
+#modCtgSlctBox .untHead{
+	display:block;
+}
+#modCtgSlctBox .untHead h2{
+	font-size:85%;
+}
+#modCtgSlctBox .untHead p{
+	float:right;
+	padding-left:23px;
+	*padding-top:1px;
+	*padding-bottom:1px;
+	font-size:85%;
+	background:url(/images/auct/template/ui/auc_mod/ic_001.gif) no-repeat;
+}
+/* IE7 */
+*+html #modCtgSlctBox .untHead p{
+	padding-top:1px;
+	padding-bottom:1px;
+}
+#modCtgSlctBox .untHead table{
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_bg_001.gif) repeat-x #ffd453;
+}
+#modCtgSlctBox .untHead table td{
+	padding:10px;
+}
+#modCtgSlctBox .decBg01{
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_bg_002.gif) no-repeat top left;
+}
+#modCtgSlctBox .decBg02{
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_bg_003.gif) no-repeat top right;
+}
+#modCtgSlctBox .untBody{
+	text-align:center;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_bg_004.gif) no-repeat bottom left #fefbe4;
+}
+#modCtgSlctBox .decBg03{
+	padding:15px;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_bg_005.gif) no-repeat bottom right;
+}
+#modCtgSlctBox .untBody .pts01{
+	width:920px;
+	margin:0 auto;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_tab_bg_01.gif) repeat-y;
+}
+#modCtgSlctBox .untBody .pts01 li{
+	float:left;
+	display:block;
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-size:85%;
+	font-weight:bold;
+}
+#modCtgSlctBox .untBody .pts01 table{
+	margin:0;
+	padding:0;
+	width:auto;
+}
+#modCtgSlctBox .untBody .pts01 td{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-size:85%;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:top;
+}
+/*** Tab01 ***/
+#modCtgSlctBox .untBody .pts01 .decTab01On,
+#modCtgSlctBox .untBody .pts01 .decTab01Off{
+	width:305px;
+	margin:0;
+}
+#modCtgSlctBox .untBody .pts01 .decTab01On{
+	padding:15px 0 14px 0;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_tab_bg_01_on.gif);
+}
+#modCtgSlctBox .untBody .pts01 .decTab01Off{
+	border-bottom:#b9b8b8 solid 1px;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_tab_bg_01_off.gif);
+}
+#modCtgSlctBox .untBody .pts01 .decTab01Off a{
+	display:block;
+	*height:13px;
+	padding:15px 0 13px 0;
+	text-decoration:none;
+}
+#modCtgSlctBox .untBody .pts01 .decTab01Off a:hover{
+	display:block;
+	text-decoration:underline;
+}
+/*** /Tab01 ***/
+/*** Tab02 ***/
+#modCtgSlctBox .untBody .pts01 .decTab02On,
+#modCtgSlctBox .untBody .pts01 .decTab02Off01,
+#modCtgSlctBox .untBody .pts01 .decTab02Off02{
+	width:309px;
+	margin:0;
+}
+#modCtgSlctBox .untBody .pts01 .decTab02On{
+	padding:15px 0 14px 0;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_tab_bg_02_on.gif);
+}
+#modCtgSlctBox .untBody .pts01 .decTab02Off01 a,
+#modCtgSlctBox .untBody .pts01 .decTab02Off02 a{
+	display:block;
+	*height:13px;
+	padding:15px 0 13px 0;
+	text-decoration:none;
+}
+/* Tab02 Left on */
+#modCtgSlctBox .untBody .pts01 .decTab02Off01{
+	border-bottom:#b9b8b8 solid 1px;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_tab_bg_02_off01.gif);
+}
+/* Tab02 Right on */
+#modCtgSlctBox .untBody .pts01 .decTab02Off02{
+	border-bottom:#b9b8b8 solid 1px;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_tab_bg_02_off02.gif);
+}
+#modCtgSlctBox .untBody .pts01 .decTab02Off01 a:hover,
+ #modCtgSlctBox .untBody .pts01 .decTab02Off02 a:hover{
+	display:block;
+	padding:15px 0 13px 0;
+	text-decoration:underline;
+}
+/*** /Tab02 ***/
+/*** Tab03 ***/
+#modCtgSlctBox .untBody .pts01 .decTab03On,
+#modCtgSlctBox .untBody .pts01 .decTab03Off{
+	width:306px;
+	margin:0;
+}
+#modCtgSlctBox .untBody .pts01 .decTab03On{
+	padding:15px 0 14px 0;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_tab_bg_03_on.gif);
+}
+#modCtgSlctBox .untBody .pts01 .decTab03Off{
+	border-bottom:#b9b8b8 solid 1px;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_tab_bg_03_off.gif);
+}
+#modCtgSlctBox .untBody .pts01 .decTab03Off a{
+	display:block;
+	*height:13px;
+	padding:15px 0 13px 0;
+	text-decoration:none;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_tab_bg_03_off.gif);
+}
+#modCtgSlctBox .untBody .pts01 .decTab03Off a:hover{
+	display:block;
+	text-decoration:underline;
+}
+/*** /Tab03 ***/
+#modCtgSlctBox .untBody .pts02{
+	width:888px;
+	margin:0 auto;
+	padding:15px;
+	border-left:#b9b8b8 solid 1px;
+	border-right:#b9b8b8 solid 1px;
+	border-bottom:#cccccc solid 1px;
+	text-align:left;
+	background:#f9fbfe;
+}
+#modCtgSlctBox .untBody .pts02 p{
+	line-height:150%;
+}
+#modCtgSlctBox .untBody .pts02 .decBtn{
+	margin-top:10px;
+}
+#modCtgSlctBox .untBody .pts02 table{
+	background:#f9fbfe;
+}
+#modCtgSlctBox .untBody .pts03{
+	width:888px;
+	margin:0 auto;
+	padding:15px;
+	border-left:#b9b8b8 solid 1px;
+	border-right:#b9b8b8 solid 1px;
+	border-bottom:#cccccc solid 1px;
+	font-size:75%;
+	line-height:150%;
+	text-align:left;
+	background:#f9fbfe;
+}
+/* on */
+#modCtgSlctBox .untBody .pts03 .decBgOn{
+	padding:15px 10px;
+	background:#e7f0fe;
+}
+#modCtgSlctBox .untBody .pts03 .decBgOn span{
+	color:#1546a7;
+}
+/* off */
+#modCtgSlctBox .untBody .pts03 .decBgOff{
+	padding:15px 10px;
+	color:#bbbbbb;
+	background:#f1f0f0;
+}
+/* ------------------------------------------------------
+PROMOTION BOX
+------------------------------------------------------- */
+#modPromoBox{
+	padding-bottom:1px;
+	margin-bottom:20px;
+	font-size:85%;
+	color:#333333;
+}
+#modPromoBox a:hover{
+	margin:0;
+	padding:0;
+	text-decoration:underline;
+}
+#modPromoBox .untHead{
+	display:block;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_007.gif) repeat-x #fdf3a1;
+}
+#modPromoBox .untHead h3{
+	margin-left:10px;
+	padding:10px 10px 10px 40px;
+	font-size:100%;
+	background:url(/images/auct/template/ui/auc_mod/ic_015.gif) no-repeat left;
+}
+#modPromoBox .untHead .decBg01{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top left;
+}
+#modPromoBox .untHead .decBg02{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top right;
+}
+#modPromoBox .untHead .decBg03{
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_006.gif) no-repeat top left;
+}
+#modPromoBox .untHead .decBg04{
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_008.gif) no-repeat top right;
+}
+#modPromoBox .untBody{
+	display:block;
+	border-top:#dddddd solid 1px;
+	line-height:150%;
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-x bottom #ffffff;
+}
+#modPromoBox .untBody .decBg01{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top left;
+}
+#modPromoBox .untBody .decBg02{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top right;
+}
+#modPromoBox .untBody .decBg03{
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_004.gif) no-repeat bottom left;
+}
+#modPromoBox .untBody .decBg04{
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_005.gif) no-repeat bottom right;
+}
+#modPromoBox .untBody .decBg05{
+	padding:20px;
+}
+/* ------------------------------------------------------
+INFORMATION TEXT
+------------------------------------------------------- */
+#modInfoTxt{
+	font-size:85%;
+	color:#333333;
+}
+#modInfoTxt .untHead{
+	width:100%;
+	margin-bottom:15px;
+	background:url(/images/auct/template/ui/auc_mod/bg_009.gif) repeat-x top #faf0d7;
+}
+#modInfoTxt .untHead h3{
+	padding:10px;
+	font-size:100%;
+	text-align:left;
+}
+#modInfoTxt .untHead .decBg01{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-x bottom;
+}
+#modInfoTxt .untHead .decBg02{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top left;
+}
+#modInfoTxt .untHead .decBg03{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top right;
+}
+#modInfoTxt .untHead .decBg04{
+	background:url(/images/auct/template/ui/auc_mod/bg_002.gif) no-repeat top left;
+}
+#modInfoTxt .untHead .decBg05{
+	background:url(/images/auct/template/ui/auc_mod/bg_004.gif) no-repeat top right;
+}
+#modInfoTxt .untHead .decBg06{
+	background:url(/images/auct/template/ui/auc_mod/bg_003.gif) no-repeat bottom left;
+}
+#modInfoTxt .untHead .decBg07{
+	background:url(/images/auct/template/ui/auc_mod/bg_005.gif) no-repeat bottom right;
+}
+#modInfoTxt .untBody{
+	padding:0 15px 20px 15px;
+	line-height:150%;
+}
+#modInfoTxt .untBody table{
+	margin:0;
+	padding:0;
+}
+#modInfoTxt .untBody ul{
+	margin:0;
+	padding:0;
+}
+#modInfoTxt .untBody ul li{
+	margin:0;
+	padding-left:10px;
+	list-style-type:none;
+	background:url(/images/auct/template/ui/auc_mod/ic_002.gif) no-repeat left 0.5em;
+}
+#modInfoTxt .untBody a:hover{
+	text-decoration:underline;
+}
+#modInfoTxt .untBody ol{
+	margin:0;
+	padding:0;
+	list-style:decimal outside;
+}
+#modInfoTxt .untBody ol li{
+	margin:0.5em 0 0 1.5em;
+	padding:0
+}
+#modInfoTxt .untBody .decList01 ul{
+	margin:10px 0;
+}
+#modInfoTxt .untBody .decList01 ul li{
+	margin:0.5em 0 0 1em;
+	padding:0px;
+	list-style-type:none;
+	background:none;
+}
+#modInfoTxt .untBody .decList02 li{
+	margin-left:15px;
+	*margin-left:5px;
+	padding-left:15px;
+	background:url(/images/auct/template/ui/auc_mod/ic_003.gif) no-repeat left 0.7em;
+}
+#modInfoTxt .untBody .decList03{
+	padding:1px 0 1px 15px;
+	background:url(/images/auct/template/ui/auc_mod/ic_009.gif) no-repeat left 0.4em;
+}
+#modInfoTxt .untBody .decTx01{
+	margin:10px 0;
+	padding:5px 0 5px 20px;
+	background:url(/images/auct/template/ui/auc_mod/ic_016.gif) no-repeat left 0.5em;
+}
+#modInfoTxt .untBody .decMobile p{
+	padding-top:5px;
+	text-align:center;
+	white-space:nowrap;
+}
+/* ------------------------------------------------------
+GUIDE BOX AREA
+------------------------------------------------------- */
+#modGuideSet{
+	width:322px;
+	margin-left:20px;
+	line-height:150%;
+	font-size:85%;
+	color:#333333;
+}
+#modGuideSet .decBg01{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_007.gif) repeat-y;
+}
+#modGuideSet .decBg02{
+	background:url(/images/auct/template/ui/auc_mod/bg_006.gif) no-repeat top;
+}
+#modGuideSet .decBg03{
+	padding:20px 15px;
+	background:url(/images/auct/template/ui/auc_mod/bg_008.gif) no-repeat bottom;
+}
+#modGuideSet .modGuideBox{
+	margin-bottom:20px;
+	background:#ffffff;
+}
+#modGuideSet .modGuideBox h4{
+	margin-bottom:10px;
+	font-size:100%;
+}
+#modGuideSet .modGuideBox ul{
+	margin:0;
+	padding:0;
+}
+#modGuideSet .modGuideBox li{
+	margin:0;
+	padding-left:10px;
+	list-style-type:none;
+	background:url(/images/auct/template/ui/auc_mod/ic_002.gif) no-repeat left 0.7em;
+}
+#modGuideSet .modGuideBox a:hover{
+	text-decoration:underline;
+}
+#modGuideSet .modGuideBox .decList01 li{
+	margin-left:10px;
+	padding-left:15px;
+	background:url(/images/auct/template/ui/auc_mod/ic_003.gif) no-repeat left 0.7em;
+}
+#modGuideSet .modGuideBox p{
+	margin-bottom:17px;
+}
+#modGuideSet .modGuideBox .decMobile{
+	text-align:center;
+}
+#modGuideSet .modGuideBox .decMobile p{
+	margin:10px auto 17px auto;
+}
+#modGuideSet .modGuideBox .decMailMobile img{
+	position:relative;
+	top:3px;
+}
+/* ------------------------------------------------------
+FREE CAMPAIGN
+------------------------------------------------------- */
+#modCpnFree{
+	color:#000000;
+	font-size:115%;
+}
+#modCpnFree a:hover{
+	margin:0;
+	padding:0;
+	text-decoration:underline;
+}
+#modCpnFree .camp_module{
+	width:100%;
+	margin:0px 0px 13px 0px;
+	padding:0px 0px;
+}
+#modCpnFree	.camp_txt{
+	width:auto;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	font-size:90%;
+	font-weight:bold;
+	color:#333333;
+	text-align:center;
+	border:1px solid #3d68c2;
+}
+#modCpnFree	.camp_txt{
+	padding:8px 0;
+}
+#modCpnFree .camp_txt p span.decPwrIc{
+	margin-right:4px;
+}
+#modCpnFree .camp_txt p span.decPwrIc img{
+	border:none;
+}
+#modInfoTxt #modCpnFree table{
+	margin:0;
+	padding:0;
+}
+#modCpnFree img{
+	vertical-align:bottom;
+}
+/* ------------------------------------------------------
+TAB
+------------------------------------------------------- */
+#modTab{
+	margin-bottom:20px;
+	border-bottom:#759ede solid 4px;
+	text-align:center;
+}
+#modTab td{
+	text-align:center;
+	font-weight:bold;
+	vertical-align:middle;
+	font-size:85%;
+}
+#modTab .decTabSp{
+	width:5px;
+}
+/* CATEGORY SEARCH RESULTS TAB */
+/* ON */
+#modTab .decCtgTab01On{
+	width:276px;
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/ctgsrc_tab_bg_on.gif) no-repeat top #759ede;
+}
+#modTab .decCtgTab01On p{
+	padding:11px 5px 6px 5px;
+	color:#ffffff;
+}
+#modTab .decCtgTab01On span{
+	font-weight:normal;
+	font-size:90%;
+}
+/* OFF */
+#modTab .decCtgTab01Off{
+	width:276px;
+	background:url(/images/auct/template/ui/auc_mod/ctgsrc_tab_bg_off.gif) no-repeat top #cad8ee;
+}
+#modTab .decCtgTab01Off p{
+	padding:11px 5px 6px 5px;
+	color:#1546a7;
+}
+#modTab .decCtgTab01Off span{
+	font-weight:normal;
+	font-size:90%;
+}
+#modTab .decCtgTab01Off a{
+	margin:0;
+	padding:0;
+	display:block;
+	width:266px;
+	text-decoration:none;
+}
+#modTab .decCtgTab01Off a:hover{
+	display:block;
+	text-decoration:underline;
+}
+/* NONE */
+#modTab .decCtgTab01None{
+	width:276px;
+	background:url(/images/auct/template/ui/auc_mod/ctgsrc_tab_bg_off.gif) no-repeat top #cad8ee;
+}
+#modTab .decCtgTab01None p{
+	padding:11px 5px 6px 5px;
+	color:#bbbbbb;
+}
+#modTab .decCtgTab01None span{
+	font-weight:normal;
+	font-size:90%;
+}
+/* ------------------------------------------------------
+INFORMATION
+------------------------------------------------------- */
+#modInfoBox{
+	display:block;
+	width:100%;
+	margin-bottom:20px;
+	padding:0;
+	color:#333333;
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-x top #ffffe3;
+}
+#modInfoBox p{
+	font-size:85%;
+	font-weight:bold;
+	line-height:150%;
+}
+#modInfoBox .decBg01{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-x bottom;
+}
+#modInfoBox .decBg02{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top left;
+}
+#modInfoBox .decBg03{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top right;
+}
+#modInfoBox .decBg04{
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_01.gif) no-repeat top left;
+}
+#modInfoBox .decBg05{
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_03.gif) no-repeat top right;
+}
+#modInfoBox .decBg06{
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_02.gif) no-repeat bottom left;
+}
+#modInfoBox .decBg07{
+	padding:10px 15px;
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_04.gif) no-repeat bottom right;
+}
+#modInfoBox ul{
+	margin:10px 0;
+	padding:0;
+}
+#modInfoBox ul li{
+	margin:0;
+	padding-left:10px;
+	list-style-type:none;
+	line-height:150%;
+	background:url(/images/auct/template/ui/auc_mod/ic_002.gif) no-repeat left 0.6em;
+}
+#modInfoBox.decTop{
+	margin-top:25px;
+}
+#modInfoBox .decTx01{
+	font-size:85%;
+}
+#modInfoBox .decTx03{
+	font-size:75%;
+	line-height:160%;
+}
+#modInfoBox .decBg07_03{
+	padding:5px 15px;
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_04.gif) no-repeat bottom right;
+}
+/* BACKGROUND GRAY */
+#modInfoBox .decBg04_02{
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_01_02.gif) no-repeat top left;
+}
+#modInfoBox .decBg05_02{
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_03_02.gif) no-repeat top right;
+}
+#modInfoBox .decBg06_02{
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_02_02.gif) no-repeat bottom left;
+}
+#modInfoBox .decBg07_02{
+	padding:1px 15px;
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_04_02.gif) no-repeat bottom right;
+}
+/* ------------------------------------------------------
+LEAD
+------------------------------------------------------- */
+#modLeadtxt{
+	width:auto;
+	margin:0 15px 20px 15px;
+	font-size:85%;
+	line-height:160%;
+	color:#333333;
+}
+#modLeadtxt a:hover{
+	text-decoration:underline;
+}
+#modLeadtxt ul{
+	margin:10px 0;
+	padding:0;
+}
+#modLeadtxt ul li{
+	margin:0;
+	padding-left:10px;
+	list-style-type:none;
+	background:url(/images/auct/template/ui/auc_mod/ic_002.gif) no-repeat left 0.5em;
+}
+#modLeadtxt .decBg01{
+	padding:3px 0 3px 18px;
+	font-weight:normal;
+	color:#333333;
+	background:url(/images/auct/template/ui/auc_mod/ic_016.gif) no-repeat left;
+}
+#modLeadtxt .decTx01{
+	padding:10px 0 5px 0;
+	font-size:115%;
+	color:#000000;
+}
+#modLeadtxt .decTx02{
+	padding:0 0 5px 0;
+	font-size:115%;
+	color:#000000;
+}
+#modLeadtxt .decTx03{
+	padding:10px 0 5px 0;
+	font-size:115%;
+}
+#modLeadtxt .decTx04{
+	padding:25px 0 0 0;
+	font-size:115%;
+	text-align:center;
+}
+#modLeadtxt .decTx06{
+	margin-top:0;
+	padding:0;
+}
+#modLeadtxt .decTx07{
+	margin-top:0;
+	font-size:100%;
+}
+#modLeadtxt .decTx05{
+	margin-left:5px;
+	text-align:left;
+	background:url(/images/auct/template/ui/auc_mod/ic_002.gif) no-repeat left 0.7em;
+}
+/* ------------------------------------------------------
+PAGE SKIP
+------------------------------------------------------- */
+.modPgCnt a:hover,
+.modPgCntTop a:hover,
+.modPgCntBtm a:hover{
+	text-decoration:underline;
+}
+/* DEFAULT (NO LINE) */
+.modPgCnt{
+	margin:10px 0;
+	*margin:5px 0 8px 0;
+	width:100%;
+	color:#333333;
+}
+/* TOP (LOWER LINE) */
+.modPgCntTop{
+	width:100%;
+	display:block;
+	margin:0;
+	padding:0 0 10px 0;
+	*padding:0 0 8px 0;
+	border-bottom:#dddddd solid 1px;
+	color:#333333;
+}
+/* BOTTOM (UPPER LINE) */
+.modPgCntBtm{
+	display:block;
+	margin:0 0 10px 0;
+	padding:8px 0 5px 0;
+	*padding:5px 0 5px 0;
+	width:100%;
+	border-top:#dddddd solid 1px;
+	color:#333333;
+}
+/* SKIP COMMON */
+.modPgCnt .decBg01,
+.modPgCntTop .decBg01,
+.modPgCntBtm .decBg01{
+	margin-bottom:5px;
+	font-size:0 ;
+}
+.modPgCnt .decBg02,
+.modPgCntTop .decBg02,
+.modPgCntBtm .decBg02{
+	border-bottom:none;
+}
+.modPgCnt .pts01,
+.modPgCntTop .pts01,
+.modPgCntBtm .pts01{
+	margin-top:3px;
+	*margin-top:9px;
+	height:auto;
+	font-size:90%;
+}
+/* IE7 */
+*+html .modPgCnt .pts01,
+*+html .modPgCntTop .pts01,
+*+html .modPgCntBtm .pts01{
+	margin-top:8px;
+}
+.modPgCnt .pts01 span,
+.modPgCntTop .pts01 span,
+.modPgCntBtm .pts01 span{
+	font-size:110%;
+	font-weight:bold;
+}
+.modPgCnt .pts02A,
+.modPgCntTop .pts02A,
+.modPgCntBtm .pts02A{
+	float:left;
+	display:block;
+	height:auto;
+	width:48%;
+	margin:0;
+	padding:0;
+	color:#333333;
+}
+.modPgCnt .pts02A p,
+.modPgCntTop .pts02A p,
+.modPgCntBtm .pts02A p{
+	margin:0;
+	padding-top:3px;
+}
+.modPgCnt .pts02B,
+.modPgCntTop .pts02B,
+.modPgCntBtm .pts02B{
+	float:right;
+	display:block;
+	height:auto;
+	width:48%;
+	margin:0;
+	padding:0;
+	color:#333333;
+	text-align:right;
+}
+.modPgCnt .pts02B p,
+.modPgCntTop .pts02B p,
+.modPgCntBtm .pts02B p{
+	margin:0;
+	padding-top:3px;
+	white-space:nowrap;
+}
+.modPgCnt .pts02B a.decPgPrev,
+.modPgCntTop .pts02B a.decPgPrev,
+.modPgCntBtm .pts02B a.decPgPrev{
+	margin-left:8px;
+	padding-left:12px;
+	background:url(/images/auct/template/ui/auc_mod/ic_004.gif) no-repeat;
+	background-position:5% 50%;
+}
+.modPgCnt .pts02B a.decPgNext,
+.modPgCntTop .pts02B a.decPgNext,
+.modPgCntBtm .pts02B a.decPgNext{
+	padding-right:12px;
+	background:url(/images/auct/template/ui/auc_mod/ic_005.gif) no-repeat ;
+	background-position:95% 50%;
+}
+.modPgCnt .pts03,
+.modPgCntTop .pts03,
+.modPgCntBtm .pts03{
+	float:left;
+	width:60%;
+	height:auto;
+	font-size:85%;
+}
+.modPgCnt .pts03 span,
+.modPgCntTop .pts03 span,
+.modPgCntBtm .pts03 span{
+	font-size:110%;
+	font-weight:bold;
+}
+.modPgCnt .pts04,
+.modPgCntTop .pts04,
+.modPgCntBtm .pts04{
+	float:right;
+	height:auto;
+	width:39%;
+	margin:0;
+	padding:0;
+	font-size:85%;
+	text-align:right;
+}
+.modPgCnt .pts04 a:hover,
+.modPgCntTop .pts04 a:hover,
+.modPgCntBtm .pts04 a:hover{
+	text-decoration:underline;
+}
+.modPgCnt .pts05,
+.modPgCntTop .pts05,
+.modPgCntBtm .pts05{
+	height:auto;
+	width:100%;
+	margin:0;
+	padding:0;
+	font-size:85%;
+	text-align:right;
+}
+.modPgCnt .pts05 span,
+.modPgCntTop .pts05 span,
+.modPgCntBtm .pts05 span{
+	font-size:90%;
+}
+.modPgCnt .pts05 a:hover,
+.modPgCntTop .pts05 a:hover,
+.modPgCntBtm .pts05 a:hover{
+	text-decoration:underline;
+}
+/* ------------------------------------------------------
+CATEGORY SEARCH LIST RESULT
+------------------------------------------------------- */
+#modCtgSearchResult{
+	text-align:left;
+	color:#333333;
+}
+#modCtgSearchResult .untHead p{
+	float:right;
+	margin-bottom:10px;
+	*margin-bottom:0;
+	padding-left:23px;
+	font-size:85%;
+	background:url(/images/auct/template/ui/auc_mod/ic_001.gif) no-repeat left center;
+}
+/* IE7 */
+*+html #modCtgSearchResult .untHead p{
+	margin-bottom:0;
+}
+#modCtgSearchResult p{
+	font-size:85%;
+}
+#modCtgSearchResult .untBody .decBg01{
+	background:#f1f0f0;
+}
+#modCtgSearchResult .untBody .decBg02{
+	vertical-align:top;
+	border-right:#cecece solid 1px;
+	background-image:none;
+}
+#modCtgSearchResult .untBody table{
+	background:none;
+}
+#modCtgSearchResult .untBody td{
+	padding:3px 3px 5px 3px;
+	font-size:75%;
+	line-height:150%;
+	text-align:left;
+}
+#modCtgSearchResult .untBody td span{
+	margin-left:25px;
+}
+#modCtgSearchResult .modSbtBtn{
+	padding:5px;
+	*padding:5px 5px 5px 5px;
+	text-align:center;
+	border-top:#dddddd solid 1px;
+	background:#f1f0f0;
+}
+#modCtgSearchResult .modSbtBtn .decInpt{
+	width:20%;
+	margin:0 auto;
+	padding:5px;
+	border:#ff7000 solid 2px;
+}
+#modCtgSearchResult a:hover{
+	text-decoration:underline;
+}
+#modCtgSearchResult .untBody th{
+	padding:3px 3px 5px 3px;
+	font-size:75%;
+	line-height:130%;
+	text-align:right;
+	background:#dddddd;
+}
+#modCtgSearchResult .untBody .decBg03{
+	text-align:right;
+}
+#modCtgSearchResult .untBody .decBg04{
+	text-align:center;
+}
+/* ------------------------------------------------------
+NO AGREEMENT CATEGORY
+------------------------------------------------------- */
+#modAlertBoxSml{
+	display:block;
+	width:100%;
+	margin-bottom:20px;
+	padding:0;
+	text-align:center;
+	color:#333333;
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-x top #ffffe3;
+}
+#modAlertBoxSml .decBg01{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-x bottom;
+}
+#modAlertBoxSml .decBg02{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top left;
+}
+#modAlertBoxSml .decBg03{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top right;
+}
+#modAlertBoxSml .decBg04{
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_01.gif) no-repeat top left;
+}
+#modAlertBoxSml .decBg05{
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_03.gif) no-repeat top right;
+}
+#modAlertBoxSml .decBg06{
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_02.gif) no-repeat bottom left;
+}
+#modAlertBoxSml .decBg07{
+	padding:10px 15px 0 15px;
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_04.gif) no-repeat bottom right;
+}
+#modAlertBoxSml .untHead{
+	font-size:100%;
+	font-weight:bold;
+	line-height:150%;
+	color:#ff6000;
+}
+#modAlertBoxSml .untBody{
+	margin:0;
+	padding-bottom:10px;
+	font-size:100%;
+	text-align:center;
+}
+#modAlertBoxSml .untBody th{
+	text-align:right;
+	font-weight:normal;
+}
+#modAlertBoxSml .untBody td{
+	text-align:left;
+}
+#modAlertBoxSml .untBody ul{
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+	text-align:left;
+}
+#modAlertBoxSml .untBody ul li span{
+	margin-left:0.9em;
+}
+/* ------------------------------------------------------
+KEYWORD SEARCH HINT
+------------------------------------------------------- */
+#modTipsBox{
+	display:block;
+	width:100%;
+	margin-bottom:20px;
+	padding:0;
+	color:#333333;
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-x top #ffffff;
+}
+#modTipsBox .decBg01{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-x bottom;
+}
+#modTipsBox .decBg02{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top left;
+}
+#modTipsBox .decBg03{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top right;
+}
+#modTipsBox .decBg04{
+	background:url(/images/auct/template/ui/auc_mod/bg_013.gif) no-repeat top left;
+}
+#modTipsBox .decBg05{
+	background:url(/images/auct/template/ui/auc_mod/bg_015.gif) no-repeat top right;
+}
+#modTipsBox .decBg06{
+	background:url(/images/auct/template/ui/auc_mod/bg_014.gif) no-repeat bottom left;
+}
+#modTipsBox .decBg07{
+	padding:15px;
+	background:url(/images/auct/template/ui/auc_mod/bg_016.gif) no-repeat bottom right;
+}
+#modTipsBox .untHead{
+	font-size:100%;
+	font-weight:bold;
+}
+#modTipsBox .untHead p{
+	margin-bottom:10px;
+	padding:10px 0 11px 40px;
+	background:url(/images/auct/template/ui/auc_mod/ic_010.gif) no-repeat left;
+}
+#modTipsBox .untHead .decBgPoin{
+	margin-bottom:10px;
+	padding:10px 0 5px 25px;
+	background:url(/images/points/yp_icn_s.gif) no-repeat left;
+}
+#modTipsBox .untBody{
+	margin:0;
+	font-size:100%;
+}
+#modTipsBox .untBody ul{
+	margin:0;
+	padding:0;
+	font-size:85%;
+}
+#modTipsBox .untBody ul li{
+	margin:0;
+	padding-left:10px;
+	list-style-type:none;
+	line-height:150%;
+	background:url(/images/auct/template/ui/auc_mod/ic_002.gif) no-repeat left 0.6em;
+}
+#modTipsBox .untBody p{
+	font-size:85%;
+}
+/* ------------------------------------------------------
+NORROWING
+------------------------------------------------------- */
+#modNrwSlctr{
+	display:block;
+	margin-bottom:10px;
+	padding-bottom:7px;
+	border-bottom:#dddddd solid 1px;
+	font-size:75%;
+	color:#333333;
+}
+#modNrwSlctr p{
+	width:auto;
+	margin:0;
+	padding:0;
+}
+#modNrwSlctr p span{
+	padding:0 9px;
+	font-weight:bold;
+}
+#modNrwSlctr ul{
+	display:inline;
+	margin:0;
+	margin:0;
+	font-weight:bold;
+}
+#modNrwSlctr li{
+	float:left;
+	width:auto;
+	margin:0;
+	padding:0 9px;
+	list-style:none;
+	font-weight:bold;
+	background:#CCCC66;
+}
+#modNrwSlctr .decBg01{
+	background:url(/images/auct/template/ui/auc_mod/bg_012.gif) left no-repeat;
+}
+#modNrwSlctr a{
+	text-decoration:none;
+}
+#modNrwSlctr a:hover{
+	text-decoration:underline;
+}
+/* ------------------------------------------------------
+ITEM SEARCH RESULTS
+------------------------------------------------------- */
+#modItemSearchResult a{
+	text-decoration:none;
+}
+#modItemSearchResult a:hover{
+	text-decoration:underline;
+}
+#modItemSearchResult p.decNoCtg{
+	color:#333333;
+	margin-bottom:20px;
+}
+#modItemSearchResult .untHead{
+	width:100%;
+}
+#modItemSearchResult thead{
+	background:#e4e3e3;
+}
+#modItemSearchResult table{
+	width:100%;
+	color:#333333;
+}
+/* TABLE TITLE */
+#modItemSearchResult th{
+	margin:0;
+	padding:0;
+	vertical-align:middle;
+	white-space:nowrap;
+	font-size:75%;
+	text-align:center;
+	background:none;
+}
+#modItemSearchResult th p{
+	padding:3px 10px;
+}
+#modItemSearchResult table .decBg01{
+	width:auto;
+	height:5px;
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/bg_020.gif) no-repeat top left #e4e3e3;
+	font-size:0;
+}
+#modItemSearchResult table .decBg02{
+	width:auto;
+	height:5px;
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/bg_021.gif) no-repeat bottom left #e4e3e3;
+	font-size:0;
+}
+#modItemSearchResult table .decBg03{
+	width:auto;
+	height:5px;
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/bg_022.gif) no-repeat top right #e4e3e3;
+	font-size:0;
+}
+#modItemSearchResult table .decBg04{
+	width:auto;
+	height:5px;
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/bg_023.gif) no-repeat bottom right #e4e3e3;
+	font-size:0;
+}
+#modItemSearchResult table .decBg05{
+	width:auto;
+	background:#e4e3e3;
+}
+#modItemSearchResult table .decBg05 span{
+	position:relative;
+	top:-1px;
+	*top:-2px;
+	left:1px;
+}
+/* TABLE LIST */
+#modItemSearchResult td{
+text-align:center;
+}
+#modItemSearchResult .pts01a,
+#modItemSearchResult .pts01b,
+#modItemSearchResult .pts01c,
+#modItemSearchResult .pts01d{
+padding:15px 0;
+}
+#modItemSearchResult .pts01a{
+	font-size:100%;
+	text-align:left;
+}
+#modItemSearchResult .pts01a span{
+	margin-left:15px;
+	font-size:75%;
+}
+#modItemSearchResult table .pts01b,
+#modItemSearchResult table .pts01c{
+	font-weight:bold;
+}
+#modItemSearchResult table .pts01d{
+	color:#ff0000;
+}
+#modItemSearchResult table .pts02{
+	border-bottom:#dddddd solid 1px;
+}
+#modItemSearchResult table .pts02a{
+	width:100px;
+	padding-right:13px;
+	vertical-align:top;
+}
+#modItemSearchResult table .pts02b{
+	text-align:left;
+}
+#modItemSearchResult table .pts02b p{
+	margin-bottom:10px;
+	font-size:75%;
+	line-height:130%;
+	text-align:left;
+}
+#modItemSearchResult table .pts02c{
+	margin-bottom:15px;
+	padding:11px 15px;
+	border:#94bbf8 solid 1px;
+	font-size:75%;
+	line-height:130%;
+	background:#e7f0fe;
+}
+#modItemSearchResult table .pts02c td{
+	text-align:left;
+}
+/* ------------------------------------------------------
+CATEGORY CHOICE TAB
+------------------------------------------------------- */
+#modCtgSlctTab{
+	width:100%;
+	margin-bottom:15px;
+}
+#modCtgSlctTab a:hover{
+	text-decoration:underline;
+}
+#modCtgSlctTab .untBody{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+#modCtgSlctTab .untBody table{
+	width:100%;
+	margin:0;
+	padding:0;
+	background:#ff0000;
+}
+#modCtgSlctTab .untBody td{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-size:85%;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:top;
+}
+#modCtgSlctTab .untBody .decTx01{
+	float:right;
+	margin-bottom:8px;
+	padding-left:23px;
+	*padding-top:1px;
+	*padding-bottom:1px;
+	font-size:85%;
+	background:url(/images/auct/template/ui/auc_mod/ic_001.gif) no-repeat;
+}
+/* IE7 */
+*+html #modCtgSlctTab .untBody .decTx01{
+	padding-top:1px;
+	padding-bottom:1px;
+}
+/*** Tab01 ***/
+#modCtgSlctTab .untBody .decTab01On,
+#modCtgSlctTab .untBody .decTab01Off{
+	margin:0;
+}
+#modCtgSlctTab .untBody .decTab01On{
+	padding:15px 0 14px 0;
+	border-left:#b9b8b8 solid 1px;
+	text-align:center;
+	color:#333333;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_tab_bg_on.gif) repeat-x #f9fbfe;
+}
+#modCtgSlctTab .untBody .decTab01Off{
+	border-bottom:#b9b8b8 solid 1px;
+	border-left:#dddddd solid 1px;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_tab_bg_off.gif) repeat-x #d0dbee;
+}
+#modCtgSlctTab .untBody .decTab01Off a{
+	display:block;
+	*height:13px;
+	padding:15px 0 13px 0;
+	text-decoration:none;
+}
+#modCtgSlctTab .untBody .decTab01Off a:hover{
+	display:block;
+	text-decoration:underline;
+}
+/*** /Tab01 ***/
+/*** Tab02 ***/
+#modCtgSlctTab .untBody .decTab02On,
+#modCtgSlctTab .untBody .decTab02Off01, 
+modCtgSlctTab .untBody .decTab02Off02{
+	margin:0;
+}
+#modCtgSlctTab .untBody .decTab02On{
+	text-align:center;
+	border-right:#b9b8b8 solid 1px;
+	border-collapse:collapse;
+	color:#333333;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_tab_bg_on.gif) repeat-x #f9fbfe;
+}
+#modCtgSlctTab .untBody .decTab02OnLine{
+	padding:15px 0 14px 0;
+	border-left:#b9b8b8 solid 1px;
+}
+#modCtgSlctTab .untBody .decTab02Off01 a,
+#modCtgSlctTab .untBody .decTab02Off02 a{
+	display:block;
+	*height:13px;
+	padding:15px 0 13px 0;
+	text-decoration:none;
+}
+#modCtgSlctTab .untBody .decTab02Off01 a:hover,
+#modCtgSlctTab .untBody .decTab02Off02 a:hover{
+	display:block;
+	padding:15px 0 13px 0;
+	text-decoration:underline;
+}
+/* Tab02 Left on */
+#modCtgSlctTab .untBody .decTab02Off01{
+	text-align:center;
+	border-bottom:#b9b8b8 solid 1px;
+	border-left:#b9b8b8 solid 1px;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_tab_bg_off.gif) repeat-x #d0dbee;
+}
+#modCtgSlctTab .untBody .decTab02OffLine01{
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_tab_bg_line_off.gif) no-repeat right;
+}
+/* Tab02 Right on */
+#modCtgSlctTab .untBody .decTab02Off02{
+	text-align:center;
+	border-bottom:#b9b8b8 solid 1px;
+	border-right:#b9b8b8 solid 1px;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_tab_bg_off.gif) repeat-x #d0dbee;
+}
+#modCtgSlctTab .untBody .decTab02OffLine02{
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_tab_bg_line_off.gif) no-repeat left;
+}
+/*** /Tab02 ***/
+/*** Tab03 ***/
+#modCtgSlctTab .untBody .decTab03On,
+#modCtgSlctTab .untBody .decTab03Off{
+	margin:0;
+}
+#modCtgSlctTab .untBody .decTab03On{
+	text-align:center;
+	padding:15px 0 14px 0;
+	border-right:#b9b8b8 solid 1px;
+	color:#333333;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_tab_bg_on.gif) repeat-x #f9fbfe;
+}
+#modCtgSlctTab .untBody .decTab03Off{
+	border-bottom:#b9b8b8 solid 1px;
+	border-right:#dddddd solid 1px;
+	text-align:center;
+	background:url(/images/auct/template/ui/auc_mod/ctgslct_tab_bg_off.gif) repeat-x #d0dbee;
+}
+#modCtgSlctTab .untBody .decTab03Off a{
+	display:block;
+	*height:13px;
+	padding:15px 0 13px 0;
+	text-decoration:none;
+}
+#modCtgSlctTab .untBody .decTab03Off a:hover{
+	display:block;
+	text-decoration:underline;
+}
+/*** /Tab03 ***/
+/* INPUT FORM *********************************************************************************************/
+/* ------------------------------------------------------
+CATEGORY CONFIRMATION
+------------------------------------------------------- */
+#modCfmBox{
+	margin-bottom:25px;
+	padding:15px;
+	border:#85a9e2 solid 1px;
+	font-size:75%;
+	line-height:150%;
+	color:#333333;
+	background:#e7f0fe;
+}
+#modCfmBox span{
+	color:#333333;
+}
+/* ------------------------------------------------------
+FORM COMMON
+------------------------------------------------------- */
+#modFormReqrd,
+#modFormOpt,
+#modFormDeli,
+#modFormImg,
+#modFormCar,
+#modImgPrvw,
+#modFormOptCls,
+#modFormDeliCls,
+#modFormImgCls,
+#modFormCarCls,
+#modImgPrvwCls{
+	line-height:100%;
+	color:#333333;
+}
+.decFormBtm{
+	margin-bottom:15px;
+	font-size:0;
+}
+.decCapTop{
+	margin-top:8px;
+}
+/** FORM TITLE **/
+#modFormReqrd .untHead,
+#modFormOpt .untHead,
+#modFormDeli .untHead,
+#modFormImg .untHead,
+#modFormCar .untHead,
+#modImgPrvw .untHead,
+#modFormOptCls .untHead,
+#modFormDeliCls .untHead,
+#modFormImgCls .untHead,
+#modFormCarCls .untHead,
+#modImgPrvwCls .untHead{
+	margin:0;
+	padding:0;
+}
+/** FORM CONTENTS **/
+#modFormReqrd .untBody table,
+#modFormOpt .untBody table,
+#modFormDeli .untBody table,
+#modFormImg .untBody table,
+#modFormCar .untBody table,
+#modImgPrvw .untBody table{
+	margin-bottom:15px;
+	border-bottom:#B8B8B8 solid 1px;
+	text-align:left;
+	font-size:85%;
+	color:#333333;
+}
+#modFormReqrd .untBody th,
+#modFormOpt .untBody th,
+#modFormDeli .untBody th,
+#modFormImg .untBody th,
+#modFormCar .untBody th,
+#modImgPrvw .untBody th{
+	padding:10px;
+	vertical-align:middle;
+	border-top:#B8B8B8 solid 1px;
+	border-left:#B8B8B8 solid 1px;
+	width:166px;
+}
+#modFormReqrd .untBody th strong,
+#modFormOpt .untBody th strong,
+#modFormDeli .untBody th strong,
+#modFormImg .untBody th strong,
+#modFormCar .untBody th strong,
+#modImgPrvw .untBody th strong{
+	margin-left:5px;
+	color:#ff6000;
+}
+#modFormReqrd .untBody th span,
+#modFormOpt .untBody th span,
+#modFormDeli .untBody th span,
+#modFormImg .untBody th span,
+#modFormCar .untBody th span,
+#modImgPrvw .untBody th span{
+	margin-left:8px;
+	padding:0;
+}
+#modFormReqrd .untBody th span img,
+#modFormOpt .untBody th span img,
+#modFormDeli .untBody th span img,
+#modFormImg .untBody th span img,
+#modFormCar .untBody th span img,
+#modImgPrvw .untBody th span img{
+	margin:0;
+	padding:0;
+	border:none;
+}
+#modFormReqrd .untBody td,
+#modFormOpt .untBody td,
+#modFormDeli .untBody td,
+#modFormImg .untBody td,
+#modFormCar .untBody td,
+#modImgPrvw .untBody td{
+	padding:10px 15px;
+	border-top:#B8B8B8 solid 1px;
+	border-left:#B8B8B8 solid 1px;
+	border-right:#B8B8B8 solid 1px;
+	border-bottom:none;
+	background:#ffffff;
+}
+#modFormReqrd .untBody td p.decTx01{
+	margin:5px 0;
+}
+#modFormReqrd .untBody table ul li,
+#modFormOpt .untBody table ul li,
+#modFormDeli .untBody table ul li,
+#modFormImg .untBody table ul li,
+#modFormCar .untBody table ul li,
+#modImgPrvw .untBody table ul li{
+	margin:0;
+	padding:3px 0;
+	list-style:none;
+}
+#modFormReqrd .untBody .decTxtSmry,
+#modFormOpt .untBody .decTxtSmry,
+#modFormDeli .untBody .decTxtSmry,
+#modFormImg .untBody .decTxtSmry,
+#modFormCar .untBody .decTxtSmry,
+#modImgPrvw .untBody .decTxtSmry{
+	margin-bottom:20px;
+	line-height:180%;
+}
+#modFormReqrd .untBody .decTxtSmry span.decRenewal,
+#modFormOpt .untBody .decTxtSmry span.decRenewal,
+#modFormDeli .untBody .decTxtSmry span.decRenewal,
+#modFormImg .untBody .decTxtSmry span.decRenewal,
+#modFormCar .untBody .decTxtSmry span.decRenewal,
+#modImgPrvw .untBody .decTxtSmry span.decRenewal{
+	font-style:italic;
+}
+#modFormReqrd .untBody .decTxtSmry02 span,
+#modFormOpt .untBody .decTxtSmry02 span,
+#modFormDeli .untBody .decTxtSmry02 span,
+#modFormImg .untBody .decTxtSmry02 span,
+#modFormCar .untBody .decTxtSmry02 span,
+#modImgPrvw .untBody .decTxtSmry02 span{
+	padding-left:10px;
+	font-size:90%;
+}
+#modFormReqrd .decListSmry ul,
+#modFormOpt .decListSmry ul,
+#modFormDeli .decListSmry ul,
+#modFormImg .decListSmry ul,
+#modFormCar .decListSmry ul,
+#modImgPrvw .decListSmry ul{
+	margin:0;
+	padding:0;
+}
+/* EXPLANATION OF EDITING POINT */
+.decEditInfo{
+	margin-bottom:20px;
+	font-size:85%;
+	font-weight:bold;
+}
+.decEditInfo a:hover{
+	text-decoration:underline;
+}
+.decEditInfo span{
+	margin-right:10px;
+	padding:5px;
+	border:#ff7000 solid 2px;
+	color:#ff7000;
+}
+/* EDITING FRAME */
+#modFormReqrd .untBody .decEditPoint,
+#modFormOpt .untBody .decEditPoint,
+#modFormDeli .untBody .decEditPoint,
+#modFormImg .untBody .decEditPoint,
+#modFormCar .untBody .decEditPoint,
+#modImgPrvw .untBody .decEditPoint,
+.decSmryTable table td.decEditPoint{
+	border-collapse:collapse;
+	border:#ff7000 solid 2px;
+}
+/* ERROR FRAME */
+#modFormReqrd .untBody .decErrorPoint,
+#modFormOpt .untBody .decErrorPoint,
+#modFormDeli .untBody .decErrorPoint,
+#modFormImg .untBody .decErrorPoint,
+#modFormCar .untBody .decErrorPoint,
+#modImgPrvw .untBody .decErrorPoint,
+#modDlgBox .decErrorPoint{
+	border-collapse:collapse;
+	border:#ff0000 solid 2px;
+}
+.decErrorPoint{
+	border-collapse:collapse;
+	border:#ff0000 solid 2px;
+}
+.decTxErr{
+	padding:5px;
+	color:#ff0000;
+}
+.decTxErrAlrt{
+	margin:5px;
+	padding:3px 0 3px 25px;
+	color:#ff0000;
+	background:url(/images/auct/template/ui/auc_mod/ic_021.gif) no-repeat left;
+}
+.decTxErr04{
+	margin:5px 0;
+	padding:0 5px;
+	*padding:5px;
+}
+/* ----- IE7 ------ */
+*:first-child+html .decTxErr04{
+	padding:5px;
+}
+.decTxErr02{
+	margin:5px;
+	padding:3px 0 3px 25px;
+	font-size:90%;
+	line-height:130%;
+	color:#ff0000;
+	background:url(/images/auct/template/ui/auc_mod/ic_021.gif) no-repeat left 0.4em;
+}
+.decTxErr03{
+	margin:5px;
+	padding:3px 0;
+	font-size:90%;
+	line-height:130%;
+	color:#ff0000;
+}
+/* LIST MARK (DOT) */
+#modFormReqrd .decListSmry .decList02 li,
+#modFormOpt .decListSmry .decList02 li,
+#modFormDeli .decListSmry .decList02 li,
+#modFormImg .decListSmry .decList02 li,
+#modFormCar .decListSmry .decList02 li,
+#modImgPrvw .decListSmry .decList02 li{
+	margin:5px;
+	padding-left:10px;
+	list-style-type:none;
+	background:url(/images/auct/template/ui/auc_mod/ic_002.gif) no-repeat left 0.5em;
+}
+#modFormReqrd .decListSmry .decList02 ul,
+#modFormOpt .decListSmry .decList02 ul,
+#modFormDeli .decListSmry .decList02 ul,
+#modFormImg .decListSmry .decList02 ul,
+#modFormCar .decListSmry .decList02 ul,
+#modImgPrvw .decListSmry .decList02 ul{
+	margin-bottom:0;
+	*padding:0;
+}
+/* LIST MARK (DOT) OFF */
+#modFormReqrd .decListSmry .decList03 li,
+#modFormOpt .decListSmry .decList03 li,
+#modFormDeli .decListSmry .decList03 li,
+#modFormImg .decListSmry .decList03 li,
+#modFormCar .decListSmry .decList03 li,
+#modImgPrvw .decListSmry .decList03 li{
+	margin:5px;
+	padding-left:10px;
+	list-style-type:none;
+	color:#bcbbbb;
+	background:url(/images/auct/template/ui/auc_mod/ic_002_off.gif) no-repeat left 0.5em;
+}
+#modFormReqrd .decListSmry .decList03 ul,
+#modFormOpt .decListSmry .decList03 ul,
+#modFormDeli .decListSmry .decList03 ul,
+#modFormImg .decListSmry .decList03 ul,
+#modFormCar .decListSmry .decList03 ul,
+#modImgPrvw .decListSmry .decList03 ul{
+	margin:0;
+}
+/* LIST MARK (HYPHEN) */
+#modFormReqrd .decListSmry .decList01 li,
+#modFormOpt .decListSmry .decList01 li,
+#modFormDeli .decListSmry .decList01 li,
+#modFormImg .decListSmry .decList01 li,
+#modFormCar .decListSmry .decList01 li,
+#modImgPrvw .decListSmry .decList01 li{
+	margin-left:20px;
+	*margin-left:5px;
+	padding:0 0 0 15px;
+	margin-bottom:0;
+	background:url(/images/auct/template/ui/auc_mod/ic_003.gif) no-repeat left 0.5em;
+}
+#modFormReqrd .decListSmry .decList01 ul,
+#modFormOpt .decListSmry .decList01 ul,
+#modFormDeli .decListSmry .decList01 ul,
+#modFormImg .decListSmry .decList01 ul,
+#modFormCar .decListSmry .decList01 ul,
+#modImgPrvw .decListSmry .decList01 ul{
+	margin-bottom:0;
+}
+#modFormReqrd .decListSmry .decList01,
+#modFormOpt .decListSmry .decList01,
+#modFormDeli .decListSmry .decList01,
+#modFormImg .decListSmry .decList01,
+#modFormCar .decListSmry .decList01,
+#modImgPrvw .decListSmry .decList01{
+	margin:0;
+	padding:0;
+}
+#modFormReqrd .decListSmry .decTx01,
+#modFormOpt .decListSmry .decTx01,
+#modFormDeli .decListSmry .decTx01,
+#modFormImg .decListSmry .decTx01,
+#modFormCar .decListSmry .decTx01,
+#modImgPrvw .decListSmry .decTx01{
+	color:#bcbbbb;
+}
+#modFormReqrd .decListSmry .decTx02,
+#modFormOpt .decListSmry .decTx02,
+#modFormDeli .decListSmry .decTx02,
+#modFormImg .decListSmry .decTx02,
+#modFormCar .decListSmry .decTx02,
+#modImgPrvw .decListSmry .decTx02{
+	margin:15px 0;
+	color:#333333;
+}
+/** TITLE IN THE FORM **/
+/* COMMON */
+.decFormHead p,
+.decFormHeadOff p{
+	padding:8px 15px;
+	font-weight:bold;
+}
+.decFormHead p img,
+.decFormHeadOff p img{
+	position:relative;
+	top:2px;
+	left:5px;
+}
+/* ON */
+.decFormHead{
+	width:100%;
+	margin-bottom:15px;
+	vertical-align:bottom;
+	color:#333333;
+	background:#f1f1f1;
+}
+.decFormHead .decBg01{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_020_off.gif) no-repeat top left;
+}
+.decFormHead .decBg02{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_021_off.gif) no-repeat bottom left;
+}
+.decFormHead .decBg03{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_022_off.gif) no-repeat top right;
+}
+.decFormHead .decBg04{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_023_off.gif) no-repeat bottom right;
+}
+#modFormReqrd .decFormHead p span.decStrTxt{
+	color:#ff0000;
+}
+/* OFF */
+.decFormHeadOff{
+	width:100%;
+	margin-bottom:15px;
+	vertical-align:bottom;
+	color:#acabab;
+	background:#f1f1f1;
+}
+.decFormHeadOff .decBg01{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_020_off.gif) no-repeat top left;
+}
+.decFormHeadOff .decBg02{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_021_off.gif) no-repeat bottom left;
+}
+.decFormHeadOff .decBg03{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_022_off.gif) no-repeat top right;
+}
+.decFormHeadOff .decBg04{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_023_off.gif) no-repeat bottom right;
+}
+/* TEXT BOX LINE */
+/* ON */
+.decFormTxtBox input,
+.decFormTxtArea textarea{
+	padding:1px 5px;
+	*padding:2px 5px;
+	color:#333333;
+	border:#848484 solid 1px;
+}
+.decFormSelect select{
+	color:#333333;
+}
+/* OFF */
+.decFormTxtBoxOff input,
+.decFormTxtAreaOff textarea{
+	border:#e4e4e4 solid 1px;
+}
+/* TEXT BOX LINE (IMAGE UPLOAD) */
+/* ON */
+.decFormTxtBox02 input{
+	color:#333333;
+}
+/* OFF */
+.decFormTxtBoxOff02 input{
+	color:#333333;
+}
+/* ENGLISH VERSION TITLE */
+.decFormJpTxtTit{
+	margin-top:10px;
+	padding:3px 2px;
+	*padding:2px;
+	width:407px;
+	*width:406px;
+	border:#dddddd solid 1px;
+}
+/* safari only \*/
+html:\66irst-child .decFormJpTxtTit{
+	width:547px;
+}
+/* end */
+/* ENGLISH VERSION EXPLANATION */
+.decFormJpDiscpt{
+	margin-top:10px;
+	padding:3px 2px;
+	*padding:2px;
+	border:#dddddd solid 1px;
+	line-height:150%;
+}
+/* ------------------------------------------------------
+LABEL BACKGROUND
+------------------------------------------------------- */
+/* REQUIRED */
+.untBody .decFormLabelReqrd{
+	background:#fff3a6;
+}
+/* NORMAL */
+.untBody .decFormLabelNml{
+	background:#fff8ca;
+}
+/* PAY */
+.untBody .decFormLabelPay{
+	background:#ffecb3;
+}
+/* ------------------------------------------------------
+FORM TYPE
+------------------------------------------------------- */
+/* TEXT BOX (ONE LINE) */
+/* COMMON */
+.decFormTxtBox input,
+.decFormTxtBoxOff input{
+	margin-right:8px;
+	padding:2px 5px;
+	color:#333333;
+}
+.decFormTxtBox .decTx01,
+.decFormTxtBoxOff .decTx01{
+	font-size:100%;
+	margin-left:8px;
+}
+.decFormTxtBox li,
+.decFormTxtBoxOff li{
+	list-style:none;
+}
+.decFormTxtBox p,
+.decFormTxtBoxOff p{
+	width:auto;
+	margin:0;
+	padding:0;
+	float:right;
+}
+.decFormTxtBox .decTx02,
+.decFormTxtBoxOff .decTx02{
+	float:left;
+}
+.decFormTxtBox .decTx03,
+.decFormTxtBoxOff .decTx03{
+	margin:5px 0;
+	padding:4px 0 4px 20px;
+	background:url(/images/auct/template/ui/auc_mod/ic_016.gif) no-repeat left;
+}
+.decFormTxtBox .decTx04,
+.decFormTxtBoxOff .decTx04{
+	margin:10px 0;
+}
+.decFormTxtBox .decTx05,
+.decFormTxtBoxOff .decTx05{
+	color:#bcbbbb;
+	margin:10px 0;
+}
+.decFormTxtBox .decTx06,
+.decFormTxtBoxOff .decTx06{
+	position:relative;
+	bottom:5px;
+	*bottom:7px;
+}
+.decFormTxtBox .decTx07,
+.decFormTxtBoxOff .decTx07{
+	font-size:90%;
+}
+.decFormTxtBox .decTx08,
+.decFormTxtBoxOff .decTx08{
+	width:512px;
+}
+.decFormTxtBox .decTx09,
+.decFormTxtBoxOff .decTx09{
+	font-size:100%;
+}
+.decFormTxtBox .decTx10,
+.decFormTxtBoxOff .decTx10{
+	font-size:100%;
+	color:#000000;
+}
+.decFormTxtBox .decTx11,
+.decFormTxtBoxOff .decTx11{
+	font-size:100%;
+	color:#333333;
+}
+.decFormTxtBox02 .decTx12,
+.decFormTxtBoxOff02 .decTx12{
+	font-size:100%;
+	color:#333333;
+	margin-left:5px;
+}
+.decFormTxtBox div.decTx13,
+.decFormTxtBoxOff div.decTx13{
+	margin-top:2px;
+	padding:4px 0 4px 18px;
+	background:url(/images/auct/template/ui/auc_mod/ic_016.gif) 0 0.15em no-repeat;
+}
+.decFormTxtBox .decTx14,
+.decFormTxtBoxOff .decTx14{
+	margin-top:10px;
+}
+.decFormTxtBox .decTx15,
+.decFormTxtBoxOff .decTx15{
+	margin-top:5px;
+}
+a.decLnk01{
+	*vertical-align:middle;
+}
+/* ON */
+.decFormTxtBox span{
+	font-size:90%;
+}
+/* OFF */
+.decFormTxtBoxOff{
+	color:#bcbbbb;
+}
+.decFormTxtBoxOff span{
+	font-size:90%;
+	color:#bcbbbb;
+}
+/* FORM TEXT */
+.decFormTxt{
+	margin:15px 0;
+}
+.decFormTxtOff{
+	margin:15px 0;
+}
+/* FORM TEXT AREA */
+/* ON */
+.decFormTxtArea{
+	margin-bottom:15px;
+	padding:15px;
+	background:#efeff1;
+}
+.decFormTxtArea textarea{
+	width:500px;
+	margin-top:15px;
+	padding:5px;
+	font-size:100%;
+	line-height:150%;
+	color:#333333;
+}
+/* OFF */
+.decFormTxtAreaOff{
+	margin-bottom:15px;
+	padding:15px;
+	color:#acabab;
+	background:#f1f1f1;
+}
+.decFormTxtAreaOff textarea{
+	width:500px;
+	margin-top:15px;
+}
+/* RADIO BUTTON */
+.decFormRadio p,
+.decFormRadioOff p{
+	margin-bottom:5px;
+	padding:4px 0 4px 20px;
+	background:url(/images/auct/template/ui/auc_mod/ic_016.gif) no-repeat left;
+}
+.decFormRadio .decBg01,
+.decFormRadioOff .decBg01{
+	margin-bottom:15px;
+	font-size:0;
+}
+.decFormRadio .decBg02,
+.decFormRadioOff .decBg02{
+	width:25%;
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+.decFormRadio .decTx01,
+.decFormRadioOff .decTx01{
+	float:left;
+}
+.decFormRadio .decTx02,
+.decFormRadioOff .decTx02{
+	float:right;
+}
+/* OFF */
+.decFormRadioOff{
+	color:#bdbcbc;
+}
+/* PULL-DOWN */
+.decFormSelect select,
+.decFormSelectOff select{
+	margin-right:8px;
+}
+.decFormSelect p,
+.decFormSelectOff p{
+	float:right;
+}
+.decFormSelect .decTx02,
+.decFormSelectOff .decTx02{
+	float:left;
+}
+#modFormOpt .decFormSelect,
+#modFormOpt .decFormSelectOff{
+	float:left;
+}
+#modFormDeli .decFormSelect,
+#modFormDeli .decFormSelectOff{
+	margin-bottom:8px;
+}
+.decFormSelect span,
+.decFormSelectOff span{
+	margin-right:20px;
+	position:relative;
+	top:2px;
+	right:5px;
+}
+/* OFF */
+.decFormSelectOff{
+	color:#bdbcbc;
+}
+/* CHECK BOX */
+.decFormCheck,
+.decFormCheckOff{
+	width:100%;
+}
+.decFormCheck ul,
+.decFormCheckOff ul{
+	margin:0;
+	padding:0;
+	float:left;
+}
+.decFormCheck ul li,
+.decFormCheckOff ul li{
+	margin:0;
+	padding:0;
+	line-height:150%;
+}
+.decFormCheck p,
+.decFormCheckOff p{
+	float:right;
+	margin:0;
+	padding:0;
+	color:#333333;
+}
+.decFormCheck .decTx01{
+	display:block;
+	float:left;
+	width:auto;
+	margin:0 3px 0 10px;
+	border:none;
+}
+.decFormCheck .decTx02{
+	clear:both;
+	margin:10px 0 20px 0;
+	line-height:150%;
+}
+.decFormCheck .decTx03{
+	margin-top:10px;
+}
+.decFormCheck .decTx04{
+	margin-top:5px;
+}
+/* OFF */
+.decFormCheckOff{
+	color:#bdbcbc;
+}
+.decFormCheckOff .decTx02{
+	margin:10px 0 20px 0;
+	line-height:150%;
+	color:#bdbcbc;
+}
+/* ------------------------------------------------------------------------------------------------------------
+REQUIRED AND CAR COMMON
+------------------------------------------------------------------------------------------------------------- */
+#modFormReqrd a:hover,
+#modFormCar a:hover{
+	text-decoration:underline;
+}
+#modFormReqrd .decBg07,
+#modFormCar .decBg07{
+	margin-bottom:20px;
+	font-size:0;
+}
+/** TITLE **/
+#modFormReqrd .untHead .decBg01,
+#modFormCar .untHead .decBg01{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_019.gif) repeat-x #fcd150;
+}
+#modFormReqrd .untHead .decBg02,
+#modFormCar .untHead .decBg02{
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-y left;
+}
+#modFormReqrd .untHead .decBg03,
+#modFormCar .untHead .decBg03{
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-y right;
+}
+#modFormReqrd .untHead .decBg04,
+#modFormCar .untHead .decBg04{
+	background:url(/images/auct/template/ui/auc_mod/bg_017.gif) no-repeat top left;
+}
+#modFormReqrd .untHead h2,
+#modFormCar .untHead h2{
+	padding:10px;
+	font-size:85%;
+	background:url(/images/auct/template/ui/auc_mod/bg_018.gif) no-repeat top right;
+}
+#modFormReqrd .untHead h2 span,
+#modFormCar .untHead h2 span{
+	float:left;
+	position:relative;
+	top:3px;
+}
+#modFormReqrd .untHead h2 img,
+#modFormCar .untHead h2 img{
+	float:right;
+}
+#modFormReqrd .untHead h2 input,
+#modFormCar .untHead h2 input{
+	width:50px;
+	float:right;
+}
+#modFormReqrd .untHead h2 .decTx01,
+#modFormCar .untHead h2 .decTx01{
+	float:right;
+	font-weight:normal;
+}
+#modFormReqrd .untHead h2 .decTx02,
+#modFormCar .untHead h2 .decTx02{
+	float:left;
+}
+#modFormReqrd .untHead h2 .decImg01,
+#modFormCar .untHead h2 .decImg01{
+	float:left;
+	width:13px;
+	height:15px;
+	position:relative;
+	top:3px;
+	left:5px;
+}
+#modFormReqrd .decFormHead .decBg04 table,
+#modFormReqrd .decFormHead .decBg04 td,
+#modFormReqrd .decFormHeadOff .decBg04 table,
+#modFormReqrd .decFormHeadOff .decBg04 td,
+#modFormCar .decFormHead .decBg04 table,
+#modFormCar .decFormHead .decBg04 td,
+#modFormCar .decFormHeadOff .decBg04 table,
+#modFormCar .decFormHeadOff .decBg04 td{
+	margin:0;
+	padding:0 5px 0 0;
+	border:none;
+	font-size:100%;
+}
+#modFormReqrd .decFormHead .decBg04 table .decTx02,
+#modFormCar .decFormHead .decBg04 table .decTx02{
+	float:right;
+	padding:4px 0;
+}
+#modFormReqrd .decFormHead .decBg04 table .decTx02 img,
+#modFormCar .decFormHead .decBg04 table .decTx02 img{
+	position:relative;
+	top:2px;
+	right:3px;
+}
+#modFormReqrd .decFormHead .decBg04 table td,
+#modFormCar .decFormHead .decBg04 table td{
+	background:none;
+}
+/** BASIC ITEM TITLE **/
+#modFormReqrd .untHeadBasic .decBg01,
+#modFormCar .untHeadBasic .decBg01{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_002.gif) repeat-x #fdf3a1;
+}
+#modFormReqrd .untHeadBasic .decBg02,
+#modFormCar.untHeadBasic .decBg02{
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-y top left;
+}
+#modFormReqrd .untHeadBasic .decBg03,
+#modFormCar .untHeadBasic .decBg03{
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-y top right;
+}
+#modFormReqrd .untHeadBasic .decBg04,
+#modFormCar .untHeadBasic .decBg04{
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_001.gif) no-repeat top left;
+}
+#modFormReqrd .untHeadBasic h2,
+#modFormCar .untHeadBasic h2{
+	padding:8px 10px 12px 10px;
+	font-size:85%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_003.gif) no-repeat top right;
+}
+#modFormReqrd .untHeadBasic h2 span,
+#modFormCar .untHeadBasic h2 span{
+	float:left;
+	position:relative;
+	top:3px;
+}
+#modFormReqrd .untHeadBasic h2 img,
+#modFormCar .untHeadBasic h2 img{
+	float:right;
+}
+#modFormReqrd .untHeadBasic h2 input,
+#modFormCar .untHeadBasic h2 input{
+	width:50px;
+	float:right;
+}
+#modFormReqrd .untHeadBasic h2 .decTx01,
+#modFormCar .untHeadBasic h2 .decTx01{
+	float:right;
+	font-weight:normal;
+}
+#modFormReqrd .untHeadBasic h2 .decTx02,
+#modFormCar .untHeadBasic h2 .decTx02{
+	float:left;
+}
+#modFormReqrd .untHeadBasic h2 .decImg01,
+#modFormCar .untHeadBasic h2 .decImg01{
+	float:left;
+	width:13px;
+	height:15px;
+	position:relative;
+	top:3px;
+	left:5px;
+}
+/** FOOTER **/
+#modFormReqrd .untFoot .pts01,
+#modFormCar .untFoot .pts01{
+	text-align:center;
+}
+#modFormReqrd .untFoot .pts01 p,
+#modFormCar .untFoot .pts01 p{
+	padding:15px 0;
+	font-weight:bold;
+}
+#modFormReqrd .untFoot .decBg01,
+#modFormCar .untFoot .decBg01{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_024.gif) no-repeat top left;
+}
+#modFormReqrd .untFoot .decBg02,
+#modFormCar.untFoot .decBg02{
+	background:url(/images/auct/template/ui/auc_mod/bg_025.gif) no-repeat bottom left;
+}
+#modFormReqrd .untFoot .decBg03,
+#modFormCar .untFoot .decBg03{
+	background:url(/images/auct/template/ui/auc_mod/bg_026.gif) no-repeat top right;
+}
+#modFormReqrd .untFoot .decBg04,
+#modFormCar.untFoot .decBg04{
+	background:url(/images/auct/template/ui/auc_mod/bg_027.gif) no-repeat bottom right;
+}
+#modFormReqrd .untFoot .pts02a,
+#modFormCar .untFoot .pts02a{
+	margin-bottom:20px;
+	padding:11px 0 46px 0;
+	background:url(/images/auct/template/ui/auc_mod/form_bg_006.gif) no-repeat top center;
+}
+#modFormReqrd .untFoot .pts02b,
+#modFormCar .untFoot .pts02b{
+	float:left;
+}
+#modFormReqrd .untFoot .pts02c,
+#modFormCar .untFoot .pts02c{
+	float:right;
+}
+#modFormReqrd .untFoot .pts02c p,
+#modFormCar .untFoot .pts02c p{
+	float:left;
+	padding-left:6px;
+}
+#modFormReqrd .untFoot .pts02c p span,
+#modFormCar .untFoot .pts02c p span{
+	position:relative;
+	top:3px;
+	right:3px;
+}
+#modFormReqrd .untBody .decBtn,
+#modFormCar .untBody .decBtn{
+	text-align:right;
+}
+/** FORM **/
+#modFormReqrd .decFormTxtBox table,
+#modFormReqrd .decFormTxtBoxOff table,
+#modFormCar .decFormTxtBox table,
+#modFormCar .decFormTxtBoxOff table{
+	margin:0;
+	padding:0;
+	font-size:100%;
+	border:none;
+}
+#modFormReqrd .decFormTxtBox td,
+#modFormReqrd .decFormTxtBoxOff td,
+#modFormCar .decFormTxtBox td,
+#modFormCar .decFormTxtBoxOff td{
+	margin:0;
+	padding:0;
+	border:none;
+}
+#modFormReqrd .decFormTxtBox .decBg01,
+#modFormReqrd .decFormTxtBoxOff .decBg01,
+#modFormCar .decFormTxtBox .decBg01,
+#modFormCar .decFormTxtBoxOff .decBg01{
+	vertical-align:bottom;
+	text-align:right;
+}
+#modFormReqrd .untBody table .decFormTxtBox li,
+#modFormReqrd .untBody table .decFormTxtBoxOff li,
+#modFormCar .untBody table .decFormTxtBox li,
+#modFormCar .untBody table .decFormTxtBoxOff li{
+	margin-bottom:8px;
+}
+#modFormReqrd .decFormHead p span,
+#modFormCar .decFormHead p span{
+	color:#ff6000;
+}
+#modFormReqrd .decFormHead p .decTx01,
+#modFormCar .decFormHead p .decTx01{
+	padding-left:15px;
+	font-size:90%;
+	font-weight:normal;
+	color:#333333;
+}
+#modFormReqrd .decFormHeadOff p .decTx01,
+#modFormCar .decFormHeadOff p .decTx01{
+	padding-left:15px;
+	font-size:90%;
+	font-weight:normal;
+	color:#bdbcbc;
+}
+#modFormReqrd .untBody table ul,
+#modFormCar .untBody table ul{
+	margin:0;
+	padding:0;
+}
+/* START PRICE */
+#modFormReqrd .decFormOpPrice span,
+#modFormCar .decFormOpPrice span{
+	margin-left:10px;
+	padding:4px 0 4px 18px;
+	font-size:110%;
+	background:url(/images/auct/template/ui/auc_mod/ic_016.gif) no-repeat left;
+}
+/* QUESTION ICON */
+#modFormReqrd  .decFormRadio li img,
+#modFormCar  .decFormRadio li img{
+	position:relative;
+	top:2px;
+	left:5px;
+}
+/* TAB IN THE FORM */
+#modFormReqrd .decFormTab,
+#modFormCar .decFormTab,
+#modFormDeli .decFormTab{
+	margin:0;
+	padding:0;
+	border-bottom:#759EDE solid 4px;
+	text-align:left;
+}
+#modFormReqrd .decFormTab table,
+#modFormCar .decFormTab table,
+#modFormDeli .decFormTab table{
+	margin:0;
+	padding:0;
+	border:none;
+	font-size:100%;
+}
+#modFormReqrd .decFormTab td,
+#modFormCar .decFormTab td,
+#modFormDeli .decFormTab td{
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-weight:bold;
+	vertical-align:middle;
+	border:none;
+}
+#modFormReqrd .decFormTab table .decTabSp,
+#modFormCar .decFormTab table .decTabSp,
+#modFormDeli .decFormTab table .decTabSp{
+	width:5px;
+}
+/* ON */
+#modFormReqrd .decFormTab table .decFormTab01On,
+#modFormCar .decFormTab table .decFormTab01On,
+#modFormDeli .decFormTab table .decFormTab01On{
+	width:120px;
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/form_tab_bg_01_on.gif) no-repeat top #769fdf;
+}
+.decFormTab01On{
+	width:120px;
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/form_tab_bg_01_on.gif) no-repeat top #769fdf;
+}
+.decFormTab01On p{
+	padding:6px 0 6px 0;
+	color:#ffffff;
+}
+/* OFF LINK */
+#modFormReqrd .decFormTab table .decFormTab01Off,
+#modFormReqrd .decFormTab table .decFormTab02Off,
+#modFormCar .decFormTab table .decFormTab01Off,
+#modFormCar .decFormTab table .decFormTab02Off,
+#modFormDeli .decFormTab table .decFormTab01Off,
+#modFormDeli .decFormTab table .decFormTab02Off{
+	width:120px;
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/form_tab_bg_01_off.gif) no-repeat top #dededf;
+}
+.decFormTab01Off,
+.decFormTab02Off{
+	width:120px;
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/form_tab_bg_01_off.gif) no-repeat top #dededf;
+}
+.decFormTab01Off p,
+.decFormTab02Off p{
+	padding:6px 0 6px 0;
+	color:#bcbbbb;
+}
+.decFormTab01Off a{
+	width:120px;
+	display:block;
+	text-decoration:none;
+}
+.decFormTab01Off a:hover{
+	display:block;
+	text-decoration:underline;
+}
+/* PALETTE */
+#modFormReqrd .decFormTxtArea .decFrm01,
+#modFormReqrd .decFormTxtAreaOff .decFrm01,
+#modFormCar .decFormTxtArea .decFrm01,
+#modFormCar .decFormTxtAreaOff .decFrm01{
+	width:500px;
+}
+#modFormReqrd .decFormTxtArea .decTx01,
+#modFormReqrd .decFormTxtAreaOff .decTx01,
+#modFormCar .decFormTxtArea .decTx01,
+#modFormCar .decFormTxtAreaOff .decTx01{
+	float:left;
+}
+#modFormReqrd .decFormTxtArea .decTx01 span,
+#modFormReqrd .decFormTxtAreaOff .decTx01 span,
+#modFormCar .decFormTxtArea .decTx01 span,
+#modFormCar .decFormTxtAreaOff .decTx01 span{
+	margin-left:7px;
+	position:relative;
+	bottom:0.8em;
+}
+#modFormReqrd .decFormTxtArea .decTx02,
+#modFormCar .decFormTxtArea .decTx02,
+#modFormReqrd .decFormTxtAreaOff .decTx02,
+#modFormCar .decFormTxtAreaOff .decTx02{
+	padding-top:16px;
+	text-align:right;
+}
+#modFormReqrd .decFormTxtArea .decTx02 span,
+#modFormReqrd .decFormTxtAreaOff .decTx02 span,
+#modFormCar .decFormTxtArea .decTx02 span,
+#modFormCar .decFormTxtAreaOff .decTx02 span{
+	font-size:90%;
+}
+/* ------------------------------------------------------------------------------------------------------------
+CAR
+------------------------------------------------------------------------------------------------------------- */
+#modFormCar .untBody .decBg06{
+	margin-bottom:18px;
+	font-size:0;
+}
+#modFormCar .untBody .decBg07{
+	margin-bottom:5px;
+	font-size:0;
+}
+#modFormCar .untBody .decBg08{
+	margin-bottom:20px;
+	*margin-bottom:35px;
+	font-size:0;
+}
+#modFormCar .decFormCheck ul{
+	margin:0;
+	padding:0;
+	width:24%;
+	float:left;
+}
+#modFormCar .decFormCheck .decTx01Off{
+	color:#bdbcbc;
+}
+/* ------------------------------------------------------------------------------------------------------------
+IMAGES UP COMMMON
+------------------------------------------------------------------------------------------------------------- */
+#modFormImg{
+	margin-bottom:14px;
+}
+#modImgPrvw,
+#modFormImgCls,
+#modImgPrvwCls{
+	margin-bottom:20px;
+}
+#modFormImg a:hover,
+#modImgPrvw a:hover,
+#modFormImgCls a:hover,
+#modImgPrvwCls a:hover{
+	text-decoration:underline;
+}
+/** TITLE **/
+#modFormImg .untHead .decBg01{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_002.gif) repeat-x #fdf3a1;
+}
+#modFormImg .untHead .decBg02{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-y top left;
+}
+#modFormImg .untHead .decBg03{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-y top right;
+}
+#modFormImg .untHead .decBg04{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_001.gif) no-repeat top left;
+}
+#modFormImg .untHead .decBg05{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_003.gif) no-repeat top right;
+}
+#modFormImg .untHead h2{
+	float:left;
+	padding:10px;
+	font-size:85%;
+}
+#modFormImg .untHead h2 img{
+	padding-right:5px;
+	position:relative;
+	top:2px;
+}
+#modFormImg .untHead p{
+	float:right;
+	padding:10px;
+	font-size:85%;
+}
+#modFormImg .untHead h2 .decImg01{
+	position:relative;
+	top:2px;
+	left:5px;
+}
+#modImgPrvw .decFormHead p,
+#modImgPrvw .decFormHeadOff p{
+	font-size:85%;
+}
+/** TITLE CLOSE **/
+#modFormImgCls .untHead{
+	padding-bottom:15px;
+}
+#modFormImgCls .untHead .decBg01{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_002.gif) repeat-x #fdf3a1;
+}
+#modFormImgCls .untHead .decBg02{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-y top left;
+}
+#modFormImgCls .untHead .decBg03{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-y top right;
+}
+#modFormImgCls .untHead .decBg04{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_001.gif) no-repeat top left;
+}
+#modFormImgCls .untHead .decBg05{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_003.gif) no-repeat top right;
+}
+#modFormImgCls .untHead .decBg06{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-x bottom;
+}
+#modFormImgCls .untHead .decBg07{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_052.gif) no-repeat bottom left;
+}
+#modFormImgCls .untHead .decBg08{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_053.gif) no-repeat bottom right;
+}
+#modFormImgCls .untHead h2{
+	float:left;
+	padding:10px;
+	font-size:85%;
+}
+#modFormImgCls .untHead h2 img{
+	padding-right:5px;
+	position:relative;
+	top:2px;
+}
+#modFormImgCls .untHead p{
+	float:right;
+	padding:10px;
+	font-size:85%;
+}
+#modFormImgCls .untHead h2 .decImg01{
+	position:relative;
+	top:2px;
+	left:5px;
+}
+/** FORM COMMON **/
+#modFormImg td .decFormHead p .decTx02{
+	padding-left:15px;
+	font-size:90%;
+	font-weight:normal;
+	color:#333333;
+}
+#modFormImg td .decFormHeadOff p .decTx02{
+	padding-left:15px;
+	font-size:90%;
+	font-weight:normal;
+	color:#bdbcbc;
+}
+#modFormImg .decTx04{
+	width:450px;
+	margin:0;
+}
+#modFormImg .untBody table ul,
+#modImgPrvw .untBody table ul{
+	margin:0;
+	padding:0;
+}
+#modFormImg .untBody td .decBg06,
+#modImgPrvw .untBody td .decBg06{
+	text-align:center;
+	margin-bottom:15px;
+}
+#modFormImg .untBody td .decFormHead p,
+#modFormImg .untBody td .decFormHeadOff p,
+#modImgPrvw .untBody td .decFormHead p,
+#modImgPrvw .untBody td .decFormHeadOff p{
+	font-weight:bold;
+}
+#modFormImg .decFormHead .decBg04 table,
+#modFormImg .decFormHead .decBg04 td,
+#modFormImg .decFormHeadOff .decBg04 table,
+#modFormImg .decFormHeadOff .decBg04 td,
+#modImgPrvw .decFormHead .decBg04 table,
+#modImgPrvw .decFormHead .decBg04 td,
+#modImgPrvw .decFormHeadOff .decBg04 table,
+#modImgPrvw .decFormHeadOff .decBg04 td{
+	margin:0;
+	border:none;
+	font-size:100%;
+	background:none;
+}
+#modFormImg .decFormHead .decBg04 td,
+#modFormImg .decFormHeadOff .decBg04 td,
+#modImgPrvw .decFormHead .decBg04 td,
+#modImgPrvw .decFormHeadOff .decBg04 td{
+	padding:0 15px 0 0;
+}
+/* OFF */
+#modFormImg .untBody td .decFormHeadOff p,
+#modImgPrvw .untBody td .decFormHeadOff p{
+	color:#acabab;
+}
+/** SHOW IMAGES **/
+/* FRAME COMMON */
+#modFormImg .untBody td .pts01,
+#modImgPrvw .untBody td .pts01,
+#modFormImg .untBody td .pts01Off,
+#modImgPrvw .untBody td .pts01Off{
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+#modFormImg .untBody td .pts01 table,
+#modImgPrvw .untBody td .pts01 table,
+#modFormImg .untBody td .pts01Off table,
+#modImgPrvw .untBody td .pts01Off table{
+	margin:0 auto;
+	padding:0;
+	border-collapse:collapse;
+}
+#modFormImg .untBody td .pts01 th,
+#modImgPrvw .untBody td .pts01 th,
+#modFormImg .untBody td .pts01Off th,
+#modImgPrvw .untBody td .pts01Off th{
+	width:33%;
+	clear:both;
+}
+#modFormImg .untBody td .pts01 th p,
+#modImgPrvw .untBody td .pts01 th p,
+#modFormImg .untBody td .pts01Off th p,
+#modImgPrvw .untBody td .pts01Off th p{
+	width:auto;
+	font-size:120%;
+	float:left;
+}
+#modFormImg .untBody td .pts01 th .decBgBtn,
+#modImgPrvw .untBody td .pts01 th .decBgBtn,
+#modFormImg .untBody td .pts01Off th .decBgBtn,
+#modImgPrvw .untBody td .pts01Off th .decBgBtn{
+	width:auto;
+	float:right;
+}
+#modFormImg .untBody td .pts01 td,
+#modImgPrvw .untBody td .pts01 td,
+#modFormImg .untBody td .pts01Off td,
+#modImgPrvw .untBody td .pts01Off td{
+	margin:0;
+	padding:0;
+	text-align:center;
+	vertical-align:top;
+	border:#B8B8B8 solid 1px;
+}
+#modFormImg .untBody td .pts01 th,
+#modImgPrvw .untBody td .pts01 th,
+#modFormImg .untBody td .pts01Off th,
+#modImgPrvw .untBody td .pts01Off th{
+	margin:0;
+	padding:7px 8px;
+	vertical-align:top;
+	border:#B8B8B8 solid 1px;
+}
+/* FRAME OFF */
+#modFormImg .untBody td .pts01Off th,
+#modImgPrvw .untBody td .pts01Off th{
+	width:33%;
+	margin:0;
+	padding:7px 8px;
+}
+#modFormImg .untBody td .pts01Off th span,
+#modImgPrvw .untBody td .pts01Off th span{
+	margin:0;
+	padding:0;
+	font-size:90%;
+	font-weight:normal;
+}
+/* CONTENTS COMMON */
+.decFormImgSmpl,
+.decFormImgSmplOff{
+	margin:15px 5px;
+	padding:0;
+	text-align:center;
+}
+.decFormImgSmpl .decBgImg img,
+.decFormImgSmplOff .decBgImg img{
+	padding:10px;
+}
+.decFormImgSmpl .decAltTxtBox,
+.decFormImgSmplOff .decAltTxtBox{
+	width:220px;
+	margin:10px auto 0 auto;
+	padding:0 0 0 20px;
+	font-size:105%;
+	*font-size:100%;
+	line-height:160%;
+	text-align:left;
+	background:url(/images/auct/template/ui/auc_mod/ic_021.gif) no-repeat left 0.2em;
+}
+.decFormImgSmpl .decFormTxtBox,
+.decFormImgSmplOff .decFormTxtBox{
+	width:220px;
+	margin:10px auto 0 auto;
+	padding:0;
+	font-size:105%;
+	*font-size:100%;
+	line-height:160%;
+	text-align:left;
+}
+.decFormImgSmpl .decFormTxtBox input,
+.decFormImgSmplOff .decFormTxtBox input{
+	width:218px;
+	margin:0;
+	padding:2px 0 1px 0;
+}
+/* CONTENTS ON */
+.decFormImgSmpl .decBgTab{
+	display:block;
+	width:182px;
+	height:33px;
+	margin:0 auto;
+	border-top:#dddddd solid 1px;
+	border-left:#dddddd solid 1px;
+	border-right:#dddddd solid 1px;
+	background:url(/images/auct/template/ui/auc_mod/bg_031.gif) repeat-x #cecece;
+}
+.decFormImgSmpl .decBgImg{
+	width:182px;
+	margin:0 auto;
+	border:#dddddd solid 1px;
+	text-align:center;
+}
+/* CONTENTS OFF */
+.decFormImgSmplOff{
+	color:#bdbcbc;
+}
+.decFormImgSmplOff .decBgTab{
+	display:block;
+	width:182px;
+	height:33px;
+	margin:0 auto;
+	border-top:#f1f1f1 solid 1px;
+	border-left:#f1f1f1 solid 1px;
+	border-right:#f1f1f1 solid 1px;
+	background:#f4f4f4;
+}
+.decFormImgSmplOff .decBgImg{
+	width:182px;
+	margin:0 auto;
+	border:#f1f1f1 solid 1px;
+	text-align:center;
+}
+.decFormImgSmplOff .decBg01{
+	border:#e4e4e4 solid 1px;
+}
+/* OTHERS */
+#modFormImg .untBody td .pts01 .decBg01,
+#modImgPrvw .untBody td .pts01 .decBg01{
+	padding:0;
+}
+#modFormImg .untBody td .decTx01,
+#modImgPrvw .untBody td .decTx01{
+	margin-top:6px;
+	padding-left:15px;
+	float:right;
+	background:url(/images/auct/template/ui/auc_mod/ic_009.gif) no-repeat left;
+}
+#modImgPrvw .pts01 .decFormBtn,
+#modImgPrvw .pts01Off .decFormBtn{
+	margin:15px auto 0 auto;
+}
+/* ------------------------------------------------------------------------------------------------------------
+OPTION
+------------------------------------------------------------------------------------------------------------- */
+#modFormOpt{
+	margin-bottom:14px;
+}
+#modFormOptCls{
+	margin-bottom:20px;
+}
+#modFormOpt a:hover,
+#modFormOptCls a:hover{
+	text-decoration:underline;
+}
+/** TITLE **/
+#modFormOpt .untHead .decBg01{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_002.gif) repeat-x #fdf3a1;
+}
+#modFormOpt .untHead .decBg02{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-y top left;
+}
+#modFormOpt .untHead .decBg03{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-y top right;
+}
+#modFormOpt .untHead .decBg04{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_001.gif) no-repeat top left;
+}
+#modFormOpt .untHead .decBg05{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_003.gif) no-repeat top right;
+}
+#modFormOpt .untHead h2{
+	float:left;
+	padding:10px;
+	font-size:85%;
+}
+#modFormOpt .untHead h2 img{
+	padding-right:5px;
+	position:relative;
+	top:2px;
+}
+#modFormOpt .untHead h2 .decImg01{
+	position:relative;
+	top:2px;
+	left:5px;
+}
+#modFormOpt .untHead p{
+	float:right;
+	padding:10px;
+	font-size:85%;
+}
+/** TITLE CLOSE **/
+#modFormOptCls .untHead{
+	padding-bottom:15px;
+}
+#modFormOptCls .untHead .decBg01{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_002.gif) repeat-x #fdf3a1;
+}
+#modFormOptCls .untHead .decBg02{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-y top left;
+}
+#modFormOptCls .untHead .decBg03{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-y top right;
+}
+#modFormOptCls .untHead .decBg04{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_001.gif) no-repeat top left;
+}
+#modFormOptCls .untHead .decBg05{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_003.gif) no-repeat top right;
+}
+#modFormOptCls .untHead .decBg06{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-x bottom;
+}
+#modFormOptCls .untHead .decBg07{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_052.gif) no-repeat bottom left;
+}
+#modFormOptCls .untHead .decBg08{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_053.gif) no-repeat bottom right;
+}
+#modFormOptCls .untHead h2{
+	float:left;
+	padding:10px;
+	font-size:85%;
+}
+#modFormOptCls .untHead h2 img{
+	padding-right:5px;
+	position:relative;
+	top:2px;
+}
+#modFormOptCls .untHead h2 .decImg01{
+	position:relative;
+	top:2px;
+	left:5px;
+}
+#modFormOptCls .untHead p{
+	float:right;
+	padding:10px;
+	font-size:85%;
+}
+/** FORM **/
+#modFormOpt .decFormCheck li span{
+	font-size:90%;
+}
+#modFormOpt .untBody table ul{
+	margin:0;
+	padding:0;
+}
+#modFormOpt .untBody table ul.decTx05{
+	margin-top:10px;
+}
+#modFormOpt .untBody .decFormSubHead{
+	margin-bottom:0;
+	border-bottom:none;
+	text-align:left;
+	background:#f4f4f4;
+}
+#modFormOpt .untBody .decFormSubHead td{
+	background:#f4f4f4;
+}
+#modFormOpt .untBody .decFormSubHead h3{
+	margin:0;
+	font-size:100%;
+}
+#modFormOpt .untBody .decFormSubHead .decBg01{
+	margin:0;
+	padding:0;
+	border:none;
+	font-size:100%;
+	text-align:left;
+}
+#modFormOpt .untBody .decFormSubHead .decBg02{
+	margin:0;
+	padding:0;
+	border:none;
+	font-size:100%;
+	text-align:right;
+}
+#modFormOpt .untBody .decBg06{
+	margin-bottom:0;
+	border-bottom:none;
+}
+#modFormOpt .decTx01{
+	font-size:90%;
+}
+#modFormOpt .decTx02{
+	clear:both;
+	line-height:150%;
+}
+#modFormOpt .decTx03{
+	clear:both;
+	margin-top:8px;
+}
+#modFormOpt .decTx04{
+	font-size:84%;
+	font-weight:normal;
+}
+#modFormOpt .decIcon{
+	position:relative;
+	top:2px;
+	left:2px;
+}
+#modFormOpt .decFormTxtBox,
+#modFormOpt .decFormTxtBoxOff{
+	float:left;
+}
+/* ------------------------------------------------------------------------------------------------------------
+SHIPMENT AND ENGRISH VERSION
+------------------------------------------------------------------------------------------------------------- */
+#modFormDeli a:hover,
+#modFormDeliCls a:hover{
+	text-decoration:underline;
+}
+/** TITLE **/
+#modFormDeli .untHead .decBg01{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_002.gif) repeat-x #fdf3a1;
+}
+#modFormDeli .untHead .decBg02{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-y top left;
+}
+#modFormDeli .untHead .decBg03{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-y top right;
+}
+#modFormDeli .untHead .decBg04{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_001.gif) no-repeat top left;
+}
+#modFormDeli .untHead .decBg05{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_003.gif) no-repeat top right;
+}
+#modFormDeli .untHead h2{
+	float:left;
+	padding:10px;
+	font-size:85%;
+}
+#modFormDeli .untHead h2 img{
+	padding-right:5px;
+	position:relative;
+	top:2px;
+}
+#modFormDeli .untHead h2 .decImg01{
+	position:relative;
+	top:2px;
+	left:5px;
+}
+#modFormDeli .untHead p{
+	float:right;
+	padding:10px;
+	font-size:85%;
+}
+/** TITLE CLOSE **/
+#modFormDeliCls .untHead{
+	padding-bottom:15px;
+}
+#modFormDeliCls .untHead .decBg01{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_002.gif) repeat-x #fdf3a1;
+}
+#modFormDeliCls .untHead .decBg02{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-y top left;
+}
+#modFormDeliCls .untHead .decBg03{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-y top right;
+}
+#modFormDeliCls .untHead .decBg04{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_001.gif) no-repeat top left;
+}
+#modFormDeliCls .untHead .decBg05{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/promo_bg_003.gif) no-repeat top right;
+}
+#modFormDeliCls .untHead .decBg06{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_032.gif) repeat-x bottom;
+}
+#modFormDeliCls .untHead .decBg07{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_052.gif) no-repeat bottom left;
+}
+#modFormDeliCls .untHead .decBg08{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_053.gif) no-repeat bottom right;
+}
+#modFormDeliCls .untHead h2{
+	float:left;
+	padding:10px;
+	font-size:85%;
+}
+#modFormDeliCls .untHead h2 img{
+	padding-right:5px;
+	position:relative;
+	top:2px;
+}
+#modFormDeliCls .untHead h2 .decImg01{
+	position:relative;
+	top:2px;
+	left:5px;
+}
+#modFormDeliCls .untHead p{
+	float:right;
+	padding:10px;
+	font-size:85%;
+}
+/** FORM **/
+#modFormDeli td .decFormHead td{
+	background:none;
+}
+#modFormDeli td .decFormHead p .decTx02{
+	padding-left:15px;
+	font-size:90%;
+	font-weight:normal;
+	color:#333333;
+}
+#modFormDeli td .decFormHeadOff p .decTx02{
+	padding-left:15px;
+	font-size:90%;
+	font-weight:normal;
+	color:#bdbcbc;
+}
+#modFormDeli .untBody table ul{
+	margin:0;
+	padding:0;
+}
+#modFormDeli .decTx01{
+	margin:10px 0 20px 0;
+	line-height:150%;
+}
+#modFormDeli .decTx02{
+	clear:both;
+	line-height:150%;
+}
+/* SHOW IMAGES */
+#modFormDeli th .decTx03{
+	padding:4px 0;
+	font-weight:normal;
+}
+#modFormDeli th .decTx03 img{
+	margin-right:3px;
+}
+/* /SHOW IMAGES */
+#modFormDeli .untBody .decBg06{
+	margin-bottom:18px;
+	font-size:0;
+}
+#modFormDeli .decFormHead .decBg04 table,
+#modFormDeli .decFormHead .decBg04 td,
+#modFormDeli .decFormHeadOff .decBg04 table,
+#modFormDeli .decFormHeadOff .decBg04 td{
+	margin:0;
+	border:none;
+	font-size:100%;
+	background:none;
+}
+#modFormDeli .decFormHead .decBg04 td,
+#modFormDeli .decFormHeadOff .decBg04 td{
+	padding:0 15px 0 0;
+}
+/* DELIVERY METHOD IN THE FORM */
+#modFormDeli .decFormDeliCorp table{
+	margin:0;
+	padding:0;
+	font-size:100%;
+	border:none;
+}
+#modFormDeli .decFormDeliCorp td,
+#modFormDeli .decFormDeliCorp th{
+	margin:0;
+	padding:0 0 8px 0;
+	border:none;
+	font-weight:normal;
+}
+#modFormDeli .decFormDeliCorp td li{
+	margin:0;
+	display:block;
+	white-space:nowrap;
+}
+#modFormDeli .decFormDeliCorp td li span{
+	padding-left:10px;
+}
+#modFormDeli .decFormDeliCorp td li input{
+	margin:0;
+}
+#modFormDeli .decFormDeliCorp td li img{
+	position:relative;
+	top:2px;
+	left:5px;
+}
+#modFormDeli .decFormDeliCorp td{
+	text-align:left;
+}
+#modFormDeli .decFormDeliCorp .decTx03{
+	padding-left:32px;
+}
+#modFormDeli .decFormDeliCorp .decTx04{
+	padding-left:20px;
+}
+#modFormDeli .decFormDeliCorp span{
+	font-size:90%;
+	font-weight:normal;
+}
+#modFormDeli .decFormDeliCorp .decTx01{
+	display:block;
+}
+#modFormDeli .decFormDeliCorp .decTx02{
+	text-align:right;
+	white-space:nowrap;
+}
+#modFormDeli .decFormDeliCorp .decTx02Off{
+	color:#bdbcbc;
+	white-space:nowrap;	
+}
+#modFormDeli .decFormDeliCorp p span,
+#modFormDeli .decListSmry .decList02 li span{
+	padding:0 6px 0 0;
+	font-size:100%;
+}
+#modFormDeli .decFormDeliCorp .decBg01,
+#modFormDeli .decListSmry .decList02 li .decBg01{
+	padding-left:7px;
+	background:url(/images/auct/template/ui/auc_mod/bg_012.gif) left no-repeat;
+}
+#modFormDeli .decFormDeliCorp .decBg01Off{
+	padding-left:7px;
+	background:url(/images/auct/template/ui/auc_mod/bg_012_off.gif) left no-repeat;
+}
+/* COMMON */
+#modFormDeli .decFormDeliCorp .decFormRadio,
+#modFormDeli .decFormDeliCorp .decFormRadioOff{
+	width:100%;
+}
+#modFormDeli .decFormDeliCorp .decFormRadio ul,
+#modFormDeli .decFormDeliCorp .decFormRadioOff ul{
+	display:block;
+	margin:0;
+	padding:0;
+}
+#modFormDeli .decFormDeliCorp .decFormRadio li,
+#modFormDeli .decFormDeliCorp .decFormRadioOff li{
+	display:block;
+	margin:0;
+	float:left;
+	width:auto;
+	margin-left:10px;
+}
+/* ---------------------------------------------------------
+FORM FOOTER
+---------------------------------------------------------- */
+#modFormSbt{
+	color:#333333;
+	font-size:85%;
+	line-height:150%;
+}
+#modFormSbt a:hover{
+	text-decoration:underline;
+}
+#modFormSbt .decTx01{
+	margin-top:20px;
+	padding-top:10px;
+	border-top:#dddddd solid 1px;
+}
+#modFormSbt table{
+	margin-bottom:20px;
+}
+#modFormSbt table td.decTxtChk{
+	padding-top:10px;
+	padding-bottom:10px;
+	color:#333333;
+	font-size:85%;
+	line-height:150%;
+}
+#modFormSbt .pts02a{
+	margin-bottom:20px;
+	padding:11px 0 5px 0;
+	text-align:center;
+}
+#modFormSbt .pts02a table{
+	margin:0;
+	padding:0;
+}
+#modFormSbt .pts03a{
+	margin-bottom:20px;
+	padding:0 0 5px 0;
+	text-align:center;
+}
+#modFormSbt .pts03a table{
+	margin:0;
+	padding:0;
+}
+#modFormSbt .pts02b{
+	float:left;
+}
+#modFormSbt .pts02c{
+	float:right;
+	text-align:right;
+}
+#modFormSbt .pts02c p{
+	float:left;
+	padding-left:6px;
+}
+#modFormSbt .pts02c p span{
+	position:relative;
+	top:3px;
+	right:3px;
+}
+#modFormSbt .pts02d{
+	width:325px;
+	margin:0 auto;
+	text-align:center;
+}
+#modFormSbt .pts02d p{
+	float:left;
+}
+#modFormSbt .pts02d img{
+	margin-left:6px;
+}
+#modFormSbt .decTx02{
+	border:#cc0000 solid 2px;
+}
+#modFormSbt .pts03{
+	margin:0 auto;
+	text-align:center;
+}
+#modFormSbt .pts03 table{
+	margin:0 auto;
+	padding:0;
+}
+#modFormSbt .decBtm{
+	margin-bottom:25px;
+}
+#modFormSbt .decBtm02{
+	margin-bottom:15px;
+}
+#modFormSbt .decBtn01{
+	margin-left:10px;
+}
+#modFormSbt .decTop01{
+	margin-top:5px;
+}
+#modFormSbt .decTx03{
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size:115%;
+	color:#ff0000;
+}
+/* ------------------------------------------------------
+IMAGES UPLOAD
+------------------------------------------------------- */
+/* ------------------------------------------------------
+IMAGES UPLOAD CONFIRMATION
+------------------------------------------------------- */
+#modImgUpld{
+	margin-bottom:20px;
+	font-size:85%;
+	color:#333333;
+	text-align:left;
+}
+#modImgUpld a:hover{
+	text-decoration:underline;
+}
+#modImgUpld .pts01{
+	width:auto;
+	text-align:left;
+	display:block;
+}
+#modImgUpld .pts01 table{
+	margin:0 auto;
+}
+#modImgUpld .pts01 th{
+	padding-bottom:10px;
+	vertical-align:middle;
+	font-weight:normal;
+	white-space:nowrap;
+}
+#modImgUpld .pts01 td{
+	padding-bottom:10px;
+	vertical-align:middle;
+	white-space:nowrap;
+}
+#modImgUpld .pts01 .decFormTxtBox{
+	margin:0 auto;
+	text-align:left;
+}
+#modImgUpld .pts01 table .decInpt{
+	margin-left:5px;
+}
+/* old template */
+#modImgUpld .pts01 ul{
+	margin:0 auto;
+	width:570px;
+	*width:560px;
+	padding:0;
+	text-align:left;
+	display:block;
+}
+#modImgUpld .pts01 li{
+	margin-bottom:10px;
+	white-space:nowrap;
+	list-style:none;
+	text-align:left;
+}
+#modImgUpld .pts01 li .decInpt{
+	width:485px;
+	margin-left:3px;
+}
+/* /old template */
+#modImgUpld .pts02{
+	margin:0 15px;
+	text-align:center;
+	font-weight:bold;
+}
+#modImgUpld .pts02 p{
+	margin-bottom:10px;
+}
+#modImgUpld .pts03{
+	text-align:center;
+}
+#modImgUpld .pts03 p{
+	*width:440px;
+	margin:45px 0 0 0;
+	padding:12px 76px 40px 76px; 
+	background:url(/images/auct/template/ui/auc_mod/form_bg_005.gif) no-repeat center;
+}
+#modImgUpld .decTx01{
+	text-align:right;
+}
+#modImgUpld .decTx02{
+	font-weight:normal;
+}
+/* ------------------------------------------------------
+IMAGES UPLOAD PREVIEW
+------------------------------------------------------- */
+#modImgPrvw{
+	margin-bottom:-10px;
+	color:#333333;
+}
+#modImgPrvw .untBody table,
+#modImgPrvw .untBody td{
+	border:none;
+}
+#modImgPrvw .untBody td .decFormImgSmpl th,
+#modImgPrvw .untBody td .decFormImgSmpl td,
+#modImgPrvw .untBody td .decFormImgSmplOff th,
+#modImgPrvw .untBody td .decFormImgSmplOff td{
+	font-size:180%;
+}
+#modImgPrvw .pts01 .decFormBtn{
+	margin:15px auto 0 auto;
+}
+/* ------------------------------------------------------------------------------------------------------------
+CONFIRMATION OF INPUT CONTENTS
+------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------
+SUMMARY TABLE
+------------------------------------------------------- */
+.decSmryTable{
+	margin:0 25px 20px 25px;
+	text-align:left;
+	font-size:85%;
+	color:#333333;
+}
+.decSmryTable a:hover{
+	text-decoration:underline;
+}
+.decSmryTable h2{
+	padding:8px 15px;
+	font-size:100%;
+	color:#ffffff;
+	background:#759ede;
+}
+.decSmryTable table{
+	border-collapse:collapse;
+	line-height:100%;
+	text-align:left;
+}
+.decSmryTable table th{
+	width:20%;
+	padding:8px;
+	border-top:#ffffff solid 1px;
+	border-bottom:#ffffff solid 1px;
+	border-right:#ffffff solid 1px;
+}
+.decSmryTable table td{
+	padding:4px 8px;
+	border-top:#ffffff solid 1px;
+	border-bottom:#ffffff solid 1px;
+	line-height:150%;
+}
+.decSmryTable .decBg01{
+	background:#e7f0fe;
+}
+.decSmryTable .decBg02{
+	vertical-align:top;
+	font-weight:bold;
+	background:#fff3a6;
+}
+.decSmryTable .decTop{
+	margin-top:15px;
+}
+.decSmryTable table td ul{
+	margin:0;
+	padding:0;
+}
+.decSmryTable table td li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	line-height:150%;
+}
+.decSmryTable .decTx01{
+	font-weight:bold;
+	color:#ff0000;
+}
+.decSmryTable .decTx02{
+	padding:8px 10px;
+}
+.decSmryTable .decErrorPoint{
+	border-collapse:collapse;
+	border:#ff0000 solid 2px;
+}
+.decSmryTable .decBg03{
+	font-weight:bold;
+	background:#dbe7f9;
+}
+.decSmryTable .decBg04{
+	font-weight:bold;
+	color:#ffffff;
+	background:#759ede;
+}
+.decSmryTable .decBg05{
+	border-right:#ffffff solid 1px;
+}
+.decSmryTable .decNoteTxt{
+	margin-top:10px;
+}
+.decSmryTable .decNoteTxt ul{
+	margin:5px 0 0 0;
+	padding:0;
+	list-style:none;
+}
+.decSmryTable .decNoteTxt li{
+	padding-left:10px;
+	background:url(/images/auct/template/ui/auc_mod/ic_002.gif) no-repeat left 0.5em;
+}
+/* ------------------------------------------------------
+CAMPAIGN BOX
+------------------------------------------------------- */
+#modCampnBox{
+	margin-top:10px;
+	font-weight:100;
+	color:#333333;
+}
+#modCampnBox a:hover{
+	text-decoration:underline;
+}
+#modCampnBox p{
+	margin:0 10px 10px 10px;
+	padding:10px;
+	border:#b8b8b8 solid 1px;
+}
+#modCampnBox p strong{
+	color:#ff0000;
+}
+/* ------------------------------------------------------
+CAPTION
+------------------------------------------------------- */
+.decCaption{
+	margin:10px 0;
+	color:#333333;
+}
+/* ------------------------------------------------------
+CHANGE TAB
+------------------------------------------------------- */
+/** TOP **/
+.decTabHead{
+	margin:0 0 15px 0;
+	padding:0;
+	border-bottom:#759ede solid 4px;
+	font-size:85%;
+	text-align:left;
+}
+.decTabHead table{
+	margin:0;
+	padding:0;
+	border:none;
+	font-size:100%;
+}
+.decTabHead td{
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-weight:bold;
+	vertical-align:middle;
+	border:none;
+}
+.decTabHead td .decBg01{
+	float:right;
+	padding:3px 0 3px 18px;
+	font-weight:normal;
+	color:#333333;
+	background:url(/images/auct/template/ui/auc_mod/ic_016.gif) no-repeat left;
+}
+.decTabHead table .decTabSp{
+	width:5px;
+}
+/* ON */
+.decTabHead01On{
+	width:129px;
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/smry_tabhd_bg_01_on.gif) no-repeat top #759ede;
+}
+.decTabHead01On p{
+	display:block;
+	width:129px;
+	padding:8px 0 8px 0;
+	color:#ffffff;
+}
+/* OFF */
+.decTabHead01Off{
+	width:129px;
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/smry_tabhd_bg_01_off.gif) no-repeat top #cbd8ef;
+}
+.decTabHead01Off p{
+	padding:8px 0 8px 0;
+	color:#1546a7;
+}
+.decTabHead01Off a{
+	width:129px;
+	display:block;
+	text-decoration:none;
+}
+.decTabHead01Off a:hover{
+	display:block;
+	text-decoration:underline;
+}
+/** BOTTOM **/
+.decTabFoot{
+	margin:0;
+	padding:0;
+	border-top:#759ede solid 4px;
+	font-size:85%;
+	text-align:left;
+}
+.decTabFoot table{
+	margin:0;
+	padding:0;
+	border:none;
+	font-size:100%;
+}
+.decTabFoot td{
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-weight:bold;
+	vertical-align:middle;
+	border:none;
+}
+.decTabFoot td .decBg01{
+	float:right;
+	padding:3px 0 3px 20px;
+	font-weight:normal;
+	color:#333333;
+	background:url(/images/auct/template/ui/auc_mod/dummy_ic_002.gif) no-repeat left;
+}
+.decTabFoot table .decTabSp{
+	width:5px;
+}
+.decTabFoot .decBtm{
+	margin:25px;
+	font-size:0;
+}
+/* ON */
+.decTabFoot01On{
+	width:129px;
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/smry_tabft_bg_01_on.gif) no-repeat bottom #759ede;
+}
+.decTabFoot01On p{
+	display:block;
+	width:129px;
+	padding:8px 0 8px 0;
+	color:#ffffff;
+}
+/* OFF */
+.decTabFoot01Off{
+	width:129px;
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/smry_tabft_bg_01_off.gif) no-repeat bottom #cbd8ef;
+}
+.decTabFoot01Off p{
+	padding:8px 0 8px 0;
+	color:#1546a7;
+}
+.decTabFoot01Off a{
+	width:129px;
+	display:block;
+	text-decoration:none;
+}
+.decTabFoot01Off a:hover{
+	display:block;
+	text-decoration:underline;
+}
+/* ------------------------------------------------------
+ADVICE
+------------------------------------------------------- */
+.decAdvBox{
+	*width:100%;
+	margin:10px auto;
+	padding:10px 7px;
+}
+#modFormReqrd .untBody table .decAdvBox table,
+#modFormImg .untBody table .decAdvBox table,
+#modFormOpt .untBody table .decAdvBox table,
+#modFormDeli .untBody table .decAdvBox table{
+	border:#99bef8 solid 1px;
+}
+#modFormReqrd .untBody table .decAdvBox table th,
+#modFormImg .untBody table .decAdvBox table th,
+#modFormOpt .untBody table .decAdvBox table th,
+#modFormDeli .untBody table .decAdvBox table th{
+	width:1%;
+	padding:10px 7px;
+	vertical-align:middle;
+	border:none;
+	text-align:left;
+}
+#modFormReqrd .untBody table .decAdvBox table td,
+#modFormImg .untBody table .decAdvBox table td,
+#modFormOpt .untBody table .decAdvBox table td,
+#modFormDeli .untBody table .decAdvBox table td{
+	padding:10px 7px;
+	border:none;
+	text-align:left;
+}
+.decAdvBox p{
+	display:block;
+	font-size:120%;
+	line-height:150%;
+}
+/* ------------------------------------------------------
+COMPLETION
+------------------------------------------------------- */
+#modCmplt{
+	margin:20px 0 0 0;
+	color:#333333;
+}
+#modCmplt a:hover{
+	text-decoration:underline;
+}
+#modCmplt table{
+	margin-bottom:20px;
+}
+#modCmplt table .decSp{
+	width:15px;
+}
+#modCmplt .decBg01{
+	text-align:center;
+}
+/* ------------------------------------------------------
+ERROR ALERT
+
+------------------------------------------------------- */
+.decErrorBox{
+	margin:20px 0;
+	padding:10px 15px;
+	border:#ff0000 solid 2px;
+	font-size:85%;
+	line-height:150%;
+	color:#ff0000;
+}
+.decErrorBox p{
+	padding:3px 0 3px 25px;
+	background:url(/images/auct/template/ui/auc_mod/ic_021.gif) no-repeat left;
+}
+/* ------------------------------------------------------
+ACTION MESSAGE
+------------------------------------------------------- */
+#modActMsg{
+	margin:15px auto;
+	text-align:center;
+}
+#modActMsg a:hover{
+	text-decoration:underline;
+}
+#modActMsg table{
+	margin:0 auto;
+	text-align:center;
+}
+#modActMsg .decBg01{
+	width:73px;
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/bg_054.gif) no-repeat left;
+}
+#modActMsg .decBg02{
+	width:73px;
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/bg_054.gif) no-repeat right;
+}
+#modActMsg p{
+	width:auto;
+	padding:0 6px;
+	color:#333333;
+	text-align:left;
+	font-weight:bold;
+}
+/* WILL DELETE IT LATER (LIGHT BOX TEMPLATE BACKGROUND) ****************************************************************************** */
+.tmpBg{
+	background:#b2b1b1 ;
+}
+/* LIGHT BOX ALERT ********************************************************************************** */
+#modDlgBox{
+	width:624px;
+	margin:0 auto;
+	color:#333333;
+	*text-align:center;
+	background:url(/images/auct/template/ui/auc_mod/bg_dlg_002.gif) repeat-y;
+}
+#modDlgBox .decBgBtm{
+	margin-bottom:15px;
+	font-size:0;
+}
+#modDlgBox a:link{
+	text-decoration:none;
+	color:#1546a7;
+}
+#modDlgBox a:hover{
+	text-decoration:underline;
+	color:#1546a7;
+}
+#modDlgBox a:visited{
+	color:#800080;
+	text-decoration:none;
+}
+#modDlgBox .decBg01{
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/bg_dlg_001.gif) no-repeat top;
+}
+#modDlgBox .decBg02{
+	margin:0;
+	background:url(/images/auct/template/ui/auc_mod/bg_dlg_003.gif) no-repeat bottom;
+}
+#modDlgBox .decBg03{
+	*width:574px;
+	margin:0;
+	padding:20px 25px 20px 25px;
+	*padding:20px 0 20px 0;
+	*text-align:left;
+}
+#modDlgBox .untHead p{
+	font-size:110%;
+}
+#modDlgBox .untHead .pts01{
+	display:block;
+	float:left;
+	width:490px;
+	padding:15px 0 10px 55px;
+	background:url(/images/auct/template/ui/auc_mod/ic_014.gif) no-repeat left;
+}
+#modDlgBox .untHead .pts02{
+	display:block;
+	float:right;
+	width:24px;
+}
+.decCautionTxt{
+	color:#ff0000;
+}
+#modDlgBox .untBody{
+	font-size:85%;
+	line-height:150%;
+}
+#modDlgBox .untBody a:hover{
+	text-decoration:underline;
+	color:#1546a7;
+}
+#modDlgBox .untBody ul{
+	margin:0;
+	padding:0;
+}
+#modDlgBox .untBody ul li{
+	margin:0;
+	padding-left:10px;
+	list-style-type:none;
+	background:url(/images/auct/template/ui/auc_mod/ic_002.gif) no-repeat left 0.5em;
+}
+#modDlgBox .untBody .decTx01{
+	margin:15px 0 12px 0;
+	padding:0;
+}
+#modDlgBox .untBody .decTx02{
+	margin:10px 0 12px 0;
+	padding:0;
+}
+#modDlgBox .untBody .decTx03{
+	padding:5px;
+}
+#modDlgBox .untBody .decTx04{
+	padding:5px;
+	text-align:center;
+	font-size:115%;
+}
+#modDlgBox .untFoot{
+	padding-top:15px;
+	text-align:center;
+}
+/* ATTENTION BOX */
+#modDlgBox .untBody .decCautionBox{
+	margin:15px auto 5px auto;
+	width:572px;
+	background:#fecbcb;
+}
+#modDlgBox .untBody .decCautionBox .decBg01{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_dlg_004.gif) no-repeat top;
+}
+#modDlgBox .untBody .decCautionBox .decBg02{
+	padding:20px 25px;
+	background:url(/images/auct/template/ui/auc_mod/bg_dlg_005.gif) no-repeat bottom;
+}
+#modDlgBox .untBody .decCautionBox .decBg05{
+	margin:0 auto;
+	text-align:center;
+}
+#modDlgBox .untBody .decCautionBox .decBg04{
+	margin:20px auto 15px auto;
+	text-align:center;
+}
+#modDlgBox .untBody .decCautionBox ul{
+	margin:0 0 10px 0;
+	list-style:none;
+	font-weight:bold;
+	background:none;
+}
+#modDlgBox .untBody .decCautionBox li{
+	margin:0;
+	padding:0;
+	line-height:150%;
+	background:none;
+}
+.decCautionBox .decTx04{
+	text-align:center;
+}
+.decCautionBox .decTx04 table{
+	margin:10px auto 0 auto;
+}
+/* ICON LIST */
+#decIconList{
+	width:270px;
+	margin:0 auto;
+}
+#main-a-table td,
+#recently-table td{
+	width:20px;
+	height:20px;
+	border:1px solid #ffffff;
+	text-align:center;
+	vertical-align:middle;
+	font-size:80%;
+}
+/* CALENDAR */
+#modDlgBox .decCldr a:link{
+	display:block;
+	text-decoration:none;
+	font-weight:bold;
+	color:#1546a7;
+}
+#modDlgBox .decCldr a:hover{
+	font-weight:bold;
+	text-decoration:underline;
+	color:#1546a7;
+}
+#modDlgBox .decCldr a:visited{
+	color:#800080;
+	font-weight:bold;
+}
+.decCldr table{
+	width:496px;
+	margin:0 auto;
+	border-collapse:collapse;
+	border-top:#b2b1b1 solid 1px;
+	border-bottom:#b2b1b1 solid 1px;
+}
+.decCldr th,
+.decCldr td{
+	padding:5px ;
+	border-left:#b2b1b1 solid 1px;
+	border-right:#b2b1b1 solid 1px;
+	vertical-align:middle;
+	text-align:center;
+}
+.decCldr td{
+	font-size:120%;
+}
+.decCldr th{
+	font-size:130%;
+	background:#9dbbea;
+}
+.decCldr .decTxSun{
+	color:#cc0000;
+}
+.decCldr .decBgBar{
+	background:#e7f0fe;
+}
+.decCldr .decTxOff{
+	color:#aeb3bb;
+}
+.decCldr .decBgSlct{
+	font-weight:bold;
+	color:#ffffff;
+	background:#759ede;
+}
+.decCldr .decBgSlctEx{
+	width:456px;
+	margin:10px auto 10px auto;
+	padding-left:5px;
+	border-left:#759ede solid 35px;
+}
+/* FORM */
+#modDlgBox .decFormTxtBox .decBtn{
+	position:relative;
+	top:8px;
+}
+#modDlgBox .decFormTxtBox .decUrl{
+	width:558px;
+	margin:5px 0 0 0;
+}
+#modDlgBox .decFormTxtOff{
+	color:#bcbbbb;
+}
+#modDlgBox .decFormSelect .decSlct{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+/* ALERT */
+#modDlgBox .untBody #modAlertBox{
+	display:block;
+	margin-bottom:0;
+	padding:0;
+	color:#333333;
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-x top #ffffe3;
+}
+#modDlgBox .untBody #modAlertBox .decBg01{
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-x bottom;
+}
+#modDlgBox .untBody #modAlertBox .decBg02{
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top left;
+}
+#modDlgBox .untBody #modAlertBox .decBg03{
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top right;
+}
+#modDlgBox .untBody #modAlertBox .decBg04{
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_01.gif) no-repeat top left;
+}
+#modDlgBox .untBody #modAlertBox .decBg05{
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_03.gif) no-repeat top right;
+}
+#modDlgBox .untBody #modAlertBox .decBg06{
+	margin:0;
+	padding:0;
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_02.gif) no-repeat bottom left;
+}
+#modDlgBox .untBody #modAlertBox .decBg07{
+	padding:15px 15px;
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_04.gif) no-repeat bottom right;
+}
+#modDlgBox .untFoot .decTx03{
+	border:#cc0000 solid 2px;
+}
+/* ENLIGHTEN */
+div#modDlgBox div.modDlgBoxEle .decBg03{
+	padding-top:5px;
+	padding-bottom:0;
+}
+/*===========================
+.untHead
+===========================*/
+div#modDlgBox div.modDlgBoxEle .untHead .pts01{
+	float:none;
+	padding:7px 0 5px 35px;
+	background:url(/images/auct/template/ui/auc_mod/ic_notice.gif) no-repeat left;
+}
+/*===========================
+.untBody
+===========================*/
+div#modDlgBox div.modDlgBoxEle .untBody{
+	line-height:1.4;
+}
+div#modDlgBox div.modDlgBoxEle .untBody .decTx01{
+	margin:7px 0 0 0;
+}
+div#modDlgBox div.modDlgBoxEle .untBody .decTx02{
+	margin:0 0 2px 0;
+}
+div#modDlgBox div.modDlgBoxEle .untBody ul li{
+	background:url(/images/auct/template/ui/auc_mod/ic_002.gif) no-repeat left 0.6em;
+}
+/*===========================
+.untFoot
+===========================*/
+div#modDlgBox div.modDlgBoxEle .untFoot{
+	padding-top:3px;
+}
+/*----------------------------------------------------------------------------------------------.modHintTxt*/
+div.modHintTxt{
+	margin-bottom:5px;
+}
+div.modHintTxt p{
+	line-height:1;
+}
+div.modHintTxt p span{
+	margin-left:2px;
+	padding:4px 0 4px 18px;
+	font-size:75%;
+	color:#333333;
+	background:url(/images/auct/template/ui/auc_mod/ic_016.gif) no-repeat left 0.1em;
+}
+div.modHintTxt p span a:hover{
+	text-decoration:underline;
+}
+/*----------------------------------------------------------------------------------------------.modHintTtBox*/
+.modHintTtBox{
+	text-align:left;
+}
+.modHintTtBox .decBg01{
+	width:352px;
+	background:url(/images/auct/template/ui/auc_mod/bg_ttbox_02.gif) no-repeat top;
+}
+.modHintTtBox .decBg02{
+	padding:3px 0 13px 0;
+	background:url(/images/auct/template/ui/auc_mod/bg_ttbox_03.gif) no-repeat bottom;
+}
+.modHintTtBox .decBg03{
+	padding:10px 10px;
+	background:url(/images/auct/template/ui/auc_mod/bg_ttbox_01.gif) repeat-y;
+}
+.modHintTtBox p{
+	font-size:75%;
+	color:#333333;
+	line-height:130%;
+}
+.modHintTtBox p span{
+	padding:5px 0 5px 21px;
+	font-weight:bold;
+	background:url(/images/auct/template/ui/auc_mod/ic_016.gif) no-repeat left 0.1em;
+}
+.modHintTtBox .untBody p{
+	margin:5px auto 0 auto;
+}
+.modHintTtBox .untBody p.decTtBoxImg{
+	margin:5px auto 0 auto;
+}
+/* ------------------------------------------------------
+PROMO02
+------------------------------------------------------- */
+/*----------------------------------------------------------------------------------------------.modPromoBox02*/
+.modPromoBox02{
+	display:block;
+	width:100%;
+	margin-top: 10px;
+	margin-bottom:10px;
+	padding:0;
+	color:#333333;
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-x top #ffffe3;
+}
+.modPromoBox02 a:hover{
+	text-decoration:underline;
+}
+.modPromoBox02 .decBg01{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-x bottom;
+}
+.modPromoBox02 .decBg02{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top left;
+}
+.modPromoBox02 .decBg03{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top right;
+}
+.modPromoBox02 .decBg04{
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_01.gif) no-repeat top left;
+}
+.modPromoBox02 .decBg05{
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_03.gif) no-repeat top right;
+}
+.modPromoBox02 .decBg06{
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_02.gif) no-repeat bottom left;
+}
+.modPromoBox02 .decBg07{
+	padding:10px 15px;
+	background:url(/images/auct/template/ui/auc_mod/infor_bg_04.gif) no-repeat bottom right;
+}
+.modPromoBox02 .untHead{
+	font-size:100%;
+	font-weight:bold;
+	line-height:150%;
+	color:#ff6000;
+}
+.modPromoBox02 .untBody{
+	margin:10px 0 0 0;
+	font-size:100%;
+	font-weight:normal;
+}
+.modPromoBox02 table{
+	margin:0;
+	padding:0;
+}
+.modPromoBox02 td{
+	margin:0;
+	padding:0;
+	vertical-align:top;
+}
+.modPromoBox02 .decTx01{
+	text-align:center;
+}
+.modPromoBox02 .decTop01{
+	margin-top:20px;
+	font-size:0;
+}
+/*----------------------------------------------------------------------------------------------.ptsPromoBox*/
+.ptsPromoBox{
+	margin:0;
+	padding:10px 0 0 0;
+	text-align: center;
+}
+.decPrTx01{
+	background:url(/images/auct/template/ui/auc_mod/ic_009.gif) 0 0.16em no-repeat;
+	*background:url(/images/auct/template/ui/auc_mod/ic_009.gif) 0 0.24em no-repeat;
+	padding:0 0 2px 15px;
+}
+/*end*/

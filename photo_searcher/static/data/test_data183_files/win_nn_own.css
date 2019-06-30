@@ -1,0 +1,62 @@
+
+.text2	{font-size: 100%;}
+
+table.pan td{
+	color: #000000;
+	padding:8px 0px 8px 10px;
+	font-size:10px;
+}
+.text2 td {
+	font-size: 80%;
+	line-height: 23px;
+	color: #000000;
+}
+.titl {
+	font-style: normal;
+	color: #000000;
+	font-size: 120%;
+	font-weight: bold;
+}
+.caption {
+	font-size: 100%;
+	line-height: 120%;
+	color: #000000;
+}
+div#contents {
+	padding: 0px;
+}
+.pancolor {
+	color: #F49200;
+}
+.text2ptop {
+	font-size: 80%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+
+
+
+
+.top {
+	font-size: 12px;
+	color: #CC99CC;
+}
+a { color: #5028C1; text-decoration: none }
+a:visited{ color: #5028C1; text-decoration: none }
+a:hover { color: #5028C1; text-decoration: underline }
+.news {
+	font-weight: bold;
+	color: #FF9900;
+ 	font-size: 80%;
+	//line-height: 16px;
+
+}
+.newstext {
+ 	font-size: 80%;
+	//line-height: 16px;
+
+}
+
+
+

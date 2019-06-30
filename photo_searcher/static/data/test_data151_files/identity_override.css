@@ -1,0 +1,223 @@
+
+/* -------------------------------
+ * yahooIdentityContactBadge
+ * ------------------------------- */
+
+#yahooIdentityContactBadge .roundCornerBox {
+/*	background-image: url(http://i.yimg.jp/images/socialproducts/common/contactbadge/v1/img/roundcorner/topRight_3.gif); */
+	background-image: url(/images/socialproducts/profile/roundcorner/topRight_3_a0bfdf.gif);
+}
+#yahooIdentityContactBadge .roundCornerTopLeft {
+/*	background-image: url(http://i.yimg.jp/images/socialproducts/common/contactbadge/v1/img/roundcorner/topLeft_3.gif); */
+	background-image: url(/images/socialproducts/profile/roundcorner/topLeft_3_a0bfdf.gif);
+}
+#yahooIdentityContactBadge .roundCornerTop,
+#yahooIdentityContactBadge .roundCornerBottom {
+/*	background-image:url(http://i.yimg.jp/images/socialproducts/common/contactbadge/v1/img/roundcorner/cccccc.gif); */
+	background-image:url(/images/socialproducts/profile/roundcorner/a0bfdf.gif);
+}
+#yahooIdentityContactBadge .roundCornerBottomLeft {
+/*	background-image:url(http://i.yimg.jp/images/socialproducts/common/contactbadge/v1/img/roundcorner/bottomLeft_3.gif); */
+	background-image:url(/images/socialproducts/profile/roundcorner/bottomLeft_3_a0bfdf.gif);
+}
+#yahooIdentityContactBadge .roundCornerBottomRight {
+/*	background-image:url(http://i.yimg.jp/images/socialproducts/common/contactbadge/v1/img/roundcorner/bottomRight_3.gif); */
+	background-image:url(/images/socialproducts/profile/roundcorner/bottomRight_3_a0bfdf.gif);
+}
+#yahooIdentityContactBadge .roundCornerMiddle {
+/*
+	border-left-color: #ccc;
+	border-right-color: #ccc;
+*/
+	border-left-color: #a0bfdf;
+	border-right-color: #a0bfdf;
+}
+#yahooIdentityContactBadge .yahooIdentityContactBadgeBGtop {
+/*	background-image:url(http://i.yimg.jp/images/socialproducts/common/contactbadge/v1/img/roundcorner/top_204x500.gif); */
+	background-image:url(/images/socialproducts/profile/roundcorner/top_204x500_a0bfdf.gif);
+}
+#yahooIdentityContactBadge .yahooIdentityContactBadgeBGbottom {
+/*	background-image:url(http://i.yimg.jp/images/socialproducts/common/contactbadge/v1/img/roundcorner/bottom_204x3.gif); */
+	background-image:url(/images/socialproducts/profile/roundcorner/bottom_204x3_a0bfdf.gif);
+}
+
+
+
+/* -------------------------------
+ * yahooIdentityUserCard
+ * ------------------------------- */
+
+/* yahooIdentityUserCard */
+#yahooIdentityUserCard { margin:0 0 10px 0; }
+
+/* yahooIdentityUserCard ActionButton normal
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer span.registFriend,
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer a.registFriend,
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer div.registFriend {
+	background:url(http://i.yimg.jp/images/socialproducts/common/usercard/v1/img/menu/touroku01_16.gif) no-repeat 10px 4px;
+}
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonMenus a.registFriend:hover {
+	background:#ffe57f url(http://i.yimg.jp/images/socialproducts/common/usercard/v1/img/menu/touroku01_16.gif) no-repeat 10px 4px;
+}*/
+
+/* yahooIdentityUserCard ActionButton disable 
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer span.sendTestimonialInProcess,
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer a.sendTestimonialInProcess {
+	background:url(http://i.yimg.jp/images/socialproducts/common/usercard/v1/img/menu/shoukaibun_16.gif) no-repeat 10px 4px;
+	color:#ccc;
+}*/
+
+/* ContainerDot */
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardContainerDot {
+/*	background-image:url(http://i.yimg.jp/images/socialproducts/common/usercard/v1/img/dot_ccc.gif); */
+	background-image:url(/images/socialproducts/common/usercard/v1/img/dot_88afd7.gif);
+}
+
+/* roundCorner */
+#yahooIdentityUserCard .roundCornerBox {
+/*	background-image: url(http://i.yimg.jp/images/socialproducts/common/usercard/v1/img/roundcorner/topRight_3.gif); */
+	background-image: url(/images/socialproducts/profile/roundcorner/topRight_3_a0bfdf.gif);
+}
+#yahooIdentityUserCard .roundCornerTopLeft {
+/*	background-image: url(http://i.yimg.jp/images/socialproducts/common/usercard/v1/img/roundcorner/topLeft_3.gif); */
+	background-image: url(/images/socialproducts/profile/roundcorner/topLeft_3_a0bfdf.gif);
+}
+#yahooIdentityUserCard .roundCornerTop,
+#yahooIdentityUserCard .roundCornerBottom {
+/*	background-image: url(http://i.yimg.jp/images/socialproducts/common/usercard/v1/img/roundcorner/cccccc.gif); */
+	background-image: url(/images/socialproducts/profile/roundcorner/a0bfdf.gif);
+}
+#yahooIdentityUserCard .roundCornerBottomLeft {
+/*	background-image: url(http://i.yimg.jp/images/socialproducts/common/usercard/v1/img/roundcorner/bottomLeft_3.gif); */
+	background-image: url(/images/socialproducts/profile/roundcorner/bottomLeft_3_a0bfdf.gif);
+}
+#yahooIdentityUserCard .roundCornerBottomRight {
+/*	background-image: url(http://i.yimg.jp/images/socialproducts/common/usercard/v1/img/roundcorner/bottomRight_3.gif); */
+	background-image: url(/images/socialproducts/profile/roundcorner/bottomRight_3_a0bfdf.gif);
+}
+#yahooIdentityUserCard .roundCornerMiddle {
+/*
+	border-left-color: #ccc;
+	border-right-color: #ccc;
+*/
+	border-left-color: #a0bfdf;
+	border-right-color: #a0bfdf;
+}
+
+
+
+/* -------------------------------
+ * yahooIdentityUserCardBox
+ * ------------------------------- */
+
+.yahooIdentityUserCardBox {
+/*	border-top-color:#e5e5e5; */
+	border-top-color:#b8d0e7;
+}
+
+
+/* -------------------------------
+ * yahooIdentityUserCardBoxIgnore
+ * ------------------------------- */
+
+.yahooIdentityUserCardBoxIgnore {
+/*	border-top-color:#e5e5e5; */
+	border-top-color:#b8d0e7;
+}
+.yahooIdentityUserCardBoxIgnore .titleWrap {
+/*	border-bottom-color:#e5e5e5; */
+	border-bottom-color:#b8d0e7;
+}
+.yahooIdentityUserCardBoxIgnore .titleWrap .titleHead {
+/*	background-image:url(http://i.yimg.jp/images/socialproducts/common/usercard/v1/img/title_gray_10x22.jpg); */
+	background-image:url(/images/socialproducts/profile/title_10x22.jpg);
+}
+.yahooIdentityUserCardBoxIgnore .attention {
+/*	border-color:#e5e5e5; */
+	border-color:#88afd7;
+}
+
+
+/* -------------------------------
+ * box (message)
+ * ------------------------------- */
+
+#box .titleWrap {
+/*	border-bottom-color:#e5e5e5; */
+	border-bottom-color:#b8d0e7;
+}
+#box .titleWrap .titleHead {
+/*	background-image:url(http://i.yimg.jp/images/socialproducts/common/usercard/v1/img/title_gray_10x22.jpg); */
+	background-image:url(/images/socialproducts/profile/title_10x22.jpg);
+}
+#box .listWrap,
+#box .listWrapLastItem,
+#box .selectHeadWrap,
+#box .selectHeadWrap .selectHeadDotted,
+#box .selectMainWrap {
+/*	background-image:url(http://i.yimg.jp/images/socialproducts/common/usercard/v1/img/dot_ccc.gif); */
+	background-image:url(/images/socialproducts/profile/dot_88afd7.gif);
+}
+#box .listWrap .listBg {
+/*	background-image:url(http://i.yimg.jp/images/socialproducts/common/usercard/v1/img/bg_e3e3e3.gif); */
+	background-image:url(/images/socialproducts/profile/profileBG_696x1_2.gif);
+}
+#box .attentionBorder {
+/*	border-color:#e5e5e5; */
+	border-color:#88afd7;
+}
+#box .selectHeadWrap .selectHeadText {
+/*	background-color:#e5e5e5; */
+	background-color:#b8d0e7;
+}
+#box a {
+	color:#0066cc;
+}
+
+
+/* -------------------------------
+ * yahooIdentityUserCardSimple
+ * ------------------------------- */
+
+table.yahooIdentityUserCardSimple {
+	margin:1px;
+}
+
+div.yahooIdentityUserCardSimpleContainer {
+	border:1px solid #ccc;
+	padding: 0px;
+	margin:0;
+}
+
+/* -------------------------------
+ * yahooIdentityUserCard v2.1 adjust
+ * ------------------------------- */
+
+#yahooIdentityUserCard {
+	font-size:medium;
+	z-index:1;
+	position:relative;
+}
+
+/* -------------------------------
+ * yahooNotice yahooVitality adjust
+ * ------------------------------- */
+#yahooNotice{
+font-size:100%;
+}
+#yahooVitality {
+font-size:100%;
+}
+
+/* -------------------------------
+ * yahooVitality
+ * ------------------------------- */
+#yahooVitality .rightWrap .vitalityOwnerName {
+white-space:nowrap;
+}
+
+/* -------------------------------
+ * ydod
+ * ------------------------------- */
+#box .generic_ydod {border:solid 1px #b7cfe7;}
+

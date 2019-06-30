@@ -1,0 +1,921 @@
+@charset "Shift_JIS";
+
+/*============================================================
+//
+//  目次-------------------------
+//  ・全体の設定
+//		.alert追加　2006年12月10日
+//  -----------------------------
+//  ・検索
+//  ・ヘッダー
+//  ・パンクズ
+//  ・検索コンパネ
+//  ・コンテンツ
+//　├・左動画パーツ
+//　├・左インフォメーションパーツ（新着情報、新着ブログ、アクセスランキング、特集バックナンバー、視聴率ランキング）
+//　├・中央メインパーツ（カテゴリ、プレゼント）
+//　├・中央バナー
+//　├・入力フォーム追加　2006年12月10日
+//　├・右ティッカー
+//　└・右パーツ（パソコンでテレビジョン、角川ザテレビジョンの本）
+//  ・番組表
+//  -----------------------------
+//  ・ドラマナビ
+//  -----------------------------
+//  ・フッター
+//
+//
+//==========================================================*/
+
+/*============================================================
+//  全体の設定
+//==========================================================*/
+
+body{
+	color: #666666;
+	background: #ffffff;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 140%;
+}
+
+#base{
+	text-align: left;
+	margin: 0 auto;
+	padding: 0;
+	width: 980px;
+	position: relative;
+}
+
+h1,h2,h3,p,ul,li,form{margin:0; padding:0;}
+ul{list-style:none;}
+
+img { border:none;}
+
+.kugiri{ clear:both; margin:0; padding:0;}
+
+.kugiri hr{ display:none; margin:0; padding:0;}
+
+.kugiri br{ display:none;}
+
+.mar10 { margin-top: 10px; }
+.mar5 { margin-top: 5px; }
+.marbtn10 { margin-bottom: 10px; }
+.marbtn5 { margin-bottom: 5px; }
+.marrit10 { margin-right: 10px; }
+.marrit5 { margin-right: 5px; }
+
+input {font-size: 12px;}
+
+.alert {color: #ff0000;}	/*注意事項など強調したいテキストに利用*/
+
+/*============================================================
+//  検索
+//==========================================================*/
+#sarch{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	font-size: 10px;
+}
+#sarch #inner{
+	margin: 5px 0 0 auto;
+	width: 700px;
+	text-align: right;
+}
+/* アイキャッチはカラースタイルシートへ */
+#sarch #map{
+	margin: 2px 10px 0 auto;
+	float: right;
+}
+#sarch #help{
+	margin: 2px 10px 0 auto;
+	text-align: right;
+	float: right;
+}
+#sarch #form{
+	float: right;
+	margin: 0 auto;
+}
+#sarch .blue{color: #6699ff;}
+#sarch .green{color: #80ccb3;}
+#sarch .yellow{color: #ffcc33;}
+#sarch .orange{color: #ff6633;}
+#sarch .pink{color: #ff6699;}
+#sarch .red{color: #ff0000;}
+#sarch .purple{color: #6631f7;}
+#sarch .black{color: #333333;}
+
+
+/*============================================================
+//  ヘッダー
+//==========================================================*/
+#header{
+	margin: 15px auto 15px auto;
+	font-size: 9px;
+}
+#header .colorchip{
+	font-size: 10px;
+}
+#header #left{
+	width: 180px;
+	line-height: 105%;
+	float: left;
+	margin: 0 auto 0 0;
+}
+#header #center{
+	line-height: 100%;
+	width: 315px;
+	float: left;
+	margin: 0 auto 0 0;
+	text-align: center;
+}
+#header #right{
+	width: 470px;
+	margin: 0 0 0 auto;
+	text-align: right;
+}
+#header h1{
+	margin: 0 auto;
+	width: 180px;
+	height: 60px;
+	background: url(../image/header_logo.gif) no-repeat;
+	text-indent: -9999px;
+}
+#header h1 a{
+	display: block;
+	width: 180px;
+	height: 60px;
+}
+
+/* アイコンはカラースタイルシートへ */
+#header #icon{
+	margin: 0 auto;
+}
+#header #selcolor{
+	height: 18px;
+	text-align: left;
+	padding-left: 15px;
+	line-height: 120%;
+}
+#header ul#icon{
+	width: 301px;
+	clear: both;
+	margin: 22px auto 0 auto;
+	padding: 0;
+	list-style: none;
+	text-indent: -9999px;
+}
+#header ul#txt{
+	width: 301px;
+	clear: both;
+	margin: 0px auto 0 auto;
+	padding: 0;
+	list-style: none;
+}
+#header ul#icon li{
+	width: 43px;
+	height: 28px;
+	float: left;
+}
+#header ul#txt li{
+	width: 43px;
+	float: left;
+	text-align: center;
+}
+#header ul#icon li a{
+	text-decoration: none;
+	width: 43px;
+	height: 28px;
+	display: block;
+}
+#header ul#txt li a{
+	display: block;
+}
+
+
+/*============================================================
+//  パンクズ
+//==========================================================*/
+#pankuzu{
+	margin: 7px auto 10px auto;
+	line-height: 120%;
+}
+
+
+/*============================================================
+//  検索コンパネ
+//==========================================================*/
+/* 表示デフォルト */
+#pl_program{display:block;}
+#pl_genre,
+#pl_keyword,
+#pl_star,
+#pl_blog,
+#pl_category,
+#pl_mobile{display:block;}
+
+
+#panel{
+	width:845px;
+	margin: 0 auto;
+}
+/* カラースタイルシートへ */
+#panel #header{
+	font-size: 12px;
+	margin: 0;
+}
+#panel ul{
+	width:845px;
+	list-style: none;
+}
+#panel ul li{
+	float: left;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+}
+#panel ul li#program{
+	width: 99px;
+	margin: 6px 0 0 0;
+}
+#panel ul li#psarchttl{
+	width: 76px;
+	margin: 6px 0 0 0;
+}
+#panel ul li#psarch{
+	width: 184px;
+	margin: 6px 0 0 0;
+	font-weight: normal;
+}
+#panel ul li#csarchttl{
+	width: 112px;
+	margin: 6px 0 0 0;
+}
+#panel ul li#csarch{
+	width: 108px;
+	margin: 6px 0 0 0;
+	font-weight: normal;
+}
+#panel ul li#mobile{
+	width: 75px;
+	margin: 6px 0 0 0;
+}
+#panel ul li a{
+	font-weight: normal;
+}
+
+#panel #body{
+	display: block;
+	margin: 0 auto;
+	width: 845px;
+	height: 59px;
+	text-align: center;
+	vertical-align: middle;
+}
+#panel #inner{
+	display: block;
+	margin: 0px auto;
+	padding: 10px 0 0 0;
+	width: 820px;
+	height: 40px;
+	text-align: left;
+}
+
+/* 番組表 */
+#panel #area{
+	width: 130px;
+	height: 40px;
+	background: #ffffff;
+	float: left;
+	line-height: 120%;
+}
+#panel #area .txt{
+	display: block;
+	margin: 5px;
+}
+#panel #area .areaname{
+	font-family: serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+#panel #area .change{
+	font-size: 10px;
+	text-align: right;
+}
+/* 矢印 */
+#panel #arrow{
+	width: 16px;
+	height: 40px;
+	float: left;
+	text-align: center;
+}
+/* カレンダー */
+#panel #call{
+	width: 575px;
+	height: 40px;
+	float: left;
+	text-align: left;
+	background: #ffffff;
+	font-size: 10px;
+}
+#panel #call #today{
+	display: block;
+	width: 70px;
+	height: 13px;
+	float: left;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+#panel #call #tomorrow{
+	display: block;
+	width: 70px;
+	height: 13px;
+	float: left;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+#panel #call .mon{
+	font-family:sans-serif;
+}
+#panel #call .day{
+	font-size: 22px;
+	font-family:sans-serif;
+}
+#panel #call ul{
+	margin: 3px 0 0 0;
+	width:560px;
+	list-style: none;
+}
+#panel #call ul li{
+	float: left;
+	width: 70px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 10px;
+}
+#panel #call ul li a:hover{
+	text-decoration: none;
+}
+/* ジャンル */
+#panel #genre{
+	width: 497px;
+	height: 40px;
+	float: left;
+	text-align: center;
+	background: #ffffff;
+	font-size: 12px;
+}
+#panel .innertxt{
+	padding: 12px 0 0 0;
+}
+/* 余白（ジャンル横） */
+#panel #genrenull{
+	width: 78px;
+	float: left;
+}
+/* フォーム */
+#panel #form{
+	width: 575px;
+	height: 40px;
+	float: left;
+	text-align: left;
+	font-size: 10px;
+}
+/* フォーム（ブログ） */
+#panel #formblog{
+	width: 721px;
+	height: 40px;
+	float: left;
+	text-align: left;
+	font-size: 10px;
+}
+/* カテゴリ */
+#panel #category{
+	width: 460px;
+	height: 40px;
+	float: left;
+	background: #ffffff;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+/* ダウンロード */
+#panel #download{
+	width: 90px;
+	height: 40px;
+	float: left;
+	background: #ffffff;
+	text-align: center;
+}
+/* プレゼント */
+#panel #present{
+	width: 80px;
+	height: 40px;
+	float: left;
+	background: #ffffff;
+	text-align: center;
+}
+/* 余白（10px） */
+#panel .null10{
+	width: 10px;
+	float: left;
+}
+/* 余白（カテゴリ横） */
+#panel .catnull{
+	width: 71px;
+	float: left;
+}
+/* モバイル */
+#panel .mobile{
+	width: 280px;
+	height: 40px;
+	float: left;
+	background: #ffffff;
+	text-align: center;
+}
+#panel .left{
+	width: 128px;
+	height: 40px;
+	float: left;
+	background: #ffffff;
+	text-align: left;
+}
+#panel .right{
+	width: 146px;
+	height: 40px;
+	float: left;
+	text-align: right;
+	font-size: 10px;
+	font-weight: normal;
+	background: #ffffff;
+	line-height: 120%;
+}
+/* 余白（モバイル横） */
+#panel #mobnull{
+	width: 151px;
+	float: left;
+}
+/* ボタン */
+#panel #button{
+	float: left;
+	width: 99px;
+	text-align: right;
+	margin: 0 0 0 auto;
+}
+
+/*============================================================
+//  コンテンツ
+//==========================================================*/
+#cnts{
+	margin: 20px auto 0 auto;
+}
+#cnts #left{
+	margin: 0 auto;
+	width: 200px;
+	float: left;
+	text-align: center;
+}
+#cnts #center{
+	margin: 0 15px 0 15px;
+	width: 415px;
+	float: left;
+}
+#cnts #right{
+	margin: 0 auto;
+	width: 200px;
+	float: left;
+}
+#cnts #banner{
+	margin: 0 0 0 auto;
+	width: 120px;
+}
+
+
+/*============================================================
+//  左動画パーツ
+//==========================================================*/
+/* カラースタイルシートへ */
+#mparts{
+	width: 200px;
+	line-height: 100%;
+	text-align: center;
+}
+#mparts .movie{
+	width: 162px;
+	margin: 0 auto;
+}
+#mparts .body{
+	width: 160px;
+	margin: 2px auto;
+}
+#mparts .inner{
+	width: 150px;
+	margin: 0 auto 4px;
+	text-align: center;
+}
+.test{
+	width:162px;
+	padding:1px;
+	border: 1px solid #000000;
+}
+
+
+/*============================================================
+//  左インフォメーションパーツ
+//==========================================================*/
+/* カラースタイルシートへ */
+#info{
+	width: 200px;
+	line-height: 140%;
+}
+
+#info .midashi{
+	width: 150px;
+	height: 19px;
+	float: left;
+	margin: 0 auto 0 0;
+	padding: 0;
+}
+
+#info .midashi_l{ /*2006年12月10日 11:52	長い見出し用に追加*/
+	width: 190px;
+	height: 19px;
+	float: left;
+	margin: 0 auto 0 0;
+	padding: 0;
+}
+
+#info .rss{
+	width: 40px;
+	height: 19px;
+	margin: 0 0 0 auto;
+	padding: 0;
+}
+#info .midashi p{
+	margin: 0 3px 0 3px;
+	padding: 2px 0 0 0;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: bold;
+}
+#info .midashi p.mini{
+	margin: 0 3px 0 3px;
+	padding: 2px 0 0 0;
+	font-size: 10px;
+	color: #ffffff;
+	font-weight: bold;
+}
+#info .rss img{
+	margin: 3px;
+}
+#info .title{
+	display: block;
+	width: 200px;
+	height: 19px;
+	text-align: left;
+}
+#info .title p{
+	margin: 0 3px 0 3px;
+	padding: 2px 0 0 0;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: bold;
+}
+#info .dot{
+	float: left;
+	margin: 0 auto 0 0;
+	width: 12px;
+	text-align: right;
+}
+#info .txt{
+	margin: 0 0 0 auto; /*2006年12月10日 11:38	0 0 0 auto;*/
+	width: 183px; /*2006年12月10日 11:36	オリジナル180px*/
+	text-align: left;
+}
+#info .txtcenter{
+	text-align: center;
+	margin: 0 0 3px 0;
+}
+#info .txtright{
+	text-align: right;
+	margin: 0 0 3px 0;
+}
+#info .line{
+	clear:both;
+	padding: 0 0 3px 0;
+}
+
+
+/*============================================================
+//  中央PR
+//==========================================================*/
+#pr{
+	line-height: 160%;
+}
+
+
+/*============================================================
+//  中央メインパーツ
+//==========================================================*/
+/* カラースタイルシートへ */
+.cparts .title{
+	display: block;
+	width: 415px;
+	height: 29px;
+	text-align: left;
+}
+.cparts .title .rssleft{
+	width: 220px; /*2006年12月10日 11:59 オリジナル220px*/
+	float: left;
+	margin: 0 auto 0 0;
+}
+.cparts .title .rssleft_l{
+	width: 300px; /*2006年12月10日 11:59 オリジナル220px*/
+	float: left;
+	margin: 0 auto 0 0;
+}
+.cparts .title .rsscenter{
+	width: 150px;
+	float: left;
+	margin: 0 auto 0 0;
+	text-align: right;
+}
+.cparts .title .rssright{
+	height: 29px;
+	width: 40px;
+	margin: 0 0 0 auto;
+	text-align: left;
+}
+.cparts .title .rssright img{
+	margin: 8px 0 0 0;
+}
+.cparts .title p{
+	font-weight: bold;
+	font-size: 14px;
+	color: #ffffff;
+	margin: 2px 3px 0 3px;
+	padding: 5px 0 0 0;
+}
+.cparts .title .date{
+	font-size: 10px;
+	color: #ffffff;
+	margin: 7px 0 0 0;
+}
+.cparts .body{
+	margin: 1px 0 0 0;
+	text-align: center;
+}
+.cparts ul{
+	width: 413px;
+	height: 20px;
+	clear: both;
+	margin: 0px auto 0 auto;
+	padding: 0;
+	list-style: none;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.cparts ul li{
+	height: 17px;
+	float: left;
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 140%;
+	background: #ffffff;
+	padding: 3px 0 0 0;
+}
+.cparts ul li#dorama,
+.cparts ul li#cinema,
+.cparts ul li#sports,
+.cparts ul li#anime{
+	width: 82px;
+	border-right:1px solid;
+}
+.cparts ul li#koria{
+	width: 81px;
+}
+.cparts ul li a{
+	display: block;
+	height: 17px;
+}
+.cparts .inner{
+	width: 405px;
+	margin: 0 auto;
+	text-align: left;
+	line-height: 140%;
+}
+.cparts .inner .photo{
+	float: left;
+	margin: 4px auto 4px 0;
+}
+.cparts .inner .txt{
+	margin: 4px 0 4px auto;
+}
+.cparts .inner p{
+	text-align: right;
+	font-size: 10px;
+	margin: 10px 0 0 0;
+}
+
+/* カテゴリ切り替え */
+#sw_dorama{display:block;}
+#sw_cinema,
+#sw_sports,
+#sw_anime,
+#sw_koria{display:block;}
+
+/*============================================================
+//  中央バナー
+//==========================================================*/
+#mbana{
+	width: 415px;
+	text-align: left;
+}
+#mbana .left{
+	width: 200px;
+	float: left;
+	margin: 0 auto 0 0;
+}
+#mbana .right{
+	width: 200px;
+	margin: 0 0 0 auto;
+}
+
+
+/*============================================================
+//  入力フォーム
+//==========================================================*/
+.input_title {
+	font-size: 10px;
+	background: #d9d9d9;
+	}
+.input_content {
+	font-size: 10px;
+	background: #f2f2f2;
+	}
+
+
+/*============================================================
+//  右ティッカー
+//==========================================================*/
+#ticker {
+	width: 200px;
+	text-align: center;
+}
+#ticker .bottom{
+	width: 180px;
+	text-align: left;
+	margin: 3px auto;
+}
+#ticker .bottom .left{
+	float: left;
+	margin: 0 auto 0 0;
+	font-size: 10px;
+	line-height: 120%;
+}
+#ticker .bottom .right{
+	float: right;
+	margin: 0 0 0 auto;
+	font-size: 10px;
+	line-height: 120%;
+	text-align: right;
+}
+#ticker .bottom input{
+	margin: 3px 0 0 0;
+}
+
+
+/*============================================================
+//  右パーツ
+//==========================================================*/
+/* カラースタイルシートへ */
+#rparts .title{
+	width: 200px;
+	height: 19px;
+}
+#rparts .title p{
+	font-weight: bold;
+	margin: 2px 0 2px 3px;
+	color: #ffffff;
+	padding: 2px 0 0 0;
+}
+#rparts .body{
+	margin: 1px 0 0 0;
+	text-align: center;
+}
+#rparts .inner{
+	width: 190px;
+	margin: 5px auto;
+	text-align: left;
+}
+#rparts .inner .left{
+	float: left;
+	margin: 0 auto 0 0;
+}
+#rparts .inner .right{
+	display: block;
+	margin: 0 0 0 auto;
+	text-align: left;
+}
+#rparts .inner .txt{
+	display: block;
+	line-height: 160%;
+}
+#rparts .inner p{
+	text-align: right;
+}
+#rparts .inner .bold{
+	font-weight: bold;
+}
+#rparts .inner .leftmag{
+	width: 72px;
+	display: block;
+	float: left;
+	margin: 0 auto 0 0;
+}
+#rparts .inner .rightmag{
+	width: 115px;
+	display: block;
+	margin: 0 0 0 auto;
+	text-align: left;
+}
+
+
+/*============================================================
+//  番組表
+//==========================================================*/
+#program{
+	line-height: 120%;
+}
+#program .midashi{
+	line-height: 120%;
+}
+/* カラースタイルシートへ */
+#program td.title{
+	height: 29px;
+	width: 120px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	line-height: 120%;
+}
+#program td{
+	width: 120px;
+	text-align: center;
+}
+#program td .time{
+	width: 110px;
+	text-align: left;
+	margin: 5px auto;
+}
+#program td .program{
+	width: 110px;
+	text-align: left;
+	margin: 5px auto;
+	padding: 0 0 5px 0;
+}
+#program #timetable td{
+	vertical-align: top;
+}
+
+
+/*============================================================
+//  ドラマナビ
+//==========================================================*/
+#navi{
+	font-size: 10px;
+	line-height: 120%;
+}
+
+.navi{background: #FFCC00;}
+
+
+.navibg{background: #ffffff;}
+
+.obidot{background : url(/drama_top/image/dot_yellow.gif) no-repeat; height: 7px;}
+
+
+/*============================================================
+//  フッター
+//==========================================================*/
+#footer{
+	width: 980px;
+	text-align: center;
+	font-size: 10px;
+}
+#footer #banner{
+	margin: 10px 0 10px 0;
+}
+#footer #copy{
+	margin: 10px 0 10px 0;
+}
+
+
+

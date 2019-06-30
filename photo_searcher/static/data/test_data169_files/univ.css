@@ -1,0 +1,653 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------------------
+
+TITLE    : nikkansports.com 大学スポーツ 全ページ共通 CSS
+DATE     : 2007/01/17
+URL      : http://univ.nikkansports.com/css/univ.css
+DESIGNER : Tomotaka Seo
+UPDATED  : 2007/01/17
+
+--------------------------------------------------------------------- */
+
+
+
+
+/* ----------------------------------------------------------------
+BASIC STYLE
+---------------------------------------------------------------- */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #333333;
+	font: 100% "MS PGothic", "ＭＳ Ｐゴシック", Osaka, "HiraginoKakugo Pro W3", "ヒラギノ角ゴ Pro W3", sans-serif;
+	background: #ffffff url(/img/univ_bg_head.gif) repeat-x left top;
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol, dl, dt, dd, p, div, input, form, fieldset, legend {
+	margin: 0;
+	padding: 0;
+}
+
+h1 { font-size: 130%; }
+h2 { font-size: 120%; }
+h3 { font-size: 110%; }
+h4 { font-size: 100%; }
+.txt3 { font-size: 100%; }
+.txt2 { font-size: 90%; }
+.txt1 { font-size: 80%; }
+.txt3h { font-size: 100%; line-height: 1.5em; }
+.txt2h { font-size: 90%; line-height: 1.6em; }
+.txt1h { font-size: 80%; line-height: 1.3em; }
+
+.helpNavi {
+	width: 200px;
+	position: absolute;
+	top: -999px;
+}
+
+.helpNavi a {
+	text-decoration: none;
+	background: transparent;
+}
+
+img.photo { border: solid 1px #666666; }
+
+a img {
+	color: #FFFFFF;
+	background: transparent;
+	border: 0px none;
+	vertical-align: bottom;
+}
+
+.hide { display: none; }
+
+.skip {
+	width: 200px;
+	position: absolute;
+	top: -999px;
+}
+
+.red {color:#ff0000; font-weight:bold;}
+.white { color: #FFFFFF; }
+
+.mail {
+	padding-left: 21px;
+	background: url(/img/icon_mail.gif) no-repeat 0 0.25em;
+}
+
+a:link {
+  color:#0066ff;
+  }
+
+a:visited {
+  color:#003399;
+  }
+
+a:active {
+  color:#0066ff;
+  }
+
+a:hover {
+  color:#003399;
+  }
+
+p#route {
+	margin: 0 0 5px;
+	padding-left:8px;
+	font-size: 80%;
+}
+
+
+
+.clearfix:after {
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+
+*+html .clearfix { display: inline-block; } /* for WinIE7 */
+
+*html .clearfix {
+	/*\*/ height: 1%; /* for WinIE */
+	display: inline-table; /* for MacIE */
+}
+
+
+
+
+/* ----------------------------------------------------------------
+TEMPLATE AREA STYLE
+---------------------------------------------------------------- */
+
+
+/* Header Area
+------------------------------------------------------- */
+
+div#header {
+	height:58px;
+	margin:0 20px 8px;
+	background: url(/img/univ_head_bg.gif) repeat-x left top;
+}
+
+div#header h1 {
+	float:left;
+	height:58px;
+	width:311px;
+	text-align:right;
+	background: url(/img/univ_head_left.gif) no-repeat left top;
+}
+div#header p {
+	float:right;
+	height:58px;
+	width:185px;
+	text-align:left;
+	background: url(/img/univ_head_right.gif) no-repeat right top;
+}
+
+
+
+/* Super Banner Area
+------------------------------------------------------- */
+#superBanner {
+	width: 100%;
+	margin-bottom:8px;
+	text-align: center;
+	clear: both;
+}
+
+#superBanner a { margin: auto; }
+
+#superBanner iframe {
+	margin: auto;
+	padding: auto;
+	text-align: center;
+	display: block;
+}
+
+
+/* Contents Area
+------------------------------------------------------- */
+
+
+div#wrapper7 {
+	background: #ffffff url(/img/univ_main_bg-top.gif) repeat-x left top;
+}
+div#wrapper8 {
+	padding: 7px 5px 15px;
+	background: url(/img/univ_main_bg-bottom.gif) repeat-x left bottom;
+}
+
+
+/* ------------- Title Area ------------- */
+body#toppage div#univTitle,
+body#archive div#univTitle {
+	width:100%;
+	margin-bottom:15px;
+}
+
+body#toppage div#univTitle {
+	height:165px;
+	background: #ffffff url(/img/title_bg.gif) repeat-x left top;
+}
+
+body#archive div#univTitle {
+	height:80px;
+	background: #ffffff url(/img/arc_title_bg.gif) repeat-x left top;
+}
+
+
+body#archive div#univTitle h2 a {
+	display:block;
+	text-indent:-9999px;
+	width:100%;
+	height:80px;
+	overflow:hidden;
+}
+
+/* ------------- Main Area ------------- */
+
+#contentsWrap {
+	float:left;
+	margin-right: -200px;
+	width: 100%;
+
+}
+
+#contents { 
+	margin:0 200px 0 0; 
+}
+
+
+#mainWrap {
+	float:right;
+	width:100%;
+	margin-left: -170px;
+
+}
+
+#main {
+	margin: 0 10px 0 170px;
+}
+
+div.articleHead {
+	padding-left:8px;
+}
+
+#main h2 {
+	font-size:120%;
+	font-weight:bold;
+	color:#003366;
+	line-height:1.55em;
+}
+
+
+#main p.articleCat {
+	font-size:90%;
+	font-weight:bold;
+	padding-left:15px;
+	margin-bottom:10px;
+	line-height:1.45em;
+	background: url(/img/univ_list_mark02.gif) no-repeat left 0.3em;
+	border-bottom: 1px dotted #999999;
+}
+
+
+div.univBarWrap1 {
+	height:27px;
+	background:url(/img/univ_bar_bg.gif) repeat-x left top;
+	margin-bottom:10px;
+}
+div.univBarWrap2 {
+	height:27px;
+	background:url(/img/univ_bar_left.gif) no-repeat left top;
+}
+#main h3 {
+	text-indent:-9999px;
+	height:27px;
+	background:url(/img/univ_bar_right.gif) no-repeat right top;
+}
+#main h3 span {display:block;}
+#main h3 span#traBar {background:url(/img/univ_trackback.gif) no-repeat center top;}
+#main h3 span#commeBar {background:url(/img/univ_comment.gif) no-repeat center top;}
+#main h3 span#searchBar {background:url(/img/univ_search-result.gif) no-repeat center top;}
+
+
+#main p.navi {
+	margin-bottom:5px;
+	padding:0;
+	font-size:90%;
+	text-align:center;
+}
+
+
+div.articleBody {
+	padding:13px 0 0 8px;
+	border-left:3px solid #999;
+}
+div.articleBody:after {
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+div.articleBody { display: inline-block; } /* for WinIE7 */
+*html div.articleBody {
+	/*\*/height: 1%; /* for WinIE */
+	display: inline-table; /* for MacIE */
+}
+
+#main p {
+	margin-bottom:15px;
+	font-size:90%;
+	line-height:1.65em;
+}
+
+#main p.articlePhoto {
+	float:right;
+	margin-bottom:10px;
+	padding-left:10px;
+}
+
+#main p.toTop {
+	clear:both;
+	width:100%;
+	margin-bottom:0px;
+	padding-bottom:5px;
+	font-size:80%;
+	line-height:1em;
+}
+p.toTop:after {
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+*+html p.toTop { display: inline-block; } /* for WinIE7 */
+*html p.toTop {
+	/*\*/ height: 1%; /* for WinIE */
+	display: inline-table; /* for MacIE */
+}
+
+#main p.toTop span {
+	display:block;
+	width:115px;
+	float:right;
+	padding-left:15px;
+	background: url(/img/univ_list_mark03.gif) no-repeat left 0.4em;
+}
+
+#main p.posted {
+	clear:both;
+	font-size:80%;
+	line-height:1.35em;
+	padding:3px 5px;
+	background:#ededed;
+	margin-bottom:20px;
+	border-bottom:1px solid #a6a6a6;
+	border-left:3px solid #999;
+}
+
+#main p.posted span img{
+	vertical-align:middle;
+}
+
+
+
+
+/* ------------- Side Area ------------- */
+
+#right h2,
+#left h2 {
+	margin:0 0 7px 0;
+	padding:0;
+	text-indent:-9999px;
+	height:23px;
+}
+
+#right p,
+#left p {
+	line-height:1.65em;
+}
+
+#right ul,
+#left ul {
+	margin:0 0 15px 0;
+	padding:0 0 0 10px;
+	text-align:left;
+	list-style-type:none;
+	line-height:1.65em;
+}
+
+
+#right li,
+#left li {
+	padding-left:12px;
+	background:url(/img/univ_list_mark.gif) no-repeat left 0.6em;
+}
+
+/* ------------- Leftside Area ------------- */
+
+#left {
+	float:left;
+	width: 160px;
+	font-size: 80%;
+
+}
+
+/* ----- SEARCH ----- */
+
+div#searchForm {
+	padding-bottom:15px;
+}
+
+
+/* ----- Calendar ----- */
+
+#calendar {
+	width:160px;
+	margin-bottom:15px;
+	padding:0;
+	color:#666666;
+	font-family:Verdana, Arial, sans-serif;
+	text-align:center;
+}
+
+#calendar table {
+	width:160px;
+	margin:0;
+	padding:10px 0 0 0;
+	border-collapse:collapse;
+	border:0;
+}
+
+
+#calendar th {
+	text-align:center;
+	font-weight:normal;
+	color:#666666;
+	font-family:Verdana, Arial, sans-serif;
+	font-size:10px;
+	line-height:140%;
+	}
+
+#calendar td {
+	text-align:center;
+	color:#666666;
+	font-family:Verdana, Arial, sans-serif;
+	font-size:10px;
+	line-height:140%;
+}
+
+
+/* ----- Month Archive ----- */
+
+div#selectMonth {
+	padding:0 15px 15px;
+}
+select {width:100px;}
+
+
+/* ------------- Rightside Area ------------- */
+
+#right {
+	float:right;
+	width: 200px;
+	font-size: 80%;
+
+}
+
+
+dl#newspaper {
+	margin-bottom:15px;
+}
+
+
+dl#newspaper dd#npImage {
+	text-align:center;
+	line-height:1.65em;
+	padding-top:8px;
+	margin-bottom:8px;
+	height:246px;
+	background: url(/img/univ_newspaper_bg2.gif) no-repeat left top;
+}
+dl#newspaper dd#npImage img {
+	border:1px solid #cccccc;
+}
+
+dl#newspaper dd#npBacknumber {
+	text-indent:-9999px;
+	height:21px;
+}
+dl#newspaper dd#npBacknumber a {
+	display:block;
+	float:right;
+	width:123px;
+	height:21px;
+	background: url(/img/univ_np_backnumber.gif) no-repeat left top;
+	overflow:hidden;
+}
+
+
+#right dl#menuList {
+	margin-bottom:15px;
+	border-bottom:1px solid #cccccc;
+}
+
+
+#right dl#menuList dd {
+	width:200px;
+	font-size:110%;
+	font-weight:bold;
+	line-height:2.8em;
+	background:url(/img/univ_sidemenu_bg.gif) no-repeat left top;
+	overflow:hidden;
+}
+#right dl#menuList dd a {
+	display:block;
+	width:200px;
+	height:36px;
+	padding-left:21px;
+	text-decoration:none;
+	overflow:hidden;
+}
+
+p#qrCode {
+	margin-bottom:15px;
+}
+
+#right div#rssArea {
+	text-align:center;
+	height:98px;
+	margin-top:15px;
+	padding:15px 10px;
+	background: url(/img/univ_rss_bg.gif) no-repeat left top;
+	overflow:hidden;
+}
+
+#right div#rssArea p#rss {
+	width:180px;
+	line-height:1.35em;
+	padding-bottom:5px;
+	border-bottom:1px solid #fff;
+}
+
+
+#right div#rssArea p#rss a img {
+	width:32px;
+	margin:0 auto;
+	display:block;
+}
+
+#right div#rssArea p#license {
+	padding-top:5px;
+	line-height:1.35em;
+	width:180px;
+}
+
+#right hr {
+	margin:10px 0;
+	height:10px;
+	background: url(/img/univ_line01.gif) no-repeat left top;
+	border: none;
+}
+
+
+
+
+/* Footer Area
+------------------------------------------------------- */
+
+#footer {
+	clear: both;
+	margin: 10px 0;
+	width: 100%;
+	height: 28px;
+	text-align: center;
+	background: url(/img/univ_footer_menu_bg.gif) repeat-x;
+}
+
+
+#footerMenu ol {
+	margin: 0 auto;
+	padding:0 4px;
+	width:772px;
+	height: 28px;
+	font-size: 80%;
+	list-style: none;
+	background: url(/img/univ_footer_menu.gif) no-repeat left top;
+	overflow:hidden;
+}
+
+#footerMenu ol li {
+	text-indent:-9999px;
+	height: 28px;
+	width:84px;
+	margin-right:1px;
+	float:left;
+}
+
+#footerMenu ol li a {
+	height: 28px;
+	width:84px;
+	display:block;
+}
+
+#footerMenu ol li#menuHome a:hover {background: url(/img/univ_footer_menu.gif) no-repeat -4px -33px;}
+#footerMenu ol li#menuBaseball a:hover {background: url(/img/univ_footer_menu.gif) no-repeat -89px -33px;}
+#footerMenu ol li#menuSoccer a:hover {background: url(/img/univ_footer_menu.gif) no-repeat -174px -33px;}
+#footerMenu ol li#menuSports a:hover {background: url(/img/univ_footer_menu.gif) no-repeat -259px -33px;}
+#footerMenu ol li#menuBattle a:hover {background: url(/img/univ_footer_menu.gif) no-repeat -344px -33px;}
+#footerMenu ol li#menuRace a:hover {background: url(/img/univ_footer_menu.gif) no-repeat -429px -33px;}
+#footerMenu ol li#menuEntertainment a:hover {background: url(/img/univ_footer_menu.gif) no-repeat -514px -33px;}
+#footerMenu ol li#menuGeneral a:hover {background: url(/img/univ_footer_menu.gif) no-repeat -599px -33px;}
+#footerMenu ol li#menuLife a:hover {background: url(/img/univ_footer_menu.gif) no-repeat -684px -33px;}
+
+
+/* ----- Copyright ----- */
+#copyright {
+	clear: both;
+	font-size:80%;
+	padding: 0 0 8px;
+	line-height: 1.3em;
+	text-align: center;
+}
+
+
+
+
+/* ENTRY ARCHIVE PAGE
+------------------------------------------------------- */
+
+div.TraCommeBox {
+	padding:10px 10px 5px;
+	margin:15px 0 5px;
+	background: #f6f6f6;
+	border-bottom:1px solid #a6a6a6;
+	border:2px dotted #999;
+}
+
+#main p.posted2 {
+	margin-bottom:0;
+}
+
+
+div#name_email  p{
+	text-align:left;
+}
+
+
+/* CGI PAGE
+------------------------------------------------------- */
+div#cgiComment {
+	text-align:center;
+}

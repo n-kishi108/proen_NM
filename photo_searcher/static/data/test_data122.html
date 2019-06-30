@@ -1,0 +1,3273 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja"><head>
+
+
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <meta name="description" 
+content="動画でつながるコミュニケーションサイトzoomeは、おもしろ動画・アニメ動画・ゲーム動画などを投稿し、簡単に日記を公開出来ま
+す。CLANNAD好き集合！！。">
+    <meta name="keywords" 
+content="動画,zoome,ズーミー,無料動画コミュニティ,動画共有サイト,動画投稿,CLANNAD好き集合！！">
+    <meta name="robots" content="index,follow">
+    <link rel="SHORTCUT ICON" href="http://circle.zoome.jp/favicon.ico">
+    <link rel="stylesheet" type="text/css" 
+href="test_data122_files/zoome.css" media="all">
+
+    <script type="text/javascript" src="test_data122_files/prototype.js"></script>
+    <script type="text/javascript" src="test_data122_files/Jemplate.js"></script>
+
+    <script type="text/javascript" src="test_data122_files/common.js"></script>
+    <script type="text/javascript" src="test_data122_files/zoome_002.js"></script>
+    <script type="text/javascript" src="test_data122_files/page.js"></script>
+    <script type="text/javascript" src="test_data122_files/index.js"></script>
+    <script type="text/javascript" src="test_data122_files/index_002.js"></script>
+
+
+
+
+        <link rel="stylesheet" href="test_data122_files/member.css" 
+type="text/css" media="all">
+        <link rel="stylesheet" href="test_data122_files/main.css" 
+type="text/css" media="all">
+
+
+        <title>CLANNAD好き集合！！ - 動画共有サイトzoome</title>
+
+    </head><body><script src="test_data122_files/674382845.js" type="text/javascript"></script>
+        <a name="top"></a>
+            <div class="header_s">
+                <div class="header_s_logo"><h1><a 
+href="http://www.zoome.jp/" target="_top"><img 
+src="test_data122_files/logo_m.jpg" alt="動画共有サイトzoome" border="0" 
+width="150" height="30"></a></h1></div>
+
+<div id="to_kikaku_ad1" class="ad1"></div>
+
+                <div class="header_s_right">
+                    <div class="gnavi_s_sub"><span class="li_faq"><a 
+href="http://www.zoome.jp/faq" target="_top">FAQ</a></span>&nbsp;/&nbsp;<span
+ class="new"><a href="http://www.zoome.jp/prepare" target="_top">新規登録</a></span>&nbsp;/&nbsp;<span
+ class="li_login"><a href="http://www.zoome.jp/login" target="_top">ログイン</a></span></div>
+
+                    <div class="gnavi_s_btn"><a 
+href="http://www.zoome.jp/rank_myclip_daily_list" target="_top"><img 
+src="test_data122_files/btn_ranking_s.gif" alt="ランキング" width="71" 
+height="30"></a></div>
+                    <div class="gnavi_s_btn"><a 
+href="http://www.zoome.jp/new_list" target="_top"><img 
+src="test_data122_files/btn_new_s.gif" alt="新着" width="71" height="30"></a></div>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+            <div style="clear: both;"></div>
+
+<form id="dts">
+  <input id="dtcm_ty" value="2010" type="hidden">
+  <input id="dtcm_tm" value="4" type="hidden">
+  <input id="dtcm_td" value="2" type="hidden">
+  <input id="dtcm_th" value="11" type="hidden">
+  <input id="dtcm_ti" value="41" type="hidden">
+  <input id="dtcm_ts" value="37" type="hidden">
+  <input id="dtcm_wd" value="5" type="hidden">
+  <input id="dtcm_yd" value="91" type="hidden">
+  <input id="dtcm_url_back" value="" type="hidden">
+  <input id="dtcm_url_next" value="" type="hidden">
+  <input id="dtcm_url_self" value="" type="hidden">
+  
+    <input id="dtcc_is_exist" value="1" type="hidden">
+    <input id="dtcc_circle_id" value="2302" type="hidden">
+    <input id="dtcc_url_title" 
+value="http://img.zoome.jp/img28/circle/79ae/2302_t1_1.jpg" 
+type="hidden">
+    
+  
+  
+  
+</form>
+
+<form>
+<input id="zoome_service" value="main" type="hidden">
+<input id="zoome_funktion" value="circle" type="hidden">
+<input id="zoome_pagename" value="index" type="hidden">
+<input id="zoome_pagegroup" value="" type="hidden">
+<input id="zoome_pagemode" value="main" type="hidden">
+<input id="zoome_f_is_circle" value="1" type="hidden">
+<input id="zoome_f_is_mypage" value="" type="hidden">
+<input id="zoome_f_is_www" value="" type="hidden">
+<input id="zoome_uri_main_circle" value="http://circle.zoome.jp" 
+type="hidden">
+<input id="zoome_uri_main_upload" value="http://up.zoome.jp" 
+type="hidden">
+<input id="zoome_uri_main_mypage" value="http://zoome.jp" type="hidden">
+<input id="zoome_uri_main_search" value="http://search.zoome.jp" 
+type="hidden">
+<input id="zoome_uri_main_www" value="http://www.zoome.jp" type="hidden">
+
+<input id="mypage_skin_id" value="" type="hidden">
+<input id="mypage_mskin_id" value="" type="hidden">
+<input id="mypage_diary_xml" value="" type="hidden">
+<input id="mypage_movie_width" value="" type="hidden">
+<input id="mypage_movie_height" value="" type="hidden">
+
+<input id="common_datetime" value="" type="hidden">
+<input id="common_uri_back" value="" type="hidden">
+<input id="common_uri_next" value="" type="hidden">
+
+<input id="session_member_id" value="" type="hidden">
+<input id="session_member_url" value="" type="hidden">
+<input id="session_ms_code" value="" type="hidden">
+
+<input id="circle_circle_id" value="2302" type="hidden">
+<input id="circle_circle_uri" value="http://circle.zoome.jp/CLANNAD" 
+type="hidden">
+<input id="circle_circle_url" value="CLANNAD" type="hidden">
+<input id="circle_is_member" value="" type="hidden">
+<input id="circle_is_admin" value="" type="hidden">
+<input id="circle_no_admin" value="0" type="hidden">
+<input id="circle_title" value="CLANNAD好き集合！！" type="hidden">
+
+<input id="circle_topic_id" value="" type="hidden">
+
+<input id="circle_media_id" value="" type="hidden">
+<input id="circle_media_is_admin" value="" type="hidden">
+<input id="circle_media_is_image" value="" type="hidden">
+<input id="circle_media_is_movie" value="" type="hidden">
+<input id="circle_media_xml" value="" type="hidden">
+<input id="circle_media_movie_width" value="" type="hidden">
+<input id="circle_media_movie_height" value="" type="hidden">
+
+<input id="www_diary_id" value="" type="hidden">
+<input id="www_diary_xml" value="" type="hidden">
+
+  <input id="data_www_diary_diary_id" value="" type="hidden">
+  <input id="data_circle_media_media_id" value="" type="hidden">
+</form>
+
+
+
+<div class="search_top">
+    <div class="search_box">
+        <input id="search0_q_sel" name="q_sel" value="1" type="hidden">
+        <div class="search_select">
+            <a href="javascript:void(0);" 
+onclick="search0.xManage('movie');"><span id="search0_tab_movie" 
+class="tab_on">動画</span></a> |
+            <a href="javascript:void(0);" 
+onclick="search0.xManage('circle');"><span id="search0_tab_circle" 
+class="tab_off">サークル</span></a> |
+            <a href="javascript:void(0);" 
+onclick="search0.xManage('google');"><span id="search0_tab_google" 
+class="tab_off">ウェブ</span></a>
+        </div>
+        <form style="display: block;" 
+action="http://search.zoome.jp/combine_tag" id="search0_form" 
+method="get" onsubmit="search0.xSubmit(); return false;" target="_top">
+            <div class="search_keyword">
+                
+                <input id="search0_q" name="q" value="キーワードを入力してください。" 
+onfocus="search0.xFocus();" onblur="search0.xBlur();" 
+class="search_keyword_input" type="text">
+                
+            </div>
+            <input id="search0_q_afs" name="q_afs" value="1" 
+type="hidden">
+            <div class="search_button">&nbsp;<input alt="検索する" 
+src="test_data122_files/btn_search.gif" width="90" type="image" 
+height="22"></div>
+        </form>
+        <form id="cse-search-box" method="get" style="display: none;" 
+onsubmit="search0.xSubmit(); return false;">
+            <div class="search_keyword">
+                <input name="cx" 
+value="partner-pub-9312301585629702:emw87vlerfa" type="hidden">
+                <input name="cof" value="FORID:11" type="hidden">
+                <input name="ie" value="EUC-JP" type="hidden">
+                <input style="border: 1px solid rgb(126, 157, 185); 
+padding: 2px; background: 
+url(&quot;http://www.google.com/cse/intl/ja/images/google_custom_search_watermark.gif&quot;)
+ no-repeat scroll left center rgb(255, 255, 255);" name="q" size="50" 
+type="text">
+            </div>
+            <div class="search_button">&nbsp;<input alt="検索する" 
+src="test_data122_files/btn_search.gif" width="90" type="image" 
+height="22"></div>
+        <input value="circle.zoome.jp/CLANNAD/" name="siteurl" 
+type="hidden"><input 
+value="/C:/Users/shin/Desktop/%E9%9B%86%E5%90%88%E5%86%99%E7%9C%9F/CLANNAD%E5%A5%BD%E3%81%8D%E9%9B%86%E5%90%88%EF%BC%81%EF%BC%81%20-%20%E5%8B%95%E7%94%BB%E5%85%B1%E6%9C%89%E3%82%B5%E3%82%A4%E3%83%88zoome.htm"
+ name="siteurl" type="hidden"></form>
+        <script type="text/javascript" src="test_data122_files/brand.htm"></script>
+        <div class="search_detail"><a 
+href="http://search.zoome.jp/profile" target="_top">プロフィール検索</a></div>
+        <div style="clear: both;"></div>
+    </div>
+</div>
+<div style="clear: both;"></div>
+<script type="text/javascript">search0.xSetup();</script>
+<div id="body" class="body">
+<div id="page" class="page">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="display: block;" id="super_ad">
+
+
+
+
+<div class="ad1_top" id="ad1_top">
+<script language="JavaScript" type="text/javascript" src="test_data122_files/adx.js"></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+   if (!document.phpAds_used) document.phpAds_used = ',';
+   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+   
+   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+   document.write ("http://ads.zoome.jp/adjs.php?n=" + phpAds_random);
+   document.write ("&amp;what=zone:22");
+   document.write ("&amp;exclude=" + document.phpAds_used);
+   if (document.referrer)
+      document.write ("&amp;referer=" + escape(document.referrer));
+   document.write ("'><" + "/script>");
+//-->
+</script><script language="JavaScript" type="text/javascript" src="test_data122_files/adjs_004.js"></script><script type="text/javascript" language="JavaScript">
+<!-- 
+var impAcn = "IMPASEG";
+var impAco = document.cookie;
+var impApos = impAco.indexOf(impAcn+"=");
+var impAseg = (impApos!=-1)?impAco.substring(impApos+impAcn.length+1,(impAco.indexOf("; ",impApos)!=-1)?impAco.indexOf("; ",impApos):impAco.length):null;
+impAseg = (impAseg)?unescape(impAseg):null;
+
+impAserver = "http://as.dc.impact-ad.jp";
+impAtag = "/SITE=SN.ZOOME.CIRCLE.DAC/AREA=PAGE/AAMSZ=728X90/CL=SB";
+impAtarget = (impAseg)?impAtag+"/"+impAseg:impAtag;
+
+impArnd = Math.round(Math.random() * 100000000);
+if (!impApid) var impApid = Math.round(Math.random() * 100000000);
+
+    document.write('<iframe src="'+impAserver+'/hserver/acc_random='+impArnd + impAtarget + '"');
+    document.write(' noresize scrolling="no" hspace="0" vspace="0" frameborder="0" marginheight="0" marginwidth="0" width="728" height="90" allowTransparency="true">');
+    if (navigator.userAgent.indexOf("Gecko")==-1 && navigator.userAgent.indexOf("MSIE")==-1){
+	    document.write('<scr');
+	    document.write('ipt src="' + impAserver + '/jnserver/acc_random=' + impArnd + impAtarget + '/pageid=' + impApid + '">');
+	    document.write('</scr');
+	    document.write('ipt>');
+    }
+	document.write('</iframe>');
+
+//-->
+</script><iframe src="test_data122_files/S1010655.htm" noresize="" 
+hspace="0" vspace="0" marginheight="0" marginwidth="0" 
+allowtransparency="true" width="728" scrolling="no" frameborder="0" 
+height="90"></iframe>
+<noscript>
+<iframe src="http://as.dc.impact-
+ad.jp/hserver/SITE=SN.ZOOME.CIRCLE.DAC/AREA=PAGE/AAMSZ=728X90/CL=SB" noresize scrolling="no" hspace="0" vspace="0" frameborder="0" marginheight="0"
+marginwidth="0" width="728" height="90" allowTransparency="true"> </iframe> </noscript><div
+ id="beacon_54" style="position: absolute; left: 0px; top: 0px; 
+visibility: hidden;"><img src="test_data122_files/adlog.gif" alt="" 
+style="width: 0px; height: 0px;" width="0" height="0"></div><script language="JavaScript" type="text/javascript" src="test_data122_files/adjs_003.js"></script><script type="text/javascript"><!--
+in_uid = '406';
+in_spotseq = '3';
+in_templateid = '70032';
+in_charset = 'UTF-8';
+in_group = '';
+in_matchurl = '';
+in_HBgColor = 'FFFFFF';
+in_HBorderColor = 'CCCCCC';
+in_HTitleColor = '0000CC';
+in_HTextColor = '000000';
+in_HUrlColor = '008000';
+frame_width = '728';
+frame_height = '90';
+--></script>
+<script src="test_data122_files/send_406.js"></script><iframe 
+name="maad" src="test_data122_files/pmad_002.htm" marginwidth="0" 
+marginheight="0" allowtransparency="true" width="728" scrolling="no" 
+frameborder="no" height="90"></iframe><div id="beacon_710" 
+style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img
+ src="test_data122_files/adlog_003.gif" alt="" style="width: 0px; 
+height: 0px;" width="0" height="0"></div><script type="text/javascript"><!--
+in_uid = '406';
+in_spotseq = '3';
+in_templateid = '70032';
+in_charset = 'UTF-8';
+in_group = '';
+in_matchurl = '';
+in_HBgColor = 'FFFFFF';
+in_HBorderColor = 'CCCCCC';
+in_HTitleColor = '0000CC';
+in_HTextColor = '000000';
+in_HUrlColor = '008000';
+frame_width = '728';
+frame_height = '90';
+--></script>
+<script src="test_data122_files/send_406_002.js"></script><iframe 
+name="maad" src="test_data122_files/pmad_002.htm" marginwidth="0" 
+marginheight="0" allowtransparency="true" width="728" scrolling="no" 
+frameborder="no" height="90"></iframe><iframe name="maad" 
+src="test_data122_files/pmad_003.htm" marginwidth="0" marginheight="0" 
+allowtransparency="true" width="728" scrolling="no" frameborder="no" 
+height="90"></iframe><div id="beacon_710" style="position: absolute; 
+left: 0px; top: 0px; visibility: hidden;"><img 
+src="test_data122_files/adlog_002_002.gif" alt="" style="width: 0px; 
+height: 0px;" width="0" height="0"></div><noscript><a href='http://ads.zoome.jp/adclick.php?n=a11a64c7' target='_blank'><img src='http://ads.zoome.jp/adview.php?what=zone:22&amp;n=a11a64c7' border='0' alt=''></a></noscript>
+</div>
+
+</div>
+
+
+
+
+    <div id="circle_image_title">
+        <h2 class="circle_title"><img 
+src="test_data122_files/2302_t1_1.jpg" alt=""></h2>
+    </div>
+
+
+            <!--サークルメニュー -->
+            <div id="navi">
+                <ul>
+<li class="n_index_over"><a href="http://circle.zoome.jp/CLANNAD/">サークル
+トップ</a></li>
+<li class="n_topic_list"><a 
+href="http://circle.zoome.jp/CLANNAD/topic_list">トピックリスト</a></li>
+<li class="n_media_space"><a 
+href="http://circle.zoome.jp/CLANNAD/media_list">メディアスペース</a></li>
+<li class="n_member_list"><a 
+href="http://circle.zoome.jp/CLANNAD/member_list">メンバーリスト</a></li>
+<li class="n_friend_invite"><a 
+href="http://circle.zoome.jp/CLANNAD/friend_invite">サークルを教える</a></li>
+<li class="n_member_circle_insert"><a 
+href="http://circle.zoome.jp/CLANNAD/member_circle_insert">サークルに参加</a></li>
+
+
+
+                </ul>
+            </div>
+            <!--/サークルメニュー -->
+
+
+            <!--メイン-->
+            <div class="contents">
+
+                <!-- サークルの状態により表示するアラート群 -->
+                <div class="circle_mode">
+
+  
+
+                </div>
+                <!-- /サークルの状態により表示するアラート群 -->
+
+
+            <!-- コンテンツ上部 -->
+            <div class="circle_contents_all">
+                <!-- 上部左サイド -->
+                <div class="circle_contents_wide_left">
+                    <!-- サークルプロフィール -->
+                    <div class="circle_profile">
+                        <div class="circle_profile_header">
+                            <h3 class="circle_profile_text">CLANNAD好き集
+合！！</h3>
+                        </div>
+                        <div class="circle_profile_detail">
+                                <!-- プロフィール詳細 -->
+                            <div class="circle_profile_detail_info">
+                                <div class="circle_profile_detail_photo">
+                                    <a 
+href="http://circle.zoome.jp/CLANNAD"><img alt="CLANNAD好き集合！！ " 
+src="test_data122_files/2302_c2_1.gif"></a>
+                                </div>
+                                <!-- サークルプロフィール表 -->
+                                <table 
+class="circle_profile_detail_info_box">
+                                    <tbody><tr>
+                                        <td 
+class="circle_profile_detail_info_list">
+                                            管理人
+                                        </td>
+                                        <td 
+class="circle_profile_detail_info_memo">
+                                            <div 
+class="circle_profile_detail_info_text">
+                                                
+                                                    <a 
+href="http://zoome.jp/hirokiosuZZ/">ヒロキさん</a>
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td 
+class="circle_profile_detail_info_list">
+                                            テーマ
+                                        </td>
+                                        <td 
+class="circle_profile_detail_info_memo">
+                                            <div 
+class="circle_profile_detail_info_text">アニメ・マンガ</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td 
+class="circle_profile_detail_info_list">
+                                            <div 
+class="circle_profile_detail_info_text_list">作成日</div>
+                                        </td>
+                                        <td 
+class="circle_profile_detail_info_memo">
+                                            <div 
+class="circle_profile_detail_info_text">08/12/15(月) 21:06</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td 
+class="circle_profile_detail_info_list">
+                                            メンバー数
+                                        </td>
+                                        <td 
+class="circle_profile_detail_info_memo">
+                                            <div 
+class="circle_profile_detail_info_text">77人</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td 
+class="circle_profile_detail_info_list">
+                                            <div 
+class="circle_profile_detail_info_text_list">クリップ数</div>
+                                        </td>
+                                        <td 
+class="circle_profile_detail_info_memo">
+                                            <div 
+class="circle_profile_detail_info_text">34</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td 
+class="circle_profile_detail_info_list">
+                                            イメージ数
+                                        </td>
+                                        <td 
+class="circle_profile_detail_info_memo">
+                                            <div 
+class="circle_profile_detail_info_text">56</div>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                                <table 
+class="circle_profile_detail_info_box">
+                                    <tbody><tr>
+                                        <td 
+class="circle_profile_detail_info_list">
+                                            メンバー条件
+                                        </td>
+                                        <td 
+class="circle_profile_detail_info_memo">
+                                            <div 
+class="circle_profile_detail_info_text">
+                                                誰でも参加できる
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td 
+class="circle_profile_detail_info_list">
+                                            トピック<br>参加権限
+                                        </td>
+                                        <td 
+class="circle_profile_detail_info_memo">
+                                            <div 
+class="circle_profile_detail_info_text">
+                                                参加者が作成できる
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td 
+class="circle_profile_detail_info_list">
+                                            公開設定
+                                        </td>
+                                        <td 
+class="circle_profile_detail_info_memo">
+                                            <div 
+class="circle_profile_detail_info_text">
+                                                インターネット全体に公開
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td 
+class="circle_profile_detail_info_list">
+                                            テロップ入力
+                                        </td>
+                                        <td 
+class="circle_profile_detail_info_memo">
+                                            <div 
+class="circle_profile_detail_info_text">
+                                                zoome会員のみ
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td 
+class="circle_profile_detail_info_list">
+                                            タグ
+                                        </td>
+                                        <td 
+class="circle_profile_detail_info_memo">
+                                            <div 
+class="circle_profile_detail_info_text">
+                                                
+                                                <a 
+href="http://search.zoome.jp/circle_tag?q=CLANNAD%B9%A5%A4%AD%BD%B8%B9%E7%A1%AA%A1%AA">CLANNAD
+
+好き集合！！</a>
+                                                
+                                                <a 
+href="http://search.zoome.jp/circle_tag?q=%B3%DA%A4%B7%A4%A4">楽しい</a>
+                                                
+                                                <a 
+href="http://search.zoome.jp/circle_tag?q=%A4%DE%A4%C3%A4%BF%A4%EA">まったり</a>
+                                                
+                                                <a 
+href="http://search.zoome.jp/circle_tag?q=CLANNAD%20AFTER%20STORY">CLANNAD
+
+ AFTER STORY</a>
+                                                
+                                                <a 
+href="http://search.zoome.jp/circle_tag?q=%A5%B2%A1%BC%A5%E0">ゲーム</a>
+                                                
+                                                <a 
+href="http://search.zoome.jp/circle_tag?q=%A5%A2%A5%CB%A5%E1">アニメ</a>
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </div>
+                            <div style="clear: both;"></div>
+                            <div class="circle_profile_detail_box">
+                                <div 
+class="circle_profile_detail_header">
+                                    サークル紹介
+                                </div>
+                                <div class="circle_profile_detail_memo"><p>〜
+ご入場いただきありがとうございます〜<br><br>では、今からこのサークルの説明をします＾＾<br><br><br><br>☆.｡.:*･°☆.｡.:*･°☆☆.｡.:*･°☆.｡.:*･°☆☆.｡.:*･°☆.｡.:*･°☆☆.｡.:*･°☆.｡.:*･°☆☆.｡.:*･°☆.｡.:*･°☆☆.｡.:*･°☆.｡.:*･°☆<br><br><br>&lt;
+
+どんなサークル？&gt;<br>ここはCLANNADのいろんなことについて語るサークルです＾＾<br>みなさん、明け方まで語り明かしましょうぜ
+ｗｗ<br>が('▽')ん(&gt;_&lt;)ば(~Д~)っ(-.-)て(^△^)！<br><br><br>&lt;作成理由&gt;<br>CLANNAD
+
+のサークルがなかったので、作ることにしました＾＾<br>これからものすごく盛り上げていこうと思います＾＾<br>みなさんのご協力をお願いします
+＾＾<br><br><br>&lt;入会条件&gt;<br>以下の条件が一つでも当てはまれば入会OKですよ＾＾<br>・そこはかとなく
+CLANNADが大好きだ。<br>・桜の木を守るために生徒会長になったことがある。<br>・アニメ全般が大好きだ。<br>・持っているMP3プレ
+イヤーには、だんご大家族しか入れていない。<br>・ゲームが大好きだ。<br>・ここ曲がる〜。<br>・しりとりが大好きだ。<br>・漢和辞典を
+いつも所持している。<br>・荒らしをしたら負けかなと思っている。<br><br>&lt;おしらせ&gt;<br>このサークルがアクセスランキン
+グ（全て）で２５０位以内に入りました！！<br>おめでとう！！ヒュヒューｗｗ<br>正確には「２２７位」です＾＾（５月１日現在）<br><br>あ
+と一個、bigニュースです！！<br>今日（３月８日）、このサークル「CLANNAD好き集合！！」が、日毎のほうのランキングで、めでたく５０位以
+内（すなわち、ランキングの１ページ目に入ってるということです！！）に入りました！！これってすごくないですか？ｗｗ<br>正確に言うと、４７位で
+す！！<br>めでたいです・・・ほんとめでたいですｗｗ<br><br><br>これからもよろしくお願いします♪<br><br><br><br>み
+なさん気軽に入ってくださいね＾＾<br>みんなで風子のようにヘブン状態になりましょう！！<br>　　　　　　　　　　　　　/　　　/　　 ／　 
+.:.:.:／　　　　　　.:.:./　　　.:.: .:|　　　　 　 .:.:.＼<br>　　　　　　　　　　　 　/ 　 　/　　 / 　
+ ..:.:.:/　　　　　 .:.:.:.／　　 .:.:./ .:j:. ヽ　 ヽ　ヽヽ.:.:ヽ<br>　　　 　 　 　 　 　 　 i
+ 　 　/ /　 /　 .:.:.:.:/　 .:./　　.:.:.:／　　　.:.:.:/ .:./.:.　!　　　 .::ﾊ:ﾊ.:.ﾊ<br>　
+　　　　　　　　　 　 l　 　/ / / .:!　 .:.:.:./　__/｣___.:.:／ム斗　'.:／ .:./|.:.:　| :i:.
+ 　| .:.:.|.:.|v::!<br>　 　 　 　 　 　 　 　 l　 i　|ｲ /　.:|　.:.:.:j.:| .:.:/ |.|
+ .:.:/　〃　.:..:／ .:.／i ﾄ､　j.:.j:.　 | .:.:.|.:.|ﾊ:|<br>　　　 　　 　　　　　 l　 
+l　　|/| 　:| .:.:.:.:|.:| .:/　|ﾊ.:/　 /j .:.:／ .:.／　/ 
+|.:.:Ｘ.:/.:　/.:.//.:.:! /<br>　　　　　　　　　　　l 　l　 　!:ﾊ　.:|.:.:.:./|ﾊ 
+.:|ィﾑ三三ミ v '　j／　　　 ｊ／|.:/.:.: /.:.//.:.:/<br>　　　 　 　 　 　 　 l　 l 　 　 .: 
+＼{＼:{.:|　ヽ{　　.:.:.:.:.:.:.　　　　　　　　　　j/.:.: /.:.//l.:./<br>　　　　　　 　　　　l　 
+l　　　.:.:./ | ヽ ヽ:. .:.:.:ヽ　　　　　 　 　 　 rv　气v/.:.:／／ ' j/<br>　 　 　 　 　 　 　
+ !　 ! 　 　.:.:.{　|　 :. 　:..　.:.ﾊ　　　　　 　 -､__ ||' .:.:.:.∠.:.'ー'|　　/<br>　　
+　　　　　 　　/　/ 　 　.:.:.:.｀∧　:.　　:.　:j |　 　 　　　/　 ∨||　　　∧:.　j |<br>　　　　 　 　 　
+ /　/ 　　 .:.:.:.:.:..| ﾊ:　 ＼　 .:| !　　　　　 {　 ／ :||　　 ム:.: i |.:|<br>　　 　 　
+ 　 　 / :/　 　 .:.:.:.:.:.:.:.|:|! ＼ヽ ヽ .:|ﾘ　 　 　　　ｰ'　 　||　, ｲ.:.:.:.j:| 
+|.:|<br>.　　 　 　　 　/ :/ 　　.:.:.:.:.:.:.:.:.:.|:|　　 :.:.＼i/＞､ 　 　 　 　 
+|￣￣￣￣￣￣ |＼<br>　　　　　　　/／.:. ｲ .:.:.:.:.::.:.:.:.:.:|:|　 　 :.:ﾊ､　　　 ＞r 
+--イ.:|　 &lt;＼ ⌒ｖｰｖ'　|　 ＼<br>　　　　　 ＞´,:.／ .:.:.:.:.:.:.:.:.:＞ ﾊ:　　　 
+:.:.∨ー――.:ヽ.:ノ.: |―ｖ＼＼ﾉ 　__ノ|.ノ⌒|<br>　　　 ／.:, イ.:/　.:.:.:.:.:.:＞'　　　 V　　
+ :. .:.:.V:::::::::::::::::/.:.:.:.:.:||二|＿＼&gt;≠--- ､ノ¨|-- ､<br>　　　{　.:
+{　{.:.:{　 ＞ ' 　　　　　　 V　 :.　.:.:.:.V::::::::::::::}､.:.:.Ｖ'||三|　　　廴ﾉ　　　＼ 
+|ｙ 　 ＼<br>　 　　＼.ヽ＞＜――‐ ､　　 　 　 ＼　 .:.:.:..:ヽ::::::::::::ﾍ＼弋||三|　　　` 
+ｰx-､　 　 ＼ 　 　 ＼<br>　　　　　 &gt;￣￣￣ ¨丶 ヽ　　　　　　＼　 .:.:.:.:＼:::::::::ﾍ 
+.＞|＿＿＿＿＿_Ｖﾑ　 　 　 　 　 　 ＼<br>　 　 　 　{' ７ ￣￣ ＼ ＼＼ 　 　 
+　　　＼.:.:.:.:.:.:ヽ::::::::ﾍ廴.ヽ＿＿＿＿___／＼　　　　 　 　 　 ＼<br>　　　　　 }:〈　　　 　　 ＼ 
+＼＼　 　　 　　 ＼ .:.:.:.:.＼:::::::/（⌒ ー----y､ ＞―ヽ　　　　　　　 　　ヽ<br>　　　 　 
+/.:.|　　　　 　 　 ヽ、＼＼　　　　　　｀ｒ―――;ﾍ.:.:.＞　､　　　　　　　　 {　　　　　　　　 　　',<br>　 　 　 
+/.:.:.|　　 　 　 　　　 ＼ :＼＼　　　　　{　.:.:.:.:.:.:ji.:.:.:.:.:ii.:.:.:.:.:.＞ 
+､　　ﾉ　　 ヽ　　　　　　　　　　',<br><br>☆.｡.:*･°☆.｡.:*･°☆☆.｡.:*･°☆.｡.:*･°☆☆.｡.:*･°☆.｡.:*･°☆☆.｡.:*･°☆.｡.:*･°☆☆.｡.:*･°☆.｡.:*･°☆☆.｡.:*･°☆.｡.:*･°☆<br><br><br>そ
+れでは！</p></div>
+                            </div>
+
+                            
+                                <a 
+href="http://circle.zoome.jp/CLANNAD/member_circle_insert"><div 
+class="circle_profile_insert_link"></div></a>
+                            
+                        </div>
+                    </div>
+                    <!-- /サークルプロフィール -->
+                </div>
+                <!-- /上部左サイド -->
+                <!-- 上部右サイド -->
+                <div class="circle_contents_short_right">
+                    <!-- サークルチャット -->
+                    <div class="circle_chat">
+                        <div class="circle_chat_header">
+                            <h3 class="circle_chat_text">サークルチャット</h3>
+							<div class="circle_rss"><a 
+href="http://circle.zoome.jp/CLANNAD/newchat_rss"><img alt="RSS" 
+src="test_data122_files/rss.gif" width="47" height="13"></a></div>
+                        </div>
+						<div style="clear: both;"></div>
+                        <div class="circle_chat_detail">
+                            
+                                
+								        
+								        <div class="circle_chat_iframe">
+								        <div class="circle_chat_box">
+								            
+<div id="data_chat_list">
+
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/08 21:07</span>
+        <a href="http://zoome.jp/dokonimo171">なおとさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">おねがいします＾＾</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/08 21:05</span>
+        <a href="http://zoome.jp/dokonimo171">なおとさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">参加させていただきます</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/07 15:37</span>
+        <a href="http://zoome.jp/luckshanel">ラックちゃさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">久しぶりにMADup。管理人さんは中学生だったんですかｗ倍くら
+い年が違・・・</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">11/25 11:33</span>
+        <a href="http://zoome.jp/sasanoha990">笹の葉≒七夕さん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">参加させていただきます。宜しくお願いします</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">09/13 16:21</span>
+        <a href="http://zoome.jp/otchi0355">アッキーさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">これから参加させてもらいます。よろしくお願いいます。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">08/21 01:57</span>
+        <a href="http://zoome.jp/snowblue">あおぞらさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">新参者ですが宜しくお願いします。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">08/15 02:49</span>
+        <a href="http://zoome.jp/c_headtalero">Cさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">お久しぶりです</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">08/13 09:46</span>
+        <a href="http://zoome.jp/luckshanel">ラックちゃさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">MADうｐしたので、よろしければご覧ください</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">05/19 13:19</span>
+        <a href="http://zoome.jp/tatsumad">tatsuさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">挨拶おくれました。すいません。よろしくおねがいします</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">05/17 13:17</span>
+        <a href="http://zoome.jp/c_headtalero">Cさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">サークルに顔だしてないですが、皆さん宜しくです</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">05/16 01:31</span>
+        <a href="http://zoome.jp/hirorin77">ひろ☆りんさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">サークル参加後で、足跡コメ頂いたあとですが、CLANNAD大好
+きなのでよろしくお願いします♪</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">05/06 16:59</span>
+        <a href="http://zoome.jp/gymb">Bさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">よろしくお願いしますｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">05/04 16:16</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;Bさん　よろしくお願いします♪たのしくやりましょうｂ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">05/04 16:15</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;sleepingさん　おお！！コメしおわった後みてみま
+すね！</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">05/04 16:14</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;ラックちゃさん　風子最高おおおおおおおおお
+おぉぉぉぉぉぉぉおおおおおおおお！！！！</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">05/04 16:14</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">最近ここ確認してなかったorz</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">05/03 20:10</span>
+        <a href="http://zoome.jp/gymb">Bさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">はじめまして＾＾　参加しました。　よろしくお願いします</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">04/09 13:00</span>
+        <a href="http://zoome.jp/neochi">sleepingさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">トレス系MADですが、投稿させていただきました。よろしくお願い
+します(●´_ _)</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">04/08 15:35</span>
+        <a href="http://zoome.jp/luckshanel">ラックちゃさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">CLANNAD最高オオオオオオォォォォ！！　・・・失礼しまし
+た。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">04/03 16:01</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">ありがとうございますね♪後で拝見させていただきます＾＾</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">04/03 15:27</span>
+        <a href="http://zoome.jp/maguma178">MAGUMAさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">クラナドMAD投稿させていただきました。ヨロシクお願いしま
+す。(__)</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">04/02 22:26</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;popoさん　こちらこそよろしくお願いしますね♪ここで
+も仲良くしていきましょうｂ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">04/02 22:11</span>
+        <a href="http://zoome.jp/popo5373">popoさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">はじめまして、サークルに参加させていただきました＾＾宜しくお願
+い致します。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">04/02 11:42</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">お、ここにも騙された人が一人ｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">04/02 00:44</span>
+        <a href="http://zoome.jp/gemini-husakuza">ぷーぶさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">エイプリールフールってのはわかってたがすっかりヒロキさんに騙さ
+れたｗｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/27 22:58</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;ひぐすたさん　参加ありがとうございます＞＜よろしくお願
+いしますね♪　仲良くいきましょう！</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/25 13:52</span>
+        <a href="http://zoome.jp/higusuta">ひぐすたさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">参加させていただきました。よろしくお願いします！</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/21 22:44</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;emodorannさん　よろしくお願いしますね♪僕も３
+期に期待ですｗｗ今からwktkしときましょう！</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/21 12:39</span>
+        <a href="http://zoome.jp/gemini-husakuza">ぷーぶさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;emodorannさん　管理人じゃあないですがよろしく
+ですｂ　番外編で久々に笑いましたｗｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/20 22:52</span>
+        <a href="http://zoome.jp/emodorann">emodorannさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">参加させていただきました　CLANNAD大好きです！　3期期待</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/15 00:07</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">番外編・・・どんな話なんだろうｗｗ　wktkがとまらねー
+ぜ！ｗｗ　三期、あってほしいですね〜</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/14 01:10</span>
+        <a href="http://zoome.jp/gemini-husakuza">ぷーぶさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">終わりましたね・・・最初からｳﾙｳﾙしてました；；　あとは番外
+編ですね〜楽しみであり寂しくもあり・・・　春原で三期やってほしいですねｗｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/13 22:39</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">最終回、終わってしまいましたね・・・もう、CLANNADを見れ
+る日はこないのかな・・・３期を期待する！！ｗｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/10 20:03</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;sleepingさん　よろしくお願いします＾＾ともに
+サークルを盛り上げていきましょうｂこちらこそよろしくで〜す♪</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/10 17:08</span>
+        <a href="http://zoome.jp/neochi">sleepingさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">CLANNADと聞いて駆けつけました！　皆様よろしくお願いしま
+す。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/09 21:17</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;xlinkさん　おおお！！これでCLANNADが少し布
+教できましたねｗｗそれにしても古文のおっさんｗｗ　　岡崎が人気ですか＾＾僕はてっきりおもしろい春原になるかな、と思っていましたが＾＾　</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/09 20:22</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">今日の反応は上々でした　以外に古文のおっさんが見入ってたのが笑
+えました　今日はCLANNAD第一話流しましたよ　終了後に口コミアンケートをしたところ今の所意外に岡崎が人気ありました。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/09 19:27</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;ぷーぶさん　　自分でも驚きですｗｗほんとにびっくりしま
+したｗｗ　　</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/09 18:11</span>
+        <a href="http://zoome.jp/gemini-husakuza">ぷーぶさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">50以内ですか！そりゃすごいですねｗおめでとですｂ　昼休みに
+CLANNADのDVDｗｗ羨ましいですｗうちの学校もそんな風に・・・</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/09 17:43</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;xlinkさん　ありがとうございます＾＾ほんとにこれは
+うれしかったですｗｗ　　「かわいいは正義」と、よくいいますが、そのとおりですよねｗｗかわいいってだけで、悪そうなことがすべて良いことに変わってし
+まいますから＾＾xlinkさんのその気持ち、わかりますよｗｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/08 23:56</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">追記　会長はかわいいからいいのですよ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/08 23:55</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">ヒロキさん　BigNewS おめでとうございます　</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/08 20:07</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;xlinkさん　なんですって！！それはすごい快挙じゃな
+いですかｗｗおめでとうございます＾＾ていうか、その生徒会長ひどいですねｗｗ部下をパシリにするとはｗｗそんな人でいいのか？ｗｗ　　</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/08 17:34</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">ヒロキさん　ついにやりました！　昼の放送でCLANNADの
+DVDを流してもいいという許可をもらえました　やったー　会長に毎日パシリにされただけあるな　（笑　おかげで金が・・・・</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/08 15:31</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;xlinkさん　それはいいですね＾＾僕の学校では、論文
+などを書かされて全校生徒の前で発表し、その後の投票で決まるんですｗｗすごくめんどくさいですｗｗ　僕も、そんなまじめではないのですが、副会長になれ
+ましたｗｗうん。要はあれですよ、え〜と・・・　　思いつかないｗｗ　まあいいやｗｗ　とにかくxlinkさんはみんなからいい人って思われてるんですよ
+＾＾</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/08 00:24</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">うちの学校の生徒会メンバーはテストの成績と人気投票　　あと先生
+達の批評で決まるから必然的に頭がよくて生徒に人気があるかわいい（美人も可）人になって　先生達から評価されやすい真面目な女子が選ばれやすいんですよ
+　まぁ俺は女じゃないしヲタクだし真面目じゃないし勉強はテスト前2日しかやらないのになんで選ばれたんだか（笑　</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/07 22:06</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;ぷーぶさん　もう春なので、春らしく変えてみました＾＾春
+は、出会いと別れの季節なのですよ・・・　　僕も、女の生徒会長は見たことないですね＾＾</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/07 13:04</span>
+        <a href="http://zoome.jp/gemini-husakuza">ぷーぶさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">生徒会ｗｗｗ強ｗｗ女性の生徒会長は現実では見たことないですね〜
+　トップ絵変わりましたね＾＾ランキングおめです。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/07 12:36</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;xlinkさん　やっと２８０以内に入ることができました
+＾＾　１００越えｗｗそれは大変そうですねｗｗていうか殴られたってｗｗどんな生徒会なんだｗｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/06 23:31</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">あれっトップ画像？変えましたか？　あと　アクセスランキングおめ
+でとうございます　生徒会長だけでなく他のメンバーもLV100越えですよ　（笑　　今日も軽く殴られました　</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/06 23:04</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;xlinkさん　生徒会長強いですねｗｗそれはかなりの難
+戦ですなｗｗ　俺の学校の生徒会長、男ですぜｗｗ花がないｗｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/05 21:38</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">↓訂正　是非ウチの学校の生徒会　だ「の」が抜けましたね</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/05 21:36</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">無理だっ！！　生徒会長はレベル高すぎるっ（しかもロリ）　ゴブリ
+ンが1レベルなら会長は296レベルくらいだよ絶対に俺では口説けないよ・・・　生徒会長が智代さんだったらいいな〜　全国の皆さん是非ウチ学校の生徒会
+に来てください（美少女限定）笑</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/05 00:24</span>
+        <a href="http://zoome.jp/gemini-husakuza">ぷーぶさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;ヒロキさん　笑えるところもたくさんありますしね＾＾</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/05 00:23</span>
+        <a href="http://zoome.jp/gemini-husakuza">ぷーぶさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;xlinkさん　お疲れ様ですｗこんな情報もあるんです
+ね〜。あと口説きガンバですｗｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/04 23:48</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">残りのメンバーは後日にします。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/04 23:46</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">疲れたぁ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/04 23:45</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">CLANNADメンバーの身長等知ったのでを一応書いておきます　
+ 
+有紀寧　157cm&nbsp;&nbsp;&nbsp;&nbsp;45kg　A型　3サイズ　参照無し　8月7日　　椋　159cm　47kg　O型
+　9月9日　春原　167cm　55kg　AB型　2月17日　　美佐枝さん　166cm　51kg&nbsp;&nbsp;&nbsp;B型　4月3日
+　　アッキー　175cm　68kg　B型　7月20日　早苗さん　158cm　45kg　A型　10月5日　公子さん　161cm　49kg　AB型　
+1月18日　幸村先生　162cm　52kg　O型　8月24日　芽衣ちゃん　152cm</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/04 23:21</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">CLANNADメンバーの身長等知ったのでを一応書いておきます　
+渚　155cm　43kg　A型　3サイズ　80/55/81　12月24日　　杏　160cm　46kg&nbsp;&nbsp;&nbsp;O型　3
+サイズ　82/56/82　9月9日　　ことみ　160cm　48kg　A型　3サイズ　88/58/85　5月13日　　智代さん　161cm　
+47kg　O型　3サイズ　86/57/82&nbsp;&nbsp;10月14日　　風子　150cm　41kg　B
+型&nbsp;&nbsp;&nbsp;&nbsp;3サイズ　78/54/79&nbsp;&nbsp;7月20日</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/04 22:36</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">がんばって生徒会長を口説きます！（笑</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/04 22:35</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">自分は美少女ハーレム生徒会？の一員なので学校をあげて
+CLANNAD普及委員会を作ってみようと思います!!!!</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/04 22:16</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;xlinkさん、ぷーぶさん　僕も思いました＾＾日本を代
+表するアニメになってほしいですｗｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/04 22:15</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;シャープpenさん、凪さん、kimushouさん、こち
+らこそよろしくお願いします♪まだまだ管理人としていたらないところがあるかもしれませんが、仲良くしてくださいね＾＾</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/04 21:41</span>
+        <a href="http://zoome.jp/gemini-husakuza">ぷーぶさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;xlinkさん　自分もそう思いました。まだまだたくさん
+の人に知ってもらいたい作品ですね＾＾</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/04 18:43</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">サークルのメンバーさんが日を追うごと増えてCLANNADはやっ
+ぱり世に人気があるんだなぁーと思いました。　渚サイコー</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/04 18:21</span>
+        <a href="http://zoome.jp/kimushou">higunadoさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">参加させて頂きます。よろしくお願いします！</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/04 17:14</span>
+        <a href="http://zoome.jp/naginomusiclife">凪（なぎ）さん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">岡崎最高！！ってなわけでよろしくお願いします。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/04 14:05</span>
+        <a href="http://zoome.jp/skro">シャープｐｅｎさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">ＣＬＡＮＮＡＤ大好きなんで　はいらせていただきました（＾＾）生
+徒会長になったことないけど　よろしくおねがいします。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/03 23:47</span>
+        <a href="http://zoome.jp/gemini-husakuza">ぷーぶさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;ヒロキさん　風子ですか。風子もかわいいです（＞ヮ＜）渚
+の話をすると渚ぁ・・・みたいな感じになってしまいます（；ω；）</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/03 23:31</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;xlinkさん　あ〜なるほど＾＾そういうことでしたか
+＾＾・・・僕も管理人としてまだまだだな・・・orz　　　　　いっちゃってください！！ｗｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/03 20:28</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">はいっ暗い話題はなしにして明日はDVD4巻発売ですね　やったー
+　学校さぼってワングーに取りにいくぞー</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/03 20:21</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">ヒロキさん＞みなさんが知っているように渚はたぶん16話くらいに
+出産しました。その時の天候が大雪でした。風子のエピソードであるように渚達の町には病院がないから隣町まで行かなくてはなりません。そして大雪によって
+交通機関がマヒして自宅出産になったのです。そして渚は死んでしまった・・・・　　　　　この事から渚の死の原因は大雪が降った事にも原因があるけです。
+　私は以上の事から雪は嫌いデス　というわけなのです　長文すいません</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/03 18:56</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;xlinkさん　え！？どういうことですか？気になるじゃ
+ないですか！！ｗｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/03 18:44</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">今日雪が降った　雪なんかだいっきらいだぁーー　雪のせいで俺の渚
+がぁ〜　（同じ学科のCLANNADファンと一緒に泣いてました・・・）　雪のせいで渚が・・・　　　　　　　　　</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/02 19:17</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;ぷーぶさん　いえいえ＾＾気にしなくていいのですよ＾＾ち
+なみに、僕は風子好きですよ・・・ﾌﾌﾌｗｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/01 21:29</span>
+        <a href="http://zoome.jp/gemini-husakuza">ぷーぶさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;ヒロキさん　挨拶どうもですｗｗ自分は挨拶もしない
+で・・・すいませんです（汗）これからよろしくです！自分も渚大好きですｂでもみんな好きです！！ｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">03/01 14:03</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;xlinkさん　ありがとうございます！！がんばっていき
+ますよ〜＾＾　　渚LOVEですか＾＾まぁ、僕も渚のことは好きですが、風子はその何十倍も上を行きます（僕の中では。）ｗｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/28 15:46</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">ヒロキさん　私も風子は渚の次に好きですよ　でもやっぱり渚の座は
+ゆずれないぜっ　（笑</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/26 23:27</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">アクセスランキングおめでとうございます。この調子で頑張ってくた
+さいっ！</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/23 23:43</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;xlinkさん　　渚、死んでしまいましたね・・・。ヒロ
+インが死んでしまうと、結構悲しい・・・；；。しかし、僕的には風子が出てきたのでそこはうれしいですｗｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/23 23:42</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">↓　ミスｗｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/23 23:42</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&lt;&gt;</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/23 23:42</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;ゆーじんさん　　僕もびっくりしましたｗｗいつのまにこん
+な急成長したの！？って管理人の僕でさえびっくりしましたからｗｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/21 21:43</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">なっ渚がぁーーー</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/19 19:15</span>
+        <a href="http://zoome.jp/oremoto">ゆーじんさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">もうメンバーが50人超えてるｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/13 22:49</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;ｃさん　　　CLANNAD、超オススメですよ〜♪見るこ
+とをオススメします＾＾強制ではないので、気が向いたときや暇なときにでもちょろっと見てください＾＾</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/13 22:48</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">&gt;xlinkさん　　　気になりますよね〜＾＾これからどう
+なるのかがすごく楽しみです＾＾</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/13 22:47</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">白詰草さん、よろしくお願いします♪</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/11 22:48</span>
+        <a href="http://zoome.jp/nightmage">いはさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">ちょｗｗｗ 
+白詰草さんが鍵っ子だとは知りませんでしたｗ　宜しく御願い致しますｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/11 10:57</span>
+        <a href="http://zoome.jp/skyheart">白詰草さん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">はじめまして、clannadは大好きです、keyの信者です、み
+なさんよろしくお願いします。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/10 18:12</span>
+        <a href="http://zoome.jp/c_headtalero">Cさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">↓いやもちろん、どんなアニメかとか雰囲気は分かりますが・・・</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/10 18:11</span>
+        <a href="http://zoome.jp/c_headtalero">Cさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">CLANNADを見たことすらない自分はイッタイ・・・？</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/10 17:45</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">ぜんぜんこれなくてすいません　PCがダウンしたのでPSPからで
+すけど・・・　アフターの次回きになりますね</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/04 22:26</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">ますみさん、xlinkさん、Rionさんよろしくおねがいします
+♪</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/04 20:59</span>
+        <a href="http://zoome.jp/videoes">Rionさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">とても面白かったので、参加させていただきます＾＾</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/04 20:58</span>
+        <a href="http://zoome.jp/videoes">Rionさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">CLANNAD最近ネットで見始めました。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/03 20:56</span>
+        <a href="http://zoome.jp/xlink">xlinkさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">参加させていただきます　私は断然渚ですよ。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">02/03 19:11</span>
+        <a href="http://zoome.jp/wankoro">ますみさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">遅くなりましたが参加させていただきます、宜しくお願いします</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/20 19:54</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">そうですね〜どんどん盛り上がってきてますね♪とてもうれしいです
+＾＾</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/18 14:45</span>
+        <a href="http://zoome.jp/c_headtalero">Cさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">メンバーすごい増えてきましたね〜＾＾</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/10 13:59</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">そらいちさん、よろしくお願いします＾＾どんどん盛り上げていきま
+しょうｂ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/10 06:19</span>
+        <a href="http://zoome.jp/soraichi">そらいちさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">参加させてもらいますね。もちろんCLANNAD大好きですよ〜。
+どうぞよろしく！</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/08 13:50</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">シャナさん、よろしくお願いします＾＾僕もクラナドの歌大好きです
+＾＾特にだんご大家族がｗｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/07 19:31</span>
+        <a href="http://zoome.jp/syakugannosyana">シャナさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">サークルに参加しましたよろしくです!!クラナド特に歌が好きで
+す!!</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/06 10:05</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">せんべいさん、n2105さん、よろしくお願いします＾＾楽しい
+サークルにしていきましょうｂ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/06 00:09</span>
+        <a href="http://zoome.jp/seaside2105">n2105さん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">参加させてもらいました。よろしくお願いします</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/05 22:44</span>
+        <a href="http://zoome.jp/konbini">せんべいさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">参加しましたぁこれからもよろしくぅ〜！ｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/05 21:52</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">sinpei_47さん、2次元ライダーさん、knightさん、
+よろしくお願いします＾＾これから協力して盛り上げていきましょうｂ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/05 04:46</span>
+        <a href="http://zoome.jp/ryuusei">knightさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">参加させていただきました！よろしくです〜。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/04 22:48</span>
+        <a href="http://zoome.jp/2kk">2次元ライダーさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">ゲーム版からですが参加させてもらいます！</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/03 17:13</span>
+        <a href="http://zoome.jp/sinpei">sinpei_47さん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">見たこと無いんですけど参加させて頂きます！</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/03 14:11</span>
+        <a href="http://zoome.jp/oremoto">ゆーじんさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">お、TOP絵かえましたね！</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/01 16:19</span>
+        <a href="http://zoome.jp/balzename">乃絵留さん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">あけましておめでとうございます。今年もよろしくお願いします
+(*･ω･)*_ _)ﾍﾟｺﾘ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/01 11:10</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">あけましておめでとうございます＾＾今年も楽しく行きましょうｂ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/01 10:49</span>
+        <a href="http://zoome.jp/koujilp">kouさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">おめでとう</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">01/01 00:52</span>
+        --さん
+        
+      </div>
+      <div class="circle_chat_text_text">あけましたおめでとう御座います！　今年も宜しくお願い致します！</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/31 16:24</span>
+        <a href="http://zoome.jp/balzename">乃絵留さん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">こちらこそ！よろしくお願いします。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/31 10:16</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">NoeLさんよろしくです！楽しく盛り上げていきましょう♪</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/31 09:45</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">“　　　”さんよろしくです！楽しくいきましょうｂ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/30 16:11</span>
+        <a href="http://zoome.jp/excelsior1031">“　　　”さん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">これから宜しくお願いします♪</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/30 11:11</span>
+        <a href="http://zoome.jp/balzename">乃絵留さん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">参加させてもらいました。よろしくお願いしま。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/25 22:25</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">少佐さん、よろしくです＾＾ともに盛り上げていきましょう！！</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/24 23:57</span>
+        --さん
+        
+      </div>
+      <div class="circle_chat_text_text">参加させていただきます。よろしくお願いします。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/22 19:33</span>
+        <a href="http://zoome.jp/voon">たろうさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">こん♪</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/21 19:35</span>
+        <a href="http://zoome.jp/c_headtalero">Cさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">へへへへ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/21 11:47</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">へへへ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/21 11:31</span>
+        <a href="http://zoome.jp/voon">たろうさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">へ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/20 23:27</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">yoppyさｎ、よろしくです＾＾楽しく語り合いましょう！！</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/20 23:22</span>
+        --さん
+        
+      </div>
+      <div class="circle_chat_text_text">チルドさんのリア友です。参加させていただきます！</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/18 17:44</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">参加ありがとうございます＾＾よろしくです！！</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/18 16:49</span>
+        <a href="http://zoome.jp/kira10510a">とめきちさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">参加させていただきました。よろー</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/17 18:47</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">みなさんよろしくです＾＾これからみんな協力して盛り上げていきま
+しょう！</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/17 09:18</span>
+        <a href="http://zoome.jp/el-dorado">フィンさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">参加させて頂きます、皆様よろしくお願いします。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/17 03:18</span>
+        <a href="http://zoome.jp/MATSUBA">真津場さん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">CLANNADとか銀魂とかでMAD作ってます、よろしく</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/17 00:53</span>
+        <a href="http://zoome.jp/furafura">Flashさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">CLANNADと聞いたら参加せざるを得ません、よろしくお願いし
+ます^^</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/17 00:33</span>
+        <a href="http://zoome.jp/linne">りんねさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">つーわけで参加です。よろー</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/16 22:56</span>
+        <a href="http://zoome.jp/orenotarn">まーsunさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">CLANNADと聞いてこの僕が黙っているとでも？…もちろん入会
+させていただきましたよ。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/16 18:38</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">うぉー＾＾学校から帰ってきたらびっくりしました＾＾こんなにみな
+さん入ってくださって・・・ありがとうございます＾＾これからよろしくです＾-＾</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/16 18:08</span>
+        <a href="http://zoome.jp/koujilp">kouさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">誘われてきました。クラナドって知らないけど今度みたいと思います</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/16 16:06</span>
+        <a href="http://zoome.jp/karurosu">Carlosさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">誘われて・・・ＣＬＡＮＮＡＤは大好きなアニメの一つですｗｗこれ
+からよろしく〜</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/16 12:10</span>
+        <a href="http://zoome.jp/siba_nico">芝ＥＸさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">誘われ来ましたｗ実はＣＬＡＮＮＡＤは５話までしか見てないとい
+う・・MADは好きなんですがｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/16 08:38</span>
+        <a href="http://zoome.jp/nightmage">いはさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">この中に私よりクラナドが好きだと思う方はどうぞ。いつでも挑戦を
+受け付けておりますｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/16 02:47</span>
+        <a href="http://zoome.jp/sugarkane">SUGARKANEさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">つい先ほど参加&amp;初投稿。よろしく(^^)</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/16 00:19</span>
+        <a href="http://zoome.jp/kamarfx">カマーさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">誘われたので着ましたがＣＬＡＮＮＡＤ見たこと無いのですが、、、</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/16 00:15</span>
+        <a href="http://zoome.jp/ehime">フレイムさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">１１人目！これからもよろしく♪</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/15 23:12</span>
+        <a href="http://zoome.jp/cooldere">クーデレさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">誘われたので来ました＾＾��人目ですｗどぞよろしくです。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/15 22:36</span>
+        --さん
+        
+      </div>
+      <div class="circle_chat_text_text">出遅れたｗｗ ８人目の地蔵です。よろしくお願いします。</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/15 21:51</span>
+        <a href="http://zoome.jp/hirokiosuZZ">ヒロキさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">おー＾＾みなさんありがとうございます＾＾初めてだったので不安
+だったんですが、これで不安なんてふっとんじゃいました＾＾よろしくです＾＾</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/15 21:26</span>
+        <a href="http://zoome.jp/oremoto">ゆーじんさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">５人目ｗ誘われたからには入る！</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/15 21:25</span>
+        <a href="http://zoome.jp/1990">TA-JI-さん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">なぜか誘われた者ですｗ　とりあえず雑談だけのサクレなの？ｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/15 21:24</span>
+        <a href="http://zoome.jp/TMTKfromNICO">TMTKさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">７人目・・・らしいｗ</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/15 21:24</span>
+        <a href="http://zoome.jp/gatotsu0">ふじおかさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">↓４人目です・・・すみません</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/15 21:22</span>
+        <a href="http://zoome.jp/gatotsu0">ふじおかさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">入りました！３人目ですｗよろしくお願いします</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/15 21:22</span>
+        <a href="http://zoome.jp/nyanyannya">.†黒猫†.さん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">三人目です♪</div>
+    </div>
+  
+    <div class="circle_chat_textbox">
+      <div class="circle_chat_text_name">
+        <span class="circle_chat_text_time">12/15 21:21</span>
+        <a href="http://zoome.jp/c_headtalero">Cさん</a>
+        
+      </div>
+      <div class="circle_chat_text_text">二人目です＾＾よろしく！</div>
+    </div>
+  
+
+</div>
+
+
+								        </div>
+								        
+								    </div>
+                                
+                            
+                        </div>
+                    </div>
+                    <!-- / サークルチャット -->
+            	    <div style="display: block;" id="circle_ad">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script language="JavaScript" type="text/javascript" src="test_data122_files/adx.js"></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+   if (!document.phpAds_used) document.phpAds_used = ',';
+   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+   
+   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+   document.write ("http://ads.zoome.jp/adjs.php?n=" + phpAds_random);
+   document.write ("&amp;what=zone:65");
+   document.write ("&amp;exclude=" + document.phpAds_used);
+   if (document.referrer)
+      document.write ("&amp;referer=" + escape(document.referrer));
+   document.write ("'><" + "/script>");
+//-->
+</script><script language="JavaScript" type="text/javascript" src="test_data122_files/adjs.js"></script><script type="text/javascript"><!--
+google_ad_client = "pub-9312301585629702";
+/* &#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;袖&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;村&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;俗&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;束&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;贈&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;造&#65533;鐃獣&#65533;存&#65533;俗&#65533;多&#65533;遜300&#42;250 */
+google_ad_slot = "8146936788";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript" src="test_data122_files/show_ads.js">
+</script><script src="test_data122_files/expansion_embed.js"></script><script src="test_data122_files/test_domain_002.js"></script><script>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</script><ins
+ style="display: inline-table; border: medium none; height: 250px; 
+margin: 0pt; padding: 0pt; position: relative; visibility: visible; 
+width: 300px;"><ins style="display: block; border: medium none; height: 
+250px; margin: 0pt; padding: 0pt; position: relative; visibility: 
+visible; width: 300px;"><iframe allowtransparency="true" hspace="0" 
+id="google_ads_frame1" marginheight="0" marginwidth="0" 
+name="google_ads_frame" src="test_data122_files/ads.htm" style="left: 
+0pt; position: absolute; top: 0pt;" vspace="0" width="300" 
+scrolling="no" frameborder="0" height="250"></iframe></ins></ins><div 
+id="beacon_305" style="position: absolute; left: 0px; top: 0px; 
+visibility: hidden;"><img src="test_data122_files/adlog_005.gif" alt="" 
+style="width: 0px; height: 0px;" width="0" height="0"></div><script language="JavaScript" type="text/javascript" src="test_data122_files/adjs_002.js"></script><script type="text/javascript"><!--
+google_ad_client = "pub-9312301585629702";
+/* &#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;袖&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;村&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;俗&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;束&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;贈&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;造&#65533;鐃獣&#65533;存&#65533;俗&#65533;多&#65533;遜300&#42;250 */
+google_ad_slot = "8146936788";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript" src="test_data122_files/show_ads.js">
+</script><script>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</script><ins
+ style="display: inline-table; border: medium none; height: 250px; 
+margin: 0pt; padding: 0pt; position: relative; visibility: visible; 
+width: 300px;"><ins style="display: block; border: medium none; height: 
+250px; margin: 0pt; padding: 0pt; position: relative; visibility: 
+visible; width: 300px;"><iframe allowtransparency="true" hspace="0" 
+id="google_ads_frame2" marginheight="0" marginwidth="0" 
+name="google_ads_frame" src="test_data122_files/ads_002.htm" 
+style="left: 0pt; position: absolute; top: 0pt;" vspace="0" width="300" 
+scrolling="no" frameborder="0" height="250"></iframe></ins></ins><div 
+id="beacon_305" style="position: absolute; left: 0px; top: 0px; 
+visibility: hidden;"><img src="test_data122_files/adlog_002.gif" alt="" 
+style="width: 0px; height: 0px;" width="0" height="0"></div><script type="text/javascript"><!--
+google_ad_client = "pub-9312301585629702";
+/* &#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;袖&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;村&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;俗&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;束&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;贈&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;贈&#65533;俗&#65533;多&#65533;遜&#65533;俗&#65533;多&#65533;遜&#65533;鐃獣&#65533;造&#65533;鐃獣&#65533;存&#65533;俗&#65533;多&#65533;遜300&#42;250 */
+google_ad_slot = "8146936788";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript" src="test_data122_files/show_ads_002.js">
+</script><script>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</script><ins
+ style="display: inline-table; border: medium none; height: 250px; 
+margin: 0pt; padding: 0pt; position: relative; visibility: visible; 
+width: 300px;"><ins style="display: block; border: medium none; height: 
+250px; margin: 0pt; padding: 0pt; position: relative; visibility: 
+visible; width: 300px;"><iframe allowtransparency="true" hspace="0" 
+id="google_ads_frame3" marginheight="0" marginwidth="0" 
+name="google_ads_frame" src="test_data122_files/ads_003.htm" 
+style="left: 0pt; position: absolute; top: 0pt;" vspace="0" width="300" 
+scrolling="no" frameborder="0" height="250"></iframe></ins></ins><script src="test_data122_files/expansion_embed_002.js"></script><script src="test_data122_files/test_domain.js"></script><script>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</script><ins
+ style="display: inline-table; border: medium none; height: 250px; 
+margin: 0pt; padding: 0pt; position: relative; visibility: visible; 
+width: 300px;"><ins style="display: block; border: medium none; height: 
+250px; margin: 0pt; padding: 0pt; position: relative; visibility: 
+visible; width: 300px;"><iframe allowtransparency="true" hspace="0" 
+id="google_ads_frame1" marginheight="0" marginwidth="0" 
+name="google_ads_frame" src="test_data122_files/ads_004.htm" 
+style="left: 0pt; position: absolute; top: 0pt;" vspace="0" width="300" 
+scrolling="no" frameborder="0" height="250"></iframe></ins></ins><div 
+id="beacon_305" style="position: absolute; left: 0px; top: 0px; 
+visibility: hidden;"><img src="test_data122_files/adlog_004.gif" alt="" 
+style="width: 0px; height: 0px;" width="0" height="0"></div><noscript><a href='http://ads.zoome.jp/adclick.php?n=a6c30635' target='_blank'><img src='http://ads.zoome.jp/adview.php?what=zone:65&amp;n=a6c30635' border='0' alt=''></a></noscript>
+
+</div>
+                </div>
+                <!-- /上部右サイド -->
+            <div style="clear: both;"></div>
+            </div>
+            <!--/コンテンツ上部 -->
+            <!-- コンテンツ下部 -->
+            <div class="circle_contents_all">
+                <!-- 下部左サイド -->
+                <div class="circle_contents_short_left">
+                    <!-- ログイン -->
+                                            <div class="circle_login">
+                            <div class="circle_login_detail">
+                                <div class="circle_login_text">
+
+                                    こんにちは&nbsp;<a 
+href="http://www.zoome.jp/prepare">ゲストさん</a>
+
+                                </div>
+                                <div class="circle_login_button"> 
+                                    <div class="login_button1">
+
+                                        <a 
+href="http://www.zoome.jp/prepare"><img alt="新規登録" 
+src="test_data122_files/login_regist.gif"></a>
+                                    </div>
+
+                                    <div class="login_button2">
+
+                                        <a 
+href="http://www.zoome.jp/login?dist_uri=http%3A%2F%2Fcircle.zoome.jp%2FCLANNAD"><img
+ alt="ログイン" src="test_data122_files/login_login.gif"></a>
+                                    </div>
+
+                                <div style="clear: both;"></div>
+
+		<div style="padding: 5px 0px;"><strong><a 
+href="http://www.zoome.jp/help21">容量UPできます！(zoome+）</a></strong></div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    <!-- メンバーリスト -->
+                    <div class="circle_member">
+                        <div class="circle_member_header">
+                            <h3 class="circle_member_text">サークルメンバー</h3>
+                        </div>
+                        <div class="circle_member_detail">
+                            
+                            <div class="circle_member_box">
+                                
+                                
+                                <div class="circle_member_box2_cell">
+                                    
+                                      <a href="http://zoome.jp/chi-ka/"><img
+ alt="ティカラさん" title="ティカラさん" src="test_data122_files/88128_p2_1.jpg"></a>
+                                    
+                                    <div 
+class="circle_member_box2_cell_name">
+                                        
+                                          <a 
+href="http://zoome.jp/chi-ka/">ティカラさん</a>
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div class="circle_member_box2_cell">
+                                    
+                                      <a href="http://zoome.jp/ehime/"><img
+ alt="フレイムさん" title="フレイムさん" src="test_data122_files/63657_p2_1.jpg"></a>
+                                    
+                                    <div 
+class="circle_member_box2_cell_name">
+                                        
+                                          <a 
+href="http://zoome.jp/ehime/">フレイムさん</a>
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div style="clear: both;"></div>
+                                
+                                
+                                <div class="circle_member_box2_cell">
+                                    
+                                      <a href="http://zoome.jp/skro/"><img
+ alt="シャープｐｅｎさん" title="シャープｐｅｎさん" src="test_data122_files/noimg2.jpg"></a>
+                                    
+                                    <div 
+class="circle_member_box2_cell_name">
+                                        
+                                          <a 
+href="http://zoome.jp/skro/">シャープｐｅｎさん</a>
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div class="circle_member_box2_cell">
+                                    
+                                      <a href="http://zoome.jp/voon/"><img
+ alt="たろうさん" title="たろうさん" src="test_data122_files/130788_p2_1.jpg"></a>
+                                    
+                                    <div 
+class="circle_member_box2_cell_name">
+                                        
+                                          <a 
+href="http://zoome.jp/voon/">たろうさん</a>
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div style="clear: both;"></div>
+                                
+                                
+                                <div class="circle_member_box2_cell">
+                                    
+                                      <a href="http://zoome.jp/xlink/"><img
+ alt="xlinkさん" title="xlinkさん" src="test_data122_files/145287_p2_1.jpg"></a>
+                                    
+                                    <div 
+class="circle_member_box2_cell_name">
+                                        
+                                          <a 
+href="http://zoome.jp/xlink/">xlinkさん</a>
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div class="circle_member_box2_cell">
+                                    
+                                      <a 
+href="http://zoome.jp/toos_toos_toos/"><img alt="オガラキャさん" 
+title="オガラキャさん" src="test_data122_files/131176_p2_1.jpg"></a>
+                                    
+                                    <div 
+class="circle_member_box2_cell_name">
+                                        
+                                          <a 
+href="http://zoome.jp/toos_toos_toos/">オガラキャさん</a>
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div style="clear: both;"></div>
+                                
+                                
+                                <div class="circle_member_box2_cell">
+                                    
+                                      <a 
+href="http://zoome.jp/basuke18kei/"><img alt="keiさん" title="keiさん" 
+src="test_data122_files/140067_p2_1.jpg"></a>
+                                    
+                                    <div 
+class="circle_member_box2_cell_name">
+                                        
+                                          <a 
+href="http://zoome.jp/basuke18kei/">keiさん</a>
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div class="circle_member_box2_cell">
+                                    
+                                      <a href="http://zoome.jp/wankoro/"><img
+ alt="ますみさん" title="ますみさん" src="test_data122_files/142191_p2_1.jpg"></a>
+                                    
+                                    <div 
+class="circle_member_box2_cell_name">
+                                        
+                                          <a 
+href="http://zoome.jp/wankoro/">ますみさん</a>
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div style="clear: both;"></div>
+                                
+                            </div>
+                            <div style="clear: both;"></div>
+                            <div class="circle_member_footer">
+                                <div class="circle_member_more">
+                                    <a 
+href="http://circle.zoome.jp/CLANNAD/member_list">もっと見る</a>
+                                </div>
+                            </div>
+                            <div style="clear: both;"></div>
+                            
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <!-- / メンバーリスト -->
+                    <!-- 関連サークル -->
+                    <div class="circle_related">
+                        <div class="circle_related_header">
+                            <h3 class="circle_related_text">関連サークル</h3>
+                        </div>
+                        <div class="circle_related_detail">
+                            
+                                
+                                <div class="circle_related_detail_box">
+                                    <div 
+class="circle_related_detail_box_img">
+                                        <a 
+href="http://circle.zoome.jp/paperman/"><img alt="カジュアルFPSペーパーマン" 
+title="カジュアルFPSペーパーマン" src="test_data122_files/547_c2_1.jpg"></a>
+                                    </div>
+                                    <div 
+class="circle_related_detail_box_name">
+                                        <a 
+href="http://circle.zoome.jp/paperman/">カジュアルFPSペーパーマン</a>
+                                    </div>
+                                    <div 
+class="circle_related_detail_box_text">カジュアルFPSペーパーマンhttp://paperman.jp
+/他のFPSとは一線を画し…</div>
+                                </div>
+                                <div style="clear: both;"></div>
+                                
+                                <div class="circle_related_detail_box">
+                                    <div 
+class="circle_related_detail_box_img">
+                                        <a 
+href="http://circle.zoome.jp/luckystar/"><img alt="lucky☆starが見える丘" 
+title="lucky☆starが見える丘" src="test_data122_files/1510_c2_1.jpg"></a>
+                                    </div>
+                                    <div 
+class="circle_related_detail_box_name">
+                                        <a 
+href="http://circle.zoome.jp/luckystar/">lucky☆starが見える丘</a>
+                                    </div>
+                                    <div 
+class="circle_related_detail_box_text">「らき☆すた」ならなんでもよし画像、動画、雑談　好きにどうぞとても
+自由なサークルです</div>
+                                </div>
+                                <div style="clear: both;"></div>
+                                
+                                <div style="clear: both;"></div>
+                            <div class="circle_related_footer">
+                                <div class="circle_related_more"><a 
+href="http://search.zoome.jp/circle_tag?q=CLANNAD%B9%A5%A4%AD%BD%B8%B9%E7%A1%AA%A1%AA%20%B3%DA%A4%B7%A4%A4%20%A4%DE%A4%C3%A4%BF%A4%EA%20CLANNAD%20AFTER%20STORY%20%A5%B2%A1%BC%A5%E0%20%A5%A2%A5%CB%A5%E1&amp;q_or=1">もっ
+
+と見る</a></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- /関連サークル -->
+                <!-- / 下部左サイド -->
+                </div>
+
+                <!-- 下部右サイド -->
+                <div class="circle_contents_wide_right">
+                    <!-- メディアタグ -->
+                    <div class="circle_tag">
+                        <div class="circle_tag_header">
+                            <h3 class="circle_tag_text">メディアタグ</h3>
+                        </div>
+                        <div class="circle_tag_detail">
+                        
+                            
+                            
+                                <div class="circle_tag_detail_box">
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=CLANNAD">CLANNAD(23)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=MAD">MAD(8)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=%A5%A2%A5%CB%A5%E1">ア
+ニメ(8)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=%A5%AF%A5%E9%A5%CA%A5%C9">ク
+ラナド(4)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=Lia">Lia(3)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=%C9%F7%BB%D2">風
+子(3)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=%B2%AC%BA%EA%CA%FE%CC%E9">岡
+崎朋也(3)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=%B2%AC%BA%EA%BD%ED">岡
+崎渚(2)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=BGM">BGM(2)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=%B6%F5%A4%CB%B8%F7%A4%EB">空
+に光る(2)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=%B2%AC%BA%EA%A5%DE%A5%B9%A5%BF%A1%BC">岡
+崎マスター(2)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=%A4%C7%A4%E2%B0%EC%B1%FE%A5%E1%A5%C3%A5%BB%A5%F3%A5%B8%A5%E3%A1%BC%A4%CB%A4%CF%B4%E9%A4%F2%BD%D0%A4%B9%A4%C4%A4%E2%A4%EA%A4%C7%A4%B9%A1%A3">で
+も一応メッセンジャーには顔を出すつもりです。(1)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=CLANNAD%A1%C1AFTERSTORY%A1%C1">CLANNAD〜AFTERSTORY〜
+
+(1)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=1%BC%FE%C7%AF%A1%AA">1
+周年！(1)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=%B5%DC%C2%F4%CD%AD%B5%AA%C7%AB">宮
+沢有紀寧(1)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=Spica">Spica(1)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=CLANNAD%A4%CF%BF%CD%C0%B8">CLANNAD
+
+は人生(1)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=%C9%E5%BD%F7%BB%D2">腐
+女子(1)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=%A4%B7%A4%F3%A4%C1%A4%E3%A4%F3%A4%CF%A5%DB%A5%E2%A4%C7%A4%E2%A4%A2%A4%EA%A4%DE%A4%BB%A4%F3%28%A1%A6%A6%D8%A1%A6%29">し
+んちゃんはホモでもありません(・ω・)(1)</a>
+                                    
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie&amp;tag_name=SS">SS(1)</a>
+                                    
+                                </div>
+                                <div class="circle_tag_footer">
+                                    <div class="circle_tag_more">
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list">もっと見る</a>
+                                    </div>
+                                </div>
+                            
+                            
+                            
+                            </div>
+                        </div>
+                        <!-- /メディアタグ -->
+                        <!-- 新着動画 -->
+                        <div class="circle_new_clip">
+                            <div class="circle_new_clip_header">
+                                <h3 class="circle_new_clip_text">新着動画</h3>
+                                <div class="circle_rss"><a 
+href="http://circle.zoome.jp/CLANNAD/newmovie_rss"><img 
+src="test_data122_files/rss.gif" alt="RSS" width="47" height="13"></a></div>
+                                <div style="clear: both;"></div>
+                            </div>
+                            <div class="circle_new_clip_detail">
+                                
+                                    
+                                        
+                                        <div 
+class="circle_new_clip_detail_table">
+                                            
+                                            <div 
+class="circle_new_clip_detail_table_cell">
+                                                <div 
+class="circle_new_clip_detail_table_cell_img">
+                                                    <a 
+href="http://circle.zoome.jp/CLANNAD/media/110/">
+                                                    <img 
+alt="【MAD】Lia「Spica」【CLANNAD】" title="【MAD】Lia「Spica」【CLANNAD】" 
+src="test_data122_files/2302_110_t2_1.jpg"></a>
+                                                </div>
+                                                <div 
+class="circle_new_clip_detail_table_cell_text">
+                                                    <p><a 
+href="http://circle.zoome.jp/CLANNAD/media/110/">【MAD】Lia「Spica」
+【CLANNAD】</a></p>
+                                                    <p>
+                                                        
+                                                          from: <a 
+href="http://zoome.jp/luckshanel/">ラックちゃさん</a>
+                                                        
+                                                    </p>
+                                                    <p>(05:07)</p>
+                                                    <p>10/01/07(木) 15:27</p>
+                                                </div>
+                                            </div>
+                                            
+                                            <div 
+class="circle_new_clip_detail_table_cell">
+                                                <div 
+class="circle_new_clip_detail_table_cell_img">
+                                                    <a 
+href="http://circle.zoome.jp/CLANNAD/media/109/">
+                                                    <img 
+alt="汐のえいっを連呼させてみた" title="汐のえいっを連呼させてみた" 
+src="test_data122_files/2302_109_t2_1.jpg"></a>
+                                                </div>
+                                                <div 
+class="circle_new_clip_detail_table_cell_text">
+                                                    <p><a 
+href="http://circle.zoome.jp/CLANNAD/media/109/">汐のえいっを連呼させてみた</a></p>
+                                                    <p>
+                                                        
+                                                          from: <a 
+href="http://zoome.jp/haruhinoichizon/">kiwainaさん</a>
+                                                        
+                                                    </p>
+                                                    <p>(04:34)</p>
+                                                    <p>09/12/11(金) 21:48</p>
+                                                </div>
+                                            </div>
+                                            
+                                            <div 
+class="circle_new_clip_detail_table_cell">
+                                                <div 
+class="circle_new_clip_detail_table_cell_img">
+                                                    <a 
+href="http://circle.zoome.jp/CLANNAD/media/108/">
+                                                    <img alt="CLANNAD 
+卒業" title="CLANNAD 卒業" src="test_data122_files/2302_108_t2_1.jpg"></a>
+                                                </div>
+                                                <div 
+class="circle_new_clip_detail_table_cell_text">
+                                                    <p><a 
+href="http://circle.zoome.jp/CLANNAD/media/108/">CLANNAD 卒業</a></p>
+                                                    <p>
+                                                        
+                                                          from: <a 
+href="http://zoome.jp/haruhinoichizon/">kiwainaさん</a>
+                                                        
+                                                    </p>
+                                                    <p>(03:46)</p>
+                                                    <p>09/12/11(金) 21:47</p>
+                                                </div>
+                                            </div>
+                                            
+                                            <div 
+class="circle_new_clip_detail_table_cell">
+                                                <div 
+class="circle_new_clip_detail_table_cell_img">
+                                                    <a 
+href="http://circle.zoome.jp/CLANNAD/media/107/">
+                                                    <img 
+alt="【一周年！】幸せ願う渚から【そして大事なお知らせ・・・】" title="【一周年！】幸せ願う渚から【そして大事なお知らせ・・・】" 
+src="test_data122_files/2302_107_t2_1.jpg"></a>
+                                                </div>
+                                                <div 
+class="circle_new_clip_detail_table_cell_text">
+                                                    <p><a 
+href="http://circle.zoome.jp/CLANNAD/media/107/">【一周年！】幸せ願う渚から【そして大事なお知ら
+せ・・・】</a></p>
+                                                    <p>
+                                                        
+                                                          from: <a 
+href="http://zoome.jp/hirokiosuZZ/">ヒロキさん</a>
+                                                        
+                                                    </p>
+                                                    <p>(05:33)</p>
+                                                    <p>09/11/16(月) 19:07</p>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        <div style="clear: both;"></div>
+                                        <div 
+class="circle_new_clip_footer">
+                                            <div 
+class="circle_new_clip_more">
+                                                <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=movie">もっと見る</a>
+                                            </div>
+                                        </div>
+                                        <div style="clear: both;"></div>
+                                    
+                                
+                            
+                        </div>
+                    </div>
+                    <!-- / 新着動画 -->
+                    <!-- 新着画像 -->
+                    <div class="circle_new_image">
+                        <div class="circle_new_image_header">
+                            <h3 class="circle_new_image_text">新着画像</h3>
+                            <div class="circle_rss"><a 
+href="http://circle.zoome.jp/CLANNAD/newimage_rss"><img 
+src="test_data122_files/rss.gif" alt="RSS" width="47" height="13"></a></div>
+                            <div style="clear: both;"></div>
+                        </div>
+                        <div class="circle_new_image_detail">
+                            
+                                
+                                
+                                    <div 
+class="circle_new_image_detail_table">
+                                    
+                                    <div 
+class="circle_new_image_detail_table_cell">
+                                        <div 
+class="circle_new_image_detail_table_cell_img">
+                                            <a 
+href="http://circle.zoome.jp/CLANNAD/media/101/"><img alt="うい" 
+title="うい" src="test_data122_files/2302_101_i2_1.jpg"></a>
+                                        </div>
+                                        <div 
+class="circle_new_image_detail_table_cell_text">
+                                            <p><a 
+href="http://circle.zoome.jp/CLANNAD/media/101/">うい</a></p>
+                                            <p>
+                                                
+                                                  from: --さん
+                                                
+                                            </p>
+                                            <p>09/08/01(土) 19:05</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div 
+class="circle_new_image_detail_table_cell">
+                                        <div 
+class="circle_new_image_detail_table_cell_img">
+                                            <a 
+href="http://circle.zoome.jp/CLANNAD/media/96/"><img alt="だんご3" 
+title="だんご3" src="test_data122_files/2302_96_i2_1.jpg"></a>
+                                        </div>
+                                        <div 
+class="circle_new_image_detail_table_cell_text">
+                                            <p><a 
+href="http://circle.zoome.jp/CLANNAD/media/96/">だんご3</a></p>
+                                            <p>
+                                                
+                                                  from: <a 
+href="http://zoome.jp/nanohatan/">高町なのはたんさん</a>
+                                                
+                                            </p>
+                                            <p>09/06/14(日) 19:00</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div 
+class="circle_new_image_detail_table_cell">
+                                        <div 
+class="circle_new_image_detail_table_cell_img">
+                                            <a 
+href="http://circle.zoome.jp/CLANNAD/media/95/"><img alt="だんご2" 
+title="だんご2" src="test_data122_files/2302_95_i2_1.jpg"></a>
+                                        </div>
+                                        <div 
+class="circle_new_image_detail_table_cell_text">
+                                            <p><a 
+href="http://circle.zoome.jp/CLANNAD/media/95/">だんご2</a></p>
+                                            <p>
+                                                
+                                                  from: <a 
+href="http://zoome.jp/nanohatan/">高町なのはたんさん</a>
+                                                
+                                            </p>
+                                            <p>09/06/14(日) 19:00</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div 
+class="circle_new_image_detail_table_cell">
+                                        <div 
+class="circle_new_image_detail_table_cell_img">
+                                            <a 
+href="http://circle.zoome.jp/CLANNAD/media/94/"><img alt="だんご1" 
+title="だんご1" src="test_data122_files/2302_94_i2_1.jpg"></a>
+                                        </div>
+                                        <div 
+class="circle_new_image_detail_table_cell_text">
+                                            <p><a 
+href="http://circle.zoome.jp/CLANNAD/media/94/">だんご1</a></p>
+                                            <p>
+                                                
+                                                  from: <a 
+href="http://zoome.jp/nanohatan/">高町なのはたんさん</a>
+                                                
+                                            </p>
+                                            <p>09/06/14(日) 19:00</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div style="clear: both;"></div>
+                                <div class="circle_new_image_footer">
+                                    <div class="circle_new_image_more">
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media_list?media_type=image">もっと見る</a>
+                                    </div>
+                                </div>
+                                <div style="clear: both;"></div>
+                            
+                            
+                            
+                        </div>
+                    </div>
+                    <!-- / 新着画像 -->
+                    <!-- 新着トピック -->
+                    <div class="circle_topic">
+                        <div class="circle_topic_header">
+                            <h3 class="circle_topic_text">新着トピック</h3>
+                            <div class="circle_rss"><a 
+href="http://circle.zoome.jp/CLANNAD/newtopic_rss"><img 
+src="test_data122_files/rss.gif" alt="RSS" width="47" height="13"></a></div>
+                            <div style="clear: both;"></div>
+                        </div>
+                        <div class="circle_topic_detail">
+                            
+                            
+                            
+                            <div class="circle_topic_detail_box">
+                                
+                                <div 
+class="circle_topic_detail_box_cell">
+                                    <div 
+class="circle_topic_detail_box_cell_date">09/12/05(土) 01:37</div>
+                                    <div 
+class="circle_topic_detail_box_cell_text">
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/topic/1/">雑談しようぜ＾＾
+                                        (109)</a>
+                                    </div>
+                                    <div style="clear: both;"></div>
+                                </div>
+                                
+                                <div 
+class="circle_topic_detail_box_cell">
+                                    <div 
+class="circle_topic_detail_box_cell_date">09/09/13(日) 22:16</div>
+                                    <div 
+class="circle_topic_detail_box_cell_text">
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/topic/5/">CLANND汚染度チェック
+                                        (25)</a>
+                                    </div>
+                                    <div style="clear: both;"></div>
+                                </div>
+                                
+                                <div 
+class="circle_topic_detail_box_cell">
+                                    <div 
+class="circle_topic_detail_box_cell_date">09/09/02(水) 20:58</div>
+                                    <div 
+class="circle_topic_detail_box_cell_text">
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/topic/3/">しりとり
+                                        (389)</a>
+                                    </div>
+                                    <div style="clear: both;"></div>
+                                </div>
+                                
+                                <div 
+class="circle_topic_detail_box_cell">
+                                    <div 
+class="circle_topic_detail_box_cell_date">09/07/26(日) 23:27</div>
+                                    <div 
+class="circle_topic_detail_box_cell_text">
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/topic/2/">自己紹介
+                                        (15)</a>
+                                    </div>
+                                    <div style="clear: both;"></div>
+                                </div>
+                                
+                            </div>
+                            <div class="circle_topic_footer">
+                                <div class="circle_topic_more">
+                                   <a 
+href="http://circle.zoome.jp/CLANNAD/topic_list">もっと見る</a>
+                                </div>
+                                <br>
+                            
+                            </div>
+                            <div style="clear: both;"></div>
+                            
+                            
+                            
+                        </div>
+                    </div>
+                    <!-- / 新着トピック -->
+                    <!-- 新着テロップ -->
+                    <div class="circle_telop">
+                        <div class="circle_telop_header">
+                            <h3 class="circle_telop_text">新着テロップ</h3>
+                            <div class="circle_rss"><a 
+href="http://circle.zoome.jp/CLANNAD/newtelop_rss"><img 
+src="test_data122_files/rss.gif" alt="RSS" width="47" height="13"></a></div>
+                            <div style="clear: both;"></div>
+                        </div>
+                        <div class="circle_telop_detail">
+                            
+                            
+                            
+                                
+                                <div class="circle_telop_table">
+                                    <div class="circle_telop_img">
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media/93/">
+                                        <img alt="二個 " title="二個 " 
+src="test_data122_files/2302_93_t2_1.jpg"></a>
+                                    </div>
+                                    <div class="circle_telop_table_text">
+                                        <p><a 
+href="http://circle.zoome.jp/CLANNAD/media/93/">二個</a></p>
+                                        <p>お　ｗｗｗ　ううううううううう　毎日家でしてるでしょ！　テ
+スト </p>
+                                        <p></p>
+                                        <div 
+class="circle_telop_counttext">テロップ数:5</div>
+                                    </div>
+                                </div>
+                                <div style="clear: both;"></div>
+                                
+                                <div class="circle_telop_table">
+                                    <div class="circle_telop_img">
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media/87/">
+                                        <img 
+alt="【MAD】CLANNAD　そして明日の世界より―― " title="【MAD】CLANNAD　そして明日の世界より―― " 
+src="test_data122_files/2302_87_t2_1.jpg"></a>
+                                    </div>
+                                    <div class="circle_telop_table_text">
+                                        <p><a 
+href="http://circle.zoome.jp/CLANNAD/media/87/">【MAD】CLANNAD　そして明日の世界より
+――</a></p>
+                                        <p>かなりの良作です　きれいだなー </p>
+                                        <p></p>
+                                        <div 
+class="circle_telop_counttext">テロップ数:2</div>
+                                    </div>
+                                </div>
+                                <div style="clear: both;"></div>
+                                
+                                <div class="circle_telop_table">
+                                    <div class="circle_telop_img">
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media/81/">
+                                        <img alt="【MAD】B'z×CLANNAD 
+「グローリーデイズ」 " title="【MAD】B'z×CLANNAD 「グローリーデイズ」 " 
+src="test_data122_files/2302_81_t2_1.jpg"></a>
+                                    </div>
+                                    <div class="circle_telop_table_text">
+                                        <p><a 
+href="http://circle.zoome.jp/CLANNAD/media/81/">【MAD】B'z×CLANNAD 
+「グローリーデイズ」</a></p>
+                                        <p>また出会える日を想う　君のこと想う　きっと新しい虹を見つめ
+ている　どこかで　ここから歩くよ　胸をはって　二度と戻らない日々　Glory Days　笑顔だけあふれる　燦然と輝く　命はてるときが来ても… </p>
+                                        <p></p>
+                                        <div 
+class="circle_telop_counttext">テロップ数:48</div>
+                                    </div>
+                                </div>
+                                <div style="clear: both;"></div>
+                                
+                                <div class="circle_telop_table">
+                                    <div class="circle_telop_img">
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media/31/">
+                                        <img alt="空に光る " title="空に光る " 
+src="test_data122_files/2302_31_t2_1.jpg"></a>
+                                    </div>
+                                    <div class="circle_telop_table_text">
+                                        <p><a 
+href="http://circle.zoome.jp/CLANNAD/media/31/">空に光る</a></p>
+                                        <p>癒されました </p>
+                                        <p></p>
+                                        <div 
+class="circle_telop_counttext">テロップ数:1</div>
+                                    </div>
+                                </div>
+                                <div style="clear: both;"></div>
+                                
+                                <div class="circle_telop_table">
+                                    <div class="circle_telop_img">
+                                        <a 
+href="http://circle.zoome.jp/CLANNAD/media/28/">
+                                        <img alt="【CLANNAD】 ずっとあなたのそばに 
+【セリフ入りVer.】 " title="【CLANNAD】 ずっとあなたのそばに 【セリフ入りVer.】 " 
+src="test_data122_files/2302_28_t2_1.jpg"></a>
+                                    </div>
+                                    <div class="circle_telop_table_text">
+                                        <p><a 
+href="http://circle.zoome.jp/CLANNAD/media/28/">【CLANNAD】 ずっとあなたのそばに 
+【セリフ入りVer.】</a></p>
+                                        <p>原作よりもこちらはアニメの方がいいですね〜 </p>
+                                        <p></p>
+                                        <div 
+class="circle_telop_counttext">テロップ数:1</div>
+                                    </div>
+                                </div>
+                                <div style="clear: both;"></div>
+                                
+                            
+                            
+                            
+                        </div>
+                    </div>
+                    <!-- / 新着テロップ -->
+                    </div>
+                    <!-- / 下部右サイド -->
+                </div>
+                <!-- / コンテンツ下部 -->
+                <div style="clear: both;"></div>
+            </div>
+            <!-- / メイン-->
+
+<!--ad-->
+<!--header-->
+
+
+<script type="text/javascript">
+<!--
+    zoome.page.util.Ad.map("super_ad", "to_super_ad");
+-->
+</script>
+
+<!--rectangle-->
+
+
+<script type="text/javascript">
+<!--
+    zoome.page.util.Ad.map("circle_ad", "to_circle_ad");
+-->
+</script>
+
+<!--/ad-->
+
+
+
+
+<div class="ad_client">
+<script type="text/javascript"><!--
+google_ad_client = "pub-9312301585629702";
+/* リンクユニット_サークル用　728x15, FF6600 08/12/26 */
+google_ad_slot = "5326719531";
+google_ad_width = 728;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript" src="test_data122_files/show_ads_002.js">
+</script><script>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</script><ins
+ style="display: inline-table; border: medium none; height: 15px; 
+margin: 0pt; padding: 0pt; position: relative; visibility: visible; 
+width: 728px;"><ins style="display: block; border: medium none; height: 
+15px; margin: 0pt; padding: 0pt; position: relative; visibility: 
+visible; width: 728px;"><iframe allowtransparency="true" hspace="0" 
+id="google_ads_frame5" marginheight="0" marginwidth="0" 
+name="google_ads_frame" src="test_data122_files/ads_005.htm" 
+style="left: 0pt; position: absolute; top: 0pt;" vspace="0" width="728" 
+scrolling="no" frameborder="0" height="15"></iframe></ins></ins><script>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</script><ins
+ style="display: inline-table; border: medium none; height: 15px; 
+margin: 0pt; padding: 0pt; position: relative; visibility: visible; 
+width: 728px;"><ins style="display: block; border: medium none; height: 
+15px; margin: 0pt; padding: 0pt; position: relative; visibility: 
+visible; width: 728px;"><iframe allowtransparency="true" hspace="0" 
+id="google_ads_frame2" marginheight="0" marginwidth="0" 
+name="google_ads_frame" src="test_data122_files/ads_002_002.htm" 
+style="left: 0pt; position: absolute; top: 0pt;" vspace="0" width="728" 
+scrolling="no" frameborder="0" height="15"></iframe></ins></ins>
+</div>
+
+
+
+
+            <div class="footer">
+                <div class="notice1">
+                    <div class="pagetop"><a href="#top">ページトップへ</a></div>
+                </div>
+                <div style="clear: both;"></div>
+
+<div id="super_ad2" class="footer_ad">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+<script src="test_data122_files/AdLantisLoader.js" type="text/javascript" charset="utf-8"></script>
+<!-- Begin: Adlantis, Zone: [01_D_02_フッタースーパーバナー490*160] -->
+<div class="adlantiss_frame zid_3t6Ur2L2RX3%2FKeDhZQNF3Q%3D%3D 
+color_#0000FF-#000000-#F9F9F9-#999999-#008000 container_div"></div>
+<!-- End: Adlantis -->
+    
+
+  
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+                <div class="notice2">
+                    <div class="footmenu">
+                        <ul>
+                            <li><a href="http://www.zoome.jp/" 
+target="_top">TOP</a></li>
+                            <li><a href="http://www.zoome.jp/about" 
+target="_top">zoomeってなに？</a></li>
+                            <li><a href="http://www.zoome.jp/faq" 
+target="_top">よく聞かれる質問</a></li>
+                            <li><a href="http://www.zoome.jp/help10" 
+target="_top">開発者向けAPI情報</a></li>
+                            <li><a 
+href="http://www.zoome.co.jp/cgi-bin/form.cgi" target="_top">広告各種お問い合わせ</a></li>
+                        </ul>
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div class="copyright">Copyright(C) zoome All Rights
+ Reserved.</div>
+                </div>
+
+<div class="itmFooter">
+<table><tbody><tr><td style="padding-left: 10px;">
+<p class="itmIncLogo">
+<a href="http://www.zoome.jp/" target="_top"><img 
+src="test_data122_files/logo_f.gif"></a></p>
+<p class="itmIncLinkLst">
+<a href="http://www.zoome.jp/kiyaku" target="_top">利用規約</a>&nbsp;&nbsp;<a
+ href="http://www.zoome.jp/privacy" target="_top">プライバシーポリシー</a>&nbsp;&nbsp;<a
+ href="http://www.zoome.co.jp/" target="_top">運営会社</a></p>
+<p class="itmIncLinkLst">
+<a href="http://www.zoome.jp/info" target="_top">サポート問合わせ</a></p>
+</td>
+
+<td class="itmIncMedia" style="padding-right: 10px;">
+<p class="itmIncLinkLst">
+<a href="http://www.itmedia.co.jp/" target="_blank">ITmedia</a>&nbsp;&nbsp;<a
+ href="http://www.itmedia.co.jp/news/" target="_blank">ITmedia News</a>&nbsp;&nbsp;<a
+ href="http://www.itmedia.co.jp/promobile/" target="_blank">プロモバ</a>&nbsp;&nbsp;<a
+ href="http://www.itmedia.co.jp/enterprise/" target="_blank">ITmedia 
+エンタープライズ</a>&nbsp;&nbsp;<a href="http://mag.executive.itmedia.co.jp/" 
+target="_blank">ITmedia エグゼクティブ</a>&nbsp;&nbsp;<a 
+href="http://techtarget.itmedia.co.jp/" target="_blank">TechTargetジャパン</a></p>
+<p class="itmIncLinkLst">
+<a href="http://plusd.itmedia.co.jp/" target="_blank">＋D</a>&nbsp;&nbsp;<a
+ href="http://plusd.itmedia.co.jp/lifestyle/" target="_blank">＋D 
+LifeStyle</a>&nbsp;&nbsp;<a href="http://plusd.itmedia.co.jp/pcuser/" 
+target="_blank">＋D PC USER</a>&nbsp;&nbsp;<a 
+href="http://plusd.itmedia.co.jp/mobile/" target="_blank">＋D Mobile</a>&nbsp;&nbsp;<a
+ href="http://shopping.itmedia.co.jp/" target="_blank">＋D Shopping</a>&nbsp;&nbsp;<a
+ href="http://gamez.itmedia.co.jp/" target="_blank">Gamez</a></p>
+<p class="itmIncLinkLst">
+<a href="http://www.atmarkit.co.jp/" target="_blank">＠IT</a>&nbsp;&nbsp;<a
+ href="http://www.atmarkit.co.jp/im/" target="_blank">＠IT情報マネジメント</a>&nbsp;&nbsp;<a
+ href="http://monoist.atmarkit.co.jp/" target="_blank">＠IT MONOist</a>&nbsp;&nbsp;<a
+ href="http://jibun.atmarkit.co.jp/" target="_blank">＠IT自分戦略研究所</a>&nbsp;&nbsp;<a
+ href="http://www.atmarkit.co.jp/job/" target="_blank">JOB＠IT</a></p>
+<p class="itmIncLinkLst">
+<a href="http://bizmakoto.jp/" target="_blank">Business Media 誠</a>&nbsp;&nbsp;<a
+ href="http://bizmakoto.jp/bizid/" target="_blank">誠 Biz.ID</a>&nbsp;&nbsp;<a
+ href="http://kankyomedia.jp/" target="_blank">環境メディア</a>&nbsp;&nbsp;<a 
+href="http://www.barks.jp/" target="_blank">BARKS</a>&nbsp;&nbsp;<a 
+href="http://www.zoome.jp/" target="_top">zoome</a></p>
+</td>
+</tr></tbody></table>
+</div>
+        </div>
+        </div>
+            </div>
+
+
+
+        <script src="test_data122_files/SN.js"></script><script src="test_data122_files/gw_002.js"></script><script type="text/javascript" src="test_data122_files/pcx.js" charset="ISO-8859-1"></script>
+<script type="text/javascript" src="test_data122_files/pcx_002.js" charset="ISO-8859-1"></script>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="test_data122_files/ga_002.js" type="text/javascript"></script><script src="test_data122_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4630143-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+<!-- impact targeting tag -->
+<script src="test_data122_files/zoome.js"></script><script src="test_data122_files/gw.js"></script>
+
+    <script src="test_data122_files/AdLantis.js" charset="utf-8" type="text/javascript"></script><script src="test_data122_files/swfobject.js" charset="utf-8" type="text/javascript"></script></body></html>

@@ -1,0 +1,428 @@
+@charset "utf-8";
+
+/* -------------------------------------------------------------------------------
+ Article Design
+--------------------------------------------------------------------------------*/
+
+/* Article Heading
+-------------------------------------------------------*/
+.Article-Head {
+	position:relative;
+	width:100%;
+	margin-bottom:5px;
+}
+.Article-Head .M-Head01 {
+	position:relative;
+}
+.FontSize {
+	position:absolute;
+	top:3px;
+	right:5px;
+	min-height:1em; /* For old NN */
+}
+.FontSize dt,
+.FontSize dd {
+	float:left;
+	text-align:right;
+}
+.FontSize dt {
+	padding:4px 3px 3px;
+	font-size:80%;
+}
+.FontSize dd {
+	margin-left:3px;
+}
+.FontSize dd a:link,
+.FontSize dd a:visited {
+	display:block;
+	border:1px solid #A1AFC9;
+	text-decoration:none;
+	background:#FFFFFF url(/image/article/bg_font_size.gif) repeat-x bottom;
+}
+.FontSize dd.Small { /* Article Small Font Size */
+	padding-top:4px;
+}
+.FontSize dd.Small a { /* Article Small Font Size */
+	padding:1px 2px;
+	font-size:10px;
+	line-height:10px;
+	text-align:center;
+}
+.FontSize dd.Middle { /* Article middle Font Size */
+	padding-top:2px;
+}
+.FontSize dd.Middle a { /* Article middle Font Size */
+	padding:1px;
+	font-size:12px;
+	line-height:12px;
+	text-align:center;
+}
+.FontSize dd.Large a { /* Article large Font Size */
+	padding:1px;
+	font-size:14px;
+	line-height:14px;
+	text-align:center;
+}
+
+
+/* News Icon
+-------------------------------------------------------*/
+.NewsIco {
+	margin-bottom:20px;
+	line-height:100%;
+}
+.NewsIco dl {
+	float:right;
+	font-size:80%;
+}
+.NewsIco dt {
+	display:inline;
+	padding:2px 0 0 20px;
+}
+.NewsIco dd {
+	display:inline;
+	padding:2px;
+}
+.NewsIco dd.BookMark {
+	border-top:1px solid #A2B0CA;
+	border-bottom:1px solid #A2B0CA;
+	color:#C4CEE7;
+	background:#FFFFFF url(/image/article/bg_bookmark.gif) repeat-x bottom;
+}
+.NewsIco dd.BM {
+	vertical-align:middle;
+}
+
+.NewsIco dd.BM iframe{
+	margin-top:2px;
+	vertical-align:top;
+}
+
+.NewsIco dd.first {
+	border-left:1px solid #A2B0CA;
+}
+.NewsIco dd.last {
+	border-right:1px solid #A2B0CA;
+}
+.NewsIco dd img {
+	vertical-align:middle;
+	margin-bottom:3px;
+}
+.NewsIco dd span {
+	color:#666666;
+}
+
+
+/* News Article
+-------------------------------------------------------*/
+.NewsArticle {
+	margin-bottom:20px;
+}
+.NewsArticle h2, .NewsArticle h1 {
+	font-size: 120%;
+	line-height: 120%;
+	margin-bottom:0.8em;
+}
+.NewsArticle h3 {
+	font-size: 100%;
+	line-height: 170%;
+}
+.NewsArticle p {
+	margin:1em 0;
+	font-size:100%;
+	line-height:170%;
+}
+.NewsArticle .TopPhoto {
+	background:#EBEBEB;
+	float: left;
+	padding: 1px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	margin-top: 15px;
+}
+.NewsArticle .TopPhoto img {
+	text-align: center;
+	margin: 1px;
+}
+.NewsArticle .PhotoLeft {
+	background:#EBEBEB;
+	float: left;
+	padding:1px;
+	margin-right:10px;
+	margin-bottom: 5px;
+}
+
+/* 
+-------------------------------------------------------*/
+
+.NewsArticle .PhotoLeft img {
+	text-align: center;
+/*	margin-bottom:3px;*/
+}
+.NewsArticle .PhotoRight{
+	background:#EBEBEB;
+	padding:1px;
+	float: right;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	text-align: center;
+}
+.NewsArticle .PhotoRight img {
+	text-align: center;
+/*	margin-bottom:3px;*/
+}
+.NewsArticle .PhotoCenter {
+	background:#EBEBEB;
+	padding: 1px;
+	text-align: left;
+	margin: 15px auto 5px;
+}
+.NewsArticle .PhotoCenter img {
+	text-align: center;
+/*	margin-bottom:3px;*/
+}
+.NewsArticle .caption {
+	text-align: left;
+	background:#EBEBEB;
+	padding:3px;
+	line-height:120%;
+	font-size: 78%;
+}
+
+/* Links
+-------------------------------------------------------*/
+.NewsArticle .EJLink {
+	clear:both;
+	text-align: right;
+	font-size: 80%;
+}
+.NewsArticle .EJLink img {
+	margin-right: 5px;
+	vertical-align:middle;
+}
+.NewsArticle .RelatedLink {
+	clear:both;
+	padding:0 1em;
+}
+.NewsArticle .RelatedLink h2 {
+	font-size:90%;
+	margin-bottom:0.5em;
+}
+.NewsArticle .RelatedLink p {
+	font-size:100%;
+	line-height:120%;
+	margin-top:0;
+	margin-bottom:0;
+}
+.NewsArticle .RelatedLink a {
+	margin-left:3px;
+	padding-left: 8px;
+	background:url(/image/ico_arrow_gray.gif) no-repeat left center;
+}
+.NewsArticle .RelatedArticle {
+	clear:both;
+	padding:0 1em;
+}
+.NewsArticle .RelatedArticle {
+	margin-top:36px;
+	margin-bottom:20px;
+}
+.NewsArticle .Main01 .RelatedArticle {
+	margin-top:5px;
+	margin-bottom:20px;
+}
+.NewsArticle .RelatedArticle h2 {
+	font-size:90%;
+	margin-bottom:0.5em;
+}
+
+.NewsArticle .MaiLink li {
+	margin-bottom:0.5em;
+	padding-left: 8px;
+	font-size:100%;
+	background:url(/image/ico_arrow_gray.gif) no-repeat left center;
+}
+.NewsArticle .Credit {
+	clear:both;
+	margin-bottom:10px;
+}
+.NewsArticle .Credit p{
+	font-size:88%;
+}
+.NewsArticle .CreditNB {
+	clear:both;
+	margin-bottom:5px;
+	padding-bottom:20px;
+}
+.NewsArticle .CreditNB p{
+	font-size:88%;
+}
+
+/* Article Ad
+-------------------------------------------------------*/
+/*
+.ArticleAd {
+	margin-bottom:10px;
+	padding:10px;
+	background:#EFF7FF;
+}
+
+*/
+
+/* Profile
+-------------------------------------------------------*/
+.ProfBody {
+	font-size: 90%;
+	line-height: 170%;
+	clear:both;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	margin-top: 15px;
+	margin-bottom:10px;
+	padding-top: 15px;
+	padding-bottom:15px;
+}
+.ProfPhoto {
+	margin-top: 5px;
+	margin-right: 10px;
+	padding-bottom: 5px;
+	float: left;
+}
+.TitleIMG {
+	margin-right: 10px;
+	padding-bottom: 5px;
+	float: left;
+}
+/* Profile 20080408
+-------------------------------------------------------*/
+.ProfileBody {
+	margin-top: 15px;
+	margin-bottom:10px;
+	padding: 10px 0px;
+	border-top: 1px dashed #CCCCCC;
+	border-bottom: 1px dashed #CCCCCC;
+}
+.ProfilePhoto {
+	float: left;
+	padding-top: 5px;
+}
+.ProfilePhoto img{
+	border: 1px solid #CCCCCC;
+}
+.ProfileTxt {
+	margin-left: 110px;
+	font-size: 90%;
+	line-height: 170%;
+}
+/* Profile 20090114
+-------------------------------------------------------*/
+.ProfBodyB {
+	margin-top: 15px;
+	padding-top: 10px;
+	border-top: 1px dashed #CCCCCC;
+}
+.ProfBodyB img {
+	float: right;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.ProfBodyB p {
+	font-size: 90%;
+	line-height: 150%;
+}
+/* Area VideoMainichi(20080113)
+-------------------------------------------------------*/
+.VideoSendWrap{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.VideoSendWrap .VideoSend {
+	width: 100%;
+}
+.VideoSendWrap .VideoSend p {
+	float: left;
+	font-size: 100%;
+}
+.VideoSendWrap .VideoSend img {
+	margin:4px;
+}
+
+/* Page
+-------------------------------------------------------*/
+.PageBtn {
+	text-align:center;
+	clear: both;
+	margin-bottom: 15px;
+	width:330px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.PageNate {
+	margin-left:auto;
+	margin-right:auto;
+}
+.PageNate span.Prev,.PageNate span.Next{
+	background:#ffffff url(http://mainichi.jp/image/search/bg_pagenate.gif) repeat-x left bottom;
+	color: #999999;
+}
+.PageNate a,.PageNate span.PageNum,.PageNate span.Prev,.PageNate span.Next{
+	float:left;
+	display:block;
+	font-size:80%;
+	margin-right:0.2em;
+	margin-bottom:0.2em;
+	border:1px solid #cccccc;
+	padding:0.15em;
+	height:1.6em;
+}
+.PageNate a:link,.PageNate a:visited{
+	color:#000000;
+	font-weight:normal;
+	background:#ffffff url(http://mainichi.jp/image/search/bg_pagenate.gif) repeat-x left bottom;
+	text-decoration:none;
+}
+.PageNate a:hover{
+	color:#16387C;
+	font-weight:bold;
+	background:#E6E6E6 url(http://mainichi.jp/image/search/bg_pagenate_over.gif) repeat-x left bottom;
+}
+.PageNate span.PageNum{
+	background:#E6E6E6 url(http://mainichi.jp/image/search/bg_pagenate_over.gif) repeat-x left bottom;
+	font-weight:bold;
+}
+.Prev,.Next{
+	width:4em;
+}
+.PageNate a.Prev{
+	text-align:right;
+}
+.PageNate a.Next{
+	text-align:left;
+}
+.PageNate a.PageNum,.PageNate span.PageNum{
+	float:left;
+	width:1.8em;
+	text-align:center;
+}
+
+/* For IE7, Firefox */
+.PageNate>a.Prev, .PageNate>span.Prev,.PageNate>a.Next,.PageNate>span.Next,.PageNate>a.PageNum, .PageNate>span.PageNum{
+	height:1.15em;
+}
+.PageNate>a.Prev, .PageNate>span.Prev, .PageNate>a.Next, .PageNate>span.Next{
+	width:3.7em;
+}
+
+.PageNate>a.PageNum,.PageNate>span.PageNum{
+	width:1.5em;
+}
+.NewsArticle .NewsTitle .Page {
+	font-size: 80%;
+	font-weight: normal;
+	margin-left: 0.5em;
+}
+.NewsArticle .Company {
+	font-size: 100%;
+	font-weight: bold;
+	margin-bottom: 6px;
+}

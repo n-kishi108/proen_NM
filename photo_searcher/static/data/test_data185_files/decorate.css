@@ -1,0 +1,343 @@
+@charset "UTF-8";
+body {
+font-family: "ＭＳ Ｐゴシック" ,"ヒラギノ丸ゴ Pro W4" ,"Osaka",verdana ,arial ,sans-serif;
+}
+
+.fc_white  {color:#FFFFFF;}
+.fc_black  {color:#000000;}
+.fc_red    {color:#FF3300;}
+.fc_orange {color:#FF6600;}
+.fc_yellow {color:#FFCC00;}
+.fc_green  {color:#66CC00;}
+.fc_sky    {color:#66CCFF;}
+.fc_blue   {color:#0000FF;}
+.fc_violet {color:#CC0099;}
+.fc_pink   {color:#FF9999;}
+.fc_navy   {color:#000080;}
+.fc_darkgreen   {color:#008000;}
+.fc_gray   {color:#808080;}
+.fc_maroon   {color:#800000;}
+.fc_gold   {color:#FFD700;}
+.fs_5      {font-size:xx-large;line-height:150%;}
+.fs_4      {font-size:x-large;line-height:150%;}
+.fs_3      {font-size:large;line-height:150%;}
+.fs_2      {font-size:medium;line-height:150%;}
+.fs_1      {font-size:xx-small;line-height:150%;}
+
+
+blockquote .wiki  {
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: #e6e6e6;
+    margin-left: 3em;
+    margin-right: 2em;
+    color: black; 
+}
+
+.content ul {
+ margin-left: 2em;     
+}
+.content ol {
+ margin-left: 2em;     
+}
+.content pre {
+        width: 100%;
+/*\*/
+        overflow: auto;
+/* */ 
+        white-space: -moz-pre-wrap; /* Mozilla */
+        white-space: -pre-wrap;     /* Opera 4-6 */
+        white-space: -o-pre-wrap;   /* Opera 7 */
+        white-space: pre-wrap;      /* CSS3 */
+        word-wrap: break-word;      /* IE 5.5+ */
+        font-family: "ＭＳ Ｐゴシック" ,"ヒラギノ丸ゴ Pro W4" ,"Osaka",verdana ,arial ,sans-serif;                  
+}
+
+
+
+#prebody pre {
+        width: 100%;
+        overflow: auto;
+        white-space: -moz-pre-wrap; /* Mozilla */
+        white-space: -pre-wrap;     /* Opera 4-6 */
+        white-space: -o-pre-wrap;   /* Opera 7 */
+        white-space: pre-wrap;      /* CSS3 */
+        word-wrap: break-word;      /* IE 5.5+ */
+        font-family: "ＭＳ Ｐゴシック" ,"ヒラギノ丸ゴ Pro W4" ,"Osaka",verdana ,arial ,sans-serif;                  
+}
+
+#preextended pre {
+        width: 100%;
+        overflow: auto;
+        white-space: -moz-pre-wrap; /* Mozilla */
+        white-space: -pre-wrap;     /* Opera 4-6 */
+        white-space: -o-pre-wrap;   /* Opera 7 */
+        white-space: pre-wrap;      /* CSS3 */
+        word-wrap: break-word;      /* IE 5.5+ */
+        font-family: "ＭＳ Ｐゴシック" ,"ヒラギノ丸ゴ Pro W4" ,"Osaka",verdana ,arial ,sans-serif;                  
+}
+
+#profile pre {
+        width: 100%;
+        overflow: auto;
+        white-space: -moz-pre-wrap; /* Mozilla */
+        white-space: -pre-wrap;     /* Opera 4-6 */
+        white-space: -o-pre-wrap;   /* Opera 7 */
+        white-space: pre-wrap;      /* CSS3 */
+        word-wrap: break-word;      /* IE 5.5+ */
+        font-family: "ＭＳ Ｐゴシック" ,"ヒラギノ丸ゴ Pro W4" ,"Osaka",verdana ,arial ,sans-serif;                  
+}
+
+.wrap_img {
+ text-align: center;
+}
+.img_center {
+ margin-right:auto;
+ margin-left:auto;
+ width: 95%;
+}
+
+.content p.attention{
+font-size:x-small;
+_font-size:xx-small;
+line-height:130%;
+margin-top:5px;
+}
+
+/* ---------エントリー前後リンク--------------- */
+#main div.articleNavi {
+margin-left: 10px;
+margin-right: 10px;
+}
+#main div.articleNavi table.naviEntry{
+margin-top: 10px;
+}
+#main div.articleNavi table.naviEntry td {
+padding: 0 5px 0 5px;
+}
+#main div.articleNavi table.naviEntry td.tdCenter{
+width: 60px;
+}
+#main div.articleNavi table.naviEntry p{
+font-size: 12px;
+}
+
+
+/* ---------コメントフォーム--------------- */
+input.formName {
+width: 150px;
+font-family: "ＭＳ Ｐゴシック" ,"ヒラギノ丸ゴ Pro W4" ,"Osaka",verdana ,arial ,sans-serif;
+}
+input.formMail {
+width: 150px;
+font-family: "ＭＳ Ｐゴシック" ,"ヒラギノ丸ゴ Pro W4" ,"Osaka",verdana ,arial ,sans-serif;
+}
+input.formUrl {
+width: 150px;
+font-family: "ＭＳ Ｐゴシック" ,"ヒラギノ丸ゴ Pro W4" ,"Osaka",verdana ,arial ,sans-serif;
+}
+input.formTitle {
+width: 150px;
+font-family: "ＭＳ Ｐゴシック" ,"ヒラギノ丸ゴ Pro W4" ,"Osaka",verdana ,arial ,sans-serif;
+}
+textarea.formCom {
+width: 330px;
+font-family: "ＭＳ Ｐゴシック" ,"ヒラギノ丸ゴ Pro W4" ,"Osaka",verdana ,arial ,sans-serif;
+}
+input.formSubmit {
+
+}
+
+
+/* ---------afp--------------- */
+
+h3.afpbbItemTitle{
+background: none;
+border: none;
+}
+
+div.afpbbItemTxt a{
+color: #0C2A7C;
+}
+
+
+/* ---------adtag--------------- */
+
+div#adtag{
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+/* ---------sponavi_logo--------------- */
+#sponavi_logo {
+background: #000000;
+}
+
+#sponavi_logo td {
+color: #FFFFFF;
+font-size: 12px;
+padding: 3px 0 3px 0;
+}
+
+#sponavi_logo td a {
+color: #FFFFFF;
+font-size: 12px;
+text-decoration: underline;
+}
+
+#sponavi_logo td a:hover {
+color: #CC9900;
+text-decoration: underline;
+}
+
+#sponavi_logo td.right {
+text-align: right;
+padding-right: 5px;
+}
+
+#sponavi_logo img {
+vertical-align: middle;
+}
+
+
+/*----------rss-------------------------*/
+#rss_feed h3 {
+font-size: 12px;
+background: #cccccc;
+color: #000000;
+padding: 2px;
+margin-top: 3px;
+}
+
+/* ---------footer--------------- */
+#footer {
+margin: 0 0 10px 10px;
+}
+
+/* ---------clearfix--------------- */
+.clearfix:after {
+content: ".";
+display: block;
+visibility: hidden;
+height: 0.1px;
+font-size: 0.1em;
+line-height: 0;
+clear: both;
+}
+
+.clearfix {
+zoom: 100%;
+}
+
+/*-------------group------------ */
+#group {
+margin-top: 10px;
+}
+#group ul {
+margin-top: 5px;
+margin-bottom: 15px;
+line-height: 0;
+padding: 0 0 0 3px;
+}
+#group ul li {
+float: left;
+padding: 2px;
+margin: 0 3px 3px 0;
+border: #cccccc solid 1px;
+background: #ffffff;
+list-style-type: none;
+}
+#group ul li a img {
+border: none;
+font-size: 0;
+vertical-align: bottom;
+}
+
+/* ---------tag--------------- */
+div#main div.content ul.tag {
+margin: -5px 5px 5px 5px;
+padding: 0;
+}
+div#main div.content ul.tag li {
+display: inline;
+font-size: small;
+line-height: 1.4;
+margin-right: 0.5em;
+}
+div#main div.content ul.tag li.title {
+font-weight: bold;
+}
+
+/* ---------stag--------------- */
+div#main div.content ul.stag {
+margin: 20px 5px 5px 5px;
+padding: 0;
+}
+div#main div.content ul.stag li {
+display: inline;
+font-size: small;
+line-height: 1.4;
+margin-right: 0.5em;
+}
+div#main div.content ul.stag li.title {
+font-weight: bold;
+}
+
+/* ---------sidebar----------- */
+.sidebar h2 {
+margin-bottom: 3px;
+}
+
+
+/* ---------コメント注意書き----------- */
+span.com_chuui {
+font-weight: normal;
+}
+
+
+/* ---------コメント投稿方法----------- */
+.content p.method {
+margin-top: 20px;
+}
+.content p.method2 {
+margin-top: 20px;
+display: none;
+}
+
+
+/*コメントフォーム隠し*/
+
+div.content form{
+display: none;
+}
+
+/*
+h5.com_do {
+display: none;
+}
+*/
+
+/* コメントリンク隠し 
+ul.comment_login {
+display: none;
+}*/
+
+/*
+ul.comment_login li.yahoo,
+ul.comment_login li.mixi,
+ul.comment_login li.google,
+ul.comment_login li.hatena,
+ul.comment_login li.biglobe {
+display: none;
+} */
+
+ul.comment_login li.mail {
+margin-top:1em;
+}
+
+.content p.id_add {
+margin:5px 0 5px 0;
+}

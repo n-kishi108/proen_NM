@@ -1,0 +1,441 @@
+@charset "shift_jis";
+h3 {
+	margin-bottom: 17px;
+}
+h4 {
+	text-align: center;
+	margin-bottom: 25px;
+}
+#index_copy01 {
+	width: 330px;
+	float: left;
+	margin-left: 25px;
+	margin-bottom: 40px;
+	display: inline;
+}
+#index_copy02 {
+	width: 335px;
+	float: left;
+	margin-bottom: 20px;
+	display: inline;
+}
+
+/* index */
+#index_copy01 p,
+#index_copy02 p,
+#index_copy03 p{
+	font-weight: bold;
+	margin-bottom: 5px;
+	background-image: url(../img/icon_square.gif);
+	background-repeat: no-repeat;
+	padding-left: 14px;
+	background-position: 0px 3px;
+}
+h5 {
+	background-image: url(../img/h5_bg.jpg);
+	background-repeat: no-repeat;
+	clear: both;
+	height: 23px;
+	padding-top: 8px;
+	padding-left: 10px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-indent: 18px;
+	background-position: 10px;
+}
+.index_box {
+	float: left;
+	width: 335px;
+	margin-left: 20px;
+	display: inline;
+	margin-bottom: 20px;
+}
+.index_box img {
+	float: left;
+	margin-right: 10px;
+}
+.index_box p {
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 3px;
+}
+.index_box a {
+	color: #933fa8;
+}
+.index_box a:visited {
+	color: #933fa8;
+}
+.index_box div {
+	width: 225px;
+	float: left;
+}
+#contest_topic_path {
+	font-size: 10px;
+	color: #999999;
+	text-align: right;
+	margin-right: 10px;
+}
+
+
+/* cgsp */
+.subindex_box {
+	float: left;
+	width: 335px;
+	margin-left: 20px;
+	display: inline;
+	margin-bottom: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCCCCC;
+}
+.subindex_box p {
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.subindex_box div {
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+
+.subindex_box2 {
+	float: left;
+	width: 335px;
+	margin-left: 20px;
+	display: inline;
+	margin-bottom: 20px;
+}
+.subindex_box2 p {
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.subindex_box2 div {
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+/* cgsp_recruit */
+h6 {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	padding-left: 14px;
+	padding-bottom: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	background-image: url(../img/icon_square.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+.thumbnail_title {
+	font-weight: bold;
+	color: #666666;
+	background-color: #F0F0F0;
+	margin-top: 10px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	margin-left: 30px;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ADADAD;
+	clear: both;
+}
+.thumbnail {
+	margin-left: auto;
+	margin-bottom: 30px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-right: auto;
+}
+.thumbnail p {
+	text-align: center;
+	display: inline;
+	float: left;
+	margin-left: 40px;
+}
+.thumbnail td {
+	text-align: center;
+	width: 110px;
+	padding-bottom: 20px;
+}
+.thumbnail td img {
+	margin-bottom: 5px;
+}
+#game #title {
+	background-image: url(../img/title_contest.jpg);
+	background-repeat: no-repeat;
+	height: 38px;
+	margin-bottom: 17px;
+	text-indent: -9999px;
+}
+#game #title2 {
+	background-image: url(../img/title_contest_gemu.jpg);
+	background-repeat: no-repeat;
+	height: 38px;
+	margin-bottom: 17px;
+	text-indent: -9999px;
+}
+#game #title3 {
+	background-image: url(../img/title_contest_sakuhin.jpg);
+	background-repeat: no-repeat;
+	height: 38px;
+	margin-bottom: 17px;
+	text-indent: -9999px;
+}
+.section {
+	margin-bottom: 20px;
+}
+
+#anchor{
+	height: 20px;
+	padding-top: 5px;
+	padding-left: 10px;
+	float: left;
+	width: 728px;
+	border: 1px solid #D8D8D8;
+	margin-bottom: 15px;
+
+}
+#anchor li{
+	list-style-type: none;
+	list-style-position: inside;
+	float:left;
+	padding-left:7px;
+	margin-right: 15px;
+	background-image: url(../../img/link_aikon.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#game h4 {
+	background-image: url(../img/h4_bg.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+	text-indent: 35px;
+	height: 22px;
+	padding-top: 8px;
+	font-weight: bold;
+	color: #002D7E;
+	clear: both;
+	background-position: 10px;
+}
+#game p {
+	line-height: 1.5em;
+	margin-bottom: 15px;
+}
+#game .leftbox {
+	margin-right: 35px;
+	margin-left: 35px;
+	float: left;
+	display: inline;
+}
+#game .rightbox {
+	float: right;
+	margin-right: 15px;
+	display: inline;
+}
+#game .clear {
+	clear: both;
+	text-align: center;
+}
+#game .mgn_b0 p {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+#game h5 {
+	background-image: url(../../k_img/common/icon_square.gif);
+	background-repeat: no-repeat;
+	background-position: 3px;
+	text-indent: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-left: 15px;
+}
+#game .section4 p {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+#cg h3 {
+	background-image: url(../img/title_contest_cg.jpg);
+	background-repeat: no-repeat;
+	height: 38px;
+	margin-bottom: 17px;
+	text-indent: -9999px;
+}
+#cg h4 {
+	background-image: url(../img/h4_bg.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+	text-indent: 35px;
+	height: 22px;
+	padding-top: 8px;
+	font-weight: bold;
+	color: #002D7E;
+	clear: both;
+	background-position: 10px;
+}
+#cg h5 {
+	background-image: url(../../k_img/common/icon_square.gif);
+	background-repeat: no-repeat;
+	text-indent: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-left: 15px;
+	width: 720px;
+}
+#cg p {
+	line-height: 1.5em;
+	margin-bottom: 15px;
+}
+#cg .mgn_b0 {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+#cg p {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+#cg .h5_bg {
+	background-image: url(../img/h5_bg.jpg);
+	background-repeat: no-repeat;
+	text-indent: 5px;
+	height: 22px;
+	padding-top: 8px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	font-weight: bold;
+}
+#game_motion {
+	clear: both;
+}
+#game_motion table {
+	clear: both;
+}
+#game_motion h3 {
+	background-image: url(../img/title_contest_cg.jpg);
+	background-repeat: no-repeat;
+	height: 38px;
+	margin-bottom: 17px;
+	text-indent: -9999px;
+}
+#game_motion h4 {
+	background-image: url(../img/h4_bg.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+	text-indent: 25px;
+	height: 22px;
+	padding-top: 8px;
+	font-weight: bold;
+	color: #002D7E;
+	clear: both;
+}
+#game_motion h5 {
+	background-image: url(../../k_img/common/icon_square.gif);
+	background-repeat: no-repeat;
+	background-position: 3px;
+	text-indent: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-left: 15px;
+}
+.sp_l20px {
+	margin-left: 20px;
+}
+.sp_b10px {
+	margin-bottom: 10px;
+}
+.sp_b5px {
+	margin-bottom: 5px;
+}
+.sp_l10px {
+	margin-left: 10px;
+}
+.c_aikon{
+	background-image: url(../img/nt_cs_aikon.gif);
+	background-repeat: no-repeat;
+}
+#con_botan{
+	float: right;
+	padding-bottom: 15px;
+	padding-right: 10px;
+}
+#con_botan2{
+	float: right;
+	padding-right: 10px;
+}
+.title2 {
+	background-image: url(../img/title_contest_gemu.jpg);
+	background-repeat: no-repeat;
+	height: 38px;
+	text-indent: -9999px;
+}
+.title3 {
+	background-image: url(../img/title_contest_sakuhin.jpg);
+	background-repeat: no-repeat;
+	height: 38px;
+	text-indent: -9999px;
+}
+#op_botan{
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+#img_box_gemu{
+	float: right;
+	padding-left: 20px;
+}
+.ry_box{
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-bottom: 30px;
+	float: left;
+}
+.ry_box img{
+	float: right;
+	padding-left: 20px;
+}
+.tt_box{
+	float: left;
+	width: 740px;
+	padding-bottom: 20px;
+}
+#index_copy03 {
+	width: 320px;
+	float: left;
+	margin-bottom: 40px;
+	display: inline;
+}
+.h5_01 {
+	background-image: url(../img/h5_bg.jpg);
+	background-repeat: no-repeat;
+	clear: both;
+	padding-top: 8px;
+	padding-left: 10px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	width: 310px;
+}
+.h6_1 {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	padding-left: 14px;
+	padding-bottom: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	background-image: url(../img/icon_square.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+}

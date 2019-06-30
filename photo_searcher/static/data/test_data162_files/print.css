@@ -1,0 +1,224 @@
+﻿@charset "utf-8";
+
+* html body{
+	background:none;
+	zoom:89%;
+
+}
+* html #container{
+	width:760px;
+	background:none;
+	border:1px solid #cccccc;
+	border-top:none;
+}
+/*--------------------------
+	header
+--------------------------*/
+* html #header {
+	margin:0;
+}
+* html #header div.navigation ul li#hn-educate a{
+	width:93px;
+}
+* html #header div.utility form.search div.tip-box{
+	display:none;
+}
+* html #header div.utility form.search dl dd span.text{
+	display:inline-block;
+}
+#header div.navigation ul li{
+	width:84px;
+	height:44px;
+}
+#header div.navigation ul li#hn-movie a{
+	background:url(/common/images/navi_print001.gif);
+}
+body#movie #header div.navigation ul li#hn-movie a{
+	background:url(/common/images/navi_print001on.gif);
+}
+#header div.navigation ul li#hn-tv a{
+	background:url(/common/images/navi_print002.gif);
+}
+body#tv #header div.navigation ul li#hn-tv a{
+	background:url(/common/images/navi_print002on.gif);
+}
+#header div.navigation ul li#hn-event a{
+	background:url(/common/images/navi_print003.gif);
+}
+body#event #header div.navigation ul li#hn-event a{
+	background:url(/common/images/navi_print003on.gif);
+}
+#header div.navigation ul li#hn-dvd a{
+	background:url(/common/images/navi_print004.gif);
+}
+body#dvd #header div.navigation ul li#hn-dvd a{
+	background:url(/common/images/navi_print004on.gif);
+}
+#header div.navigation ul li#hn-anime a{
+	background:url(/common/images/navi_print005.gif);
+}
+body#anime #header div.navigation ul li#hn-anime a{
+	background:url(/common/images/navi_print005on.gif);
+}
+#header div.navigation ul li#hn-satellite a{
+	background:url(/common/images/navi_print006.gif);
+}
+body#satellite #header div.navigation ul li#hn-satellite a{
+	background:url(/common/images/navi_print006on.gif);
+}
+#header div.navigation ul li#hn-broadband a{
+	background:url(/common/images/navi_print007.gif);
+}
+body#broadband #header div.navigation ul li#hn-broadband a{
+	background:url(/common/images/navi_print007on.gif);
+}
+#header div.navigation ul li#hn-mobile a{
+	background:url(/common/images/navi_print008.gif);
+}
+body#mobile #header div.navigation ul li#hn-movie a{
+	background:url(/common/images/navi_print008on.gif);
+}
+#header div.navigation ul li#hn-shop{
+	width:87px;
+}
+#header div.navigation ul li#hn-shop a{
+	background:url(/common/images/navi_print009.gif);
+}
+body#shop #header div.navigation ul li#hn-shop a{
+	background:url(/common/images/navi_print009on.gif);
+}
+
+
+/*--------------------------
+	footer
+--------------------------*/
+* html #footer{
+	padding-left:10px;
+	padding-right:10px;
+	height:1px;
+	background-image:url(/common/images/bg005.gif);
+}
+* html #footer div#footer-inner{
+	height:1px;
+}
+* html #footer div#footer-inner div.inner{
+	height:1px;
+}
+
+/*--------------------------
+	content
+--------------------------*/
+* html #content-area div#content{
+	margin-right:6px;
+	margin-left:7px;
+	background-position:563px 0;
+}
+/* main-content
+------------------------------------ */
+* html #content-area div#content div#main-content{
+	margin-top:0;
+	padding-bottom:0;
+}
+* html body#other.no-extra #content-area div#content div#main-content,
+* html body.type404 #content-area div#content div#main-content{
+	margin-top:0;
+}
+/* .notes-box
+------------------------------------ */
+* html body#other #content-area div#content div#main-content dl.notes-box{
+	height:1px;
+}
+/* extra
+------------------------------------ */
+* html #content-area div#content div#extra{
+	margin-top:12px;
+}
+/*--------------------------
+	bottom-content
+--------------------------*/
+#content-area div#bottom-content{
+	display:none;
+}
+/*--------------------------
+	title
+--------------------------*/
+* html #content-area div.title1{
+	margin:8px 7px -24px 7px;
+}
+/*--------------------------
+	main-content
+--------------------------*/
+* html #content-area div#content div#main-content div.section#main-img p{
+	margin-right:0px;
+}
+/*--------------------------
+	botton
+--------------------------*/
+* html #content-area div#content div#main-content div.section div.wrap2Ra div.text ul.navigation li a,
+* html #content-area div#content div#main-content div.section div.wrap2Ra div.img ul.navigation li a{
+	padding-right:0;
+}
+/*--------------------------
+	icon
+--------------------------*/
+* html #content-area div#content div#main-content p.link-text a{
+	display:inline-block;
+}
+* html #content-area div#content div#main-content div.section ul.release-nav li a{
+	display:inline-block;
+}
+* html #content-area div#content div#main-content a.link-text{
+	display:inline-block;
+}
+* html #content-area div#content div#main-content a.link-blank{/*特撮追加により修正*/
+	display:inline-block;
+}
+/*--------------------------
+	release-nav
+--------------------------*/
+* html #content-area div#content div#main-content div.section ul.release-nav li a span{
+	display:inline-block;
+}
+/*--------------------------
+	home
+--------------------------*/
+* html body#home #content-area div#content div#main-content div#extra div#brand-content ul.bt{
+	width:309px;
+}
+* html body#home #content-area div#content div#main-content div#release-content p.link-text a{
+	display:inline-block;
+}
+
+/*--------------------------
+	tv
+--------------------------*/
+* html body#tv #content-area div#content div#main-content div.section p.backnumber a{
+	display:inline-block;
+}
+/*特撮追加により修正*/
+* html body#tv #content-area div#main-content div.section .title2 span.inner span.back a{
+	display:inline-block;
+}
+
+/*--------------------------
+	education
+--------------------------*/
+* html body#education #content-area div#content div#main-content{
+	margin-top:-24px;
+}
+
+* html body#education #content-area div#content div#extra{
+	margin-top:-12px;
+}
+
+* html body#education #content-area div.title1{
+	margin:8px 7px 0 7px;
+	padding-top: 0;
+}
+* html body#education #content-area div.title1 h1{
+	margin-top: 9px;
+}
+
+* html body#education #content-area div#content div#main-content div.link-text a{
+	zoom:1;
+}

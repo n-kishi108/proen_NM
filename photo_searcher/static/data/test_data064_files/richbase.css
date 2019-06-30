@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+.content-header{
+  font-size:medium !important;
+  border:none !important;
+  background:none !important;
+  text-decoration:none !important;
+  font-weight:bold !important;
+}
+
+img.image-full {
+	width: 100% !important;
+}
+
+.entry-recent-posts ul{
+  margin:0px;
+  padding:0px;
+}
+
+.entry-recent-posts li{
+  margin-bottom:5px;
+  padding:0px;
+  line-height:130%;
+  list-style-type: none;
+}
+
+.sidebar .module-widget .module-content img {
+  border:none;
+}
+
+/*.module-widget {
+	background: none !important;
+}
+
+.module-widget div.module-content {
+	background: none !important;
+}
+*/
+
+
+#about div.content table {
+clear:both;
+}
+
+
+/* sponsord link css */
+.ad_url a
+{
+ color: #008000 !important;
+}
+
+
+/* adsense float clear */
+
+#center div.adsense {
+	clear:both;
+}
+
+/* sidebar img border clear */
+
+.sidebar img {
+	border:none;
+}
+
+/* sidebar qrcode linktext small */
+
+.module-qrcode {
+  font-size:small;
+}
+
+
+.module-list-item-desc,
+.archive-category-desc,
+.archive-list-item-desc {
+    margin-left: 10px;
+}
+
+/* comment note */
+
+span.comment-form-note {
+	display:block;
+}
+
+/* sidebar accessÅ@contentsÅ@left */
+.module-ax-blogparts-query ul{
+	text-align:left;
+
+}
+
+/*	not to hide comment button, */
+div.comment-form form {
+	height: auto !important;
+}
+
+/**************ad********************/
+#mafc_default{
+	}
+.ad_header {
+font-size: small;
+font-weight: bold;
+/*border-bottom:1px solid #D6CFBD;*/
+margin:30px 0 5px;
+padding:0;
+}
+
+
+.ads dl {
+	margin: 0;
+	padding: 0;
+}
+
+div.ads {
+	padding:10px 0;
+	margin-bottom : 30px;
+	font-size:1.14em;
+	clear:both;
+}
+
+#top #mafc_default {
+	padding: 0 5px;
+}
+div.ads p.ad_logo {
+    font-weight : bold;
+		border-left:#1270d2 2px solid;
+		padding:0 0 0 7px;
+		margin:0 0 10px 5px;
+		line-height:1.2;
+}
+
+div.ads dl{
+	padding:0;
+}
+div.ads dl dt.optimized{
+	margin:0 0 5px;
+	font-size:small;
+	font-weight:normal;
+}
+div.ads dl dt.optimized a{
+	display:block;
+	text-decoration : none;
+	padding:5px;
+	/*border: 1px solid transparent;*/
+}
+div.ads dl dt.optimized a:hover{
+	background:#F1EEE7;
+	/*border: 1px solid #E5DFD2;*/
+}
+
+div.ads dl dt.optimized .ad_title {
+	font-weight : bold;
+	 text-decoration:underline;
+	 margin:0 8px 0 0;
+}
+div.ads dl dt.optimized .ad_url {
+   color : green;
+font-weight:normal;
+}
+div.ads dl dt.optimized .ad_line {
+   display : block;
+   color : black;
+font-weight:normal;
+}
+
+/* 2009/10/16 */
+#cmkingline_external_object { top: -100px; height: 0px; display: none !important; }
+
+/* 2010/01/29 */
+.module-more {
+	font-size: x-small;
+}
+

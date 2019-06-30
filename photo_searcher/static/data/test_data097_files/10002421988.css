@@ -1,0 +1,831 @@
+/*-----------------------------------------------------
+ameblo CSS Skin Settings
+Skin for:	basic
+FileName:   common.css
+$Revision: 1.5 $
+-----------------------------------------------------*/
+
+/*■■■■■■■■■■■■■■■■■■■■■■■■■■■■*/
+/*■■■■■■■■■■■ 基本設定 ■■■■■■■■■■■■*/
+
+body{
+margin: 0;
+padding: 0;
+background:#eeeeee url(http://www.s-contigo.com/images/blog/bgMain.gif) repeat-y center top;
+text-align:center;
+color:#333333;
+font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", Arial, Helvetica;
+font-size:12px;
+}
+
+#frame{
+width: 896px;
+margin:0 auto;
+background-color: #FFFFFF;
+text-align:left;
+}
+
+#wrap{
+position: relative;
+width: 896px;
+}
+
+#sub_main{
+width:100%;
+overflow:hidden;
+}
+
+#sub_a,
+#sub_b,
+#main{
+overflow:hidden;
+word-break:break-all;
+}
+
+#sub_a{
+color:#666666;
+background-color: #FFFFFF;
+}
+
+#sub_b{
+color:#666666;
+background-color: #FFFFFF;
+}
+
+img{
+border: 0;
+}
+
+blockquote{
+margin:12px 0;
+padding:10px;
+border:2px dotted #D4D4D4;
+}
+
+pre{
+margin:0;
+padding:0;
+}
+
+a{
+text-decoration: none;
+color:#0066CC;
+}
+
+a:visited{
+text-decoration: none;
+color:#996699;
+}
+
+a:hover{
+text-decoration: underline;
+color:#FF3366;
+}
+
+input,
+textarea{
+font-size:12px
+}
+
+p{
+margin: 0;
+padding: 0;
+}
+
+.menu_frame ul,
+.menu_frame li,
+.menu_frame dl,
+.menu_frame dt,
+.menu_frame dd,
+#comment_module ul,
+#comment_module li,
+#trackback ul,
+#trackback li,
+#reader_list ul,
+#reader_list li,
+#favorite_list ul,
+#favorite_list li,
+#bookmark_list ul,
+#bookmark_list li{
+margin: 0;
+padding: 0;
+list-style-type:none;
+}
+
+.menu_title,
+.mainMenu ul,
+.mainMenu dl,
+.mainMenu p,
+.list,
+.link_blog,
+#archives select,
+#theme_list select,
+#search form{
+margin-left: 6px;
+margin-right: 6px;
+}
+
+p.list,
+p.link_blog{
+padding-top: 5px;
+}
+
+#frame:after,
+#wrap:after{
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+#frame,
+#wrap{display: inline-table;}
+
+/* Hides from IE-mac ¥*/
+* html #frame,
+* html #wrap{height: 1%;}
+#frame,
+#wrap{display: block;}
+/* End hide from IE-mac */
+
+
+/*■■■■■■■■■■■■■■■■■■■■■■■■■■■■*/
+/*■■■■■■■■■■■ ヘッダー ■■■■■■■■■■■■*/
+div#header{
+background:url(http://www.s-contigo.com/images/blog/header.jpg) no-repeat;
+height:303px;
+margin-top:-75px;
+}
+
+div#header h1{
+margin:0;
+padding:0;
+font-size:2px;
+font-weight:normal;
+line-height:1;
+}
+
+div#header h1 a,
+div#header h1 a:link,
+div#header h1 a:active,
+div#header h1 a:visited{
+color:#4c9ed0;
+height:70px;
+width:270px;
+display:block;
+}
+
+div#header h2{
+display:none;
+}
+
+/*■■■ヘッダー内ナビゲーション*/
+
+div#userNaviArea{
+padding:0;
+}
+
+div#userNaviArea a#userNickName{
+float:left;
+padding:0 10px 0 5px;
+font-size:10px;
+}
+
+div#userNaviArea a{
+font-weight:bold;
+}
+
+ul#navigationList{
+margin:0;
+padding:8px 0 0 0;
+list-style-type:none;
+}
+
+ul#navigationList li{
+float:left;
+margin:0;
+padding:0 8px;
+border-right:1px solid #999999;
+}
+
+ul#navigationList li.lastItem{
+border:none;
+}
+
+/*■■■■■■■■■■■■■■■■■■■■■■■■■■■■*/
+/*■■■■■■■■■■ メインコラム ■■■■■■■■■■■*/
+
+/*■■■メインコラム＿メッセージボード*/
+#message{
+margin-bottom:14px;
+}
+
+#message .contents{
+padding:14px 24px;
+border:1px solid #D4D4D4;
+}
+
+/*■■■メインコラム＿記事*/
+.entry{
+margin-bottom: 40px;
+}
+
+.entry .entry_head{
+height:16px;
+}
+
+.entry .theme{
+display:block;
+padding:0 0 5px 0;
+border-bottom:1px dotted #7E8984;
+font-size: 10px;
+}
+
+.entry .date{
+display:block;
+float:left;
+margin:0;
+padding: 1px 0px;
+}
+
+.entry .name{
+display:block;
+float:right;
+margin:2px 0 0 0;
+padding:0;
+color:#666666;
+font-size:10px;
+}
+
+.entry h3.title{
+clear:both;
+margin:0 0 10px 0;
+padding:8px 5px;
+background-color:#2D3437;
+color:#ffffff;
+font-size:12px;
+font-weight:normal;
+line-height:1;
+}
+
+.entry .contents{
+margin:15px 0 15px 0;
+font-size: 12px;
+line-height: 1.5;
+}
+
+.entry .foot{
+padding-top: 5px;
+border-top: 1px dotted #7E8984;
+font-size:10px;
+text-align: right;
+}
+
+/*■■■メインコラム＿記事 下部広告*/
+#footer_ad{
+margin:20px auto 10px auto;
+text-align: center;
+}
+
+/*■■■メインコラム＿ページ送り*/
+.page{
+margin:7px auto 14px;
+padding:8px;
+font-size:10px;
+text-align: center;
+border:1px solid #dddddd;
+background-color:#ffffff;
+}
+
+/*■■■メインコラム＿トラックバック*/
+#trackback{
+margin:15px 0 0;
+padding:0;
+border-top:3px double #7E8984;
+line-height: 1.5;
+}
+
+#trackback h3.title{
+margin: 0px;
+padding:7px 0 8px 0;
+background:none;
+font-size:14px;
+}
+
+#trackback .label{
+font-weight: bold;
+font-size:12px;
+}
+
+#trackback p.tr_URL{
+margin-bottom: 16px;
+padding:0 0 8px 0;
+border-bottom:1px dotted #7E8984;
+}
+
+#trackback ul{
+margin:8px 0 18px 0;
+padding:0 0 8px 0;
+border-bottom:1px dotted #7E8984;
+}
+
+/*■■■メインコラム＿コメント*/
+#comment_module{
+border-top:3px double #7E8984;
+line-height: 1.5;
+}
+
+#comment_module h3.title{
+margin: 0px;
+padding:7px 0 8px 0;
+background:none;
+font-size:14px;
+}
+
+#comment_module p.list{
+margin: 0px 0px 10px 0px;
+padding: 0px;
+font-size: 10px;
+}
+
+#comment_module .comment_body{
+margin: 0;
+padding:0 0 10px 0;
+}
+
+#comment_module .each_comment{
+margin: 0;
+padding:0 0 20px 0;
+}
+
+#comment_module .comment_footer{
+margin:0;
+padding:0;
+border-top:1px dotted #7E8984;
+}
+
+#comment_module .error{
+margin-top: 20px;
+padding-bottom: 10px;
+color:#FF0000;
+}
+
+#comment_module .label{
+font-weight: bold;
+font-size:12px;
+}
+
+#comment_module form ul{
+width: 340px;
+margin:0 auto;
+}
+
+#comment_module form li{
+display: block;
+width: 340px;
+margin-bottom: 5px;
+}
+
+#comment_module li.lastItem{
+display: block;
+width: 330px;
+margin-bottom: 5px;
+text-align: right;
+}
+
+#comment_module .button{
+margin-left: 5px;
+width: 80px;
+font-size: 11px;
+}
+
+/*■■■メインコラム＿読者一覧■*/
+#reader_list h3.title{
+margin: 0px;
+padding:7px 0 8px 0;
+background:none;
+font-size:14px;
+}
+
+#reader_list li{
+margin:0;
+padding:8px 0;
+border-bottom: 1px dotted #7E8984;
+}
+
+#reader_list .reader_blog{
+display:block;
+margin-top:2px;
+}
+
+/*■■■メインコラム＿お気に入りブログ一覧*/
+#favorite_list h3.title{
+margin:0;
+padding:0 0 5px 0;
+background:none;
+font-size:14px;
+}
+
+#favorite_list ul{}
+
+#favorite_list li{
+margin: 0;
+padding:8px 0;
+border-bottom: 1px dotted #7E8984;
+}
+
+#favorite_list .favorite_blog{
+display:block;
+margin-top:2px;
+}
+
+#favorite_list .favorite_theme{
+display:block;
+margin-top:2px;
+}
+
+/*■■■メインコラム＿ブックマーク一覧*/
+#bookmark_list h3.title{
+margin: 0px;
+padding:7px 0 8px 0;
+background:none;
+font-size:14px;
+}
+
+#bookmark_list ul{}
+
+#bookmark_list li{
+margin-bottom: 4px;
+padding:4px 0;
+border-bottom: 1px dotted #7E8984
+}
+
+/*■■■メインコラム＿最新記事一覧*/
+#recent_entries_list h3.title{
+margin: 0px;
+padding:7px 0 8px 0;
+background:none;
+font-size:14px;
+}
+
+#recent_entries_list li{
+margin:0;
+padding:8px 0;
+border-bottom: 1px dotted #7E8984;
+}
+
+/*■■■メインコラム＿気になるテーマ一覧*/
+#joinbookList h3{
+margin: 0px;
+padding:7px 0 8px 0;
+border:none;
+background:none;
+font-size:14px;
+}
+
+#joinbookList a:link{
+color:#0066CC;
+text-decoration:none;
+}
+
+#joinbookList a:visited{
+color:#996699;
+}
+
+#joinbookList a:hover{
+text-decoration:underline;
+color:#FF3366;
+}
+
+#joinbookList a:active{
+color:#FF3366;
+}
+
+
+/*■■■■■■■■■■■■■■■■■■■■■■■■■■■■*/
+/*■■■■■■ サイドA(sub_a)&サイドB(sub_b) ■■■■■■*/
+
+/*■■■サイド＿サイドA,B共通項目*/
+.list{
+font-size:10px;
+}
+
+h4.menu_title{
+margin:0 0 10px 0;
+padding:3px 6px;
+color: #ffffff;
+background-color:#4C9ED0;
+font-size:12px;
+font-weight: normal;
+}
+
+
+div.mainMenu{
+margin:0 0 30px 0;
+padding:0;
+font-size: 11px;
+line-height: 1.3;
+}
+
+div.menu_frame{}
+
+/*■■■サイド＿ランキング*/
+#ranking .menu_frame{
+font-size: 10px;
+line-height: 1.4;
+}
+
+#ranking .rank_ttl{}
+
+#ranking .menu_frame img{
+vertical-align:bottom;
+}
+
+/*■■■サイド＿プロフィール*/
+#profile p{
+display: block;
+}
+
+#profile #new_profile{
+color:#666666;
+}
+
+/*■■■サイド＿ブログの読者*/
+#reader dl{
+margin-bottom: 7px;
+}
+
+#reader dd{}
+
+#reader ul{
+margin:5px 5px 0 5px;
+padding:8px 0 0 0;
+border-top:1px dotted #7E8984;
+}
+
+#reader li{}
+
+#reader p{
+display: inline;
+}
+
+/*■■■サイド＿カレンダー*/
+#calendar{}
+
+#calendar .menu_title{}
+
+#calendar table{
+width: 168px;
+font-size:11px;
+line-height:1.3;
+}
+
+#calendar caption{
+padding:5px 0px;
+}
+
+#calendar caption a{
+padding:0px 5px;
+}
+
+#calendar .sun{}
+#calendar .sat{}
+
+#calendar td,
+#calendar th{
+padding:0px;
+text-align:center;
+}
+
+#calendar td a{
+font-weight:bold;
+text-decoration: underline;
+}
+
+/*■■■サイド＿テーマ*/
+#theme_list{}
+
+/*■■■サイド＿最近の記事一覧*/
+#recent_entries{}
+
+/*■■■サイド＿アーカイブ*/
+#archives{}
+
+/*■■■サイド＿検索*/
+#search form{
+margin:0 7px;
+}
+
+#search .searchbox{
+width: 100px;
+}
+
+#search .searchbtn{
+width: 40px;
+}
+
+/*■■■サイド＿お気に入りブログ*/
+#favorite{}
+
+/*■■■サイド＿ブックマーク*/
+#bookmark{}
+
+/*■■■サイド＿最近のコメント*/
+#ecent_comment{}
+
+/*■■■サイド＿ランキング*/
+#ranking .rank_ttl{
+display: block;
+}
+
+#ranking .rank{
+display: block;
+padding:0 3px 0 3px;
+}
+
+#ranking a{}
+
+#ranking img{
+margin-left: 5px;
+}
+
+#ranking .rank_all,
+#ranking .rank_genre{
+margin-bottom: 8px;
+}
+
+/*■■■サイド＿アメブロ推奨枠*/
+#ameblo{
+padding-top: 7px;
+font-size: 10px;
+text-align: center;
+}
+
+#ameblo p{
+padding:0 7px 7px 7px;
+line-height: 1.25;
+text-align: left;
+}
+
+#ameblo li{
+display: block;
+margin-bottom: 5px;
+}
+
+/*■■■サイド＿RSS*/
+#rss{
+margin: -3px auto 0 auto;
+padding-bottom:16px;
+border: none;
+background-image: none;
+text-align: center;
+}
+
+/*■■■サイド＿プラグイン*/
+.plugin{
+margin-bottom:15px;
+text-align: center;
+}
+
+/*■■■サイド＿気になるテーマ*/
+#joinbook{
+margin-bottom:15px;
+padding:1px;
+padding-bottom:5px;
+background-color:#FFFFFF;
+border:none;
+font-size:10px;
+}
+
+#joinbook h4{
+margin:0 0 4px 0;
+padding:4px 6px;
+background-image:none;
+background-color:#EFEFEF;
+border:none;
+font-size:14px;
+font-weight: bold;
+text-align:left;
+color: #333333;
+}
+
+#joinbook h4 span{
+margin:0;
+padding:0;
+background-image:none;
+}
+
+#joinbook h4 a:link{
+color:#333333;
+text-decoration:none;
+}
+#joinbook h4 a:hover{
+color:#333333;
+text-decoration: underline;
+}
+#joinbook h4 a:visited{
+color:#333333;
+text-decoration:none;
+}
+
+#joinbook ul{
+margin: 2px;
+padding:0px;
+}
+
+#joinbook li{
+margin:0;
+padding:0px;
+list-style-type:none;
+line-height:1.3;
+}
+
+#joinbook p.list{
+margin:0 10px;
+padding:5px 0 0 0;
+background:none;
+border-top:1px dotted #818C87;
+text-align:right;
+}
+
+#joinbook p a{
+margin:0;
+font-size:10px;
+line-height:1;
+}
+
+#joinbook .theme_title{
+margin: 0 10px 8px 10px;
+padding:0 0 3px 0;
+border-bottom:1px dotted #818C87;
+font-size: 10px;
+font-weight:bold;
+text-align:left;
+
+}
+#joinbook span.themeicon{
+display: block;
+}
+
+#joinbook a:link{
+color:#0066CC;
+text-decoration:none;
+}
+
+#joinbook a:visited{
+color:#996699;
+}
+
+#joinbook a:hover{
+text-decoration:underline;
+color:#FF3366;
+}
+
+#joinbook a:active{
+color:#FF3366;
+}
+
+#joinbook ul.left{
+padding:0 10px 8px 10px;
+}
+
+#joinbook li.thumbnail{
+margin-left:0;
+}
+
+/*■■■■■■■■■■■■■■■■■■■■■■■■■■■■*/
+/*■■■■■■■■■■■ フッター ■■■■■■■■■■■■*/
+div#footerArea{
+margin:0;
+padding:12px 8px 25px 0;
+border-top:1px solid #666666;
+text-align:right;
+}
+
+/*-----------------------------------------------------
+ameblo CSS Skin Layout Settings
+Skin for:	basic
+FileName:   type_b.css
+$Revision: 1.3 $
+-----------------------------------------------------*/
+
+#main{
+float:left;
+width:704px;
+margin:0;
+padding:0 10px;
+background:#ffffff url(http://www.s-contigo.com/images/blog/bgEntry.gif) repeat-y center top;
+}
+
+#sub_a{
+float: right;
+z-index: 1;
+width:170px;
+margin:0;
+padding: 0;
+}
+
+#sub_b{
+display: none;
+}

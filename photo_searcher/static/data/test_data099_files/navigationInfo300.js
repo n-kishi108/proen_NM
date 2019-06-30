@@ -1,0 +1,3 @@
+var imgMax  = 1; //セットする画像の枚数。
+var imgRand = Math.floor(Math.random() * imgMax);
+if(imgRand == 0)       document.write('<a href="http://www.nejinews.co.jp/special/M-Tech/2010/tokyo.html"><img src="http://www.nejinews.co.jp/special/M-Tech/img/ad/10-tokyo-M-tech.gif" style="margin-top: 3px;"></a><br><a href="http://www.nejinews.co.jp/info/mla.html"><img src="/img/ad/navigationInfo300-mla.jpg"></a>');

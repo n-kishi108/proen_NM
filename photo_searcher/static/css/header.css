@@ -1,0 +1,78 @@
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -52px;
+    width: 100%;
+    height: 51px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.0975);
+    background: #fff;
+    font-size: 0;
+}
+
+header div.wrapper {
+    width: 100%;
+    max-width: 1000px;
+    height: 51px;
+    margin: 0 auto;
+}
+
+header div.wrapper div.logo-wrapper, header div.wrapper .search-box {
+    vertical-align: top;
+}
+
+/*ロゴ*/
+header div.wrapper div.logo-wrapper {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 150px;
+    height: 51px;
+    padding: 0 10px;
+}
+
+header div.wrapper h1.logo {
+    font-family: "Monsieur La Doulaise";
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 51px;
+    margin: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+}
+
+
+/*検索ボックス*/
+
+header div.wrapper .search-box {
+    display: inline-block;
+    width: calc(100% - 150px);
+    max-width: 850px;
+    height: 51px;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: inherit;
+}
+
+header div.wrapper .search-box input[type='text'] {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: solid 1px #dbdbdb;
+    background: #fafafa;
+    font-size: 14px;
+    transition: background .1s;
+    transition: box-shadow .1s;
+}
+
+header .search-box input[type='text']:focus {
+    outline: none;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 255, 0.3);
+    background: #fff;
+    /* border-bottom-color: deeppink; */
+}

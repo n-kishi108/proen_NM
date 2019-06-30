@@ -1,0 +1,3 @@
+
+
+document.write('<iframe src="http://api.kadokaword.jp/content_match?partsType=1&contentId=7106&dispSiteId=15&siteId=&exceptedSiteId=&imgFlg=1&adultFlg=0&imgDispFlg=1&iconDispFlg=1&logoDispFlg=1&limit=3&partsSizeType=6&borderColor=F00000&linkColor=1F83FF&textColor=000000" style="border-style:none; width:468px; height:451px;" frameborder="0" scrolling="no"></iframe>');

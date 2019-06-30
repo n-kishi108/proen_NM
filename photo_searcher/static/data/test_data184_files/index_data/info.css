@@ -1,0 +1,18 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+margin:8px;
+background-color:#eeeeee;
+font-size:12px;
+color:#000000;
+text-align:left;
+line-height:130%;
+}
+
+
+a:link {color: #0000ff; text-decoration: underline;}
+a:visited {color: #800080; text-decoration: underline;}
+

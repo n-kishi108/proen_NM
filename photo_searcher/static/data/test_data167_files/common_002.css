@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------------------
+
+TITLE   : nikkansports.com CSS
+DATE    : 2008/03/03
+URL     : http://www.nikkansports.com/css/common.css
+AUTHOR  : nikkansports.com
+
+--------------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------
+statement to exclude IE4(Win, Mac)
+---------------------------------------------------------------- */
+
+@import "/css/common_macie45.css";
+
+
+
+
+
+/* ----------------------------------------------------------------
+Basic CSS
+---------------------------------------------------------------- */
+body {
+	font-size: 100%;
+	color: #333333;
+	background: #ebf0f2;
+}
+
+h1 { font-size: 130%; }
+h2 { font-size: 120%; }
+h3 { font-size: 110%; }
+h4 { font-size: 100%; }
+.txt3 { font-size: 100%; }
+.txt2 { font-size: 90%; }
+.txt1 { font-size: 80%; }
+.txt3h { font-size: 100%; line-height: 1.5em; }
+.txt2h { font-size: 90%; line-height: 1.6em; }
+.txt1h { font-size: 80%; line-height: 1.3em; }
+
+.helpNavi {
+	width: 200px;
+	position: absolute;
+	top: -999px;
+}
+
+.helpNavi a {
+	text-decoration: none;
+	background: transparent;
+}
+
+img,
+a img {
+	text-decoration: none;
+	background: transparent;
+	border: 0 none;
+	vertical-align: bottom;
+}

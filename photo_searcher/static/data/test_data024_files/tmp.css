@@ -1,0 +1,320 @@
+@charset "utf-8";
+
+/*--------------------------------------
+	Reset CSS
+---------------------------------------*/
+
+html {
+	color:#000;
+	background:#FFF;
+}
+
+fieldset,
+img { border:0; }
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+	font-style:normal;
+	font-weight:normal;
+}
+
+li { list-style:none; }
+
+caption,
+th { text-align:left; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+q:before,
+q:after { content:''; }
+
+abbr,
+acronym {
+	border:0;
+	font-variant:normal;
+}
+
+img { border:none; }
+
+sup { vertical-align:text-top; }
+
+sub { vertical-align:text-bottom; }
+
+input,
+textarea,
+select {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+
+input,
+textarea,
+select { *font-size:100%; }
+
+legend { color:#000; }
+
+ul,
+ol,
+li {
+	margin:0;
+	padding:0;
+	color: #333;
+	line-height:1.5;
+}
+
+
+
+
+/*--------------------------------------
+	Font CSS
+---------------------------------------*/
+
+body {
+	font-size:13px;
+
+	*font-size:small;
+	*font:x-small;
+	margin: 0px;
+	padding: 0px;
+	line-height: 20px;
+}
+
+table {
+	font-size:inherit;
+	font:100%;
+}
+
+pre,
+code,
+kbd,
+samp,
+tt {
+	font-family:monospace;
+	*font-size:108%;
+	line-height:100%;
+}
+
+
+/*--------------------------------------
+	Font Family CSS
+---------------------------------------*/
+
+body {
+	font-family:
+	"ヒラギノ角ゴ Pro W3",
+	Hiragino Kaku Gothic Pro W3,
+	"メイリオ",
+	Meiryo,
+	Osaka,
+	"ＭＳ Ｐゴシック",
+	MS P Gothic,
+	sans-serif;
+}
+
+/*Opera9*/
+;;body {
+	font-family:
+	"メイリオ",
+	Meiryo,
+	"ＭＳ Ｐゴシック",
+	MS P Gothic,
+	sans-serif;
+}
+
+/*Internet Explorer7*/
+*:first-child+html body {
+	font-family:
+	"メイリオ",
+	Meiryo,
+	"ＭＳ Ｐゴシック",
+	MS P Gothic,
+	sans-serif;
+}
+
+/*Internet Explorer6*/
+*html body {
+	font-family:
+	"メイリオ",
+	Meiryo,
+	"ＭＳ Ｐゴシック",
+	MS P Gothic,
+	sans-serif;
+}
+
+#container {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#topflash-box {
+	height: 600px;
+	width: 1000px;
+}
+#top-h2 {
+	background: url(../images/common/triangle.jpg) no-repeat 0px;
+	text-indent: 0px;
+	padding-left: 11px;
+	border-bottom: 1px dotted #666666;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin: 20px 0px 0px;
+}
+#top-contents {
+	width: 890px;
+	margin: 0px auto;
+}
+.title01 {
+	font-size: 9px;
+	color: #999999;
+	padding-left: 9px;
+}
+#news {
+	width: 400px;
+	float: left;
+	margin-right: 20px;
+}
+#calendar {
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+}
+#etc-box {
+	float: left;
+	width: 200px;
+	margin-top: 20px;
+}
+#footer-menu {
+	text-align: center;
+	font-size: 11px;
+	border-top: 1px solid #999999;
+	padding-top: 8px;
+}
+#copyright {
+	font-size: 9px;
+	text-align: center;
+	padding: 10px;
+}
+#adobe {
+	font-size: 7px;
+	margin-bottom: 15px;
+	line-height: 10px;
+}
+
+/* header     */
+#header li {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	height: 29px;
+}
+#submenu li {
+	border-right: 1px dotted #4D94DB;
+}
+
+
+#header002 a:hover {background: url(../images/common/menuber01.gif) no-repeat 0px -60px;}
+#header003 a:hover {background: url(../images/common/menuber02.gif) no-repeat 0px -60px;}
+#header004 a:hover {background: url(../images/common/menuber03.gif) no-repeat 0px -60px;}
+#header005 a:hover {background: url(../images/common/menuber04.gif) no-repeat 0px -60px;}
+#header006 a:hover {background: url(../images/common/menuber05.gif) no-repeat 0px -60px;}
+#header007 a:hover {background: url(../images/common/menuber06.gif) no-repeat 0px -60px;}
+
+#header008 a:hover {background: url(../images/common/menuber07.gif) no-repeat 0px -12px;}
+
+#pagetitle {
+	background: url(../images/common/title-h2.gif);
+	height: 42px;
+	width: 923px;
+	margin: 0px;
+	font-size: 30px;
+	color: #FFFFFF;
+	line-height: 36px;
+	vertical-align: middle;
+	display: block;
+	padding: 8px 0px 0px 77px;
+	clear: both;
+}
+#header {
+	width: 1000px;
+}
+#contents {
+	width: 860px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 45px;
+}
+.h3tipe01 {
+	border-bottom: 1px dotted #0066CC;
+	border-left: 5px solid #0066CC;
+	font-size: 15px;
+	font-weight: bold;
+	color: #0066CC;
+	padding: 4px;
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+.h3tipe02 {
+	font-size: 39px;
+	float: left;
+	width: 180px;
+	margin: 0px 20px 0px 0px;
+	line-height: 39px;
+}
+#pagetitle strong {
+	font-weight: bold;
+}
+
+#header009 {
+	display: block;
+}
+#header009 a:hover {
+	background: url(../images/common/menuber07.gif) no-repeat 0px 25px;
+}
+
+#menuber {
+	display: block;
+	height: 60px;
+	margin: 0px 0px 0px 77px;
+	padding: 0px;
+}
+
+
+
+#headerlibox {
+	height: 60px;
+	width: 110px;
+	display: block;
+}
+
+#header009 a {
+	background: url(../images/common/menuber08.gif) no-repeat 0px 25px;
+	height: 11px;
+	width: 50px;
+	display: block;
+	text-indent: -9999px;
+	margin: 0px 0px 0px 6px;
+	padding-top: 25px;
+}
+#pagetitle h2 {
+	margin: 0px;
+	font-size: 30px;
+	color: #FFFFFF;
+	line-height: 36px;
+	padding: 0px;
+}

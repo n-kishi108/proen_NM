@@ -1,0 +1,1399 @@
+
+
+/* -----------------------------------
+ * reset
+ * ----------------------------------- */
+
+#yahooIdentityUserCard dl,
+#yahooIdentityUserCard dt,
+#yahooIdentityUserCard dd,
+#yahooIdentityUserCard ul,
+#yahooIdentityUserCard ol,
+#yahooIdentityUserCard li,
+#yahooIdentityUserCard h1,
+#yahooIdentityUserCard h2,
+#yahooIdentityUserCard h3,
+#yahooIdentityUserCard h4,
+#yahooIdentityUserCard h5,
+#yahooIdentityUserCard h6,
+#yahooIdentityUserCard pre,
+#yahooIdentityUserCard form,
+#yahooIdentityUserCard input,
+#yahooIdentityUserCard p,
+#yahooIdentityUserCard blockquote,
+#yahooIdentityUserCard fieldset,
+#yahooIdentityUserCard div,
+.yahooIdentityPanelContainer dl,
+.yahooIdentityPanelContainer dt,
+.yahooIdentityPanelContainer dd,
+.yahooIdentityPanelContainer ul,
+.yahooIdentityPanelContainer ol,
+.yahooIdentityPanelContainer li,
+.yahooIdentityPanelContainer h1,
+.yahooIdentityPanelContainer h2,
+.yahooIdentityPanelContainer h3,
+.yahooIdentityPanelContainer h4,
+.yahooIdentityPanelContainer h5,
+.yahooIdentityPanelContainer h6,
+.yahooIdentityPanelContainer pre,
+.yahooIdentityPanelContainer form,
+.yahooIdentityPanelContainer input,
+.yahooIdentityPanelContainer p,
+.yahooIdentityPanelContainer blockquote,
+.yahooIdentityPanelContainer fieldset,
+.yahooIdentityPanelContainer div{
+	margin: 0;
+ 	padding: 0;
+	}
+
+#yahooIdentityUserCard h1,
+#yahooIdentityUserCard h2,
+#yahooIdentityUserCard h3,
+#yahooIdentityUserCard h4,
+#yahooIdentityUserCard h5,
+#yahooIdentityUserCard h6,
+.yahooIdentityPanelContainer h1,
+.yahooIdentityPanelContainer h2,
+.yahooIdentityPanelContainer h3,
+.yahooIdentityPanelContainer h4,
+.yahooIdentityPanelContainer h5,
+.yahooIdentityPanelContainer h6{
+	font-size: 100%;
+	font-weight: normal;
+	}
+
+#yahooIdentityUserCard ul li,
+#yahooIdentityUserCard ol li,
+.yahooIdentityPanelContainer ul li,
+.yahooIdentityPanelContainer ol li{
+	list-style: none;
+	}
+
+#yahooIdentityUserCard table,
+.yahooIdentityPanelContainer table{
+	margin:0;
+	padding:0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 100%;
+	}
+
+#yahooIdentityUserCard caption,
+.yahooIdentityPanelContainer caption{
+	text-align: left;
+	}
+
+#yahooIdentityUserCard table,
+#yahooIdentityUserCard pre,
+#yahooIdentityUserCard code,
+#yahooIdentityUserCard select,
+#yahooIdentityUserCard input,
+#yahooIdentityUserCard textarea,
+#yahooIdentityUserCard kbd,
+#yahooIdentityUserCard var,
+#yahooIdentityUserCard ins,
+#yahooIdentityUserCard del,
+#yahooIdentityUserCard samp,
+.yahooIdentityPanelContainer table,
+.yahooIdentityPanelContainer pre,
+.yahooIdentityPanelContainer code,
+.yahooIdentityPanelContainer select,
+.yahooIdentityPanelContainer input,
+.yahooIdentityPanelContainer textarea,
+.yahooIdentityPanelContainer kbd,
+.yahooIdentityPanelContainer var,
+.yahooIdentityPanelContainer ins,
+.yahooIdentityPanelContainer del,
+.yahooIdentityPanelContainer samp{
+	font-size: 100%;
+	}
+
+#yahooIdentityUserCard address,
+#yahooIdentityUserCard cite,
+#yahooIdentityUserCard dfn,
+#yahooIdentityUserCard em,
+#yahooIdentityUserCard strong,
+#yahooIdentityUserCard var,
+#yahooIdentityUserCard th,
+#yahooIdentityUserCard ins,
+#yahooIdentityUserCard del,
+#yahooIdentityUserCard samp,
+.yahooIdentityPanelContainer address,
+.yahooIdentityPanelContainer cite,
+.yahooIdentityPanelContainer dfn,
+.yahooIdentityPanelContainer em,
+.yahooIdentityPanelContainer strong,
+.yahooIdentityPanelContainer var,
+.yahooIdentityPanelContainer th,
+.yahooIdentityPanelContainer ins,
+.yahooIdentityPanelContainer del,
+.yahooIdentityPanelContainer samp{
+	font-weight: normal;
+	font-style: normal;
+	}
+
+#yahooIdentityUserCard a img,
+.yahooIdentityPanelContainer a img{
+	border: 0;
+	}
+
+#yahooIdentityUserCard hr.separation,
+.yahooIdentityPanelContainer hr.separation{
+	display: none;
+	}
+
+#yahooIdentityUserCard fieldset,
+.yahooIdentityPanelContainer fieldset{
+	border: none;
+	}
+
+
+
+
+/* -----------------------------------
+ * YUI
+ * ----------------------------------- */
+
+/*
+Copyright (c) 2007, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.2.2
+*/
+
+/*.yui-overlay {*/
+.yahooIdentityOverlay {
+	position:absolute;
+	display:block;
+}
+
+/*
+.yui-tt {
+	visibility:hidden;
+	position:absolute;
+	color:#333;
+	background-color:#FDFFB4;
+	font-family:arial,helvetica,verdana,sans-serif;
+	padding:2px;
+	border:1px solid #FCC90D;
+	font:100% sans-serif;
+	width:auto;
+}*/
+
+/* * html body.masked select {*/
+* html body.yahooIdentityMasked select {
+	visibility:hidden;
+}
+
+/* * html div.yui-panel-container select {*/
+* html div.yahooIdentityPanelContainer select {
+	visibility:inherit;
+}
+
+/*
+* html div.drag select {
+	visibility:hidden;
+}*/
+
+/* 20080111 */
+/* * html div.hide-select select {*/
+* html div.yahooIdentityHideSelect select {
+	visibility:hidden;
+}
+
+/* .mask { */
+.yahooIdentityMask {
+    width:100%;
+    height:100%;
+/*    z-index:0;*/
+    z-index:1000;
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    -moz-opacity: 0.5;
+    opacity:.50;
+    background-color:#CCC;
+    -ms-filter: "alpha(opacity=50)";
+    filter: alpha(opacity=50);
+}
+
+/* .hide-scrollbars * { */
+.yahooIdentityHideScrollbars * {
+	overflow:hidden;
+}
+
+/* .hide-scrollbars textarea, .hide-scrollbars select { */
+.yahooIdentityHideScrollbars textarea, .yahooIdentityHideScrollbars select {
+	overflow:hidden;
+	display:none;
+}
+
+/* .show-scrollbars textarea, .show-scrollbars select { */
+.yahooIdentityShowScrollbars textarea, .yahooIdentityShowScrollbars select {
+	overflow:visible;
+}
+
+/* .yui-panel-container { */
+.yahooIdentityPanelContainer {
+	position:absolute;
+	background-color:transparent;
+/*	z-index:6;*/
+	z-index:1006;
+	visibility:hidden;
+	overflow:visible;
+	width:auto;
+}
+
+/* .yui-panel-container.focused { */
+.yahooIdentityPanelContainer.focused {
+}
+
+
+
+/*.yui-panel-container.matte {
+	padding:3px;
+	background-color:#FFF;
+}
+
+
+.yui-panel-container.matte .underlay {
+	display:none;
+}
+
+.yui-panel-container.shadow {
+	padding:0px;
+	background-color:transparent;
+}
+
+.yui-panel-container.shadow .underlay {
+	visibility:inherit;
+	position:absolute;
+	background-color:#000;
+	top:3px;left:3px;
+	z-index:0;
+	width:100%;
+	height:100%;
+    -moz-opacity: 0.12;
+    opacity:.12;
+    filter:alpha(opacity=12);
+	zoom:1;
+}*/
+
+
+/* .yui-panel { */
+.yahooIdentityPanel {
+	visibility:hidden;
+/*	border-collapse:separate;*/
+	position:relative;
+	left:0px;top:0px;
+	font:1em Arial;
+	background-color:#FFF;
+/*	border:1px solid #000;*/
+	border:1px solid #ccc;
+/*	z-index:1;*/
+	z-index:1001;
+	overflow:hidden;
+}
+
+/*
+.yui-panel .hd {
+	background-color:#3d77cb;
+	color:#FFF;
+	font-size:100%;
+	line-height:100%;
+	border:1px solid #FFF;
+	border-bottom:1px solid #000;
+	font-weight:bold;
+	overflow:hidden;
+	padding:4px;
+}
+
+.yui-panel .bd {
+	overflow:hidden;
+	padding:4px;
+}
+
+.yui-panel .bd p {
+	margin:0 0 1em;
+}
+
+.yui-panel .container-close {
+	position:absolute;
+	top:5px;
+	right:4px;
+	z-index:6;
+	height:12px;
+	width:12px;
+	margin:0px;
+	padding:0px;
+	background:url(close12_1.gif) no-repeat;
+	cursor:pointer;
+	visibility:inherit;
+}
+
+.yui-panel .ft {
+	padding:4px;
+	overflow:hidden;
+}
+
+.yui-simple-dialog .bd .yui-icon {
+	background-repeat:no-repeat;
+	width:16px;
+	height:16px;
+	margin-right:10px;
+	float:left;
+}
+
+
+.yui-simple-dialog .bd span.blckicon {
+	background: url("blck16_1.gif") no-repeat;
+}
+
+.yui-simple-dialog .bd span.alrticon {
+	background: url("alrt16_1.gif") no-repeat;
+}
+
+.yui-simple-dialog .bd span.hlpicon {
+	background: url("hlp16_1.gif") no-repeat;
+}
+
+.yui-simple-dialog .bd span.infoicon {
+	background: url("info16_1.gif") no-repeat;
+}
+
+.yui-simple-dialog .bd span.warnicon {
+	background: url("warn16_1.gif") no-repeat;
+}
+
+.yui-simple-dialog .bd span.tipicon {
+	background: url("tip16_1.gif") no-repeat;
+}
+
+.yui-dialog .ft, 
+.yui-simple-dialog .ft {
+	padding-bottom:5px;
+	padding-right:5px;
+	text-align:right;
+}
+
+.yui-dialog form, 
+.yui-simple-dialog form {
+	margin:0;
+}
+
+.button-group button {
+	font:100 76% verdana;
+	text-decoration:none;
+	background-color: #E4E4E4;
+	color: #333;
+	cursor: hand;
+	vertical-align: middle;
+	border: 2px solid #797979;
+	border-top-color:#FFF;
+	border-left-color:#FFF;
+	margin:2px;
+	padding:2px;
+}
+
+.button-group button.default {
+	font-weight:bold;
+}
+
+.button-group button:hover, 
+.button-group button.hover {
+	border:2px solid #90A029;
+	background-color:#EBF09E;
+	border-top-color:#FFF;
+	border-left-color:#FFF;
+}
+
+.button-group button:active {
+	border:2px solid #E4E4E4;
+	background-color:#BBB;
+	border-top-color:#333;
+	border-left-color:#333;
+}*/
+
+
+/* -----------------------------------
+ * clearFix
+ * ----------------------------------- */
+
+/* {{{ START GENERIC */
+#yahooIdentityUserCard .floatClear,
+.yahooIdentityUserCardBox .floatClear,
+.yahooIdentityUserCardBoxIgnore .floatClear {
+	clear: both;
+	font-size: 0;
+}
+
+#yahooIdentityUserCard .clearFix,
+.yahooIdentityUserCardBox .clearFix,
+.yahooIdentityUserCardBoxIgnore .clearFix{
+	display:inline-block;
+}
+
+#yahooIdentityUserCard .clearFix:after,
+.yahooIdentityUserCardBox .clearFix:after,
+.yahooIdentityUserCardBoxIgnore .clearFix:after{
+	display:block; 
+	clear:both; 
+	visibility:hidden;
+	height:0;
+	content:".";
+}
+
+/* Hides from IE-mac \*/
+* html #yahooIdentityUserCard .clearFix,
+* html .yahooIdentityUserCardBox .clearFix,
+* html .yahooIdentityUserCardBoxIgnore .clearFix{
+	height:1%;
+}
+
+#yahooIdentityUserCard .clearFix,
+.yahooIdentityUserCardBox .clearFix,
+.yahooIdentityUserCardBoxIgnore .clearFix {
+	display:block;
+}/* End hide from IE-mac */
+/* }}} END */
+
+
+/* -----------------------------------
+ * wbr
+ * ----------------------------------- */
+
+#yahooIdentityUserCard .wbr {
+	clear:both; width:0px; height:1px; margin-top:-1px; white-space:nowrap; float:left; display:block;
+}
+
+
+/* -----------------------------------
+ * link text decoration
+ * ----------------------------------- */
+
+#yahooIdentityUserCard a{
+	text-decoration:none;
+}
+#yahooIdentityUserCard a:hover{
+	text-decoration:underline;
+}
+
+
+/* -----------------------------------
+ * yahooIdentityUserCardSimple
+ * ----------------------------------- */
+
+table.yahooIdentityUserCardSimple {
+	margin:0;
+	padding:0;
+	border:0;
+}
+table.yahooIdentityUserCardSimple td {
+	margin:0;
+	padding:0;
+	text-align:center;
+	vertical-align:middle;
+	overflow:hidden;
+}
+table.yahooIdentityUserCardSimple td img {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+/* for avatar */
+table.yahooIdentityUserCardSimple td div {
+	position: relative;
+	overflow: hidden;
+}
+table.yahooIdentityUserCardSimple td div img {
+	position: absolute;
+}
+
+
+/* ----------------------------------------------------
+ * yahooIdentityUserCardBox
+ * ---------------------------------------------------- */
+
+.yahooIdentityUserCardBox {
+	font-size:75.4%;
+	line-height:1.44em;
+	height:495px;
+	background-color:#fff;
+	border-top:5px solid #e5e5e5;
+}
+.yahooIdentityUserCardBox iframe {
+	border: none;
+	height: 470px;
+	width: 490px;
+	margin:10px 0 0 10px;
+	padding:0;
+	clear:both;
+}
+.yahooIdentityUserCardBox .closeWindow {
+	position:absolute;
+	width:480px;
+	text-align:right;
+	margin:10px 10px 0 0;
+}
+.yahooIdentityUserCardBox .closeWindow img {
+	cursor:pointer;
+}
+
+
+/* ----------------------------------------------------
+ * Ignore
+ * ---------------------------------------------------- */
+
+.yahooIdentityUserCardBoxIgnore .closeWindow img {
+	cursor:pointer;
+}
+.yahooIdentityUserCardBoxIgnore {
+	text-align: left;
+	font-size:75.4%;
+	line-height:1.44em;
+	width:400px;
+	height:255px;
+	background-color:#fff;
+	border-top:5px solid #e5e5e5;
+}
+.yahooIdentityUserCardBoxIgnore .wbr {
+	clear: both; width: 0px; height: 1px; margin-top: -1px; white-space: nowrap; float: left; display: block;
+}
+.yahooIdentityUserCardBoxIgnore .closeWindow {
+	width:380px;
+	text-align:right;
+	margin:5px 10px 0;
+}
+.yahooIdentityUserCardBoxIgnore .titleWrap {
+	margin:0 10px 10px;
+	padding-bottom:1px;
+	border-bottom:3px solid #e5e5e5;
+}
+.yahooIdentityUserCardBoxIgnore .titleWrap .titleHead {
+	height:22px;
+	background:url(../img/title_gray_10x22.jpg) no-repeat 0% 50%;
+	padding-left:15px;
+}
+.yahooIdentityUserCardBoxIgnore .titleWrap .titleHead .titleText {
+	font-weight:bold;
+	font-size:132.6%;
+}
+.yahooIdentityUserCardBoxIgnore .introductionThumbnailWrap {
+	width:340px;
+	margin:30px;
+}
+.yahooIdentityUserCardBoxIgnore .introductionThumbnailWrap div {
+	float:left;
+	margin:0 5px 0 0;
+	padding:0;
+	display:inline;
+	width: 34px;
+	height: 34px;
+	border:1px solid #ccc;
+}
+.yahooIdentityUserCardBoxIgnore .introductionThumbnailWrap div table {
+	margin:1px;
+	padding: 0;
+	width: 32px;
+	height: 32px;
+	border:0;
+}
+.yahooIdentityUserCardBoxIgnore .introductionThumbnailWrap div td {
+	text-align: center;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+.yahooIdentityUserCardBoxIgnore .introductionThumbnailWrap div td img {
+	margin: 0;
+	padding: 0;
+}
+.yahooIdentityUserCardBoxIgnore .introductionThumbnailWrap p.introductionTxt {
+	float:left;
+	width:299px;
+	margin:0;
+}
+.yahooIdentityUserCardBoxIgnore .attention {
+	width:358px;
+	margin:10px;
+	padding:10px;
+	border:1px solid #e5e5e5;
+}
+.yahooIdentityUserCardBoxIgnore .attention p.attentionLeft{
+	float:left;
+	width:40px;
+	margin:0 10px 0 0px;
+	text-align:center;
+}
+.yahooIdentityUserCardBoxIgnore .attention p.attentionRight{
+	float:left;
+	width:290px;
+}
+.yahooIdentityUserCardBoxIgnore .submitButton {
+	width:380px;
+	margin:0 10px;
+	text-align:center;
+}
+.yahooIdentityUserCardBoxIgnore .submitButton .submitOk{
+	width:100px;
+	margin:0 5px 0 0;
+	color:#fff;
+}
+.yahooIdentityUserCardBoxIgnore .submitButton .submitNg{
+	width:100px;
+	margin:0 0 0 5px;
+}
+.yahooIdentityUserCardBoxIgnore p.MessageHeadTxt {
+	margin:50px 0 5px;
+	text-align:center;
+	font-size:132.6%;
+	font-weight:bold;
+}
+.yahooIdentityUserCardBoxIgnore p.MessageTxt {
+	margin:4px 0 50px;
+	text-align:center;
+}
+.yahooIdentityUserCardBoxIgnore .submitButton {
+	width:380px;
+	margin:0 10px;
+	text-align:center;
+}
+.yahooIdentityUserCardBoxIgnore .submitButton .submitOk{
+	width:100px;
+	background-color:#fe9900;
+	color:#fff;
+}
+.yahooIdentityUserCardBoxIgnore p.sendMsgHeadTxt {
+	margin:50px 0 5px;
+	padding:0 10px;
+	text-align:center;
+	font-size:132.6%;
+	font-weight:bold;
+}
+.yahooIdentityUserCardBoxIgnore p.sendMsgTxt {
+	margin:4px 0 50px;
+	padding:0 10px;
+	text-align:center;
+}
+.yahooIdentityUserCardBoxIgnore .ButtonWrap {
+	margin-top:50px;
+	text-align:center;
+}
+.yahooIdentityUserCardBoxIgnore .ButtonWrap button {
+	width:100px;
+	margin:0 5px;
+}
+
+
+
+
+/* {{{ START ActionButton */
+
+/* ---------------------------------
+ * アクションボタン全てを包括する
+ * --------------------------------- */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer {
+	background: url(../img/bgActionButton_m_184x25_off.gif) no-repeat;
+	width:184px;
+	height:25px;
+	padding:0;
+	display:none;
+	margin:0 0 4px 4px;
+}
+
+/* ---------------------------------
+ * アクションボタンのメイン部分（左）
+ * --------------------------------- */
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain {
+	width: 160px;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-image: none;
+}
+
+/* ---------------------------------
+ * アクションボタンのメイン部分（ハイライト版）
+ * --------------------------------- */
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMainHighlight {
+	width: 160px;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background: url(../img/bgActionButton_m_160x25_on.gif) no-repeat;
+}
+
+/* ---------------------------------
+ * アクションボタンのメイン部分のリンクタグ
+ * --------------------------------- */
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a,
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMainHighlight a,
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a:hover,
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMainHighlight a:hover {
+	display: block;
+	width: 130px;
+	height: 22px;
+	margin: 0;
+	padding: 3px 0 0 30px; /* v2.1 */
+	text-decoration: none;
+}
+
+/* ---------------------------------
+ * アクションボタンのサブ部分（右）
+ * --------------------------------- */
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonSub {
+	width: 24px;
+	height: 25px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	background-image: none;
+}
+
+/* ---------------------------------
+ * アクションボタンのサブ部分（ハイライト版）
+ * --------------------------------- */
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonSubHighlight {
+	background: url(../img/bgActionButton_24x25_on.gif) no-repeat;
+}
+
+/* ---------------------------------
+ * アクションボタンのサブ部分（押された版）
+ * --------------------------------- */
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonSubPushed {
+	background: url(../img/bgActionButton_24x25_pushed.gif) no-repeat;
+}
+
+/* ---------------------------------
+ * アクションボタンの展開メニューのiframeマスク（IE限定）
+ * --------------------------------- */
+#yahooIdentityUserCard iframe.yahooIdentityUserCardActionButtonMask {
+    width:184px;
+	border: 0;
+	visibility: hidden;
+	background: #fff;
+	position: absolute;
+	filter: alpha(opacity=0);
+}
+
+/* ---------------------------------
+ * アクションボタンの展開メニューを包括する
+ * --------------------------------- */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonMenus {
+	z-index:10000;
+	visibility:hidden; 
+	position:absolute;
+	margin:0px;
+	width:184px;
+	overflow:hidden;
+}
+
+/* ---------------------------------
+ * アクションボタンの展開メニュー下部の角丸
+ * --------------------------------- */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonMenus div.bottom {
+	height:3px;
+	background: url(../img/menuBottom.gif) no-repeat;
+}
+
+/* ---------------------------------
+ * アクションボタンの展開メニュー下部の仕切り線
+ * （独自メニュー・初期メニューを区別するためのもの）
+ * --------------------------------- */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonMenus div.dot {
+	height:5px;
+	padding:0;
+	margin:0;
+	font-size: 0;
+	background: #f4f4f4 url(../img/menuDot.gif) no-repeat 0px 2px;
+	border-left:1px #bcbcbc solid;
+	border-right:1px #bcbcbc solid;
+}
+
+/* ---------------------------------
+ * アクションボタンの展開メニュー（1個）
+ * --------------------------------- */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonMenus div.menu {
+	background-color:#f4f4f4;
+	border-left:1px #bcbcbc solid;
+	border-right:1px #bcbcbc solid;
+}
+
+/* ---------------------------------
+ * 展開メニュー（1個）の
+ * 背景色・高さ・マージンを調整する
+ * - a => 選択できるもの
+ * - div => 選択できないもの（依頼中ステータス・ACL対象外・未ログイン）
+ * --------------------------------- */
+#yahooIdentityUserCardActionButtonMenus div.menu a,
+#yahooIdentityUserCardActionButtonMenus div.menu a:hover,
+#yahooIdentityUserCardActionButtonMenus div.menu div {
+	color:#000;
+	display:block;
+	height:25px;
+	padding:0px;
+	margin:0px 3px;
+	text-decoration:none;
+}
+
+/* ---------------------------------
+ * 展開メニュー（1個）のテキストを囲むもの
+ * --------------------------------- */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonMenus div.menu a span,
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonMenus div.menu div span {
+	margin-left:29px; /* v2.1 */
+	padding-top:4px; /* v2.1 */
+	display:block;
+}
+
+/* ---------------------------------
+ * 選択できないメニュー 
+ * - グレーアウト想定
+ * - デフォルトカーソル
+ * - 依頼中ステータス・ACL対象外・未ログインが対象
+ *
+ * ※選択できないメニューは a の代わりに div を使っている。
+ * 　それを前提にしたスタイル指定。
+ *
+ * ※HTMLの違い
+ * [選択 *可能* バージョンのHTML（aタグ使用）]
+ * <div class="menu">
+ *     <a class="sendMessenger" href="#actionbutton"><span>メッセンジャー送信</span></a>
+ * </div>
+ * [選択 *不可能* バージョンのHTML（divタグ使用）]
+ * <div class="menu">
+ *     <div class="sendTestimonialInProcess" href="#actionbutton"><span>（紹介文の依頼中）</span></div>
+ * </div>
+ * --------------------------------- */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonMenus div.menu div span {
+	color:#888;
+	cursor:default;
+}
+/* カギ画像 */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonMenus div.menu div span img {
+	margin:-2px 0 -2px 5px;
+/*
+	margin:0 0 0 5px;
+	margin:0 0 2px 5px;
+	_margin:5px 0 2px 5px;
+	height:6px;
+	width:13px;
+*/
+	height:16px;
+	width:16px;
+}
+
+
+/* =====================================================
+ * アクションボタン
+ * デフォルトメニュー
+ *
+ * 【グレー文字ルール】
+ *   2.依頼中 => #888 （濃いグレー）
+ *   3.ACL範囲外・未ログイン => #888 （濃いグレー）
+ *   4.目立たせない（アクセス拒否）=> #ccc （薄いグレー）
+ * ===================================================== */
+
+/* ---------------------------------
+ * registFriend 
+ * 友だち登録
+ * --------------------------------- */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer a.registFriend, /* アクティブ */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer div.registFriend /* 非アクティブ */ {
+	background-color:transparent;
+}
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonMenus a.registFriend:hover /* マウスオーバー */ {
+	background-color:#ffe57f;
+}
+/* デフォルト機能はアイコンがないため、必ず以下指定でpadding-leftを縮める（メインボタンで使用） */
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a.registFriend {
+/*	padding-left:10px;
+	width: 150px;*/
+}
+
+/* ---------------------------------
+ * registFriendInProcess 
+ * 友だち登録依頼中
+ * --------------------------------- */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer div.registFriendInProcess /* 非アクティブ */ {
+	background-color:transparent;
+	color:#888; /* 濃いグレー */
+}
+/* デフォルト機能はアイコンがないため、必ず以下指定でpadding-leftを縮める（メインボタンで使用） */
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a.registFriendInProcess {
+/*	padding-left:10px;
+	width: 150px;
+	color:#888;*/ /* 濃いグレー */
+}
+
+/* ---------------------------------
+ * sendMessage 
+ * メッセージを送る
+ * --------------------------------- */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer a.sendMessage, /* アクティブ */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer div.sendMessage /* 非アクティブ */ {
+	background-color:transparent;
+}
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonMenus a.sendMessage:hover /* マウスオーバー */ {
+	background-color:#ffe57f;
+}
+/* デフォルト機能はアイコンがないため、必ず以下指定でpadding-leftを縮める（メインボタンで使用） */
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a.sendMessage {
+/*	padding-left:10px;
+	width: 150px;*/
+}
+
+/* ---------------------------------
+ * addToIgnoreList 
+ * アクセス拒否
+ * --------------------------------- */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer a.addToIgnoreList, /* アクティブ */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer div.addToIgnoreList /* 非アクティブ */ {
+	color:#ccc; /* 薄いグレー */
+	background-color:transparent;
+}
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonMenus a.addToIgnoreList:hover /* マウスオーバー */ {
+	background-color:#ffe57f;
+}
+/* デフォルト機能はアイコンがないため、必ず以下指定でpadding-leftを縮める（メインボタンで使用） */
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a.addToIgnoreList {
+/*	padding-left:10px;
+	width: 150px;*/
+}
+
+/* ---------------------------------
+ * removeFromIgnoreList 
+ * アクセス拒否を解除
+ * --------------------------------- */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer a.removeFromIgnoreList, /* アクティブ */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer div.removeFromIgnoreList /* 非アクティブ */ {
+	color:#ccc; /* 薄いグレー */
+	background-color:transparent;
+}
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonMenus a.removeFromIgnoreList:hover /* マウスオーバー */ {
+	background-color:#ffe57f;
+}
+/* デフォルト機能はアイコンがないため、必ず以下指定でpadding-leftを縮める（メインボタンで使用） */
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a.removeFromIgnoreList {
+/*	padding-left:10px;
+	width: 150px;*/
+}
+
+/* ---------------------------------
+ * sendMessenger 
+ * メッセンジャー送信
+ * --------------------------------- */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer a.sendMessenger, /* アクティブ */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer div.sendMessenger /* 非アクティブ */ {
+	background-color:transparent;
+}
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonMenus a.sendMessenger:hover /* マウスオーバー */ {
+	background-color:#ffe57f;
+}
+/* デフォルト機能はアイコンがないため、必ず以下指定でpadding-leftを縮める（メインボタンで使用） */
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a.sendMessenger {
+/*	padding-left:10px;
+	width: 150px;*/
+}
+
+/* ---------------------------------
+ * sendTestimonial 
+ * 紹介文を作成
+ * --------------------------------- */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer a.sendTestimonial, /* アクティブ */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer div.sendTestimonial /* 非アクティブ */ {
+	background-color:transparent;
+}
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonMenus a.sendTestimonial:hover /* マウスオーバー */ {
+	background-color:#ffe57f;
+}
+/* デフォルト機能はアイコンがないため、必ず以下指定でpadding-leftを縮める（メインボタンで使用） */
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a.sendTestimonial {
+/*	padding-left:10px;
+	width: 150px;*/
+}
+
+/* ---------------------------------
+ * editTestimonial 
+ * 紹介文を編集
+ * --------------------------------- */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer a.editTestimonial, /* アクティブ */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer div.editTestimonial /* 非アクティブ */ {
+	background-color:transparent;
+}
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonMenus a.editTestimonial:hover /* マウスオーバー */ {
+	background-color:#ffe57f;
+}
+/* デフォルト機能はアイコンがないため、必ず以下指定でpadding-leftを縮める（メインボタンで使用） */
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a.editTestimonial {
+/*	padding-left:10px;
+	width: 150px;*/
+}
+
+/* ---------------------------------
+ * sendTestimonialInProcess 
+ * 紹介文の依頼中
+ * --------------------------------- */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer div.sendTestimonialInProcess /* 非アクティブ */ {
+	background-color:transparent;
+	color:#888; /* 濃いグレー */
+}
+/* デフォルト機能はアイコンがないため、必ず以下指定でpadding-leftを縮める（メインボタンで使用） */
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a.sendTestimonialInProcess {
+/*	padding-left:10px;
+	width: 150px;
+	color:#888;*/ /* 濃いグレー */
+}
+
+/* }}} END ActionButton */
+
+
+
+/* ----------------------------------------------------
+ * yahooIdentityUserCard
+ * ---------------------------------------------------- */
+
+#yahooIdentityUserCard {
+	width:150px;
+	font-size:100%;
+	background: #fff;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardContents {
+	font-size:75.4%;
+	line-height:1.56em;
+	padding:0;
+	color:#666;
+	background:#fff;
+	text-align:left;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardOfficial {
+	text-align:center;
+	background:url(../img/officialImg150.gif) no-repeat center;
+	margin:0 0 3px 0;
+	padding:0;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardAttention {
+	position:relative;
+	margin:0 4px 0;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardAttentionMsg {
+	font-weight:700;
+	text-align:center;
+	display:block;
+	color:#f00;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardTitle {
+	font-weight:700;
+	text-align:center;
+	display:block;
+	margin:0 4px 6px;
+	padding:3px 0 0;
+	line-height:115%;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardTitle img.yahooIdentityUserCardTitleImIcon {
+	position:relative;
+	top:2px;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardConnection {
+	font-size:85%;
+	display:block;
+	margin:4px 4px 6px;
+	line-height:115%;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardTitleAndConnection {
+	padding:4px 4px 0 0;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardThumbnail {
+	text-align:center;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardThumbnailPanelRow {
+	margin:0 0 5px 0;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardContents div.yahooIdentityUserCardThumbnailPanelAvatar img {
+	position:absolute;
+	left:-24px;
+	top:-24px;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardThumbnail #yahooIdentityUserCardThumbnailContainer img {
+	vertical-align:bottom;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardThumbnailFullContainer {
+/*#yahooIdentityUserCard .yahooIdentityUserCardThumbnailInner {*/
+	float: none;
+	width: 102px;
+	height: 102px;
+	border:solid 1px #ccc;
+	display:block;
+	margin:0 auto 6px;
+    _margin:0 13px 6px;
+	padding:0;
+}
+/**/
+#yahooIdentityUserCard .yahooIdentityUserCardThumbnailFullContainerAvt {
+	float: none;
+	width: 102px;
+	height: 182px;
+	border:solid 1px #ccc;
+	display:block;
+	margin:0 auto 6px;
+	padding:0;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardThumbnailFullContainer table {
+/*#yahooIdentityUserCard .yahooIdentityUserCardThumbnailInner table {*/
+	margin:1px;
+	padding: 0;
+	width: 100px;
+	height: 100px;
+	border:0;
+}
+/**/
+#yahooIdentityUserCard .yahooIdentityUserCardThumbnailFullContainerAvt table {
+	margin:1px;
+	padding: 0;
+	width: 100px;
+	height: 180px;
+	border:0;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardThumbnailFullContainer td {
+/*#yahooIdentityUserCard .yahooIdentityUserCardThumbnailInner td {*/
+	text-align: center;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+/**/
+#yahooIdentityUserCard .yahooIdentityUserCardThumbnailFullContainerAvt td {
+	text-align: center;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardThumbnailFullContainer td img {
+/*#yahooIdentityUserCard .yahooIdentityUserCardThumbnailInner td img {*/
+	margin: 0;
+	padding: 0;
+}
+/**/
+#yahooIdentityUserCard .yahooIdentityUserCardThumbnailFullContainerAvt td img {
+	margin: 0;
+	padding: 0;
+}
+
+/*
+ * 動くアバター
+
+#yahooIdentityUserCard #yahooIdentityUserCardThumbnailJsAvatar {
+	display:none;
+}
+ */
+
+/* --------------- */
+
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardProfInfoWrap {
+	font-size:83.7%;
+	margin:0px 4px 6px;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardProfInfoWrap .yahooIdentityUserCardProfInfoMoreInfo a {
+	position:relative;
+	top:-4px;
+	left:3px;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardProfInfoWrap .yahooIdentityUserCardProfInfoMoreInfo a img {
+	position:relative;
+	top:4px;
+	left:-3px;
+}
+
+/* --------------- */
+
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardOriginalSpace {
+	margin:5px 0 0;
+	/* background: url(../img/dot_ccc.gif) repeat-x 0 0; */
+	clear:both;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardNoOriginalSpace {
+	clear:both;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardPullDownMenuJsOff {
+	float:left;
+	margin:0 0 0 4px;
+	text-align:center;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardPullDownMenuJsOff form button {
+	margin:3px 0 0;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardPullDownMenuJsOff form select {
+	width:110px;
+}
+
+/* --------------- */
+
+/* {{{ START ActionButton */
+
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer {
+	background: url(../img/bgActionButton_s_130x25_off.gif) no-repeat;
+	width:130px;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain {
+	width: 106px;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMainHighlight {
+	width: 106px;
+	background: url(../img/bgActionButton_s_106x25_on.gif) no-repeat;
+}
+/*#yahooIdentityUserCard .yahooIdentityUserCardActionButtonAnchor {
+	width: 96px;
+	width: 130px;
+}*/
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a,
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMainHighlight a {
+	width: 76px;
+}
+/* デフォルト機能はアイコンがないため、必ず以下指定でpadding-leftを縮める（メインボタンで使用） 
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a.registFriend,
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a.registFriendInProcess,
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a.sendMessage,
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a.addToIgnoreList,
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a.removeFromIgnoreList,
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a.sendMessenger,
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a.sendTestimonial,
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a.editTestimonial,
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a.sendTestimonialInProcess {
+	width: 96px;
+}*/
+
+/* 20080415 : 150px のみアイコンスペースをカットする */
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonMenus div.menu a span,
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonMenus div.menu div span {
+	/* margin-left:29px; v2.1 */
+	/* margin-left:0; */
+	margin-left:5px;
+	padding-top:4px; /* v2.1 */
+	display:block;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a,
+#yahooIdentityUserCard .yahooIdentityUserCardActionButtonMain a:hover {
+	padding-left:10px;
+	width: 96px;
+}
+
+/* }}} END ActionButton */
+
+/* --------------- */
+
+#yahooIdentityUserCard .yahooIdentityUserCardContents img.msgrStatusIcon,
+#yahooIdentityUserCard .yahooIdentityUserCardContents img.profDetailIcon,
+#yahooIdentityUserCard .yahooIdentityUserCardContents img.ihanIcon {
+	vertical-align:top;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardContents img.msgrStatusIcon {
+	margin:3px 5px 0 0;
+	_margin:0 5px 0 0;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardContents img.profDetailIcon,
+#yahooIdentityUserCard .yahooIdentityUserCardContents img.ihanIcon {
+	margin:0 5px 0 0;
+	_margin:-2px 5px 0 0;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardContainerDot {
+	background:url(../img/dot_ccc.gif) repeat-x;
+	height:8px;
+	margin-top:5px;
+	font-size:0;
+}
+
+/* -- javascript driven expand menu -- */
+
+#yahooIdentityUserCard form select .yahooIdentityUserCardDisabled {
+	color:#ccc;
+}
+#yahooIdentityUserCard form .yahooIdentityUserCardSubmitYou {
+	background: #ff9900;
+	color:#fff;
+}
+#yahooIdentityUserCard form .yahooIdentityUserCardSubmitDisabled {
+	background: #ccc;
+	color:#999;
+}
+/*
+#yahooIdentityUserCard form .yahooIdentityUserCardSubmitMe {
+	width:10em;
+	height:1.67em;
+	_padding:1px 0 0 0;
+	background: #ff9900;
+	color:#fff;
+}
+*/
+#yahooIdentityUserCard #yahooIdentityUserCardEditImageButtonContainer {
+	height:25px;
+	width:130px;
+	background:url(../img/bgEditImageButton_s_130x25_off.gif) no-repeat;
+	margin:0 0 4px 4px;
+}
+#yahooIdentityUserCard #yahooIdentityUserCardEditImageButtonContainer a {
+	color:#000;
+	display:block;
+	width:130px;
+	height:22px;
+	margin:0;
+	padding:3px 0 0 0;
+	text-align:center;
+	text-decoration:none;
+}
+#yahooIdentityUserCard .yahooIdentityUserCardProfileDetail {
+	font-weight:normal;
+}
+*:first-child+html #yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardConnection {
+	font-size:75%;
+	display:block;
+	margin:0 0 6px 0;
+	line-height:115%;
+}
+
+
+
+#yahooIdentityUserCard .roundCornerBox {
+	/* \*/
+	overflow: hidden;
+	/* overflow causes extra width in mac */
+	width: 100%;
+	background: url(../img/roundcorner/topRight_3.gif) no-repeat top right;
+}
+#yahooIdentityUserCard .roundCornerTopLeft {
+	margin:0 3px 0 0;
+	height:3px;
+	background: url(../img/roundcorner/topLeft_3.gif) no-repeat top left;
+}
+#yahooIdentityUserCard .roundCornerTop {
+	font-size:0;
+	margin:0 0 0 3px;
+	height:3px;
+	background:#fff url(../img/roundcorner/cccccc.gif) repeat-x top;
+}
+#yahooIdentityUserCard .roundCornerBottom {
+	font-size:0;
+	margin:0 3px;
+	height:3px;
+	background:#fff url(../img/roundcorner/cccccc.gif) repeat-x bottom;
+}
+#yahooIdentityUserCard .roundCornerBottomLeft {
+	background:url(../img/roundcorner/bottomLeft_3.gif) no-repeat bottom left;
+}
+#yahooIdentityUserCard .roundCornerBottomRight {
+	height:3px;
+	background:url(../img/roundcorner/bottomRight_3.gif) no-repeat bottom right;
+}
+#yahooIdentityUserCard .roundCornerMiddle {
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	background-color:#fff;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	padding:0 2px;
+}
+

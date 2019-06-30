@@ -1,0 +1,33 @@
+
+grpRelation.jsonCallback({"data":[
+	{
+		text:"プリント20枚無料+ポイント5倍！",
+		stLink:"shashinkan",
+		eff:"",
+		url:"http://shashinkan.rakuten.co.jp/campaign/pointup_special/?scid=wi_grp_gmx_shs_he"
+	},
+	{
+		text:"不用品を売って50ポイント貰おう",
+		stLink:"auction",
+		eff:"",
+		url:"http://auction.rakuten.co.jp/event/campaign/sell/first_time/?scid=wi_grp_gmx_act_he_01"
+	},
+	{
+		text:"春旅大バーゲン！ポイント10倍",
+		stLink:"travel_dom",
+		eff:"",
+		url:"http://travel.rakuten.co.jp/osusume/point10/?cid=wi_grp_gmx_trv_he_01"
+	},
+	{
+		text:"検索するとポイントが貰える",
+		stLink:"toolbar",
+		eff:"",
+		url:"http://ad2.trafficgate.net/t/r/838/3629/198512_234039/"
+	},
+	{
+		text:"年会費0円！今だけ5,000ポイント",
+		stLink:"kc",
+		eff:"",
+		url:"http://ad2.trafficgate.net/t/r/2912/1441/99636_99636/"
+	}
+]});

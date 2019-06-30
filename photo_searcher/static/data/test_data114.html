@@ -1,0 +1,368 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja"><head>
+
+
+
+
+	<meta http-equiv="content-type" content="text/html; charset=Shift_JIS">
+	<meta name="content-language" content="ja">
+	<meta http-equiv="content-style-type" content="text/css">
+	<meta http-equiv="content-script-type" content="text/javascript">
+	<meta http-equiv="imagetoolbar" content="no">
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta name="keywords" 
+content="山口県,旅行,観光,温泉,スポット,ドライブ情報,案内,地図,キャンプ場,総理大臣,ニュース">
+    <meta name="description" content="三方を海に開かれた本州最西端の地 山口県の旅行・観光情報 
+おいでませ山口へ">
+	<title>秋吉台自然動物公園サファリランド おいでませ山口へ</title>
+	<link rel="stylesheet" href="test_data114_files/import.css" 
+type="text/css" media="all">
+	<link rev="made" href="mailto:info@oidemase.or.jp" 
+title="おいでませ山口へのご意見・ご感想">
+	<link rel="index" href="http://www.oidemase.or.jp/" title="山口県の旅行・観光情報 
+おいでませ山口へ">
+	<script language="JavaScript" type="text/javascript" src="test_data114_files/prototype.js"></script><script language="JavaScript" type="text/javascript" src="test_data114_files/main_002_002.js"></script>
+	<script src="test_data114_files/maps.txt" type="text/javascript" charset="utf-8"></script><script src="test_data114_files/main.js" type="text/javascript"></script><style type="text/css">@media print{.gmnoprint{display:none}}@media screen{.gmnoscreen{display:none}}</style><script src="test_data114_files/main_002.js" type="text/javascript"></script><style type="text/css">@media print{.gmnoprint{display:none}}@media screen{.gmnoscreen{display:none}}</style>
+	<script type="text/javascript" charset="utf-8">
+//<![CDATA[
+/*************************************************
+ * Created with GoogleMapAPI 2.3
+ * Author: Monte Ohrt <monte AT ohrt DOT com>
+ * Copyright 2005-2006 New Digital Group
+ * http://www.phpinsider.com/php/code/GoogleMapAPI/
+ *************************************************/
+var points = [];
+var markers = [];
+var counter = 0;
+var map = null;
+function onLoad() {
+if (GBrowserIsCompatible()) {
+var mapObj = document.getElementById("map");
+if (mapObj != "undefined" && mapObj != null) {
+map = new GMap2(document.getElementById("map"));
+map.addControl(new GLargeMapControl());
+map.addControl(new GMapTypeControl());
+map.addControl(new GScaleControl());
+}
+} else {
+alert("Sorry, the Google Maps API is not compatible with this browser.");
+}
+}
+function createMarker(point, title, html, n) {
+if(n >= 0) { n = -1; }
+var marker = new GMarker(point);
+if(isArray(html)) { GEvent.addListener(marker, "mouseover", function() { marker.openInfoWindowTabsHtml(html); }); }
+else { GEvent.addListener(marker, "mouseover", function() { marker.openInfoWindowHtml(html); }); }
+points[counter] = point;
+markers[counter] = marker;
+counter++;
+return marker;
+}
+function isArray(a) {return isObject(a) && a.constructor == Array;}
+function isObject(a) {return (a && typeof a == 'object') || isFunction(a);}
+function isFunction(a) {return typeof a == 'function';}
+function showInfoWindow(idx,html) {
+map.centerAtLatLng(points[idx]);
+markers[idx].openInfoWindowHtml(html);
+}
+//]]>
+</script>
+
+	<link rel="shortcut icon" 
+href="http://www.oidemase.or.jp/db/items2007/img/favicon.ico">
+		<script type="text/javascript" src="test_data114_files/commonLib.js"></script>
+
+</head><body>
+<div id="container01">
+<div class="banner-header"><h1>三方を海に開かれた本州最西端の地 山口県の旅行・観光情報 おいでませ山口へ</h1></div>
+<div class="banner-description"><h2>三方を海に開かれた本州最西端の地 山口県の旅行・観光情報 
+おいでませ山口へ（山口県 観光 温泉 スポット ドライブ情報 案内 地図 キャンプ場 総理大臣 ニュース）</h2></div>
+<div id="banner">
+<a href="http://www.oidemase.or.jp/" title="おいでませ山口のトップへ戻る"><img 
+src="test_data114_files/in_header.jpg" alt="山口県の旅行・観光情報 おいでませ山口へ" 
+title="山口県の旅行・観光情報 おいでませ山口へ" width="820" height="55"></a>
+</div>
+<!--
+[DEBUG]
+動物園
+www.oidemase.or.jp
+-->
+<div id="data">
+<div id="left_menu_blank">
+</div>
+<div id="left_menu" class="clearfix">
+
+<div class="left_menu01"><img 
+src="test_data114_files/left_menu_keyword.gif" alt="キーワードから探す" 
+title="キーワードから探す" width="160" height="25">
+<form id="form1" name="form1" method="post" 
+action="index.php?id_num=35461aa0000002437&amp;"><label for="fw"></label><input
+ name="fw" id="fw" size="18" type="text"><label><input name="city" 
+value="" type="hidden"><input name="jnr" value="" type="hidden"><input 
+name="Submit" value="検索" type="submit"></label><input value="クリア" 
+id="fw_del" size="8" type="button"></form>
+</div>
+<div class="left_menu02">
+<ul><li class="hanten" id="list_id_0"><a 
+href="http://www.oidemase.or.jp/db/cate/all.php?id_num=35461aa0000002437&amp;jnr=%82%B7%82%D7%82%C4%82%CC%83W%83%83%83%93%83%8B&amp;b_jnr=%82%B7%82%D7%82%C4%82%CC%83W%83%83%83%93%83%8B">す
+べてのジャンル</a></li>
+<li class="" id="list_id_1"><a 
+href="http://www.oidemase.or.jp/db/cate/special.php?id_num=35461aa0000002437&amp;jnr=%82%A8%82%B7%82%B7%82%DF%8A%CF%8C%F5%92n&amp;b_jnr=%82%A8%82%B7%82%B7%82%DF%8A%CF%8C%F5%92n">お
+すすめ観光地</a></li>
+<li class="" id="list_id_2"><a 
+href="http://www.oidemase.or.jp/db/cate/event.php?id_num=35461aa0000002437&amp;jnr=%83C%83x%83%93%83g%8F%EE%95%F1&amp;b_jnr=%83C%83x%83%93%83g%8F%EE%95%F1">イ
+ベント情報</a></li>
+<li class="" id="list_id_3"><a 
+href="http://www.oidemase.or.jp/db/cate/onsen.php?id_num=35461aa0000002437&amp;jnr=%89%B7%90%F2&amp;b_jnr=%89%B7%90%F2">温
+泉</a></li>
+<li class="" id="list_id_4"><a 
+href="http://www.oidemase.or.jp/db/cate/meisho.php?id_num=35461aa0000002437&amp;jnr=%96%BC%8F%8A%81E%8Ej%90%D5&amp;b_jnr=%96%BC%8F%8A%81E%8Ej%90%D5">名
+所・史跡</a></li>
+<li class="" id="list_id_5"><a 
+href="http://www.oidemase.or.jp/db/cate/sizen.php?id_num=35461aa0000002437&amp;jnr=%8E%A9%91R%81E%89%D4%82%CC%96%BC%8F%8A&amp;b_jnr=%8E%A9%91R%81E%89%D4%82%CC%96%BC%8F%8A">自
+然・花の名所</a></li>
+<li class="" id="list_id_6"><a 
+href="http://www.oidemase.or.jp/db/cate/musium.php?id_num=35461aa0000002437&amp;jnr=%83%7E%83%85%81[%83W%83A%83%80&amp;b_jnr=%83%7E%83%85%81[%83W%83A%83%80">ミュー
+
+ジアム</a></li>
+<li class="" id="list_id_7"><a 
+href="http://www.oidemase.or.jp/db/cate/leisure.php?id_num=35461aa0000002437&amp;jnr=%83%8C%83W%83%83%81[%83X%83%7C%83b%83g&amp;b_jnr=%83%8C%83W%83%83%81[%83X%83%7C%83b%83g">レ
+ジャースポット</a></li>
+<li class="" id="list_id_8"><a 
+href="http://www.oidemase.or.jp/db/cate/taiken.php?id_num=35461aa0000002437&amp;jnr=%91%CC%8C%B1%83X%83%7C%83b%83g&amp;b_jnr=%91%CC%8C%B1%83X%83%7C%83b%83g">体
+験スポット</a></li>
+<li class="" id="list_id_9"><a 
+href="http://www.oidemase.or.jp/db/cate/outdoor.php?id_num=35461aa0000002437&amp;jnr=%83A%83E%83g%83h%83A%81E%83X%83%7C%81[%83c&amp;b_jnr=%83A%83E%83g%83h%83A%81E%83X%83%7C%81[%83c">ア
+ウトドア・スポーツ</a></li>
+<li class="" id="list_id_10"><a 
+href="http://www.oidemase.or.jp/db/cate/jinbutsu.php?id_num=35461aa0000002437&amp;jnr=%90l%95%A8%81E%95%B6%89%BB&amp;b_jnr=%90l%95%A8%81E%95%B6%89%BB">人
+物・文化</a></li>
+<li class="" id="list_id_11"><a 
+href="http://www.oidemase.or.jp/db/cate/shoku.php?id_num=35461aa0000002437&amp;jnr=%90H%81E%8B%BD%93y%97%BF%97%9D&amp;b_jnr=%90H%81E%8B%BD%93y%97%BF%97%9D">食・
+
+郷土料理</a></li>
+<li class="" id="list_id_12"><a 
+href="http://www.oidemase.or.jp/db/cate/omiyage.php?id_num=35461aa0000002437&amp;jnr=%82%A8%82%DD%82%E2%82%B0%81E%93%C1%8EY%95i&amp;b_jnr=%82%A8%82%DD%82%E2%82%B0%81E%93%C1%8EY%95i">お
+みやげ・特産品</a></li>
+<li class="" id="list_id_13"><a 
+href="http://www.oidemase.or.jp/db/cate/shukuhaku.php?id_num=35461aa0000002437&amp;jnr=%8Fh%94%91%8E%7B%90%DD&amp;b_jnr=%8Fh%94%91%8E%7B%90%DD">宿
+泊施設</a></li>
+<li class="" id="list_id_14"><a 
+href="http://www.oidemase.or.jp/db/cate/norimono.php?id_num=35461aa0000002437&amp;jnr=%8F%E6%82%E8%95%A8&amp;b_jnr=%8F%E6%82%E8%95%A8">乗
+り物</a></li>
+<li class="" id="list_id_15"><a 
+href="http://www.oidemase.or.jp/db/cate/toiawase.php?id_num=35461aa0000002437&amp;jnr=%8A%CF%8C%F5%82%CC%82%A8%96%E2%8D%87%82%B9&amp;b_jnr=%8A%CF%8C%F5%82%CC%82%A8%96%E2%8D%87%82%B9">観
+光のお問合せ</a></li>
+<li class="" id="list_id_16"><a 
+href="http://www.oidemase.or.jp/db/cate/baria.php?id_num=35461aa0000002437&amp;jnr=%83o%83%8A%83A%83t%83%8A%81[%8F%EE%95%F1&amp;b_jnr=%83o%83%8A%83A%83t%83%8A%81[%8F%EE%95%F1">バ
+リアフリー情報</a></li>
+</ul><div id="cate_selected"></div>
+</div>
+<div class="left_menu03">
+<ul><li class="hanten"><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=">す
+べての市町</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35201">下
+関市</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35202">宇
+部市</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35203">山
+口市</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35204">萩
+市</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35215">周
+南市</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35206">防
+府市</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35207">下
+松市</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35208">岩
+国市</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35210">光
+市</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35211">長
+門市</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35212">柳
+井市</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35213">美
+祢市</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35216">山
+陽小野田市</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35305">周
+防大島町</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35321">和
+木町</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35341">上
+関町</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35343">田
+布施町</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35344">平
+生町</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=35502">阿
+武町</a></li>
+<li class=""><a 
+href="http://www.oidemase.or.jp/db/a/index.php?id_num=35461aa0000002437&amp;city=32501">津
+和野町</a></li>
+</ul>
+</div>
+
+<!--
+<div class="left_menu01"><a href="http://www.oidemase.or.jp/mapdata/index.html" title="地図から探す"><img src="../items2007/img/left_menu_map.gif" alt="地図から探す" title="地図から探す" width="160" height="80"/></a></div>
+-->
+<span id="ph01" class="pophelp_in">ジャンルと市町をクリックしながら知りたい情報を絞り込む検索方法です。</span>
+<a href="" 
+onmouseover="OnLink('ph01',event.x,event.y,event.pageX,event.pageY)" 
+onmouseout="OffLink('ph01')"><img src="test_data114_files/left_help.gif"
+ alt="新感覚クロス検索" title="新感覚クロス検索" border="0" width="160" height="26"></a>
+</div>
+<div id="middle_blank01">
+</div>
+<div id="contents">
+
+<h2>秋吉台自然動物公園サファリランド</h2>
+<div id="ruby">アキヨシダイシゼンドウブツコウエンサファリランド</div>
+<h5>動物園</h5>
+
+<div id="photo"><img src="test_data114_files/35461aa0000002437_1.jpg" 
+alt="秋吉台自然動物公園サファリランド" width="325" height="300"></div><div 
+class="clearfix"></div>
+<div id="setumei">
+動物達を野生に近い状態で見ることができる動物園。かわいい動物たちとのふれあい広場もあります。<br>
+ジェットコースター、ゴーカートなどのある遊園地も併設しています。
+</div>
+<div id="mapwrap">
+
+
+
+</div>
+<div id="mapbutton"><a 
+href="http://www.oidemase.or.jp/db/a/detail.php?id_num=35461aa0000002437&amp;mapon=1">マッ
+
+プを開く</a></div>
+<div id="sonotasisetu">
+
+</div>
+<div id="kikan">
+
+</div>
+<div id="event">
+
+</div>
+<div id="kakuchouzokusei">
+<table class="kaku">
+<tbody><tr>
+<th rowspan="1">料金／時間／休業日</th><td>●料金　　大人（中学生以上）2,400円　小人（4歳以上）1,200円 
+団体割引10名以上<br>
+　別に餌やりバス(トラバス・ライオンバス)大人・小人共入園料プラス1000円<br>
+動物ふれあい広場　大人800円　小人400円※サファリに入園されたお客様は、動物ふれあい広場料金は無料です。<br>
+●時間<br>
+・3月～10月　　9：30～17：00<br>
+・11月～11月中旬　　 9：30～16：30<br>
+・11月下旬～2月　　9：30～16：00<br>
+●休館日　　年中無休</td>
+</tr></tbody></table>
+</div>
+
+<div id="address_s">
+<table>
+<tbody><tr>
+<th>
+所在地
+</th>
+<td>
+<div>
+〒754- 030　山口県美祢市美東町赤1212  </div>
+TEL:08396 -2-1000
+</td>
+</tr>
+</tbody></table>
+</div>
+<div id="access">
+<table><tbody><tr><th>交通アクセス</th><td><div>(1) ＪＲ山陽本線新山口駅からバスで60分<div>(2)
+ 中国自動車道美祢ICから車で25分<div>(3) 中国自動車道小郡ＩＣから車で40分</div></div></div></td></tr></tbody></table>
+</div>
+<div id="address_t">
+<table>
+<tbody><tr>
+<th>
+問合せ先
+</th>
+<td>
+秋吉台自然動物公園サファリランド <br>
+〒754-0302　山口県美祢市美東町赤１２１２<div>
+  </div>
+TEL:08396-2-1000<div><a href="http://www.safariland.jp/index.shtml" 
+target="_blank">http://www.safariland.jp/index.shtml</a></div>
+</td>
+</tr>
+</tbody></table>
+
+</div>
+
+<div id="kubun">
+<div id="graytable">
+<table class="kubun">
+<tbody><tr><th rowspan="1">動物</th><td><div>ゾウ，ラクダ，サル，クマ，ライオン，ハクチョウ外80
+種，1,400頭羽以上</div></td>
+</tr></tbody></table></div>
+</div>
+
+<div id="graytable">
+<table class="oidebaria"><tbody><tr><th>バリアフリー対応状況</th><td><ul><li>砂利・砂敷
+き路面なし</li><li>車いす対応入口</li><li>車いす対応トイレ</li><li>低位置から鑑賞可能な展示</li><li>触察・音
+声ガイド等による展示</li><li>車いす対応レストラン</li><li>盲導犬の受け入れ</li><li>おむつ交換コーナー</li><li>障
+害者割引</li></ul></td></tr></tbody></table></div>
+<div id="graytable">
+</div>
+<div id="thisurl">
+<div id="thisurl_caption">このページのURL</div>
+http://www.oidemase.or.jp/db/a/detail.php?id_num=35461aa0000002437
+<div id="middle_blank01">
+</div>
+</div>
+
+<div id="back">
+<a href="http://www.oidemase.or.jp/" title="おいでませ山口のトップへ戻る"><img 
+src="test_data114_files/back.gif" alt="おいでませ山口のトップへ戻る" 
+title="おいでませ山口のトップへ戻る" width="112" height="27"></a></div>
+
+</div>
+
+</div>
+</div>
+<div class="clearfix clearboth"></div>
+<div class="footer"><img src="test_data114_files/dot_line.gif" alt="" 
+title="" width="820" height="1"></div>
+<div class="footer">社団法人山口県観光連盟 〒753-8501 山口市滝町1-1 県政資料館内 
+TEL:083-924-0462 FAX:083-928-5577<br>山口県観光連盟のWEBサイトに掲載されている全データについて無断転載・
+引用を禁じます。
+<div class="copyright">(C) 2007 Yamaguchi Prefectural Tourism Federation
+ All rights reserved.</div></div>
+<div class="footer_end"></div>
+<script src="test_data114_files/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-109478-1";
+urchinTracker();
+</script>
+</body></html>

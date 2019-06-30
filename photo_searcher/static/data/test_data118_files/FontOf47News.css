@@ -1,0 +1,203 @@
+﻿.NewsDetailTitle {
+
+	font-size: 18px;
+	font-weight:600;
+	color: #0000FF;
+	line-height: 24px;
+}
+.NewsDetailSubTitle {
+
+	font-size: 16px;
+	font-weight: bold;
+	color: #0000FF;
+	line-height: 16px;
+}
+.NewsDetailTimeStamp {
+
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FF3300;
+	line-height: 13px;
+}
+.NewsDetailCompany {
+
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666666;
+	line-height: 13px;
+}
+.NewsDetailBody {
+	font-size: 14px;
+	line-height:160%;
+	color: #333333;
+}
+.FooterSankashaIchiran {
+
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666666;
+	line-height: normal;
+}
+.FooterSankashaIchiranTitle {
+
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #333333;
+	line-height: 140%;
+}
+.BoxHeaderTitle_Blue {
+
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #003366;
+	line-height: normal;
+}
+.BoxBodyTitle_Blue {
+
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #0000FF;
+	line-height: 20px;
+}
+.OneLineAd {
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	display: block;
+	width: 300px;
+	color: #006699;
+}
+.TopNewsTitle {
+
+	font-size: 12px;
+	font-weight: 400;
+	color: #0000FF;
+	line-height: 24px;
+}
+.ListTitle {
+
+	font-size: 12px;
+	color: #0000FF;
+	line-height: 180%;
+}
+.TopPageHR {
+	border: 1px dotted #000000;
+
+}
+.BoxHeaderTitle_white {
+
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: normal;
+}
+.BoxHeaderTitle_White {
+
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: normal;
+}
+.BoxHeaderTitle_orange {
+
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FF6600;
+	line-height: normal;
+}
+.BoxHeaderTitle_Green {
+
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #006633;
+	line-height: normal;
+}
+.ListNewsBody {
+
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #333333;
+	line-height: normal;
+}
+.BoxHeaderTitle_Gray {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #333333;
+	line-height: normal;
+}
+
+.DetailArticleLayout {
+	margin-left:10px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	float:right;
+}
+
+
+
+/* パンくずナビ部分 */
+.kuzu {
+	position:relative;
+	clear:both;
+	z-index:2;
+	font-size: 11px;
+	font-style: normal;
+	text-align: left;
+	margin: 0px;
+	padding-left: 5px;
+	color: #999999;
+	width: 840px;
+	display: block;	
+	line-height:160%;
+    }
+
+.kuzu a{
+	margin-right	:2px;
+	font-size		: 11px;
+	}
+	
+
+/*-----------------------------------------------
+ 誘引枠のスタイルシート：　2008/01/11 OIKAWA
+-----------------------------------------------*/
+.ktext {font-color: #000000; font-size: 12px; padding: 2px} 
+.ktext a:link {color:#000000; text-decoration: none} 
+.ktext a:visited {color:#666666; text-decoration: none} 
+.ktext a:hover {color:#0000FF; text-decoration: underline;} 
+.ktext ul { margin:0px; padding:0 0 0 22px;} 
+.ktext li {line-height:130%; list-style-image:url(http://www.47news.jp/images/dsicon.gif); position:relative;}
+
+.ktext2 {font-color: #000000; font-size: 12px; padding: 2px} 
+.ktext2 a:link {color:#000000; text-decoration: none} 
+.ktext2 a:visited {color:#666666; text-decoration: none} 
+.ktext2 a:hover {color:#0000FF; text-decoration: underline;} 
+.ktext2 ul { margin:0px; padding:0 0 0 22px;} 
+.ktext2 li {line-height:110%; list-style-image:url(http://www.47news.jp/images/dsicon.gif); position:relative; margin:2px 0 0 0; padding:0 0 0 5px;}
+
+.ktext3 {text-align:right; font-color: #000000; font-size: 10px; padding: 2px} 
+.ktext3 a:link {text-align:right; color:#000000; text-decoration: none} 
+.ktext3 a:visited {text-align:right; color:#666666; text-decoration: none} 
+.ktext3 a:hover {text-align:right; color:#0000FF; text-decoration: underline;} 
+.ktext3 ul { text-align:right; margin:0px; padding:0 0 0 22px;} 
+.ktext3 li {text-align:right; line-height:110%; list-style-image:url(http://www.47news.jp/images/dsicon.gif); position:relative;}
+
+/*-----------------------------------------------
+ トップページ右サイドバーのスタイルシート：　2008/01/11 OIKAWA
+-----------------------------------------------*/
+/*-- トップマージンのないもの --*/
+.rightBoxStyle {margin:0px 0 0 0;}
+/*-- トップマージンの必要なもの --*/
+.rightBoxStyle2 {margin:2px 0;}
+

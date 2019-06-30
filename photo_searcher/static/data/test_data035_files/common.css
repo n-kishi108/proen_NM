@@ -1,0 +1,283 @@
+/* common.css
+========== SUMMARY ==========
+1.font format
+2.coloring
+3.align, margin, padding
+4.clearfix
+5.common style
+6.print firefox2
+*/
+
+/*=================================
+ 1. font format
+=================================*/
+body {
+	font-size:12px;
+	line-height:1.22;
+	*font-size:small;
+	*font:x-small;
+	font-family: Arial, Helvetica, Verdana, "\O`\e'\?\I^^(3)N~\¡­Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "\a'\?\e^\^(a)", Meiryo, "¡òI'¡òO' ¡ò?\¡­\?\A~\?", sans-serif;
+}
+table {
+	font-size:inherit;
+	font:100%;
+}
+pre,code,kbd,samp,tt {
+	font-family:monospace;
+	*font-size:108%;
+	line-height:99%;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+}
+.ss-size {
+	font-size:xx-small;
+}
+.s-size {
+	font-size:x-small;
+}
+
+/*=================================
+ 2. coloring
+=================================*/
+/* a */
+a {
+	text-decoration:none;
+}
+a:link {
+	color:#039;
+}
+a:hover {
+	color:#039;
+	text-decoration:underline;
+}
+a:visited {
+	color:#810081;
+}
+
+/*=================================
+ 3. align,margin,padding
+=================================*/
+/* float */
+.f-right {
+	float:right;
+}
+.f-left {
+	float:left;
+}
+.f-clear {
+	clear:both;
+}
+.mrg-top10 {
+	margin-top:15px;
+}
+.mrg-top15 {
+	margin-top:15px;
+}
+.mrg-top20 {
+	margin-top:15px;
+}
+.mrg-tp10{margin-top:10px;}
+.mrg-tp15{margin-top:15px;}
+.mrg-tp20{margin-top:20px;}
+.mrg-bt10{margin-bottom:10px;}
+.mrg-bt15{margin-bottom:15px;}
+.mrg-bt20{margin-bottom:20px;}
+
+/*=================================
+ 4. clearfix
+=================================*/
+.clearfix:after {
+ 	content:".";
+ 	display:block;
+ 	height:0;
+ 	clear:both;
+ 	visibility:hidden;
+}
+/* for ie7 */
+.clearfix {
+ 	display:inline-block;
+}
+/* Hides from IE-mac */
+* html .clearfix {
+ 	height:1%;
+}
+.clearfix {
+ 	display:block;
+}
+
+/*=================================
+ 5. common style
+=================================*/
+/* temprate */
+.yj100per-3 #contents-body #main-main-wrapper {
+	margin-right:-175px;
+}
+.yj100per-3 #contents-body #main-main {
+	margin-right:175px;
+}
+.yj100per-3 #contents-body #main-sub {
+	width: 160px;
+}
+/* contents */
+#contents-body {
+ 	display:inline-block;
+ 	margin-bottom:25px;
+}
+html>/**/body #contents-body {
+ 	display:block;
+}
+div#contents {
+	font-size:93%;
+	line-height:145%;
+	word-break:break-all;
+}
+/* masthead */
+.yjmth {
+	font-size:93%;
+}
+div#emg, div#emg2, div#emg3 {
+	font-size:86%;
+}
+/* ybz-header (original) */
+#ybz-header {
+	height:29px;
+	background:#8A8A8A url(http://i.yimg.jp/images/onbiz/bz_head_bg.gif) repeat-x scroll center bottom;
+	padding:0pt;
+	font-size:93%;
+	/* ie6 */
+	_font-size:93%;
+}
+#ybz-header dl {
+	float:left;
+	width:600px;
+}
+#ybz-header #ybz-header-menu1 {
+	width:90px;
+}
+#ybz-header #ybz-header-menu2 {
+	width:90px;
+}
+#ybz-header #ybz-header-menu3 {
+	width:90px;
+}
+#ybz-header #ybz-header-menu4 {
+	width:110px;
+}
+#ybz-header #ybz-header-menu5 {
+	width:110px;
+}
+#ybz-header #ybz-header-menu6 {
+	width:110px;
+}
+#ybz-header dd.ybz-header-current {
+	font-weight:bold;
+	padding:5px 0pt;
+}
+#ybz-header dd.ybz-header-current a {
+background:none;
+padding:0 !important;
+}
+#ybz-header dd {
+	line-height:140%;
+	color:#fff;
+	float:left;
+	text-align:center;
+}
+.ybz-header-current {
+	background:#CAE997 url(http://i.yimg.jp/images/onbiz/bz_head_bg2.gif) repeat-x scroll center bottom;
+	color:#FFFFFF;
+}
+.ybz-head-box {
+	background:transparent url(http://i.yimg.jp/images/onbiz/bz_head_shadow.gif) repeat-x top;
+	clear:both;
+	margin-bottom:8px;
+	height:5px;
+}
+#ybz-header dd a {
+	background:transparent url(http://i.yimg.jp/images/onbiz/bz_head_bg_bar.gif) repeat-y scroll 100% 0pt;
+	color:#FFFFFF;
+	display:block;
+	padding:5px 0pt;
+}
+/* header-search */
+.ybz-header-search {
+	font-size:12px;
+	margin-left:490px;
+	padding:2px 8px 0;
+	text-align:right;
+}
+.ybz-header-search img {
+	margin-left:5px;
+}
+.ybz-header-search-box1 {
+	height:15px;
+	margin-left:5px;
+}
+.ybz-header-search-box {
+	margin-left:5px;
+}
+.ybz-head-link{
+	font-size:small;
+	padding:0 8px;
+}
+.ybz-head-noscript {
+	background-color:#FFFFEE;
+	border:1px solid #FF0000;
+	margin:8px 0px;
+	padding:5px;
+	text-align:left;
+	font-size:93%;
+	line-height:138%;
+}
+.ybz-head-noscript strong {
+	font-weight:bold;
+}
+
+/* pos-lrec */
+#pos-lrec dl {
+	background-color:#fff !important;
+}
+
+/* ybz-footer */
+div#ybz-footer, div.ybz-footer {
+	background:#e1e1e1 repeat;
+	margin:0 0 15px 0;
+	text-align:center;
+	font-size:93%;
+}
+div#ybz-footer strong, div.ybz-footer strong {
+	font-weight:bold;
+}
+
+/* ybz-footer-search */
+div#ybz-footer-search {
+	margin:5px 0 15px 28%;
+}
+div#ybz-footer-search img, div#ybz-footer-search input {
+	float:left;
+}
+div#ybz-footer-search img {
+	margin:0 5px 0 5px;
+}
+div#ybz-footer-search input {
+	font-size:85%;
+	width:300px;
+}
+
+#pos-lrec dt {
+	text-align:center;
+	width:300px;
+}
+
+/*=================================
+ 6. print firefox2
+=================================*/
+@media print {
+	html>/**/body .print {
+		background-color:#E6E6E6;
+	}
+	html>/**/body div#ybz-footer {
+		margin-top:15px;
+	}
+}

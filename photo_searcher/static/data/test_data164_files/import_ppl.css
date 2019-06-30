@@ -1,0 +1,14 @@
+/*import_ppl css*/
+/*
+SITE：
+ZOZOPEOPLE @ ZOZORESORT
+>>>PEOPLE
+／PEOPLE全体に使用するCSSをインポート
+
+CREDIT：
+DESIGN BY STARTTODAY CO.,LTD.
+______________________________________*/
+@import url("../common.css") ;
+@import url("index_ppl.css") ;
+@import url("../tmp/fontface.css") ;
+@import url("../tmp/sidelink.css") ;

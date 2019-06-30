@@ -1,0 +1,45 @@
+BODY {
+	BACKGROUND-POSITION: center 26px; PADDING-TOP: 26px !important
+}
+UL#clogPrbar {
+	BACKGROUND-IMAGE: url(/outside/ad_ticker/img/bg_head.gif); Z-INDEX: 2000; BORDER-BOTTOM: #cccccc 1px solid; POSITION: fixed; MIN-WIDTH: 750px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fff; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: repeat-x; HEIGHT: 26px; COLOR: #333; FONT-SIZE: 12px; OVERFLOW: hidden; TOP: 0px; PADDING-TOP: 0px; LEFT: 0px
+}
+#clogPrbar LI {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 26px; VERTICAL-ALIGN: middle; PADDING-TOP: 0px
+}
+#clogPrbar A {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: sans-serif; WHITE-SPACE: nowrap; COLOR: #0066ff !important; TEXT-DECORATION: underline !important; PADDING-TOP: 0px
+}
+#clogPrbar A:hover {
+	COLOR: #0066ff !important; TEXT-DECORATION: none !important
+}
+#clogPrbar A IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+#clogPrbar #logo {
+	WIDTH: 70px; FLOAT: left; HEIGHT: 26px
+}
+#clogPrbar #logo IMG {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 0px; PADDING-TOP: 2px
+}
+#clogPrbar #txtPr {
+	TEXT-ALIGN: left; LINE-HEIGHT: 26px; FLOAT: left; HEIGHT: 26px; FONT-SIZE: 12px; VERTICAL-ALIGN: middle
+}
+#clogPrbar #blogCategory {
+	TEXT-ALIGN: right; MARGIN-TOP: 4px; DISPLAY: inline; FLOAT: right; HEIGHT: 20px; COLOR: #999999; FONT-SIZE: 11px; OVERFLOW: hidden; MARGIN-RIGHT: 10px
+}
+#clogPrbar #blogSearch {
+	TEXT-ALIGN: right; MARGIN: 0px; WIDTH: 165px; FLOAT: right; VERTICAL-ALIGN: middle; OVERFLOW: hidden
+}
+#clogPrbar #prBtn {
+	TEXT-ALIGN: right; WIDTH: 60px; PADDING-RIGHT: 5px; FLOAT: right; HEIGHT: 26px; OVERFLOW: hidden
+}
+#clogPrbar #blogSearch #form #tickerButton {
+	BORDER-BOTTOM: #666 1px solid; BORDER-LEFT: #ccc 1px solid; BACKGROUND-COLOR: #fff; OUTLINE-STYLE: none; WIDTH: 30px; COLOR: #333333; MARGIN-LEFT: 5px; FONT-SIZE: 10px; BORDER-TOP: #ccc 1px solid; CURSOR: pointer; BORDER-RIGHT: #666 1px solid
+}
+#clogPrbar #blogSearch #form #tickerBox {
+	MARGIN-TOP: 2px; WIDTH: 120px; HEIGHT: 14px
+}
+#clogPrbar #blogCategory IMG {
+	MARGIN-TOP: 2px
+}

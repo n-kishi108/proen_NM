@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>Photo Searcher</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,user-scalable=0">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Monsieur+La+Doulaise" />
+        <link rel="stylesheet" href="/static/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap-grid.css">
+        <link rel="stylesheet" href="/static/css/header.css">
+        <link rel="stylesheet" href="/static/css/index.css">
+        <link rel="shortcut icon" href="/static/img/favicon.png">
+
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
+        <!-- <script src="js/ajaxAction.js"></script> -->
+        <script>
+            const startTime = performance.now();
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="wrapper">
+                <div class="logo-wrapper" onclick="location.href='/'">
+                    <h1 class="logo">team Oro</h1>
+                </div>
+                <div class="search-box">
+                    <form action="/search" method="GET" enctype="application/x-www-form-urlencoded">
+                        <input type="text" name="k" {% if message %}value="{{message}}"{% endif %}placeholder="キーワードを入力" autocomplete="on">
+                        <input type="hidden" name="page" value="1">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <main>
+            {% if page == 'search' %}
+            <div class="information-label">
+                <div class="label">
+                    {% if row_cnt > 0 %}
+                    <span>{{row_cnt}}件ヒットしました</span>
+                    {% else %}
+                    <span>0件ヒットしました</span>
+                    {% endif %}
+                    <span>(<span id="showTime"></span>秒)<!--{{message}}--></span>
+                </div>
+            </div>
+            {% endif %}
+            <div class="wrapper">
+                <section class="result">
+                    {% if page == 'search' %}
+                    <div class="row">
+                        {% for line in file[section * 100: (section + 1) * 100] %}
+                        <div class="pane col-xs-4 col-sm-3 col-md-2">
+                            <article style="background-image: url('/static{{line}}');"></article>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <script>
+                        $(window).on('load resize', function() {
+                            let width = $('.pane').width();
+                            $('.pane').height(width);
+                            console.log($(window).width());
+                        });
+                    </script>
+                    {% else %}
+                    <p class="not-found-message">検索結果がありません</p>
+                    {% endif %}
+                </section>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                  </nav>
+            </div>
+        </main>
+        <script>
+            $(window).on('load' ,function() {
+                const endTime = performance.now();
+                let result = Math.round(endTime - startTime) / 100;
+                $('#showTime').html(result);
+            })
+        </script>
+    </body>
+</html>

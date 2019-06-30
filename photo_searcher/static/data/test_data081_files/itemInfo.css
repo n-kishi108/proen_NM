@@ -1,0 +1,242 @@
+
+@import "default.css";
+
+#itemImage {
+	vertical-align:top;
+}
+
+/*---------------------------*/
+
+#itemInfo {
+	width:100%;
+}
+
+#itemInfo h1 {
+	margin:0 0 10px 0;
+	padding:9px 5px 7px 7px;
+	font-size:17px;
+	color:#180614;
+	background-color:#f2f2b0;
+	border-top:1px dotted #aacf53;
+	border-bottom:1px dotted #aacf53;
+}
+
+#itemInfo h3 {
+	margin:0 0 10px 0;
+	padding:9px 5px 7px 7px;
+	font-size:17px;
+	color:#180614;
+	background-color:#f2f2b0;
+	border-top:1px dotted #aacf53;
+	border-bottom:1px dotted #aacf53;
+}
+
+#itemInfo dl {
+	margin:0;
+}
+
+#itemInfo dd {
+	margin:0 0 0 20px;
+}
+
+#itemInfo ul {
+	margin:0 0 0 20px;
+	padding:0;
+}
+
+#itemInfo li {
+	margin:0 0 5px 0;
+}
+
+/*---------------------------*/
+
+#itemInfoBasic {
+	margin:0 0 15px 0;
+}
+
+#itemInfoBasic th {
+	padding:7px 3px 5px 3px;
+	width:20%;
+	border-bottom:1px dotted #cccccc;
+	font-weight:normal;
+	font-size:13px;
+}
+
+#itemInfoBasic td {
+	padding:7px 3px 5px 3px;
+	width:80%;
+	border-bottom:1px dotted #cccccc;
+}
+
+/*---------------------------*/
+
+div#item_keyword {
+	margin:10px 0 10px 0;
+	padding:5px 0 5px 0;
+	background-color:#c7dc68;
+}
+
+div#item_keyword div.subject {
+	float:left;
+	width:160px;
+	background-color:#ffffff;
+	text-align:center;
+	margin:0 0 0 5px;
+}
+
+div#item_keyword div.tag {
+	float:right;
+	width:560px;
+}
+
+div#item_keyword ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+div#item_keyword ul li {
+	margin:0 10px 0 0;
+	padding:0 0 0 10px;
+	float:left;
+	background-image:url(../../image/ja/list_item_keyword.gif);
+	background-repeat:no-repeat;
+	background-position:left top;
+	white-space:nowrap;
+}
+
+/*---------------------------*/
+
+div#cartadditem {
+	margin:0 0 10px 0;
+	padding:15px 0 13px 0;
+	background-color:#ECE0AE;
+	text-align:center;
+}
+
+div#cartadditem span {
+	font-size:17px;
+	font-weight:bold;
+	line-height:150%;
+}
+
+div#cartadditem img {
+	vertical-align:middle;
+	margin:0 5px 0 0;
+}
+
+/*---------------------------*/
+
+div#pagemv {
+	margin:0 0 10px 0;
+	padding:0 0 3px 0;
+	border-bottom:1px dotted #cccccc;
+}
+
+div#pagemv img {
+	vertical-align:middle;
+	margin:0 2px 0 2px;
+}
+
+/*---------------------------*/
+
+div#samplepics {
+	margin:0 auto 20px auto;
+	text-align:center;
+}
+
+div#samplepics img {
+	border:1px solid #666666;
+	margin:0 0 5px 0;
+}
+
+div#samplepics table {
+	table-layout:fixed;
+	border-collapse:collapse;
+}
+
+div#samplepics table td {
+	border:1px dotted #cccccc;
+	padding:5px;
+	text-align:center;
+}
+
+/*---------------------------*/
+
+div#salesetsume {
+	margin:10px 0 30px 0;
+}
+
+div#salesetsume h6 {
+	margin:0 0 5px 0;
+	padding:7px 0 5px 10px;
+	background-color:#e5e4e6;
+	font-size:13px;
+}
+
+div#salesetsume div.block {
+	float:left;
+	width:240px;
+	margin:0 0 0 5px;
+}
+
+div#salesetsume div.block dl {
+	margin:0;
+}
+
+div#salesetsume div.block dt {
+	margin:0 0 5px 0;
+}
+
+div#salesetsume div.block dd {
+	margin:0 0 0 10px;
+}
+
+/*---------------------------*/
+
+div#gaibulink {
+	margin:0;
+}
+
+div#gaibulink h6 {
+	margin:0 0 5px 0;
+	padding:7px 0 5px 10px;
+	background-color:#e5e4e6;
+	font-size:13px;
+}
+
+div#gaibulink table th {
+	width:22%;
+	border-bottom:1px dotted #cccccc;
+	padding:7px 0 5px 0;
+}
+
+div#gaibulink table td {
+	width:78%;
+	border-bottom:1px dotted #cccccc;
+	padding:7px 0 5px 0;
+}
+
+div#gaibulink input {
+	border:1px solid #cccccc;
+}
+
+/*---------------------------*/
+
+div.adsense-itemInfo {
+	text-align:center;
+	margin:0 0 20px 0;
+	background-color:#eeeeee;
+	padding:5px 0 5px 0;
+	border:1px solid #999999;
+}
+
+div.adsense-itemInfo div.subject {
+	margin:0 auto 2px auto;
+	text-align:center;
+	width:728px;
+	border-top:1px solid #999999;
+	border-bottom:1px solid #999999;
+	background-color:#D2DCE6;
+	font-size:12px;
+}

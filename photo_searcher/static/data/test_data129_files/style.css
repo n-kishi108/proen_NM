@@ -1,0 +1,455 @@
+@charset "EUC-JP";
+
+
+/* 全体的な設定
+------------------------------------------------------------ */
+
+	* {
+		margin : 0;
+		padding : 0;
+		font-style : normal;
+		font-weight : normal;
+	}
+	body {
+		color : #333;
+		background-color : #E9E7E5;
+		text-align : center;
+		line-height : 1.5;
+		font-family : Verdana, "ＭＳ Ｐゴシック", sans-serif;
+		font-size : x-small;
+		voice-family : "\"}\"";
+		voice-family : inherit;
+		font-size : small;
+	}
+	html>body {
+		font-size : small;
+	}
+	textarea {
+		width : 90%;
+	}
+	/* 絵文字 */
+	.emoji{
+		vertical-align:middle;
+	}
+
+
+/* リンク
+------------------------------------------------------------ */
+
+	a {
+		text-decoration : none;
+	}
+	a:link {
+		color : #E14998;
+	}
+	a:visited {
+		color : #B16A8F;
+	}
+	a:hover {
+		color : #89C13;
+	}
+	a:active {
+		color : #89C130;
+	}
+	a img {
+		border-style : none;
+		border-width : 0px;
+		text-decoration : none;
+	}
+
+
+/* 強調
+------------------------------------------------------------ */
+
+	em {
+		font-style : italic;
+	}
+	strong, b {
+		font-weight : bold;
+	}
+
+/* リスト
+------------------------------------------------------------ */
+
+	ul, ol, li, dl, dt, dd {
+		list-style: none;
+	}
+
+
+/* 引用
+------------------------------------------------------------ */
+
+	blockquote {
+		width : auto;
+		margin : 10px;
+		padding : 0 0.5em;
+		border : 1px solid #f5f5f5;
+		background: url(http://templates.blog.fc2.com/template/chic_elegance/side_body.gif) repeat-x;
+		color:#857871;
+}
+
+/* コード
+------------------------------------------------------------ */
+
+	div.main_body pre {
+		margin : 1em auto;
+		padding : 0.5em;
+		border : 1px solid #ddd;
+		font-family : sans-serif;
+		overflow : auto;
+		width : 90%;
+	}
+	/* for without MacIE5 \*/
+	div.main_body pre {
+		overflow : scroll;
+	}/* */
+	div.main_body > pre {
+		width : auto;
+	}
+	div.main_body code {
+		font-family : monospace;
+	}
+
+
+
+/* Mac版IEの文字化け対策
+------------------------------------------------------------ */
+
+	textarea,input,select {
+		font-family : "ヒラギノ角ゴ Pro W3", "Hiragino Kaku GothicPro", "Osaka", "Helvetica", "Arial", "Verdana", "ＭＳ Ｐゴシック", sans-serif;
+	}
+
+/* レイアウト
+------------------------------------------------------------ */
+
+	div#container {
+		width : 750px;
+		margin-left : auto;
+		margin-right : auto;
+		text-align : left;	
+		background : #FFFFFF url(http://templates.blog.fc2.com/template/chic_elegance/body_main.gif) repeat-y;
+		overflow: hidden;
+	}
+	div#container:after {
+	    content: "";
+	    display: block;
+	    clear: both;
+	    height: 1px;
+	    overflow: hidden;
+	}
+	/*\*/
+	* html div#container {
+	    height: 1em;
+	    overflow: visible;
+	}
+	/**/
+
+	div#header {
+		padding: 20px 0 0;
+		width : 750px;
+		height: 130px;
+		background : url(http://templates.blog.fc2.com/template/chic_elegance/body_head.gif) no-repeat;
+	}
+	div.main {
+		margin : 15px 0px;
+	}
+	div#left {
+		float : left;	
+		width : 510px;
+		padding-right : 0px 20px;
+		voice-family : "\"}\"";
+		voice-family : inherit;
+		width : 490px;
+	}
+	html>body div#left {
+		width : 510px;
+	}
+	div#right {
+		float : right;
+		width : 220px;
+	}
+	div#footer {
+		width : 750px;
+		clear : both;
+		margin : 0 auto;
+		background:url(http://templates.blog.fc2.com/template/chic_elegance/body_foot.gif) #E9E7E5 no-repeat;
+	}
+	
+
+
+/* タイトル
+------------------------------------------------------------ */
+
+	div#header h1 a {
+		margin-left:20px;
+		padding : 0px 10px;
+		font-size : x-large;
+		font-weight : normal;	
+		font-family:"Century Gothic", "Verdana", sans-serif;
+		voice-family : "\"}\"";
+		voice-family : inherit;
+		font-size : x-large;
+	}
+	html>body div#header h1 {
+		font-size : x-large;
+	}
+	div#header p {
+		margin-left:20px;
+		padding : 0px 10px;
+		font-size : small;
+		voice-family : "\"}\"";
+		voice-family : inherit;
+		font-size : small;
+	}
+	html>body div#header p {
+		font-size : small;
+	}
+
+/* left
+------------------------------------------------------------ */
+
+    div#left dl.plugin {
+		margin-left: 20px;
+    }
+	div.main_body {
+		margin-left: 20px;
+		margin-bottom : 15px;
+		padding-bottom: 40px;
+		background: url(http://templates.blog.fc2.com/template/chic_elegance/entry_line.gif) center bottom no-repeat;
+	}
+	div.main_body h2.entry_header {
+		margin-bottom : 10px;
+		font-size : small;
+		border-bottom : 1px solid #999;
+		voice-family : "\"}\"";
+		voice-family : inherit;
+		font-size : medium;
+	}
+	html>body div.main_body h2 {
+		font-size : medium;
+	}
+	div.main_body p {
+		margin : 1em 0em;
+	}
+	div.entry_body {
+		padding : 0px 10px;
+	}
+	p.entry_more {
+		padding : 0px 10px;
+	}
+	div.entry_body p.tag_lnk {
+		margin-top: 10px;
+	}
+	div.entry_body p.theme {
+		margin-top: 10px;
+	}
+	div.main_body ul.entry_footer {
+		margin-top:10px;
+		padding : 15px 10px 15px 10px;
+		list-style-position : inside;
+		text-align: right;
+		color:#808080;
+		background:url(http://templates.blog.fc2.com/template/chic_elegance/entry_state.gif) repeat-x;
+	}
+	div.main_body ul.entry_footer li {
+		display : inline;
+		list-style-type : none;
+	}
+	div.entry_body span.state {
+		color: #999999;
+	}
+	p.sub_header {
+		margin : 15px 0 15px 20px;
+		padding:0 5px 7px;
+		color: #785845;
+		font-family:  "Lucida Sans Unicode","Lucida Grande",verdana,arial,"MS P Gothic",sans-serif;
+		font-size: 130%;
+		letter-spacing:2px;
+		background:url(http://templates.blog.fc2.com/template/chic_elegance/entry_state.gif) left bottom repeat-x;
+	}
+	div.main_body h3 {
+		margin:5px;
+		padding:0px 5px;
+		font-size : small;
+		border-left : 7px solid #ddd;
+		voice-family : "\"}\"";
+		voice-family : inherit;
+		font-size : small;
+		color:#785845;
+	}
+	html>body div.main_body h3 {
+		font-size : small;
+	}
+	p.page_navi {
+		margin-bottom : 20px;
+		text-align : center;
+	}
+	div.fc2_footer {
+		margin:5px 0;
+	}
+	div.pagetop {
+		text-align: right;
+		font-family:  "Lucida Sans Unicode","Lucida Grande",verdana,arial,"MS P Gothic",sans-serif;
+		font-size:85%;
+		margin-bottom: 25px;
+	}
+	ul{
+		margin:0;
+		padding:0;
+		list-style:none;
+	}
+
+
+/* コメント
+------------------------------------------------------------ */
+
+	div#left form {
+		margin-left:20px;
+		padding : 0px 10px;
+		color:#785845;
+	}
+	input,textarea {
+		margin:1px;
+		background:#f5f5f5;
+		border:1px solid #eee;
+		font-size:95%;
+		color:#785845;
+	}
+	input#himitu {
+		margin-right : 0.5em;
+	}
+	p.form_btn {
+		margin-top : 20px;
+	}
+	p.form_btn input {
+		padding:0 1.5em;
+		letter-spacing:2px;
+		background:#DA5597;
+		border:1px solid #E1BDCF;
+		color:#fff;
+	}
+	div.comment_body {
+		padding : 5px 17px;
+	}
+	ul.comment_footer {
+		color:#808080;
+		padding : 5px 17px;
+	}
+	ul.comment_footer li {
+		display : inline;
+		list-style-type : none;
+	}
+
+/* トラックバック
+------------------------------------------------------------ */
+
+	p.trackback_uri {
+		margin-left:20px;
+		margin-bottom : 15px;
+		padding : 0.2em 0.5em;
+	}
+	p.trackback_uri input {
+		padding-bottom: 1px;
+		border-bottom: 1px dashed #ccc;
+		border-top: none;
+		border-right: none;
+		border-left: none;
+		margin-bottom: 5px;
+		width: 100%;
+		background-color: #FFFFFF;
+	}
+	div.trackback_body {
+		padding : 5px 17px;
+		background : transparent;
+	}
+	ul.trackback_footer {
+		padding : 10px 10px 15px 10px;
+		color:#808080;
+		display : inline;
+		list-style-type : none;
+	}
+	ul.trackback_footer li {
+		display : inline;
+		list-style-type : none;
+	}
+
+/* サイドメニュー
+------------------------------------------------------------ */
+
+	#right dl.plugin {
+		margin-right: 10px;
+		margin-bottom: 15px;
+	}
+	#right dl.plugin dt {
+		height:46px;
+		line-height:46px;
+		color:#645149;
+		font-size : x-small;
+		voice-family : "\"}\"";
+		voice-family : inherit;
+		font-size : small;
+		padding-bottom: 1px;
+		background:url(http://templates.blog.fc2.com/template/chic_elegance/side_title.gif) right top no-repeat;
+	}
+	html>dl.plugin dt {
+		font-size : small;
+	}
+	#right dl.plugin dd {
+		background: url(http://templates.blog.fc2.com/template/chic_elegance/side_body.gif) repeat-x;
+	}
+	
+	#right dl.plugin dd ul,
+	#right dl.plugin dd p {
+		padding:5px;
+	}
+
+/* calender
+------------------------------------------------------------ */
+
+	table.calender {
+		width : 100%;
+		border-collapse : collapse;	
+		font-size : x-small;
+		voice-family : "\"}\"";
+		voice-family : inherit;
+		font-size : small;
+	}
+	html>table.calender {
+		font-size : small;
+	}
+	table.calender caption {
+		color:#777;
+		margin : 5px 0;
+	}
+	table.calender th {
+		padding : 0.1em;
+		text-align : center;
+		color:#777;
+	}
+	table.calender td {
+		padding : 0.1em;
+		border : 1px solid #eee;
+		text-align : center;
+		color:#999;
+		font-size : 85%;	
+	}
+	table.calender td a {
+		display : block;
+		background : #f5f5f5;
+	}
+	th#sun {
+		color : #D14375;
+	}
+	th#sat {
+		color : #89C130;
+	}
+
+/* footer
+------------------------------------------------------------ */
+
+	div#footer p {
+		font-size:x-small;
+		text-align : center;
+		padding-bottom: 10px;
+		padding-top: 60px;
+	}

@@ -1,0 +1,54 @@
+/*
+-----------------------------------------------------
+ameblo CSS Skin Settings
+FileName: naviarea.css
+$Date: 2009/06/11 07:44:50 $
+$Revision: 1.10 $
+-----------------------------------------------------
+*/
+
+/*userNaviArea*/
+div#userNaviArea{
+padding:40px 0 10px 0;
+}
+
+div#userNaviArea a#userNickName{
+float:left;
+padding:0 10px 0 5px;
+font-size:1.85em;
+}
+
+div#userNaviArea a{
+font-weight:bold;
+}
+
+ul#navigationList{
+margin:0;
+padding:10px 0 0 0;
+list-style-type:none;
+}
+
+ul#navigationList li{
+float:left;
+margin:0;
+padding:0 8px;
+border-right:1px solid #999999;
+}
+
+ul#navigationList li.lastItem{
+border:none !important;
+padding-right:25px !important;
+}
+
+/*userNaviAreaヘッダー広告用*/
+
+div#overHeader div#headerAd{
+margin:10px 0 -33px 325px;
+text-align:right;
+}
+
+/*GG用*/
+
+div.ggOverHeader div#userNaviArea{
+padding:0 0 10px 0;
+}

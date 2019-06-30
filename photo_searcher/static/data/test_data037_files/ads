@@ -1,0 +1,63 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BKaW7KVO4S4KAC47S6QOj0MFYz7rWrAHb1MmSFMCNtwGA2sQJEAEYASCAxuQDKAQ4AFDFlY30A2CJo9KEqBSgAdns2ugDyAEB2gFRZmlsZTovLy9DOi9Vc2Vycy9zaGluL0Rlc2t0b3AvJUU5JTlCJTg2JUU1JTkwJTg4JUU1JTg2JTk5JUU3JTlDJTlGL3Bvc3QtYTE5ZC5odG1sqQJssQE2HdRGPsgCh9alDqgDAegDsQP1AwAAAsQ&amp;num=1&amp;sig=AGiWqtzNScEONmRT-9TyMCavY8zY1B_nZA&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://www.nikkei.co.jp/ps/ayataka/"; 
+google_ad.visible_url = "www.nikkei.co.jp/ps/ayataka"; 
+google_ad.line1 = "\x26#32190;\x26#40441;\x26#12398;\x26#24149;\x26#26411;\x26#21608;\x26#36938;\x26#32000;\x26#34892;"; 
+google_ad.line2 = "\x26#26085;\x26#26412;\x26#32076;\x26#28168;\x26#26032;\x26#32862;"; 
+google_ad.line3 = "\x26#22320;\x26#26041;\x26#32025;7\x26#32025;\x26#36899;\x26#21512;\x26#20225;\x26#30011;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BMsmfKVO4S4KAC47S6QOj0MFY-sW3kAH8mKC-DsCNtwGAreIEEAIYAiCAxuQDKAQ4AFDi6d6G_f____8BYImj0oSoFMgBAdoBUWZpbGU6Ly8vQzovVXNlcnMvc2hpbi9EZXNrdG9wLyVFOSU5QiU4NiVFNSU5MCU4OCVFNSU4NiU5OSVFNyU5QyU5Ri9wb3N0LWExOWQuaHRtbKkCbLEBNh3URj7IApL8lQ6oAwHoA7ED9QMAAALE&amp;num=2&amp;sig=AGiWqtw0837uq0_0zWDaMAfGaF2F1-xW9g&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://travel.rakuten.co.jp/special/ryoma/index.html%3Fs_kwcid%3DTC%7C16679%7C%25E5%259D%2582%25E6%259C%25AC%25E7%25AB%259C%25E9%25A6%25AC%7C%7CC%7C%7C3792462942"; 
+google_ad.visible_url = "travel.rakuten.co.jp"; 
+google_ad.line1 = "\x26#22338;\x26#26412;\x26#31452;\x26#39340;\x26#12422;\x26#12363;\x26#12426;\x26#12398;\x26#22320;\x26#12408;\x26#12398;\x26#26053;"; 
+google_ad.line2 = "\x26#12298;\x26#31452;\x26#39340;\x26#12299;\x26#12422;\x26#12363;\x26#12426;\x26#12398;\x26#22320;\x26#12398;\x26#35251;\x26#20809;\x26#12395;\x26#12458;\x26#12473;\x26#12473;\x26#12513;"; 
+google_ad.line3 = "\x26quot;\x26#31452;\x26#39340;\x26#12503;\x26#12521;\x26#12531;\x26quot;\x26#12418;\x26#28288;\x26#36617;! \x26#27005;\x26#22825;\x26#12488;\x26#12521;\x26#12505;\x26#12523;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=Bs6LwKVO4S4KAC47S6QOj0MFYuIT8ggG4o6TkDsCNtwGAttwFEAMYAyCAxuQDKAQ4AFCE5PO0AWCJo9KEqBTIAQHaAVFmaWxlOi8vL0M6L1VzZXJzL3NoaW4vRGVza3RvcC8lRTklOUIlODYlRTUlOTAlODglRTUlODYlOTklRTclOUMlOUYvcG9zdC1hMTlkLmh0bWyAAgGpAmyxATYd1EY-qAMB6AOxA_UDAAACxA&amp;num=3&amp;sig=AGiWqtw-FxbiU6Uvs1Xt69hb5ekYQR9Duw&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://www.bakumatsu.jp/offer/"; 
+google_ad.visible_url = "www.bakumatsu.jp"; 
+google_ad.line1 = "\x26#24149;\x26#26411;\x26#12502;\x26#12525;\x26#12460;\x26#12540;\x26#21215;\x26#38598;\x26#20013;"; 
+google_ad.line2 = "\x26#24149;\x26#26411;\x26#12398;\x26#12502;\x26#12525;\x26#12460;\x26#12540;\x26#22823;\x26#21215;\x26#38598;\x26#20013;\x26#65281;\x26#65288;\x26#28961;\x26#26009;\x26#65289;"; 
+google_ad.line3 = "\x26#24149;\x26#26411;\x26#12398;\x26#29105;\x26#12356;\x26#39746;\x26#12406;\x26#12388;\x26#12369;\x26#12414;\x26#12379;\x26#12435;\x26#12363;\x26#12290;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 4; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BmxyqKVO4S4KAC47S6QOj0MFYmp2zjQH-wOy1EsCNtwGAv9YGEAQYBCCAxuQDKAQ4AFCttLKH-P____8BYImj0oSoFKAB-KuM-QPIAQHaAVFmaWxlOi8vL0M6L1VzZXJzL3NoaW4vRGVza3RvcC8lRTklOUIlODYlRTUlOTAlODglRTUlODYlOTklRTclOUMlOUYvcG9zdC1hMTlkLmh0bWyAAgGpAmyxATYd1EY-yALoh-IDqAMB6AOxA_UDAAACxA&amp;num=4&amp;sig=AGiWqtyie3P7cn_je3TNO2J5uVcp_PHuNw&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://www.1soukai.com/campaign.html"; 
+google_ad.visible_url = "www.1soukai.com/campaign.html"; 
+google_ad.line1 = "\x26#22812;\x26#20013;\x26#12488;\x26#12452;\x26#12524;\x26#12395;\x26#36215;\x26#12365;\x26#12394;\x26#12356;\x26#31192;\x26#35363;"; 
+google_ad.line2 = "\x26#12414;\x26#12373;\x26#12363;\x26#22812;\x26#38291;\x26#12398;\x26#38971;\x26#23615;\x26#12364;\x26#35299;\x26#28040;\x26#12377;\x26#12427;\x26#12392;\x26#12399;\x26#65281;\x26#21916;"; 
+google_ad.line3 = "\x26#12403;\x26#12398;\x26#22768;\x26#22810;\x26#25968;\x26#12290;\x26#29245;\x26#24555;\x26#12394;\x26#26397;\x26#12434;\x26#36814;\x26#12360;\x26#12414;\x26#12379;\x26#12435;\x26#12363;"; 
+google_ad.regionname = ""; 
+google_ads[3] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dfile:///C:/Users/shin/Desktop/%2525E9%25259B%252586%2525E5%252590%252588%2525E5%252586%252599%2525E7%25259C%25259F/post-a19d.html%26hl%3Dja%26client%3Dca-nifty-cocolog-user_js%26adU%3Dwww.nikkei.co.jp/ps/ayataka%26adT%3D%25E7%25B6%25BE%25E9%25B7%25B9%25E3%2581%25AE%25E5%25B9%2595%25E6%259C%25AB%25E5%2591%25A8%25E9%2581%258A%25E7%25B4%2580%25E8%25A1%258C%26adU%3Dtravel.rakuten.co.jp%26adT%3D%25E5%259D%2582%25E6%259C%25AC%25E7%25AB%259C%25E9%25A6%25AC%25E3%2582%2586%25E3%2581%258B%25E3%2582%258A%25E3%2581%25AE%25E5%259C%25B0%25E3%2581%25B8%25E3%2581%25AE%25E6%2597%2585%26adU%3Dwww.bakumatsu.jp%26adT%3D%25E5%25B9%2595%25E6%259C%25AB%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25AC%25E3%2583%25BC%25E5%258B%259F%25E9%259B%2586%25E4%25B8%25AD%26adU%3Dwww.1soukai.com/campaign.html%26adT%3D%25E5%25A4%259C%25E4%25B8%25AD%25E3%2583%2588%25E3%2582%25A4%25E3%2583%25AC%25E3%2581%25AB%25E8%25B5%25B7%25E3%2581%258D%25E3%2581%25AA%25E3%2581%2584%25E7%25A7%2598%25E8%25A8%25A3%26gl%3DJP%26hideleadgen%3D1\x26usg\x3dAFQjCNEW_i7DHTvTXy1IFfYx0WNMvheyAw"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

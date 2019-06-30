@@ -1,0 +1,633 @@
+@charset "EUC-JP";
+
+/*
+-----------------------------------------------------
+livedoor Blog CSS
+FileName:	standard_white_3c
+Version:	2006.09.14
+-----------------------------------------------------
+*/
+
+
+/**********************************
+/           CSS Menu
+**********************************
+	1.Global
+	2.Common
+	3.Article
+	4.side
+	5.Other
+*********************************/
+
+
+/**********************************
+***          Global             ***
+**********************************/
+*{
+	word-break:break-all;
+	font-family:verdana, arial, sans-serif;
+}
+body{
+	margin:10;
+	padding:0 0 30px;
+	background:url(http://parts.blog.livedoor.jp/img/usr/standard_white_2c/bg.gif);
+	text-align:center;
+	color:#26262d;
+}
+a{
+	color:#0033cc;
+}
+a:hover{
+	text-decoration:none;
+	color#ff0000;
+}
+
+a:visited{
+	text-decoration:none;
+	color#3366cc;
+}
+
+h1
+,h2
+,h3{
+	margin:0;
+	padding:0;
+}
+
+table#header{
+	font-size:12px;
+	width:100%;
+	color:#444;
+}
+table#header th{
+	width:1%;
+}
+table#header th img{
+	margin:2px 10px;
+	width:132px;
+	height:24px;
+}
+table#header td.catprbox{
+	width:1%;
+	white-space:nowrap;
+}
+table#header td.catprbox span{
+	margin-right:15px;
+}
+table#header td.newstickerbox{
+	width:97%;
+	text-align:right;
+	padding-right:5px;
+}
+table#header td.startblogbox{
+	width:1%;
+	padding-right:5px;
+	white-space:nowrap;
+}
+table#header td.startblogbox img{
+	width:17px;
+	height:16px;
+	border:0px;
+	vertical-align:middle;
+	margin-right:3px;
+}
+table#header a{
+	color:#444;
+}
+
+#container{
+	width:950px;
+	margin:0 auto;
+	text-align:center;
+}
+#cgmmenu{
+	padding-top:11px;
+}
+#cgmmenu ul{
+	float:right;
+	font-size:12px;
+	list-style:none;
+	margin:0;
+	padding:5;
+}
+#cgmmenu ul li{
+	background:url(http://parts.blog.livedoor.jp/img/usr/standard_white_2c/tab.gif) no-repeat;
+	display:block;
+	float:left;
+	margin-right:5px;
+	line-height:100%;
+	width:70px;
+}
+#cgmmenu ul li a{
+	display:block;
+	padding:7px 5px 5px ;
+	text-decoration:none;
+}
+#cgmmenu ul li a:hover{}
+
+#banner{
+	background:#fff;
+	border:solid #9599aa;
+	border-width:1px 1px 0;
+	margin:0 auto;
+	text-align:left;
+	clear:both;
+}
+#banner a{
+	text-decoration:none;
+}
+#banner a:hover{
+	text-decoration:underline;
+}
+.blogtitle{
+	padding:45px 20px 5px;
+	font-size:20px;
+}
+.description{
+	padding:0 20px;
+	line-height:135%;
+	font-size:12px;
+}
+#blogcontainer{
+	background:#fff;
+	border:solid #9599aa;
+	border-width:0 1px 1px;
+	margin:0 auto;
+	padding:25px 5px 30px;
+	height:1%;
+}
+#wrapper{
+	float:left;
+	width:730px;
+}
+#content{
+	float:right;
+	width:500px;
+	text-align:left;
+}
+#contentin{}
+#contentin{}
+#left{
+	float:left;
+	width:200px;
+}
+#lefttop{}
+#leftbody{}
+#leftbottom{}
+#right{
+	float:right;
+	width:200px;
+}
+#righttop{}
+#rightbody{}
+#rightbottom{}
+
+#categorytitlebody{}
+#categorytitle{
+	margin-bottom:15px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+}
+#footer{}
+#outfooter{}
+
+/**********************************
+***          Common             ***
+**********************************/
+.datetop{}
+.fullbody{}
+.datebody{}
+h2.date{
+	font-size:12px;
+	font-weight:normal;
+}
+.blogbodytop{}
+.blogbody{
+	margin:5px 0 30px;
+	text-align:left;
+}
+.titlebody{
+	border:1px solid #9599aa;
+	padding:2px;
+}
+h3.title{
+	background:#f5f5f7;
+	padding:5px 7px;
+	line-height:137%;
+	font-size:15px;
+	font-weight:bold;
+}
+.main
+,.mainmore{
+	margin:10px 5px 20px;
+	line-height:147%;
+	font-size:13px;
+}
+blockquote{
+	background:#f9f9fa;
+	margin:10px 0;
+	padding:15px;
+	text-align:left;
+	color:#6c717a;
+}
+.pict{
+	margin:0 5px 5px 0;
+}
+
+a.continues
+,.posted a
+,.menu a
+,.nextpage
+,.commentttl a
+,.trackbackttl a{}
+
+a.continues:hover
+,.posted a:hover
+,.menu a:hover
+,nextpage a:hover
+,.commentttl a:hover
+,.trackbackttl a:hover{}
+ 
+.article_tags{
+	font-size:12px;
+	text-align:right;
+	margin:5px 5px 12px;
+}
+.article_tags a{
+	color:#333;
+}
+.article_tags a:hover{}
+
+.posted{
+	margin:5px;
+	text-align:right;
+	line-height:150%;
+	font-size:12px;
+}
+.clipbutton{
+	border:none;
+}
+#ad{
+	margin:25px 0 0;
+	text-align:center;
+}
+.blogbodybottom{}
+.dateend{}
+
+.nextpage{
+	text-align:right;
+	margin:5px;
+	font-size:12px;
+}
+
+/**********************************
+***          Article            ***
+**********************************/
+.menu{
+	font-size:12px;
+	text-align:center;
+	margin:0 0 10px;
+}
+
+#articletop{}
+#articlebody{}
+
+.comblogbodybottom{}
+.subspace{
+	margin:5px;
+}
+
+/*//   Trackback & Comment   //*/
+.trackbackurltop{}
+.trackbackurlbody{
+	margin:0 auto 20px;
+}
+h3.trackbackurlttl
+,h3.commenthead
+,h3.trackbackhead
+,h3.takecommenthead{
+	font-size:14px;
+}
+.trackbackurl{
+	margin:15px 0 0;
+	text-align:left;
+	font-size:12px;
+}
+.trackbackurl table{
+	width:330px;
+	margin:0 auto;
+}
+.trackbackurl table td{
+	text-align:right;
+}
+.trackbackurl table td input.trackbackbox{
+	width:255px;
+}
+.trackbackurl input{
+	padding:2px 0;
+}
+.trackbackurlbottom{}
+
+#commenttop
+,#trackbacktop{}
+#comment
+,#trackback{
+	margin:0 auto 20px;
+}
+#commentbody
+,#trackbackbody{
+	font-size:12px;
+	margin:15px 10px 0;
+}
+.commentttl
+,.trackbackttl{}
+.commenttext
+,.trackbacktext{
+	margin:5px auto 10px;
+	padding-left:15px;
+	line-height:16px;
+}
+#commentbottom
+,#trackbackbottom{}
+
+/*//   Commnet Form   //*/
+#formbodytop{}
+#takecomment{}
+#takecommentbody{}
+.loginon,.loginoff{
+	margin:5px 10px;
+	font-size:12px;
+}
+.loginon a
+,.loginoff a{}
+.loginon a:hover
+,.loginoff a:hover{}
+
+#error{
+	border:2px solid #f00;
+	margin:10px 0;
+	padding:10px 15px;
+	line-height:125%;
+	font-size:12px;
+	font-weight:bold;
+	color:#f00;
+}
+#error span{
+	font-weight:normal;
+}
+
+#formbody{
+	margin-top:20px;
+}
+#formbody table.form{
+	margin:0px auto;
+	font-size:12px;
+	width:280px;
+}
+#formbody table.form th{
+	font-weight:normal;
+	padding:2px 2px 2px 0;
+	text-align:right;
+	white-space:nowrap;
+}
+#formbody table.form td{
+	padding:2px 0;
+}
+#formbody table.form td span{
+	margin-right:5px;
+}
+input#author{
+	width:65%;
+}
+input#email{
+	width:65%;
+}
+input#url{
+	width:75%;
+}
+input#bake{}
+textarea#text{
+	width:90%;
+	height:200px;
+}
+input.button{
+	margin-top:10px;
+	padding:2px 0;
+	width:80px;
+}
+#formbodybottom{}
+#articlebottom{}
+#blogcommentbottom{}
+#contentcommentbottom{}
+
+/**********************************
+***          Side               ***
+**********************************/
+/*//   CmnSide   //*/
+.sidetitlebody{}
+.sidetitle{
+	background:url(http://parts.blog.livedoor.jp/img/usr/standard_white_2c/side_bg.gif) repeat-x;
+	padding:10px 0 0;
+	line-height:100%;
+	text-align:left;
+	font-size:12px;
+	font-weight:bold;
+}
+.sidetitle a{}
+.sidetop{}
+.side{
+	margin-bottom:25px;
+	padding:10px 0 0;
+	text-align:center;
+	line-height:120%;
+	font-size:12px;
+}
+.side a:visited{
+	color:#99999c;
+}
+.sidebody{
+	background:url(http://parts.blog.livedoor.jp/img/usr/standard_white_2c/icon_dot.gif) no-repeat 0 8px;
+	line-height:18px;
+	padding-left:5px;
+	margin:0 5px 5px 10px;
+	text-align:left;
+}
+.sidebottom{}
+
+/*//   Calendar   //*/
+.calendarheadbody{}
+.calendarhead{
+	background:url(http://parts.blog.livedoor.jp/img/usr/standard_white_2c/side_bg.gif) repeat-x;
+	padding:10px 0 0;
+	line-height:100%;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+}
+.calendarhead a{
+	text-decoration:none;
+}
+.caltop{}
+.calbody{
+	padding:10px 0;
+	text-align:center;
+}
+.caltbl{
+	width:155px;
+	margin:0 auto;
+}
+.calendartable{}
+.caltblwkbg{}
+.calendarwd{}
+.caltblwk{}
+.caltblwk td{
+	width:25px;
+	padding:3px 0;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+}
+.calendarweek{
+	color:#99999c;
+}
+.weekday{}
+.sun{}
+.sat{}
+.caltbldaybg{}
+.caltblday{
+	margin:0 auto 15px;
+}
+.caltblday td{
+	width:25px;
+	height:18px;
+	padding:3px 0;
+	text-align:center;
+	font-size:12px;
+}
+.calendard{}
+.calendardbg{}
+.calendar{
+	color:#999;
+}
+.calon{}
+.caloff{}
+.even{}
+.odd{}
+.calbottom{}
+
+/**********************************
+***          Other              ***
+**********************************/
+input.sf{
+	width:122px;
+	margin-right:3px;
+}
+.moblogbody
+,.linkme
+,.skypeme{
+	text-align:center;
+}
+.afbody{
+	text-align:center;
+	padding-bottom:10px;
+}
+.afbody img{
+	margin-bottom:3px;
+}
+.photo{
+	text-align:center;
+}
+.nickname{
+	font-size:12px;
+	font-weight:bold;
+	margin:10px 0;
+}
+.message{
+	text-align:left;
+	font-size:12px;
+	margin-bottom:10px;
+	line-height:125%;
+}
+.blogtimes{
+	margin:10px auto;
+	text-align:center;
+	width:160px;
+}
+.quotetable{
+	background:#000;
+	width:150px;
+}
+.quotetable img{
+	width:140px;
+}
+.quote{
+	color:#000;
+	font-size:x-small;
+	padding:1px;
+	background:#fff;
+}
+.newslist{
+	padding-right:5px;
+}
+
+/*//   Sidebanner   //*/
+.elsehead{}
+.elsebody{
+	text-align:center;
+}
+.reader{
+	padding-bottom:10px;
+	width:117px;
+	font-size:11px;
+	text-align:left;
+	margin:0 auto;
+}
+.powered
+,rss{
+	padding-bottom:10px;
+}
+.elsebottom{}
+
+/*//   Ad   //*/
+a.adtitle{
+	color:#26262d;
+	font-weight:bold;
+	text-decoration:underline;
+}
+a.addescription{
+	color:#99999c;
+	text-decoration:none;
+}
+a.adurl{
+	color:#99999c;
+	text-decoration:none;
+}
+a.adld{
+	color:#99999c;
+	text-decoration:underline;
+}
+body.ad{
+	background:#fff;
+}
+
+	a.toptxt{color:#FFFFFF;text-decoration:underline;}
+	a.toptxt:link{color:#eeeeff;text-decoration:underline;}
+	a.toptxt:visited{color:#eeeeff;text-decoration:underline;}
+	a.toptxt:active{}
+	a.toptxt:hover{color:#ffcc66;text-decoration:none;}
+
+	.topbar{
+		font-family:;
+		font-size:9pt;
+		color:#ffffff;
+		width=95%;
+		background:#ff6633;
+		text-align:left;
+		padding:2px;
+		border-top:1px solid #ff9900;
+		border-left:1px solid #ff9900;
+		border-right:1px solid #ff9900;
+		border-bottom:1px solid #ff9900;
+		margin:10px 5px 0px;
+	}

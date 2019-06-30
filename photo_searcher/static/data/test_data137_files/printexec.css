@@ -1,0 +1,28 @@
+@charset "euc-jp";
+<!--
+
+/*印刷時に再度実行させるCSSです。*/
+/*ウィンドウ上でフォントサイズを変更されても、*/
+/*印刷時に再びpx指定するのでレイアウト崩れを防げる確率が上がります。*/
+
+/*フォント設定用オプション*/
+.f11{font-size:11px;line-height:110%;}
+.f13{font-size:13px;line-height:110%;}
+.f15{font-size:15px;line-height:110%;}
+.f17{font-size:17px;line-height:115%;}
+.f11b{font-size:11px;line-height:110%;font-weight:bold;}
+.f13b{font-size:13px;line-height:110%;font-weight:bold;}
+.f15b{font-size:15px;line-height:120%;font-weight:bold;}
+.f17b{font-size:17px;line-height:125%;font-weight:bold;}
+
+/*行間調節用*/
+.s115 {line-height:115%;}
+.s130 {line-height:130%;}
+.s150 {line-height:150%;}
+
+/*マストヘッド用*/
+p#yjmthloginarea{
+display:none;
+}
+
+-->

@@ -1,0 +1,173 @@
+/* COMMON */
+
+.red {
+	color:#ff0000;
+}
+
+.blue {
+	color:#0000ff;
+}
+
+.ct {
+	text-align:center;
+}
+
+
+/* BASIC LAYOUT */
+
+#container {
+	width:788px;
+	margin:0px auto;
+}
+
+#maplink {
+	margin:0px;
+}
+
+#banner h1 {
+	margin:0px 0px 15px;
+}
+
+#main {
+	width:781px;
+}
+
+#left {
+	float:left;
+	width:181px;
+}
+
+#left p {
+	padding:16px;
+}
+
+#content {
+	float:left;
+	width:372px;
+	padding-left:22px;
+	padding-right:22px;
+}
+
+#right {
+	float:right;
+	width:181px;
+}
+
+#foot {
+	clear:both;
+}
+
+
+/* MAIN */
+
+.entry a {
+	text-decoration:underline;
+}
+
+.entry h4 {
+	margin:20px 0px 10px;
+	border-top: dotted 2px #999999;
+	padding-top:5px;
+	font-size:12px;
+	color:#1F95CD;
+}
+
+.entry h3 {
+	margin-bottom:3px;
+	text-align:right;
+	font-size:10px;
+	color:#666666;
+	font-weight:normal;
+}
+
+.entry h2 {
+	height:43px;
+	margin-top:-2px;
+	padding-top:5px;
+	padding-left:44px;
+	font-size:20px;
+	color:#1F95CD;
+	background-image:url(/fantasyland//img/pa_entry_title.gif);
+	background-repeat:no-repeat;
+}
+
+.entry p {
+	font-size:12px;
+}
+
+.entry .entrybody {
+	clear:both;
+	margin-bottom:10px;
+	font-size:12px;
+	line-height:150%;
+}
+
+.entry p.posted {
+	font-size:10px;
+	height:35px;
+	margin:0px 0px 30px;
+	padding-top:3px;
+	text-align:right;
+}
+
+.entrybody a {
+	color:#ff0000 !important;
+}
+
+
+/* COLUMNS */
+
+.sidebar a {
+	text-decoration:underline;
+}
+
+#profile p {
+	padding:8px;
+}
+
+#profile h2 {
+	margin-bottom:10px;
+}
+
+#calendar table {
+	width:165px;
+	margin:0px auto 10px;
+}
+
+#calendar caption {
+	text-decoration:none;
+}
+
+#calendar a {
+	color:#ff0000 !important;
+}
+
+
+/* COMMENT FORM */
+
+#commentform p {
+	font-size:12px;
+}
+
+#commentform {
+	width:749px;
+	border-right:solid 1px #999999;
+	padding:0px 15px;
+	border-left:solid 1px #999999;
+}
+
+#commentform h4 {
+	margin:20px 0px 10px;
+	border-top:dotted 2px #999999;
+	padding-top:5px;
+	font-size:12px;
+	color:#666666;
+}
+
+#commentform p.posted {
+	font-size:10px;
+	margin:0px 0px 50px;
+	border-top:dotted 1px #333333;
+	padding-top:3px;
+	text-align:right;
+}

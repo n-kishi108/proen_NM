@@ -1,0 +1,75 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B6q_Crpi1S7vCCYjG6QPG-7GKB7Xij0-dwo25AsCNtwHAyroVEAEYASDjpuIGKAU4AFDxurzlA2CJ672E4BOgAavjiv4DsgEPd3d3Lndvd2tvcmVhLmpwyAEB2gE5aHR0cDovL3d3dy53b3drb3JlYS5qcC9uZXdzL2VudGVyLzIwMDgvMDkwOC8xMDA0ODI0OC5odG1sgAIBqQJ6PqKp7-RGPqgDAegD7gb1AwAAAMQ&amp;num=1&amp;sig=AGiWqty1XTnp3svThmkpNoCZD_JPRJtmNw&amp;client=ca-pub-1847813181958947&amp;adurl=http://healcare.net/%3Fmode%3Dcate%26cbid%3D88752%26csid%3D0"; 
+google_ad.visible_url = "healcare.net/"; 
+google_ad.line1 = "\x26#38867;\x26#22269;\x26#12467;\x26#12473;\x26#12513;\x26#36890;\x26#36009;\x26#12394;\x26#12425;"; 
+google_ad.line2 = "\x26#12504;\x26#12523;\x26#12465;\x26#12450;\x26#12493;\x26#12483;\x26#12488;\x26#12290;\x26#28608;\x26#23433;\x26#20385;\x26#26684;\x26#12290;"; 
+google_ad.line3 = "\x26#29694;\x26#22320;\x26#20385;\x26#26684;\x26#12395;\x26#12390;\x26#22909;\x26#35413;\x26#30330;\x26#22770;\x26#20013;\x26#12290;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BJGGNrpi1S7vCCYjG6QPG-7GKB7HcsGjZsbyZCcCNtwHA9cknEAIYAiDjpuIGKAU4AFCKxqO5B2CJ672E4BOgAYnkjfEDsgEPd3d3Lndvd2tvcmVhLmpwyAEB2gE5aHR0cDovL3d3dy53b3drb3JlYS5qcC9uZXdzL2VudGVyLzIwMDgvMDkwOC8xMDA0ODI0OC5odG1sqQJ6PqKp7-RGPsgC3e_aDKgDAegD7gb1AwAAAMQ&amp;num=2&amp;sig=AGiWqtyGThA7gMDGbMwQOXy5sacmNKEVgg&amp;client=ca-pub-1847813181958947&amp;adurl=http://r.advg.jp/adptg_count/r%3Fadptg_aid%3D1143%26adptg_mid%3D36%26adptg_lid%3D2785"; 
+google_ad.visible_url = "www.u-can.co.jp"; 
+google_ad.line1 = "\x26#12518;\x26#12540;\x26#12461;\x26#12515;\x26#12531;\x26#12398;\x26#38867;\x26#22269;\x26#35486;\x26#35611;\x26#24231;"; 
+google_ad.line2 = "1\x26#26085;30\x26#20998;\x26#12391;\x26#65327;\x26#65323;\x26#12398;\x26#38867;\x26#22269;\x26#35486;\x26#20250;\x26#35441;\x26#23398;\x26#32722;"; 
+google_ad.line3 = "\x26#25945;\x26#26448;\x26quot;\x26#12500;\x26#12531;\x26#12474;\x26#12521;\x26#12540;\x26#38867;\x26#22269;\x26#35486;\x26quot;\x26#12434;\x26#12372;\x26#32057;\x26#20171;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BrA7Mrpi1S7vCCYjG6QPG-7GKB6zywaoBoqC2tgzAjbcBgMb9FBADGAMg46biBigFOABQ2PLZsgVgieu9hOAToAG2r-X5A7IBD3d3dy53b3drb3JlYS5qcMgBAdoBOWh0dHA6Ly93d3cud293a29yZWEuanAvbmV3cy9lbnRlci8yMDA4LzA5MDgvMTAwNDgyNDguaHRtbIACAakCej6iqe_kRj7IAsyYrQ6oAwHoA-4G9QMAAADE&amp;num=3&amp;sig=AGiWqtz4hSg9yYNpG_RhgRVSD2cOp7PZOg&amp;client=ca-pub-1847813181958947&amp;adurl=http://www.sastty.com/event/662/"; 
+google_ad.visible_url = "www.sastty.com"; 
+google_ad.line1 = "\x26#28961;\x26#28155;\x26#21152;\x26#12398;\x26#30333;\x26#39658;\x26#26579;\x26#12417;\x26#12394;\x26#12425;"; 
+google_ad.line2 = "\x26#39658;\x26#12392;\x26#38957;\x26#30382;\x26#12434;\x26#20663;\x26#12388;\x26#12369;\x26#12394;\x26#12356;\x26#12504;\x26#12450;\x26#12459;\x26#12521;\x26#12540;\x26#12290;"; 
+google_ad.line3 = "\x26#21033;\x26#23611;\x26#12504;\x26#12450;\x26#12459;\x26#12521;\x26#12540;\x26#12488;\x26#12522;\x26#12540;\x26#12488;\x26#12513;\x26#12531;\x26#12488;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 4; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BOKxwrpi1S7vCCYjG6QPG-7GKB5H4_5sBxbHu7RDAjbcBgLbcBRAEGAQg46biBigFOABQh-jJmv3_____AWCJ672E4BOgAYeZyP4DsgEPd3d3Lndvd2tvcmVhLmpwyAEB2gE5aHR0cDovL3d3dy53b3drb3JlYS5qcC9uZXdzL2VudGVyLzIwMDgvMDkwOC8xMDA0ODI0OC5odG1sgAIBqQJ6PqKp7-RGPsgCm7zWB6gDAegD7gb1AwAAAMQ&amp;num=4&amp;sig=AGiWqtxXk-clcFsBlvujenjfH-pV6M6XBA&amp;client=ca-pub-1847813181958947&amp;adurl=http://search.4travel.jp/overseas_tour/%3Fd_city%3DTYO%26d_mon%3D05%26d_day%3D16%26REGION_CD1%3DAS%26COUNTRY_CD1%3DKR%26CITY_CD1%3DCI-SEL%26REGION_CD2%3D%26COUNTRY_CD2%3D%26CITY_CD2%3D%26REGION_CD3%3D%26COUNTRY_CD3%3D%26sup_id%3D%26price_sort_flg%3D1%26cid%3Dadw_ostour_jtb_sel"; 
+google_ad.visible_url = "4travel.jp"; 
+google_ad.line1 = "\x26#12477;\x26#12454;\x26#12523;\x26#12398;\x26#20154;\x26#27671;\x26#12484;\x26#12450;\x26#12540;\x26#12399;\x26#65311;"; 
+google_ad.line2 = "\x26#12477;\x26#12454;\x26#12523;\x26#12398;\x26#26684;\x26#23433;\x26#12484;\x26#12450;\x26#12540;\x26#12434;\x26#24505;\x26#24213;\x26#27604;\x26#36611;\x26#12375;\x26#12390;"; 
+google_ad.line3 = "\x26#20170;\x26#24180;\x26#12398;\x26#20908;\x26#12399;\x26#12477;\x26#12454;\x26#12523;\x26#12395;\x26#34892;\x26#12371;\x26#12358;\x26#65281;"; 
+google_ad.regionname = ""; 
+google_ads[3] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 5; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BCV_4rpi1S7vCCYjG6QPG-7GKB-nGppEBt4WOlQ7AjbcBwNyuFxAFGAUg46biBigFOABQ6LnjhQNgieu9hOATsgEPd3d3Lndvd2tvcmVhLmpwyAEB2gE5aHR0cDovL3d3dy53b3drb3JlYS5qcC9uZXdzL2VudGVyLzIwMDgvMDkwOC8xMDA0ODI0OC5odG1sqQJ6PqKp7-RGPsgCwbvVCqgDAegD7gb1AwAAAMQ&amp;num=5&amp;sig=AGiWqtxvkpdkVMyN6x-4Jq1YErlXheb3sw&amp;client=ca-pub-1847813181958947&amp;adurl=http://www.ana.co.jp/int/promotion/topics124/kr_nrthnd.html%3Fcid%3DTGTgoogle_cntsANAecowari2010040081"; 
+google_ad.visible_url = "www.ana.co.jp"; 
+google_ad.line1 = "ANA \x26#38867;\x26#22269;\x26#24448;\x26#24489;\x26#33322;\x26#31354;\x26#21048;"; 
+google_ad.line2 = "\x26#24448;\x26#24489;32000\x26#20870;\x26#65374;!\x26#20986;\x26#30330;3\x26#26085;\x26#21069;\x26#12414;\x26#12391;\x26#12364;\x26#12362;\x26#12488;\x26#12463;"; 
+google_ad.line3 = "\x26#20104;\x26#32004;\x26#26178;\x26#12395;\x26#24231;\x26#24109;\x26#25351;\x26#23450;\x26#21487;\x26#12539;\x26#12510;\x26#12452;\x26#12523;\x26#12418;\x26#36015;\x26#12414;\x26#12427;"; 
+google_ad.regionname = ""; 
+google_ads[4] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.wowkorea.jp/news/enter/2008/0908/10048248.html%26hl%3Dja%26client%3Dca-pub-1847813181958947%26adU%3Dhealcare.net/%26adT%3D%25E9%259F%2593%25E5%259B%25BD%25E3%2582%25B3%25E3%2582%25B9%25E3%2583%25A1%25E9%2580%259A%25E8%25B2%25A9%25E3%2581%25AA%25E3%2582%2589%26adU%3Dwww.u-can.co.jp%26adT%3D%25E3%2583%25A6%25E3%2583%25BC%25E3%2582%25AD%25E3%2583%25A3%25E3%2583%25B3%25E3%2581%25AE%25E9%259F%2593%25E5%259B%25BD%25E8%25AA%259E%25E8%25AC%259B%25E5%25BA%25A7%26adU%3Dwww.sastty.com%26adT%3D%25E7%2584%25A1%25E6%25B7%25BB%25E5%258A%25A0%25E3%2581%25AE%25E7%2599%25BD%25E9%25AB%25AA%25E6%259F%2593%25E3%2582%2581%25E3%2581%25AA%25E3%2582%2589%26adU%3D4travel.jp%26adT%3D%25E3%2582%25BD%25E3%2582%25A6%25E3%2583%25AB%25E3%2581%25AE%25E4%25BA%25BA%25E6%25B0%2597%25E3%2583%2584%25E3%2582%25A2%25E3%2583%25BC%25E3%2581%25AF%25EF%25BC%259F%26adU%3Dwww.ana.co.jp%26adT%3DANA%2B%25E9%259F%2593%25E5%259B%25BD%25E5%25BE%2580%25E5%25BE%25A9%25E8%2588%25AA%25E7%25A9%25BA%25E5%2588%25B8%26gl%3DJP\x26usg\x3dAFQjCNFH_fh0WeTEnU05qC5ceKRnqwwqtA"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

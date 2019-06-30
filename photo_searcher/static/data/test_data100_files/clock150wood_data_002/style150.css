@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*共通*/
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 120%;
+  font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+  }
+
+/*winIE*/
+body {
+  text-align: left;
+  padding: 0 0 20px 0;
+  font-size: 75%;
+  }
+  
+body table{
+  font-size: 0.9em;
+  }
+img {
+  border: 0;
+  }

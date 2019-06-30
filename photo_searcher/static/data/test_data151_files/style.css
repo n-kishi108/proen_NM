@@ -1,0 +1,868 @@
+@charset "euc-jp";
+
+
+#editEntryArea .editEntryAreaResizeBarWiki,
+input.frm_txt,
+input.frm_textarea,
+textarea,
+select{
+color:#000000;
+border-color:#BB4814;
+background-color:#FFFFFF;
+}
+
+/* B-1*/
+#blogHeaderArea h1 a{
+color:#fff0bf;
+}
+
+/* B-2*/
+#blogHeaderArea div.oneWordMessageWrapper1{
+color:#FFFFFF;
+}
+
+
+/*C-1*/
+#modules #avaterModule p a,
+#modules #avaterModule p.yahooIdName,
+#modules #guestBook a,
+#modules #libraryListModule ul.essentialList li a,
+#modules #libraryListModule ul.essentialList li span,
+#modules #settingMenuModule ul li,
+#modules #settingMenuModule ul li a{
+color:#BB4814;
+}
+
+/* ===== C-2 ===== */
+
+/* C-2-1 */
+#yahooIdentityContactCard .contactCardTitleWrap,
+#modules .module h2 span,
+#modules #visitorsList h2 span,
+#modules #favoriteBlogList h2 span{
+background:#e6c8aa;
+}
+
+/* C-2-2 */ 
+#modules .module h2 span,
+#modules #visitorsList h2 span a,
+#modules #favoriteBlogList h2 span a{
+color:#000000;
+}
+
+/* ===== C-3 ===== */
+
+/*C-3-1 */
+#modules #libraryListModule ul li a,
+#modules #settingMenuModule ul li ul li,
+#modules #settingMenuModule ul li ul li a{
+color:#BB4814;
+}
+
+.blogPartsModule table tbody tr td a.small { color:#BB4814; }
+
+/*C-3-2 */
+#modules .module,
+#modules .module .yahooIdentityUserCardContents,
+#modules #visitorsList,
+#modules #favoriteBlogList{
+color:#000000 !important;
+}
+
+/*C-3-3 */
+#modules .module a,
+#modules #visitorsList a,
+#modules #favoriteBlogList a{
+color:#BB4814;
+}
+
+/*C-3-4 */
+#modules .module .showAll a{
+color:#BB4814;
+}
+
+
+/*C-3-5 +C-3-6 */
+#modules #statisticsModule table tr th{
+color:#000000;
+background-color:#e6c8aa;
+}
+
+/*C-3-7 */
+#modules #statisticsModule table tr th,
+#modules #statisticsModule table tr td{
+border-color:#ffffff;
+}
+
+
+/*C-4-1 */
+#modules #timeLineNavi li a{
+color:#BB4814;
+}
+
+/*C-4-2 */
+#modules #calendarModule table td a{
+color:#BB4814;
+}
+
+/*C-4-3*/
+#modules #calendarModule table,
+#modules #calendarModule table td{
+color:#000000;
+}
+
+/*C-4-4*/
+#modules #timeLineNavi li{
+color:#BB4814;
+}
+
+/*C-4-5*/
+#modules #calendarModule table td.today{
+color:#FFFFFF;
+}
+
+/*C-4-6*/
+#modules #calendarModule table td.today{
+background-color:#e6c8aa;
+}
+
+/*C-4-7*/
+#modules #calendarModule table th{
+color:#BB4814;
+}
+
+/*C-4-8*/
+#modules #calendarModule table thead tr th{
+border-color:#BB4814;
+}
+
+/* ===== C-5 ===== */
+
+#openDate{
+color:#000000;
+}
+
+
+.commonFrameColor,
+#yahooIdentityUserCard .yahooIdentityUserCardThumbnailFullContainer,
+#yahooIdentityContactCard .yahooIdentityContactCardWrap .friendCard .friendImg,
+#yahooIdentityContactCard .yahooIdentityContactCardWrap .friendCardSpecial .friendImg,
+#modules #avaterModule #tb_01 img,
+#modules #avaterModule #tb_02 #avtBorder{
+border-color:#BB4814 !important;
+}
+
+#modules #settingMenuModule .current{
+color:#BB4814;
+}
+
+
+
+/* D-1-1*/
+#mainContentsArea h2,
+#mainContentsArea .moduleTitle{
+color:#fff0bf;
+}
+
+/* D-1-2*/
+#mainContentsArea .moduleTitle p a{
+color:#fff0bf;
+}
+
+
+/* D-2-1*/
+.commonColor,
+#mainContentsArea .moduleContents,
+body.top #mainContentsArea #voting .moduleContents,
+body.top #mainContentsArea #newestImages1 .moduleContents{
+color:#000000;
+}
+
+/* D-2-2*/
+.commonColor a,
+#mainContentsArea .moduleContents a,
+#mainContentsArea .moduleContents #newEntriesMore a,
+body.top #mainContentsArea #voting .moduleContents a,
+body.top #mainContentsArea #newestImages1 .moduleContents a{
+color:#BB4814;
+}
+
+/* D-2-3*/
+#mainContentsArea #newEntries h3 a,
+#mainContentsArea #favoriteBlogLists ul li a,
+#mainContentsArea #favoriteBlogLists h3 a{
+color:#BB4814;
+}
+
+/* D-2-4*/
+#mainContentsArea #standardLib h3 a,
+#mainContentsArea #standardLib2 h3 a,
+#mainContentsArea #favoriteBlogLists h3 a{
+color:#4e9b00;
+}
+
+
+/* D-2-5*/
+body.top #standardLib2 .latestDate,
+body.top #newEntries .entryTitle p,
+body.top #new3Entries .entryTitle p{
+color:#000000;
+}
+
+/* D-2-6*/
+body.top #standardLib .showAll a,
+body.top #standardLib2 .showAll a,
+body.top #newEntries .showAll a,
+body.top #new3Entries .showAll a{
+color:#BB4814;
+}
+
+
+/* D-3-1*/
+#mainContentsArea #libraryTitle h2,
+#mainContentsArea #cpTitle h2,
+#mainContentsArea #libraryTitle p,
+#mainContentsArea #cpTitle p{
+color:#fff0bf;
+}
+
+/* D-3-2*/
+#mainContentsArea #libraryTitle p a,
+#mainContentsArea #cpTitle p a{
+color:#fff0bf;
+}
+
+
+/*D-4-1*/
+#mainContentsArea .showAllNavi,
+#mainContentsArea #countFuns,
+#mainContentsArea #selectLayoutType,
+#mainContentsArea #responseInfoArea,
+#mainContentsArea #intBody,
+#mainContentsArea #entryCnt,
+#mainContentsArea #guestBookLoginOnly,
+#mainContentsArea .pagingNavi1,
+#mainContentsArea .pagingNavi2,
+#mainContentsArea .pagingNavi3{
+color:#000000;
+}
+
+/*D-4-2*/
+#mainContentsArea #guestBookLoginOnly a,
+#mainContentsArea .showAllNavi a,
+#mainContentsArea .pagingNavi1 a,
+#mainContentsArea .pagingNavi2 a,
+#mainContentsArea .pagingNavi3 a{
+color:#BB4814;
+}
+
+
+/*D-5-1*/
+#mainContentsArea .postEntry .cpModule p.endPostEntry,
+#mainContentsArea .adMonster p,
+body#assistance h1,
+body#assistance h2,
+body#assistance h3,
+body#assistance label,
+#mainContentsArea .cpVote .entryTitle h3,
+#mainContentsArea .profModuleTitle h3,
+#mainContentsArea .entry .entryTitle h2,
+#mainContentsArea .cpModuleTitle h3,
+#mainContentsArea .entry .entryTitle,
+#mainContentsArea .cpModule .cpModuleTitle,
+#mainContentsArea .responseTitle h2,
+#mainContentsArea .responseTitle{
+color:#000000;
+}
+/*D-5-2*/
+
+#mainContentsArea .cpContents ul#select a,
+#mainContentsArea .cpModule ul.selectNavi a,
+#mainContentsArea .cpModule ul#selectNavi a,
+#mainContentsArea #selectMenuDisplay dl#selectNavi a,
+#mainContentsArea .cpModule p.secInsert a,
+#mainContentsArea .cpModule .cpModuleBody p a,
+#mainContentsArea .cpModule table tbody tr td a,
+#mainContentsArea .cpModule p#mobileNotice a,
+#mainContentsArea .cpContents ul#select a,
+#mainContentsArea table tbody tr td.col1 a,
+#mainContentsArea table tbody tr td.col2 a,
+#mainContentsArea table tbody tr td.col3 a,
+#mainContentsArea table tbody tr td.col4 a,
+#mainContentsArea .profModuleTitle a,
+#mainContentsArea .responseTitle h2 a,
+#mainContentsArea .entry .entryTitle a,
+#mainContentsArea .cpModuleTitle a,
+#mainContentsArea .responseTitle a{
+color:#BB4814;
+}
+
+#mainContentsArea table.tableStyle1 thead tr th,
+.tableStyle2 thead th,
+#blogContentsArea #mainContentsArea .cpFan table thead th,
+#blogContentsArea #mainContentsArea .libAddDel table thead th,
+#blogContentsArea #mainContentsArea .libCategory table th,
+#blogContentsArea #mainContentsArea .libExplanation table th,
+#blogContentsArea #mainContentsArea .blog table th,
+#blogContentsArea #mainContentsArea .statistics table th{
+color:#000000;
+}
+
+
+/*D-6-1*/
+#mainContentsArea,
+#mainContentsArea #voting .moduleContents,
+#mainContentsArea #newestImages1 .moduleContents,
+#mainContentsArea #textAdArea th,
+.interestMatchWrap .blog_dd2,.blog_IMp{
+color:#000000 !important;
+}
+
+/*D-6-2*/
+#mainContentsArea a,
+#mainContentsArea #voting .moduleContents a,
+#mainContentsArea #newestImages1 .moduleContents a,
+#mainContentsArea #textAdArea td a{
+color:#BB4814;
+}
+
+/*D-6-3*/
+#newestImages2 ul li ul li.date,
+#mainContentsArea .responseMetaInfo p.date .dateInfo,
+.tableStyle1 tbody tr td.date,
+.tableStyle2 tbody tr td span.date,
+#mainContentsArea .commentsArea .commentsContents .comment .date,
+#mainContentsArea .trackbackArea .trackbackInfo .trackbackContents .trackback .date{
+color:#000000;
+}
+
+/*D-6-4*/
+#mainContentsArea .commentsArea h3 a,
+#mainContentsArea .trackbackArea h3 a{
+color:#BB4814;
+}
+
+
+/*D-7-1*/
+#mainContentsArea .entry .permaLink,
+#mainContentsArea #selectLibrary,
+#mainContentsArea #entryArea,
+#mainContentsArea .cpContents table th,
+#mainContentsArea #guestBookSettingBox th,
+#mainContentsArea #guestBookSettingBox th,
+#mainContentsArea .profileSetting #profileInfo,
+#mainContentsArea .profileConf #profileInfo,
+#mainContentsArea .profileConf table th{
+color:#000000;
+}
+
+/*D-7-2*/
+#mainContentsArea .entry .permaLink a{
+color:#BB4814;
+}
+
+/*D-7-3*/
+.thumbImgArea ul,
+#mainContentsArea .votingResultArea table,
+#mainContentsArea .votingResultArea thead th,
+#mainContentsArea .commentsArea fieldset,
+#mainContentsArea .commentsArea .commentsContents,
+#mainContentsArea .trackbackArea .trackbackInfo,
+#mainContentsArea .trackbackArea .trackbackInfo .trackbackHeading1,
+#mainContentsArea .trackbackArea .trackbackInfo .trackbackHeading2{
+border-color:#BB4814;
+}
+
+/*D-7-4*/
+#mainContentsArea .votingResultArea thead th,
+#mainContentsArea .commentsArea fieldset,
+#mainContentsArea .trackbackArea .trackbackInfo .trackbackHeading1,
+#mainContentsArea .trackbackArea .trackbackInfo .trackbackHeading2{
+color:#000000;
+}
+
+/*D-7-5*/
+#mainContentsArea .trackbackArea .trackbackInfo .trackbackHeading1 ul li a,
+#mainContentsArea .trackbackArea .trackbackInfo .trackbackHeading2 ul li a,
+.interestMatchWrap .blog_dltxt, .interestMatchWrap dd.blog_dd1,.blog_IMp span {
+color:#BB4814 !important;
+}
+
+/*D-7-6*/
+#mainContentsArea .votingResultArea thead th,
+#mainContentsArea .commentsArea fieldset,
+#mainContentsArea .trackbackArea .trackbackInfo .trackbackHeading1,
+#mainContentsArea .trackbackArea .trackbackInfo .trackbackHeading2,
+.interestMatchWrap dl.blog_blbg {
+background-color:#e6c8aa;
+}
+
+
+
+#mainContentsArea .tabNavigation,
+#mainContentsArea .tabNavigation ul li{
+border-color:#BB4814;
+}
+
+
+/* D-8-1 */
+#mainContentsArea .tabNavigation ul li em{
+color:#000000;
+}
+
+/* D-8-2 */
+#blogContentsArea #mainContentsArea .tabNavigation ul li.current{
+background-color:#e6c8aa;
+}
+
+/* D-9-1 */
+#mainContentsArea .tabNavigation ul li a{
+color:#BB4814;
+}
+
+/* D-9-2 */
+#mainContentsArea .tabNavigation ul li{
+background-color:#e6c8aa;
+}
+
+
+/*D-10-1*/
+.tableStyle1 thead tr th,
+.tableStyle2 thead tr th{
+background-color:#e6c8aa;
+}
+
+/*D-10-1*/
+.commonHeadBackgroundColor,
+#mainContentsArea .postEntry .cpModule p.endPostEntry,
+#mainContentsArea .adMonster p,
+#mainContentsArea .libAddDel tr th,
+#mainContentsArea .libCategory tr th,
+#mainContentsArea .libExplanation tr th,
+#mainContentsArea .blog tr th,
+#mainContentsArea .statistics tr th,
+#mainContentsArea .cpFan tr th,
+#mainContentsArea .cpVote table thead th{
+background-color:#e6c8aa;
+}
+
+/*D-10-2*/
+.commonBackgroundColor,
+.votingResultArea table thead th,
+#mainContentsArea .profileConf th,
+#mainContentsArea .postEntry .cpModule th,
+#mainContentsArea .profileSetting .cpModule th,
+#mainContentsArea .mobile .cpModule th,
+#mainContentsArea #guestBookSettingBox th,
+#mainContentsArea #guestBookSettingBox th,
+#mainContentsArea .libAddDel table#bookadd th,
+#mainContentsArea .libCategory table#bookadd th,
+#mainContentsArea .cpService table tbody th,
+#mainContentsArea .cpVote table tbody th.col1,
+#mainContentsArea .cpVote table tbody th.col3,
+body#assistance,
+#mainContentsArea #selectLibrary,
+#mainContentsArea #searchEntries,
+#mainContentsArea .permaLink,
+#mainContentsArea .profileConf p#profileInfo,
+#mainContentsArea .guestBook div#entryArea,
+#mainContentsArea .postEntry #editEntryArea,
+#mainContentsArea .profileSetting .cpModule p#profileInfo,
+#mainContentsArea .profileSetting .cpModule ul#htmlElementsControl,
+#mainContentsArea .adPartner .cpModule .settingCommonPlainBody .regButton,
+#mainContentsArea .cpModule .regButton,
+#mainContentsArea .commonTable table th {
+background-color:#e6c8aa;
+}
+
+
+
+#mainContentsArea .profileSetting .cpModule table#image td ul li#line,
+#mainContentsArea .profileConf td,
+#mainContentsArea .postEntry .cpModule td,
+#mainContentsArea .profileSetting .cpModule td,
+#mainContentsArea .libAddDel table#bookadd td,
+#mainContentsArea .libCategory table#bookadd td,
+#mainContentsArea .cpService table tbody td,
+#mainContentsArea .cpVote table tbody td,
+#mainContentsArea .mobile .cpModule td.col1{
+border-color:#e6c8aa;
+}
+
+/*D-10-3*/
+
+.cpModule,
+.profModule,
+#mainContentsArea .cpService .cautionBox,
+#mainContentsArea .rteButWrap .rteAlertModuleWrap,
+body#assistance #mainContentsArea,
+body#assistance #reproductionInfo #mainContentsArea,
+#mainContentsArea .inputPassForDelete,
+#mainContentsArea .inputPassForDelete p.guide,
+#mainContentsArea #textAdArea table,
+#mainContentsArea .newEntry,
+#mainContentsArea .favoriteBlogList,
+#mainContentsArea .module2 .moduleContents p,
+#mainContentsArea .entry,
+#mainContentsArea .response,
+#mainContentsArea .profileSetting .cpModule p#cpID,
+#mainContentsArea .profileConf p#intBlog,
+#mainContentsArea .cpModule .cpModuleBody,
+#mainContentsArea .libAddDel ul#select,
+#selectRecentEntryNumber,
+#menuDisplay,
+#selectMenuDisplay,
+#bgChange,
+#cpModulebook .formDecision,
+.tableStyle1 td,
+.tableStyle2 td,
+.cpContents td,
+.cpModuleMetaInfo,
+.libAddDel .formDecision,
+.libSortDisplay .formDecision,
+.favBlogManage .formDecision,
+.mobile .cpModule p#mobileNotice,
+.favBlogGroupOrder .cpModule,
+#mainContentsArea .entry .entryTitle .delete .emo,
+.profileConf td,
+.interestMatchWrap{
+background-color:#fff;
+}
+
+
+#mainContentsArea .cpModule .cpModuleTitle,
+#mainContentsArea .profModule .profModuleTitle,
+#mainContentsArea .libSortDisplay .cpModuleTitle,
+#mainContentsArea .libCategory .cpModuleTitle,
+#mainContentsArea .libAddDel .cpModuleTitle,
+#mainContentsArea .blog .cpModuleTitle,
+#mainContentsArea .mobile .cpModule .cpModuleTitle,
+#mainContentsArea .cpVote .entryTitle h3,
+#mainContentsArea .profileConf p#profileInfo span,
+#mainContentsArea .profileConf th,
+#mainContentsArea .profileConf td.col1,
+#mainContentsArea .postEntry .cpModule th,
+#mainContentsArea .postEntry .cpModule td.col1,
+#mainContentsArea .profileSetting .cpModule th,
+#mainContentsArea .profileSetting .cpModule td.col1,
+#mainContentsArea .libExplanation tr th,
+#mainContentsArea .libCategory tr th,
+#mainContentsArea .libCategory table#bookadd th,
+#mainContentsArea .libCategory table#bookadd td.col1,
+#mainContentsArea .libCategory table#book thead tr th,
+#mainContentsArea .libAddDel tr th,
+#mainContentsArea .libAddDel table#book thead tr th,
+#mainContentsArea .libAddDel table#bookadd th,
+#mainContentsArea .libAddDel table#bookadd td.col1,
+#mainContentsArea .blog tr th,
+#mainContentsArea .statistics tr th,
+#mainContentsArea .cpService table tbody th,
+#mainContentsArea .cpFan tr th,
+#mainContentsArea .cpVote table tbody th.col1,
+#mainContentsArea .mobile .cpModule th.col1{
+border-color:#fff;
+}
+
+/*D-10-4*/
+
+#mainContentsArea .entryMetaInfo ul li{
+border-color:#BB4814;
+}
+
+/*D-10-5*/
+
+#mainContentsArea .postEntry #previewArea,
+#mainContentsArea .adMonster,
+#mainContentsArea .guestBook p#intBody,
+#mainContentsArea #guestBookLoginOnly,
+#mainContentsArea .statistics tr.firstItem td,
+#mainContentsArea table,
+#mainContentsArea table tr th,
+#mainContentsArea table tr td,
+#mainContentsArea .formDecision,
+#mainContentsArea #selectLibrary,
+#mainContentsArea #searchEntries,
+#mainContentsArea #new3Entries,
+#mainContentsArea #newEntriesMore,
+#mainContentsArea #htmlElementsControl,
+#mainContentsArea #htmlElementsControl li.line,
+#blogContentsArea #mainContentsArea .postEntry table,
+#mainContentsArea .cpModuleSeparator,
+#mainContentsArea .cpModuleMetaInfo,
+#mainContentsArea .guestBook #entryArea,
+#mainContentsArea .guestBook #entryArea dl,
+#mainContentsArea .profileSetting .cpModule p#cpID,
+#mainContentsArea .layoutSetting #selectRecentEntryNumber p,
+#mainContentsArea .layoutSetting .cpModuleBody,
+#mainContentsArea .libAddDel ul#select,
+#mainContentsArea .libCategory ul#select{
+border-color:#BB4814;
+}
+
+/*D-10-6*/
+#mainContentsArea .cpVote table #rowTitle th,
+#mainContentsArea .cpVote table #rowTitle td{
+border-top:1px solid #BB4814;
+}
+
+
+#mainContentsArea .postEntry .formDecisionHelp,
+body#assistance #mainContentsArea,
+.tableStyle1,
+.tableStyle1 thead tr th,
+.tableStyle2,
+.tableStyle2 thead tr th,
+#mainContentsArea .inputPassForDelete,
+#mainContentsArea .inputPassForDelete p.guide,
+#mainContentsArea #textAdArea,
+#mainContentsArea .cpFan #textAdArea,
+#mainContentsArea .cpVote .entryTitle,
+#mainContentsArea .entry,
+#mainContentsArea .permaLink,
+#mainContentsArea .response,
+#mainContentsArea .cpContents table,
+#mainContentsArea .cpModule,
+#mainContentsArea #guestBookSettingBox table,
+#mainContentsArea #guestBookSettingBox table td#guestBookSettingBoxImg,
+#mainContentsArea #contributionError,
+#mainContentsArea #contributionErrorLink,
+#mainContentsArea .mobile .cpModule table#archiveSettingTable td#archiveSettingBoxLastCol,
+#mainContentsArea #guestBookSettingBox table,
+#mainContentsArea #guestBookSettingBox table td#guestBookSettingBoxImg,
+#mainContentsArea #contributionError,
+#mainContentsArea #contributionErrorLink,
+#mainContentsArea .profModule,
+#mainContentsArea .profileConf .profModule table#blog,
+#mainContentsArea .profileConf p#intBlog,
+#mainContentsArea .profileConf p#profileInfo,
+#mainContentsArea .guestBook .entryBody p.avatar img,
+#mainContentsArea .layoutSetting div#selectRecentEntryNumber,
+#mainContentsArea .menuSetting div#menuDisplay,
+#mainContentsArea .menuSetting div#selectMenuDisplay,
+#mainContentsArea .cpTheme div#bgChange,
+#mainContentsArea .libExplanation table,
+#mainContentsArea .libExplanation table td,
+#mainContentsArea .libAddDel table,
+#mainContentsArea .libCategory table,
+#mainContentsArea .libAddDel #cpModulebook,
+#mainContentsArea .libAddDel table#book tbody tr.firstItem td,
+#mainContentsArea .libCategory table#categoryList tbody tr.firstItem td,
+#mainContentsArea .blog table,
+#mainContentsArea .blog tbody tr td,
+html #mainContentsArea .favBlogManage tr td.col2,
+#mainContentsArea .favBlogManage tr.firstItem td.col2,
+#mainContentsArea .favBlogManage tr.lastItem td.col2,
+#mainContentsArea .statistics table,
+#mainContentsArea .cpService .cautionBox,
+#mainContentsArea .rteButWrap .rteAlertModuleWrap,
+#mainContentsArea .cpService table,
+#mainContentsArea .cpFan table,
+#mainContentsArea .cpFan table td,
+#mainContentsArea .cpVote table,
+#mainContentsArea .cpModule .settingCommonPlainBody,
+#mainContentsArea .entry .entryTitle .delete table.emo,
+#mainContentsArea .commonTable table,
+#editEntryArea .editEntryAreaResizeBar,
+#allBlogContentsArea #blogArea #blogContentsArea .cpModule #editEntryArea #rte,
+.interestMatchWrap{
+border-color:#BB4814 !important;
+}
+
+
+#mainContentsArea .cpService .cautionBox dl,
+#mainContentsArea .rteButWrap .rteAlertModuleWrap,
+#mainContentsArea .cpModule .attentionColor{
+color:#BB4814;
+}
+
+
+#footerSeparator{
+border-color:#BB4814;
+}
+
+
+#blogContentsArea{
+background-image:url(../../../images/folder/skin/156/body_bg.gif);
+}
+
+#bottomAdBannerArea{
+background-image:url(../../../images/folder/skin/156/btm.gif);
+}
+
+
+#mainContentsArea .moduleTitle{
+background-image:url(../../../images/folder/boxset/156/box_top.gif);
+}
+
+#mainContentsArea .module{
+background-image:url(../../../images/folder/boxset/156/box_btm.gif);
+}
+
+#mainContentsArea .moduleContents{
+background-image:url(../../../images/folder/boxset/156/box_bg.gif);
+}
+
+#mainContentsArea #module2Contents{
+background-image:url(../../../images/folder/boxset/156/sbox_top.gif);
+}
+
+#mainContentsArea #module2Area{
+background-image:url(../../../images/folder/boxset/156/sbox_bg.gif);
+}
+
+#mainContentsArea #module2{
+background-image:url(../../../images/folder/boxset/156/sbox_btm.gif);
+}
+
+
+#blogArea{
+background-image:url(../../../images/folder/skin/156/top.gif);
+}
+
+
+#modules #settingMenuModule ul li ul li{
+background-image:url("../../../images/folder/boxset/156/icn_sya.gif");
+}
+
+#openDate{
+background-image:url(../../../images/folder/boxset/156/left_date.gif);
+}
+
+#modules{
+background-image:url(../../../images/folder/boxset/156/left_bg.gif);
+}
+
+.modulesLeft #sideBarArea,
+.modulesRight #sideBarArea{
+background-image:url(../../../images/folder/boxset/156/left_top.gif);
+}
+
+#modulesArea{
+background-image:url(../../../images/folder/boxset/156/left_btm.gif);
+}
+
+#modules .module,
+#modules #visitorsList .expandable,
+#modules #favoriteBlogList .expandable{
+background-image:url(../../../images/folder/boxset/156/left_box_top.gif);
+}
+
+#modules .module h2,
+#modules .module p,
+#modules .module ul,
+#modules #avaterModule #tb_02,
+#modules #visitorsList h2,
+#modules #visitorsList p,
+#modules #visitorsList ul,
+#modules #favoriteBlogList h2,
+#modules #favoriteBlogList h3,
+#modules #favoriteBlogList ul,
+#modules #favoriteBlogList p,
+#modules #avaterModule #popularityInfoArea,
+#modules .moduleTableArea{
+background-image:url(../../../images/folder/boxset/156/left_box_bg.gif);
+}
+
+#modules .moduleContents,
+#modules #visitorsList,
+#modules #favoriteBlogList{
+background-image:url(../../../images/folder/boxset/156/left_box_btm.gif);
+}
+
+#modules #avaterModule #popularityInfoArea #popularityInfo,
+#modules #libraryListModule .libraryList .firstItem,
+#modules #settingMenuModule ul li{
+background-image:url(../../../images/folder/boxset/156/dot_hor.gif);
+}
+
+#modules #avaterModule h2,
+#modules #avaterModule #id_avatar{
+background-image:url(../../../images/folder/boxset/156/tab_img.gif);
+}
+
+
+#mainContentsArea #libraryTitle,
+#mainContentsArea #cpTitle{
+background-image:url(../../../images/folder/boxset/156/tt.gif);
+}
+
+#mainContentsArea .cpVote .entryTitle,
+#mainContentsArea .entry .entryTitle,
+#mainContentsArea .cpModuleTitle,
+#mainContentsArea .responseTitle,
+#mainContentsArea .profModuleTitle{
+background-image:url(../../../images/folder/boxset/156/brd_bg.gif);
+}
+
+#mainContentsArea .commentsArea fieldset .inputIcon{
+background:url("../../../images/folder/boxset/156/emo_bg.gif") 11px 10px no-repeat;
+}
+
+
+.tableStyle2 tbody tr td,
+.tableStyle1 tbody tr td,
+#mainContentsArea .cpModuleBody,
+#mainContentsArea .libAddDel tr td,
+#mainContentsArea .libCategory tr td,
+#mainContentsArea .libExplanation tr td,
+#mainContentsArea .libAddDel table#book td,
+#mainContentsArea .libCategory table#book td,
+#mainContentsArea .blog tbody tr td,
+#mainContentsArea .statistics tr td,
+#mainContentsArea .cpFan tbody tr td.col1,
+#mainContentsArea .cpFan tbody tr td.col2,
+#mainContentsArea .cpFan tbody tr td.col3,
+#mainContentsArea .cpFan tbody tr td.col4{
+background-image:url(../../../images/folder/boxset/156/dot_hor2.gif);
+}
+
+.votingResultArea table tbody td,
+#newestImages2 ul,
+#mainContentsArea .entryMetaInfo,
+#mainContentsArea .responseMetaInfo,
+#mainContentsArea .guestBook .entryMetaInfo,
+.interestMatchWrap{
+background-image:url(../../../images/folder/boxset/156/dot_hor3.gif);
+}
+
+#mainContentsArea .commentsArea .commentsContents .comment,
+#mainContentsArea .newEntry,
+#mainContentsArea .favoriteBlogList,
+#mainContentsArea .trackbackArea .trackbackInfo .trackbackContents .trackback{
+background-image:url(../../../images/folder/boxset/156/dot_hor4.gif);
+}
+
+.votingResultArea table thead th,
+.tableStyle1 thead tr th.date span,
+.tableStyle2 thead tr th span,
+.tableStyle2 thead tr th.date span,
+#mainContentsArea .libAddDel tr th.col1,
+#mainContentsArea .libCategory tr th.col1,
+#mainContentsArea .libExplanation tr th.col1,
+#mainContentsArea .libAddDel #book tr th,
+#mainContentsArea .libCategory #book tr th,
+#mainContentsArea .blog th.col1,
+#mainContentsArea .blog th.col2,
+#mainContentsArea .blog th.col3,
+#mainContentsArea .statistics tr th.col1,
+#mainContentsArea .cpFan tr th.col1,
+#mainContentsArea .cpFan tr th.col2,
+#mainContentsArea .cpFan tr th.col3{
+background-image:url(../../../images/folder/boxset/156/bar.gif);
+}
+
+
+#mainContentsArea .cpTheme div#bgChange{
+background-image:url("../../../images/folder/boxset/156/icn_bya.gif");
+}
+
+#mainContentsArea .cpService .cautionBox dt,
+#mainContentsArea .rteButWrap .rteAlertTitle {
+background-image:url("../../../images/folder/boxset/156/icn_ex.gif");
+}
+
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardOriginalSpace {
+background:transparent url("../../../images/folder/boxset/156/dot_hor.gif") repeat-x scroll 0 0 !important;
+clear:both !important;
+margin:5px 0 0 1px !important;
+}

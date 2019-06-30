@@ -1,0 +1,408 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Verdana, Arial, sans-serif; PADDING-TOP: 0px
+}
+BODY {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fff; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 100%; PADDING-TOP: 0px
+}
+IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LABEL {
+	TEXT-ALIGN: right; WHITE-SPACE: nowrap; LETTER-SPACING: 0.2em; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+#container {
+	BORDER-BOTTOM: #333 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #333 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fdfdfb; MARGIN: 10px auto 0px; PADDING-LEFT: 0px; WIDTH: 800px; PADDING-RIGHT: 0px; COLOR: #000000; BORDER-TOP: #333 1px solid; BORDER-RIGHT: #333 1px solid; PADDING-TOP: 0px
+}
+#banner {
+	BACKGROUND-IMAGE: url(http://admin.ti-da.net/_img/akagawara/ti10_02.jpg); MARGIN: 0px; WIDTH: 800px; HEIGHT: 430px; OVERFLOW: hidden
+}
+#content {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 560px; PADDING-RIGHT: 10px; FLOAT: right; MARGIN-RIGHT: 10px; PADDING-TOP: 10px
+}
+.blog {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 15px; OVERFLOW: hidden
+}
+#links {
+	MARGIN: 10px auto 10px 15px; WIDTH: 180px; FONT-SIZE: 85%
+}
+#footer {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #916721; DISPLAY: block; CLEAR: both; PADDING-TOP: 5px
+}
+A {
+	
+}
+A:link {
+	COLOR: #663300; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #663300; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #663300; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #663300; TEXT-DECORATION: none
+}
+#banner A {
+	COLOR: #fee9cd; TEXT-DECORATION: none
+}
+#banner A:link {
+	COLOR: #fee9cd; TEXT-DECORATION: none
+}
+#banner A:visited {
+	COLOR: #fee9cd; TEXT-DECORATION: none
+}
+#banner A:active {
+	COLOR: #fee9cd; TEXT-DECORATION: underline
+}
+#banner A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.calendar A {
+	
+}
+.calendar A:link {
+	
+}
+.calendar A:visited {
+	
+}
+.calendar A:active {
+	
+}
+.calendar A:hover {
+	
+}
+.acontinues A {
+	
+}
+.acontinues A:link {
+	
+}
+.acontinues A:visited {
+	
+}
+.acontinues A:active {
+	
+}
+.acontinues A:hover {
+	
+}
+.amenu A {
+	
+}
+.amenu A:link {
+	
+}
+.amenu A:visited {
+	
+}
+.amenu A:active {
+	
+}
+.amenu A:hover {
+	
+}
+.side A {
+	
+}
+.side A:link {
+	
+}
+.side A:visited {
+	
+}
+.side A:hover {
+	
+}
+.aside A {
+	
+}
+.aside A:link {
+	
+}
+.aside A:visited {
+	
+}
+.aside A:hover {
+	
+}
+.title A {
+	TEXT-DECORATION: none
+}
+.title A:link {
+	COLOR: #584748; TEXT-DECORATION: none
+}
+.title A:visited {
+	COLOR: #584748; TEXT-DECORATION: none
+}
+.title A:active {
+	COLOR: #584748; TEXT-DECORATION: underline
+}
+.title A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.aposted A {
+	
+}
+.aposted A:link {
+	
+}
+.aposted A:visited {
+	
+}
+.aposted A:active {
+	
+}
+.aposted A:hover {
+	
+}
+.atrackback-post A {
+	
+}
+.atrackback-post A:link {
+	
+}
+.atrackback-post A:visited {
+	
+}
+.atrackback-post A:active {
+	
+}
+.atrackback-post A:hover {
+	
+}
+.rss A:link {
+	
+}
+.rss A:visited {
+	
+}
+.rss A:hover {
+	
+}
+.rss A:active {
+	
+}
+.blogtitle {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 20px; MARGIN: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 500px; HEIGHT: 72px; CLEAR: both; FONT-SIZE: 130%; PADDING-TOP: 120px
+}
+.description {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 10px; LINE-HEIGHT: 130%; PADDING-LEFT: 20px; PADDING-RIGHT: 500px; HEIGHT: 180px; COLOR: #fff; FONT-SIZE: 90%; PADDING-TOP: 5px
+}
+.logo {
+	PADDING-LEFT: 450px; PADDING-TOP: 0px
+}
+.logo IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 350px; BORDER-TOP-STYLE: none; HEIGHT: 18px; BORDER-LEFT-STYLE: none
+}
+.topicpass {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 16px; MARGIN: 0px 0px 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #666666; FONT-SIZE: 10px; VERTICAL-ALIGN: bottom; PADDING-TOP: 0px
+}
+.topicpass IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; VERTICAL-ALIGN: bottom; BORDER-LEFT-STYLE: none
+}
+.blogbody {
+	OVERFLOW: hidden
+}
+.title {
+	BACKGROUND-IMAGE: url(http://admin.ti-da.net/_img/akagawara/ti10_02_t.jpg); PADDING-BOTTOM: 8px; BACKGROUND-COLOR: #916721; MARGIN: 0px 0px 10px; PADDING-LEFT: 8px; COLOR: #ffffff; FONT-SIZE: 90%; PADDING-TOP: 8px
+}
+.date {
+	TEXT-ALIGN: right; MARGIN-TOP: 0px; MARGIN-BOTTOM: 2px; COLOR: #666666; FONT-SIZE: 80%
+}
+.main {
+	PADDING-BOTTOM: 10px; LINE-HEIGHT: 150%; MARGIN: 0px auto; PADDING-LEFT: 10px; WIDTH: 520px; PADDING-RIGHT: 10px; FONT-SIZE: 80%; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.main IMG {
+	MARGIN: 5px
+}
+.main-continues {
+	
+}
+.posted {
+	TEXT-ALIGN: right; MARGIN-TOP: 5px; MARGIN-BOTTOM: 20px; CLEAR: both; FONT-SIZE: 78%; BORDER-TOP: #916721 1px solid; PADDING-TOP: 3px
+}
+.title_s {
+	MARGIN: 0px 0px 5px 10px; FONT-SIZE: 90%
+}
+.trackback-url {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 15px; COLOR: #916721; MARGIN-LEFT: 10px; FONT-SIZE: 90%; FONT-WEIGHT: bold
+}
+.trackback-body {
+	LINE-HEIGHT: 130%; MARGIN: 5px 20px; FONT-SIZE: 80%
+}
+.trackback-post {
+	TEXT-ALIGN: right; MARGIN: 0px 20px 15px; FONT-SIZE: 78%; PADDING-TOP: 3px
+}
+.comments-head {
+	MARGIN: 0px 0px 0px 15px; FONT-SIZE: 90%; FONT-WEIGHT: bold
+}
+.comments-post {
+	TEXT-ALIGN: right; MARGIN: 0px 20px 15px; FONT-SIZE: 78%; PADDING-TOP: 3px
+}
+.comments-body {
+	LINE-HEIGHT: 130%; MARGIN: 5px 20px; FONT-SIZE: 80%
+}
+TABLE.form {
+	MARGIN: 10px auto; WIDTH: 450px
+}
+.form TD {
+	LINE-HEIGHT: 170%
+}
+#text {
+	
+}
+#email {
+	
+}
+#author {
+	
+}
+#url {
+	
+}
+#bake {
+	
+}
+#savecheck {
+	
+}
+.side {
+	MARGIN-BOTTOM: 10px
+}
+.sidetitle {
+	BORDER-LEFT: #584748 15px solid; PADDING-BOTTOM: 4px; BACKGROUND-COLOR: #916721; MARGIN-TOP: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; MARGIN-BOTTOM: 5px; COLOR: #ffffff; FONT-SIZE: 80%; FONT-WEIGHT: normal; BORDER-RIGHT: #584748 15px solid; PADDING-TOP: 4px
+}
+.sidebody {
+	WIDTH: 170px; MARGIN-BOTTOM: 3px; MARGIN-LEFT: auto; FONT-SIZE: 80%; MARGIN-RIGHT: auto
+}
+UL.rss {
+	TEXT-ALIGN: center; MARGIN-TOP: 5px; MARGIN-BOTTOM: 10px
+}
+UL.rss LI {
+	DISPLAY: inline; MARGIN-LEFT: 10px; FONT-WEIGHT: bold
+}
+.calender {
+	TEXT-ALIGN: center; MARGIN-BOTTOM: 10px
+}
+.calendarhead {
+	MARGIN-BOTTOM: 3px; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.calendartable {
+	BORDER-BOTTOM: #916721 1px solid; BORDER-LEFT: #916721 1px solid; WIDTH: 160px; MARGIN-LEFT: auto; FONT-SIZE: 12px; BORDER-TOP: #916721 1px solid; MARGIN-RIGHT: auto; BORDER-RIGHT: #916721 1px solid
+}
+.calendarwd {
+	PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #916721; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.calendarweek {
+	
+}
+.calendard {
+	BORDER-BOTTOM: #cccccc 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.sun {
+	COLOR: #cc0000
+}
+.sat {
+	COLOR: #0099ff
+}
+.today {
+	FONT-WEIGHT: bold
+}
+.category {
+	MARGIN-BOTTOM: 10px
+}
+.recententry {
+	
+}
+.archives {
+	
+}
+.comment {
+	
+}
+.trackback {
+	
+}
+.link {
+	MARGIN-BOTTOM: 10px
+}
+.search {
+	MARGIN-BOTTOM: 10px
+}
+.qrcode {
+	MARGIN-BOTTOM: 10px
+}
+.counter {
+	MARGIN-BOTTOM: 10px
+}
+.subscription {
+	MARGIN-BOTTOM: 10px
+}
+.profile {
+	MARGIN-BOTTOM: 10px
+}
+.nickname {
+	TEXT-ALIGN: center; MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px; FONT-WEIGHT: bold; WORD-SPACING: 0.2em
+}
+.photo {
+	TEXT-ALIGN: center; MARGIN: 5px auto
+}
+.message {
+	LINE-HEIGHT: 120%; MARGIN: 5px; FONT-SIZE: 80%
+}
+.article_ad {
+	MARGIN-BOTTOM: 10px
+}
+.tag_cloud {
+	MARGIN-BOTTOM: 10px
+}
+.custom1 {
+	MARGIN-BOTTOM: 10px
+}
+.custom2 {
+	MARGIN-BOTTOM: 10px
+}
+.custom3 {
+	MARGIN-BOTTOM: 10px
+}
+.inquiry {
+	
+}
+.blog_entry {
+	
+}
+.album {
+	MARGIN-BOTTOM: 10px
+}
+#album_img_flame {
+	
+}
+#album_href {
+	
+}
+#album_img {
+	
+}
+#album_title {
+	
+}
+#album_list {
+	
+}
+.pagetop {
+	TEXT-ALIGN: right; MARGIN-TOP: 15px; MARGIN-BOTTOM: 10px; FONT-SIZE: 80%
+}
+.menu {
+	TEXT-ALIGN: center; MARGIN-TOP: 15px; MARGIN-BOTTOM: 10px; LETTER-SPACING: 0.2em; FONT-SIZE: 80%
+}
+#copyright {
+	COLOR: #ffffff; FONT-SIZE: 80%
+}
+.adFooter {
+	TEXT-ALIGN: center; LINE-HEIGHT: 150%; FONT-SIZE: 10px
+}

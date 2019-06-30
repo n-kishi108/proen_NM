@@ -1,0 +1,51 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=Bt0upzl65S4CsF5PW6QO9t5zoA_Kds3bskNnxDcCNtwGA898ZEAEYASCT8ZwTKAM4AFDA6sdsYImj0oSoFKAB-tv79QPIAQHaAf8BZmlsZTovLy9DOi9Vc2Vycy9zaGluL0Rlc2t0b3AvJUU5JTlCJTg2JUU1JTkwJTg4JUU1JTg2JTk5JUU3JTlDJTlGLyVFMyU4MCU5MCVFNyU5NCVCQiVFNSU4MyU4RiVFMyU4MCU5MSVFMyU4MyU4RSVFMyU4MyVCQyVFMyU4MiVCOSVFMyU4MyVBQSVFMyU4MyVCQyVFMyU4MyU5NiVFMyU4MiVCOSUyMCVFMyU4MyU4OSVFMyU4MyVBOSVFMyU4MyU5RSVFNSU4OCVCNiVFNCVCRCU5QyVFNyU5OSVCQSVFOCVBMSVBOCVFMyU4MSVBNyVFMyU4MyU4NyVFMyU4gAIBqQL_17rZwLpGPqgDAegDuAHoAyLoAwPoA1D1AwAgIsT1A0AAAAA&amp;num=1&amp;sig=AGiWqtxR4Avt5sha7mMEGBPXaddnerskUw&amp;client=ca-livedoor-infoentame_js&amp;adurl=http://www.vivivi-cms.com/cmslite/"; 
+google_ad.visible_url = "www.vivivi-cms.com"; 
+google_ad.line1 = "\x26#12504;\x26#12450;\x26#12469;\x26#12525;\x26#12531;\x26#23554;\x26#38272;\x26#12398;HP\x26#21046;\x26#20316;"; 
+google_ad.line2 = "\x26#32654;\x26#23481;\x26#23460;\x26#38480;\x26#23450;\x26#12398;\x26#12507;\x26#12540;\x26#12512;\x26#12506;\x26#12540;\x26#12472;\x26#21046;\x26#20316;"; 
+google_ad.line3 = "\x26#26989;\x26#30028;\x26#12488;\x26#12483;\x26#12503;\x26#12463;\x26#12521;\x26#12473;\x26#12398;\x26#21046;\x26#20316;\x26#23455;\x26#32318;\x26#12391;\x26#28608;\x26#23433;\x26#65281;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BjQA1zl65S4CsF5PW6QO9t5zoA9qD9pQBxo2LtRLAjbcBwPecGhACGAIgk_GcEygDOABQzv7pjP7_____AWCJo9KEqBSgAYDWw_ADyAEB2gH_AWZpbGU6Ly8vQzovVXNlcnMvc2hpbi9EZXNrdG9wLyVFOSU5QiU4NiVFNSU5MCU4OCVFNSU4NiU5OSVFNyU5QyU5Ri8lRTMlODAlOTAlRTclOTQlQkIlRTUlODMlOEYlRTMlODAlOTElRTMlODMlOEUlRTMlODMlQkMlRTMlODIlQjklRTMlODMlQUElRTMlODMlQkMlRTMlODMlOTYlRTMlODIlQjklMjAlRTMlODMlODklRTMlODMlQTklRTMlODMlOUUlRTUlODglQjYlRTQlQkQlOUMlRTclOTklQkElRTglQTElQTglRTMlODElQTclRTMlODMlODclRTMlOIACAakC_9e62cC6Rj7IAsbExA2oAwHoA7gB6AMi6AMD6ANQ9QMAICLE9QNAAAAA&amp;num=2&amp;sig=AGiWqtzg0EWG4d3BUUPetR6dWqn95ggl4g&amp;client=ca-livedoor-infoentame_js&amp;adurl=http://www.tokyotopdesign.com"; 
+google_ad.visible_url = "www.tokyotopdesign.com"; 
+google_ad.line1 = "\x26#12481;\x26#12521;\x26#12471;\x26#12539;\x26#12522;\x26#12540;\x26#12501;\x26#12524;\x26#12483;\x26#12488;\x26#21046;\x26#20316;"; 
+google_ad.line2 = "\x26#26481;\x26#20140;\x26#12488;\x26#12483;\x26#12503;\x26#12487;\x26#12470;\x26#12452;\x26#12531;"; 
+google_ad.line3 = "\x26#12522;\x26#12540;\x26#12501;\x26#12524;\x26#12483;\x26#12488;\x26#21046;\x26#20316;\x26#12392;\x26#12459;\x26#12479;\x26#12525;\x26#12464;\x26#21046;\x26#20316;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B39eSzl65S4CsF5PW6QO9t5zoA6zywaoBoqC2tgzAjbcBwK35HxADGAMgk_GcEygDOABQ2PLZsgVgiaPShKgUoAG2r-X5A8gBAdoB_wFmaWxlOi8vL0M6L1VzZXJzL3NoaW4vRGVza3RvcC8lRTklOUIlODYlRTUlOTAlODglRTUlODYlOTklRTclOUMlOUYvJUUzJTgwJTkwJUU3JTk0JUJCJUU1JTgzJThGJUUzJTgwJTkxJUUzJTgzJThFJUUzJTgzJUJDJUUzJTgyJUI5JUUzJTgzJUFBJUUzJTgzJUJDJUUzJTgzJTk2JUUzJTgyJUI5JTIwJUUzJTgzJTg5JUUzJTgzJUE5JUUzJTgzJTlFJUU1JTg4JUI2JUU0JUJEJTlDJUU3JTk5JUJBJUU4JUExJUE4JUUzJTgxJUE3JUUzJTgzJTg3JUUzJTiAAgGpAv_XutnAukY-yALMmK0OqAMB6AO4AegDIugDA-gDUPUDACAixPUDQAAAAA&amp;num=3&amp;sig=AGiWqtzREgLh1oRoVSFI_KvHFaE6g4SIOA&amp;client=ca-livedoor-infoentame_js&amp;adurl=http://www.sastty.com/event/662/"; 
+google_ad.visible_url = "www.sastty.com"; 
+google_ad.line1 = "\x26#28961;\x26#28155;\x26#21152;\x26#12398;\x26#30333;\x26#39658;\x26#26579;\x26#12417;\x26#12394;\x26#12425;"; 
+google_ad.line2 = "\x26#39658;\x26#12392;\x26#38957;\x26#30382;\x26#12434;\x26#20663;\x26#12388;\x26#12369;\x26#12394;\x26#12356;\x26#12504;\x26#12450;\x26#12459;\x26#12521;\x26#12540;\x26#12290;"; 
+google_ad.line3 = "\x26#21033;\x26#23611;\x26#12504;\x26#12450;\x26#12459;\x26#12521;\x26#12540;\x26#12488;\x26#12522;\x26#12540;\x26#12488;\x26#12513;\x26#12531;\x26#12488;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dfile:///C:/Users/shin/Desktop/%2525E9%25259B%252586%2525E5%252590%252588%2525E5%252586%252599%2525E7%25259C%25259F/%2525E3%252580%252590%2525E7%252594%2525BB%2525E5%252583%25258F%2525E3%252580%252591%2525E3%252583%25258E%2525E3%252583%2525BC%2525E3%252582%2525B9%2525E3%252583%2525AA%2525E3%252583%2525BC%2525E3%252583%252596%2525E3%252582%2525B9%252520%2525E3%252583%252589%2525E3%252583%2525A9%2525E3%252583%25259E%2525E5%252588%2525B6%2525E4%2525BD%25259C%2525E7%252599%2525BA%2525E8%2525A1%2525A8%2525E3%252581%2525A7%2525E3%252583%252587%2525E3%252583%252593%2525E3%252583%2525A5%2525E3%252583%2525BC%2525E6%25259B%2525B2%2525E6%25258A%2525AB%2525E9%25259C%2525B2!!%252520-%252520%2525E5%252586%252599%2525E7%25259C%25259F%252520-%252520livedoor%252520%2525E3%252583%25258B%2525E3%252583%2525A5%2525E3%252583%2525BC%2525E3%252582%2525B9.htm%26hl%3Dja%26client%3Dca-livedoor-infoentame_js%26adU%3Dwww.vivivi-cms.com%26adT%3D%25E3%2583%2598%25E3%2582%25A2%25E3%2582%25B5%25E3%2583%25AD%25E3%2583%25B3%25E5%25B0%2582%25E9%2596%2580%25E3%2581%25AEHP%25E5%2588%25B6%25E4%25BD%259C%26adU%3Dwww.tokyotopdesign.com%26adT%3D%25E3%2583%2581%25E3%2583%25A9%25E3%2582%25B7%25E3%2583%25BB%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%2595%25E3%2583%25AC%25E3%2583%2583%25E3%2583%2588%25E5%2588%25B6%25E4%25BD%259C%26adU%3Dwww.sastty.com%26adT%3D%25E7%2584%25A1%25E6%25B7%25BB%25E5%258A%25A0%25E3%2581%25AE%25E7%2599%25BD%25E9%25AB%25AA%25E6%259F%2593%25E3%2582%2581%25E3%2581%25AA%25E3%2582%2589%26gl%3DJP%26hideleadgen%3D1\x26usg\x3dAFQjCNENRxJjOVpwKDWE16ZAdjeXZybpUg"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

@@ -1,0 +1,33 @@
+var siteRef = document.referrer;
+siteRef = siteRef.replace(/\%/g,"%25");
+siteRef = siteRef.replace(/\?/g,"%3F");
+siteRef = siteRef.replace(/\&/g,"%26");
+siteRef = siteRef.replace(/\=/g,"%3D");
+siteRef = siteRef.replace(/\+/g,"%2B");
+
+
+var an=navigator.appName,ua=navigator.userAgent,w=new Date().getTime(),MBUid='e799648cddf3fe638b75af6af26c1d692d35f30c';
+if(an&&ua&&'Netscape'==an&&ua.indexOf('Firefox')>-1){
+	document.write('<script src="');
+	document.write(self.MBProtocol+"://"+self.MBServer+"."+self.MBDomain+"/banner?");
+	document.write("site="+self.MBSite+"&");
+	document.write("bid="+self.MBBannerID+"&");
+	document.write("ver="+self.MBTagVersion+"js"+"&");
+	document.write("sizes="+self.MBSizes+"&");
+	document.write("bso="+self.MBBannerSizeOrder+"&");
+	document.write("type="+"js"+"&");
+	document.write("encode="+self.MBEncode+"&");
+	document.write("cookie="+navigator.cookieEnabled+"&");
+	document.write("uid="+MBUid+"&");
+	document.write("w="+w+"&");
+	document.write("siteref="+siteRef);
+	document.write('" type="text/javascript"></scr'+'ipt>');
+}
+else if(self.MBSizes=='728x90,468x60'){
+document.write('<script src="//motu.trustclick.ne.jp/tclk/mbjs2" type="text/javascript"></scr');
+document.write('ipt>');
+}else{
+document.write('<script src="//tres.trustclick.ne.jp/tclk/afu/delivery/script/190.js" type="text/javascript"></scr');
+document.write('ipt>');
+}
+

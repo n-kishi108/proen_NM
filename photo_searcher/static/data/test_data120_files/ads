@@ -1,0 +1,51 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BQBSsFFa5S-voKofK6wOqlennBoqKzJwBoJn_ug_AjbcBgKToAxABGAEgzaKdFygDOABQ196O1_z_____AWCJo9KEqBSgAeiw0PwDyAEB2gHyAWZpbGU6Ly8vQzovVXNlcnMvc2hpbi9EZXNrdG9wLyVFOSU5QiU4NiVFNSU5MCU4OCVFNSU4NiU5OSVFNyU5QyU5Ri9DTSVFNyVCRSU4RSVFNSVBNSVCMyVFMyU4MSVBQiVFMyU4MyVBMSVFMyU4MyVBRCVFMyU4MyVBMSVFMyU4MyVBRCUyMF8lMjAlRTYlQjAlOTclRTUlODglODYlRTMlODElQUYlRTMlODAlOTAlRTMlODElQTYlRTMlODElODQlRTMlODElOTElRTMlODElQTQlRTMlODElODIlRTMlODElQTQlRTMlODAlOTEuaHRtqQI7h-kC6LhGPsgC0NTsAagDAegDjgToA9IE9QMAAADE&amp;num=1&amp;sig=AGiWqtxLuWGq0gfHiFoxkgI7_2VF5SreHQ&amp;client=ca-paperboy-jugem_js&amp;adurl=http://pixel1596.everesttech.net/1596/rq/3/c_6b74a11e731e1455fa3a01914c8e7ebf_4047170956/url%3Dhttp%253a//www.dinos.co.jp/AdTracking/AdTransfer.jsp%253ftagtype%253def%2526SN%253d08%2526SD%253dAL3004%2526URL%253dhttp%25253A%25252F%25252Fwww.dinos.co.jp%25252Fk%25252F13622%25252F1a2%25252F%25253Futm_source%25253Dcontents_ads%252526utm_medium%25253Dcpc%252526utm_term%25253D%252528%252525E3%25252581%25252599%252525E3%25252581%252525A3%252525E3%25252581%252525B4%252525E3%25252582%25252593%252525E7%252525BE%2525258E%252525E5%252525A5%252525B3%252529%252526utm_campaign%25253DAL3004"; 
+google_ad.visible_url = "dinos.co.jp"; 
+google_ad.line1 = "\x26#12377;\x26#12387;\x26#12404;\x26#12435;\x26#32654;\x26#22899; \x26#36890;\x26#36009;"; 
+google_ad.line2 = "\x26#12377;\x26#12387;\x26#12404;\x26#12435;\x26#32654;\x26#22899;\x26#12394;\x26#12425;\x26#12487;\x26#12451;\x26#12494;\x26#12473;\x26#65281;"; 
+google_ad.line3 = "\x26#12463;\x26#12540;\x26#12509;\x26#12531;\x26#12539;\x26#20195;\x26#24341;\x26#28961;\x26#26009;\x26#12391;\x26#12362;\x26#12488;\x26#12463;\x26#12395;\x26#36023;\x26#29289;\x26#12290;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BnYx2FFa5S-voKofK6wOqlennBqmJxsMBl_eQtA_AjbcBgIXUGxACGAIgzaKdFygDOABQrJf1if______AWCJo9KEqBTIAQHaAfIBZmlsZTovLy9DOi9Vc2Vycy9zaGluL0Rlc2t0b3AvJUU5JTlCJTg2JUU1JTkwJTg4JUU1JTg2JTk5JUU3JTlDJTlGL0NNJUU3JUJFJThFJUU1JUE1JUIzJUUzJTgxJUFCJUUzJTgzJUExJUUzJTgzJUFEJUUzJTgzJUExJUUzJTgzJUFEJTIwXyUyMCVFNiVCMCU5NyVFNSU4OCU4NiVFMyU4MSVBRiVFMyU4MCU5MCVFMyU4MSVBNiVFMyU4MSU4NCVFMyU4MSU5MSVFMyU4MSVBNCVFMyU4MSU4MiVFMyU4MSVBNCVFMyU4MCU5MS5odG2pAjuH6QLouEY-yAKp4pkEqAMB6AOOBOgD0gT1AwAAAMQ&amp;num=2&amp;sig=AGiWqtwwr1-gXWGfV9FBRYOvOV6VqMAqNQ&amp;client=ca-paperboy-jugem_js&amp;adurl=http://www.apple.com/jp/ilife/iphoto/%3Fcid%3DMAR-JP-GOOGC-MAC"; 
+google_ad.visible_url = "www.apple.com"; 
+google_ad.line1 = "\x26#20889;\x26#30495;\x26#12398;\x26#12371;\x26#12392;\x26#12394;\x26#12425;\x26quot;iPhoto\x26quot;"; 
+google_ad.line2 = "Mac\x26#12391;\x26#20351;\x26#12360;\x26#12427;iPhoto\x26#12394;\x26#12425;\x26#20889;\x26#30495;\x26#12398;\x26#31649;\x26#29702;\x26#12420;"; 
+google_ad.line3 = "\x26#32232;\x26#38598;\x26#12364;\x26#27005;\x26#12375;\x26#12367;\x26#31777;\x26#21336; \x26#35443;\x26#12375;\x26#12367;\x26#12399;\x26#12371;\x26#12385;\x26#12425;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BPtYBFFa5S-voKofK6wOqlennBrrxsJUBxIXlnA7AjbcBwKilBBADGAMgzaKdFygDOABQmbHm5QRgiaPShKgUyAEB2gHyAWZpbGU6Ly8vQzovVXNlcnMvc2hpbi9EZXNrdG9wLyVFOSU5QiU4NiVFNSU5MCU4OCVFNSU4NiU5OSVFNyU5QyU5Ri9DTSVFNyVCRSU4RSVFNSVBNSVCMyVFMyU4MSVBQiVFMyU4MyVBMSVFMyU4MyVBRCVFMyU4MyVBMSVFMyU4MyVBRCUyMF8lMjAlRTYlQjAlOTclRTUlODglODYlRTMlODElQUYlRTMlODAlOTAlRTMlODElQTYlRTMlODElODQlRTMlODElOTElRTMlODElQTQlRTMlODElODIlRTMlODElQTQlRTMlODAlOTEuaHRtqQI7h-kC6LhGPsgCkvyVDqgDAegDjgToA9IE9QMAAADE&amp;num=3&amp;sig=AGiWqtxM8hyovgvoCHdTDtENe1_OB1OfrQ&amp;client=ca-paperboy-jugem_js&amp;adurl=http://travel.rakuten.co.jp/HOTEL/54589/54589_std.html%3Fs_kwcid%3DTC%7C16679%7C%25E7%25BE%258E%25E5%25A5%25B3%25E8%25B0%25B7%25E6%25B8%25A9%25E6%25B3%2589%25E6%2597%2585%25E9%25A4%25A8%7C%7CC%7C%7C3722239272"; 
+google_ad.visible_url = "travel.rakuten.co.jp"; 
+google_ad.line1 = "\x26#32654;\x26#22899;\x26#35895;\x26#28201;\x26#27849;."; 
+google_ad.line2 = "\x26#31354;\x26#23460;\x26#26908;\x26#32034;\x26#12363;\x26#12425;\x26#20170;\x26#12473;\x26#12464;\x26#31777;\x26#21336;\x26#12395;\x26#20104;\x26#32004;\x26#12391;\x26#12365;\x26#12427;"; 
+google_ad.line3 = "\x26#26085;\x26#26412;\x26#26368;\x26#22823;\x26#32026;\x26#23487;\x26#20104;\x26#32004;\x26#12469;\x26#12452;\x26#12488; \x26#27005;\x26#22825;\x26#12488;\x26#12521;\x26#12505;\x26#12523;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dfile:///C:/Users/shin/Desktop/%2525E9%25259B%252586%2525E5%252590%252588%2525E5%252586%252599%2525E7%25259C%25259F/CM%2525E7%2525BE%25258E%2525E5%2525A5%2525B3%2525E3%252581%2525AB%2525E3%252583%2525A1%2525E3%252583%2525AD%2525E3%252583%2525A1%2525E3%252583%2525AD%252520_%252520%2525E6%2525B0%252597%2525E5%252588%252586%2525E3%252581%2525AF%2525E3%252580%252590%2525E3%252581%2525A6%2525E3%252581%252584%2525E3%252581%252591%2525E3%252581%2525A4%2525E3%252581%252582%2525E3%252581%2525A4%2525E3%252580%252591.htm%26hl%3Dja%26client%3Dca-paperboy-jugem_js%26adU%3Ddinos.co.jp%26adT%3D%25E3%2581%2599%25E3%2581%25A3%25E3%2581%25B4%25E3%2582%2593%25E7%25BE%258E%25E5%25A5%25B3%2B%25E9%2580%259A%25E8%25B2%25A9%26adU%3Dwww.apple.com%26adT%3D%25E5%2586%2599%25E7%259C%259F%25E3%2581%25AE%25E3%2581%2593%25E3%2581%25A8%25E3%2581%25AA%25E3%2582%2589%2526quot%253BiPhoto%2526quot%253B%26adU%3Dtravel.rakuten.co.jp%26adT%3D%25E7%25BE%258E%25E5%25A5%25B3%25E8%25B0%25B7%25E6%25B8%25A9%25E6%25B3%2589.%26gl%3DJP\x26usg\x3dAFQjCNEHT4uSbIr5wHJpLGB1LKYE8b2xkA"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

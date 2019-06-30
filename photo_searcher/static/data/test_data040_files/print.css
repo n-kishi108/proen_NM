@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/* print.css */
+
+body#access div.dPrint {
+}
+body#access div.dPrint img.iMapL {
+	width: 614px;
+	height: 421px;
+}
+body#access div.dPrint img.iMapM {
+	width: 234px;
+	height: 175px;
+}
+body#access div.dPrint h1 {
+	margin-bottom: 15px;
+}
+body#access div.dPrint h2 {
+	margin-bottom: 10px;
+}
+body#access div.dPrint h3 {
+	margin-bottom: 5px;
+}
+body#access div.dPrint img {
+}
+body#access div.dPrint h1 img {
+	width: 161px;
+	height: 20px;
+}
+body#access div.dPrint div.dModBoxNormal {
+	margin-bottom: 15px;
+}
+body#access div.dPrint p.pClose {
+	display: none;
+}
+body#access div.dPrint table.tModEleDef th,
+body#access div.dPrint table.tModEleDef td {
+	padding: 7px;
+}
+body#access div.dPrint table.tModEleDef tr.first th,
+body#access div.dPrint table.tModEleDef tr.first td {
+	padding: 0;
+}
+body#access div.dPrint table.tModEleDef tr.first th div,
+body#access div.dPrint table.tModEleDef tr.first td div {
+	padding: 7px;
+}
+body#access div.dPrint ul.ulModEleDisc {
+	margin-bottom: 10px;
+}
+body#access div.dPrint ul.ulModEleDisc li {
+	margin-bottom: 3px;
+}
+body#access div.dPrint ul.lastElement {
+	margin-bottom: 0;
+}

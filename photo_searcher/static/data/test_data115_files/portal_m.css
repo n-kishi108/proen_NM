@@ -1,0 +1,236 @@
+﻿/* ================================
+    CSS STYLES FOR i-SITE PORTAL
+    v1.3, 2005/4/10
+   ================================
+  framestyle_dhv
+*/
+/****************** フレーム用定義 ******************/
+/* 画面の幅と各ペインの決定方法
+　　※各ペイン間の余白は、それぞれのパディングで設定する。
+    ※モジュールのない場合はLeftPane,ContentPane,RightPaneは消える。
+    ※モジュールのない場合でもContentPaneかRightPaneのどちらかは残る。
+スタイルHV用(Header領域が左端まであるもの)：portal_m.css適用後
++--BaseTable--
+| 732px
+|+--SystemMenu-----------------------------------+
+||                                               |
+|+-----------------------------------------------+
+|+--HeaderPane-----------------------------------+
+||                                               |
+|+-----------------------------------------------+
+|+--Middle---------------------------------------+
+||+--LeftPane---+--ContentPane---+--RightPane---+|
+||| 160px       | padding-left   |              ||
+|||             | 10px           |              ||
+|||             |                |              ||
+||+-------------+----------------+--------------+|
+|+-----------------------------------------------+
+|+---FooterPane----------------------------------+
+||                                               |
+|+-----------------------------------------------+
++-------------
+*/
+
+body  /*margin,paddingは上右下左の順*/
+{
+  margin: 0px 0px 0px 0px;
+  font-family: 'ＭＳ Ｐゴシック', 'Osaka', 'Arial', sans-serif ;
+  /*font-family: 'ＭＳ ゴシック', 'Osaka－等幅', 'monospace';*/
+  /*font-family: 'ＭＳ Ｐ明朝', '細明朝体', 'serif';*/
+  /*font-family: 'ＭＳ 明朝', '平成明朝', 'serif';*/
+}
+/* == テーマ切替 == */
+#SystemMenuTag_ThemeList 
+{ 
+display: none; 
+}
+
+/* == 大枠 == */
+#BaseTable
+{
+  margin-left:auto;
+  margin-right:auto;
+  width:750px;
+/*  padding: 0px 0px 0px 0px;*/
+/*  background-image: url("framestyle_vv/back.gif");*/
+}
+
+
+/* == システムメニュー == */
+#SystemMenu
+{
+	width:750px;
+/*  padding: 0px 0px 0px 0px;*/
+}
+
+/* == 中間ペイン群 == */
+#Middle
+{
+	width:756px; /*枠表示用に+6px*/
+}
+
+/* == ヘッダー == */
+#HeaderPane
+{
+/*  padding: 0px 0px 0px 0px;*/
+}
+
+/* == 左ペイン幅 == */
+#LeftPane
+{
+/*	width:160px;*/
+	float:left;
+/*  padding: 0px 0px 0px 0px;*/
+}
+
+/* == MAIN(中央)ペイン == */
+#ContentPane
+{
+  padding: 0px 0px 0px 0px;
+  margin: 0px auto;
+  float:left;
+}
+
+/* == 右ペイン == */
+#RightPane
+{
+/*  text-align:center;*/
+	float:left;
+/*  padding: 0px 0px 0px 0px;*/
+}
+
+/* == フッター == */
+#FooterPane
+{
+	width:750px;
+ padding-bottom:5px;
+/*  padding: 0px 0px 0px 0px;*/
+}
+
+/************　追加　**************/
+Table
+{
+  border-collapse: separate;
+}
+
+table{height: auto;}
+
+H1
+{
+  font-size: medium;
+  font-weight: normal;
+  color: #000000;
+  margin: 0px;
+  margin-bottom: 18px;
+
+}
+H2
+{
+  font-size: medium;
+  font-weight: bold;
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 18px;
+
+}
+
+H3
+{
+  font-size: medium;
+  font-weight: bold;
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 18px;
+
+}
+
+H4
+{
+  font-size: medium;
+  font-weight: normal;
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 18px;
+}
+
+H5
+{
+  font-size: medium;
+  font-weight: normal;
+  color: #000000;
+  margin:0;
+  padding:0;
+}
+
+dt
+{
+  font-size: medium;
+  font-weight: normal;
+  color: #000000;
+  line-height:130%;
+}
+
+dd
+{
+  font-size: medium;
+  font-weight: normal;
+  color: #000000;
+  line-height:130%;
+}
+
+
+.clear {
+    height:1px;
+    clear:both;
+}
+
+.hide {
+    display:none;
+}
+.float {
+    float:left;
+}
+
+/* == 通常リンク == */
+A:link
+{
+  text-decoration: underline;
+  color: #0000FF;
+}
+
+A:visited
+{
+  text-decoration: underline;
+  color: #800080;
+}
+
+A:hover
+{
+  text-decoration: underline;
+  color: red;
+}
+
+A:active
+{
+  text-decoration: underline;
+  color: red;
+}
+
+/* == リストのデザイン == */
+
+.list_number
+{
+ list-style-type: decimal;
+}
+
+.list_disc
+{
+ list-style-type:disc;
+}
+
+.list_square{
+ list-style-type:square;
+}

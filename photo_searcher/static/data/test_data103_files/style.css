@@ -1,0 +1,635 @@
+/* オリジナルテンプレート２カラム（サイドバー右）　(C)2007 C-point Corp. */
+
+*{
+	padding:0px;
+	margin:0px;
+	font-family:Verdana, Arial, sans-serif;
+}
+
+/* HTMLタグ設定 */
+body{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-color: #00ffff;
+	font-size: 100%;
+}
+img{
+	border: none;
+}
+form{
+	margin: 0px;
+	padding: 0px;
+}
+label{
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	white-space: nowrap;
+	text-align: right;
+	font-size: 12px;
+}
+blockquote {
+	background-color: #CCC;
+	padding: 5px;
+	color: #333;
+	font-size: 85%;
+}
+
+/* =================================== */
+/* レイアウト設定 */
+/* =================================== */
+
+#container{
+	text-align: left;
+	padding: 0px;
+	width: 750px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+/* ブログタイトル・概要 */
+#banner{
+	background-color: #000000;
+	height: 550px;
+	width: 750px;
+	margin: 0px;
+	overflow: hidden;
+	background-image: url(http://img05.ti-da.net/usr/obv/syoug1o1.jpg);
+}
+
+/* ブログの配置 */
+#content{
+	float: left;
+	width: 510px;
+	padding: 10px;
+	margin-left: 5px;
+}
+
+/* ブログ外枠 */
+.blog{
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+/* サイド（左サイド） */
+#links{
+	width: 180px;
+	margin: 10px 10px 10px auto;
+	font-size: 85%;
+	float: right;
+	overflow: hidden;
+}
+
+/*フッタ*/
+#footer{
+	background-color: #000000;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	clear: both;
+	display: block;
+}
+
+/* ************************************************ 
+ *	リンクカラーの設定
+ * ************************************************ */
+
+/* 全般 */
+a{
+}
+a:link{}
+a:visited{}
+a:active{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/*　ブログタイトル・概要　*/
+#banner a{
+	text-decoration: none;
+	color: #ffff00;
+}
+#banner a:link{
+	text-decoration: none;
+	color: #ffff00;
+}
+#banner a:visited{
+	text-decoration: none;
+	color: #ffff00;
+}
+#banner a:active{
+	text-decoration: underline;
+	color: #ffff00;
+}
+#banner a:hover{
+	text-decoration: underline;
+	color: #ffff00;
+}
+
+/* カレンダー */
+.calendar a{}
+.calendar a:link{}
+.calendar a:visited{}
+.calendar a:active{}
+.calendar a:hover{}
+
+/* 続きを読む */
+.acontinues a{}
+.acontinues a:link{}
+.acontinues a:visited{}
+.acontinues a:active{}
+.acontinues a:hover{}
+
+/* 次のページ・前のページ */
+.amenu a{}
+.amenu a:link{}
+.amenu a:visited{}
+.amenu a:active{}
+.amenu a:hover{}
+
+/* サイドバー */
+.side a{}
+.side a:link{}
+.side a:visited{}
+.side a:hover{}
+
+.aside a{}
+.aside a:link{}
+.aside a:visited{}
+.aside a:hover{}
+
+/*　サイドタイトル　*/
+.title a{
+	text-decoration: none;
+
+}
+.title a:link{
+	text-decoration: none;
+	color: #ffff00;
+}
+.title a:visited{
+	text-decoration: none;
+	color: #ffff00;
+}
+.title a:active{
+	text-decoration: underline;
+	color: #ffff00;
+}
+.title a:hover{
+	text-decoration: underline;
+	color: #ffff00;
+}
+
+
+/*　このページの上へ　*/
+.aposted a{}
+.aposted a:link{}
+.aposted a:visited{}
+.aposted a:active{}
+.aposted a:hover{}
+
+/*　トラックバック　*/
+.atrackback-post a{}
+.atrackback-post a:link{}
+.atrackback-post a:visited{}
+.atrackback-post a:active{}
+.atrackback-post a:hover{}
+
+/*　RSS　*/
+.rss a:link{}
+.rss a:visited{}
+.rss a:hover{}
+.rss a:active{}
+
+
+/* ************************************************ 
+ *	バナー（ページ上部）の設定
+ * ************************************************ */
+
+/* ブログタイトル */
+.blogtitle{
+	font-size: 140%;
+	width: 730px;
+	margin: 0px;
+	padding: 10px;
+	text-align: left;
+	clear: both;
+}
+
+/* ブログ説明文 */
+.description{
+	font-size: 90%;
+	padding: 5px 10px 10px;
+	width: 730px;
+	text-align: left;
+	color: #ffff00;
+	line-height: 130%;
+}
+
+/* ************************************************ 
+ *	記事の設定
+ * ************************************************ */
+
+/* パン屑メニュー */
+.topicpass {
+	font-size: 10px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	color: #666666;
+	line-height: 16px;
+	vertical-align: bottom;
+}
+.topicpass img {
+	border: none;
+	vertical-align: bottom;
+}
+
+/* 記事 */
+.blogbody{
+	overflow: hidden;
+}
+
+/* 記事タイトル */
+.title{
+	font-size: 100%;
+	background-color: #000000;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	margin: 0px 0px 10px;
+	color: #ffff00;
+}
+
+/* 記事日付 */
+.date{
+	font-size: 80%;
+	color: #666666;
+	margin-top: 0px;
+	text-align: right;
+	margin-bottom: 2px;
+}
+
+/* 記事本文 */
+.main{
+	padding: 10px;
+	margin: 0px auto;
+	overflow: auto;
+	font-size: 87%;
+	line-height: 150%;
+	width: 470px;
+}
+
+
+/* 記事本文内画像 */
+.main img{
+	margin: 5px;
+}
+
+/* 続きを読む */
+.main-continues{}
+
+/* 記事フッター */
+.posted{
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+	padding-top: 3px;
+	text-align: right;
+	margin-bottom: 20px;
+	margin-top: 5px;
+	clear: both;
+	font-size: 83%;
+}
+
+
+/* ************************************************ 
+ *	トラックバックエリアの設定
+ * ************************************************ */
+
+/* この記事へのトラックバック */
+.title_s{
+	margin: 0px 0px 5px 10px;
+	font-size: 100%;
+}
+
+/* この記事へのトラックバックURL */
+.trackback-url{
+	font-size: 100%;
+	font-weight: bold;
+	color: #ffff00;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+
+/* トラックバック本文 */
+.trackback-body{
+	margin: 5px 20px;
+	font-size: 85%;
+	line-height: 130%;
+}
+
+/*トラックバック送信元など*/
+.trackback-post{
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	padding-top: 3px;
+	font-size: 82%;
+	text-align: right;
+}
+
+
+/* ************************************************ 
+ *	コメントエリアの設定
+ * ************************************************ */
+
+/* この記事へのコメント */
+.comments-head{
+	margin: 0px 0px 0px 15px;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+/* コメント投稿者日時など*/
+.comments-post{
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	padding-top: 3px;
+	font-size: 82%;
+	text-align: right;}
+
+/* コメント本文 */
+.comments-body{
+	margin: 5px 20px;
+	font-size: 85%;
+	line-height: 130%;
+}
+
+/* コメント入力テーブル */
+table.form {
+	width: 400px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+/* 本文 */
+#text{
+	width: 350px;
+}
+
+/* メールアドレス */
+#email{}
+
+/* 名前 */
+#author{}
+
+/* URL */
+#url{}
+
+/*情報を記憶チェックボックス*/
+#bake{}
+
+/*確認せずに書込チェックボックス*/
+#savecheck{}
+
+/* ************************************************ 
+ *	プラグイン設定
+ * ************************************************ */
+
+/* サイドブロック */
+.side{
+	margin-bottom: 10px;
+}
+
+/* サイドタイトル */
+.sidetitle{
+	background-color: #000000;
+	padding: 3px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 87%;
+	color: #ffff00;
+}
+
+/* サイド本文 */
+.sidebody{
+	margin-bottom: 3px;
+	margin-right:auto;
+	margin-left:auto;
+	width: 170px;
+	font-size: 80%;
+}
+
+/* RSS */
+ul.rss{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+ul.rss li{
+	display: inline;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+/* カレンダー ここから ----------*/
+/* 大枠 */
+.calender{
+	text-align: center;
+	margin-bottom: 10px;
+}
+/* 上部年月日表示 */
+.calendarhead{
+	font-weight: bold;
+	margin-bottom: 3px;
+	font-size: 11px;
+}
+/* 枠 */
+.calendartable{
+	border: 1px solid #CCCCCC;
+	font-size: 12px;
+	width: 160px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/* 曜日枠 */
+.calendarwd{
+	background-color: #000000;
+	padding: 5px;
+}
+/* 曜日 */
+.calendarweek{}
+/* 日付枠 */
+.calendard{
+	text-align: center;
+	border: 1px solid #CCCCCC;
+}
+/* 日曜日 */
+.sun{
+	color: #CC0000;
+}
+/* 土曜日 */
+.sat{
+	color: #0099FF;
+}
+/* 今日 */
+.today{
+	font-weight: bold;
+}
+/* カレンダー ここまで ----------*/
+
+/* カテゴリー */
+.category {
+	margin-bottom: 10px;
+}
+
+/* 最近の記事 */
+.recententry {}
+
+/* 過去記事 */
+.archives {}
+
+/* 最近のコメント */
+.comment {}
+
+/* 最近のトラックバック */
+.trackback {}
+
+/* お気に入り */
+.link  {
+	margin-bottom: 10px;
+}
+
+/* ブログ内検索 */
+.search {
+	margin-bottom: 10px;
+}
+
+/* QRコード */
+.qrcode {
+	margin-bottom: 10px;
+}
+
+/* アクセスカウンタ */
+.counter {
+	margin-bottom: 10px;
+}
+
+/* 読者登録 */
+.subscription {
+	margin-bottom: 10px;
+}
+
+/* プロフィール */
+.profile {
+	margin-bottom: 10px;
+}
+.nickname{
+	font-weight: bold;
+	word-spacing: 0.2em;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.photo{
+	text-align: center;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+}
+.message{
+	font-size: 85%;
+	line-height: 120%;
+	margin: 5px;
+}
+
+/* お勧め商品 */
+.article_ad {
+	margin-bottom: 10px;
+}
+
+/* タグクラウド */
+.tag_cloud {
+	margin-bottom: 10px;
+}
+
+/* カスタムプラグイン1 */
+.custom1 {
+	margin-bottom: 10px;
+}
+
+/* カスタムプラグイン2 */
+.custom2 {
+	margin-bottom: 10px;
+}
+
+/* カスタムプラグイン3 */
+.custom3 {
+	margin-bottom: 10px;
+}
+
+/* オーナーにメッセージ */
+.inquiry{}
+
+/* 新規投稿 */
+.blog_entry{}
+
+/* マイアルバム */
+.album{
+	margin-bottom: 10px;
+}
+#album_img_flame{}
+#album_href{}
+#album_img{}
+#album_title{}
+#album_list{}
+
+/* ************************************************ 
+ *	フッターの設定
+ * ************************************************ */
+
+/* このページの上へ */
+.pagetop{
+	font-size: 85%;
+	text-align: right;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+/* このBlogのトップへ */
+.menu{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-size: 85%;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+
+/* コピーライト */
+#copyright{
+	font-size: 80%;
+	color: #ffff00;
+}
+
+/* Powered by  */
+.adFooter{
+	font-size: 10px;
+	line-height: 150%;
+	text-align: center;
+}

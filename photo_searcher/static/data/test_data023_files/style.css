@@ -1,0 +1,98 @@
+EM.mossgreen_xl_b{
+  font-size: x-large;
+  font-weight: bold;
+  color: #006600;
+}
+EM.mossgreen_l_b{
+  font-size: large;
+  font-weight: bold;
+  color: #006600;
+}
+EM.navy_l_b{
+  font-size: large;
+  font-weight: bold;
+  color:#000080;
+}
+EM.darkorange_b{
+  font-weight: bold;
+  color: #FF8C00;
+}
+EM.darkorange_l_b{
+  font-size: large;
+  font-weight: bold;
+  color: #FF8C00;
+}
+EM.darkorange_xl_b{
+  font-size: x-large;
+  font-weight: bold;
+  color: #FF8C00;
+}
+STRONG.bgwhite_xs{
+  font-size: x-small;
+  background-color: #FFFFFF;
+}
+STRONG.bgwhite_small{
+  font-size: small;
+  background-color: #FFFFFF;
+}
+STRONG.x-small{
+  font-size: x-small;
+}
+STRONG.small{
+  font-size: small;
+}
+STRONG.blue_xl{
+  font-size: x-large;
+  color: #0000FF;
+}
+STRONG.blue{
+  color: #0000FF;
+}
+STRONG.red_xl{
+  font-size: x-large;
+  color: #FF0000;
+}
+STRONG.red{
+  color: #FF0000;
+}
+STRONG.mossgreen_xl{
+  font-size: x-large;
+  color: #006600;
+}
+STRONG.mossgreen{
+  color: #006600;
+}
+STRONG.lime{
+  color: #00FF00;
+}
+STRONG.darkorange{
+  color: #FF8C00;
+}
+IMG.left{
+  float: left;
+}
+IMG.right{
+  float: right;
+}
+DIV.picbook{
+  position: fixed;
+  top:     10px;
+  width:  100%;
+  height: 150px;
+}
+DIV.831{
+  position: fixed;
+  top:     10px;
+  width:  100%;
+  height: 130px;
+}
+DIV.draw{
+  position: fixed;
+  top:     10px;
+  width:  100%;
+  height: 360px;
+}
+P.magic_title{
+  color: #FFD700;
+  font-size: large;
+}

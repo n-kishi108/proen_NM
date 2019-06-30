@@ -1,0 +1,29 @@
+MBLoaded=true;
+function MBBannerRequest(){
+
+	var mbjsUrl=self.MBProtocol+'://'+self.MBServer+'.'+self.MBDomain+'/swjs?site='+self.MBSite+'&v=2';
+	document.write('<script src="'+mbjsUrl+'" type="text/javascript"></scr');
+	document.write('ipt>');
+}
+function MBTrackEntry() {
+
+  siteTrackRef = document.referrer;
+  siteTrackRef = siteTrackRef.replace(/\%/g,"%25");
+  siteTrackRef = siteTrackRef.replace(/\?/g,"%3F");
+  siteTrackRef = siteTrackRef.replace(/\&/g,"%26");
+  siteTrackRef = siteTrackRef.replace(/\=/g,"%3D");
+  siteTrackRef = siteTrackRef.replace(/\+/g,"%2B");
+
+  document.write('<IMG SRC="');
+
+  document.write( self.MBProtocol + "://" + self.MBServer + "." + self.MBDomain + "/track?" );
+  document.write( "advertiser=" + self.MBAdvertiserID + "&" );
+  if(self.MBCampaignID){
+    document.write( "campaign="   + self.MBCampaignID + "&" );
+  }
+  document.write( "entry="      + "1" + "&" );
+  document.write( "siteref="    + siteTrackRef);
+
+  document.write('" style="width:0;height:0;border:0;display:none;">');
+
+}

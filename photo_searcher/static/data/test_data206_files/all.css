@@ -1,0 +1,123 @@
+body{
+ text-align:center;
+ margin:0;
+}
+div{
+ font-size:11px;
+ line-height:140%;
+ margin-left:auto;
+ margin-right:auto;
+}
+table{
+ font-size:11px;
+ line-height:140%;
+ margin-left:auto;
+ margin-right:auto;
+}
+p{
+ margin-left:auto;
+ margin-right:auto;
+}
+img{
+ border:0;
+}
+.wid-450{
+ width:450px;
+}
+
+a{
+ color:#006699;
+ text-decoration:underline;
+}
+a:hover{
+ color:#006699;
+ text-decoration:none;
+}
+
+.pan a{
+ color:#006699;
+ text-decoration:none;
+}
+.pan a:hover{
+ color:#006699;
+ text-decoration:underline;
+}
+
+
+/*---------------全体レイアウト---------------*/
+#con-all{
+ width:850px;
+ position:relative;
+}
+#con-header{
+ width:850px;
+ height:80px;
+ margin:0;
+ padding:0;
+}
+#con-header span{
+ margin:50px 10px 0 0;
+ font-size:12px;
+ font-weight:normal;
+ color:#006699;
+ position:relative;
+ top:55px;
+}
+#con-side{
+ width:240px;
+ float:left;
+}
+#con-right{
+ width:590px;
+ float:right;
+}
+#con-footer{
+ clear:both;
+ width:850px;
+ background:url("http://www.n-p.to/pblog/image/all-foot-back.gif") no-repeat;
+ height:30px;
+ padding:3px;
+ color:#336699;
+}
+
+
+/*-----------------サイドバー設定------------------*/
+#con-side h2{
+ font-size:14px;
+ color:white;
+ padding:8px 0 6px;
+ background:url("http://www.n-p.to/pblog/image/side-archivetitle-back.gif") no-repeat;
+ margin:0;
+}
+#con-side ul{
+ margin:0 0 10px;
+ padding:7px;
+ text-align:left;
+ border-right:1px solid #cccccc;
+ border-bottom:1px solid #cccccc;
+ border-left:1px solid #cccccc;
+ background:#f5f5f5;
+ list-style-position:inside;
+ list-style-image:url("http://www.n-p.to/pblog/image/side-liststyle.gif");
+ line-height:170%;
+}
+#con-side li{
+}
+#con-side li a{
+ color:#006699;
+ text-decoration:none;
+}
+#con-side li a:hover{
+ color:#0099cc;
+ text-decoration:underline;
+}
+
+
+/*---------------------パンくず設定---------------------*/
+.pan{
+ text-align:left;
+ color:#666666;
+ border-bottom:1px dotted #cccccc;
+ padding-bottom:2px;
+}
+

@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Verdana,Arial,sans-serif;
+	font-size: small;
+	text-align: center; }
+
+p { margin: 0 0 1.5em 0; }
+
+a img { border: 0; }
+
+textarea, select, option, input {
+	font-family: Verdana,Arial,sans-serif;
+	font-size: small; }
+
+* html textarea,
+* html select,
+* html option,
+* html input { font-family: "ＭＳ Ｐゴシック",Osaka; }
+
+#container #main { overflow:visible; }
+
+#side-a, #side-b { font-size: x-small; }
+
+.articles-body font { line-height: 1.4; }
+
+#rssfeed { margin-bottom: 10px; }
+
+.articles-body .sonet-icon {
+	padding: 0;
+	margin: 0 2px;
+	vertical-align:middle; }
+
+#myblog-comment-error {
+	color:#e00000;
+	margin-bottom:5px; }
+
+#myblog-nice-error {
+	color:#e00000;
+	margin-bottom:5px; }
+
+#send-message {
+	margin-bottom: 10px;
+	text-align: center; }
+
+.footlink {
+	float: left;
+	padding-left:5px;
+	font-size:x-small; }
+
+.copyright {
+	padding-right:5px;
+	font-size:x-small; }
+
+.comment-input {
+	width:98%; }
+
+.trackback-url input {
+	width:98%; }
+
+div#powered {
+	text-align:center; }
+
+div#rssfeed {
+	text-align:center; }
+
+.common-link {
+	margin:6px auto;
+	text-align:left; }
+
+.common-link ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-size:x-small; }
+
+.common-link li {
+	margin-bottom:3px; }
+
+.common-link li a {
+	padding-left:14px;
+	background:url(/_css_header/img/arrow_right.gif) no-repeat left center; }
+
+.blogthemeLink {
+	line-height:1.4; }
+
+.sbHeader a {
+	margin:0;
+	padding:0; }
+
+/* Hack for ie6 */
+* html div.archive-bottom br {
+	clear:none !important; }
+
+/* Amazon */
+.sonet-asin-area{ clear: both; }
+
+.sonet-asin-image{
+	float: left;
+	margin: 0 15px 10px 0 !important; }
+
+.sonet-asin-title { margin: 0; }
+
+.sonet-asin-info ul {
+	padding: 0;
+	margin: 0; }
+
+li.sonet-asin-label {
+	margin: 3px 0;
+	font-size: x-small;
+	line-height: 1.5;
+	list-style-type: none; }
+
+.sonet-asin-break { clear: both; }
+
+/* Float Clear */
+#content:after,
+#profile dl:after,
+#nice ul:after,
+.archive-title:after,
+.archive-bottom:after,
+.articles-body:after {
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	display: block;
+	content: "."; }
+
+#content,
+#profile dl,
+#nice ul,
+.archive-title,
+.archive-bottom,
+.articles-body {
+	zoom : 1 ; }
+
+table#tbrg { display:none; }

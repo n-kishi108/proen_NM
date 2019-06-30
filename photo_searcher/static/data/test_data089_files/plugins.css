@@ -1,0 +1,209 @@
+/*
+	This is the CSS stylesheet that is used for "[dtk] Plain" Nucleus skin.
+	(for plugins)
+
+	Context
+	-------
+	#contents block
+		pageswitch   (NP_ShowBlogs)     ... index page
+		hs           (NP_HilightSource) 
+		archiveindex (NP_ArchiveIndex)  ... archive list page
+		todolist     (NP_TodoList)      ... member page
+	
+	#menu block
+		bloglist     (NP_ContentsList)
+		categorylist (NP_ContentsList)
+		commenttree  (NP_CommentTree)
+		linklist     (NP_LinkList)
+*/
+
+/* NP_ShowBlogs */
+.pageswitch {
+	/*background-color: #eee;*/
+	margin: 20px 0 10px;
+	padding: 5px 3px;
+	
+	font-size: small;
+	line-height: 100%;
+	text-align: center;
+}
+.pageswitch a {
+	text-decoration: none;
+}
+
+/* NP_HighlightSource */
+pre.hs span.string {
+	color: #CC0000;
+}
+pre.hs span.comment {
+	color: #FF9900;
+}
+pre.hs span.keyword {
+	color: #006600;
+}
+pre.hs span.bg {
+	color: #DDDDDD;
+}
+pre.hs span.default {
+	color: #0000CC;
+}
+pre.hs span.html {
+	color: #000000;
+}
+
+/* NP_ArchiveIndex */
+.archiveindex a { 
+	text-decoration: none;
+}
+.archiveindex h3 { 
+	border-bottom: 1px dotted gray;
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
+}
+.archiveindex .category-desc {
+	border-bottom: 1px dotted gray;
+	margin: 0;
+	padding: 0;
+	padding-left: 16px;
+	background: url(img/ico_comment.gif) left no-repeat;
+	
+	font-size: small;
+	color: gray;
+}
+.archiveindex ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.archiveindex li {
+	padding-left: 16px;
+	background: #f0f0f0 url(img/ico_item.gif) left no-repeat;
+	border-bottom: 1px dotted gray;
+}
+.archiveindex li.stripe {
+	background-color: white;
+}
+.archiveindex li.more {
+	border-bottom: none;
+	background: none;
+	
+	text-align: right;
+	font-size: small;
+}
+.archiveindex li div.title {
+	float: left;
+}
+.archiveindex li div.detail {
+	white-space: nowrap;
+	float: right;
+}
+
+/* NP_TodoList */
+form.todolist, form.todolist-r {
+	background-color: #F9F9F3;
+	border-top: 1px solid white;
+	border-left: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e0e0;
+	border-right: 1px solid #d6d0d0;
+	
+	margin: 0;
+	padding: 0;
+	
+	font-size: x-small;
+}
+form.todolist-r {
+	padding: 10px 5px;
+	text-align: right;
+}
+form.todolist input, 
+form.todolist select, 
+form.todolist-r input {
+	font-size: x-small;
+}
+ul.todolist {
+	margin: 0;
+	padding: 0;
+	list-style: none;	
+}
+.todolist li {
+	background: #F9F9F3 url("img/ico_pin.gif") left no-repeat;
+	border-top: 1px solid white;
+	border-left: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e0e0;
+	border-right: 1px solid #d6d0d0;
+	
+	margin-top: 1px;
+	padding: 2px 0;
+	padding-left: 14px;
+	
+	font-size: small;
+	line-height: normal;
+}
+.todolist li span.enddate,
+.todolist li span.enddate2,
+.todolist li span.enddate3,
+.todolist li span.enddate4 {
+	border-top:    1px solid #ccc;
+	border-left:   1px solid #bbb;
+	border-bottom: 1px solid #eee;
+	border-right:  1px solid #eee;
+	
+	margin: 0;
+	padding: 0 2px;
+	
+	font-family: monospace;
+}
+.todolist li span.enddate2 {
+	background-color: yellow;
+}
+.todolist li span.enddate3 {
+	background-color: red;
+}
+.todolist li span.enddate4 {
+	background-color: #ddd;
+}
+.todolist li span.title {
+	color: #333;
+}
+.todolist li img {
+	vertical-align: middle;
+}
+
+/* NP_ContentsList */
+ul.bloglist { 
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.categorylist li.current {
+	padding-left: 14px;
+	background: url(img/ico_cat3.gif) left no-repeat;
+	
+	font-weight: bold;
+}
+
+/* NP_CommentTree */
+ul.commenttree {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.commenttree li {
+	margin: 0;
+	padding 0;
+	padding-left: 14px;
+	background: url(img/ico_comment.gif) top left no-repeat;
+}
+
+/* NP_LinkList */
+div.linklist ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+div.linklist li {
+	padding-left: 14px;
+	background: url(img/ico_link.gif) left no-repeat;
+}
+

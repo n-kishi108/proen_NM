@@ -1,0 +1,489 @@
+@charset "UTF-8";
+
+/*simple_purple
+	back_obj										:#6E00E0;画像と同じ色
+	line												:#350000;テーブルデコレーション色
+	back_bg											:#ECD9FF;bodyバック色
+	link_txt										:#6600FF;フォント色
+	url													:http://www.pokebras.jp/_img/simple_purple/head.gif;画像
+*/
+
+*{      
+	font-family									:"verdana","helvetica","osaka","ＭＳ Ｐゴシック",ans-serif;
+
+
+}
+
+textarea,select,input {
+font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku GothicPro","Osaka","Verdana","Helvetica","Arial","ＭＳ Ｐゴシック","sans-serif";
+}
+
+
+body{    position										:center;
+	color												:#000;
+	margin											:0px;
+	background									:#ECD9FF;
+	text-align:center;
+}
+
+form{
+	margin											:0px;
+	padding											:0px;
+}
+
+table.form{
+	margin											:25px 0px 0px 13px;
+}
+
+img{
+	border											:none;
+}
+
+ul.rss{
+	margin											:0px;
+	padding											:0px;
+	width												:100%;
+	text-align									:center;
+}
+
+ul.rss li	{
+	border-right								:#999 1px solid;
+	display											:inline;
+	font-size										:12px;
+	font-style									:normal;
+	font-weight									:bold;
+	letter-spacing							:0.2px;
+	margin-right								:0.3em;
+	padding-right								:0.5em;
+	padding-left								:0.2em;
+}
+
+ul.rss a:link		{
+	color												:#333333;
+	text-decoration							:none;
+}
+
+ul.rss a:visited	{
+	color												:#333333;
+	text-decoration							:none;
+}
+
+ul.rss a:hover		{
+	color												:#999999;
+	text-decoration							:none;
+}
+
+ul.rss a:active	{
+	color												:#333333;
+	text-decoration							:none;
+}
+
+a															{color:#6600FF;text-decoration:underline;}
+a:link												{color:#6600FF;text-decoration:underline;}
+a:visited											{color:#6600FF;text-decoration:underline;}
+a:active											{color:#6600FF;text-decoration:none;}
+a:hover												{color:#6600FF;text-decoration:none;}
+
+a.acalendar										{color:#6600FF;text-decoration:underline;}
+a.acalendar:link							{color:#6600FF;text-decoration:underline;}
+a.acalendar:visited						{color:#6600FF;text-decoration:underline;}
+a.acalendar:active						{color:#6600FF;text-decoration:none;}
+a.acalendar:hover							{color:#6600FF;text-decoration:none;}
+
+a.acontinues									{color:#6600FF;text-decoration:underline;}
+a.acontinues:link							{color:#6600FF;text-decoration:underline;}
+a.acontinues:visited					{color:#6600FF;text-decoration:underline;}
+a.acontinues:active						{color:#6600FF;text-decoration:none;}
+a.acontinues:hover						{color:#6600FF;text-decoration:none;}
+
+a.amenu												{color:#6600FF;text-decoration:underline;}
+a.amenu:link									{color:#6600FF;text-decoration:underline;}
+a.amenu:visited								{color:#6600FF;text-decoration:underline;}
+a.amenu:active								{color:#6600FF;text-decoration:none;}
+a.amenu:hover									{color:#6600FF;text-decoration:none;}
+
+#container{ font-size:12px;
+	width												:740px;
+	background-color						:#ffffff;
+	margin											:0px auto;
+         position										:center;
+	text-align:left;
+}
+
+#banner,#subbanner{
+	background									:#6E00E0 url(http://www.pokebras.jp/_img/simple_purple/head.gif) left bottom;
+	padding											:0px 10px 10px 10px;	}
+
+#banner a											{color:#fff;text-decoration:none;}
+#banner a:link								{color:#fff;text-decoration:none;}
+#banner a:visited							{color:#fff;text-decoration:none;}
+#banner a:active							{color:#fff;text-decoration:underline;}
+#banner a:hover								{color:#fff;text-decoration:underline;}
+
+#subbanner a									{color:#fff;text-decoration:none;}
+#subbanner a:link							{color:#fff;text-decoration:none;}
+#subbanner a:visited					{color:#fff;text-decoration:none;}
+#subbanner a:active						{color:#fff;text-decoration:underline;}
+#subbanner a:hover						{color:#fff;text-decoration:underline;}
+
+h1,h2,h3{
+	margin											:0px;
+	padding											:0px;
+}
+
+.blogtitle{
+	font-size										:30px;
+	font-weight									:bold;
+	padding											:20px 0px 0px 10px;
+	text-align									:left;
+	letter-spacing							:2px;
+}
+
+.description{
+	color												:#fff;
+	font-size										:12px;
+	padding											:4px 0px 0px 35px;
+	text-align									:left;
+	letter-spacing							:2px;
+}
+
+
+#content{
+	width:545px;
+	float:right;
+	background-color						:#ffffff;
+}
+
+#links{
+	width:185px;
+	float:left;
+	text-align									:left;
+	margin											:0px 0px 0px 0px;
+	padding											:20px 0px 0px 10px; 
+	background-color						:#ffffff;
+	overflow:hidden;
+}
+
+
+#footer{
+	clear												:both;
+}
+
+#copyright{
+	background									:#6E00E0 url(http://www.pokebras.jp/_img/simple_purple/foot.gif) bottom;
+	width												:100%;
+	height											:16px;
+	font-size										:10px;
+	font-weight									:bold;
+	color												:#fff;
+	margin											:0px;
+	padding											:0px;
+	line-height									:16px;
+	text-align									:center;
+}
+
+
+.blog{
+	margin											:20px 10px 20px 15px;
+}
+
+.date{  
+	border-top									:1px solid #35006A;
+	border-left									:1px solid #35006A;
+	border-right								:1px solid #35006A;
+	border-bottom								:1px solid #35006A;
+	background									:#6E00E0 url(http://www.pokebras.jp/_img/simple_purple/obj.gif);
+	background-position					:1px 1px;
+	color												:#fff;
+	font-size										:12px;
+	letter-spacing							:2px;
+	padding											:5px 0px 5px 5px;
+}
+
+.blogbody{
+	background									:#fff;
+	margin											:0px 0px 10px 0px;
+	padding											:8px;
+	border-left									:1px solid #35006A;
+	border-right								:1px solid #35006A;
+	border-bottom								:1px solid #35006A;
+}
+
+.title{
+	color												:#000;
+	font-size										:12px;
+	font-weight									:bold;
+	height											:10px;
+}
+
+.main{
+	width												:502px;
+	color												:#000;
+	font-size										:12px;
+	padding											:15px 0px 15px 0px;
+	overflow:auto;
+         line-height:135%;
+}
+
+.main img{
+	margin											:0px 5px 5px 5px;
+}
+
+.main-continues{
+	font-size										:12px;
+}
+
+.posted{
+	color												:#000;
+	font-size										:10px;
+	text-align									:right;
+	margin											:0px 0px 25px 0px;
+}
+
+a.aposted											{color:#6600FF;text-decoration:underline;font-weight:bold;font-size										:10px;}
+a.aposted:link								{color:#6600FF;text-decoration:underline;font-weight:bold;}
+a.aposted:visited							{color:#6600FF;text-decoration:underline;font-weight:bold;}
+a.aposted:active							{color:#6600FF;text-decoration:none;font-weight:bold;}
+a.aposted:hover								{color:#6600FF;text-decoration:none;font-weight:bold;}
+
+.menu{
+	color												:#000;
+	font-size										:12px;
+	text-align									:right;
+}
+
+.comments-head{
+	color												:#000;
+	font-size										:12px;
+	font-weight									:bold;
+	padding											:0px 0px 0px 0px;
+	height:10px;
+}
+
+.comments-body{
+	font-size										:12px;
+	line-height									:135%;
+	margin											:20px 0px 15px 13px;
+}
+
+.comments-post{
+	color												:#000;
+	font-size										:12px;
+	text-align									:right;
+	margin											:0px 0px 25px 0px;
+}
+
+.trackback-url{
+	color												:#691815;
+	font-size										:10px;
+	font-weight									:bold;
+	margin											:20px 0px 15px 13px;
+}
+
+.trackback-body{
+	font-size										:10px;
+	line-height									:135%;
+	margin											:20px 0px 15px 13px;
+}
+
+.trackback-post{
+	color												:#000;
+	font-size										:10px;
+	text-align									:right;
+	margin											:0px 0px 25px 0px;
+	font-weight									:bold;
+}
+
+a.atrackback-post							{color:#6600FF;text-decoration:underline;font-weight:bold;}
+a.atrackback-post:link				{color:#6600FF;text-decoration:underline;font-weight:bold;}
+a.atrackback-post:visited			{color:#6600FF;text-decoration:underline;font-weight:bold;}
+a.atrackback-post:active			{color:#6600FF;text-decoration:none;font-weight:bold;}
+a.atrackback-post:hover				{color:#6600FF;text-decoration:none;font-weight:bold;}
+
+label{
+	font-size										:10px;
+	font-weight									:bold;
+}
+
+#author{
+	width												:200px;
+	border											:1px solid #35006A;
+}
+#email{
+	width												:200px;
+	border											:1px solid #35006A;
+}
+#url{
+	width												:200px;
+	border											:1px solid #35006A;
+}
+#text{   font-size:12px;
+	width												:400px;
+	height											:200px;
+	border											:1px solid #35006A;
+}
+.pagetop{
+	font-size										:12px;
+	text-align									:right;
+	margin											:0px 0px 25px 0px;
+}
+	.calendarhead{
+		border-top			: 1px none #666;
+	 	border-left			: 1px none #666;
+	 	border-right			: 1px none #666;
+	 	color:#333;
+		font-size:12px;
+	    font-weight:bold;
+		letter-spacing:2px;
+		padding:0px 0px 2px 0px;
+		text-align:left;
+		padding:3px 0px 3px 15px;
+
+	}
+	.calendartable{
+		margin:0px auto 10px auto;
+		width:183px;
+		text-align:left;
+		background:#fff;
+		border-top:1px solid #35006A;
+		border-left:1px solid #35006A;
+		border-right:1px solid #35006A;
+		border-bottom	: 1px solid #35006A;
+		border-spacing:0px;
+	}
+	.calendarweek{
+		color:#fff;
+		font-size:10px;
+		font-weight: bold;
+	}
+
+	.calendarwd{
+	/*	border-left	: 1px solid #35006A;
+ 		border-right	: 1px solid #35006A;*/                 
+		background:#6E00E0 url(http://www.pokebras.jp/_img/simple_purple/obj.gif);
+		background-position:-2px 0px;
+		color		:#fff;
+		font-size:10px;
+        font-weight:bold;
+		letter-spacing		: 2px;
+		padding:2px 0px 2px 5px;
+	}
+	.calendard{
+    	empty-cells:show;
+    	border-top:1px solid #efefef;
+		border-right:1px solid #efefef;
+		text-align: center;
+    }
+	.calender{
+		font-size:10px;
+		padding:2px 2px;
+		
+	}
+
+
+.sidetitle{
+	border-top									:1px solid #35006A;
+	border-left									:1px solid #35006A;
+	border-right								:1px solid #35006A;
+	border-bottom								:1px solid #35006A;
+	background									:#6E00E0 url(http://www.pokebras.jp/_img/simple_purple/obj.gif) top left;
+	background-position					:1px 1px;
+	color												:#fff;
+	font-size										:12px;
+	letter-spacing							:2px;
+	padding											:5px 0px 5px 5px;
+	width:178px;
+}
+
+.side{
+	font-size										:12px;
+	line-height									:140%;
+	margin											:0px 0px 10px 0px;
+	padding											:8px;
+	border-left									:1px solid #35006A;
+	border-right								:1px solid #35006A;
+	border-bottom								:1px solid #35006A;
+	width:167px;
+}
+
+a.aside												{color:#6600FF;text-decoration:underline;}
+a.aside:link									{color:#6600FF;text-decoration:underline;}
+a.aside:visited								{color:#6600FF;text-decoration:underline;}
+a.aside:active								{color:#6600FF;text-decoration:none;}
+a.aside:hover									{color:#6600FF;text-decoration:none;}
+
+a.arss												{color:#6600FF;text-decoration:underline;}
+a.arss:link										{color:#6600FF;text-decoration:underline;}
+a.arss:visited								{color:#6600FF;text-decoration:underline;}
+a.arss:active									{color:#6600FF;text-decoration:none;}
+a.arss:hover									{color:#6600FF;text-decoration:none;}
+
+.photo{
+	text-align									:center;
+}
+
+.nickname{
+	color												:#2b5695;
+	
+	font-weight									:bold;
+	margin											:10px 0px;
+}
+
+.message{
+	｝
+
+.quotetable{
+}
+
+.quote{
+	color												:#000;
+	font-size										:12px;
+	padding											:1px;
+}
+
+.blogtimes{
+	margin											:0px 0px 16px 0px;
+	text-align									:center;
+}
+
+.powered{
+	text-align									:center;
+	margin											:0px 0px 10px 0px;
+}
+
+.syndicate{
+	font-size										:12px;
+	text-align									:center;
+}
+.checkers{
+	font-size										:12px;
+	margin-top:10px;
+}
+
+a.adtitle											{font-weight:bold;text-decoration:underline;}
+a.adtitle:link								{font-weight:bold;text-decoration:underline;}
+a.adtitle:visited							{font-weight:bold;text-decoration:underline;}
+a.adtitle:active							{font-weight:bold;text-decoration:underline;}
+a.adtitle:hover								{font-weight:bold;text-decoration:underline;}
+
+a.addescription								{color:black;text-decoration:none;}
+a.addescription:link					{color:black;text-decoration:none;}
+a.addescription:visited				{color:black;text-decoration:none;}
+a.addescription:active				{color:black;text-decoration:none;}
+a.addescription:hover					{color:black;text-decoration:none;}
+
+a.adurl												{color:#0000FF;text-decoration:none;}
+a.adurl:link									{color:#0000FF;text-decoration:none;}
+a.adurl:visited								{color:#0000FF;text-decoration:none;}
+a.adurl:active								{color:#0000FF;text-decoration:none;}
+a.adurl:hover									{color:#0000FF;text-decoration:none;}
+
+a.adld												{text-decoration:underline;}
+a.adld:link										{text-decoration:underline;}
+a.adld:visited								{text-decoration:underline;}
+a.adld:active									{text-decoration:underline;}
+a.adld:hover									{text-decoration:underline;}
+
+body.ad{
+	background									:#f7p39f;
+}

@@ -1,0 +1,12 @@
+document.writeln("	<div id='footer'>	");
+document.writeln("	  <p>ザ・ビッグスポーツは、ビッグ・エス(BIG-S)をはじめとするスポーツクラブ、フィットネスクラブ、スイミングスクールなどのクラブ施設を運営し、人々に本当の健康を提供しています。</p>	");
+document.writeln("	  <ul>	");
+document.writeln("	    <li><a href='"+top_dir+"/midori/index.html'>ビッグ・エス緑トップへ</a> </li>	");
+document.writeln("	    <li><a href='"+top_dir+"/company/index.html'>会社情報</a> </li>	");
+document.writeln("	    <li><a href='https://secure.jcc.ne.jp/big-s.info/cgi-bin/info/info.cgi?SHOP=26&TYPE=g'>資料請求</a> </li>	");
+document.writeln("	    <li><a href='"+top_dir+"/sitemap/privacy.html'>個人情報保護方針</a> </li>	");
+document.writeln("	    <li><a href='"+top_dir+"/sitemap/howto.html'>サイトのご利用方法</a> </li>	");
+document.writeln("	    <li class='end'><a href='"+top_dir+"/midori/sitemap/index.html'>サイトマップ</a> </li>	");
+document.writeln("	  </ul>	");
+document.writeln("	  <div class='right'><img src='"+top_dir+"/t_common/foot_copyright.gif' alt='Copyright(c) THE BIG SPORTS Co.,Ltd. All Rights Reserved.'></div>	");
+document.writeln("	</div>	");

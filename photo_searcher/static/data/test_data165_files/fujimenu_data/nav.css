@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+.clear{ clear:both;}
+
+/*LARGE fujimenu_cloud_b.html*/
+#globalNavlarge{
+	width:920px;
+	margin:0 auto;
+	position: absolute;
+    top:91px;
+    left: 37px;
+    z-index:3;
+	}
+#globalNavlarge img {
+	display:block;
+}
+#globalNavlarge #gNavtop,#globalNavlarge #gNavcenter{
+	width:920px;
+	}
+#globalNavlarge #gNavtop li{
+	padding:0 10px 0 0;
+	}
+#globalNavlarge #gNavtopR{
+	float:right;
+	}
+#globalNavlarge #gNavtopR ul li{
+	padding:6px 0 3px 3px;
+	}
+#globalNavlarge #gNavbottom{
+	width:858px;
+	margin:0 auto;
+	padding:4px 0 0 0;
+	}
+#globalNavlarge li{
+	float:left;
+	}
+
+
+/*SMALL fujimenu_cloud.html*/
+#globalNavsmall{
+	width:844px;
+	margin:0 auto;
+	position: absolute;
+	top:9px;
+	left: 110px;
+	z-index:3;
+	}
+#globalNavsmall img {
+	display:block;
+}
+#globalNavsmall #gNavtop,#globalNavsmall #gNavcenter{
+	width:844px;
+	}
+#globalNavsmall #gNavtop li{
+	padding:0 7px 0 0;
+	}
+#globalNavsmall #gNavtopR{
+	float:right;
+	}
+#globalNavsmall #gNavtopR ul li{
+	padding:5px 0 5px 3px;
+	}
+#globalNavsmall #gNavbottom{
+	width:816px;
+	margin:0 auto;
+	padding:4px 0 0 0;
+	}
+#globalNavsmall li{
+	float:left;
+	}
+	
+/*SMALL2  fujimenu.html*/
+#globalNavsmall2{
+	width:844px;
+	margin:0 auto;
+	position: absolute;
+    top:0px;
+    left: 73px;
+   
+	}
+#globalNavsmall2 img {
+	display:block;
+}
+#globalNavsmall2 #gNavtop{
+	width:844px;
+	}
+#globalNavsmall2 #gNavcenter{
+	width:844px;
+	}
+#globalNavsmall2 #gNavtop li{
+	padding:0 7px 0 0;
+	}
+#globalNavsmall2 #gNavtopR{
+	float:right;
+	}
+#globalNavsmall2 #gNavtopR ul li{
+	padding:5px 0 5px 3px;
+	}
+#globalNavsmall2 #gNavbottom{
+	width:816px;
+	margin:0 auto;
+	padding:4px 0 0 0;
+	}
+#globalNavsmall2 li{
+	float:left;
+	}

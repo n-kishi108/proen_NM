@@ -1,0 +1,471 @@
+@charset "EUC-JP";
+
+/*
+-----------------------------------------------------
+livedoor Blog CSS
+    Name:	Liquid Smoke（3カラム）
+          Demiflare Designs.
+ Version:	2007.08.27
+(Release: 2006.09.08)
+-----------------------------------------------------
+*/
+
+	body{
+		margin:0;
+		padding:0;
+		color:#333;
+		font-family:arial ,sans-serif;
+		background:url(http://parts.blog.livedoor.jp/img/usr/liquid_smoke/bg.gif) repeat-x 0 30px;
+		text-align:center;
+	}
+
+	a:link{color:#233a58;}
+	a:visited{color:#233a58;}
+	a:active{color:#233a58;}
+	a:hover{color:#233a58;text-decoration:none;}
+
+	#header{
+		background:url(http://parts.blog.livedoor.jp/img/usr/liquid_smoke/headbg.gif) repeat-x 0 100%;
+	}
+	#header td{
+		color:#333;
+		font-size:12px;
+		text-align:right;
+		padding-right:10px;
+	}
+	#header a:link{}
+	#header a:visited{}
+	#header a:active{}
+	#header a:hover{text-decoration:none;}
+
+	#container{
+		width:786px;
+		margin:0 auto;
+		text-align:center;
+		word-break:break-all;
+		background:url(http://parts.blog.livedoor.jp/img/usr/liquid_smoke/bg2.gif) repeat-y 50% 0;
+	}
+
+	#banner{
+		width:767px;
+		height:155px;
+		text-align:left;
+		margin:0 auto;
+		background:url(http://parts.blog.livedoor.jp/img/usr/liquid_smoke/header.jpg) no-repeat 50% 0;
+	}
+
+	#banner a{color:#fff;}
+	#banner a:link{color:#fff;}
+	#banner a:visited{color:#fff;}
+	#banner a:hover{color:#fff;text-decoration:underline;}
+
+	h1,h2,h3{margin:0;padding:0;}
+
+	.blogtitle{
+		font-size:14px;
+		padding:18px 18px 5px;
+	}
+
+	.description{
+		font-size:12px;
+		font-weight:bold;
+		color:#fff;
+		padding-left:18px;
+	}
+
+	#blogcontainer{
+		width:765px;
+		margin:5px auto 0;
+		padding-bottom:30px;
+		background:url(http://parts.blog.livedoor.jp/img/usr/liquid_smoke/bg3.gif) repeat-y 50% 0;
+	}
+
+	#wrapper{
+		width:585px;
+		float:left;
+		text-aling:center;
+	}
+
+	#content{
+		width:405px;
+		float:right;
+		text-aling:center;
+	}
+
+	#blog{
+		width:395px;
+		margin:0 auto;
+		text-align:left;
+	}
+
+	#lefttop,#righttop{}
+
+	#left{
+		width:180px;
+		float:right;
+		text-align:center;
+	}
+	
+	#right{
+		width:180px;
+		float:left;
+		text-align:center;
+	}
+	
+	#categorytitle{
+		color:#fff;
+		font-size:12px;
+		font-weight:bold;
+		padding:10px;
+		margin:0px auto 10px;
+		text-align:center;
+		background:url(http://parts.blog.livedoor.jp/img/usr/liquid_smoke/maintop.gif) repeat-y 50% 50%;
+	}
+	.datetop,#articletop{
+		padding:3px 0px;
+		background:url(http://parts.blog.livedoor.jp/img/usr/liquid_smoke/maintop.gif) no-repeat 50% 0%;
+	}
+	.fullbody,#articlebody{
+		padding:5px 15px 5px 15px;
+		background:url(http://parts.blog.livedoor.jp/img/usr/liquid_smoke/mainbg.gif) repeat-y 50% 0%;
+	}
+	.date{
+		padding:12px 40px;
+		color:#4e78ad;
+		font-size:12px;
+		font-weight:bold;
+		background:url(http://parts.blog.livedoor.jp/img/usr/liquid_smoke/icon.gif) no-repeat 0% 50%;
+		width:100%;
+	}
+	
+	.blogbodytop{}
+	
+	.blogbody{
+		padding:5px 0;
+		width:100%;
+	}
+
+	.title{
+		color:#231a5e;
+		font-size:14px;
+		font-weight:bold;
+	}
+
+/*\*/
+* html .main{height:1%;}
+* html .mainmore{height:1%;}
+/**/
+
+	.main
+	,.mainmore
+	,.article_tags{
+		font-size:12px;
+		text-align:left;
+		line-height:150%;
+		padding:15px 0px;
+	}
+	
+	blockquote
+	,pre {
+		border:2px dotted #333333;
+		padding:10px;
+		margin:10px;
+		text-align:left;
+	}
+	
+	.pict{}
+	
+	 a.continues:link{color:#233a58;}
+	 a.continues:visited{color:#233a58;}
+	 a.continues:active{color:#233a58;}
+	 a.continues:hover{color:#233a58;text-decoration:none;}
+
+	.posted{
+		font-size:11px;
+		text-align:right;
+		padding-top:5px;
+		background:url(http://parts.blog.livedoor.jp/img/usr/liquid_smoke/line.gif) repeat-x 50% 0%;
+	}
+
+	.posted a:link{color:#233a58;}
+	.posted a:visited{color:#233a58;}
+	.posted a:active{color:#233a58;}
+	.posted a:hover{color:#233a58;text-decoration:none;}
+
+	.nextpage{
+		font-size:12px;
+		padding:5px;
+		text-align:right;
+	}
+	.nextpage a:link{color:#233a58;}
+	.nextpage a:visited{color:#233a58;}
+	.nextpage a:active{color:#233a58;}
+	.nextpage a:hover{color:#233a58;text-decoration:none;}
+
+	.blogbodybottom{}
+
+	.dateend,#articlebottom{
+		padding:3px 0px 4px;
+		background:url(http://parts.blog.livedoor.jp/img/usr/liquid_smoke/mainbtm.gif) no-repeat 50% 0%;
+		margin-bottom:25px;
+	}
+
+	.menu{
+		font-size:11px;
+		text-align:right;
+		margin-top:5px;
+		background:url(http://parts.blog.livedoor.jp/img/usr/liquid_smoke/line.gif) repeat-x 50% 100%;
+		padding-bottom:5px;
+		}
+
+	.menu a:link{color:#233a58;font-weight:bold;}
+	.menu a:visited{color:#233a58;font-weight:bold;}
+	.menu a:active{color:#233a58;font-weight:bold;}
+	.menu a:hover{color:#233a58;font-weight:bold;text-decoration:none;}
+
+	.comblogbodybottom{}
+	
+	.trackbackurltop,#trackbacktop,#commenttop,.formbodytop{}
+	.trackbackurlbody{
+		padding:10px 0px;
+		text-align:left;
+		width:100%;
+	}
+	.trackbackurlttl{
+		color:#231a5e;
+		font-size:12px;
+		font-weight:bold;
+	}
+
+	.trackbackurl{text-align:center;}
+	.trackbackurl table{width:335px;margin:10px auto 0;}
+	input.trackbackbox{width:260px;}
+
+	.trackbackurlbottom,#trackbackbottom,#commentbottom,.formbodybottom{}
+
+	a.posttitle:link{color:#233a58;}
+	a.posttitle:visited{color:#233a58;}
+	a.posttitle:active{color:#233a58;}
+	a.posttitle:hover{color:#233a58;text-decoration:none;}
+
+	#trackback,#comment,#takecomment{
+		padding:10px 0px;
+		text-align:left;
+		width:100%;
+	}
+
+	.trackbackhead,.commenthead,.takecommenthead{
+		color:#231a5e;
+		font-size:12px;
+		font-weight:bold;
+	}
+	#trackbackbody,#commentbody,#takecommentbody{
+		padding:10px 5px;
+	}
+	.trackbackttl,.commentttl{
+		font-size:12px;
+	}
+	.trackbacktext,.commenttext{
+		font-size:12px;
+		margin:3px 0 10px 10px;
+	}
+
+	.loginon{
+		color:#333;
+		font-size:12px;
+		margin:15px 0;
+	}
+	
+	.loginon a:link{color:#233a58;}
+	.loginon a:visited{color:#233a58;}
+	.loginon a:active{color:#233a58;}
+	.loginon a:hover{color:#233a58;}
+
+	.loginoff{
+		color:#333;
+		font-size:12px;
+		margin:15px 0;
+	}
+
+	.loginoff a:link{color:#233a58;}
+	.loginoff a:visited{color:#233a58;}
+	.loginoff a:active{color:#233a58;}
+	.loginoff a:hover{color:#233a58;}
+
+	#formbody{
+		text-align:left;
+	}
+
+	.form{
+		color:#333;
+		margin:0px auto;
+		font-size:12px;
+	}
+	
+	.form th{
+		font-weight:normal;
+		padding:2px;
+		text-align:right;
+	}
+	.form td{
+		padding:2px;
+	}
+
+	input#author{width:200px;}
+	input#email{width:200px;}
+	input#url{width:200px;}
+	input#bake{}
+	textarea#text{width:320px;height:200px;}
+	input.button{margin-top:20px;width:80px;}
+
+	.formbodybottom{}
+
+	.calendarhead{
+		color:#fff;
+		font-size:12px;
+		font-weight:bold;
+		text-align:center;
+		padding:9px 0 19px;
+		background:url(http://parts.blog.livedoor.jp/img/usr/liquid_smoke/sidettl.gif) no-repeat 50% 0%;
+	}
+	
+	.calendarhead a:link{color:#fff;}
+	.calendarhead a:visited{color:#fff;}
+	.calendarhead a:active{color:#fff;}
+	.calendarhead a:hover{color:#fff;text-decoration:none;}
+	
+	.calendarpre,.calendarnext{
+		font-size:11px;
+	}
+	
+	.caltop{}
+	.calbody{}
+	.caltbl{
+		width:170px;
+		margin:0 auto 30px;
+		border:solid #e3dac3;
+		border-width:1px 0px 0px 1px;
+	}
+
+	.caltblwkbg{}
+	.caltblwk{
+		color:#fff;
+		font-size:12px;
+	}
+	.caltblwk td{
+		padding:3px 0;
+		text-align:center;
+		background:#426fae;
+		border:solid #e3dac3;
+		border-width:0 1px 1px 0;
+	}
+
+	.weekday{}
+	.sun{}
+	.sat{}
+
+	.caltbldaybg{}
+
+	.caltblday{
+		font-size:11px;
+		color:#000;
+	}
+
+	.caltblday td{
+		text-align:center;
+		padding:3px 0px;
+		background:#fff;
+		border:solid #e3dac3;
+		border-width:0 1px 1px 0;
+	}
+	
+	.calon{}
+	.caloff{}
+
+	.caltblday a:link{color:#233a58;font-weight:bold;}
+	.caltblday a:visited{color:#233a58;font-weight:bold;}
+	.caltblday a:active{color:#233a58;font-weight:bold;}
+	.caltblday a:hover{color:#233a58;font-weight:bold;text-decoration:none;}
+
+	.calbottom{}
+
+	.sidetitle{
+		color:#fff;
+		font-size:12px;
+		font-weight:bold;
+		text-align:center;
+		padding:9px 0 19px;
+		background:url(http://parts.blog.livedoor.jp/img/usr/liquid_smoke/sidettl.gif) no-repeat 50% 0%;
+	}
+
+	.side{
+		font-size:12px;
+		text-align:left;
+		line-height:125%;
+		padding:0 5px;
+		margin-bottom:30px;
+	}
+	
+	.sidebody{
+		margin-bottom:5px;
+	}
+
+	.sidebody a:link{color:#233a58;}
+	.sidebody a:visited{color:#233a58;}
+	.sidebody a:active{color:#233a58;}
+	.sidebody a:hover{color:#233a58;text-decoration:none;}
+ 
+	.sidebottom{}
+
+	a.ttllink:link{color:#fff;text-decoration:underline;}
+	a.ttllink:visited{color:#fff;text-decoration:underline;}
+	a.ttllink:active{color:#fff;text-decoration:underline;}
+	a.ttllink:hover{color:#CCC;text-decoration:none;}
+
+	input.sf{width:100px;margin:5px 3px 5px 0;}
+	input.sfbtn{margin:5px 0;}
+	.moblogbody,.linkme,.skypeme{text-align:center;}
+	.afbody{text-align:center;padding-bottom:10px;}
+	
+	.afbody a:link{color:#d872ef;}
+	.afbody a:visited{color:#d872ef;}
+	.afbody a:active{color:#d872ef;}
+	.afbody a:hover{color:#d872ef;}
+	
+	.afbody img{margin-bottom:3px;}
+	.photo{text-align:center;}
+	.nickname{color:#233a58;font-size:12px;font-weight:bold;padding:10px 0;}
+	.message{font-size:12px;padding-bottom:10px;}
+	.blogtimes{margin:10px auto;text-align:center;width:180px;}
+
+	.elsehead{}
+	.elsebody{
+		text-align:center;
+	}
+	.elsebottom{}	
+	
+	#footer{}
+
+	#ad iframe{width:365px;margin-top:20px;}
+
+	a.adtitle:link{color:#233a58;font-weight:bold;text-decoration:underline;}
+	a.adtitle:visited{color:#233a58;font-weight:bold;text-decoration:underline;}
+	a.adtitle:active{color:#233a58;font-weight:bold;text-decoration:underline;}
+	a.adtitle:hover{color:#233a58;font-weight:bold;text-decoration:underline;}
+	
+	a.addescription:link{color:#333;text-decoration:none;}
+	a.addescription:visited{color:#333;text-decoration:none;}
+	a.addescription:active{color:#333;text-decoration:none;}
+	a.addescription:hover{color:#333;text-decoration:none;}
+	
+	a.adurl:link{color:#333;text-decoration:none;}
+	a.adurl:visited{color:#333;text-decoration:none;}
+	a.adurl:active{color:#333;text-decoration:none;}
+	a.adurl:hover{color:#333;text-decoration:none;}
+	
+	a.adld:link{color:#233a58;text-decoration:underline;}
+	a.adld:visited{color:#233a58;text-decoration:underline;}
+	a.adld:active{color:#233a58;text-decoration:underline;}
+	a.adld:hover{color:#233a58;text-decoration:underline;}
+
+	body.ad{background:#dbe9f3;}

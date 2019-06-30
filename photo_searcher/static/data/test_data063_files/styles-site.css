@@ -1,0 +1,465 @@
+
+body {
+	margin: 0px auto;
+	padding: 0px;
+	background-color: #DEE8D9;
+	text-align: center;
+}
+
+form, input, textarea {
+	margin: 0px;
+	padding: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+input,textarea { font-family: "Osaka"; }
+.f18p,.f16p,.f12p,.f11p,.f10p { font-family: "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", "Osaka", "ＭＳ Ｐゴシック"; }
+.f18p { font-size: 18px; line-height: 24px; }
+.f16p { font-size: 16px; line-height: 22px; }
+.f12p { font-size: 12px; line-height: 18px; }
+.f11p { font-size: 11px; line-height: 17px; }
+.f10p { font-size: 10px; line-height: 16px; }
+
+a img { border: 0px; }
+
+a:link {
+	color: #3366cc;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #3366cc;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff9900;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #3366cc;
+	text-decoration: underline;
+}
+
+div#w_body {
+	margin: 0px auto;
+	padding: 0px;
+	width: 828px;
+	background: url(http://w816.jp/blog/images/bg.gif) repeat-y top left;
+}
+
+div#w_header {
+	margin: 0px;
+	padding: 0px;
+	width: 828px;
+	height: 63px;
+	background: url(http://w816.jp/blog/images/header_bg.gif) no-repeat top left;
+	position: relative;
+}
+
+div#w_header div#w_title h1,
+div#w_header ul,
+div#w_header ul li {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#w_header div#w_title h1 a,
+div#w_header ul li#w_menu1_1 a,
+div#w_header ul li#w_menu1_2 a,
+div#w_header ul li#w_menu1_3 a,
+div#w_header ul li#w_menu2_1 a,
+div#w_header ul li#w_menu2_2 a,
+div#w_header ul li#w_menu2_3 a,
+div#w_header ul li#w_menu2_4 a,
+div#w_header ul li#w_menu2_5 a,
+div#w_header ul li#w_menu2_6 a,
+div#w_header ul li#w_menu2_7 a {
+	display: block;
+	text-indent: -2000em;
+	position: absolute;
+	overflow: hidden;
+}
+
+div#w_header ul li#w_menu1_1 a:link,
+div#w_header ul li#w_menu1_1 a:active,
+div#w_header ul li#w_menu1_1 a:visited,
+div#w_header ul li#w_menu1_2 a:link,
+div#w_header ul li#w_menu1_2 a:active,
+div#w_header ul li#w_menu1_2 a:visited,
+div#w_header ul li#w_menu1_3 a:link,
+div#w_header ul li#w_menu1_3 a:active,
+div#w_header ul li#w_menu1_3 a:visited,
+div#w_header ul li#w_menu2_1 a:link,
+div#w_header ul li#w_menu2_1 a:active,
+div#w_header ul li#w_menu2_1 a:visited,
+div#w_header ul li#w_menu2_2 a:link,
+div#w_header ul li#w_menu2_2 a:active,
+div#w_header ul li#w_menu2_2 a:visited,
+div#w_header ul li#w_menu2_3 a:link,
+div#w_header ul li#w_menu2_3 a:active,
+div#w_header ul li#w_menu2_3 a:visited,
+div#w_header ul li#w_menu2_4 a:link,
+div#w_header ul li#w_menu2_4 a:active,
+div#w_header ul li#w_menu2_4 a:visited,
+div#w_header ul li#w_menu2_5 a:link,
+div#w_header ul li#w_menu2_5 a:active,
+div#w_header ul li#w_menu2_5 a:visited,
+div#w_header ul li#w_menu2_6 a:link,
+div#w_header ul li#w_menu2_6 a:active,
+div#w_header ul li#w_menu2_6 a:visited,
+div#w_header ul li#w_menu2_7 a:link,
+div#w_header ul li#w_menu2_7 a:active,
+div#w_header ul li#w_menu2_7 a:visited {
+	background: url(http://w816.jp/blog/images/spacer.gif) no-repeat;
+}
+
+div#w_header div#w_title h1 a {
+	top: 5px;
+	left: 9px;
+	width: 315px;
+	height: 25px;
+}
+
+div#w_header ul li#w_menu1_1 a {
+	top: 6px;
+	left: 562px;
+	width: 80px;
+	height: 20px;
+}
+div#w_header ul li#w_menu1_1 a:hover {
+	background: url(http://w816.jp/blog/images/bt_s01over.gif) no-repeat;
+}
+div#w_header ul li#w_menu1_2 a {
+	top: 6px;
+	left: 647px;
+	width: 87px;
+	height: 20px;
+}
+div#w_header ul li#w_menu1_2 a:hover {
+	background: url(http://w816.jp/blog/images/bt_s02over.gif) no-repeat;
+}
+div#w_header ul li#w_menu1_3 a {
+	top: 6px;
+	left: 739px;
+	width: 78px;
+	height: 20px;
+}
+div#w_header ul li#w_menu1_3 a:hover {
+	background: url(http://w816.jp/blog/images/bt_s03over.gif) no-repeat;
+}
+
+div#w_header ul li#w_menu2_1 a {
+	top: 40px;
+	left: 12px;
+	width: 64px;
+	height: 15px;
+}
+div#w_header ul li#w_menu2_1 a:hover {
+	background: url(http://w816.jp/blog/images/bt_01over.gif) no-repeat;
+}
+div#w_header ul li#w_menu2_2 a {
+	top: 40px;
+	left: 106px;
+	width: 144px;
+	height: 15px;
+}
+div#w_header ul li#w_menu2_2 a:hover {
+	background: url(http://w816.jp/blog/images/bt_02over.gif) no-repeat;
+}
+div#w_header ul li#w_menu2_3 a {
+	top: 40px;
+	left: 280px;
+	width: 85px;
+	height: 15px;
+}
+div#w_header ul li#w_menu2_3 a:hover {
+	background: url(http://w816.jp/blog/images/bt_03over.gif) no-repeat;
+}
+div#w_header ul li#w_menu2_4 a {
+	top: 40px;
+	left: 395px;
+	width: 97px;
+	height: 15px;
+}
+div#w_header ul li#w_menu2_4 a:hover {
+	background: url(http://w816.jp/blog/images/bt_04over.gif) no-repeat;
+}
+div#w_header ul li#w_menu2_5 a {
+	top: 40px;
+	left: 522px;
+	width: 75px;
+	height: 15px;
+}
+div#w_header ul li#w_menu2_5 a:hover {
+	background: url(http://w816.jp/blog/images/bt_05over.gif) no-repeat;
+}
+div#w_header ul li#w_menu2_6 a {
+	top: 40px;
+	left: 627px;
+	width: 95px;
+	height: 15px;
+}
+div#w_header ul li#w_menu2_6 a:hover {
+	background: url(http://w816.jp/blog/images/bt_06over.gif) no-repeat;
+}
+div#w_header ul li#w_menu2_7 a {
+	top: 40px;
+	left: 752px;
+	width: 64px;
+	height: 15px;
+}
+div#w_header ul li#w_menu2_7 a:hover {
+	background: url(http://w816.jp/blog/images/bt_07over.gif) no-repeat;
+}
+
+div#w_content {
+	width: 820px;
+	margin: 0px 4px;
+	padding: 0px;
+	text-align: left;
+}
+
+div#w_content div#w_menu {
+	float: left;
+	width: 180px;
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+}
+
+div#w_content div#w_main {
+	width: 600px;
+	margin: 0px 0px 30px 200px;
+	padding: 20px 0px 0px 0px;
+}
+
+div#w_content div#w_menu h2 {
+	width: 180px;
+	height: 85px;
+	margin: 0px;
+	padding: 0px;
+	text-indent: -2000em;
+	overflow: hidden;
+}
+
+div#w_content div#w_menu h2 {
+	background: url(http://w816.jp/blog/images/title.gif) no-repeat top left;
+}
+
+div#w_content div#w_main div#w_entries {
+	width: 600px;
+}
+
+div#w_entries p#w_entry_nav {
+	display: block;
+	margin: 0px 20px 20px 20px;
+	padding: 0px;
+	text-align: center;
+}
+
+div.w_entry h2.w_entry_date {
+	margin: 0px 0px 15px 0px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+
+div.w_entry h3.w_entry_title {
+	text-shadow: 2px 2px #e0e0e0;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 10px;
+	border-left: 5px solid #dae0e6;
+	color: #666;
+}
+
+div.w_entry img {
+	margin: 2px;
+	padding: 0px;
+}
+
+div.w_entry p,
+div.w_trackback {
+	margin: 0px 0px 10px 10px;
+	padding: 0px;
+}
+
+div.w_entry p {
+	clear: both;
+}
+
+div.w_entry_footer {
+	/*clear: both;*/
+	margin-bottom: 20px;
+}
+
+div.w_trackback_footer {
+	margin-bottom: 10px;
+}
+
+div.w_entry_footer,
+div.w_trackback_footer {
+	padding-top: 5px;
+	border-top: 1px solid #dae0e6;
+	color: #666;
+	text-align: right;
+}
+
+div#w_menu a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+div#w_menu a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+div#w_menu a:hover {
+	color: #ff9900;
+	text-decoration: underline;
+}
+
+div#w_menu a:active {
+	color: #000000;
+	text-decoration: underline;
+}
+
+div#w_menu div#w_entry_list {
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+}
+
+div#w_menu div#w_entry_list_a {
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+}
+
+div#w_menu div#w_archive_list {
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+
+div#w_menu div#w_entry_list h3,
+div#w_menu div#w_entry_list_a h3,
+div#w_menu div#w_archive_list h3 {
+	display: block;
+	text-indent: -2000em;
+	margin: 0px;
+	padding: 0px;
+	width: 180px;
+	height: 36px;
+}
+
+div#w_menu div#w_entry_list h3 {
+	background: url(http://w816.jp/blog/images/w_entry_list.gif) no-repeat top left;
+}
+
+div#w_menu div#w_entry_list_a h3 {
+	background: url(http://w816.jp/blog/images/w_entry_list2.gif) no-repeat top left;
+}
+
+div#w_menu div#w_archive_list h3 {
+	background: url(http://w816.jp/blog/images/w_archive_list.gif) no-repeat top left;
+}
+
+div#w_menu div#w_entry_list ul,
+div#w_menu div#w_entry_list_a ul,
+div#w_menu div#w_archive_list ul {
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+}
+
+div#w_menu #w_entry_list ul li,
+div#w_menu #w_entry_list_a ul li,
+div#w_menu #w_archive_list ul li {
+	margin: 0px;
+	padding: 0px 5px 0px 30px;
+	list-style: none;
+	background: url(http://w816.jp/blog/images/p.gif) no-repeat 14px 4px;
+}
+
+div#w_trackbacks h3 {
+	text-shadow: 2px 2px #e0e0e0;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 10px;
+	border-left: 5px solid #dae0e6;
+	color: #666;
+}
+
+div#w_menu div#w_rss_feed {
+	width: 180px;
+	text-align: center;
+}
+
+div#w_body div#w_footer {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	width: 828px;
+	height: 53px;
+	background: url(http://w816.jp/blog/images/footer_bg.gif) no-repeat top left;
+	position: relative;
+}
+
+div#w_footer ul,
+div#w_footer ul li {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#w_footer ul li#w_menu3_1 a,
+div#w_footer ul li#w_menu3_2 a,
+div#w_footer ul li#w_menu3_3 a {
+	display: block;
+	text-indent: -2000em;
+	position: absolute;
+	overflow: hidden;
+}
+
+div#w_footer ul li#w_menu3_1 a:link,
+div#w_footer ul li#w_menu3_1 a:active,
+div#w_footer ul li#w_menu3_1 a:visited,
+div#w_footer ul li#w_menu3_2 a:link,
+div#w_footer ul li#w_menu3_2 a:active,
+div#w_footer ul li#w_menu3_2 a:visited,
+div#w_footer ul li#w_menu3_3 a:link,
+div#w_footer ul li#w_menu3_3 a:active,
+div#w_footer ul li#w_menu3_3 a:visited {
+	background: url(http://w816.jp/blog/images/spacer.gif) no-repeat;
+}
+
+div#w_footer address {
+	display: none;
+}
+
+div#w_footer ul li#w_menu3_1 a {
+	top: 21px;
+	left: 388px;
+	width: 127px;
+	height: 12px;
+}
+div#w_footer ul li#w_menu3_1 a:hover {
+	background: url(http://w816.jp/blog/images/bt_privacy01over.gif) no-repeat;
+}
+div#w_footer ul li#w_menu3_2 a {
+	top: 21px;
+	left: 525px;
+	width: 97px;
+	height: 12px;
+}
+div#w_footer ul li#w_menu3_2 a:hover {
+	background: url(http://w816.jp/blog/images/bt_privacy02over.gif) no-repeat;
+}
+div#w_footer ul li#w_menu3_3 a {
+	top: 21px;
+	left: 632px;
+	width: 182px;
+	height: 12px;
+}
+div#w_footer ul li#w_menu3_3 a:hover {
+	background: url(http://w816.jp/blog/images/bt_privacy03over.gif) no-repeat;
+}

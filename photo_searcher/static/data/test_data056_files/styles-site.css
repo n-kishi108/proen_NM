@@ -1,0 +1,872 @@
+@charset "UTF-8";
+
+/* ----- すべての要素 ----- */
+
+*
+{
+	margin:0;
+	padding:0;
+	font-family:Verdana, Arial, sans-serif;
+	font-size:100%;
+	line-height:100%;
+}
+
+
+/* ----- float解除 ----- */
+
+div.clear
+{
+	clear:both;;
+}
+
+div.clear hr
+{
+	display:none;
+}
+
+
+/* ----- リンク ----- */
+
+a
+{
+	color:#0099cc;
+	background:#ffffff;
+	text-decoration:none;
+}
+
+a:hover
+{
+	color:#006699;
+	background:#ffffff;
+	text-decoration:underline;
+}
+
+
+/* ----- body ----- */
+
+body
+{
+	color:#666666;
+	background:#ebebeb url(images/body_bg.gif) repeat-y 50% 0;
+	text-align:center;
+}
+
+
+/* ----- ブログ全体 ----- */
+
+div#main-container
+{
+	width:730px;
+	color:#666666;
+	background:#ffffff;
+	margin:0 auto;
+	text-align:left;
+}
+
+
+/* ----- ヘッダー部分 ----- */
+
+div#header
+{
+	color:#ffffff;
+	background:#ffffff url(images/header_bg.gif) repeat-x 0 100%;
+	padding:10px 10px 30px 10px;
+	margin:0 0 5px 0;
+}
+
+div#header h1.blog-name
+{
+	width:275px;
+	height:20px;
+}
+
+div#header h1.blog-name a
+{
+	display:block;
+	width:275px;
+	height:20px;
+	font-size:0;
+	font-weight:normal;
+	text-decoration:none;
+	text-indent:-9999px;
+	background:url(images/logo.gif) no-repeat 0 0;
+}
+
+div#banner
+{
+	width:525px;
+	height:160px;
+	background:url(images/banner_bg.jpg) no-repeat 0 0;
+	margin:0 0 5px 0;
+}
+
+div#banner h2.blog-description
+{
+	display:none;
+}
+
+
+/* ----- コンテンツ全体 ----- */
+
+div#container
+{
+	width:525px;
+	float:right;
+}
+
+
+/* ----- エントリー全体 ----- */
+
+div.content
+{
+	padding:10px;
+}
+
+/* ----- アーカイブナビゲーション ----- */
+
+div.content p.navi-link
+{
+	font-size:80%;
+	margin:0 0 10px 0;
+}
+
+
+/* ----- アーカイブタイトル ----- */
+
+div.content h2#archive-title
+{
+	margin:0 0 20px 0;
+}
+
+
+/* ----- 新着情報 ----- */
+
+div.top-news
+{
+	padding:10px;
+}
+
+div.top-news h3
+{
+	height:20px;
+	font-size:0;
+	font-weight:normal;
+	text-decoration:none;
+	text-indent:-9999px;
+	background:url(images/news_tit.gif) no-repeat 0 0;
+	border-bottom:1px solid #cccccc;
+	margin:0 0 10px 0;
+}
+
+div.top-news ol li
+{
+	margin:0 0 10px 0;
+	list-style:none;
+	font-size:80%;
+	line-height:150%;
+	background:url(images/news_icon.gif) no-repeat 0 5px;
+	padding:0 0 0 12px;
+}
+
+/* ----- エントリー日付 ----- */
+
+div.content p.entry-date
+{
+	font-size:80%;
+	color:#ffffff;
+	background:#cccccc;
+	line-height:100%;
+	padding:3px;
+	margin:0 0 15px 0;
+}
+
+
+/* ----- エントリータイトル ----- */
+
+div.entry-content h2.entry-title
+{
+	color:#333333;
+	background:#ffffff;
+	line-height:100%;
+	border-bottom:1px solid #cccccc;
+	padding:0 0 3px 0;
+	margin:0 0 10px 0;
+}
+
+div.entry-content h2.entry-title a
+{
+	color:#333333;
+	background:#ffffff;
+	text-decoration:none;
+}
+
+div.entry-content h2.entry-title a:hover
+{
+	text-decoration:underline;
+}
+
+
+/* ----- エントリー ----- */
+
+div.entry
+{
+	margin:0 0 30px 0;
+}
+
+div.entry-content p
+{
+	font-size:80%;
+	line-height:150%;
+	margin:0 0 10px 0;
+}
+
+div.entry-content blockquote
+{
+	font-size:80%;
+	line-height:150%;
+	padding:10px;
+	border:dotted 1px #cccccc;
+	margin:20px 0;
+}
+
+div.entry-body ul,
+div.entry-body ol
+{
+	padding:0 0 0 20px;
+	margin:0 0 10px 0;
+}
+
+div.entry-body ul li,
+div.entry-body ol li
+{
+	font-size:80%;
+	margin:0 0 3px 0;
+}
+
+
+/* ----- タグ ----- */
+
+div.entry-tags
+{
+	margin:0 0 20px 0;
+}
+
+div.entry-tags h3.entry-tags-header
+{
+	font-size:80%;
+	font-weight:normal;
+	color:#ffffff;
+	background:#aaaaaa;
+	padding:3px;
+	margin:0 0 5px 0;
+}
+
+div.entry-tags ul
+{
+	list-style:none;
+}
+
+div.entry-tags ul li
+{
+	display:inline;
+	font-size:80%;
+	margin:0 10px 0 0;
+}
+
+
+/* ----- エントリー情報 ----- */
+
+div.entry ul.entry-info,
+div.search-results-container ul.entry-info
+{
+	list-style:none;
+	border-top:1px solid #cccccc;
+	padding:3px 0 0 0;
+	margin:0 0 20px 0;
+	line-height:130%;
+}
+
+div.entry ul.entry-info li,
+div.search-results-container ul.entry-info li
+{
+	display:inline;
+	font-size:80%;
+	margin:0 10px 0 0;
+}
+
+
+/* ----- サイドバー ----- */
+
+div#sidebar-left
+{
+	width:200px;
+	float:left;
+	clear:left;
+}
+
+div#sidebar-right
+{
+	width:200px;
+	float: right;
+	clear: right;
+}
+
+div.sidebar-inner
+{
+	padding:0;
+}
+
+
+/* ----- サイドバータイトル ----- */
+
+div.category-archives h3
+{
+	height:42px;
+	font-size:0;
+	font-weight:normal;
+	text-decoration:none;
+	text-indent:-9999px;
+	background:url(images/category_tit.gif) no-repeat 0 0;
+	margin:0 0 1px 0;
+}
+
+
+div.sidebar-inner h3 a
+{
+	color:#0099cc;
+	background:#efefef;
+}
+
+div.search-form h3
+{
+	height:42px;
+	font-size:0;
+	font-weight:normal;
+	text-decoration:none;
+	text-indent:-9999px;
+	background:url(images/search_tit.gif) no-repeat 0 0;
+	margin:0 0 1px 0;
+}
+
+/* ----- サイト内検索 ----- */
+
+div.search-form
+{
+	margin:0 0 20px 0;
+}
+
+div.search-form form
+{
+	background:url(images/search_bg.gif) repeat-x 0 0;
+	padding:10px;
+}
+
+div.search-form fieldset
+{
+	border:none;
+}
+
+div.search-form legend
+{
+	font-size:70%;
+	color:#666666;
+	background:inherit;
+	margin:0 0 5px 0;
+}
+
+div.search-form input.search-input
+{
+	width:160px;
+	font-size:80%;
+	margin:0 0 5px 0;
+}
+
+
+/* ----- カテゴリー一覧 ----- */
+
+div.category-archives
+{
+	margin:0 0 20px 0;
+}
+
+div.category-archives ul
+{
+	list-style:none;
+	margin:0;
+	line-height:100%;
+}
+
+div.category-archives ul li
+{
+	display:inline;
+	line-height:100%;
+	margin:0;
+	padding:0;
+}
+
+div.category-archives ul li a
+{
+	display:block;
+	padding:10px 10px 10px 15px;
+	background:#476F92;
+	color:#ffffff;
+	border-bottom:1px solid #cad5e0;
+	margin:0;
+}
+
+div.category-archives ul li a:hover
+{
+	display:block;
+	padding:10px 10px 10px 15px;
+	background:#cad5e0 url(images/category_a.gif) no-repeat 0 50%;
+	text-decoration:none;
+	color:#ffffff;
+	line-height:100%;
+	border-bottom:1px solid #cad5e0;
+	margin:0;
+}
+
+/* -- 追加(サブカテゴリー) -- */
+div.category-archives-list
+{
+	font-size:80%;
+}
+
+div.category-archives ul li ul li a
+{
+	display:block;
+	padding:5px 5px 5px 30px;
+	color:#476F92;
+	background:#ffffff url(images/subcat_icon.gif) no-repeat 14px 4px;
+	border-bottom:1px solid #cad5e0;
+	margin:0;
+}
+
+div.category-archives ul li ul li a:hover
+{
+	display:block;
+	padding:5px 5px 5px 30px;
+	color:#006699;
+	background:#ffffff url(images/subcat_icon.gif) no-repeat 14px 4px;
+	line-height:100%;
+	border-bottom:1px solid #cad5e0;
+	margin:0;
+}
+
+/* ----- 新着記事一覧 ----- */
+
+div.recent-entry
+{
+	margin:0 0 20px 0;
+}
+
+div.recent-entry ol
+{
+	list-style:none;
+}
+
+div.recent-entry ol li
+{
+	font-size:80%;
+	margin:0 0 5px 0;
+}
+
+
+/* ----- バックナンバー一覧 ----- */
+
+div.monthly-archives
+{
+	margin:0 0 20px 0;
+}
+
+div.monthly-archives ol
+{
+	list-style:none;
+}
+
+div.monthly-archives ol li
+{
+	font-size:80%;
+	margin:0 0 5px 0;
+}
+
+
+/* ----- 外部リンク ----- */
+
+div.site-link
+{
+	margin:0 0 20px 0;
+}
+
+div.site-link ul
+{
+	list-style:none;
+}
+
+div.site-link ul li
+{
+	font-size:80%;
+	margin:0 0 5px 0;
+}
+
+
+/* ----- クリエイティブ・コモンズ・ライセンス ----- */
+
+div.cclicense
+{
+	margin:0 0 20px 0;
+	font-size:60%;
+	line-height:130%;
+	text-align:center;
+}
+
+div.cclicense img
+{
+	margin:0 auto 5px auto;
+}
+
+
+/* ----- RSSリンク ----- */
+
+div.syndicate
+{
+	margin:0 0 20px 0;
+}
+
+div.syndicate ul
+{
+	list-style:none;
+}
+
+div.syndicate ul li a
+{
+	display:block;
+	height:38px;
+	font-size:0;
+	font-weight:normal;
+	text-decoration:none;
+	text-indent:-9999px;
+	background:url(images/rss.gif) no-repeat 0 0;
+}
+
+div.syndicate ul li a:hover
+{
+	background:url(images/rss.gif) no-repeat 0 -38px;
+}
+
+/* ----- powered ----- */
+
+div.powered
+{
+	margin:0 0 20px 0;
+}
+
+div.powered ul
+{
+	list-style:none;
+}
+
+div.powered ul li
+{
+	font-size:60%;
+	line-height:130%;
+}
+
+
+/* ----- トラックバック ----- */
+
+div.trackbacks-body
+{
+	margin:0 0 20px 0;
+}
+
+div.trackbacks-body h3
+{
+	font-size:80%;
+	font-weight:normal;
+	color:#333333;
+	background:#aaaaaa url(images/tit_bg.gif) 0 0;
+	padding:5px 5px 5px 25px;
+	border:1px solid #aaaaaa;
+	margin:0 0 10px 0;
+}
+
+div.trackbacks-body dt
+{
+	font-size:80%;
+	font-weight:bold;
+	margin:0 0 5px 0;
+}
+
+div.trackbacks-body p
+{
+	font-size:80%;
+	margin:0 0 10px 0;
+}
+
+div.trackbacks-body ul
+{
+	list-style:none;
+	border-top:1px solid #cccccc;
+	padding:3px 0 0 0;
+	margin:0 0 20px 0;
+}
+
+div.trackbacks-body ul li
+{
+	display:inline;
+	font-size:80%;
+	margin:0 10px 0 0;
+}
+
+div.trackbacks-body input
+{
+	width:250px;
+}
+
+
+/* ----- コメント ----- */
+
+div.comments
+{
+	margin:0 0 20px 0;
+}
+
+div.comments h3
+{
+	font-size:80%;
+	font-weight:normal;
+	color:#333333;
+	background:#aaaaaa url(images/tit_bg.gif) 0 0;
+	padding:5px 5px 5px 25px;
+	border:1px solid #aaaaaa;
+	margin:0 0 10px 0;
+}
+
+div.comments p
+{
+	font-size:80%;
+	line-height:130%;
+	margin:0 0 10px 0;
+}
+
+div.comments ul
+{
+	list-style:none;
+	border-top:1px solid #cccccc;
+	padding:3px 0 0 0;
+	margin:0 0 20px 0;
+}
+
+div.comments ul li
+{
+	display:inline;
+	font-size:80%;
+	margin:0 10px 0 0;
+}
+
+div.comments a img
+{
+	border:none;
+}
+
+/* ----- コメントフォーム ----- */
+
+div.typekey-text
+{
+	font-size:80%;
+	line-height:140%;
+	margin:0 0 10px 0;
+}
+
+div.comments-post
+{
+	margin:0 0 20px 0;
+}
+
+div.comments-post h4
+{
+	font-size:80%;
+	font-weight:normal;
+	background:#cccccc;
+	color:#ffffff;
+	padding:3px;
+	margin:0 0 5px 0;
+}
+
+div.comments-post-content p.comments-open-moderated
+{
+	font-size:80%;
+	line-height:150%;
+	margin:0 0 10px 0;
+}
+
+div#comments-open-data fieldset
+{
+	border:none;
+}
+
+div#comments-open-data legend
+{
+	font-size:70%;
+	color:#666666;
+	background:#ffffff;
+	margin:0 0 5px 0;
+}
+
+dl#name-email dt,
+dl#comments-url-data dt
+{
+	font-size:80%;
+}
+
+dl#name-email dd,
+dl#comments-url-data dd
+{
+	font-size:80%;
+	margin:0 0 5px 0;
+}
+
+div#comments-open-data ul.cookie
+{
+	list-style:none;
+	margin:0 0 5px 0;
+}
+
+div#comments-open-data ul.cookie li
+{
+	font-size:80%;
+}
+
+dl#comments-open-text dt
+{
+	font-size:80%;
+}
+
+dl#comments-open-text dd textarea
+{
+	font-size:80%;
+	margin:0 0 10px 0;
+}
+
+div#comments-open-data ul.comments-open-footer
+{
+	list-style:none;
+}
+
+div#comments-open-data ul.comments-open-footer li
+{
+	display:inline;
+	font-size:80%;
+}
+
+div#comments-open-data ul.comments-open-footer li input
+{
+	width:80px;
+}
+
+
+/* ----- システムテンプレート ----- */
+
+body.one-column div#container
+{
+	width:auto;
+	margin:0 40px;
+	float:none;
+}
+
+
+/* ----- 検索テンプレート ----- */
+
+div.module-content
+{
+	margin:0 0 20px 0;
+}
+
+div.module-content p
+{
+	font-size:80%;
+	line-height:130%;
+	margin:0 0 5px 0;
+}
+
+div.module-content ul
+{
+	margin:0 0 0 20px;
+}
+
+div.module-content ul li
+{
+	font-size:80%;
+	margin:0 0 5px 0;
+}
+
+div.entry-content h2.search-result-tit
+{
+	font-size:80%;
+	font-weight:normal;
+	background:#666666;
+	color:#ffffff;
+	padding:3px;
+	margin:0 0 15px 0;
+}
+
+div.straight-search
+{
+	margin:0 0 20px 0;
+}
+
+div.straight-search fieldset
+{
+	border:none;
+}
+
+div.straight-search legend
+{
+	font-size:70%;
+	color:#666666;
+	background:#ffffff;
+	margin:0 0 5px 0;
+}
+
+div.straight-search ul
+{
+	list-style:none;
+	margin:0 0 5px 0;
+}
+
+div.straight-search ul li
+{
+	display:inline;
+}
+
+div.straight-search ul li label
+{
+	font-size:80%;
+}
+
+div.straight-search ul li input.search-input
+{
+	width:160px;
+	font-size:80%;
+	margin:0 0 5px 0;
+}
+
+div.straight-search ul li input.search-submit
+{
+	width:80px;
+	font-size:60%;
+	margin:0 0 10px 0;
+}
+
+
+/* ----- フッター（追加） ----- */
+
+div.footer
+{
+	background:#ffffff url(images/footer_bg.gif) repeat-x 0 0;
+	padding:10px 0;
+	text-align:center;
+	font-size:70%;
+	color:#999999;
+}

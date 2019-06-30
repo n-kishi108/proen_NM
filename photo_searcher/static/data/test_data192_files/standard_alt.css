@@ -1,0 +1,1205 @@
+/* DEFAULT
+*******************************/
+
+body {
+background:#222 url(/i/shared/gs5/themes/standard_alt/bg.gif) repeat-y center;
+scrollbar-arrow-color:#CEF;
+scrollbar-3dlight-color:#585E66;
+scrollbar-highlight-color:#DDD;
+scrollbar-face-color:#AAA;
+scrollbar-shadow-color:#777;
+scrollbar-track-color:#777F89;
+scrollbar-darkshadow-color:#444;
+}
+
+#main_col a,
+#popup_wrapper a{
+color:#c30;
+}
+
+#login a {
+color:#fc3;
+}
+
+.footnav1 a {
+color:#fc3;
+}
+
+#main_col .button1 a,
+#main_col .button2 a,
+#main_col .button_orange a,
+#main_col .button_download a,
+#main_col .button_stream a,
+#popup_wrapper .button1 a,
+#popup_wrapper .button2 a{
+color:#fff;
+}
+
+
+
+.form {
+color:#333;
+background:#fff;
+}
+
+
+
+/* CONTENT LINK COLORS
+*******************************/
+
+#pc .content a {
+color:#036;
+}
+
+#online .content a {
+color:#036;
+}
+
+#playstation .content a,
+#leftmost .content a {
+color:#006;
+}
+
+#xbox .content a,
+#rightmost .content a {
+color:#240;
+}
+
+#nintendo .content a {
+color:#471E7E;
+}
+
+#portable .content a {
+color:#044;
+}
+
+#arcade .content a {
+color:#666600;
+}
+
+.content h3{
+	color: #9F7A09;
+}
+
+/* PLATFORM LINK COLORS
+*******************************/
+
+.pc, #generic_comments .gen_comments_pages .pc {
+color:#9cf;
+}
+
+.online, #generic_comments .gen_comments_pages .online {
+color:#9cf;
+}
+
+.playstation, #generic_comments .gen_comments_pages .playstation, 
+.ps2, #generic_comments .gen_comments_pages .ps2,
+.ps3, #generic_comments .gen_comments_pages .ps3,
+.psp, #generic_comments .gen_comments_pages .psp {
+color:#a7a7ff;
+}
+
+.xbox, #generic_comments .gen_comments_pages .xbox,
+.xbox360, #generic_comments .gen_comments_pages .xbox360,
+.x360, #generic_comments .gen_comments_pages .x360 {
+color:#9c0;
+}
+
+.nintendo, #generic_comments .gen_comments_pages .nintendo,
+.gc, #generic_comments .gen_comments_pages .gc,
+.rev, #generic_comments .gen_comments_pages .rev,
+.ds, #generic_comments .gen_comments_pages .ds,
+.gba, #generic_comments .gen_comments_pages .gba {
+color:#c9f;
+}
+
+.portable, #generic_comments .gen_comments_pages .portable,
+.nge, #generic_comments .gen_comments_pages .nge,
+.giz, #generic_comments .gen_comments_pages .giz,
+.mobile, #generic_comments .gen_comments_pages .mobile {
+color:#3c9;
+}
+
+.arcade, #generic_comments .gen_comments_pages .arcade,
+.arc, #generic_comments .gen_comments_pages .arc,
+#generic_comments .gen_comments_pages .arcade {
+color:#ffffa6;
+}
+
+
+/* CONTENT
+*******************************/
+
+#content_wrap {
+color:#333;
+}
+
+#main_col .txt1 {
+color:#111;
+}
+
+#main_col .txt2,
+#mostpopular .txt2 {
+color:#666;
+}
+
+#main_col .lnk1 {
+color:#c30;
+}
+
+#main_col .lnk2 {
+color:#900;
+}
+
+#main_col .lnk3 {
+color:#300;
+}
+
+#main_col .pc {
+color:#06f;
+}
+
+#main_col .playstation,
+#main_col .ps2,
+#main_col .ps3,
+#main_col .psp {
+color:#66c;
+}
+
+#main_col .xbox,
+#main_col .xbox360,
+#main_col .x360 {
+color:#090;
+}
+
+#main_col .nintendo,
+#main_col .gc,
+#main_col .rev,
+#main_col .ds,
+#main_col .gba {
+color:#90f;
+}
+
+#main_col .portable,
+#main_col .nge,
+#main_col .giz,
+#main_col .mobile {
+color:#0cc;
+}
+
+#main_col .arcade,
+#main_col .arc {
+color:#cccc66;
+}
+
+
+/* 60/40 SPLIT - DEFAULT COLUMNS
+*******************************/
+
+/* 2 COLUMN BGS */
+
+#col_wrap {
+background:#fff url(/i/shared/gs5/themes/standard_alt/col_wrap_all.gif) repeat-y;
+}
+
+#pc #col_wrap {
+background:#fff url(/i/shared/gs5/themes/standard_alt/col_wrap_pc.gif) repeat-y;
+}
+
+#online #col_wrap {
+background:#fff url(/i/shared/gs5/themes/standard_alt/col_wrap_pc.gif) repeat-y;
+}
+
+#playstation #col_wrap,
+#leftmost #col_wrap {
+background:#fff url(/i/shared/gs5/themes/standard_alt/col_wrap_playstation.gif) repeat-y;
+}
+
+#xbox #col_wrap,
+#rightmost #col_wrap {
+background:#fff url(/i/shared/gs5/themes/standard_alt/col_wrap_xbox.gif) repeat-y;
+}
+
+#nintendo #col_wrap {
+background:#fff url(/i/shared/gs5/themes/standard_alt/col_wrap_nintendo.gif) repeat-y;
+}
+
+#portable #col_wrap {
+background:#fff url(/i/shared/gs5/themes/standard_alt/col_wrap_portable.gif) repeat-y;
+}
+
+#arcade #col_wrap {
+background:#fff url(/i/shared/gs5/themes/standard_alt/col_wrap_arcade.gif) repeat-y;
+}
+
+/* NO SUBNAV BGS */
+
+#shoulder,
+#pc #shoulder,
+#online #shoulder,
+#playstation #shoulder,
+#leftmost #shoulder,
+#rightmost #shoulder,
+#xbox #shoulder,
+#nintendo #shoulder,
+#portable #shoulder,
+#arcade #shoulder {
+background:#fff;
+}
+
+/* SIDE COLUMN ROUNDED TOP */
+
+#side_col_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/side_colwrap_all.gif) no-repeat;
+}
+
+#pc #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/side_colwrap_pc.gif) no-repeat;
+}
+
+#online #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/side_colwrap_pc.gif) no-repeat;
+}
+
+#playstation #side_col_wrap,
+#leftmost #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/side_colwrap_playstation.gif) no-repeat;
+}
+
+#xbox #side_col_wrap,
+#rightmost #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/side_colwrap_xbox.gif) no-repeat;
+}
+
+#nintendo #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/side_colwrap_nintendo.gif) no-repeat;
+}
+
+#portable #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/side_colwrap_portable.gif) no-repeat;
+}
+
+#arcade #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/side_colwrap_arcade.gif) no-repeat;
+}
+
+
+/* FULL WIDTH WITH SKY COLUMNS
+*******************************/
+
+/* 2 COLUMN BGS */
+
+#sky_col_wrap {
+background:#3F4A59 url(/i/shared/gs5/themes/standard_alt/skywrap_all.gif) repeat-y;
+}
+
+#pc #sky_col_wrap {
+background:#2B425E url(/i/shared/gs5/themes/standard_alt/skywrap_pc.gif) repeat-y;
+}
+
+#online #sky_col_wrap {
+background:#2B425E url(/i/shared/gs5/themes/standard_alt/skywrap_pc.gif) repeat-y;
+}
+
+#playstation #sky_col_wrap,
+#leftmost #sky_col_wrap {
+background:#2A2E4F url(/i/shared/gs5/themes/standard_alt/skywrap_playstation.gif) repeat-y;
+}
+
+#xbox #sky_col_wrap,
+#rightmost #sky_col_wrap {
+background:#37422D url(/i/shared/gs5/themes/standard_alt/skywrap_xbox.gif) repeat-y;
+}
+
+#nintendo #sky_col_wrap {
+background:#3B3747 url(/i/shared/gs5/themes/standard_alt/skywrap_nintendo.gif) repeat-y;
+}
+
+#portable #sky_col_wrap {
+background:#2C554C url(/i/shared/gs5/themes/standard_alt/skywrap_portable.gif) repeat-y;
+}
+
+#arcade #sky_col_wrap {
+background:#2C554C url(/i/shared/gs5/themes/standard_alt/skywrap_arcade.gif) repeat-y;
+}
+
+/* SIDE COLUMN ROUNDED TOP */
+
+#sky_col_wrap #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/side_skywrap_all.gif) no-repeat;
+}
+
+#pc #sky_col_wrap #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/side_skywrap_pc.gif) no-repeat;
+}
+
+#online #sky_col_wrap #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/side_skywrap_pc.gif) no-repeat;
+}
+
+#playstation #sky_col_wrap #side_col_wrap,
+#playstation #sky_col_wrap #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/side_skywrap_playstation.gif) no-repeat;
+}
+
+#xbox #sky_col_wrap #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/side_skywrap_xbox.gif) no-repeat;
+}
+
+#nintendo #sky_col_wrap #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/side_skywrap_nintendo.gif) no-repeat;
+}
+
+#portable #sky_col_wrap #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/side_skywrap_portable.gif) no-repeat;
+}
+
+#arcade #sky_col_wrap #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/side_skywrap_arcade.gif) no-repeat;
+}
+
+
+
+/* FULL WIDTH W/O SKY COLUMN
+*******************************/
+
+/* 2 COLUMN BGS */
+
+#full_col_wrap,
+#pc #full_col_wrap,
+#online #full_col_wrap,
+#playstation #full_col_wrap,
+#leftmost #full_col_wrap,
+#rightmost #full_col_wrap,
+#xbox #full_col_wrap,
+#nintendo #full_col_wrap,
+#portable #full_col_wrap,
+#arcade #full_col_wrap {
+background:#fff;
+}
+
+/* SUBNAV */
+
+
+
+
+
+
+
+/* MODULES & BOXES
+*******************************/
+
+/* MODULE HEADERS */
+
+#main_col .module_head h2 {
+background:#fff url(/i/shared/gs5/themes/standard/head_all.gif) no-repeat top left;
+}
+
+#pc #main_col .module_head h2 {
+background:#fff url(/i/shared/gs5/themes/standard/head_pc.gif) no-repeat top left;
+}
+
+#online #main_col .module_head h2 {
+background:#fff url(/i/shared/gs5/themes/standard/head_pc.gif) no-repeat top left;
+}
+
+#playstation #main_col .module_head h2,
+#leftmost #main_col .module_head h2 {
+background:#fff url(/i/shared/gs5/themes/standard/head_playstation.gif) no-repeat top left;
+}
+
+#xbox #main_col .module_head h2,
+#rightmost #main_col .module_head h2 {
+background:#fff url(/i/shared/gs5/themes/standard/head_xbox.gif) no-repeat top left;
+}
+
+#nintendo #main_col .module_head h2 {
+background:#fff url(/i/shared/gs5/themes/standard/head_nintendo.gif) no-repeat top left;
+}
+
+#portable #main_col .module_head h2 {
+background:#fff url(/i/shared/gs5/themes/standard/head_portable.gif) no-repeat top left;
+}
+
+#arcade #main_col .module_head h2 {
+background:#fff url(/i/shared/gs5/themes/standard/head_arcade.gif) no-repeat top left;
+}
+
+/* MAIN MODULES */
+#main_col .module a .on{color:#f60;}
+
+#main_col .module a.pc .on{color:#69c;}
+#main_col .module a.online .on{color:#69c;}
+#main_col .module a.playstation .on,
+#main_col .module a.ps2 .on,
+#main_col .module a.ps3 .on,
+#main_col .module a.psp .on{color:#66c;}
+
+#main_col .module a.xbox .on,
+#main_col .module a.xbox360 .on,
+#main_col .module a.x360 .on{color:#690;}
+
+#main_col .module a.nintendo .on,
+#main_col .module a.gc .on,
+#main_col .module a.rev .on,
+#main_col .module a.ds .on,
+#main_col .module a.gba .on{color:#96c;}
+
+#main_col .module a.portable .on,
+#main_col .module a.nge .on,
+#main_col .module a.giz .on,
+#main_col .module a.mobile .on{color:#096;}
+
+/* BOXES */
+
+.box,
+#pc .box,
+#online .box,
+#playstation .box,
+#leftmost .box,
+#rightmost .box,
+#xbox .box,
+#nintendo .box,
+#portable .box,
+#checkprices .box {
+background:#ddd;
+border:1px solid #999;
+}
+
+
+
+#main_col .b1s999 {
+border:1px solid #000;
+}
+
+
+
+/* MORE SPECIFIC DEFAULT CLASSES
+*******************************/
+
+#main_col .posted {
+color:#000;
+}
+
+#main_col .user,
+#main_col .img_box {
+background:#ddd;
+border:1px solid #999;
+}
+
+#main_col .username,
+#main_col .unionname {
+color:#c30;
+}
+
+#main_col .score {
+background:url(/i/shared/gs5/themes/standard_alt/score_70.gif) no-repeat;
+}
+
+#main_col #score {
+background:url(/i/shared/gs5/themes/standard_alt/score_90.gif) no-repeat;
+}
+
+#main_col #score .number {
+color:#c30;
+padding-top:5px;
+}
+
+#main_col #score .number .editorschoice_gold {
+color:#c30;
+}
+
+
+
+/* DEFAULT TABLE
+*******************************/
+
+#main_col .table th,
+#mostpopular .table th {
+background:#999;
+padding:4px 5px;
+}
+
+#main_col .table th a,
+#mostpopular .table th a {
+color:#fff;
+}
+
+#main_col .table td,
+#mostpopular .table td {
+color:#333;
+background:#eee;
+padding:4px 5px;
+}
+
+#main_col .alt,
+#mostpopular .alt {
+background:#ddd;
+}
+
+#main_col .table .alt td,
+#mostpopular .table .alt td {
+background:#ddd;
+}
+
+#filter .table td {
+border-right:1px solid #aaa;
+}
+
+
+
+/* TABS & SUBNAV/SUBTABS
+*******************************/
+
+/* TABS */
+
+#subnav li {
+color:#fff;
+}
+
+/* SUBNAV */
+
+#subnav_wrap,
+#pc #subnav_wrap,
+#online #subnav_wrap,
+#playstation #subnav_wrap,
+#leftmost #subnav_wrap,
+#rightmost #subnav_wrap,
+#xbox #subnav_wrap,
+#nintendo #subnav_wrap,
+#portable #subnav_wrap,
+#arcade #subnav_wrap {
+background:#fff;
+}
+
+
+
+/* STORY PAGES
+*******************************/
+
+/* EMBSCREEN */
+
+.embscreen,
+#pc .embscreen,
+#online .embscreen,
+#playstation .embscreen,
+#leftmost .embscreen,
+#rightmost .embscreen,
+#xbox .embscreen,
+#nintendo .embscreen,
+#portable .embscreen,
+#arcade .embscreen {
+background:#ddd;
+border:1px solid #999;
+}
+
+/* SEE IT */
+
+.seeit .embvideo,
+#pc .seeit .embvideo,
+#online .seeit .embvideo,
+#playstation .seeit .embvideo,
+#leftmost .seeit .embvideo,
+#rightmost .seeit .embvideo,
+#xbox .seeit .embvideo,
+#nintendo .seeit .embvideo,
+#portable .seeit .embvideo,
+#arcade .seeit .embvideo {
+background:#ddd;
+border:1px solid #999;
+}
+
+.seeit h5 {
+background:#999;
+}
+
+/* FLASH AUDIO */
+
+.flashaudio,
+#pc .flashaudio,
+#online .flashaudio,
+#playstation .flashaudio,
+#leftmost .flashaudio,
+#rightmost .flashaudio,
+#xbox .flashaudio,
+#nintendo .flashaudio,
+#portable .flashaudio,
+#arcade .flashaudio {
+background:#ddd;
+border:1px solid #999;
+}
+
+.icon_edchoice img {
+background:url(/i/shared/gs5/themes/standard_alt/icon_edchoice.gif) no-repeat;
+}
+
+.pagination .on {
+color:#000;
+}
+
+
+
+/* REVIEWS PAGE
+*******************************/
+
+#gsscore_module .module {
+background:url(/i/shared/gs5/themes/standard_alt/module_432.gif) no-repeat bottom;
+}
+
+#gsscore_module table td .bar {
+background:#fff;
+}
+
+#gsscore_module strong {
+color:#666;
+}
+
+#gsscore_module table td.num {
+color:#333;
+border-right:1px solid #999;
+}
+
+
+/* GUMBALLS
+*******************************/
+
+#gumballs_module .module {
+background:url(/i/shared/gs5/themes/standard_alt/module_432.gif) no-repeat bottom;
+}
+
+/* BROWSE
+*******************************/
+
+#col_wrap #browse_module .module {
+background:url(/i/shared/gs5/themes/standard_alt/module_432.gif) no-repeat bottom;
+}
+
+#sky_wrap #browse_module .module {
+background:url(/i/shared/gs5/themes/standard_alt/module_572.gif) no-repeat bottom;
+}
+
+#full_col_wrap #browse_module .module {
+background:url(/i/shared/gs5/themes/standard_alt/module_746.gif) no-repeat bottom;
+}
+
+
+/* GENERIC BUBBLE WRAP
+*******************************/
+
+#col_wrap .bubble_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/module_432_top.gif) no-repeat top;
+padding-top:6px;
+}
+
+#sky_col_wrap .bubble_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/module_572_top.gif) no-repeat top;
+padding-top:6px;
+}
+
+#full_col_wrap .bubble_wrap {
+background:url(/i/shared/gs5/themes/standard_alt/module_746_top.gif) no-repeat top;
+padding-top:6px;
+}
+
+#col_wrap .bubble {
+background:url(/i/shared/gs5/themes/standard_alt/module_432.gif) no-repeat bottom;
+}
+
+#sky_col_wrap .bubble {
+background:url(/i/shared/gs5/themes/standard_alt/module_572.gif) no-repeat bottom;
+}
+
+#full_col_wrap .bubble {
+background:url(/i/shared/gs5/themes/standard_alt/module_746.gif) no-repeat bottom;
+}
+
+
+
+/* MOST POPULAR
+*******************************/
+
+
+#mostpopular .num1 {
+background:url(/i/shared/gs5/themes/standard_alt/topten_num1.jpg) no-repeat;
+}
+
+
+
+#mostpopular a {
+color:#c30;
+}
+
+#mostpopular .lnk2 {
+color:#930;
+}
+
+#mostpopular .table td {
+color:#333;
+}
+
+
+
+#mostpopular .pc {
+color:#036;
+}
+
+#mostpopular .online {
+color:#036;
+}
+
+#mostpopular .playstation {
+color:#006;
+}
+
+#mostpopular .xbox {
+color:#240;
+}
+
+#mostpopular .nintendo {
+color:#471E7E;
+}
+
+#mostpopular .portable {
+color:#044;
+}
+
+#mostpopular .table td.rank,
+#mostpopular .table td.score_col {
+background:#ddd;
+}
+
+#mostpopular .table .alt td.rank,
+#mostpopular .table .alt td.score_col {
+background:#ccc;
+}
+
+#mostpopular .rankings {
+background:url(/i/shared/gs5/themes/standard_alt/module_432.gif) no-repeat bottom;
+}
+
+
+
+/* DOTS */
+
+
+#main_col .dots {
+background:url(/i/shared/gs5/themes/standard_alt/dot.gif) repeat-x bottom;
+}
+
+#main_col .dots_top {
+background:url(/i/shared/gs5/themes/standard_alt/dot.gif) repeat-x top;
+}
+
+
+
+/* NECK */
+
+#neck,
+#pc #neck,
+#online #neck,
+#playstation #neck,
+#leftmost #neck,
+#rightmost #neck,
+#xbox #neck,
+#nintendo #neck,
+#portable #neck,
+#arcade #neck {
+background:#fff;
+}
+
+
+/* LONG NECK */
+
+#longneck,
+#pc #longneck,
+#online #longneck,
+#playstation #longneck,
+#leftmost #longneck,
+#rightmost #longneck,
+#xbox #longneck,
+#nintendo #longneck,
+#portable #longneck,
+#arcade #longneck {
+background:#fff;
+}
+
+
+
+#filter #subnav_wrap,
+#search #subnav_wrap,
+#uservideos #subnav_wrap,
+#filter #pc #subnav_wrap,
+#filter #online #subnav_wrap,
+#filter #playstation #subnav_wrap,
+#filter #xbox #subnav_wrap,
+#filter #nintendo #subnav_wrap,
+#filter #portable #subnav_wrap,
+#filter #leftmost #subnav_wrap,
+#filter #rightmost #subnav_wrap {
+background:#fff;
+padding-top:0px;
+}
+
+
+
+#main_col h4 {
+color:#333;
+background:#ddd;
+}
+
+
+/* FORUMS FIXES
+*******************************/
+
+.separator {
+background:#999;
+}
+
+.forums_nav {
+color:#bbb;
+background:#999;
+border-right:1px solid #333;
+border-bottom:1px solid #333;
+border-left:1px solid #333;
+}
+
+.forums_nav strong {
+color:#ddd;
+}
+
+#main_col .forums_nav a {
+color:#fff;
+}
+
+#forums .table {
+color:#333;
+border-right:1px solid #666;
+border-left:1px solid #666;
+}
+
+
+#forums .table th {
+background:#999;
+border-right:1px solid #666;
+border-bottom:1px solid #666;
+border-left:1px solid #666;
+}
+
+#forums .table th.alt {
+color:#fff;
+background:#666;
+border-right:1px solid #666;
+border-bottom:1px solid #666;
+border-left:1px solid #666;
+}
+
+#forums .table td {
+border:1px solid #666;
+}
+
+#forums .table th#this {
+background:#aaa;
+}
+
+#main_col .table a.topic_link {
+color:#920;
+}
+
+#main_col .table a.topic_read_link {
+color:#700;
+}
+
+#main_col .table a.sticky_topic_link {
+color:#c30;
+}
+
+#main_col .table a.sticky_topic_read_link {
+color:#a00;
+}
+
+#show_messages .theader {
+color:#fff;
+background:#555;
+border:1px solid #666;
+}
+
+#show_messages .table .message_col .posted {
+color:#333;
+}
+
+#show_messages .table .message_col .box_dots {
+background:url(/i/shared/gs5/themes/standard_alt/dot.gif) repeat-x bottom;
+}
+
+#show_messages .table td.message_col .quote {
+color:#333;
+background:#ddd;
+}
+
+#show_messages .table .alt td.message_col .quote {
+color:#333;
+background:#eee;
+}
+
+
+
+/* TAGS
+***********************************/
+
+.storybtns {
+background:url(/i/shared/gs5/themes/standard_alt/t_tools_bg.gif) top left no-repeat;
+}
+
+.storybtns .right {
+background:url(/i/shared/gs5/themes/standard_alt/t_tools_bg.gif) top right no-repeat;
+}
+
+#main_col .storybtns a {
+color:#333;
+}
+
+.btn_print {
+background:url(/i/shared/gs5/themes/standard_alt/t2_icon_print.gif) no-repeat 3px 0px;
+}
+
+.btn_email {
+background:url(/i/shared/gs5/themes/standard_alt/t2_icon_email.gif) no-repeat 3px 0px;
+}
+
+.btn_discuss {
+background:url(/i/shared/gs5/themes/standard_alt/t2_icon_discuss.gif) no-repeat 3px 0px;
+}
+
+.btn_comment {
+background:url(/i/shared/gs5/themes/standard_alt/t2_icon_comment.gif) no-repeat 3px 0px;
+}
+
+.btn_tag {
+background:url(/i/shared/gs5/themes/standard_alt/t_icon_tag.gif) no-repeat 5px 2px;
+}
+
+.btn_tag2 {
+background:url(/i/shared/gs5/themes/standard_alt/t_icon_tag.gif) no-repeat 0px 0px;
+padding-left: 20px;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+.btn_review {
+background:url(/i/shared/gs5/themes/standard_alt/t2_icon_review.gif) no-repeat 0px 0px;
+}
+
+.btn_abuse {
+background:url(/i/shared/gs5/themes/standard_alt/t2_icon_abuse.gif) no-repeat 3px 0px;
+}
+
+.btn_add {
+background:url(/i/shared/gs5/themes/standard_alt/t2_icon_add.gif) no-repeat 6px 0px;
+}
+
+.btn_blog {
+background:url(/i/shared/gs5/themes/standard_alt/t_icon_blog.gif) no-repeat 3px 0px;
+}
+
+
+#tag-story, #tag-story-top, .tag-blog {
+background:url(/i/shared/gs5/themes/standard_alt/t_tagform_bg.gif) no-repeat;
+}
+
+#blogit {
+background:url(/i/shared/gs5/themes/standard_alt/t_blogform_bg.gif) no-repeat;
+}
+
+#tag-story, #tag-story-top, #blogit {
+color:#333;
+}
+
+
+.tag-blog {
+padding:10px;
+width:431px;
+margin:10px 0px;
+clear:left;
+color:#000;
+}
+
+.comments {
+background:url(/i/shared/gs5/themes/standard/t_comments_bg.gif) no-repeat;
+}
+
+
+/* NEW SEARCH
+**********************************/
+
+.iteminfo a {
+color:#c30;
+}
+
+#unisearchbox {
+background:url(/i/shared/gs5/themes/standard_alt/t_searchbox_bg.gif) repeat-x;
+color:#333;
+}
+
+#unisearchbox a {
+color:#993300;
+}
+
+#subnav2 {
+background:url(/i/shared/gs5/themes/standard_alt/t_subnav_bg.gif) repeat-x;
+color:#999;
+}
+
+#subnav2 a {
+color:#333333;
+}
+
+#subnav2 li.on {
+background:url(/i/shared/gs5/themes/standard_alt/t_subtab_on.gif) no-repeat right;
+}
+
+#subnav2 li.on a {
+background:url(/i/shared/gs5/themes/standard_alt/t_subtab_on.gif) no-repeat 0px 0px;
+color:#000;
+}
+
+.secondary {
+background:#F5F5F0;
+}
+
+#search #neck h1#tagcrumb a {
+color:#222;
+}
+
+#tagcloud {
+background:#FFFFFF;
+}
+
+#tagcloud a {
+color:#333;
+}
+
+#tagcloud .smallest, #tagcloud_all .smallest {
+color:#888;
+}
+
+#tagcloud .small, #tagcloud_all .small {
+color:#666;
+}
+
+#tagcloud .medium, #tagcloud_all .medium {
+color:#333;
+}
+
+#tagcloud .large, #tagcloud_all .large {
+color:#222;
+}
+
+#tagcloud .largest, #tagcloud_all .largest {
+color:#000;
+}
+
+#tagcloud_all
+
+#sthead a {
+color:#c30;
+}
+
+#sthead .posted {
+color:#777;
+}
+
+
+/* VIDEODROME
+**********************/
+
+.vitem .v3thumb {
+background:url('/i/shared/gs5/themes/standard_alt/v_3thumb_frame.gif') no-repeat;
+}
+
+.vitem .v3t_loading {
+background:url('/i/shared/gs5/themes/standard_alt/v_3thumb_loading.gif') no-repeat;
+color:#333;
+}
+
+.vitem .v3t_error {
+background:url('/i/shared/gs5/themes/standard_alt/v_3thumb_error.gif') no-repeat;
+color:#333;
+}
+
+.vitem .v3t_error a {
+color:#333;
+}
+
+
+.vviewinfo {
+background:#eaeaea;
+}
+
+
+/* FORUM POLL, ETC
+**********************/
+#forum_poll {background:#DDD;border-left:1px solid #666;border-right:1px solid #666;}
+#forum_poll h1 {color:#000;}
+#forum_poll td div div {background:#C30;}
+
+.spoiler {
+background-color:#f99;
+border:1px solid #c66;
+}
+
+#msgFriendsList
+{
+	float:left;
+	width:200px;
+	height:300px;
+	margin: 20px 0 0 20px;
+	background: #fff;
+	border: #000 1px solid;
+	overflow:auto;
+}
+
+/* jp unique
+**********************/
+.btn_trackback {
+background:url(/i/shared/gs5/themes/standard/t_icon_trackback.gif) no-repeat 5px 3px;
+}
+
+
+/* trackback page
+------------------------------------ */
+h2.title_trackback a {
+	color: #000 !important;
+	}
+
+.codeDiv
+{
+	border: #333 1px dashed;
+	padding: 5px;
+	overflow:auto;
+	white-space: pre-wrap;white-space: -moz-pre-wrap;white-space: -pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;
+}
+
+/* Photo Reports thumb
+------------------------------------ */
+.photor_thumb_wrap table td img.thumba{
+}
+
+.photor_thumb_wrap table td img.thumbb{
+	border: 2px solid rgb(249, 105, 9);
+}
+
+.photor_thumb_wrap table td img.thumbhovera{
+	border: 2px solid #999999;
+}
+
+.photor_thumb_wrap table td img.thumbhoverb{
+	border: 3px solid rgb(249, 105, 9);
+}
+/* slide show
+--------------------------------------------------*/
+.slideshow_menubottom{
+	color: #000;
+	}
+	.slideshow_menubottom a{
+		color: #c30;
+	}

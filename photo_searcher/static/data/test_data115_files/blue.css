@@ -1,0 +1,271 @@
+﻿@charset "utf-8"; 
+/* CSS Document */
+
+
+body {
+	background-color: #0000ee;
+	color:#ff3;
+	}
+
+*{
+	background-color: #0000ee !Important;
+	color:#ff3;
+	background-image:url(/images/spacer.gif) !Important;
+    border-color:#ff3  !Important;
+}
+
+span,li{
+	color:#ff3 !Important;
+}
+
+ul li, ol li{
+	color:#ff3;
+}
+
+div{
+	background-image:url(/images/spacer.gif) !Important;
+    border-color:#ff3  !Important;
+	color:#ff3 !Important;
+}
+
+
+H1,H2,h3,h4,h5,dd,dt,p,font{
+ color:#ff3 !Important;
+ border-color:#ff3  !Important;
+}
+
+table{
+  background-color :#ff3  !Important;
+    border-color:#ff3  !Important;
+	}
+td,th{
+  background-color :#0000ee  !Important;
+  color:#ff3 !Important;
+}
+
+
+A
+{
+  text-decoration: underline;
+	color:#ff3 !Important;
+}
+
+
+A:link
+{
+  text-decoration: underline;
+	color:#ff3 !Important;
+}
+
+A:visited
+{
+  text-decoration: underline;
+	color:#ff3;
+}
+
+A:hover
+{
+  text-decoration: none;
+	color:#ff3;
+}
+
+A:active
+{
+  text-decoration: none;
+	color:#ff3;
+}
+
+#FooterPane a{
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+#FooterPane a:hover,
+#FooterPane a:active{
+  text-decoration: none;
+}
+
+#mainnavi_topbar{
+display:none; 
+ }
+
+#header2 {
+  border:1px solid #ff3;
+  padding:0;
+  border-top:3px solid #ff3 !Important;
+  margin:0 0 3px 0;
+  float:left; 
+  width:100%;
+  height:auto;
+}
+
+
+#main_navi {
+  height:auto;
+  width:100%;
+  float:left;
+  PADDING: 0px;
+  margin:0 0 0px 0;
+  font-size: 112%;
+  margin-top:0px;
+  color:#ff3 !Important;
+}
+
+
+
+#main_navi a {
+    text-indent:0px !Important;
+    width:auto;
+	float:left;
+	list-style-type: none;
+    margin:0;
+	padding:0.48em 0.35em 0.4em 0.35em;
+	height:auto;
+	border-right:1px dotted #ff3;
+	border-bottom:1px dotted #ff3;
+	text-align:left;
+	text-decoration: underline;
+	color:#ff3 !Important;
+	}
+
+#main_navi a:link
+{
+  text-decoration: underline;
+	color:#ff3 !Important;
+}
+
+#main_navi a:visited
+{
+  text-decoration: underline;
+	color:#ff3;
+	color:#ff3 !Important;
+}
+
+#main_navi a:hover
+{
+  text-decoration: none;
+	color:#ff3;
+	color:#ff3 !Important;
+}
+
+#main_navi a:active
+{
+  text-decoration: none;
+	color:#ff3;
+	color:#ff3 !Important;
+}
+
+
+
+
+#main_navi ul {
+	margin:0;
+	padding:0;
+}
+
+#main_navi li {
+	padding:0;
+	margin:0;
+	white-space: nowrap;
+}
+
+
+
+
+
+#HeaderPane img{
+}
+
+#header img{
+ display:inline;
+  background-color:#ff3 !Important; 
+  border:1px solid #ff3;
+}
+
+#left_menu li a,
+#left_menu li a:link,
+#left_menu li a:visited,
+#left_menu2 li a,
+#left_menu2 li a:link,
+#left_menu2 li a:visited,
+#left_menu3 li a,
+#left_menu3 li a:link,
+#left_menu3 li a:visited{
+ text-decoration: underline;
+}
+
+#left_menu li a:hover,
+#left_menu li a:active,
+#left_menu2 li a:hover,
+#left_menu2 li a:active,
+#left_menu3 li a:hover,
+#left_menu3 li a:active{
+ text-decoration: none;
+}
+
+
+
+#FooterPane #daihyo img{
+ display:none;
+}
+
+
+.BrowserBreadCrumbs_Pref01{
+  border:1px solid #ff3;
+}
+
+#display_controller{
+  background-image:url('/js/controller_back_character_bu.gif')!Important;
+  background-position:left center;
+  background-repeat: no-repeat;
+  }
+
+#display_controller_hide{
+ border:1px solid #ff3;
+ width:100%;
+ height:2em;
+ font-size:small;
+ float:left;  
+ background-image:url('/js/controller_back_character_bu.gif')!Important;
+  background-position:left center;
+  background-repeat: no-repeat;
+ }  
+
+
+div#torinet_top_news ul#tab li.news_01 {
+				background-color:#ff3 !Important;
+				color:#0000ee !Important;
+	}
+
+div#torinet_top_news ul#tab li.news_01 a{
+				background-color:#ff3 !Important;
+				color:#0000ee !Important;
+	}
+	
+#sitesign{
+				background-color:#ff3 !Important;
+}	
+
+/* 編集時対応 */
+.ModuleTitleTable{display:none;}
+ 
+
+
+/* positionでfixしているコントロール部を下にかわす 
+
+#BaseTable
+{
+  padding-top:2.2em; 
+}*/
+
+* html #BaseTable { /* for WinIE4 ～ IE6 */
+padding-top:0px;
+}
+
+* html #frame { /* for WinIE4 ～ IE6 */
+padding-top:0px;
+}
+
+
+
+

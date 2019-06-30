@@ -1,0 +1,27 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BRImQG4q4S-TsFYWw6AOWi5DuD6yFp3KG-9iODcCNtwGAzaQjEAEYBCDeppQKOABQ2-i5wgNgiaPShKgUoAHqzurzA7IBCWFtZWJsby5qcMgBAdoBMWh0dHA6Ly9hbWVibG8uanAvcy1jb250aWdvL2VudHJ5LTEwMTUzNTI3MzI4Lmh0bWypAmyxATYd1EY-yAKSye4NqAMB6AOlAugDpgLoA7MC9QMAAADE&amp;num=4&amp;sig=AGiWqty_5EIfI7UdM3HVRFDjzVQ15js7PA&amp;client=ca-cyberagent-ameblo_js&amp;adurl=http://www.osaka-kyousei.com/"; 
+google_ad.visible_url = "www.osaka-kyousei.com"; 
+google_ad.line1 = "\x26#32080;\x26#23130;\x26#24335;\x26#12414;\x26#12391;\x26#12395;\x26#27503;\x26#12434;\x26#12365;\x26#12428;\x26#12356;\x26#12395;"; 
+google_ad.line2 = "\x26#32654;\x26#12375;\x26#12356;\x26#27503;\x26#20006;\x26#12403;\x26#12399;\x26#26368;\x26#39640;\x26#12398;\x26#23453;\x26#29289;"; 
+google_ad.line3 = "\x26#22823;\x26#38442;\x26#26757;\x26#30000;\x26#12391;\x26#32654;\x26#23481;\x26#30703;\x26#27491;\x26#27503;\x26#31185;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://ameblo.jp/s-contigo/entry-10153527328.html%26hl%3Dja%26client%3Dca-cyberagent-ameblo_js%26adU%3Dwww.osaka-kyousei.com%26adT%3D%25E7%25B5%2590%25E5%25A9%259A%25E5%25BC%258F%25E3%2581%25BE%25E3%2581%25A7%25E3%2581%25AB%25E6%25AD%25AF%25E3%2582%2592%25E3%2581%258D%25E3%2582%258C%25E3%2581%2584%25E3%2581%25AB%26gl%3DJP\x26usg\x3dAFQjCNG_do2sVryRx4vmhL5pHPbDL4_uHQ"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

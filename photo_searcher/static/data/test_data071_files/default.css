@@ -1,0 +1,133 @@
+A {
+	color: #0000CD;
+	text-decoration: underline;
+}
+
+BODY {
+	margin-left : 0;
+	margin-top : 0;
+	margin-right : 0;
+	margin-bottom : 0;
+	background-color : #FFFFFF;
+}
+
+LI {list-style-position: inside;}
+
+A:visited {color: #840084; text-decoration: underline}
+A:hover {
+	color: Red;
+	text-decoration: underline
+}
+.normal {font-size:14px; line-height:130%; color: #000000}
+.list {font-size:13px; line-height:130%; color: #000000}
+.bigger {font-size:22px; line-height:130%; color: #000000}
+.smaller {font-size:12px; line-height:130%; color: #000000}
+.s {font-size:12px; line-height:130%; color: #000000}
+.ssmaller {font-size:10px; line-height:130%; color: #000000}
+.bired {font-size:22px; line-height:130%; color: #FF0000}
+.biorange {
+	font-size: 16px;
+	line-height:100%;
+	color: #FF9900;
+	font-weight : bold;
+}
+
+.menu {
+	font-size : 14px;
+	font-style : normal;
+	font-weight : bold;
+	line-height : 130%;
+}
+
+.norange {font-size:14px; line-height:130%; color: #FF6600}
+.nored {font-size:14px; line-height:130%; color: #FF0000}
+.nlhnomal {font-size:14px; color: #000000}
+.swater {font-size:12px; line-height:130%; color: #0099FF}
+.sred{ font-size:12px; line-height:130%; color: #FF0000}
+.headline {
+	font-weight : bold;
+	font-size : large;
+}
+.bigred {
+	font-size : x-large;
+	color : Red;
+}
+.photo {
+	font-size : 12px;
+	color : #000080;
+}
+.space {
+	clear: both;
+	float: none;
+	height: 5px;
+	width: 1px;
+	font-size: 5px;
+}
+.ad_space {
+	clear: both;
+	float: none;
+	height: 6px;
+	width: 1px;
+	font-size: 6px;
+}
+.footer_space {
+	clear: both;
+	float: none;
+	height: 30px;
+	width: 1px;
+}
+.wide_space {
+	clear: both;
+	float: none;
+	height: 1px;
+	width: 728px;
+	font-size: 1px;
+}
+.t_menu {
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #FEF000;
+	margin-bottom: 5px;
+	list-style-position: inside;
+}
+.t_title {
+	font-size: 16px;
+	line-height: 26px;
+	color: #333333;
+	font-weight : bold;
+	background-image: url('/images/basic/tab.gif');
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 26px;
+	width: 90px;
+	vertical-align: middle;
+}
+.publish {
+	font-size: 10px;
+	line-height:100%;
+	font-weight : bold;
+	background-image: url('/images/basic/publish.gif');
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 48px;
+	width: 200px;
+	padding: 6px;
+}
+.cont {
+	width: 95%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+}
+.cont UL {
+	margin-top: 7px;
+	margin-bottom: 7px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+.cont1 {
+	margin-top: 7px;
+	margin-right: 12px;
+	float:left;
+	white-space: nowrap;
+}

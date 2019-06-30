@@ -1,0 +1,179 @@
+/*-----------------ブログ記事リスト設定---------------*/
+h1{
+ font-size:18px;
+ border-bottom:1px dotted #999999;
+ padding:0 0 3px;
+ margin:0 0 10px;
+ line-height:110%;
+ color:#003366;
+}
+h3{
+ font-size:15px;
+ text-align:left;
+ background:url("http://www.n-p.to/pblog/image/entry_date-back.gif");
+ padding:4px;
+ margin:0 0 10px;
+ color:#ffffff;
+}
+h4{
+ font-size:15px;
+ text-align:left;
+ margin:15px 0 10px;
+ padding:0 0 2px 17px;
+ color:#006699;
+ background:url("http://www.n-p.to/pblog/image/h4-back.gif") no-repeat;
+}
+h4 a{
+ color:#006699;
+ text-decoration:none;
+}
+h4 a:hover{
+ text-decoration:underline;
+}
+
+h5{
+ font-size:12px;
+ padding:5px 0 5px 10px;
+ margin:20px 0 10px;
+ line-height:100%;
+ text-align:left;
+ background:#f5f5f5;
+ border-left:7px solid #99cc00;
+ color:#666666;
+}
+
+h6{
+ font-size:12px;
+ border-bottom:1px dotted #99ccff;
+ padding:0 0 5px;
+ margin:0;
+}
+
+.entry-body{
+ text-align:left;
+ margin:0 0 10px 30px;
+}
+
+.archive-footer{
+ margin:20px 0 0;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+.archive-list-all{
+ margin-bottom:20px;
+}
+
+.entry-more-list{
+ margin:10px 0 10px 30px;
+ text-align:left;
+}
+ 
+
+/*-----------------ブログ記事設定------------------*/
+.entry-next{
+ margin-bottom:10px;
+ color:#003366;
+}
+.entry-next a{
+ text-decoration:none;
+}
+.entry-next a:hover{
+ text-decoration:underline;
+}
+
+.entry-more{
+ margin:10px 0 0 20px;
+}
+
+.entry-footer{
+ color:#003366;
+ margin:0;
+ padding:5px;
+ text-align:right;
+ border-top:1px dotted #99ccff;
+}
+
+
+/*--------------------トラックバック設定-----------------------*/
+.ping p{
+ margin:0 0 10px;
+}
+
+.ping-list{
+ width:500px;
+ margin-left:auto;
+ margin-right:auto;
+ text-align:left;
+}
+.ping-list p{
+ margin:10px 0;
+ text-align:left;
+}
+
+
+/*--------------------コメント設定---------------------*/
+.comment-list{
+ width:450px;
+ margin-left:auto;
+ margin-right:auto;
+ padding:5px 20px 20px;
+ text-align:left;
+ background:#f0f8ff;
+}
+.comment-footer{
+ text-align:right;
+ margin:0;
+ color:#006699;
+ padding:0 0 3px;
+ border-bottom:1px dotted #006699;
+}
+.comment-list p{
+ margin:15px 0 5px;
+}
+
+
+/*--------------------------コメント投稿フォーム設定---------------------------*/
+.comment-form{
+ width:450px;
+ margin-left:auto;
+ margin-right:auto;
+ margin:20px 0 10px;
+ padding:0 20px;
+ border-left:1px dotted #999999;
+ border-right:1px dotted #999999;
+}
+.comment-form .comment-title{
+ display:block;
+ font-size:14px;
+ font-weight:bold;
+ background:url("http://www.n-p.to/pblog/image/comment-title-back.gif");
+ padding:3px 0 3px 5px;
+ color:#ffffff;
+ text-align:left;
+}
+.comment-form span{
+ font-weight:bold;
+ font-size:13px;
+ color:#006699;
+}
+.comment-form-footer{
+ margin:10px 0 0;
+}
+h5.comment-preview-title{
+ font-size:14px;
+ padding:5px 0 5px 10px;
+ margin:0 0 10px;
+ line-height:100%;
+ text-align:left;
+ background:#f5f5f5;
+ border-left:7px solid #99cc00;
+ color:#333333;
+ letter-spacing:1px;
+}
+
+
+
+
+
+

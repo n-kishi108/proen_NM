@@ -1,0 +1,267 @@
+@charset "Shift_JIS";
+/*-------------------------------------------------------------------------
+	Big-S	blog用		blog.css
+---------------------------------------------------------------------------*/
+
+/* 一覧
+---------------------------------------------------*/
+#contents {
+	padding-top: 26px; 
+}
+.item {
+	clear:both;
+	padding-top: 12px;
+	background: url(../../t_common/index_colborder.gif) repeat-x bottom;
+}
+
+.item dl {
+	width: 393px;
+	float: left;
+}
+
+.item dt.date {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 1.2em;
+}
+.item dt.ttl {
+	padding-bottom:10px;
+	display: block;
+	color: #ef382e;
+	background: url(../../t_common/index_ttlborder.gif) repeat-x bottom;
+	font-size: 14px;
+	font-weight:bold;
+	line-height: 1.6em;
+}
+
+.item dt.ttl a:link, 
+.item dt.ttl a:visited{
+	color: #ef382e;
+	text-decoration: none;
+}
+.item dt.ttl a:hover, 
+.item dt.ttl a:active{
+	color: #ef382e;
+	text-decoration: underline;
+}
+
+.item dd {
+	padding: 10px 0px 20px;
+}
+
+#main .item dl dd .index img{
+	visibility: hidden;
+	height: 0;
+	width: 0;
+	overflow: hidden;
+}
+.imgArea {
+	width:164px;
+	float: right;
+}
+.item img {
+	padding: 3px;
+	border: 1px solid #ccc;
+}
+
+.item .line{
+	clear: both;
+	padding: 10px 0;
+	line-height: 0;
+}
+
+.daily dl {
+	width: 570px;
+	float: left;
+}
+
+.daily dt.date {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 1.6em;
+}
+.daily dt.ttl {
+	display: block;
+	padding-bottom:3px;
+	border-bottom: 4px solid #ffdb97;
+	background: none;
+	color: #ef382e;
+	font-size: 18px;
+	font-weight:bold;
+	line-height: 1.6em;
+}
+.daily dd {
+	padding: 10px 0px 20px;
+}
+
+.daily dd  img{
+	text-align: center;
+	padding: 4px;
+	border: 1px solid #ccc;
+}
+
+.page {
+	margin: 0 auto;
+	width: 400px;
+}
+.btn {
+	clear: both;
+	padding: 5px 0;
+	text-align: right;
+}
+
+
+/* コメント
+---------------------------------------------------*/
+#com01, 
+#com02 {
+	margin: 0 auto;
+	width:530px;
+	font-size: 12px;
+	line-height: 1.8;
+	color: #333;
+}
+
+#com01 .ttl, 
+#com02 .ttl {
+	margin: 10px 0 0;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 24px;
+	text-indent: 0.5em;
+}
+#com01 .ttl {
+	background:url(../common/blog_commentbg01.gif) no-repeat;
+}
+#com02 .ttl {
+	background:url(../common/blog_commentbg02.gif) no-repeat;
+}
+.identity {
+	padding-top: 10px;
+	color:#ef382e;
+}
+.comment {
+	display: block;
+	padding-bottom: 10px;
+	background: url(../common/blog_commentbg03.gif) no-repeat bottom;
+}
+
+#nyuryoku {
+	margin-top:10px;
+	border: 1px solid #ccc;
+	padding: 1em;
+	font-size:12px;
+	text-align: left;
+	
+}
+#comment-author {
+	border: 1px solid #7f9db9;
+	padding-left: 2px;
+	width: 240px;
+	height: 20px;
+	line-height: 20px;
+	vertical-align:middle;
+}
+
+#comment-bake-cookie {
+	vertical-align: middle;
+}
+#comment-text {
+	border: 1px solid #7f9db9;
+	padding-left: 2px;
+	width: 505px;
+	height: 105px;
+	font-size:12px;
+	line-height: 1.6;
+}
+label {
+	vertical-align:middle;
+}
+#toukouBtn {
+	text-align: center;
+	display: inline;
+}
+
+
+
+
+
+/* 右ナビ部分　指定
+------------------------------------------------------*/
+.sidettl {
+	margin: 0 auto 5px;
+	width:215px;
+}
+.sidettl2 {
+	margin: 0 auto 5px;
+	padding-top: 10px;
+	width:215px;
+}
+
+/* 右ナビ部分　カレンダー
+------------------------------------------------------*/
+.calendarWrap {
+	margin: 0 auto 10px;
+	width:215px;
+	font-size:12px;
+	line-height: 2;
+	text-align: center;
+}
+.calendarWrap table {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-collapse: collapse;
+	border-top: #ffdb97 1px solid;
+	border-left: #ffdb97 1px solid;
+	border-right: #ffdb97 1px solid;
+	width:215px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.calendarWrap tr{
+	width: 100%;
+	border-bottom: #ffdb97 1px solid;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.calendarWrap th{
+	color: #666;
+	border-bottom: #ffdb97 1px solid;
+	text-align: center;
+	padding-left: 8px;
+}
+.calendarWrap td{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: #333;
+	border-bottom: #ffdb97 1px solid;
+}
+.calendarWrap td a{
+	font-weight: bold;
+}
+
+.calendarWrap .month {
+	color: #36c;
+	font-weight: bold;
+}
+
+/* 右ナビ部分　リスト
+------------------------------------------------------*/
+.bloglist {
+	margin: 0 auto 10px;
+	width:215px;
+	font-size:12px;
+}
+
+.bloglist li{
+	padding-left: 1em;
+	background:url(../common/blog_icon01.jpg) no-repeat 0 8px;
+	line-height: 1.8;
+}

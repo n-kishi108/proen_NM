@@ -1,0 +1,9 @@
+  AddClipsUrl    = location.href;
+  AddClipsTitle  = document.title;
+  AddClipsId = '1C387142A51DE';
+  AddClipsBcolor='#78BE44';
+  AddClipsNcolor='#D1E9C0';
+  AddClipsTcolor='#666666';
+  AddClipsType='1';
+  AddClipsVerticalAlign='middle'; 
+  AddClipsDefault='bookmark'; 

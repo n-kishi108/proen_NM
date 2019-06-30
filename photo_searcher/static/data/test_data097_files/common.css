@@ -1,0 +1,140 @@
+/*
+-----------------------------------------------------
+ameblo CSS Skin Settings
+FileName:   common.css
+Version:    2006.06/23
+Skin for:	all_skin
+-----------------------------------------------------
+*/
+form{
+margin:0px;
+}
+.menu_frame select{
+width:88%;
+}
+.readerMainLink{
+margin:3px auto 1.1em;
+text-align:center;
+}
+.readerMainLink p{
+}
+.readerMainLink p a{
+background:url(http://stat.ameba.jp/common_style/img/common/icon/reader.gif) no-repeat left center;
+padding:2px 0 3px 21px;
+}
+.page a{
+text-align: center;
+padding: 3px;
+line-height:1.5;
+}
+.page .now{
+padding: 5px;
+font-weight:bold;
+}
+.entry .contents{
+line-height:1.5;
+}
+.entry .contents img{
+margin-right:5px;
+margin-left: 5px;
+}
+
+#profile .link_blog{
+font-size: 14px;
+}
+#fortune{
+padding-bottom:15px;
+}
+
+#message .contents:after,
+.entry .contents:after,
+#profile .contents:after {
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+#message .contents,
+.entry .contents,
+#profile .contents{
+display: inline-table;
+}
+/* Hides from IE-mac \*/
+* html #message .contents,
+* html .entry .contents,
+* html #profile .contents{height: 1%;}
+#message .contents,
+.entry .contents,
+#profile .contents {display: block;}
+/* End hide from IE-mac */
+
+
+#gg_pr_text h4{
+color:#666666;
+font-size:12px;
+padding:2px;
+text-align: center;
+border-top:1px dashed #666666;
+border-bottom:1px dashed #666666;
+}
+#gg_pr_text ul{
+padding:5px;
+}
+#gg_pr_text li{
+padding:5px 0px;
+list-style-type:none;
+}
+
+#woman_pr_text h4{
+color:#666666;
+font-size:12px;
+padding:2px;
+text-align: center;
+border-top:1px dashed #666666;
+border-bottom:1px dashed #666666;
+}
+#woman_pr_text ul{
+padding:5px;
+}
+#woman_pr_text li{
+padding:5px 0px;
+list-style-type:none;
+}
+
+/* comment_show */
+#comment_show{
+width:338px;
+margin:0px auto;
+padding:0px;
+background:#FFFFFF;
+border:1px solid #666666;
+}
+
+#comment_show h4{
+margin:10px 10px 0px;
+padding:0px 0px 0px 20px;
+font-size:12px;
+color:#333333;
+background:url(http://stat100.ameba.jp/p_skin/cmn/img/ico_commentshow.gif) no-repeat 0px 2px;
+}
+
+/* add:2006.07.11 */
+#comment_show ul{
+width:338px;
+margin:0px;
+padding:0px;
+}
+
+#comment_show p{
+margin:0px 10px 10px;
+padding:0px;
+color:#333333;
+}
+
+#comment_show input#commentbutton{
+width:140px;
+margin-right:6px;
+margin-bottom:6px;
+padding:0px;
+}

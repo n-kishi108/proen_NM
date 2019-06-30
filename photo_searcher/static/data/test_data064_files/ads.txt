@@ -1,0 +1,63 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B6YiTUWC1S6vVFJC46APL47z8BtHsnjSl2bCwDMCNtwGAxKoiEAEYASCAxuQDKAQ4AFDTzKLuA2CJ672E4BOyASJtdWthc2hpa2ltb25va2VpLmNvY29sb2ctbmlmdHkuY29tyAEB2gFFaHR0cDovL211a2FzaGlraW1vbm9rZWkuY29jb2xvZy1uaWZ0eS5jb20vYmxvZy8yMDA3LzAzL3Bvc3RfOGMyZi5odG1sgAIBqQLNaBOldfFGPqgDAegDswHoA0T1AwAAAMT1AwQAAAA&amp;num=1&amp;sig=AGiWqtw5VCyjLEqfq68FUHzhcbRVSs0xpg&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://www16.ocn.ne.jp/~wasou/"; 
+google_ad.visible_url = "www16.ocn.ne.jp"; 
+google_ad.line1 = "\x26#32654;\x26#20445;\x26#23039;\x26#12365;\x26#12418;\x26#12398;\x26#32207;\x26#21512;\x26#23398;\x26#38498;"; 
+google_ad.line2 = "\x26#12510;\x26#12531;\x26#12484;\x26#12540;\x26#12510;\x26#12531;\x26#12391;\x26#12510;\x26#12452;\x26#12506;\x26#12540;\x26#12473;\x26#12398;\x26#12524;\x26#12483;\x26#12473;\x26#12531;"; 
+google_ad.line3 = "\x26#33258;\x26#23429;\x26#12391;\x26#12418;\x26#23398;\x26#38498;\x26#12391;\x26#12418;\x26#25480;\x26#26989;\x26#12399;OK"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BDGTOUWC1S6vVFJC46APL47z8Br2H3Qy5h_ypAsCNtwHAw5MHEAIYAiCAxuQDKAQ4AFC4xqf8AWCJ672E4BOyASJtdWthc2hpa2ltb25va2VpLmNvY29sb2ctbmlmdHkuY29tyAEB2gFFaHR0cDovL211a2FzaGlraW1vbm9rZWkuY29jb2xvZy1uaWZ0eS5jb20vYmxvZy8yMDA3LzAzL3Bvc3RfOGMyZi5odG1sqQLNaBOldfFGPqgDAegDswHoA0T1AwAAAMT1AwQAAAA&amp;num=2&amp;sig=AGiWqtxFe29o_o4eAuTkG7BB2jpJ02ybZA&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://www.ougiya.tv"; 
+google_ad.visible_url = "www.ougiya.tv"; 
+google_ad.line1 = "\x26#12365;\x26#12418;\x26#12398;\x26#24037;\x26#25151; \x26#25159;\x26#23627;"; 
+google_ad.line2 = "\x26#24713;\x26#30342;100\x26#24180; \x26#30528;\x26#29289; \x26#24481;\x26#25163;\x26#20837;\x26#12428;\x26#23554;\x26#38272;\x26#24215;"; 
+google_ad.line3 = "\x26#26579;\x26#12415;\x26#25244;\x26#12365;\x26#12539;\x26#27927;\x26#12356;\x26#24373;\x26#12426;\x26#12539;\x26#26579;\x26#29289;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BQFOQUWC1S6vVFJC46APL47z8Bqqror0BnI_axBDAjbcBgK3iBBADGAMggMbkAygEOABQy8awyQZgieu9hOATsgEibXVrYXNoaWtpbW9ub2tlaS5jb2NvbG9nLW5pZnR5LmNvbcgBAdoBRWh0dHA6Ly9tdWthc2hpa2ltb25va2VpLmNvY29sb2ctbmlmdHkuY29tL2Jsb2cvMjAwNy8wMy9wb3N0XzhjMmYuaHRtbIACAakCzWgTpXXxRj6oAwHoA7MB6ANE9QMAAADE9QMEAAAA&amp;num=3&amp;sig=AGiWqtzNRCXEvffcQ4s5u9fN514YVooEDA&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://fuuka.jp/products/list.php%3Fcategory_id%3D177"; 
+google_ad.visible_url = "fuuka.jp"; 
+google_ad.line1 = "\x26#26408;\x26#32191;\x26#12398;\x26#12461;\x26#12514;\x26#12494;\x26#12394;\x26#12425;"; 
+google_ad.line2 = "\x26#12458;\x26#12540;\x26#12460;\x26#12491;\x26#12483;\x26#12463;\x26#12467;\x26#12483;\x26#12488;\x26#12531;\x26#20351;\x26#29992;\x26#12398;\x26#20778;\x26#12375;\x26#12356;"; 
+google_ad.line3 = "\x26#26408;\x26#32191;\x26#30528;\x26#29289;\x26#12290;\x26#26032;\x26#33394;\x26#12434;\x26#21152;\x26#12360;\x26#20840;\x26#65297;\x26#65296;\x26#31278;\x26#39006;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 4; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=Bk6qiUWC1S6vVFJC46APL47z8Bv_ptLUB85-npwTAjbcBgK3iBBAEGAQggMbkAygEOABQwYGYrAJgieu9hOAToAGFyK77A7IBIm11a2FzaGlraW1vbm9rZWkuY29jb2xvZy1uaWZ0eS5jb23IAQHaAUVodHRwOi8vbXVrYXNoaWtpbW9ub2tlaS5jb2NvbG9nLW5pZnR5LmNvbS9ibG9nLzIwMDcvMDMvcG9zdF84YzJmLmh0bWyAAgGpAs1oE6V18UY-qAMB6AOzAegDRPUDAAAAxPUDBAAAAA&amp;num=4&amp;sig=AGiWqtwa1h_nftTX_n37K7JHBHtJxfPnQg&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://www.udak.jp"; 
+google_ad.visible_url = "www.udak.jp"; 
+google_ad.line1 = "\x26#30528;\x26#24515;\x26#22320;\x26#12398;\x26#33391;\x26#12356;\x26#12365;\x26#12418;\x26#12398;"; 
+google_ad.line2 = "\x26#20778;\x26#12375;\x26#12356;\x26#33394;\x26#24425;\x26#12289;\x26#32032;\x26#26448;\x26#24863;\x26#12289;\x26#32068;\x26#12415;\x26#21512;\x26#12431;\x26#12379;"; 
+google_ad.line3 = "\x26#32908;\x26#12373;\x26#12431;\x26#12426;\x26#12289;\x26#30528;\x26#24515;\x26#22320;\x26#12289;\x26#20253;\x26#32113;\x26#32654;"; 
+google_ad.regionname = ""; 
+google_ads[3] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://mukashikimonokei.cocolog-nifty.com/blog/2007/03/post_8c2f.html%26hl%3Dja%26client%3Dca-nifty-cocolog-user_js%26adU%3Dwww16.ocn.ne.jp%26adT%3D%25E7%25BE%258E%25E4%25BF%259D%25E5%25A7%25BF%25E3%2581%258D%25E3%2582%2582%25E3%2581%25AE%25E7%25B7%258F%25E5%2590%2588%25E5%25AD%25A6%25E9%2599%25A2%26adU%3Dwww.ougiya.tv%26adT%3D%25E3%2581%258D%25E3%2582%2582%25E3%2581%25AE%25E5%25B7%25A5%25E6%2588%25BF%2B%25E6%2589%2587%25E5%25B1%258B%26adU%3Dfuuka.jp%26adT%3D%25E6%259C%25A8%25E7%25B6%25BF%25E3%2581%25AE%25E3%2582%25AD%25E3%2583%25A2%25E3%2583%258E%25E3%2581%25AA%25E3%2582%2589%26adU%3Dwww.udak.jp%26adT%3D%25E7%259D%2580%25E5%25BF%2583%25E5%259C%25B0%25E3%2581%25AE%25E8%2589%25AF%25E3%2581%2584%25E3%2581%258D%25E3%2582%2582%25E3%2581%25AE%26gl%3DJP%26hideleadgen%3D1\x26usg\x3dAFQjCNEDdeikAyPB7uRe5er61NObOEsYgw"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

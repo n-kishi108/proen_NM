@@ -1,0 +1,140 @@
+/*---------------------------------------------------
+ 画像コンテンツスタイルシート　2008/05/30 YOKOI
+---------------------------------------------------*/
+.black a {
+	text-decoration:none;
+	color: #333333;
+}
+
+#image_list {
+        width:530px;
+}
+
+#content {
+	width:996px;
+	clear:both;
+	background:#F2E6E6;
+	margin:0;
+	padding:0 2px;
+}
+
+#MainBox .topContent .itioshi {
+	float:left;
+	width:270px;
+	height:283px;
+	margin:0;
+	padding:10px 32px;
+}
+
+#MainBox .topContent .catbox {
+	float:left;
+	background:#FFFFFF;
+	width:148px;
+        height:145px;
+	margin:3px;
+	padding:6px 4px;
+}
+
+.topContent .toretatebox {
+	float:left;
+	background:#FFFFFF;
+	width:149px;
+        height:145px;
+	margin:2px;
+	padding:6px 4px;
+
+}
+
+.thumpic {
+	overflow: hidden; 
+	position: relative; 
+	top: 0; 
+        left:0px;
+        width:100px;
+	height:100px;
+	float:left; 
+        margin:5px 0px 0px 5px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.font-black12 {font-size:10px;}
+.font-black18-b {font-size:18px; font-weight:bold; line-height:150%;}
+
+#mainContent_entry_archive .MainBox_EntryArchive .topContent {
+	width:670px;
+	margin:0;
+	padding:10px 0 10px 5px;
+}	
+
+#mainContent_entry_archive .MainBox_EntryArchive .topContent .topImg img {
+	float:right;
+        background:#CCCCCC;
+	margin:0 10px;;
+	padding:1px;
+}
+
+/*---------------------------------------------------
+ 画像コンテンツスタイルシート　2009/05/18 SAITO
+---------------------------------------------------*/
+
+.picListZone3{
+	float:left;
+	padding:2px;
+	}
+
+.picListZone3 .picbox{
+	display:table-cell;
+	width:80px;
+	height:80px;
+	vertical-align:middle;
+	margin:0;
+	padding:2px 2px;
+	border:solid 1px #CCCCCC;
+	}
+
+
+.thumbox_n {
+	float:left;
+	width:76px;
+    height:70px;
+	margin:2px;
+	padding:0px;
+
+}
+.thumpic_n {
+	overflow: hidden; 
+	position: relative; 
+	width: 75px; 
+	height:70px; 
+	float:left; 
+	margin:0;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.box_bar_push{
+	width:675px;
+	margin:0;
+	height:30px;
+	font-size:90%; 
+}
+
+/* ---
+.newsPhoto{
+	background:url(http://img.47news.jp/news/images/news_text_bg2.jpg) top left no-repeat;
+	padding:5px 5px 5px 5px;
+	border-bottom:solid 2px #CCCCCC;
+        margin: 10px 0 10px 0;
+}
+ --- */
+
+.newsPhoto{
+	background:url(http://img.47news.jp/news/images/bar_newPhoto.jpg) no-repeat;
+	padding:8px 0px 3px 10px;
+	border-right:solid 1px #CCCCCC;
+        margin: 10px 0 10px 0;
+        height: 20px;
+}
+
+

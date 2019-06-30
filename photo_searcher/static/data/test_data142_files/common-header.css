@@ -1,0 +1,90 @@
+body{
+padding-top:27px;
+background-position:50% 27px;
+}
+
+#common-header .wrap{
+position:absolute;
+top:0;
+left:0;
+height:27px;
+font-size:12px;
+width:100%;
+min-width:920px;
+overflow:hidden;
+}
+#common-header form{
+padding:0;
+margin:0;
+}
+#common-header .logo{
+float:left;
+text-align:center;
+width:130px;
+overflow:hidden;
+}
+#common-header .leftbox{
+float:left;
+width:680px;
+overflow:hidden;
+}
+#common-header .rightbox{
+float:right;
+width:240px;
+padding-top:3px;
+overflow:hidden;
+border:solid 0px #000;
+}
+#common-header .prbox{
+float:left;
+width:540px;
+padding-top:6px;
+$padding-top:7px;
+overflow:hidden;
+}
+#common-header .pr1{
+float:left;
+overflow:hidden;
+width:265px;
+}
+#common-header .pr2{
+float:left;
+width:265px;
+overflow:hidden;
+margin-left:10px;
+}
+#common-header .pr2 a{
+font-size:12px ! important;
+text-decoration:none;
+}
+#common-header a.seesaa-adLink,
+#common-header a.adTitle{
+display:block;
+text-decoration:none;
+font-size:12px ! important;
+/* line-height:1.1; */
+}
+#common-header a.seesaa-adLink:hover,
+#common-header a.adTitle:hover{
+text-decoration:none;
+/* text-decoration:underline; */
+}
+#common-header .formtext{
+border:solid 1px #999;
+background-color:#fff;
+background-image:url(http://blog.seesaa.jp/img/common_header/search1.gif);
+background-repeat:no-repeat;
+background-position:1px 1px;
+padding-left:20px;
+width:150px;
+vertical-align:middle;
+}
+#common-header .formbutton{
+vertical-align:middle;
+border:none;
+}
+#common-header .both{
+clear:both;
+}
+
+

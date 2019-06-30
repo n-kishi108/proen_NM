@@ -1,0 +1,10 @@
+google_ad_client = "pub-9044350295048284";
+google_ad_width = 728;
+google_ad_height = 15;
+google_ad_format = "728x15_0ads_al";
+google_ad_channel = "";
+google_color_border = "FFffcc";
+google_color_bg = "FFFFcc";
+google_color_link = "0000FF";
+google_color_text = "000000";
+google_color_url = "008000";

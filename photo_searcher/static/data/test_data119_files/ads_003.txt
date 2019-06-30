@@ -1,0 +1,75 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "site"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BIAxWxZK1S_qTMJCC6QOch7CcCJOry4wB-8exzxLBuLPsKMCJkRwQARgBIMn5wxQoBTgAUIyciNb4_____wFgieu9hOAToAHJ5YT-A7IBDXd3dy40N25ld3MuanC6AQozMzZ4MjgwX2pzyAEB2gE2aHR0cDovL3d3dy40N25ld3MuanAvQ04vMjAwOTA0L0NOMjAwOTA0MjYwMTAwMDA0Ny5odG1sgAIBqQJ6PqKp7-RGPsACAcgCrbXrCKgDAegD-wPoAxfoA7gB6APmBPUDAAAARPUDBAAAAA&amp;num=1&amp;sig=AGiWqtw9s4YHYgLBeDCORw5cVw7vd4_z4w&amp;client=ca-kyodo_js&amp;adurl=http://www.masudaasi.com/landing2/index.html%3Fac%3Dc"; 
+google_ad.visible_url = "www.masudaasi.com"; 
+google_ad.line1 = "\x26#26666;\x26#12477;\x26#12501;\x26#12488;\x26#12391;\x26#26666;\x26#20385;\x26#22238;\x26#24489;\x26#12395;\x26#20055;\x26#12428;"; 
+google_ad.line2 = "\x26#39514;\x26#12365;\x26#12398;\x26#30340;\x26#20013;\x26#29575;\x26#12391;7\x26#26085;\x26#20808;\x26#12414;\x26#12391;\x26#12434;\x26#20104;\x26#28204;\x26#12290;"; 
+google_ad.line3 = "\x26#26666;\x26#20385;\x26#12434;\x26#21462;\x26#12426;\x26#25147;\x26#12379;\x26#12427;\x26#12481;\x26#12515;\x26#12540;\x26#12488;\x26#8221;\x26#22679;\x26#30000;\x26#36275;\x26#8221;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B4V3lxZK1S_qTMJCC6QOch7CcCNewo7QB48Hl_gnAjbcBwMyNCBACGAIgyfnDFCgFOABQ9ee_if7_____AWCJ672E4BOgAd3RhvcDsgENd3d3LjQ3bmV3cy5qcLoBCjMzNngyODBfanPIAQHaATZodHRwOi8vd3d3LjQ3bmV3cy5qcC9DTi8yMDA5MDQvQ04yMDA5MDQyNjAxMDAwMDQ3Lmh0bWypAno-oqnv5EY-yALN0ZAQqAMB6AP7A-gDF-gDuAHoA-YE9QMAAABE9QMEAAAA&amp;num=2&amp;sig=AGiWqtwu3iwsWMMiXYOnOfFr4JEItoEcHQ&amp;client=ca-kyodo_js&amp;adurl=http://www.happy-semi.com/p/adw/hd1_c.php"; 
+google_ad.visible_url = "www.happy-semi.com"; 
+google_ad.line1 = "\x26#12507;\x26#12540;\x26#12512;\x26#12506;\x26#12540;\x26#12472;\x26#12398;\x26#20316;\x26#12426;\x26#26041;\x26#35611;\x26#24231;"; 
+google_ad.line2 = "\x26#21021;\x26#24515;\x26#32773;\x26#12391;\x26#12418;\x26#23433;\x26#24515;\x26#12290;\x26#12507;\x26#12540;\x26#12512;\x26#12506;\x26#12540;\x26#12472;\x26#12398;"; 
+google_ad.line3 = "\x26#20316;\x26#12426;\x26#26041;\x26#12364;\x26#22522;\x26#30990;\x26#12363;\x26#12425;\x26#36523;\x26#12395;\x26#12388;\x26#12367;\x26#36890;\x26#20449;\x26#35611;\x26#24231;\x26#12290;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=ByUc1xZK1S_qTMJCC6QOch7CcCPjV048B0qS1_RDAjbcBwJ3YEBADGAMgyfnDFCgFOABQ7cmQwfj_____AWCJ672E4BOyAQ13d3cuNDduZXdzLmpwugEKMzM2eDI4MF9qc8gBAdoBNmh0dHA6Ly93d3cuNDduZXdzLmpwL0NOLzIwMDkwNC9DTjIwMDkwNDI2MDEwMDAwNDcuaHRtbKkCej6iqe_kRj7IAoC36AuoAwHoA_sD6AMX6AO4AegD5gT1AwAAAET1AwQAAAA&amp;num=3&amp;sig=AGiWqtwxCip6dxe4esoIfj1xiTvYJA0QdQ&amp;client=ca-kyodo_js&amp;adurl=http://www.jtm.gr.jp/sp/eatery/index.html"; 
+google_ad.visible_url = "www.jtm.gr.jp"; 
+google_ad.line1 = "\x26#39154;\x26#39135;\x26#24215;\x26#21521;\x26#12369;\x26#12507;\x26#12540;\x26#12512;\x26#12506;\x26#12540;\x26#12472;"; 
+google_ad.line2 = "\x26#39154;\x26#39135;\x26#24215;\x26#23554;\x26#29992;\x26#12507;\x26#12540;\x26#12512;\x26#12506;\x26#12540;\x26#12472;\x26#20316;\x26#25104;"; 
+google_ad.line3 = "\x26#21021;\x26#26399;\x26#36027;\x26#29992;\x26#28961;\x26#26009;\x26#12289;\x26#26376;\x26#38989;9800\x26#20870;\x26#65288;\x26#31246;\x26#36796;\x26#65289;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 4; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B_xdbxZK1S_qTMJCC6QOch7CcCKKZjaQBwN6ngQ_AjbcBwLbzIBAEGAQgyfnDFCgFOABQnL6L9QNgieu9hOATsgENd3d3LjQ3bmV3cy5qcLoBCjMzNngyODBfanPIAQHaATZodHRwOi8vd3d3LjQ3bmV3cy5qcC9DTi8yMDA5MDQvQ04yMDA5MDQyNjAxMDAwMDQ3Lmh0bWypAno-oqnv5EY-yALUtogSqAMB6AP7A-gDF-gDuAHoA-YE9QMAAABE9QMEAAAA&amp;num=4&amp;sig=AGiWqtx4N3lLrfhWjVVlaG7jIyqaR9D6Kw&amp;client=ca-kyodo_js&amp;adurl=http://www.zicra.jp/"; 
+google_ad.visible_url = "www.zicra.jp/"; 
+google_ad.line1 = "\x26#22823;\x26#38442; \x26#12507;\x26#12540;\x26#12512;\x26#12506;\x26#12540;\x26#12472;\x26#21046;\x26#20316;"; 
+google_ad.line2 = "\x26#27005;\x26#22825;\x26#24066;\x26#22580;\x26#12398;\x26#12507;\x26#12540;\x26#12512;\x26#12506;\x26#12540;\x26#12472;\x26#21046;\x26#20316;"; 
+google_ad.line3 = "EC\x26#12469;\x26#12452;\x26#12488;\x26#12398;\x26#21046;\x26#20316;\x26#12363;\x26#12425;\x26#36939;\x26#21942;\x26#12414;\x26#12391;\x26#12469;\x26#12509;\x26#12540;\x26#12488;"; 
+google_ad.regionname = ""; 
+google_ads[3] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 5; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BAMC_xZK1S_qTMJCC6QOch7CcCJf-vLkB57ubyRHAjbcBwNHhIxAFGAUgyfnDFCgFOABQhKvZ4v______AWCJ672E4BOyAQ13d3cuNDduZXdzLmpwugEKMzM2eDI4MF9qc8gBAdoBNmh0dHA6Ly93d3cuNDduZXdzLmpwL0NOLzIwMDkwNC9DTjIwMDkwNDI2MDEwMDAwNDcuaHRtbKkCej6iqe_kRj7IAs_3oBCoAwHoA_sD6AMX6AO4AegD5gT1AwAAAET1AwQAAAA&amp;num=5&amp;sig=AGiWqtyU-gr2uUWVHbBabwSIZaChxYT27A&amp;client=ca-kyodo_js&amp;adurl=http://www.fudousan-hanjo.com/"; 
+google_ad.visible_url = "www.fudousan-hanjo.com/"; 
+google_ad.line1 = "\x26#38598;\x26#23458;\x26#12450;\x26#12483;\x26#12503;\x26#37325;\x26#35222;\x26#12398;\x26#19981;\x26#21205;\x26#29987;HP"; 
+google_ad.line2 = "\x26#22320;\x26#22495;\x26#23494;\x26#30528;\x26#12398;\x26#19981;\x26#21205;\x26#29987;\x26#20250;\x26#31038;\x26#27096;\x26#12395;\x26#26368;\x26#36969;\x26#12394;\x26#12289;"; 
+google_ad.line3 = "\x26#38598;\x26#23458;\x26#12450;\x26#12483;\x26#12503;\x26#23554;\x26#29992;\x26#12398;\x26#19981;\x26#21205;\x26#29987;\x26#12507;\x26#12540;\x26#12512;\x26#12506;\x26#12540;\x26#12472;"; 
+google_ad.regionname = ""; 
+google_ads[4] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.47news.jp/CN/200904/CN2009042601000047.html%26hl%3Dja%26client%3Dca-kyodo_js%26adU%3Dwww.masudaasi.com%26adT%3D%25E6%25A0%25AA%25E3%2582%25BD%25E3%2583%2595%25E3%2583%2588%25E3%2581%25A7%25E6%25A0%25AA%25E4%25BE%25A1%25E5%259B%259E%25E5%25BE%25A9%25E3%2581%25AB%25E4%25B9%2597%25E3%2582%258C%26adU%3Dwww.happy-semi.com%26adT%3D%25E3%2583%259B%25E3%2583%25BC%25E3%2583%25A0%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E3%2581%25AE%25E4%25BD%259C%25E3%2582%258A%25E6%2596%25B9%25E8%25AC%259B%25E5%25BA%25A7%26adU%3Dwww.jtm.gr.jp%26adT%3D%25E9%25A3%25B2%25E9%25A3%259F%25E5%25BA%2597%25E5%2590%2591%25E3%2581%2591%25E3%2583%259B%25E3%2583%25BC%25E3%2583%25A0%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%26adU%3Dwww.zicra.jp/%26adT%3D%25E5%25A4%25A7%25E9%2598%25AA%2B%25E3%2583%259B%25E3%2583%25BC%25E3%2583%25A0%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E5%2588%25B6%25E4%25BD%259C%26adU%3Dwww.fudousan-hanjo.com/%26adT%3D%25E9%259B%2586%25E5%25AE%25A2%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E9%2587%258D%25E8%25A6%2596%25E3%2581%25AE%25E4%25B8%258D%25E5%258B%2595%25E7%2594%25A3HP%26gl%3DJP%26hideleadgen%3D1\x26usg\x3dAFQjCNFpFe4oxtfQQ_esFzN4b2_fkefWSw"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

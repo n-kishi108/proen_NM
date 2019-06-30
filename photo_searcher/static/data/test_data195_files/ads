@@ -1,0 +1,51 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BoDHAw165S8WzJYSs6QPjkciMCPKds3bskNnxDcCNtwHA3K4XEAEYASCT8ZwTKAM4AFDA6sdsYImj0oSoFKAB-tv79QPIAQHaAf8BZmlsZTovLy9DOi9Vc2Vycy9zaGluL0Rlc2t0b3AvJUU5JTlCJTg2JUU1JTkwJTg4JUU1JTg2JTk5JUU3JTlDJTlGLyVFMyU4MCU5MCVFNyU5NCVCQiVFNSU4MyU4RiVFMyU4MCU5MSVFNiU5NiVCMCVFNyU5NSVBQSVFNyVCNSU4NCVFMyU4MCU4RSVFOSU4MCVCMSVFNSU4OCU4QUFLQiVFMyU4MCU4RiVFNSU4OCVCNiVFNCVCRCU5QyVFNyU5OSVCQSVFOCVBMSVBOCUyMC0lMjAyJUU2JTlFJTlBJUU3JTlCJUFFJUUzJTgxJUFFJUU1JTg2JTk5JUU3JTlDgAIBqQJqcK07N7VGPqgDAegD-wPoA7gB6AMi6APmAvUDAIAAxA&amp;num=1&amp;sig=AGiWqtw3iTAakUDugsby3RDY6xbMChtZjw&amp;client=ca-livedoor-infoentame_js&amp;adurl=http://www.vivivi-cms.com/cmslite/"; 
+google_ad.visible_url = "www.vivivi-cms.com"; 
+google_ad.line1 = "\x26#12504;\x26#12450;\x26#12469;\x26#12525;\x26#12531;\x26#23554;\x26#38272;\x26#12398;HP\x26#21046;\x26#20316;"; 
+google_ad.line2 = "\x26#32654;\x26#23481;\x26#23460;\x26#38480;\x26#23450;\x26#12398;\x26#12507;\x26#12540;\x26#12512;\x26#12506;\x26#12540;\x26#12472;\x26#21046;\x26#20316;"; 
+google_ad.line3 = "\x26#26989;\x26#30028;\x26#12488;\x26#12483;\x26#12503;\x26#12463;\x26#12521;\x26#12473;\x26#12398;\x26#21046;\x26#20316;\x26#23455;\x26#32318;\x26#12391;\x26#28608;\x26#23433;\x26#65281;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BVtnnw165S8WzJYSs6QPjkciMCO3Eit0Bp8n84RHAjbcBwLbzIBACGAIgk_GcEygDOABQhKvZ4v______AWCJo9KEqBTIAQHaAf8BZmlsZTovLy9DOi9Vc2Vycy9zaGluL0Rlc2t0b3AvJUU5JTlCJTg2JUU1JTkwJTg4JUU1JTg2JTk5JUU3JTlDJTlGLyVFMyU4MCU5MCVFNyU5NCVCQiVFNSU4MyU4RiVFMyU4MCU5MSVFNiU5NiVCMCVFNyU5NSVBQSVFNyVCNSU4NCVFMyU4MCU4RSVFOSU4MCVCMSVFNSU4OCU4QUFLQiVFMyU4MCU4RiVFNSU4OCVCNiVFNCVCRCU5QyVFNyU5OSVCQSVFOCVBMSVBOCUyMC0lMjAyJUU2JTlFJTlBJUU3JTlCJUFFJUUzJTgxJUFFJUU1JTg2JTk5JUU3JTlDqQJqcK07N7VGPsgCtbPjE6gDAegD-wPoA7gB6AMi6APmAvUDAIAAxA&amp;num=2&amp;sig=AGiWqtxt0e2wqO4Rc4tHaAklt69_7dCtAQ&amp;client=ca-livedoor-infoentame_js&amp;adurl=http://www.fudousan-hanjo.com/"; 
+google_ad.visible_url = "www.fudousan-hanjo.com/"; 
+google_ad.line1 = "\x26#19981;\x26#21205;\x26#29987;\x26#23554;\x26#29992;\x26#12507;\x26#12540;\x26#12512;\x26#12506;\x26#12540;\x26#12472;"; 
+google_ad.line2 = "\x26#27231;\x26#33021;\x26#28288;\x26#36617;\x26#12398;\x26#26412;\x26#26684;\x26#12507;\x26#12540;\x26#12512;\x26#12506;\x26#12540;\x26#12472;\x26#12290;"; 
+google_ad.line3 = "\x26#26989;\x26#30028;\x26#26368;\x26#23433;\x26#20516;\x26#12395;\x26#24120;\x26#12395;\x26#25361;\x26#25126;\x26#12375;\x26#32154;\x26#12369;\x26#12414;\x26#12377;\x26#12290;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BdkW2w165S8WzJYSs6QPjkciMCNqD9pQB3uSLtRLAjbcBgKm8HxADGAMgk_GcEygDOABQzv7pjP7_____AWCJo9KEqBSgAYDWw_ADyAEB2gH_AWZpbGU6Ly8vQzovVXNlcnMvc2hpbi9EZXNrdG9wLyVFOSU5QiU4NiVFNSU5MCU4OCVFNSU4NiU5OSVFNyU5QyU5Ri8lRTMlODAlOTAlRTclOTQlQkIlRTUlODMlOEYlRTMlODAlOTElRTYlOTYlQjAlRTclOTUlQUElRTclQjUlODQlRTMlODAlOEUlRTklODAlQjElRTUlODglOEFBS0IlRTMlODAlOEYlRTUlODglQjYlRTQlQkQlOUMlRTclOTklQkElRTglQTElQTglMjAtJTIwMiVFNiU5RSU5QSVFNyU5QiVBRSVFMyU4MSVBRSVFNSU4NiU5OSVFNyU5Q4ACAakCanCtOze1Rj7IAsbExA2oAwHoA_sD6AO4AegDIugD5gL1AwCAAMQ&amp;num=3&amp;sig=AGiWqtyMNl7yzmdF4T27d6ZYKmILA4lgAA&amp;client=ca-livedoor-infoentame_js&amp;adurl=http://www.tokyotopdesign.com"; 
+google_ad.visible_url = "www.tokyotopdesign.com"; 
+google_ad.line1 = "\x26#12497;\x26#12531;\x26#12501;\x26#12524;\x26#12483;\x26#12488;\x26#21046;\x26#20316;\x26#12398;\x26#23554;\x26#38272;"; 
+google_ad.line2 = "\x26#26481;\x26#20140;\x26#12488;\x26#12483;\x26#12503;\x26#12487;\x26#12470;\x26#12452;\x26#12531;\x26#12364;\x26#20316;\x26#12427;"; 
+google_ad.line3 = "\x26#20250;\x26#31038;\x26#26696;\x26#20869;\x26#12497;\x26#12531;\x26#12501;\x26#12524;\x26#12483;\x26#12488;\x26#21046;\x26#20316;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dfile:///C:/Users/shin/Desktop/%2525E9%25259B%252586%2525E5%252590%252588%2525E5%252586%252599%2525E7%25259C%25259F/%2525E3%252580%252590%2525E7%252594%2525BB%2525E5%252583%25258F%2525E3%252580%252591%2525E6%252596%2525B0%2525E7%252595%2525AA%2525E7%2525B5%252584%2525E3%252580%25258E%2525E9%252580%2525B1%2525E5%252588%25258AAKB%2525E3%252580%25258F%2525E5%252588%2525B6%2525E4%2525BD%25259C%2525E7%252599%2525BA%2525E8%2525A1%2525A8%252520-%2525202%2525E6%25259E%25259A%2525E7%25259B%2525AE%2525E3%252581%2525AE%2525E5%252586%252599%2525E7%25259C%25259F%252520-%252520livedoor%252520%2525E3%252583%25258B%2525E3%252583%2525A5%2525E3%252583%2525BC%2525E3%252582%2525B9.htm%26hl%3Dja%26client%3Dca-livedoor-infoentame_js%26adU%3Dwww.vivivi-cms.com%26adT%3D%25E3%2583%2598%25E3%2582%25A2%25E3%2582%25B5%25E3%2583%25AD%25E3%2583%25B3%25E5%25B0%2582%25E9%2596%2580%25E3%2581%25AEHP%25E5%2588%25B6%25E4%25BD%259C%26adU%3Dwww.fudousan-hanjo.com/%26adT%3D%25E4%25B8%258D%25E5%258B%2595%25E7%2594%25A3%25E5%25B0%2582%25E7%2594%25A8%25E3%2583%259B%25E3%2583%25BC%25E3%2583%25A0%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%26adU%3Dwww.tokyotopdesign.com%26adT%3D%25E3%2583%2591%25E3%2583%25B3%25E3%2583%2595%25E3%2583%25AC%25E3%2583%2583%25E3%2583%2588%25E5%2588%25B6%25E4%25BD%259C%25E3%2581%25AE%25E5%25B0%2582%25E9%2596%2580%26gl%3DJP%26hideleadgen%3D1\x26usg\x3dAFQjCNGY0QBoaicdpneczCRY1zcndy8NVQ"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

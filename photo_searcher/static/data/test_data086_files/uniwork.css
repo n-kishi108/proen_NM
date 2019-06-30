@@ -1,0 +1,26 @@
+a:hover{
+  color : #ff0000;
+}
+
+p { font-size: 12pt;line-height : 150%;}
+
+
+
+h1.unnamed1 {
+	font-size: 13px;
+	font-weight: normal;
+	margin: 5px;
+        line-height : 130%;
+}
+
+H2.unnamed1 {
+	font-size : 13px;
+	font-weight: normal;
+  line-height : 170%;
+}
+
+h5.unnamed1 {
+	font-size: 12px;
+	font-weight: normal;
+	margin: 5px;
+}

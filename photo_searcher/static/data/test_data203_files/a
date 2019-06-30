@@ -1,0 +1,11 @@
+Vesicomyid.Bivalves.jsonFeed({
+ subject : '<a href="http://f1.nakanohito.jp/map/e48a917ebc32220803731345_106947/mousetrack/" target="_top">このページを見ている人は、このように動いています</a>' ,
+ loadOK : 'ok' ,
+ corner : 9,
+ w: 300,
+ h: 18,
+ col: '#000000',
+ bgcol: '#ffffdd' ,
+ bordercol : '#dddddd' ,
+ sec: 6
+});

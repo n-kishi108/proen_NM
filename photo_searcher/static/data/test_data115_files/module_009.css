@@ -1,0 +1,35 @@
+﻿@charset "utf-8";
+
+.footersub1 {
+  color:#003399;
+  margin: 2px 0 5px 0;
+  padding-top:5px;
+  font-size:small;
+  
+}
+
+.footersub1 a {
+  color:#003399;
+}
+
+
+.footersub1 a:visited {
+  color:#003399;
+}
+
+
+.footersub2 {
+  margin:0;
+  padding:5px 5px 5px 15px;
+  background-color:#cccccc;
+  font-size:medium;
+  border-top:1px solid #fff;
+}
+
+.footersub2 a {
+  color:#003399;
+}
+
+.footersub2 a:visited {
+  color:#003399;
+}

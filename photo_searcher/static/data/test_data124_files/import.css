@@ -1,0 +1,25 @@
+@charset "Shift_JIS";
+
+/* ****************************************************************** 
+
+	@This stylesheet Information{
+		CSS File Name: import.css
+
+		Setting of: Import styles
+			1: Import stylesheets
+	}
+
+****************************************************************** */
+
+
+/*==================================================================
+	1: Import stylesheets
+===================================================================*/
+
+
+@import "/css/common.css";
+@import "/css/header.css";
+@import "/css/sub.css";
+@import "/css/footer.css";
+@import "/css/contents.css";
+@import "/css/print.css";

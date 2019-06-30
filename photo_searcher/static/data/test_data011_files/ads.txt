@@ -1,0 +1,51 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B1u81gly1S92VDInO6wOQycTzBqmJxsMBmeSQtA_AjbcBgPPfGRABGAEg1LeUBigDOABQrJf1if______AWCJ672E4BOyARNwbGF6YS5yYWt1dGVuLmNvLmpwugEJNzI4eDkwX2pzyAEB2gE8aHR0cDovL3BsYXphLnJha3V0ZW4uY28uanAva29tb25vdGFpa3lvdS9kaWFyeS8yMDA5MTEyMjAwMDEvqQLNaBOldfFGPsgCqeKZBKgDAegD-wPoA64C6AO3A-gDuwX1AwAAAMT1AwYAAAA&amp;num=1&amp;sig=AGiWqtydTbGh8oTPf8kQIYci-zvLAC8aDQ&amp;client=ca-rakuten-blog_js&amp;adurl=http://www.apple.com/jp/ilife/iphoto/%3Fcid%3DMAR-JP-GOOGC-MAC"; 
+google_ad.visible_url = "www.apple.com"; 
+google_ad.line1 = "\x26#20889;\x26#30495;\x26#12398;\x26#12371;\x26#12392;\x26#12394;\x26#12425;\x26quot;iPhoto\x26quot;"; 
+google_ad.line2 = "Mac\x26#12391;\x26#20351;\x26#12360;\x26#12427;iPhoto\x26#12394;\x26#12425;\x26#20889;\x26#30495;\x26#12398;\x26#31649;\x26#29702;\x26#12420;"; 
+google_ad.line3 = "\x26#32232;\x26#38598;\x26#12364;\x26#27005;\x26#12375;\x26#12367;\x26#31777;\x26#21336; \x26#35443;\x26#12375;\x26#12367;\x26#12399;\x26#12371;\x26#12385;\x26#12425;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B4zG-gly1S92VDInO6wOQycTzBuaBhNcB3PvSiw_AjbcBgJvuAhACGAIg1LeUBigDOABQ0f-Gsfj_____AWCJ672E4BOyARNwbGF6YS5yYWt1dGVuLmNvLmpwugEJNzI4eDkwX2pzyAEB2gE8aHR0cDovL3BsYXphLnJha3V0ZW4uY28uanAva29tb25vdGFpa3lvdS9kaWFyeS8yMDA5MTEyMjAwMDEvqQLNaBOldfFGPsgCpOipEagDAegD-wPoA64C6AO3A-gDuwX1AwAAAMT1AwYAAAA&amp;num=2&amp;sig=AGiWqty1e8hzPI3SVhfD2S1VXUtBYQkmpA&amp;client=ca-rakuten-blog_js&amp;adurl=http://www.jamocaoreo.com/keyword/%25E5%258C%2585%25E8%258C%258E%2520%25E5%2586%2599%25E7%259C%259F/c/10/cp/1"; 
+google_ad.visible_url = "www.jamocaoreo.com"; 
+google_ad.line1 = "\x26#21253;\x26#33550; \x26#20889;\x26#30495;\x26#12398;\x26#12371;\x26#12392;\x26#12394;\x26#12425;"; 
+google_ad.line2 = "\x26#21253;\x26#33550; \x26#20889;\x26#30495;\x26#12398;\x26#24773;\x26#22577;\x26#28288;\x26#36617;\x26#65281;"; 
+google_ad.line3 = "\x26#35441;\x26#38988;\x26#12398;\x26#12521;\x26#12531;\x26#12461;\x26#12531;\x26#12464;\x26#12469;\x26#12452;\x26#12488;\x26#12391;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=Bb4f2gly1S92VDInO6wOQycTzBobav74BrNvx9xDAjbcBwOGCMxADGAMg1LeUBigDOABQj4TVsvv_____AWCJ672E4BOgAcT2u-cDsgETcGxhemEucmFrdXRlbi5jby5qcLoBCTcyOHg5MF9qc8gBAdoBPGh0dHA6Ly9wbGF6YS5yYWt1dGVuLmNvLmpwL2tvbW9ub3RhaWt5b3UvZGlhcnkvMjAwOTExMjIwMDAxL6kCzWgTpXXxRj7IAoj6qQ-oAwHoA_sD6AOuAugDtwPoA7sF9QMAAADE9QMGAAAA&amp;num=3&amp;sig=AGiWqtyRrYzhhKKorSmJKEdkmcD60akqBQ&amp;client=ca-rakuten-blog_js&amp;adurl=http://www.eyecity.jp/%3Fgoogle_cont_1003"; 
+google_ad.visible_url = "www.eyecity.jp"; 
+google_ad.line1 = "\x26#35352;\x26#24565;\x26#20889;\x26#30495;\x26#12399;\x26#12467;\x26#12531;\x26#12479;\x26#12463;\x26#12488;\x26#12391;"; 
+google_ad.line2 = "\x26#26399;\x26#38291;\x26#38480;\x26#23450;\x26#65281;\x26#12463;\x26#12540;\x26#12509;\x26#12531;GET\x26#12391;"; 
+google_ad.line3 = "\x26#12467;\x26#12531;\x26#12479;\x26#12463;\x26#12488;\x26#12364;\x26#12362;\x26#36023;\x26#24471;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://plaza.rakuten.co.jp/komonotaikyou/diary/200911220001/%26hl%3Dja%26client%3Dca-rakuten-blog_js%26adU%3Dwww.apple.com%26adT%3D%25E5%2586%2599%25E7%259C%259F%25E3%2581%25AE%25E3%2581%2593%25E3%2581%25A8%25E3%2581%25AA%25E3%2582%2589%2526quot%253BiPhoto%2526quot%253B%26adU%3Dwww.jamocaoreo.com%26adT%3D%25E5%258C%2585%25E8%258C%258E%2B%25E5%2586%2599%25E7%259C%259F%25E3%2581%25AE%25E3%2581%2593%25E3%2581%25A8%25E3%2581%25AA%25E3%2582%2589%26adU%3Dwww.eyecity.jp%26adT%3D%25E8%25A8%2598%25E5%25BF%25B5%25E5%2586%2599%25E7%259C%259F%25E3%2581%25AF%25E3%2582%25B3%25E3%2583%25B3%25E3%2582%25BF%25E3%2582%25AF%25E3%2583%2588%25E3%2581%25A7%26gl%3DJP\x26usg\x3dAFQjCNFSoZeiuON1J8Q9Va-q28i6NfpkOw"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

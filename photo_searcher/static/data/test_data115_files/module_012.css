@@ -1,0 +1,10 @@
+﻿@charset "utf-8";
+
+.BrowserBreadCrumbs_Pref01{
+  color: black;
+  font-size: 100%;
+  text-align: left;
+  background-image:url(ac13.gif);
+  padding:10px 0px 10px 0px;
+  margin: 0 0 10px 0px;
+}

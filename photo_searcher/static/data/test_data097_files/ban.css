@@ -1,0 +1,89 @@
+/* ‹ÖŽ~selector‚Æ‚»‚Ìproperty */
+div#sub_a,
+div#sub_b,
+div.mainMenu#advertising,
+div.menu_frame,
+div#adJavaScript,
+div#adJavaScript2,
+div#defaultAd,
+div#defaultAd img{
+visibility:visible !important;
+display:block !important;
+text-indent:0px !important;
+}
+
+/* Ads by Google */
+div#advertising2,
+div#advertising3,
+p#gadLogo,
+p#gadLogo_footer,
+div#adCount0_footer,
+a#gAdTitle0_footer,
+span#gAdDesc0_footer,
+div#adCount0,
+a#gAdTitle0,
+span#gAdDesc0,
+div#adCount1,
+a#gAdTitle1,
+span#gAdDesc1,
+div#adCount2,
+a#gAdTitle2,
+span#gAdDesc2,
+div#adCount3,
+a#gAdTitle3,
+span#gAdDesc3,
+span.gadDisplayURL,
+span.gadDisplayURL_footer,
+span.gadDescription_footer,
+span.gadDescription,
+div.blockGeneral{
+visibility:visible !important;
+display:block !important;
+text-indent:0px !important;
+}
+
+/* footer ad */
+div#footer_ad,
+li#footerInfoText,
+li#broadText1,
+li#broadText2,
+li#broadText3{
+visibility:visible !important;
+display:block !important;
+text-indent:0px !important;
+}
+/* footer ad inline*/
+li#footerInfoText a,
+li#broadText1 a,
+li#broadText2 a,
+li#broadText3 a{
+visibility:visible !important;
+display:inline!important;
+text-indent:0px !important;
+
+}
+
+/* amebaBar Pr */
+li#barPr{
+visibility:visible !important;
+display:block !important;
+text-indent:0px !important;
+}
+li#barPr a{
+visibility:visible !important;
+display:inline !important;
+text-indent:0px !important;
+}
+
+/* sideTextAd */
+div#sideTextAd{
+visibility:visible !important;
+display:block !important;
+text-indent:0px !important;
+}
+div#sideTextAd ul li a{
+visibility:visible !important;
+display:inline !important;
+text-indent:0px !important;
+}
+

@@ -1,0 +1,18 @@
+*/ { margin : 0 ; padding : 0 ; }
+
+#my_body{margin:0px auto 16px; width:833px;}
+#header2 { width : 833px ;margin:8px;margin-left: auto;margin-right: auto;}
+#header2 h1{margin: 8px;line-height: 1;padding: 0;float:left;}
+#sb{float:right;}
+#menu { width : 833px ;margin:0px auto;}
+#contents{float:left; width:585px;}
+#contents2{padding-right:30px;}
+#navigation {font-size:10px; width : 817px ;margin:0px auto 20px;height:32px;background-image: url("http://www.kekkon-j.com/file/image/menu/search_bg.gif");}
+#pan {margin:10px;float:left;}
+#searchbox{float:right;}
+#sidebar{margin-left:11px;float:right;width:224px;text-align:center;}
+#sidebar2{text-align:left;}
+.ur {margin-bottom:10px;}
+.mr {padding-top:20px;background-image: url("http://www.kekkon-j.com/file/image/home/top_bg_003.gif");background-repeat: no-repeat;}
+#footer { margin-left:auto ; clear : both ;margin-right:auto; }
+#info{ width : 833px ;margin:0px auto;}

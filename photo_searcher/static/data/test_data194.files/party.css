@@ -1,0 +1,217 @@
+@import url( ../_cnskin/316a/css/style.css );
+#L01 .noskin#area-header {
+	WIDTH: 825px
+}
+#L02 .noskin#area-header {
+	WIDTH: 825px
+}
+#L03 .noskin#area-header {
+	WIDTH: 825px
+}
+#L07 .noskin#area-header {
+	WIDTH: 825px
+}
+#L08 .noskin#area-header {
+	WIDTH: 825px
+}
+#L01 #area-header {
+	WIDTH: 841px
+}
+#L02 #area-header {
+	WIDTH: 841px
+}
+#L03 #area-header {
+	WIDTH: 841px
+}
+#L07 #area-header {
+	WIDTH: 841px
+}
+#L08 #area-header {
+	WIDTH: 841px
+}
+#L01 .noskin#area-billboard {
+	WIDTH: 825px
+}
+#L02 .noskin#area-billboard {
+	WIDTH: 825px
+}
+#L03 .noskin#area-billboard {
+	WIDTH: 825px
+}
+#L07 .noskin#area-billboard {
+	WIDTH: 825px
+}
+#L08 .noskin#area-billboard {
+	WIDTH: 825px
+}
+#L01 #area-billboard {
+	WIDTH: 841px
+}
+#L02 #area-billboard {
+	WIDTH: 841px
+}
+#L03 #area-billboard {
+	WIDTH: 841px
+}
+#L07 #area-billboard {
+	WIDTH: 841px
+}
+#L08 #area-billboard {
+	WIDTH: 841px
+}
+#L01 .noskin#area-contents {
+	WIDTH: 825px
+}
+#L02 .noskin#area-contents {
+	WIDTH: 825px
+}
+#L03 .noskin#area-contents {
+	WIDTH: 825px
+}
+#L07 .noskin#area-contents {
+	WIDTH: 825px
+}
+#L08 .noskin#area-contents {
+	WIDTH: 825px
+}
+#L01 #area-contents {
+	WIDTH: 841px
+}
+#L02 #area-contents {
+	WIDTH: 841px
+}
+#L03 #area-contents {
+	WIDTH: 841px
+}
+#L07 #area-contents {
+	WIDTH: 841px
+}
+#L08 #area-contents {
+	WIDTH: 841px
+}
+#L02 #area-main {
+	WIDTH: 70%
+}
+#L03 #area-main {
+	WIDTH: 70%
+}
+#L07 #area-main {
+	WIDTH: 70%
+}
+#L08 #area-main {
+	WIDTH: 70%
+}
+#L02 #area-side-a {
+	WIDTH: 29%
+}
+#L03 #area-side-a {
+	WIDTH: 29%
+}
+#L07 #area-side-a {
+	WIDTH: 29%
+}
+#L08 #area-side-a {
+	WIDTH: 29%
+}
+#L01 .noskin#area-footer {
+	WIDTH: 825px
+}
+#L02 .noskin#area-footer {
+	WIDTH: 825px
+}
+#L03 .noskin#area-footer {
+	WIDTH: 825px
+}
+#L07 .noskin#area-footer {
+	WIDTH: 825px
+}
+#L08 .noskin#area-footer {
+	WIDTH: 825px
+}
+#L01 #area-footer {
+	WIDTH: 841px
+}
+#L02 #area-footer {
+	WIDTH: 841px
+}
+#L03 #area-footer {
+	WIDTH: 841px
+}
+#L07 #area-footer {
+	WIDTH: 841px
+}
+#L08 #area-footer {
+	WIDTH: 841px
+}
+#L04 {
+	MARGIN: 0px auto; WIDTH: auto
+}
+#L04 #area-contents {
+	WIDTH: auto
+}
+#L04 #main-group {
+	WIDTH: 100%; MARGIN-LEFT: -240px
+}
+#L04 #area-main {
+	MARGIN-LEFT: 250px
+}
+#L04 #area-side-a {
+	WIDTH: 240px
+}
+#L05 {
+	MARGIN: 0px auto; WIDTH: auto
+}
+#L05 #area-contents {
+	WIDTH: auto
+}
+#L05 #main-group {
+	WIDTH: 100%; MARGIN-LEFT: -240px
+}
+#L05 #main-group .core {
+	WIDTH: 100%; MARGIN-RIGHT: -240px
+}
+#L05 #area-main {
+	MARGIN-LEFT: 250px; MARGIN-RIGHT: 250px
+}
+#L05 #area-side-a {
+	WIDTH: 240px
+}
+#L05 #area-side-b {
+	WIDTH: 240px
+}
+#L06 {
+	MARGIN: 0px auto; WIDTH: auto
+}
+#L06 #area-contents {
+	WIDTH: auto
+}
+#L06 #main-group {
+	WIDTH: 100%; MARGIN-RIGHT: -240px
+}
+#L06 #area-main {
+	MARGIN-RIGHT: 250px
+}
+#L06 #area-side-a {
+	WIDTH: 240px
+}
+BODY {
+	BACKGROUND: #232323
+}
+.thunder-bg {
+	BACKGROUND: url(../_src/sc126/v_Gradation18.jpg) repeat-x left top
+}
+#area-header {
+	BACKGROUND: #e6e6e6
+}
+#area-billboard {
+	BACKGROUND: #e6e6e6
+}
+#area-main {
+	BACKGROUND: #e6e6e6
+}
+#area-footer {
+	BACKGROUND: #e6e6e6
+}
+#area-contents {
+	BACKGROUND: #e6e6e6
+}

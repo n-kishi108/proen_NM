@@ -1,0 +1,1 @@
+if(typeof(aa)=="undefined"){var aa={};}if(typeof(aa.l)=="undefined"){aa.l={};}aa.l.mainichientm=[{},{pkid:"032481",t:'完売続出！人気雑貨のアウトレットコーナー',u:'http://sos.allabout.co.jp/2/Cgi/r_sos.php?pckh=032481&pckd=1&ac=20&p=mainichientm&url=http://click.linksynergy.com/fs-bin/click?id=xvE1aQhURW4&offerid=138583.10000278&type=3&subid=0',d:'',i:'',g:'',ac:"20",place:"mainichientm"}];

@@ -1,0 +1,18 @@
+var OX_0c56ab93 = '';
+OX_0c56ab93 += "<"+"div class=\"moz-text-flowed\" style=\"font-family: -moz-fixed\"><"+"script>\n";
+OX_0c56ab93 += "<"+"!--\n";
+OX_0c56ab93 += "var A4Uclient = \"mainichi\";\n";
+OX_0c56ab93 += "var A4Uwidth = \"728\";\n";
+OX_0c56ab93 += "var A4Uheight = \"90\";\n";
+OX_0c56ab93 += "var A4Udomain = \"\";\n";
+OX_0c56ab93 += "var A4Uencode = \"EUC-JP\";\n";
+OX_0c56ab93 += "var A4Usite = \"adnw\";\n";
+OX_0c56ab93 += "var A4Ucont = \"mainichi\";\n";
+OX_0c56ab93 += "var A4Utype = \"banner\";\n";
+OX_0c56ab93 += "var A4Utg = \"1\";\n";
+OX_0c56ab93 += "document.write(\'<"+"scr\' + \'ipt language=\"JavaScript1.1\" charset=\"\' + A4Uencode + \'\" src=\"http://grp03.ias.rakuten.co.jp/content/ad/DCBT/delivery/script/191.js\">\\n\');\n";
+OX_0c56ab93 += "document.write(\'<"+"/scr\' + \'ipt>\\n\');\n";
+OX_0c56ab93 += "//-->\n";
+OX_0c56ab93 += "<"+"/script>\n";
+OX_0c56ab93 += "<"+"noscript><"+"iframe src=\"http://grp03.ias.rakuten.co.jp/html.ng/site=adnw&cont=mainichi&type=banner2&tg=1\" width=\"728\" height=\"90\" marginwidth=\"0\" marginheight=\"0\" hspace=\"0\" vspace=\"0\" frameborder=\"0\" scrolling=\"no\" bordercolor=\"#000000\" allowtransparency=\"true\"><"+"/iframe><"+"/noscript><"+"/div><"+"div id=\'beacon_9350f41d52\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://vasco.send.microad.jp/delivery/log.php?bannerid=865&amp;campaignid=221&amp;zoneid=673&amp;channel_ids=,&amp;loc=http%3A%2F%2Fmainichi.jp%2Fenta%2Fgeinou%2Fgraph%2F200706%2F27%2F&amp;referer=http%3A%2F%2Fimages.google.co.jp%2Fimglanding%3Fq%3D%25E5%2588%25B6%25E4%25BD%259C%25E7%2599%25BA%25E8%25A1%25A8%26imgurl%3Dhttp%3A%2F%2Fwww.the-miyanichi.co.jp%2Fcontents%2Fmedia%2F10%2F20080317-1205751255.jpg%26imgrefurl%3Dhttp%3A%2F%2Fwww.the-miyanichi.co.jp%2Fcontents%2F%253Fitemid%253D6383%26usg%3D__Lt02Y4gNLVVOOXXVvNNPK-DK6o8%3D%26h%3D309%26w%3D400%26sz%3D41%26hl%3Dja%26um%3D1%26itbs%3D1%26tbnid%3D3_DHoHLRvKXXJM%3A%26tbnh%3D96%26tbnw%3D124%26prev%3D%2Fimages%253Fq%253D%2525E5%252588%2525B6%2525E4%2525BD%25259C%2525E7%252599%2525BA%2525E8%2525A1%2525A8%2526um%253D1%2526hl%253Dja%2526lr%253D%2526tbs%253Disch%3A1%26um%3D1%26lr%3D%26tbs%3Disch%3A1%26start%3D0&amp;cb=9350f41d52&amp;snr=1\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+document.write(OX_0c56ab93);

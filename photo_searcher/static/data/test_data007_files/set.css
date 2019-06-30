@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* Set Base Style
+----------------------------------------- */
+
+@import url("default.css"); /* initial setting */
+
+@import "layout.css";/* layout style */
+@import "module.css";/* common module style */
+
+@import "base.css";/* base template style */
+
+
+/* Style for MacIE 5.x
+------------------------------------------*/
+/*for MacIE5*/
+/*\*//*/
+  @import "ie5m.css";
+/**/

@@ -1,0 +1,208 @@
+.ashiato, .ashiato-list, .ashiato-profile, .ashiato-anchor, .ashiato-regist-detail {
+    font: 12px "MS UI Gothic",sans-serif;
+    color: #303030;
+    z-index: 10;
+}
+
+.ashiato-list .ashiato-name, .ashiato-list .ashiato-date {
+    font: 10px "ÇlÇr ÇoÉSÉVÉbÉN",sans-serif;
+    color: #303030;
+}
+
+.ashiato {
+    position: absolute;
+    top: 1px;
+    width: 140px;
+    padding: 2px;
+    background-color: #FCFCF1;
+    border: solid 1px #CDCDCD;
+}
+
+.ashiato td, .ashiato img {
+    padding: 0;
+    border: 0;
+}
+
+.ashiato .ashiato-top img {
+    width: 140px;
+    height: 18px;
+}
+
+.ashiato .ashiato-list-off {
+    display: none;
+}
+
+.ashiato .ashiato-list {
+    width: 138px;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+.ashiato .ashiato-list .ashiato-icon, .ashiato .ashiato-list .ashiato-icon img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.ashiato .ashiato-list .ashiato-name {
+    width: 65%;
+    text-align: left;
+}
+
+.ashiato .ashiato-list .ashiato-date {
+    width: 21%;
+    text-align: right;
+}
+
+.ashiato .ashiato-log-off {
+    display: none;
+}
+
+.ashiato .ashiato-log-owner-over .ashiato-icon,
+.ashiato .ashiato-log-owner-over .ashiato-name,
+.ashiato .ashiato-log-owner-over .ashiato-date,
+.ashiato .ashiato-log-over,
+.ashiato .ashiato-log-over .ashiato-icon,
+.ashiato .ashiato-log-over .ashiato-name,
+.ashiato .ashiato-log-over .ashiato-date,
+.ashiato .ashiato-list .ashiato-regist-entry a:hover {
+    color: #699902;
+    cursor: hand;
+}
+
+.ashiato .ashiato-list .ashiato-log-owner .ashiato-icon,
+.ashiato .ashiato-list .ashiato-log-owner-over .ashiato-icon {
+    background-color: #FFF;
+    border-top: solid 1px #B4B4B4;
+    border-left: solid 1px #B4B4B4;
+    border-bottom: solid 1px #E6E6E6;
+}
+
+.ashiato .ashiato-list .ashiato-log-owner .ashiato-name,
+.ashiato .ashiato-list .ashiato-log-owner-over .ashiato-name {
+    padding-top: 3px;
+    font: 10px "MS ÉSÉVÉbÉN",sans-serif;
+    background-color: #FFF;
+    border-top: solid 1px #B4B4B4;
+    border-bottom: solid 1px #E6E6E6;
+}
+
+.ashiato .ashiato-list .ashiato-log-owner .ashiato-date,
+.ashiato .ashiato-list .ashiato-log-owner-over .ashiato-date {
+    padding-top: 5px;
+    text-align: left;
+    font: 10px "MS UI Gothic",sans-serif;
+    background-color: #FFF;
+    border-top: solid 1px #B4B4B4;
+    border-right: solid 1px #E6E6E6;
+    border-bottom: solid 1px #E6E6E6;
+}
+
+.ashiato-profile {
+    position: absolute;
+    top: 20px;
+    width: 200px;
+    padding: 10px 0;
+    background-color: #FCFCF1;
+    border: solid 1px #CDCDCD;
+    z-index: 11;
+}
+
+.ashiato-profile .ashiato-photo {
+    margin-bottom: 5px;
+    border: solid 1px #CDCDCD;
+}
+
+.ashiato-profile .ashiato-detail img {
+    margin: 3px 0;
+    border: none;
+}
+
+.ashiato-profile .ashiato-anchor {
+    width: 176px;
+    margin-top: 3px;
+    padding: 2px 4px;
+    text-align: center;
+    background-color: #FFF;
+    border: solid 1px #CDCDCD;
+}
+
+.ashiato-profile .ashiato-anchor a:link,
+.ashiato-profile .ashiato-anchor a:visited {
+    color: #699902;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ashiato-profile .ashiato-anchor a:hover {
+    color: #699902;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.ashiato .ashiato-list .ashiato-regist {
+    padding: 15px 0 3px;
+    text-align: center;
+}
+
+.ashiato .ashiato-list .ashiato-regist img {
+    width: 138px;
+    height: 25px;
+}
+
+.ashiato .ashiato-list .ashiato-regist-entry {
+    padding: 5px 0 7px;
+    text-align: center;
+}
+
+.ashiato .ashiato-list .ashiato-regist-entry a:link,
+.ashiato .ashiato-list .ashiato-regist-entry a:visited {
+    color: #303030;
+    text-decoration: none;
+}
+
+.ashiato-regist-detail {
+    position: absolute;
+    top: 20px;
+    width: 350px;
+    padding: 10px 10px 15px;
+    text-align: left;
+    color: #303030;
+    background-color: #FCFCF1;
+    border: solid 1px #CDCDCD;
+}
+
+.ashiato-regist-detail h3 {
+    padding: 5px 0;
+    text-align: center;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #699902;
+}
+
+.ashiato-regist-detail-center {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.ashiato-regist-detail img {
+    border: 0;
+}
+
+.ashiato-regist-detail dl {
+    margin: 0;
+}
+
+.ashiato-regist-detail dt {
+    margin-top: 10px;
+    color: #699902;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.ashiato-regist-detail dd {
+    margin: 0;
+    padding: 3px;
+}
+

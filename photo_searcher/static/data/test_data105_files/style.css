@@ -1,0 +1,487 @@
+@charset "UTF-8";
+
+/* 首里城*/
+*{		font-family: "verdana", "helvetica", "osaka", "ＭＳ Ｐゴシック", sans-serif;
+}
+
+textarea {font-family: "ヒラギノ明朝 Pro W6", "Osaka", "ＭＳ Ｐゴシック", "trebuchet MS", "trebuchet", "verdana", "arial", "sans-serif";
+}
+
+
+	body{
+		color:#000;
+		margin:0px;
+                text-align:center;
+background: url(http://admin.ti-da.net/_img/syuri_seiden/syuritopb01.jpg) bottom left
+fixed repeat;
+background-color: #FFF;
+	}
+	
+	form{
+		margin:0px;
+		padding:0px;
+	}
+
+	table.form{
+	margin:25px 0px 0px 13px;
+	}
+	
+	img	{
+	border:none;
+	}
+
+ul.rss		{
+	margin	: 0px;
+	padding	: 0px;
+	width	: 100%;
+	text-align: center;
+}
+
+ul.rss li	{
+	border-right: #999 1px solid;
+	display	: inline;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	letter-spacing: 0.2px;
+	margin-right: 0.3em;
+	padding-right: 0.5em;
+	padding-left: 0.2em;
+}
+
+ul.rss a:link		{
+	color				: #333333;
+	text-decoration			: none;
+}
+
+ul.rss a:visited	{
+	color				: #333333;
+	text-decoration			: none;
+}
+
+ul.rss a:hover		{
+	color				: #999999;
+	text-decoration			: none;
+}
+
+ul.rss a:active	{
+	color				: #333333;
+	text-decoration			: none;
+}
+
+	a{color:#A24774;text-decoration:none;}
+	a:link{color:#A24774;text-decoration:none;}
+	a:visited{text-decoration:none;}
+	a:active{}
+	a:hover{color:#A24774;text-decoration:underline}
+
+	a.acalendar{color:#A24774;text-decoration:none;}
+	a.acalendar:link{color:#A24774;text-decoration:none;}
+	a.acalendar:visited{text-decoration:none;}
+	a.acalendar:active{}
+	a.acalendar:hover{color:#A24774;text-decoration:underline}
+
+	a.acontinues{color:#A24774;text-decoration:none;}
+	a.acontinues:link{color:#A24774;text-decoration:none;}
+	a.acontinues:visited{text-decoration:none;}
+	a.acontinues:active{}
+	a.acontinues:hover{color:#A24774;text-decoration:underline}
+
+	a.amenu{color:#A24774;text-decoration:none;}
+	a.amenu:link{color:#A24774;text-decoration:none;}
+	a.amenu:visited{text-decoration:none;}
+	a.amenu:active{}
+	a.amenu:hover{color:#A24774;text-decoration:underline}
+
+	#container{font-size:12px;
+		width:800px;
+background		: url(http://admin.ti-da.net/_img/syuri_seiden/syuritopcb01.jpg) top center repeat-y;
+		margin:0px auto;
+                 border-top-width: 1px;
+	         border-right-width: 0px;
+	         border-bottom-width: 1px;
+	         border-left-width: 0px;
+	         border-right-style: solid;
+	         border-left-style: solid;
+	         border-top-color: #FFFFFF;
+	         border-right-color: #000000;
+	         border-bottom-color: #FFFFFF;
+	         border-left-color: #000000;
+                 text-align:left;
+	}
+
+	#banner,#subbanner{
+	background	:url(http://admin.ti-da.net/_img/syuri_seiden/syuritop01.jpg) top center no-repeat;
+	padding			:0px 0px 0px 0px;
+	height:320px; 
+	}
+
+	#banner a{color:#4A3F44;text-decoration:none;}
+	#banner a:link{color:#4A3F44;text-decoration:none;}
+	#banner a:visited{text-decoration:none;}
+	#banner a:active{}
+	#banner a:hover{color:#4A3F44;text-decoration:none;}
+
+	#subbanner a{color:#fff;text-decoration:none;}
+	#subbanner a:link{color:#fff;text-decoration:none;}
+	#subbanner a:visited{text-decoration:none;}
+	#subbanner a:active{}
+	#subbanner a:hover{color:#fff;text-decoration:none;}
+
+	h1,h2,h3{margin:0px;padding:0px;}
+
+	.blogtitle{
+	font-size	:26px;
+	font-weight	:bold;
+	padding	:190px 0px 0px 240px;
+	text-align	:left;
+	letter-spacing:2px;
+	}
+
+	.description{
+	color												:#364A2D;
+	font-size										:12px;
+	padding			:15px 0px 0px 250px;
+	text-align		:left;
+	letter-spacing		:2px;
+		width:400px;
+        background-color:#;
+	}
+
+
+#content{
+	width:545px;
+	float:right;
+	background-color						:#;
+}
+
+#links{
+	width:185px;
+	float:left;
+	text-align	:left;
+	margin											:0px 10px 0px 15px;
+	padding											:20px 0px 0px 0px; 
+	background-color	:#;
+	overflow:hidden;
+}
+
+	
+	#footer{
+		    clear:both;
+	}
+	
+	#copyright{
+	background	: url(http://admin.ti-da.net/_img/syuri_seiden/syuritopccb01.jpg) center top no-repeat;
+		width			: 100%;
+height: 39px;
+font-size: 10px;
+font-weight: normal;
+color: #333333;
+margin: 0px;
+padding: 0px;
+line-height: 18px;
+text-align: center;
+border-top: 1px none #A24774;
+border-bottom: 1pxnone #A24774;
+
+	}
+
+.blog{
+	margin											:0px 20px 20px 5px;
+}
+
+.date{  
+	border-top		:1px none #859C14;
+	border-left		:1px none #859C14;
+	border-right	:1px none #859C14;
+	border-bottom	:1px none #859C14;
+	background-position					:0px 0px;
+	color	:#666;
+	font-size										:12px;
+	letter-spacing							:2px;
+	padding	:5px 0px 5px 6px;
+}
+
+.blogbody{
+	background									:#;
+	margin											:0px 0px 10px 0px;
+	padding											:8px;
+	border-left		:1px none #859C14;
+	border-right	:1px none #859C14;
+	border-bottom	:1px none #859C14;
+}
+
+.title{
+	color		:#660000;
+	font-size		:14px;
+	font-weight		:bold;
+	height		:20px;
+	padding		:5px 0px 0px 6px;
+	border-bottom	:1px dashed #660000;
+}
+
+.main{
+	width												:490px;
+	color												:#333300;
+	font-size										:12px;
+	padding	:15px 0px 15px 10px;
+	overflow:auto;
+         line-height:145%;
+}
+
+.main img{
+	margin											:0px 5px 0px 10px;
+}
+
+
+	.main-continues{
+		font-size:10px;
+	}
+
+	.posted{
+		color:#A24774;
+		font-size:10px;
+		text-align:right;
+		margin:0px 30px 15px 0px;
+		width:500px;
+               
+	}
+
+a.aposted{color:#A24774;text-decoration:none;font-size:10px;}
+	a.aposted:link{color:#A24774;text-decoration:none;}
+	a.aposted:visited{text-decoration:none;}
+	a.aposted:active{text-decoration:none;}
+	a.aposted:hover{color:#A24774;text-decoration:underline}
+
+	.menu{
+		color:#000;
+		font-size:12px;
+		text-align:right;
+	}
+
+	.comments-head{
+		color:#000;
+		font-size:12px;
+		font-weight:bold;
+		padding:0px 0px 0px 0px;
+		height:10px;
+	}
+
+	.comments-body{
+		font-size:12px;
+		line-height:135%;
+		margin:20px 0px 15px 13px;
+	}
+
+	.comments-post{
+		color:#000;
+		font-size:12px;
+		text-align:right;
+		margin:0px 0px 25px 0px;
+	}
+
+	.trackback-url{
+		color:#691815;
+		font-size:12px;
+		font-weight:bold;
+		margin:20px 0px 15px 13px;
+		
+               
+	}
+
+	.trackback-body{
+		font-size:12px;
+		line-height:135%;
+		margin:20px 0px 15px 13px;
+		width:500px;
+	}
+
+	.trackback-post{
+		color:#000;
+		font-size:12px;
+		text-align:right;
+		margin:0px 0px 25px 0px;
+		width:500px;
+	}
+
+	a.atrackback-post{color:#A24774;text-decoration:none;}
+	a.atrackback-post:link{color:#A24774;text-decoration:none;}
+	a.atrackback-post:visited{text-decoration:none;}
+	a.atrackback-post:active{font-weight:bold;}
+	a.atrackback-post:hover{color:#A24774;text-decoration:underline}
+
+	label{
+		font-size:10px;
+		font-weight:bold;
+	}
+
+	#author{width:200px;border:1px solid #CCCCCC;}
+	#email{width:200px;border:1px solid #CCCCCC;}
+	#url{width:200px;border:1px solid #CCCCCC;}
+	#text{font-size:12px;width:400px;height:200px;border:1px solid #CCCCCC;}
+
+	.pagetop{
+		font-size:10px;
+		text-align:right;
+		margin:0px 0px 25px 0px;
+	}
+
+	.calendarhead{
+
+                border-top			: 1px none #917058;
+ 	        border-left			: 1px none #917058;
+	        border-right			: 1px none #917058;
+	         background-repeat: no-repeat;
+	         background-position: right center;	
+    	        
+	 	color:#666666;
+		font-size:12px;
+                font-weight:normal;
+		letter-spacing:2px;
+		text-align:center;
+                padding:5px 0px 4px 0px;
+
+	}
+
+	.calendartable{
+		margin:0px auto 20px auto;
+		width:100%;
+		text-align:left;
+		background:#CCCCCC;
+		border-top:1px none #917058;
+		border-left:1px none #917058;
+		border-right:1px none #917058;
+		border-bottom	: 1px none #917058;
+	}
+	
+	.calendarweek{
+		color:#000;
+	font-size:10px;
+	font-weight: bold;
+        
+	}
+
+	.calendarwd{
+	/*	border-left	: 1px solid #efefef;
+ 		border-right	: 1px solid #efefef;*/
+
+                  
+		background	: #fff;
+		color		:#fff;
+		font-size:10px;
+                font-weight:bold;
+		letter-spacing		: 2px;
+
+		padding:2px 0px 2px 5px;
+	}
+	.calendard{
+                   empty-cells:show;
+                   border-top:1px solid #efefef;
+                   border-right:1px solid #efefef;
+                   text-align: center;
+
+                   
+
+          }
+
+
+
+	.calendardbg{}
+
+	.calendar{
+		font-size:10px;
+		padding:2px 2px;
+		position:center;
+	}
+
+	.sidetitle{
+		border-top	: 1px none #0000CC;
+		border-left	: 1px none #0000CC;
+ 		border-right	: 1px none #0000CC;
+		border-bottom	: 1px none #0000CC;
+	         background-repeat: no-repeat;
+	         background-position:right center;	
+		color		: #660000;
+		font-size		:12px;
+                  font-weight       :bold;
+		letter-spacing	:2px;
+		padding:5px 0px 4px 2px;
+
+
+	}
+
+
+	.side{
+		font-size:12px;
+		line-height:140%;
+		margin:0px 0px 10px 0px;
+                padding:8px;
+   
+	}
+
+.side .text{
+	width:80px;
+}
+
+
+
+	a.arss{color:#001F79;text-decoration:underline;}
+	a.arss:link{color:#001F79;text-decoration:underline;}
+	a.arss:visited{text-decoration:underline;}
+	a.arss:active{}
+	a.arss:hover{color:#001F79;text-decoration:none;}
+	
+	.photo{text-align:center;}
+	.nickname{color:#A24774;font-weight:bold;margin:10px 0px;
+text-align:center;}
+	.message{
+font-size:10px;
+color:#333;
+padding:4px;
+background:#ffefd5;
+border:1px solid #dcdcdc;
+}
+
+	.quotetable{}
+	.quote{color:#000;font-size:10px;padding:1px;}
+
+	.blogtimes{margin:0px 0px 16px 0px;text-align:center;}
+
+	.powered{
+		text-align:center;
+		margin:0px 0px 10px 0px;
+	}
+
+	.syndicate{
+		font-size:10px;
+		text-align:center;
+	}
+	.checkers{
+		font-size:10px;
+		margin-top:10px;
+	}
+
+a.adtitle{font-weight:bold;text-decoration:underline;}
+a.adtitle:link{font-weight:bold;text-decoration:underline;}
+a.adtitle:visited{font-weight:bold;text-decoration:underline;}
+a.adtitle:active{font-weight:bold;text-decoration:underline;}
+a.adtitle:hover{font-weight:bold;text-decoration:underline;}
+
+a.addescription{color:black;text-decoration:none;}
+a.addescription:link{color:black;text-decoration:none;}
+a.addescription:visited{color:black;text-decoration:none;}
+a.addescription:active{color:black;text-decoration:none;}
+a.addescription:hover{color:black;text-decoration:none;}
+
+a.adurl{color:blue;text-decoration:none;}
+a.adurl:link{color:#0000FF;text-decoration:none;}
+a.adurl:visited{color:#0000FF;text-decoration:none;}
+a.adurl:active{color:#0000FF;text-decoration:none;}
+a.adurl:hover{color:#0000FF;text-decoration:none;}
+
+a.adld{text-decoration:underline;}
+a.adld:link{text-decoration:underline;}
+a.adld:visited{text-decoration:underline;}
+a.adld:active{text-decoration:underline;}
+a.adld:hover{text-decoration:underline;}
+body.ad{background:#f7p39f;}

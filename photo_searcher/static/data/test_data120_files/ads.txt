@@ -1,0 +1,39 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B3IvTT5C1S4D-Loe06QPKvfGXCOa96xra45unAsCNtwGAxv0UEAEYASDNop0XKAI4AFCXr4Ol-v____8BYInrvYTgE7IBEzY0bG92ZXNvbmcuanVnZW0uanDIAQHaASNodHRwOi8vNjRsb3Zlc29uZy5qdWdlbS5qcC8_ZWlkPTE5M4ACAakCej6iqe_kRj6oAwHoA_sD6AO5AegDtwP1AwAAAMT1AwQAAAA&amp;num=1&amp;sig=AGiWqtzhm1hONPQnahF9yd4QQDyxNb_XgA&amp;client=ca-paperboy-jugem_js&amp;adurl=http://bookshop-m.com"; 
+google_ad.visible_url = "bookshop-m.com"; 
+google_ad.line1 = "book shop m"; 
+google_ad.line2 = "\x26#12510;\x26#12483;\x26#12481;\x26#12450;\x26#12531;\x26#12489;\x26#12459;\x26#12531;\x26#12497;\x26#12491;\x26#12540;\x26#30010;\x26#21475;\x26#35226;\x26#12364;\x26#30330;\x26#34892;"; 
+google_ad.line3 = "\x26#26032;\x26#36914;\x26#27671;\x26#37613;\x26#12398;\x26#20889;\x26#30495;\x26#23478;\x26#12395;\x26#12424;\x26#12427;\x26#20889;\x26#30495;\x26#38598;\x26#12434;\x26#36009;\x26#22770;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BB2dcT5C1S4D-Loe06QPKvfGXCKmJxsMB7fCQtA_AjbcBgMb9FBACGAIgzaKdFygCOABQrJf1if______AWCJ672E4BOyARM2NGxvdmVzb25nLmp1Z2VtLmpwyAEB2gEjaHR0cDovLzY0bG92ZXNvbmcuanVnZW0uanAvP2VpZD0xOTOpAno-oqnv5EY-yAKp4pkEqAMB6AP7A-gDuQHoA7cD9QMAAADE9QMEAAAA&amp;num=2&amp;sig=AGiWqtzhq5KaJewxx6jgqmd-MBJYfaO0ow&amp;client=ca-paperboy-jugem_js&amp;adurl=http://www.apple.com/jp/ilife/iphoto/%3Fcid%3DMAR-JP-GOOGC-MAC"; 
+google_ad.visible_url = "www.apple.com"; 
+google_ad.line1 = "\x26#20889;\x26#30495;\x26#12398;\x26#12371;\x26#12392;\x26#12394;\x26#12425;\x26quot;iPhoto\x26quot;"; 
+google_ad.line2 = "Mac\x26#12391;\x26#20351;\x26#12360;\x26#12427;iPhoto\x26#12394;\x26#12425;\x26#20889;\x26#30495;\x26#12398;\x26#31649;\x26#29702;\x26#12420;"; 
+google_ad.line3 = "\x26#32232;\x26#38598;\x26#12364;\x26#27005;\x26#12375;\x26#12367;\x26#31777;\x26#21336; \x26#35443;\x26#12375;\x26#12367;\x26#12399;\x26#12371;\x26#12385;\x26#12425;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://64lovesong.jugem.jp/%253Feid%253D193%26hl%3Dja%26client%3Dca-paperboy-jugem_js%26adU%3Dbookshop-m.com%26adT%3Dbook%2Bshop%2Bm%26adU%3Dwww.apple.com%26adT%3D%25E5%2586%2599%25E7%259C%259F%25E3%2581%25AE%25E3%2581%2593%25E3%2581%25A8%25E3%2581%25AA%25E3%2582%2589%2526quot%253BiPhoto%2526quot%253B%26gl%3DJP\x26usg\x3dAFQjCNEAUmwzyauEERVlFviNZ7asrtZQBQ"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

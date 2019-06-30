@@ -1,0 +1,177 @@
+@charset "Shift_JIS";
+/* CSS Document */
+
+#portal-bar-all {
+	width: 100%;
+	height: 25px;
+	text-align: center;
+	/*background-image:url(../portal_img/head_bg.gif);
+	background-repeat:repeat-x;*/
+}
+
+#portal-br-main {
+	width: 860px;
+	height:25px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#portal-bar-title {
+	width: 310px;
+	height:25px;
+	float: left;
+}
+
+#portal-bar-title img {
+	border: 0px;
+}
+
+#portal-bar-navi {
+	width: 550px;
+	height: 25px;
+	float: right;
+	text-align: right;
+}
+
+#portal-bar-navi-area {
+	width: 550px;
+	height: 24px;
+	margin-top: 1px;
+	text-align: right;
+	
+}
+
+#portal-bar-navi-area-left {
+	width: 320px;
+	float: left;
+	text-align: right;
+}
+
+#portal-bar-navi-area-right {
+	width: 210px;
+	float: left;
+	text-align: right;
+}
+
+
+/*#portal-bar-navi form {
+	margin: 0px;
+	padding: 0px;
+	padding-top: 2px;
+	text-align: right;
+}*/
+
+/* Basic code - don't modify */
+ 
+ #portal-bar-navi-ul { display: block; margin: 0; padding: 0; padding-right: 6px; position: relative; text-align: left; }
+  #portal-bar-navi-ul li { display: block; list-style: none; margin: 0; padding: 0; float: left; position: relative; text-align: left; }
+  #portal-bar-navi-ul a { display: block; }
+  #portal-bar-navi-ul ul { display: none; position: absolute; left: 0; margin: 0; padding: 0; }
+  * html #portal-bar-navi-ul ul { line-height: 0; } /* IE6 "fix" */
+  	#portal-bar-navi-ul ul a { zoom: 1; } /* IE6/7 fix */
+    #portal-bar-navi-ul ul li { float: none; }
+    #portal-bar-navi-ul ul ul { top: 0; }
+    
+/* Essentials - configure this */
+
+#portal-bar-navi-ul ul { width: 160px; }
+#portal-bar-navi-ul ul ul { left: 161px; }/* 2列目の開始位置 */
+
+/* Everything else is theming */
+
+/* 1列目 */
+#portal-bar-navi-ul {  }
+#portal-bar-navi-ul *:hover {  }
+#portal-bar-navi-ul a { color: #222; font-size: 12px; padding: 6px; line-height: 1; text-decoration: none; }
+  #portal-bar-navi-ul li.hover a { color: #222; }
+  
+/* 2列目 */
+
+  #portal-bar-navi-ul ul { top: 25px; border-bottom: 1px solid #ccc; border-left: 1px solid #ccc; border-right: 1px solid #ccc; }
+    #portal-bar-navi-ul ul li a { background-color: #fff; color: #222; text-decoration: none; }
+      #portal-bar-navi-ul ul a.hover { background-color: #fff; color: #222; text-decoration: underline; }
+   #portal-bar-navi-ul ul a { border-bottom: 1px solid white; border-right: none; opacity: 0.9; filter: alpha(opacity=90); }
+/* #portal-bar-navi-ul ul a { border-bottom: none; } - I also needed this for IE6/7 */
+
+/* ポータルバー ニュース */
+.bg-portal-bar-navi-tsc-news {
+	background-image: url(../portal_img/tsc_logo.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+.bg-portal-bar-navi-tfn-news {
+	background-image: url(../portal_img/tfn_logo.gif);
+	background-position: 2px 2px;
+	background-repeat: no-repeat;
+	border-top: 1px solid #ccc;
+}
+
+
+#portal-bar-navi-ul ul.portal-bar-navi-news { width: 240px; }
+#portal-bar-navi-ul ul.portal-bar-navi-news li {  }
+#portal-bar-navi-ul ul.portal-bar-navi-news li a { background-color: #fff; color: #222; text-decoration: none; }
+#portal-bar-navi-ul ul.portal-bar-navi-news a {
+	padding: 0px 0px 0px 50px;
+	font-size: 12px;
+	line-height: 16px;
+	border-bottom: none;/* border-right: none; opacity: 0.9; filter: alpha(opacity=90);*/
+}
+#portal-bar-navi-ul ul.portal-bar-navi-news a.hover {
+	text-decoration: underline;
+}
+
+.portal-bar-navi-icon-news {
+	background-image: url(http://www.takkyu.ne.jp/emoji/memo.gif);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.portal-bar-navi-icon-rank {
+	background-image: url(http://www.takkyu.ne.jp/emoji/crown.gif);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.portal-bar-navi-icon-service {
+	background-image: url(http://www.takkyu.ne.jp/emoji/pc.gif);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+/* ポータルバー ランキング */
+
+#portal-bar-navi-ul ul.portal-bar-navi-rank-ul { width: 180px; }
+#portal-bar-navi-ul ul.portal-bar-navi-rank-ul li {  }
+#portal-bar-navi-ul ul.portal-bar-navi-rank-ul a { background-color: #fff; color: #222; text-decoration: none; }
+#portal-bar-navi-ul ul.portal-bar-navi-rank-ul a {
+	padding: 3px 0px 3px 8px;
+	font-size: 12px;
+	line-height: 16px;
+	border-bottom: none;/* border-right: none; opacity: 0.9; filter: alpha(opacity=90);*/
+}
+#portal-bar-navi-ul ul.portal-bar-navi-rank-ul a.hover {
+	text-decoration: underline;
+}
+
+/* ブログ記事検索 */
+.portal-bar-search {
+	margin: 0px;
+	padding: 0px;
+}
+
+portal-bar-search input {
+	margin: 0px;
+}
+
+/* バナー */
+.banner-blog-slide234 {
+	text-align: center;
+	width: 234px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.banner-blog-slide234 img {
+	border: 0px;
+}

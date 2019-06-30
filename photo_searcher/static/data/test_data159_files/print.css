@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* VERSION=06070701 */
+
+#content {
+	padding: 0;
+}
+
+#header {
+	border-bottom: none;
+	margin-bottom: 0;
+	height: auto;
+	background: none;
+}
+
+#logo {
+	background: none;
+}
+
+#logo a {
+	display: inline;
+	padding-left: 0;
+	height: auto;
+	width: auto;
+	background: none;
+}
+
+#content {
+	padding: 0;
+}
+
+.keywordPage .colAB {
+	padding: 0;
+}
+
+.keywordPage .colA {
+	float: none;
+}
+
+#message,
+#remote,
+#hSearch,
+#navMain, #navSub,
+.keywordPage .colB {
+	display: none;
+}

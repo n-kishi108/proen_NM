@@ -1,0 +1,366 @@
+/* ---------------------------------------------------- */
+/* -----   skin  : cuteblog_03                    ----- */
+/* -----   author: みる                           ----- */
+/* -----   blog  : * cuteblog *                   ----- */
+/* -----   url   : http://cuteblog.blog15.fc2.com ----- */
+/* ---------------------------------------------------- */
+
+/* ---------------------------------------- */
+/*      ★　　　全体の設定　　　★　　　　　*/
+/* ---------------------------------------- */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+HTML {
+	/* --　▼スクロールバーの設定▼　--*/
+	scrollbar-track-color: #FFFFFF;
+    scrollbar-face-color: #FFFFFF;
+    scrollbar-darkshadow-color: #FFFFFF;
+    scrollbar-highlight-color: #808080;
+    scrollbar-3dlight-color: #FFFFFF;
+    scrollbar-arrow-color: #808080;
+}
+
+body {
+	color: #666;
+	font-size: 12px;
+	background-color: #fff;
+	background-image: url('http://blog-imgs-29.fc2.com/c/u/t/cuteblog/bg_dot_01.gif');
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+input, textarea {
+	border: 1px solid #999;
+	font-size: 12px;
+}
+
+form {
+	padding: 0px;
+	margin: 0px;
+}
+
+	/* -- ▼全体の外枠・広さの設定▼ -- */
+.container { 
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 770px;
+	background-color: #fff;
+	border: 1px solid #bbb;
+}
+
+
+/* ---------------------------------------- */
+/*      ★　　リンクの設定　　　★　　　　　*/
+/* ---------------------------------------- */
+
+a:link 		{color: #576A86; text-decoration: underline;}
+a:visited 	{color: #576A86; text-decoration: underline;}
+a:hover 	{color: #BF5E5E; text-decoration: underline;}
+
+
+/* ---------------------------------------- */
+/*     ★　タイトルバナーの設定　　★　 　　*/
+/* ---------------------------------------- */
+
+.banner {
+	width: 770px;
+	padding: 0px;
+	clear: both;
+	margin: 0px 0px 15px 0px;
+	
+}
+.banner_title {
+	text-align: left;
+	border-bottom: 1px dashed #888;
+	background-color: #d7e2ef;
+}
+
+.banner_navi {
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 0px 2px 10px;
+	border-bottom: 1px solid #ccc;
+	background-color: #eee;
+}
+
+	/* -- ▼ブログタイトル▼ --*/
+.blog_title {
+	padding: 10px 0px 5px 25px;
+	font-size: 16px;
+	margin: 0px;
+	text-decoration: none;
+}
+	
+	/* -- ▼ブログ説明▼ --*/
+.intro {
+	font-weight: normal;
+	color: #666;
+	padding: 0px 0px 10px 25px;
+	font-size: 13px;
+	margin: 0px;
+}
+
+
+/* ---------------------------------------- */
+/*     ★　左メニュー全体の設定　　★　 　　*/
+/* ---------------------------------------- */
+
+.side_left {
+	float: left;
+	overflow:hidden;
+	width: 160px;
+}
+
+
+/* ---------------------------------------- */
+/*      ★　右メニュー全体の設定　　★　　　*/
+/* ---------------------------------------- */
+
+.side_right {
+	float: left;
+	overflow:hidden;
+	width: 160px;
+}
+
+
+/* ---------------------------------------- */
+/*       ★　中央記事部分の設定　　★ 　　　*/
+/* ---------------------------------------- */
+
+.main {
+	float: left;
+	overflow:hidden;
+	width: 608px;
+}
+
+
+/* ------- ▼記事の外枠部分▼ ------- */
+.entryBodybox {
+	width: 598px;
+	margin: 0px 5px 10px 5px;
+	text-align: left;
+	border: 1px solid #bbb;
+}
+
+
+.entry_title {
+	font-size: 13px;
+	letter-spacing : 1px;
+	padding: 3px 5px 3px 10px;
+	border-left: 5px solid #8593A9;
+	border-bottom: 1px dotted #8593A9;
+	background-color:#eee;
+}
+.entry_title a, .entry_title a:link, .entry_title a:visited, .entry_title a:active, .entry_title a:hover { text-decoration: none;}
+
+.entry_body {
+	font-size: 12px;
+	line-height: 150%;
+	font-family: "Verdana", "ＭＳ ゴシック", "Osaka";
+	margin: 15px 10px 5px 10px;
+}
+
+.entry_state {
+	font-size: 12px;
+	color: #666666;
+	font-family: "Verdana", "ＭＳ ゴシック", "Osaka";
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+	clear: both;
+}
+
+	/* -- ▼コメントタイトル▼ -- */
+.comtitle {
+	font-weight: bold;
+	color:#666;
+	padding-left: 10px;
+}
+
+	/* -- ▼トラックバックタイトル▼ -- */
+.tbtitle {
+	font-weight: bold;
+	color:#666;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+
+	/*　-- ▼引用▼ --　*/
+blockquote {
+	font-size: 12px;
+	margin: 5px;
+	padding: 5px;
+	background-color:#f0f0f0;
+	border-top: 1px solid #f0f0f0;
+	border-right: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+	border-left: 3px solid #cdcdcd;
+
+}
+
+
+.nav {
+	margin-bottom: 10px;
+}
+
+/* ---------------------------------------- */
+/*       ★　サイドメニューの設定　　★ 　　*/
+/* ---------------------------------------- */
+
+.sideSet {
+	width: 150px;
+	margin: 0px 5px 20px 5px;
+	text-align: left;
+	border-left: 1px solid #bbb;
+	border-right: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+}
+
+.sidetitle {
+	font-family: "Verdana", "ＭＳ ゴシック", "Osaka";
+	font-size: 12px;
+	font-weight: normal;
+	color: #444;
+	text-align: center;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px dotted #888;
+	background-color: #d7e2ef;
+	padding: 4px 0px 2px 5px;
+}
+
+.sidetext {
+		padding: 7px 2px 8px 2px;
+		font-size: 12px;
+		color: #333;
+		line-height: 140%;
+	}
+	
+.sidetext ul {
+		padding: 0px;
+		margin: 0px;
+		list-style-type: none;
+	}
+	
+.sidetext li {
+		background-image: url(http://blog-imgs-29.fc2.com/c/u/t/cuteblog/point3.gif);
+		background-repeat: no-repeat;
+		background-position: 3px 5px ;
+		color: #666;
+		padding: 0px 0px 0px 15px;
+		margin: 0px;
+	}
+
+/* 自己紹介画像 */
+.prfimg {
+	text-align: center;
+}
+
+
+/* ---------------------------------------- */
+/*     ★　ページトップへナビの設定　★ 　　*/
+/* ---------------------------------------- */
+
+.pagetop {
+	color: #333;
+	font-size: 11px;
+	text-align: right;
+	margin: 0px 0px 20px 0px;
+}
+
+
+/* ---------------------------------------- */
+/*            ★　検索ボックス　★      　　*/
+/* ---------------------------------------- */
+
+.search {
+	font-size: 12px;
+}
+
+.search input {
+	border: 1px solid #666;
+}
+
+.btn {
+	font-size: 12px;
+	color: #666;
+}
+
+
+/* ---------------------------------------- */
+/*           ★　カレンダー部分　★     　　*/
+/* ---------------------------------------- */
+
+.calendar {
+	width: 144px;
+	font-size: 10px;
+	color: #333;
+	margin: 0px;
+	padding: 0px;
+}
+
+.calendar caption {
+	font-size: 10px;
+}
+
+.cal {
+	color: black;
+	font-size: 10px;
+	font-family: Verdana;
+	text-align: center;
+	margin: 0px;
+	width: 20px;
+	height: 15px;
+}
+
+.cal_sun {
+	color: #c00;
+	font-size: 10px;
+	font-family: Verdana;
+	text-align: center;
+	margin: 0px;
+	width: 20px;
+	height: 15px;
+}
+
+.cal_sat {
+	color: #5982b2;
+	font-size: 10px;
+	font-family: Verdana;
+	text-align: center;
+	margin: 0px;
+	width: 20px;
+	height: 15px;
+}
+
+
+/* -- ▼プラグイン内（日曜と土曜）設定▼ -- */
+
+#sun {
+	color: #c00;
+}
+
+#sat {
+	color: #5982b2;
+}
+
+
+/* ---------------------------------------- */
+/*           ★　フッダー部分　★       　　*/
+/* ---------------------------------------- */
+
+.footer {
+	clear: both;
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing : 1px;
+	margin: 30px 0px 0px 0px;
+	padding: 3px 0px 3px 0px;
+	background-color:#eee;
+	border-top:1px solid #bbb;
+}

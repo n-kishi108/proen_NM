@@ -1,0 +1,6 @@
+ad_cpc([
+{'title': '←コレにハマる４０・５０代が急増中※注文殺到※話題のサプリ｜ライオン研究員の偶然の発見から大ヒット商品誕生！毎月１０，０００人が試している大人気サプリ！腸まで届くラクトフェリン＜ライオン＞', 'url': 'http://bizad.nikkeibp.co.jp/event.ng/Type=click&Segments=30566,32273,32274&Targets=31425&Values=30,46,50,60,72,81,91,100,110,150,308,818,25091,26029,26900,29644,31144,31189,31205,31206,31238,31240&RawValues=SPDESC%2Cmulti_submarine_cpc%2CSITEID%2CMulti%2CBROWSERVERID%2CMozilla%25205.0%2CTIMEID%2C1270439691%2CNEUIPADDRESSID%2C133.101.35.226&TargetID=31425&FlightID=86057&AdID=103707&Redirect=http://c.p-advg.com/adpCnt/r%3Fmid%3D869158%26lid%3D1', 'image': 'http://bizad.nikkeibp.co.jp/image/ng_bpnet/cpcsm_lion_100401.gif'},
+{'title': '外国人選手と英語で会話できた！（石川遼くん）｜念願のマスターズ出場を果たした石川遼選手。アメリカで「君は英語をちゃんと話せるね」と言われたことがすごくうれしかったそうです。彼が英会話をマスターした驚きの方法とは？', 'url': 'http://bizad.nikkeibp.co.jp/event.ng/Type=click&Segments=30566,32273,32274&Targets=31425&Values=30,46,50,60,72,81,91,100,110,150,308,818,25091,26029,26900,29644,31144,31189,31205,31206,31238,31240&RawValues=SPDESC%2Cmulti_submarine_cpc%2CSITEID%2CMulti%2CBROWSERVERID%2CMozilla%25205.0%2CTIMEID%2C1270439691%2CNEUIPADDRESSID%2C133.101.35.226&TargetID=31425&FlightID=85896&AdID=103470&Redirect=http://www.espritline.co.jp/ad_st/a/244209/', 'image': 'http://bizad.nikkeibp.co.jp/image/ng_bpnet/cpcsm__espritline_100401.gif'},
+ 
+ 
+{}]);

@@ -1,0 +1,40 @@
+var plugin = (navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"]) ? navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin : 0;
+
+var winIE = navigator.userAgent && navigator.userAgent.indexOf("MSIE")>=0 && navigator.userAgent.indexOf("Windows")>=0;
+
+var ff3 = navigator.userAgent && navigator.userAgent.indexOf("Firefox/3")>=0;
+
+if ( plugin ) {
+    if (ff3 && parseInt(plugin.description.match(/\d+\.\d+/)) == 8) {
+        plugin = false;
+    } else {
+        plugin = parseInt(plugin.description.match(/\d+\.\d+/)) >= 6;
+    }
+} else if(winIE) {
+    document.write('<SCR' + 'IPT LANGUAGE=VBScript> \n');
+    document.write('on error resume next \n');
+    document.write('plugin = ( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.6")))\n');
+    document.write('</SCR' + 'IPT> \n');
+}
+
+if (plugin) {
+    document.write('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"');
+    document.write('codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6" width="300" height="250">');
+    document.write('<param name="movie" value="http://cre.adjust-net.jp/pb/01/1d/72985.swf">');
+    document.write('<param name="play" value="true"><param name="loop" value="true"><param name="menu" value="false">');
+    document.write('<param name="quality" value="high"><param name="scale" value="showall">');
+    document.write('<param name="align" value="t"><param name="salign" value="t">');
+    document.write('<param name="flashvars" value="clickTAG=http%3A%2F%2Fcou.adjust-net.jp%2Fclick%2Fpegasus%3Fii%3D0%26li%3D27923bdba25f13d937d710ce92e1be0c%26et%3D2%26cf%3D1%26f%3D13227%26ce%3D72985%26sf%3D1%26hf%3D1%26lu%3Dhttp%253A%252F%252Fac.ebis.ne.jp%252Ftr_set.php%253Fargument%253DGM6veSGA%2526ai%253Da4baaadbe217ae%26mi%3D23721%26fmi%3D0%26am%3D2%26ef%3D0%26me%3D65%26u%3D96A285BB8F946E1F1A92C38C5F5DB234%26ci%3D133.51.2.174"><param name="base" value=".">');
+    document.write('<param name="bgcolor" value="">');
+    document.write('<param name="codetype" value="application/x-shockwave-flash">');
+    document.write('<param name="border" value="0"><param name="frameborder" value="0">');
+    document.write('<param name="wmode" value="opaque">');
+    document.write('<param name="type" value="application/x-shockwave-flash">');
+
+    document.write('<embed src=\"http://cre.adjust-net.jp/pb/01/1d/72985.swf\" pluginspage=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6\" width=\"300\" height=\"250\" border=\"0\" frameborder=\"0\" type=\"application/x-shockwave-flash\" swliveconnect=\"true\" play=\"true\" loop=\"true\" menu=\"false\" quality=\"high\" scale=\"showall\" align=\"t\" salign=\"t\" flashvars=\"clickTAG=http%3A%2F%2Fcou.adjust-net.jp%2Fclick%2Fpegasus%3Fii%3D0%26li%3D27923bdba25f13d937d710ce92e1be0c%26et%3D2%26cf%3D1%26f%3D13227%26ce%3D72985%26sf%3D1%26hf%3D1%26lu%3Dhttp%253A%252F%252Fac.ebis.ne.jp%252Ftr_set.php%253Fargument%253DGM6veSGA%2526ai%253Da4baaadbe217ae%26mi%3D23721%26fmi%3D0%26am%3D2%26ef%3D0%26me%3D65%26u%3D96A285BB8F946E1F1A92C38C5F5DB234%26ci%3D133.51.2.174\" base=\".\" bgcolor=\"\"  codetype=\"application/x-shockwave-flash\" autostart=\"true\" wmode=\"opaque\"></embed>');
+    document.write('</object>');
+    document.write('<img style=\"position:absolute;\" src=\"http://cou.adjust-net.jp/impression/unicorn?ii=0&li=27923bdba25f13d937d710ce92e1be0c&et=1&cf=1&f=13227&ce=72985&sf=1&hf=1&lu=http%3A%2F%2Fac.ebis.ne.jp%2Ftr_set.php%3Fargument%3DGM6veSGA%26ai%3Da4baaadbe217ae&mi=23721&fmi=0&am=2&ef=0&me=65&u=96A285BB8F946E1F1A92C38C5F5DB234&ci=133.51.2.174\" border=\"0\" width=\"1\" height=\"1\" />');
+} else {
+    document.write('<a href=\"' + unescape('http%3A%2F%2Fcou.adjust-net.jp%2Fclick%2Fpegasus%3Fii%3D0%26li%3D27923bdba25f13d937d710ce92e1be0c%26et%3D2%26cf%3D1%26f%3D13227%26ce%3D72985%26sf%3D1%26hf%3D1%26lu%3Dhttp%253A%252F%252Fac.ebis.ne.jp%252Ftr_set.php%253Fargument%253DGM6veSGA%2526ai%253Da4baaadbe217ae%26mi%3D23721%26fmi%3D0%26am%3D2%26ef%3D0%26me%3D65%26u%3D96A285BB8F946E1F1A92C38C5F5DB234%26ci%3D133.51.2.174')+'\" target=\"_blank\" onmouseover=\"window.status=\'\'; return true;\"><img src=\"http://cre.adjust-net.jp/pb/01/1d/72985a.gif\" width=\"300\" height=\"250\" alt=\"\" title=\"\" border=\"0\"/></a>');
+    document.write('<img style=\"position:absolute;\" src=\"http://cou.adjust-net.jp/impression/unicorn?ii=0&li=27923bdba25f13d937d710ce92e1be0c&et=1&cf=1&f=13227&ce=72985&sf=1&hf=1&lu=http%3A%2F%2Fac.ebis.ne.jp%2Ftr_set.php%3Fargument%3DGM6veSGA%26ai%3Da4baaadbe217ae&mi=23721&fmi=0&am=2&ef=0&me=65&u=96A285BB8F946E1F1A92C38C5F5DB234&ci=133.51.2.174\" border=\"0\" width=\"1\" height=\"1\" />');
+}

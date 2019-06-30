@@ -1,0 +1,11 @@
+document.write('<ul><li><a href="http://www.educ.yonezawa.yamagata.jp/kojo/sb/log/">校長先生より</a> (0)</li>\n');
+document.write('<li><a href="http://www.educ.yonezawa.yamagata.jp/kojo/sb/log/">保健の先生より</a> (0)</li>\n');
+document.write('<li><a href="http://www.educ.yonezawa.yamagata.jp/kojo/sb/log/">学校より</a> (0)</li>\n');
+document.write('<li><a href="http://www.educ.yonezawa.yamagata.jp/kojo/sb/log/6/">6学年より</a> (1)</li>\n');
+document.write('<li><a href="http://www.educ.yonezawa.yamagata.jp/kojo/sb/log/5/">5学年より</a> (0)</li>\n');
+document.write('<li><a href="http://www.educ.yonezawa.yamagata.jp/kojo/sb/log/4/">4学年より</a> (1)</li>\n');
+document.write('<li><a href="http://www.educ.yonezawa.yamagata.jp/kojo/sb/log/3/">3学年より</a> (0)</li>\n');
+document.write('<li><a href="http://www.educ.yonezawa.yamagata.jp/kojo/sb/log/2/">2学年より</a> (1)</li>\n');
+document.write('<li><a href="http://www.educ.yonezawa.yamagata.jp/kojo/sb/log/1/">1学年より</a> (2)</li>\n');
+document.write('<li><a href="http://www.educ.yonezawa.yamagata.jp/kojo/sb/log/admin/" title="（ＨＰ・ＢＬＯＧの管理者です）">管理者より</a> (2)</li>\n');
+document.write('</ul>\n');

@@ -1,0 +1,228 @@
+#topheader {
+	
+}
+#headline {
+	
+}
+#searcharea {
+	
+}
+BODY {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #e7f1f8; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: sans-serif; COLOR: #333; FONT-SIZE: 100%; PADDING-TOP: 0px
+}
+TABLE {
+	FONT-FAMILY: sans-serif; COLOR: #333; FONT-SIZE: 100%
+}
+H1 {
+	MARGIN: 0px; FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+H2 {
+	MARGIN: 0px; FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+H3 {
+	MARGIN: 0px; FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+HR.end {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; PADDING-TOP: 0px
+}
+DIV.end {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; PADDING-TOP: 0px
+}
+#contents {
+	BORDER-BOTTOM: #fff 2px solid; POSITION: absolute; BORDER-LEFT: #fff 2px solid; BACKGROUND-COLOR: #fff; MARGIN: 0px 0px 0px -379px; WIDTH: 758px; BORDER-TOP: #fff 2px solid; BORDER-RIGHT: #fff 2px solid; LEFT: 50%
+}
+#header {
+	WIDTH: 758px; BACKGROUND: url(images/bg_head.jpg) repeat-x; HEIGHT: 106px
+}
+#header .title {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 20px; WIDTH: 293px; PADDING-RIGHT: 5px; FLOAT: left; HEIGHT: 42px; PADDING-TOP: 30px
+}
+#header .link {
+	TEXT-ALIGN: right; MARGIN: 70px 10px 0px 0px; WIDTH: 150px; FLOAT: right; HEIGHT: 20px; FONT-SIZE: 90%
+}
+#header .link A:link {
+	BACKGROUND-COLOR: transparent; COLOR: #0000ff; TEXT-DECORATION: none
+}
+#header .link A:visited {
+	BACKGROUND-COLOR: transparent; COLOR: #0000ff; TEXT-DECORATION: none
+}
+#header .link A:active {
+	BACKGROUND-COLOR: transparent; COLOR: #7fbee6; TEXT-DECORATION: none
+}
+#header .link A:hover {
+	BACKGROUND-COLOR: transparent; COLOR: #7fbee6; TEXT-DECORATION: none
+}
+#menu {
+	BORDER-BOTTOM: #6aa9d1 1px solid; BACKGROUND-COLOR: #d9edf1; WIDTH: 758px; HEIGHT: 1.5em; BORDER-TOP: #6aa9d1 1px solid
+}
+#menu UL {
+	POSITION: absolute; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#menu LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-TOP: 0px
+}
+#menu A {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; FLOAT: left; BORDER-RIGHT: #6aa9d1 1px solid; PADDING-TOP: 2px
+}
+#menu A:link {
+	BACKGROUND-COLOR: #d9edf1; COLOR: #006699; TEXT-DECORATION: none
+}
+#menu A:visited {
+	BACKGROUND-COLOR: #d9edf1; COLOR: #006699; TEXT-DECORATION: none
+}
+#menu A:active {
+	BACKGROUND-COLOR: #eff8fa; COLOR: #7fbee6; TEXT-DECORATION: none
+}
+#menu A:hover {
+	BACKGROUND-COLOR: #eff8fa; COLOR: #7fbee6; TEXT-DECORATION: none
+}
+#footer {
+	
+}
+#footer A:link {
+	COLOR: #006699; TEXT-DECORATION: none
+}
+#footer A:visited {
+	COLOR: #006699; TEXT-DECORATION: none
+}
+#footer A:active {
+	COLOR: #7fbee6; TEXT-DECORATION: none
+}
+#footer A:hover {
+	COLOR: #7fbee6; TEXT-DECORATION: none
+}
+#footer .link {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-SIZE: 90%; PADDING-TOP: 0px
+}
+#footer .link A {
+	BORDER-BOTTOM: #6aa9d1 1px solid; BORDER-LEFT: #6aa9d1 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; FLOAT: left; BORDER-TOP: #6aa9d1 1px solid; MARGIN-RIGHT: 3px; BORDER-RIGHT: #6aa9d1 1px solid; PADDING-TOP: 2px
+}
+#footer .office {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: right; FONT-SIZE: 75%; PADDING-TOP: 0px
+}
+#footer .copyright {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #5fa3ce; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: #fff; FONT-SIZE: 85%; PADDING-TOP: 10px
+}
+#bodycont {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; CLEAR: both; PADDING-TOP: 10px
+}
+#bodycont A:link {
+	COLOR: #0000ff; TEXT-DECORATION: none
+}
+#bodycont A:visited {
+	COLOR: #0000ff; TEXT-DECORATION: none
+}
+#bodycont A:active {
+	COLOR: #7fbee6; TEXT-DECORATION: none
+}
+#bodycont A:hover {
+	COLOR: #7fbee6; TEXT-DECORATION: none
+}
+#bodycont #breadcrumb {
+	MARGIN: 2px; FONT-SIZE: 90%
+}
+#bodycont .title {
+	BORDER-BOTTOM: #b3cfe1 1px solid; BORDER-LEFT: #b3cfe1 1px solid; PADDING-BOTTOM: 5px; MARGIN: 5px 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: url(images/bg_title.jpg) repeat-x 50% bottom; COLOR: #006699; FONT-SIZE: 110%; BORDER-TOP: #b3cfe1 1px solid; BORDER-RIGHT: #b3cfe1 1px solid; PADDING-TOP: 5px
+}
+#bodycont .subtitle {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #006699; FONT-SIZE: 100%; PADDING-TOP: 5px
+}
+#bodycont TABLE.searchfor {
+	BACKGROUND-COLOR: #999; WIDTH: 735px; MARGIN-BOTTOM: 10px
+}
+#bodycont TABLE.searchfor TH {
+	TEXT-ALIGN: left; BACKGROUND-COLOR: #d9edf1; FONT-WEIGHT: normal
+}
+#bodycont TABLE.searchfor TD {
+	BACKGROUND-COLOR: #fff
+}
+#bodycont .searchresult {
+	
+}
+#bodycont .searchresult .top {
+	TEXT-ALIGN: left
+}
+#bodycont .searchresult .bottom {
+	TEXT-ALIGN: right
+}
+#bodycont .searchresult TABLE {
+	BACKGROUND-COLOR: #999; WIDTH: 735px
+}
+#bodycont .searchresult TABLE TH {
+	TEXT-ALIGN: left; BACKGROUND-COLOR: #ddd; FONT-WEIGHT: normal
+}
+#bodycont .searchresult TABLE TH .sort {
+	MARGIN: 0px 3px; FONT-SIZE: 85%
+}
+#bodycont .searchresult TABLE TD {
+	BACKGROUND-COLOR: #fff
+}
+#bodycont .searchresult .name {
+	
+}
+#bodycont .searchresult .uni {
+	MARGIN-LEFT: 3em
+}
+#bodycont .searchresult .study {
+	MARGIN-LEFT: 3em
+}
+#bodycont .searchresult .dep {
+	MARGIN-LEFT: 3em
+}
+#bodycont .detail {
+	MARGIN: 5px 0px
+}
+#bodycont .detail TABLE {
+	BACKGROUND-COLOR: #999; WIDTH: 735px
+}
+#bodycont .detail TABLE TH {
+	TEXT-ALIGN: left; BACKGROUND-COLOR: #ddd; FONT-WEIGHT: normal
+}
+#bodycont .detail TABLE TD {
+	BACKGROUND-COLOR: #fff
+}
+#bodycont .navi {
+	TEXT-ALIGN: right; MARGIN: 5px 0px; FONT-SIZE: 90%
+}
+#bodycont .contentslist {
+	
+}
+#bodycont .contentslist .top {
+	TEXT-ALIGN: left
+}
+#bodycont .contentslist .bottom {
+	TEXT-ALIGN: right
+}
+#bodycont .contentslist .contentsdata {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+#bodycont .contentslist .contentsdata .date {
+	COLOR: #999; FONT-SIZE: 90%
+}
+#bodycont .contentslist .contentsdata .ctitle {
+	FONT-SIZE: 110%
+}
+#bodycont .contentslist .contentsdata .summary {
+	PADDING-LEFT: 20px
+}
+#bodycont .contentsdetail {
+	
+}
+#bodycont .contentsdetail .contentsdata {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+#bodycont .contentsdetail .date {
+	TEXT-ALIGN: right; COLOR: #999; FONT-SIZE: 90%
+}
+#bodycont .contentsdetail .summary {
+	PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #eee; MARGIN: 5px 10px 10px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #666; PADDING-TOP: 5px
+}
+#bodycont .contentsdetail .image {
+	MARGIN: 10px; FLOAT: right
+}
+#bodycont .contentsdetail .text {
+	LINE-HEIGHT: 130%
+}
+#bodycont .contentsdetail .link {
+	MARGIN: 10px
+}

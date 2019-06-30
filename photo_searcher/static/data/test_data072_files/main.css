@@ -1,0 +1,1271 @@
+@charset "shift_jis";
+
+/*
+-----------------------------------------------
+▼基本デザイン
+----------------------------------------------- */
+
+* {
+margin:0;
+padding:0;
+line-height:1.4em;
+}
+
+/* Win IEちらつき防止▼ */
+* html {
+filter:expression(document.execCommand("BackgroundImageCache", false, true));
+}
+
+body {
+margin:0 10px 0 10px;
+background: #FFFF00 url('http://www2.daily.co.jp/images/index/shadow.jpg') ;
+}
+
+body, th, td {
+font-family:'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ','ＭＳ Ｐゴシック', sans-serif;
+color:#333;
+}
+
+h1 {
+margin: 0;
+text-indent: -9999px;
+}
+
+h2 {
+margin: 0;
+padding: 0;
+font-size: 14px;
+color: #333333;
+text-decoration: none;
+}
+
+h3 {
+margin: 0;
+padding: 0 0 3px 0;
+font-size: 13px;
+color: #333333;
+line-height: 16px;
+text-decoration: none;
+font-weight: normal;
+}
+
+ul,ol,li {
+list-style-type:none;
+}
+
+table {
+border-collapse:collapse;
+}
+
+img {
+border:none;
+}
+
+a {
+font-family:'Lucida Grande','Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ','ＭＳ Ｐゴシック', sans-serif;
+}
+
+#head a:link,
+#head a:visited {
+text-decoration:none;
+}
+
+#head a:hover,
+#head a:active {
+color:#903;
+text-decoration:underline;
+}
+
+a,
+a:visited {
+text-decoration: none;
+color: #333333;
+}
+
+a:hover {
+color: #000066;
+text-decoration: underline;
+}
+
+#main_news_l a {
+text-decoration: underline;
+color: #0000FF;
+}
+
+#main_news_l a:hover {
+color: #FF0000;
+text-decoration: underline;
+}
+
+.cboth {
+clear:both;
+height:0;
+}
+
+/* IE 用▼ */
+* html .cboth {
+height:.1em;
+overflow:hidden;
+margin-top:-.1em;
+}
+
+#wrapper1 {
+width:100%;
+}
+
+/*clearfix*/
+
+.sidebox .sidelist,
+.sidebox2 .sidelist,
+.newslist_shimen,
+.newslist_sokuhou,
+.back_number,
+#side,
+.contentsbox,
+.rectangle,
+.rectangle_horse,
+.right_box_body,
+#header_top,
+#m_menu,
+#pan_l,
+#contentsmenu,
+#main_news,
+.midashi_line,
+.rectangle,
+.photo_navi,
+.to_article,
+.plus_photo,
+#pr,
+#pr2,
+.banner_468_60 {
+display:inline-block;
+}
+.sidebox .sidelist,
+.sidebox2 .sidelist,
+.newslist_shimen,
+.newslist_sokuhou,
+.back_number,
+#side,
+.contentsbox,
+.rectangle,
+.rectangle_horse,
+.right_box_body,
+#header_top,
+#m_menu,
+#pan_l,
+#contentsmenu,
+#main_news,
+.midashi_line,
+.rectangle,
+.photo_navi,
+.to_article,
+.plus_photo,
+#pr,
+#pr2,
+.banner_468_60 {
+display:block;
+}
+.sidebox2 .sidelist:after,
+.sidebox .sidelist:after,
+.newslist_shimen:after,
+.newslist_sokuhou:after,
+.back_number:after,
+#side:after,
+.contentsbox:after,
+.rectangle:after,
+.rectangle_horse:after,
+.right_box_body:after,
+#header_top:after,
+#m_menu:after,
+#pan_l:after,
+#contentsmenu:after,
+#main_news:after,
+.midashi_line:after,
+.rectangle:after,
+.photo_navi:after,
+.to_article:after,
+.plus_photo:after,
+#pr:after,
+#pr2:after,
+.banner_468_60:after {
+content: url(http://www2.daily.co.jp/images/basic/spacer.gif);
+display:block;
+clear:both;
+height:0;
+}
+
+/*
+-----------------------------------------------
+▼ヘッダ
+----------------------------------------------- */
+#header {
+margin: 0;
+min-width:830px;
+padding: 0;
+}
+
+#header_top {
+margin: 0;
+padding: 0;
+border: none;
+background: #000000 url('http://www2.daily.co.jp/images/index/header_top_r.jpg') repeat-x;
+width: 100%;
+}
+
+#header_top:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+#header_top_l {
+float: left;
+margin: 0;
+padding: 0;
+background: url('http://www2.daily.co.jp/images/index/header_logo.jpg') no-repeat;
+width: 290px;
+height: 70px;
+}
+
+#header_top_r {
+background: url('http://www2.daily.co.jp/images/index/header_top_r.jpg') repeat-x;
+height: 70px;
+overflow: hidden;
+}
+
+#icon {
+float: right;
+width: 90px;
+margin: 0;
+padding: 9px 8px 0 0;
+}
+
+#header_top_r_menulist ul {
+padding-top: 10px;
+margin: 0;
+list-style-type: none;
+}
+
+#header_top_r_menulist li {
+background: url('http://www2.daily.co.jp/images/index/ya_header.gif') no-repeat;
+background-position: 0em 0.1em;
+display: block;
+float:right;
+padding: 0px 4px 0 10px;
+margin: 0 0 0 10px;
+font-size:small;
+}
+
+#google {
+margin-right: 98px;
+padding: 0;
+margin: 0;
+font-size: 12px;
+color: #000000;
+}
+
+#google ul {
+padding-top: 0;
+margin: 0;
+list-style-type: none;
+}
+
+#google li {
+display: block;
+float: right;
+padding: 6px 4px 0 0;
+margin: 0;
+}
+
+#google .input { 
+height: 14px;
+border: 1px solid;
+font-size: 12px;
+}
+
+#google .input2 { 
+height: 17px;
+border: 1px solid ;	
+}
+
+#google li.font {
+padding-top: 12px;
+font-size: 12px;
+}
+
+#google li.font2 {
+padding-top: 12px;
+font-size: 12px;
+}
+
+.banner {
+	text-align: center;
+	background: #E6E8ED;
+	padding: 5px 0;
+}
+
+/*
+-----------------------------------------------
+▼ナビ
+----------------------------------------------- */
+
+#m_menu {
+clear:both;
+border-top: 1px solid #333333;
+background: #CCCCCC url(http://www2.daily.co.jp/images/index/m_menu_bg.jpg) 0% 0% repeat;
+width:100%;
+min-width:830px;
+}
+
+#m_menu ul {
+float:left;
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#m_menu li {
+float: left;
+background: url(http://www2.daily.co.jp/images/index/m_menu_line.jpg) no-repeat 100% 50%;
+white-space: nowrap;
+}
+
+#m_menu li a {
+display: block;
+margin-right: 2px;
+padding: 0 8px;
+line-height: 25px;
+text-decoration: none;
+color: #333333;
+}
+
+#m_menu #ac {
+margin-right: 0;
+display: block;
+line-height: 25px;
+text-decoration: none;
+color: #333333;
+}
+
+#m_menu #ac,
+#m_menu li a:hover,
+#m_menu li a:active,
+#m_menu li a:focus {
+background: #ABC4E8 url(http://www2.daily.co.jp/images/index/m_menu_bg_on.jpg) 0% 0% repeat;
+}
+
+/*
+-----------------------------------------------
+▼トピックパス
+----------------------------------------------- */
+#pan {
+background: #CCCCCC;
+margin: 0;
+padding: 0;
+}
+
+#pan_r {
+float: right;
+width: 320px;
+padding: 0;
+margin: 0;
+background: #CCCCCC;
+}
+
+#pan_l {
+padding: 0;
+margin-right: 320px;
+height: 23px;
+background: #CCCCCC;
+}
+
+/*
+-----------------------------------------------
+▼コンテンツ　メニュー
+----------------------------------------------- */
+#contentsmenu {
+background: #CCCCCC url('http://www2.daily.co.jp/images/index/contentsmenu_b.jpg') 0% 0% repeat;
+width: 100%;
+}
+
+#contentsmenu li {
+float: left;
+background: url('http://www2.daily.co.jp/images/index/contentsmenuline.jpg') 100% 50% no-repeat;
+white-space: nowrap;
+}
+
+#contentsmenu li a {
+display: block;
+margin-right: 2px;
+padding: 0 8px;
+line-height: 28px;
+text-decoration: none;
+color: #333333;
+}
+
+#contentsmenu .ac {
+margin-right: 0;
+display: block;
+line-height: 26px;
+text-decoration: none;
+color: #333333;
+}
+
+#contentsmenu .ac,
+#contentsmenu li a:hover,
+#contentsmenu li a:active,
+#contentsmenu li a:focus {
+background: #ABC4E8 url('http://www2.daily.co.jp/images/index/contentsmenu_h.jpg') 0% 0% repeat;
+}
+
+/*
+-----------------------------------------------
+▼レイアウト
+----------------------------------------------- */
+
+#main {
+clear:both;
+width:100%;
+min-width:830px;
+background: #FFFFFF url(http://www2.daily.co.jp/images/basic/spacer.gif) repeat;
+}
+
+#contents {
+float:left;
+width:100%;
+margin:0 -320px 10px 0;
+background: #FFFFFF url(http://www2.daily.co.jp/images/basic/spacer.gif) repeat;
+}
+
+#contents-in {
+margin:0 330px 0 0;
+background: #FFFFFF url(http://www2.daily.co.jp/images/basic/spacer.gif) repeat;
+}
+
+.contentsbox {
+margin-top:8px;
+}
+
+.contentsbox img,
+.contentsbox a img,{
+text-decoration: none;
+background: transparent;
+border: 0 none;
+vertical-align: bottom;
+}
+
+.contentsbox a ,
+.reds-column a{ text-decoration: none; }
+.contentsbox a:link,
+.reds-column a:link{ color: #003366; }
+.contentsbox a:visited,
+.reds-column a:visited{ color: #5c7996; }
+.contentsbox a:hover,
+.reds-column a:hover{ color: #cc0000; }
+.contentsbox a:active,
+.reds-column a:active{ color: #5c7996; }
+
+#contents ul {
+margin:6px 0 0 6px;
+}
+
+#contents li {
+margin:2px 0 0 0;
+}
+
+#contents li span {
+padding:0 0 0 0.5em;
+}
+
+.mb8{
+margin-bottom:8px;
+}
+
+#side {
+float:right;
+width:310px;
+background-color: #E1E1E1;
+text-align:center;
+}
+
+/*
+-----------------------------------------------
+▼右部分
+----------------------------------------------- */
+
+.right_box {
+background: #FFFFFF url('http://www2.daily.co.jp/images/index/right_box_bg.jpg') 50% 0% no-repeat;
+width: 298px;
+border: 1px #000000 solid;
+margin: 5px 5px;
+} 
+
+.right_box_bar {
+text-align: left;
+padding-bottom: 10px;
+margin: 0;
+padding: 8px 8px 5px;
+}
+
+.right_box_body {
+text-align: left;
+padding: 5px;
+margin: 0;
+}
+
+.right_box2 {
+background: #FFFFFF url('http://www2.daily.co.jp/images/index/right_box_bg2.jpg') 50% 0% no-repeat;
+width: 280px;
+border: 1px #000000 solid;
+padding: 10px 10px 5px 10px;
+margin: 3px;
+} 
+
+.select_left,
+.select_right{
+font-size:12px;
+float:left;
+width:130px;
+}
+
+.select_left li,
+.select_right li{
+padding-left: 15px;
+line-height: 10px;
+background: url('http://www2.daily.co.jp/images/index/ya.jpg') no-repeat;
+background-position: 0em 0.01em;
+}
+
+.title_bg3 {
+/*右コンテンツのbox2のタイトル部分*/
+background: #FFFFFF url(http://www2.daily.co.jp/ranking/image/right_box_bg_crown.jpg) 50% 0% no-repeat;
+width: 292px;
+border: 1px #000000 solid;
+padding: 0;
+margin: 0px 5px 10px;
+text-align:left;
+}
+
+.title_bg3 ul {
+list-style-type: none
+}
+
+.title_bg3 li {
+margin-left: 10px;
+}
+
+.mini_1st {
+/*右コンテンツの1位アイコン部分*/
+padding:2px 0px 2px 20px;
+background: url('http://www2.daily.co.jp/ranking/image/mini_1st.gif') no-repeat center left;
+} 
+
+.mini_2nd {
+/*右コンテンツの2位アイコン部分*/
+padding:2px 0px 2px 20px;
+background: url('http://www2.daily.co.jp/ranking/image/mini_2nd.gif') no-repeat center left;
+} 
+
+.mini_3rd {
+/*右コンテンツの3位アイコン部分*/
+padding:2px 0px 2px 20px;
+background: url('http://www2.daily.co.jp/ranking/image/mini_3rd.gif') no-repeat center left;
+}
+
+.text1_2 {
+/*ランキングTOP3に使用*/
+font-weight: normal;
+color: #333333;
+font-size: 13px;
+line-height: 16px;
+padding-left: 1.5em;
+/* padding-bottom: 5px; */
+}
+
+.ichi_on {
+clear: both;
+text-align: right;
+padding: 5px 10px 0 0;
+}
+
+.sidelist li{
+margin-bottom:3px;
+}
+
+.sidelist .left{
+float:left;
+width:48%;
+}
+
+.sidelist .right{
+float:right;
+width:48%;
+}
+
+.rectangle,
+.rectangle_horse {
+margin-top:8px;
+/* margin:8px 5px 0 5px; */
+}
+
+/* ▼デイリースポーツネットショッピング */
+.banner100_100_l {
+float: left;
+width: 100px;
+margin-right: 10px;
+padding: 0;
+}
+
+.banner100_100_l_img {
+float: left;
+width: 100px;
+margin: 0;
+padding: 0;
+}
+
+.banner100_100_l a img {
+border: 2px #CCCCCC solid;
+}
+
+.banner100_100_l a:hover img {
+border: 2px #FFFF8C solid;
+}
+
+.banner100_100_r {
+float: left;
+padding: 0;
+}
+
+.banner100_100_r ul {
+/* margin: 0 0 0 12px; */
+padding: 0;
+list-style-type: none;
+}
+
+.banner100_100_r li {
+padding-left: 15px;
+line-height: 10px;
+background: url('http://www2.daily.co.jp/images/index/ya.jpg') no-repeat;
+background-position: 0em 0.01em;
+}
+/* ▲デイリースポーツネットショッピング */
+
+
+/*
+-----------------------------------------------
+▼共通その他
+----------------------------------------------- */
+.pagetop{
+text-align:right;
+margin:10px 0;
+}
+
+.mtb10px{margin:10px 0;overflow:auto;}
+
+.text1 {
+font-size: 12px;
+line-height: 16px;
+font-weight: normal;
+}
+
+.text2 {
+font-size: 14px;
+line-height: 22px;
+}
+
+.text3 {
+font-size: 16px;
+line-height: 22px;
+}
+
+.text4 {
+font-size: 12px;
+line-height: 16px;
+padding: 5px;
+}
+
+.text7 {
+color: #FF3300;
+font-size: 16px;
+font-weight: bold;
+text-align: right;
+}
+
+.text7 a {
+color: #333333;
+}
+
+.text7 a:hover {
+color: #000033;
+}
+
+.text8 {
+font-size: 12px;
+margin: 2px 5px 5px 5px;
+text-align: left;
+}
+
+.text10 {
+/*ランキングTOP3に使用*/
+color:#FF0000;
+font-size: 12px;
+}
+
+.text10 a,
+.text10 a:visited {
+/*ランキングTOP3に使用*/
+color:#FF0000;
+font-weight: bold;
+}
+
+.text10 a:hover {
+/*ランキングTOP3に使用*/
+color:#FF6600;
+font-weight: bold;
+}
+
+.text11 {
+/*ランキングTOP3に使用*/
+color:#1779D2;
+font-size: 12px;
+}
+
+.text11 a,
+.text11 a:visited {
+/*ランキングTOP3に使用*/
+color:#1779D2;
+font-weight: bold;
+}
+
+.text11 a:hover {
+/*ランキングTOP3に使用*/
+color: #3399FF;
+font-weight: bold;
+}
+
+/*
+-----------------------------------------------
+▼468×60バナー
+----------------------------------------------- */
+
+.banner_468_60 {
+padding: 30px 0;
+clear: left;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+}
+
+/*
+-----------------------------------------------
+▼フッタ
+----------------------------------------------- */
+#foot{
+clear:both;
+color:#e08029;
+width:100%;
+min-width:830px;
+font-size:90%;
+}
+
+.totop {
+text-align:right;
+font-size:90%;
+margin:0 0 3px 0;
+padding:5px 0 0 0;
+background: #FFFFFF url(http://www2.daily.co.jp/images/basic/spacer.gif) repeat;
+}
+
+.totop a:link,
+.totop a:visited {
+text-decoration:none;
+}
+
+#foodmenu1 {
+background: url('http://www2.daily.co.jp/images/index/foodmenu_1.jpg') repeat;
+text-align: center;
+vertical-align: middle;
+margin: 0;
+padding-left: 20px;
+}
+
+#foodmenu1 ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#foodmenu1 li {
+display: inline;
+white-space: nowrap;
+margin: 0;
+padding-top: 1px;
+line-height: 23px;
+}
+
+#foodmenu1 li a {
+text-decoration: none;
+paddeing: 0;
+margin: 0;
+font-size: 12px;
+color: #333333;
+}
+
+#foodmenu1 a:hover {
+margin: 0;
+padding: 0;
+color: #FF6600;
+}
+
+#foodmenu2 {
+clear: both;
+text-align: center;
+vertical-align: middle;
+background: #FFFFFF;
+margin: 0;
+padding: 0 20px;
+border-top: solid 1px #ffffff;
+border-bottom: solid 1px #abb1aa;
+}
+
+#foodmenu2 ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#foodmenu2 li {
+display: inline;
+white-space: nowrap;
+margin: 0;
+padding-top: 0;
+}
+
+#foodmenu2 a {
+text-decoration: none;
+paddeing: 0;
+margin: 0;
+font-size: 12px;
+color: #333333;
+}
+
+#foodmenu2 a:hover {
+margin: 0;
+padding: 0;
+color: #FF6600;
+}
+
+#foodmenu3 {
+background: #000000;
+color: #FFFFFF;
+font-size: 12px;
+margin: 0;
+padding: 10px 0;
+text-align: center;
+}
+
+#foodmenu3  a{
+font-size: 12px;
+color: #FFFF00;
+}
+
+#google_ads{
+margin-top:8px;
+margin-bottom:8px;
+}
+
+/*
+-----------------------------------------------
+▼レッズ試合結果、順位表
+----------------------------------------------- */
+
+.midashi_line {
+border-bottom: 1px #333333 solid;
+padding: 5px;
+margin-top: 5px;
+background: #FFFFFF;
+width: 100%;
+}
+
+.midashi_line .midashi1 {
+float: left;
+width: auto;
+margin: 0;
+padding: 0;
+}
+
+.midashi_line .midashi2 {
+text-align: right;
+font-size: 10px;
+color: #666666;
+padding: 0;
+}
+
+.midashi_line2 {
+border-bottom: 1px #333333 solid;
+padding: 5px 5px 2px 5px;
+margin-top: 5px;
+background: #FFFFFF;
+width: 100%;
+}
+
+.bg_gray {
+background: #F5F5F5;
+}
+
+.midashi_line3 {
+border-top: 1px #333333 solid;
+border-bottom: 1px #333333 solid;
+padding: 10px 5px 15px 5px;
+margin-top: 20px;
+background: #FFFFFF;
+width: 100%;
+}
+
+.main_news_bg {
+padding-top: 10px;
+padding-left: 55px;
+line-height: 22px;
+background: url('http://www2.daily.co.jp/images/index/icon_news1.gif') no-repeat;
+background-position: 0em 0.6em;
+}
+
+.main_news_bg2 {
+padding-left: 55px;
+line-height: 22px;
+background: url('http://www2.daily.co.jp/images/index/icon_news1.gif') no-repeat;
+background-position: 0em 0.1em;
+}
+
+.main_news_bg3 {
+padding-top: 10px;
+padding-left: 55px;
+line-height: 22px;
+background: url('http://www2.daily.co.jp/images/index/icon_pr2.gif') no-repeat;
+background-position: 0em 0.6em;
+}
+
+#main_news {
+margin: 0;
+padding: 5px;
+width: 100%;
+background: #FFFFFF;
+}
+
+#main_news_l {
+float: left;
+width:210px;
+padding: 0;
+border: 1px #000000 solid;
+text-align: center;
+margin-right: 10px;
+padding: 5px;
+}
+
+#main_news img {
+margin: 0;
+}
+
+h3.newsflash {
+font-size: 14px;
+font-weight: bold;
+color: #333333;
+padding-top: 10px;
+padding-left: 55px;
+margin-left:7px;
+line-height: 22px;
+background: url('http://www2.daily.co.jp/images/index/icon_news1.gif') no-repeat;
+background-position: 0em 0.8em;
+}
+select_left
+h4.newssub {
+font-size: 12px;
+margin: 0 0 5px 7px;
+font-weight: normal;
+}
+
+.newslist {
+margin: 0 20px 20px 0;
+}
+
+.newslist li {
+padding-left: 40px;
+line-height: 15px;
+background: url('http://www2.daily.co.jp/images/index/icon_news.gif') no-repeat;
+background-position: left center;
+}
+
+/* ▼紙面・速報・バックナンバー */
+.newslist_shimen,
+.newslist_sokuhou,
+.back_number_r {
+margin: 0;
+padding: 5px 0 0 5px;
+display:block;
+float: left;
+}
+
+.back_number_l {
+float:left;
+padding:5px;
+}
+
+.newslist_shimen ul,
+.newslist_sokuhou ul,
+.back_number_r ul{
+list-style-type: none;
+}
+
+.newslist_shimen li,
+.newslist_sokuhou li,
+.back_number li,
+.column_list li {
+margin: 0;
+padding-left: 43px;
+line-height: 13px;
+background-position: left center;
+}
+
+.newslist_shimen li {
+background: url('http://www2.daily.co.jp/images/index/icon_news3.gif') no-repeat;
+}
+
+.newslist_sokuhou li {
+background: url('http://www2.daily.co.jp/images/index/icon_news4.gif') no-repeat;
+}
+
+.back_number li {
+background: url('http://www2.daily.co.jp/images/index/icon_news5.gif') no-repeat;
+}
+
+.column_list li {
+background: url('http://www2.daily.co.jp/images/index/icon_column1.gif') no-repeat;
+}
+
+/* ▼紙面・速報・バックナンバー */
+
+.photo_navi {
+display:block;
+width:320px;
+margin-right:auto;
+margin-left:auto;
+text-align:center;
+}
+
+.to_article {
+display:block;
+width:110px;
+margin-right:auto;
+margin-left:auto;
+text-align:center;
+}
+
+.btn-pre,
+.btn-pre a,
+.btn-kiji,
+.btn-kiji a,
+.btn-list,
+.btn-list a,
+.btn-next,
+.btn-next a {
+display:block;
+overflow:hidden;
+text-indent:-9999px;
+float:left;
+width:100px;
+height:27px;
+}
+
+.btn-pre {
+background:url('http://www2.daily.co.jp/images/basic/button_pre.gif') no-repeat;
+}
+
+.btn-pre a,
+.btn-pre a:hover {
+background:url('http://www2.daily.co.jp/images/basic/button_pre.gif') no-repeat;
+background-position:0 -27px;
+}
+
+.btn-kiji {
+background:url('http://www2.daily.co.jp/images/basic/btnkiji.gif') no-repeat;
+}
+
+.btn-list {
+background:url('http://www2.daily.co.jp/images/basic/btnlist.gif') no-repeat;
+}
+
+.btn-next {
+background:url('http://www2.daily.co.jp/images/basic/button_next.gif') no-repeat;
+}
+
+.btn-next a,
+.btn-next a:hover {
+background:url('http://www2.daily.co.jp/images/basic/button_next.gif') no-repeat;
+background-position:0 -27px;
+}
+
+.plus_photo {
+width:100%;
+padding-left:5px;
+background: #FFFFFF;
+}
+
+.plus_thum {
+width:120px;
+height:120px;
+border:#333333 1px solid;
+line-height:120px;
+float:left;
+margin-right:5px;
+margin-top:5px;
+padding: 0;
+}
+
+.plus_thum td {
+text-align:center;
+vertical-align:middle;
+margin: 0;
+padding: 0;
+}
+
+.plus_thum img {
+vertical-align:middle;
+}
+
+#pr,
+#pr2 {
+margin: 0;
+padding: 5px;
+width: 100%;
+}
+
+#pr_l {
+float: left;
+width: auto;
+padding-right: 10px;
+}
+
+#pr_r,
+#pr_r2 {
+float: left;
+}
+
+#pr_r a,
+#pr_r2 a{
+color:#0000FF
+text-decoration:underline;
+}
+
+#pr_r table td,
+#pr_r2 table td {
+padding:1px;
+}
+
+#pr_r table td td,
+#pr_r2 table td td {
+padding:4px;
+}
+
+#pr_l a img {
+margin: 0;
+padding: 0;
+border: 2px #CCCCCC solid;
+}
+
+#pr_l a:hover img {
+margin: 0;
+padding: 0;
+border: 2px #FFFF8C solid;
+}
+
+#pr ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#pr li {
+padding-left: 43px;
+line-height: 22px;
+background: url('http://www2.daily.co.jp/images/index/icon_pr.gif') no-repeat;
+background-position: 0em 0.2em;
+}
+
+#news_sp {
+	margin: 0;
+	padding: 10px 0;
+	width: 95%;
+}
+
+#news_sp_l {
+	float: left;
+	width: 47%;
+	margin: 0;
+	padding-right: 5px;
+}
+
+#news_sp_r {
+	margin-left: 49%;
+	padding: 0;
+}
+
+.news_sp_box {
+	margin: 0;
+	padding: 0;
+}
+.news_sp_title{
+	height: 19px;
+	width:97%;
+}
+
+.news_sp_title:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.news_sp_title a{
+	vertical-align:bottom;
+	float:left;
+}
+
+.news_sp_title div.text1{
+	position:relative;
+	top:2px;
+	right:0px;
+	height: 100%;
+	float:right;
+	vertical-align:bottom;
+}
+
+.news_sp_text {
+	margin: 0 10px 10px 0;
+	padding: 5px;
+	border: 1px #000000 solid;
+}
+
+.news_sp_text ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.news_sp_text li {
+	padding-left: 17px;
+	line-height: 20px;
+	background: url('http://www2.daily.co.jp/images/index/ya2.gif') no-repeat;
+	background-position: 0em 0.2em;
+}
+
+
+
+/* IE 用▼ */
+* html body {
+width:100%;
+}
+
+/* css_end */

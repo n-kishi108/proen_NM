@@ -1,0 +1,57 @@
+/* ---[ Plugin Module version 1.5.0 ]--- */
+
+div.yjstdPlug{
+	padding:0.5em;
+	background:#eeeeee;
+	border:double 3px #DDDDDD;
+	min-height:16px;}
+	/* \*/
+	*html div.yjstdPlug{
+	height:16px;
+	clear:right;}
+	/**/
+div.yjstdPlug p{
+	margin:0em;
+	padding:0em;}
+div.yjstdPlug img{
+	border:0em;
+	width:88px;
+	height:31px;}
+div.yjstdPlug img.ydc{
+	border:0em;
+	width:230px;
+	height:33px;}
+div.yjstdPlug img.ydc1{
+	border:0em;
+	width:150px;
+	height:33px;}
+div.yjstdPlug img.ar{
+	border:0em;
+	width:112px;
+	height:33px;}
+div.yjstdPlug div.yjstdIcnH{
+	float:right;}
+div.yjstdPlug div.yjstdIcnH img{
+	margin-left:0.5em;}
+div.yjstdPlug .yjstdIcnV{
+	text-align:center;}
+div.yjstdPlug .yjstdIcnV img{
+	margin:0 0.25em 0.25em 0.25em;}
+.yjstdPlug:after {
+content: ".";
+height: 0;
+display: block;
+visibility: hidden;
+clear: both;
+}
+.yjstdPlug {
+display: inline-block;
+}
+/*\*/
+*html .yjstdPlug {
+height: 1%;
+}
+.yjstdPlug {
+display: block;
+}
+/**/

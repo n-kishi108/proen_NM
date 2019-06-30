@@ -1,0 +1,293 @@
+@charset "UTF-8";
+
+.pluginLevel {
+	width: 100%;
+	text-align: center;
+}
+#plugMyfriend,
+#plugCircle,
+#plugProfile,
+#plugFriendblog {
+	padding-bottom:10px;
+}
+
+.pluginLevel ul {
+	margin: 0px;
+	padding: 2px;
+	list-style-image: none;
+	list-style-type: none;
+}
+.pluginLevel li {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+#plugMyfriend p,
+#plugCircle p {
+	clear: both;
+	font-size: 12px;
+	padding-top: 4px;
+	margin: 0px;
+	padding-bottom: 4px;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #CCCCCC;
+	display: block;
+}
+#plugCircle img {
+	border: 1px solid #CCCCCC;
+}
+
+/* 3clumn */
+.pluginLevel .clumn3 li {
+	height: 70px;
+	width: 46px;
+	overflow: hidden;
+	float: left;
+}
+.pluginLevel .clumn3 img {
+	height: 42px;
+	width: 42px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	display: block;
+}
+.pluginLevel ul.clumn3 {
+	margin-left: 5px;
+}
+.pluginLevel .clumn3 span {
+	width: 42px;
+	overflow: hidden;
+	font-size: 10px;
+	height: 1em;
+	display: block;
+}
+
+
+/* 2clumn */
+.pluginLevel .clumn2 img {
+	height: 68px;
+	width: 68px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	display: block;
+}
+.pluginLevel .clumn2 li {
+	height: 100px;
+	width: 72px;
+	float: left;
+}
+.pluginLevel .clumn2 span {
+	width: 68px;
+	overflow: hidden;
+	font-size: 12px;
+	height: 1em;
+	display: block;
+}
+.pluginLevel ul.clumn2 {
+	width: 144px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* 1clumn */
+.pluginLevel .clumn1 img {
+	height: 100px;
+	width: 100px;
+	display: block;
+}
+.pluginLevel .clumn1 li {
+	height: 130px;
+}
+.pluginLevel .clumn1 span {
+	width: 100px;
+	overflow: hidden;
+	font-size: 12px;
+	height: 1em;
+	display: block;
+}
+.pluginLevel ul.clumn1 {
+	margin-left: auto;
+	display: block;
+	width: 100px;
+	margin-right: auto;
+}
+
+/* 4clumn */
+.pluginLevel .clumn4 img {
+	height: 32px;
+	width: 32px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	display: block;
+}
+.pluginLevel .clumn4 li {
+	height: 60px;
+	width: 36px;
+	float: left;
+}
+.pluginLevel .clumn4 span {
+	width: 36px;
+	overflow: hidden;
+	font-size: 9px;
+	height: 12px;
+	display: block;
+}
+.pluginLevel ul.clumn4 {
+	width: 144px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/* friendBlog */
+#plugFriendblog ul {
+	display: block;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-bottom: 6px;
+	margin-left: 4px;
+	padding: 0px;
+}
+#plugFriendblog li {
+	font-size: 80%;
+	line-height: 1.4em;
+	text-align: left;
+}
+#plugFriendblog p {
+	font-size: 12px;
+	margin: 0px;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #CCCCCC;
+}
+.friend_secondlist {
+	margin-left: 20px;
+}
+
+
+/* profile */
+#plugProfile .profilePhoto {
+	background-color: #F0F0F0;
+	width: 108px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	border: 1px solid #CCCCCC;
+}
+#plugProfile .profilePhoto img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+#plugProfile .profileName {
+	font-size: 80%;
+	font-weight: bold;
+	margin-top: 4px;
+	margin-bottom: 10px;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#plugProfile table p {
+	font-size: 80%;
+	padding: 4px;
+	text-align: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+}
+#plugProfile th p {
+	background-color: #E7E7E7;
+}
+#plugProfile table {
+}
+#plugProfile td p {
+	background-color: #FFFFFF;
+}
+#plugProfile .profileDocument {
+	margin-top: 10px;
+	text-align: left;
+	width: 142px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	font-size: 80%;
+	line-height: 1.4em;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC;
+	padding-bottom: 4px;
+}
+#plugProfile .profileDocument .profileDocTitle {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC;
+	font-weight: bold;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #CCCCCC;
+	margin-bottom: 4px;
+}
+#plugProfile p {
+	font-size: 12px;
+	margin: 0px;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #CCCCCC;
+}
+
+
+#plugMyfriend img {
+	border: 1px solid #CCCCCC;
+}
+
+.ad_plg_free {
+	padding:4px;
+	font-size: 80%;
+}
+.noText {
+	font-size: 70%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #666666;
+}

@@ -1,0 +1,504 @@
+/* ---------- コンテンツ基本スタイル ---------- */
+
+#mainArea .anchorList {	/* 上部ページ内リンク */
+	margin: 0px 0px 25px;
+	padding: 0px;
+	font-size: small;
+	line-height: 1.5em;
+}
+#mainArea .anchorList ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#mainArea .anchorList li {
+	margin: 0px;
+	padding: 0px 0px 3px;
+}
+.pan {
+	margin: 0px 0px 10px;
+	padding: 0px;
+	font-size: x-small;
+	text-align: right;
+}
+.entryGroup {
+	margin: 0px 0px 20px;
+	padding: 0px;
+	width: 510px;
+}
+.selectMonth {	/* 月別ログ（プルダウン） */
+	margin: 0px 0px 10px;
+	padding: 0px;
+	text-align: right;
+}
+.selectMonth form {
+	margin: 0px;
+	padding: 0px;
+	font-size: 10px;
+}
+.pagetop {	/* ページの先頭へ */
+	margin: 0px 0px 2em;
+	padding: 0px;
+	font-size: small;
+	text-align: right;
+}
+
+/* ---------- 個別エントリー ---------- */
+
+.entryMove {	/* 個別エントリー移動 */
+	display: none;
+	margin: 0px 0px 6px;
+	padding: 0px;
+	font-size: x-small;
+	text-align: center;
+}
+#commentForm {
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	color: #000000;
+}
+
+
+/* ---------- トピックス ---------- */
+
+#topics #mainArea #titleIMG {	/* タイトル画像 */
+	padding: 0px 0px 10px;
+}
+#topics .anchorList {	/* 上部ページ内リンク */
+	display: none;
+}
+#topics .pagetop {	/* ページの先頭へ */
+	display: none;
+}
+#topics .selectMonth {
+	display: none;
+}
+#topics .entryGroup {
+	margin: 0px 0px 20px;
+	padding: 0px 0px 10px;
+	width: 510px;
+	background: url(img/dotline_a.gif) repeat-x 0px 100%;
+}
+#topics #mainArea .textBox {
+	margin: 0px 0px 10px;
+	padding: 0px 0px 10px;
+	width: 510px;
+	background: url(img/dotline_a.gif) repeat-x 0% 100%;
+	font-size: small;
+	line-height: 1.4em;
+}
+#topics #mainArea h2 {
+	margin: 0px 0px 15px;
+	padding: 2px 0px 2px 10px;
+	background: #6699FF;
+	color: #FFFFFF;
+	font-size: small;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #6666FF;
+}
+#topics #mainArea h3 {
+	margin: 0px 0px 5px;
+	padding: 0px 10px 0px 15px;
+	font-size: small;
+	font-weight: bold;
+	background: url(img/icon_hishi_grn.gif) no-repeat 0px 0.4em;
+}
+#topics #mainArea h3.entryDate {
+	font-weight: normal;
+}
+#topics #mainArea p {
+	margin: 0px 0px 10px;
+	padding: 0px 0px 10px;
+	font-size: small;
+	line-height: 1.4em;
+}
+#topics #mainArea .posted {
+	display: none;
+}
+
+
+/* ---------- サービス内容 ---------- */
+#service #mainArea #titleIMG {	/* タイトル画像 */
+	padding: 0px 0px 10px;
+}
+#service .anchorList {	/* 上部ページ内リンク */
+	display: none;
+}
+#service .selectMonth {
+	display: none;
+}
+#service #mainArea h2 {	/* 日付 */
+	display: none;
+}
+#service #mainArea h3 {
+	font-family: Verdana, Arial, sans-serif;
+	background: url(img/tit_bg.gif) no-repeat;
+	background-position:center;
+	color:#FFF;
+	font-size: medium;
+	font-weight: bold;
+	margin: 0px 0px 20px;
+	padding: 5px 30px;
+}
+#service #mainArea h4 {
+	background: url(img/service/icon_leaf.gif) no-repeat 0px 0.5px;
+	font-size: medium;
+	font-weight: bold;
+	margin: 2em 0px 0.6em;
+	padding: 2px 0px 2px 25px;
+}
+#service #mainArea h5 {
+	font-weight: bold;
+	color: #FF9966;
+	font-size: small;
+	margin: 1.5em 0px;
+	padding: 0px;
+}
+#service #mainArea p {
+	font-size: small;
+	margin: 0px 0px 1.2em;
+	padding: 0px 0px 0px 10px;
+	line-height: 1.5em;
+	font-weight: normal;
+}
+#service #mainArea .posted {
+	display: none;
+}
+
+/* ---------- サービス内容 ---------- */
+#price #mainArea #titleIMG {	/* タイトル画像 */
+	padding: 0px 0px 10px;
+}
+#price .anchorList {	/* 上部ページ内リンク */
+	display: none;
+}
+#price .selectMonth {
+	display: none;
+}
+#price #mainArea h2 {	/* 日付 */
+	display: none;
+}
+#price #mainArea h3 {
+	font-family: Verdana, Arial, sans-serif;
+	background: url(img/tit_bg.gif) no-repeat;
+	background-position:center;
+	color:#FFF;
+	font-size: medium;
+	font-weight: bold;
+	margin: 0px 0px 20px;
+	padding: 5px 30px;
+}
+#price #mainArea h4 {
+	background: url(img/service/icon_leaf.gif) no-repeat 0px 0.5px;
+	font-size: medium;
+	font-weight: bold;
+	margin: 2em 0px 0.6em;
+	padding: 2px 0px 2px 25px;
+}
+#price #mainArea h5 {
+	font-weight: bold;
+	color: #FF9966;
+	font-size: small;
+	margin: 1.5em 0px;
+	padding: 0px;
+}
+#price #mainArea p {
+	font-size: small;
+	margin: 0px 0px 1.2em;
+	padding: 0px 0px 0px 10px;
+	line-height: 1.5em;
+	font-weight: normal;
+}
+#price #mainArea .posted {
+	display: none;
+}
+
+
+/* ---------- 施設紹介 ---------- */
+#shisetsu #mainArea #titleIMG {	/* タイトル画像 */
+	padding: 0px 0px 10px;
+}
+#shisetsu .anchorList {	/* 上部ページ内リンク */
+	display: none;
+}
+#shisetsu .selectMonth {
+	display: none;
+}
+#shisetsu #mainArea h2 {
+	display: none;
+}
+
+#shisetsu #mainArea h3 {
+	font-family: Verdana, Arial, sans-serif;
+	background: url(img/tit_bg.gif) no-repeat;
+	background-position:center;
+	color:#FFF;
+	font-size: medium;
+	font-weight: bold;
+	margin: 0px 0px 20px;
+	padding: 5px 30px;
+}
+#shisetsu #mainArea .posted {
+	display: none;
+}
+
+
+
+/* ---------- はまゆう奮闘記 ---------- */
+
+#funtou #mainArea #titleIMG {	/* タイトル画像 */
+	padding: 0px 0px 10px;
+}
+
+#funtou .selectMonth {
+	display: none;
+}
+
+#funtou #mainArea .textBox {
+	margin: 0px 0px 10px;
+	padding: 0px 0px 10px;
+	width: 510px;
+	background: url(img/dotline_a.gif) repeat-x 0% 100%;
+	font-size: small;
+	line-height: 1.4em;
+}
+#funtou #mainArea h2 {
+	margin: 0px 0px 15px;
+	padding: 2px 0px 2px 10px;
+	background: #66CCFF;
+	color: #FFFFFF;
+	font-size: small;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #6699FF;
+}
+#funtou #mainArea h3 {
+	margin: 0px 0px 5px;
+	padding: 0px 10px 0px 15px;
+	font-size: small;
+	font-weight: bold;
+	background: url(img/icon_hishi_grn.gif) no-repeat 0px 0.4em;
+}
+#funtou #mainArea h3.entryDate {
+	font-weight: normal;
+}
+#funtou #mainArea p {
+	margin: 0px 0px 10px;
+	font-size: small;
+	line-height: 1.4em;
+}
+#funtou .anchorList ul {
+	display: block;
+	font: x-small/1.2em Verdana, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ pro W3";
+}
+#funtou .anchorList ul li {
+	background: url(img/icon_hishi_grn.gif) no-repeat 0px 0.3em;
+	display: block;
+	margin: 0px;
+	padding: 2px 0px 2px 15px;
+}
+
+/* ---------- 宮崎さんぽ ---------- */
+
+#sanpo #mainArea #titleIMG {	/* タイトル画像 */
+	padding: 0px 0px 10px;
+}
+#sanpo .selectMonth {	/* 月別ログ（プルダウン） */
+	display: none;
+}
+#sanpo #mainArea .textBox {
+	margin: 0px 0px 10px;
+	padding: 0px 0px 10px;
+	width: 510px;
+	background: url(img/dotline_a.gif) repeat-x 0% 100%;
+	font-size: small;
+	line-height: 1.4em;
+}
+#sanpo #mainArea h2 {
+	margin: 0px 0px 15px;
+	padding: 2px 0px 2px 10px;
+	background: #CCCC66;
+	color: #FFFFFF;
+	font-size: small;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #999933;
+}
+#sanpo #mainArea h3 {
+	margin: 0px 0px 5px;
+	padding: 0px 10px 0px 15px;
+	font-size: small;
+	font-weight: bold;
+	background: url(img/icon_hishi_grn.gif) no-repeat 0px 0.4em;
+}
+#sanpo #mainArea h3.entryDate {
+	font-weight: normal;
+}
+#sanpo #mainArea p {
+	margin: 0px 0px 10px;
+	padding: 0px 0px 10px;
+	font-size: small;
+	line-height: 1.4em;
+}
+#sanpo .anchorList ul {
+	display: block;
+	font: x-small/1.2em Verdana, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ pro W3";
+}
+#sanpo .anchorList ul li {
+	background: url(img/icon_hishi_grn.gif) no-repeat 0px 0.3em;
+	display: block;
+	margin: 0px;
+	padding: 2px 0px 2px 15px;
+}
+
+/* ---------- 会社概要 ---------- */
+#company #mainArea #titleIMG {	/* タイトル画像 */
+	padding: 0px 0px 10px;
+}
+#company .anchorList {	/* 上部ページ内リンク */
+	display: none;
+}
+#company .selectMonth {
+	display: none;
+}
+#company #mainArea h2 {
+	display: none;
+}
+
+#company #mainArea h3 {
+	font-family: Verdana, Arial, sans-serif;
+	background: url(img/tit_bg.gif) no-repeat;
+	background-position:center;
+	color:#FFF;
+	font-size: medium;
+	font-weight: bold;
+	margin: 0px 0px 20px;
+	padding: 5px 30px;
+}
+#company #mainArea .posted {
+	display: none;
+}
+#company .pagetop {	/* ページの先頭へ */
+	display: none;
+}
+
+
+
+/* ---------- お問い合わせ ---------- */
+#contact #mainArea #titleIMG {	/* タイトル画像 */
+	padding: 0px 0px 10px;
+}
+#contact .anchorList {	/* 上部ページ内リンク */
+	display: none;
+}
+#contact .selectMonth {
+	display: none;
+}
+#contact #mainArea h2 {
+	display: none;
+}
+#contact #mainArea h3 {
+	display: none;
+}
+#contact #mainArea .posted {
+	display: none;
+}
+#contact .pagetop {	/* ページの先頭へ */
+	display: none;
+}
+/* ---------- 一日無料体験 ---------- */
+#free #mainArea #titleIMG {	/* タイトル画像 */
+	padding: 0px 0px 10px;
+}
+
+
+/* ---------- スタッフ紹介 ---------- */
+
+#staff #mainArea #titleIMG {	/* タイトル画像 */
+	padding: 0px 0px 10px;
+}
+#staff .entryGroup {
+	margin: 0px 0px 20px;
+	padding: 5px;
+	width: 498px;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #CCCCCC;
+}
+#staff .anchorList {	/* 上部ページ内リンク */
+	display: none;
+}
+#staff .selectMonth {
+	display: none;
+}
+#staff #mainArea h2 {
+	display: none;
+}
+#staff #mainArea h3 {
+	font-size: medium;
+	font-weight: bold;
+	margin: 0px 0px 10px;
+	padding: 2px 0px 2px 23px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	background: url(img/staff/icon_dotsquare_01.gif) no-repeat 3px 0.3em;
+	width: 475px;
+}
+#staff #mainArea p {
+	font-size: small;
+	line-height: 1.5ems;
+	margin: 0px 0px 0.5em;
+	padding: 0px;
+}
+#staff #mainArea .posted {
+	display: none;
+}
+#staff .pagetop {	/* ページの先頭へ */
+	display: none;
+}
+/* ---------- プライバシーポリシー ---------- */
+#privacy #mainArea #titleIMG {	/* タイトル画像 */
+	padding: 0px 0px 10px;
+}
+#privacy .anchorList {	/* 上部ページ内リンク */
+	display: none;
+}
+#privacy .selectMonth {
+	display: none;
+}
+#privacy #mainArea h2 {
+	display: none;
+}
+
+#privacy #mainArea h3 {
+	font-family: Verdana, Arial, sans-serif;
+	background: url(img/tit_bg.gif) no-repeat;
+	background-position:center;
+	color:#FFF;
+	font-size: medium;
+	font-weight: bold;
+	margin: 0px 0px 20px;
+	padding: 5px 30px;
+}
+#privacy #mainArea .posted {
+	display: none;
+}
+#privacy .pagetop {	/* ページの先頭へ */
+	display: none;
+}
+
+
+
+
+.del {
+	position: absolute;
+	left: -9999px;
+	font-size: 10px;
+	line-height: 10px;
+	margin: 0px;
+	padding: 0px;
+}

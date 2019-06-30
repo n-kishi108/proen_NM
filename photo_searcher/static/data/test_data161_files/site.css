@@ -1,0 +1,568 @@
+@charset "EUC-JP";
+
+/*
+-----------------------------------------------------
+livedoor Blog CSS
+   Name: Butterfly Garden（2カラム）
+ Update: 2008.08.08
+Release: 2006.06.26
+-----------------------------------------------------
+*/
+
+	body{
+		margin:0;
+		padding:0;
+		color:#666666;
+		font-family:georgia,"ヒラギノ角ゴシック W3",Osaka,"MS Pゴシック";
+		text-align:center;
+		background:#FFF7EC;
+	}
+
+	a{color:#3B8165;}
+	a:link{}
+	a:visited{}
+	a:active{}
+	a:hover{}
+
+	#header{
+		color:#3A8064;
+	}
+
+	#header td{
+		font-size:12px;
+		text-align:right;
+		padding-right:10px;
+	}
+
+	#header a{color:#3A8064;}
+	#header a:link{}
+	#header a:visited{}
+	#header a:active{}
+	#header a:hover{}
+
+	#container{
+		width:804px;
+		margin:0 auto;
+		padding:0;
+		text-align:center;
+		word-break:break-all;
+		background:url(http://parts.blog.livedoor.jp/img/usr/butterfly_garden/sg_bg.gif) repeat-y 50% 0;
+	}
+
+	#banner,#subbanner{
+		height:247px;
+		text-align:center;
+		margin:0 auto;
+		background:url(http://parts.blog.livedoor.jp/img/usr/butterfly_garden/sg_header.gif) no-repeat 50% 0;
+	}
+
+	#banner a{color:#3B8165;text-decoration:none;}
+	#banner a:link{text-decoration:none;}
+	#banner a:visited{text-decoration:none;}
+	#banner a:hover{text-decoration:underline;}
+	
+	h1,h2,h3{margin:0;padding:0;}
+
+	.blogtitle{
+		font-size:18px;
+		font-weight:bold;
+		text-align:left;
+		padding:27px 119px 10px 84px;
+	}
+
+	.description{
+		color:#3B8165;
+		font-size:11px;
+		padding:0px 119px 0 84px;
+		text-align:left;
+		line-height:150%;
+	}
+
+	#blogcontainer{
+		width:764px;
+		text-align:center;
+		margin:0 auto;
+		padding-top:10px;
+	}
+
+	#content{
+		width:564px;
+		float:right;
+		text-align:center;
+		padding-bottom:30px;
+	}
+
+
+	#blog{
+		width:564px;
+		text-align:left;
+		margin:0 auto;
+	}
+
+	#links{
+		width:180px;
+		float:left;
+		padding-bottom:30px;
+	}
+	
+	#linksbody{
+	}
+
+	#categorytitle{
+		font-size:18px;
+		font-weight:bold;
+		color:#006636;
+		padding:10px;
+		text-align:center;
+		margin-bottom:10px;
+	}
+
+	.fullbody,#articlebody{
+		width:100%;
+		text-align:left;
+	}
+
+	.datetop,#articletop{
+	}
+
+	.date{
+		color:#3B8165;
+		padding:3px 0px;
+		font-size:12px;
+		font-weight:normal;
+		background:url(http://parts.blog.livedoor.jp/img/usr/butterfly_garden/sg_line.gif) repeat-x 0 100%;
+		margin-right:436px;
+	}
+
+	.blogbody{
+		padding:0;
+	}
+
+	.title{
+		color:#006636;
+		font-size:14px;
+		font-weight:bold;
+		text-align:left;
+		padding:8px 0;
+	}
+
+/*?*/
+* html .main{height:1%;}
+* html .mainmore{height:1%;}
+/**/
+
+	.main,.mainmore,.portal-links{
+		font-size:12px;
+		text-align:left;
+		line-height:150%;
+		padding:20px 0px;
+	}
+	
+	blockquote{
+		border:2px dotted #3B8165;
+		margin:10px;
+		padding:10px;
+		text-align:left;
+	}
+	
+	.pict{}
+
+	a.continues{}
+	a.continues:link{}
+	a.continues:visited{}
+	a.continues:active{}
+	a.continues:hover{}
+
+/* related articles */
+div.related-articles{
+	margin: 25px 0 0;
+}
+div.related-articles h3{
+	margin: 0 0 10px;
+	padding: 0;
+	font-size: 12px;
+	color: #3B8165;
+}
+div.related-articles ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+}
+div.related-articles ul li{
+	background: url(http://parts.blog.livedoor.jp/img/cmn/dot.gif) no-repeat 0 50%;
+	padding: 0 0 5px 9px;
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+	.posted{
+		color:#3B8165;
+		font-size:11px;
+		text-align:right;
+		padding:8px 0px;
+		background:url(http://parts.blog.livedoor.jp/img/usr/butterfly_garden/sg_line.gif) repeat-x 0 0;
+	}
+
+	.posted a{color:#50ABD8;}
+	.posted a:link{}
+	.posted a:visited{}
+	.posted a:active{}
+	.posted a:hover{}
+
+	.nextpage{
+		font-size:12px;
+		padding:5px;
+		text-align:center;
+	}
+
+	.nextpage a{}
+	.nextpage a:link{}
+	.nextpage a:visited{}
+	.nextpage a:active{}
+	.nextpage a:hover{}
+
+	.blogbodybottom{
+		margin-bottom:25px;
+	}
+
+	.dateend{}
+
+	.menu{
+		color:#3B8165;
+		font-size:11px;
+		text-align:right;
+		padding:8px 0px;
+		}
+
+	.menu a{color:#50ABD8;}
+	.menu a:link{}
+	.menu a:visited{}
+	.menu a:active{}
+	.menu a:hover{}
+
+	.comblogbodybottom{
+		margin-bottom:25px;
+	}
+
+/* トラックバックURL表示 */
+
+	#trackbacktop,#commenttop,.formbodytop{}
+
+	.trackbackurltop{}
+
+	.trackbackurlbody{
+		padding:0;
+		text-align:left;
+	}
+
+	.trackbackurlttl{
+		color:#006636;
+		font-size:14px;
+		font-weight:bold;
+		text-align:left;
+		padding:8px 0;
+	}
+
+	.trackbackurl{text-align:left;padding:10px 0 0;}
+	.trackbackurl table{width:474px;margin-left:45px;margin-bottom:20px;}
+	input.trackbackbox{width:400px;}
+
+	.trackbackurlbottom{
+	}
+
+/* トラックバック・コメント表示 */
+	a.posttitle{color:#50ABD8;}
+	a.posttitle:link{}
+	a.posttitle:visited{}
+	a.posttitle:active{}
+	a.posttitle:hover{}
+
+	#trackback,#comment,#takecomment{
+		padding:0;
+		text-align:left;
+	}
+
+	.trackbackhead,.commenthead,.takecommenthead{
+		color:#006636;
+		font-size:14px;
+		font-weight:bold;
+		text-align:left;
+		padding:8px 0;
+	}
+
+	#trackbackbody,#commentbody{
+		padding:10px 10px 15px;
+	}
+
+	#takecommentbody{}
+	
+	.trackbackttl,.commentttl{
+		color:#3B8165;
+		font-size:12px;
+	}
+
+	.trackbacktext,.commenttext{
+		font-size:12px;
+		padding:3px 0 10px 10px;
+		line-height:130%;
+	}
+
+	#commentbottom,#trackbackbottom,.formbodybottom{
+	}
+
+	.loginon,.loginoff{
+		font-size:12px;
+		padding:5px 10px;
+		text-align:center;
+		border:1px solid #3B8165;
+		margin:10px 30px 0;
+	}
+
+	.loginon a{}
+	.loginon a:link{}
+	.loginon a:visited{}
+	.loginon a:active{}
+	.loginon a:hover{}
+
+	.loginoff a{}
+	.loginoff a:link{}
+	.loginoff a:visited{}
+	.loginoff a:active{}
+	.loginoff a:hover{}
+
+	#error{
+		font-size:12px;
+		padding:10px 10px 10px 15px;
+		text-align:left;
+		background:#fff;
+	}
+
+	#error span{font-weight:normal;}
+
+
+	#formbody{
+		padding:15px 0px;
+	}
+
+	.form{
+		font-size:12px;
+		margin-left:15px;
+	}
+	
+	.form th{
+		font-weight:normal;
+		padding:2px;
+		text-align:right;
+	}
+
+	.form td{
+		padding:2px;
+	}
+
+	input#author{width:210px;}
+	input#email{width:210px;}
+	input#url{width:210px;}
+	input#bake{}
+	textarea#text{width:400px;height:200px;}
+	input.button{margin-top:20px;width:80px;}
+	
+	#blogcommentbottom{}
+
+	#articlebottom{}
+
+	.calendarheadbody{}
+
+	.calendarhead{
+		color:#3A8064;
+		font-size:12px;
+		text-align:center;
+		padding:0;
+		font-weight:bold;
+	}
+	
+	.calendarhead a{color:#3A8064;}
+	.calendarhead a:link{}
+	.calendarhead a:visited{}
+	.calendarhead a:active{}
+	.calendarhead a:hover{text-decoration:none;}
+	
+	.calendarpre,.calendarnext{
+		font-size:12px;
+	}
+	
+	.caltop{}
+	.calbody{
+		text-align:center;
+		padding:5px 0px 20px;
+		background:url(http://parts.blog.livedoor.jp/img/usr/butterfly_garden/sg_line.gif) repeat-x 0 100%;
+	}
+
+	.caltbl{
+		width:180px;
+		margin:0 auto;
+		text-align:center;
+	}
+
+	.caltblwkbg{}
+
+	.caltblwk{
+		font-size:12px;
+		font-weight:bold;
+	}
+
+	.caltblwk td{
+		text-align:center;
+		padding:4px 0;
+	}
+
+	.weekday{color:#3A8064;font-weight:bold;}
+	.sun{color:#FF3300;font-weight:bold;}
+	.sat{color:#0099FF;font-weight:bold;}
+
+	.caltbldaybg{}
+	.caltblday{
+		font-size:12px;
+		font-family:arial ,sans-serif;
+		color:#68A083;
+	}
+
+	.caltblday td{
+		position:center;
+		text-align:center;
+		padding:5px 0px;
+	}
+
+	.calendard{
+		empty-cells:show;
+		background:url(http://parts.blog.livedoor.jp/img/usr/butterfly_garden/sg_calender.gif) no-repeat 50% 50%;
+	}
+	
+	.calendardbg{
+		background:url(http://parts.blog.livedoor.jp/img/usr/butterfly_garden/sg_calender.gif) no-repeat 50% 50%;
+	}
+
+	.calon{}
+	.caloff{}
+
+	.caltblday a{color:#006636;font-weight:bold;}
+	.caltblday a:link{}
+	.caltblday a:visited{}
+	.caltblday a:active{}
+	.caltblday a:hover{}
+
+	.calbottom{
+		margin-bottom:15px;
+	}
+
+	.sidetitlebody{
+	}
+
+	.sidetitle{
+		color:#006636;
+		font-size:12px;
+		text-align:left;
+		font-weight:bold;
+	}
+
+	.sidetitle a{color:#006636;}
+	.sidetitle a:hover{font-weight:bold;}
+
+	.sidetop{}
+
+	.side{
+		font-size:12px;
+		text-align:center;
+		line-height:130%;
+		padding:10px 0px 20px;
+		background:url(http://parts.blog.livedoor.jp/img/usr/butterfly_garden/sg_line.gif) repeat-x 0 100%;
+	}
+	
+	.sidebody{
+		padding:3px 0 3px 9px;
+		text-align:left;
+		background:url(http://parts.blog.livedoor.jp/img/usr/butterfly_garden/sg_dot.gif) no-repeat 0 9px;
+	}
+
+	.sidebottom{
+		margin-bottom:15px;
+	}
+
+ .side a{}
+ .side a:link{}
+ .side a:visited{}
+ .side a:active{}
+ .side a:hover{font-weight:bold;}
+
+	a.ttllink{color:#006636;}
+	a.ttllink:link{}
+	a.ttllink:visited{}
+	a.ttllink:active{}
+	a.ttllink:hover{font-weight:bold;}
+
+	input.sf{width:122px;margin-right:3px;}
+	.moblogbody,.linkme,.skypeme{text-align:center;}
+	.afbody{text-align:center;padding-bottom:10px;}
+	.afbody img{margin-bottom:3px;}
+	.photo{text-align:center;}
+	.nickname{text-align:left;font-size:12px;font-weight:bold;margin:10px 0;}
+	.message{text-align:left;font-size:12px;margin-bottom:10px;}
+	.blogtimes{margin:20px 0;text-align:center;}
+	.point{text-align:center;}
+
+	.quotetable{background:#006636;width:180px;}
+	.quotetable img{width:160px;}
+	.quote{color:#666666;font-size:12px;padding:1px;background:#fff;}
+
+	.elsehead{
+		padding:3px 0 4px;
+	}
+	.elsebody{text-align:center;}
+	.elsebottom{
+		padding:3px 0 4px;
+	}
+	
+	.elsebody a:link{}
+	.elsebody a:visited{}
+	.elsebody a:active{}
+	.elsebody a:hover{}
+	
+	.checkers{padding-bottom:10px;width:117px;font-size:11px;text-align:left;margin:0 auto;}
+	.reader{padding-bottom:20px;width:117px;font-size:11px;text-align:left;margin:0 auto;}
+	.powered{padding-bottom:10px;}
+	.syndicate{}
+	
+	#footer{
+		background:url(http://parts.blog.livedoor.jp/img/usr/butterfly_garden/sg_footer.gif) no-repeat 50% 0;
+		padding:86px 0;
+	}
+
+	.blogbody iframe{width:534px;margin-top:20px;}
+
+	#ad{text-align:center;}
+
+	a.adtitle{color:#3A8064;font-weight:bold;text-decoration:underline;}
+	a.adtitle:link{}
+	a.adtitle:visited{}
+	a.adtitle:active{}
+	a.adtitle:hover{text-decoration:none;}
+	
+	a.addescription{color:#66999A;text-decoration:none;}
+	a.addescription:link{}
+	a.addescription:visited{}
+	a.addescription:active{}
+	a.addescription:hover{}
+	
+	a.adurl{color:#316767;text-decoration:none;}
+	a.adurl:link{}
+	a.adurl:visited{}
+	a.adurl:active{}
+	a.adurl:hover{text-decoration:underline;}
+
+	a.adld{color:#006636;text-decoration:underline;}
+	a.adld:link{}
+	a.adld:visited{}
+	a.adld:active{}
+	a.adld:hover{}
+	
+	body.ad{background:#fff;}

@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+/* -----------------------------------------------------------
+CSS Information
+
+ File name:      share.css
+ Author:         hirasawa (admin)
+ Style Info:     全校共通のスタイル
+----------------------------------------------------------- */
+
+/* サイト内検索一時非表示 */
+
+/*#header #search {
+	visibility: hidden;
+}*/
+
+
+.clear {
+	clear: both;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+}
+
+.imgR {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.imgL {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+span.new {
+	display: none;
+}
+
+#flash p {
+	margin: 0;
+	padding: 0;
+}
+
+.childcareOnly .childcareOnly {
+	display: none;
+}
+
+
+
+/*
+	MT用
+*/
+.blueText {
+	color: blue !important;
+}
+
+.greenText {
+	color: green !important;
+}
+
+.orangeText {
+	color: orange !important;
+}
+
+.purpleText {
+	color: purple !important;
+}
+
+.aquaText {
+	color: aqua !important;
+}
+
+.limeText {
+	color: lime !important;
+}
+
+.olivieText {
+	color: olivie !important;
+}
+
+.tealText {
+	color: teal !important;
+}
+
+.maroonText {
+	color: maroon !important;
+}
+
+.navyText {
+	color: navy !important;
+}
+
+.redText {
+	color: red !important;
+}
+
+big {
+	font-size: 160%;
+}
+
+.entryBody blockquote {
+	margin: 20px;
+}
+
+.beautyBody .entryBody blockquote {
+	background: #FDF5D4;
+	padding: 15px;
+	border: 1px solid #B0982C;
+}
+
+.medBody .entryBody blockquote {
+	padding: 15px;
+	background: url(../img/med/share/bg.gif);
+}
+
+.blue {
+	color: #0000ff;
+}
+
+.rightblue {
+	color: #33ffff;
+}
+
+.pink {
+	color: #ff0099;
+}
+
+.purple {
+	color: #9900ff;
+}
+
+.orange {
+	color: #ff3300;
+}
+
+.green {
+	color: #99ff00;
+}
+
+.red {
+	color: #ff0000;
+}
+
+.navy {
+	color: #000066;
+}
+
+.gold {
+	color: #996600;
+}
+
+.brown {
+	color: #663300;
+}
+
+/*
+	イベントカレンダー
+*/
+#page #contents .contentsContainer #main table.eventTable {
+	border-color: #999;
+	table-layout: fixed;
+	margin: 0;
+}
+
+#page #contents .contentsContainer #main table.eventTable th {
+	font-weight: bold;
+	border-bottom-style: solid;
+}
+
+#page #contents .contentsContainer #main table.eventTable td {
+	height: 90px;
+	padding: 3px;
+	border-right-style: dotted;
+	font-size: 85%;
+	vertical-align: top;
+}
+
+/* 土曜日 */
+#page #contents .contentsContainer #main table.eventTable th.sat {
+	color: #06C;
+}
+#page #contents .contentsContainer #main table.eventTable td.calender41,
+#page #contents .contentsContainer #main table.eventTable td.calender34,
+#page #contents .contentsContainer #main table.eventTable td.calender27,
+#page #contents .contentsContainer #main table.eventTable td.calender20,
+#page #contents .contentsContainer #main table.eventTable td.calender13,
+#page #contents .contentsContainer #main table.eventTable td.calender6,
+#page #contents .contentsContainer #main table.eventTable th.sat {
+	width: 110px;
+	background: #EAF6FF;
+}
+
+/* 日曜日 */
+#page #contents .contentsContainer #main table.eventTable th.sun {
+	color: #F33;
+}
+#page #contents .contentsContainer #main table.eventTable td.calender42,
+#page #contents .contentsContainer #main table.eventTable td.calender35,
+#page #contents .contentsContainer #main table.eventTable td.calender28,
+#page #contents .contentsContainer #main table.eventTable td.calender21,
+#page #contents .contentsContainer #main table.eventTable td.calender14,
+#page #contents .contentsContainer #main table.eventTable td.calender7,
+#page #contents .contentsContainer #main table.eventTable th.sun {
+	width: 110px;
+	background: #FFE9E9;
+}
+
+/* イベント詳細のポップアップ内 */
+.entryBtn {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+p.time {
+	border-bottom: 1px dotted #999;
+}
+
+/* 先月 次月 */
+#page .contentsContainer #main .prevNext {
+	margin: 7px 0;
+	padding: 0;
+}
+
+#page .contentsContainer #main .prevNext li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	zoom: 1;
+}
+
+#page .contentsContainer #main .prevNext li.currentPage, /* フォトギャラリー */
+#page .contentsContainer #main .prevNext li.thisMonth {
+	margin-top: -1.3em;
+	text-align: center;
+	font-size: 1.2em;
+	letter-spacing: .1em;
+}
+
+#page .contentsContainer #main .prevNext li.prev {
+	text-align: left;
+}
+
+#page .contentsContainer #main .prevNext li.prev a {
+	padding-left: 16px;
+	background: url(../img/global/event_icon_prev.gif) no-repeat left center;
+}
+
+* html #page .contentsContainer #main .prevNext li.prev a {
+	zoom: 1;
+}
+
+* html .contentsContainer #main .prevNext li.currentPage,
+* html .contentsContainer #main .prevNext li.thisMonth,
+* html .contentsContainer #main .prevNext li.prev a {
+	position: relative;
+}
+
+#page .contentsContainer #main .prevNext li.next {
+	margin-top: -1.5em;
+	text-align: right;
+}
+
+#page .contentsContainer #main .prevNext li.next a {
+	padding-right: 16px;
+	background: url(../img/global/event_icon_next.gif) no-repeat right center;
+}

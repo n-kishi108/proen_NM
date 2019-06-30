@@ -1,0 +1,20 @@
+@charset "euc-jp";
+
+/* TRENDYnet CSS */
+/* Copyright (C)2007 Nikkei Business Publications, Inc. All Rights Reserved. */
+
+/* Last Update : 2007.10.22 */
+
+/* leaf.css */
+@import url(base.css);
+@import url(trendynavi.css);
+@import url(gnav2_trendy_0803.css);
+@import url(gnav.css);
+@import url(gnav-201004.css);
+@import url(common_parts.css);
+@import url(index_parts.css);
+
+@import url(article.css);
+@import url(leaf_shikake.css);
+
+@import url(lcruise.css);

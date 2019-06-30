@@ -1,0 +1,71 @@
+.guide_ranking {
+  font-family:"MS PGothic","MS Pゴシック",sans-serif;
+}
+
+.guide_ranking .title {
+  float:left;
+}
+
+.guide_ranking .rss {
+  float: right;
+  padding: 2px;
+}
+
+.guide_ranking a {
+  color:#0062CD;
+  line-height:20px;
+  font-size:12px;
+}
+
+.guide_ranking .guide_ranking-inner {
+  border: 1px solid #cccccc;
+  padding: 4px 8px;
+}
+
+.guide_ranking .ranking-title {
+  background-color:#363B4B;
+  border: 1px solid #363B4B;
+  color:white;
+  font-size:12px;
+  font-weight:bold;
+  padding: 4px;
+  margin-bottom: 1px;
+  height: 16px;
+}
+
+.guide_ranking .guide_ranking-items {
+    padding: 0px;
+    margin: 0px;
+}
+
+.guide_ranking .guide_ranking-items li {
+  list-style-type: none;
+  background-repeat: no-repeat;
+  background-position: 4px 4px;
+  padding-top: 0px;
+  line-height: 20px;
+  padding-left: 26px;
+}
+
+.guide_ranking .note {
+    font-size: 12px;
+    margin: 5px 0px 0px 5px;
+}
+
+.guide_ranking .note_logo {
+    font-size: 12px;
+    margin: 5px 5px 0px 0px;
+    text-align:right;
+    display:block;
+}
+
+.guide_ranking .guide_ranking-items .item-1 { background-image: url(http://www.television.co.jp/programlist/img/ranking/1.gif); font-weight:bold; }
+.guide_ranking .guide_ranking-items .item-2 { background-image: url(http://www.television.co.jp/programlist/img/ranking/2.gif); font-weight:bold; }
+.guide_ranking .guide_ranking-items .item-3 { background-image: url(http://www.television.co.jp/programlist/img/ranking/3.gif); font-weight:bold; margin-bottom: 10px; }
+.guide_ranking .guide_ranking-items .item-4 { background-image: url(http://www.television.co.jp/programlist/img/ranking/4.gif); }
+.guide_ranking .guide_ranking-items .item-5 { background-image: url(http://www.television.co.jp/programlist/img/ranking/5.gif); }
+.guide_ranking .guide_ranking-items .item-6 { background-image: url(http://www.television.co.jp/programlist/img/ranking/6.gif); }
+.guide_ranking .guide_ranking-items .item-7 { background-image: url(http://www.television.co.jp/programlist/img/ranking/7.gif); }
+.guide_ranking .guide_ranking-items .item-8 { background-image: url(http://www.television.co.jp/programlist/img/ranking/8.gif); }
+.guide_ranking .guide_ranking-items .item-9 { background-image: url(http://www.television.co.jp/programlist/img/ranking/9.gif); }
+.guide_ranking .guide_ranking-items .item-10 { background-image: url(http://www.television.co.jp/programlist/img/ranking/10.gif); }

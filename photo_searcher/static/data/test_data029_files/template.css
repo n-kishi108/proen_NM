@@ -1,0 +1,17 @@
+@charset "Shift_JIS";
+
+/*------------------------------------------------
+	template.css - template.html design css
+	作成日：2006.10.08
+	最終更新日：2006.10.09
+	:::toc:::
+	import url
+	parts design
+------------------------------------------------*/
+
+@import url(../common/common.css);
+@import url(../common/format.css);
+@import url(../common/textstyle.css);
+
+/*parts design
+------------------------------------------------*/

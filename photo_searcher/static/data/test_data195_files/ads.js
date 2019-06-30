@@ -1,0 +1,1 @@
+var ads=(function(){return{fetch:function(location){var timeout_msec=5000;$.ajaxTimeout(timeout_msec);$.get("/adv/A-affiliate2/distribute",{keyword:location},function(text,status){$("#ads_"+location).html(text);});}}})();

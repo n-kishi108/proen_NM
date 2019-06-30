@@ -1,0 +1,51 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BubVppii4S_O0Hoa26wPpx5CPCJr7vpwBgKe7tRDAjbcBgMerSxABGAEg1LeUBigDOABQ_JiCgfz_____AWCJo9KEqBSgAZS_hvoDugEJNzI4eDkwX2pzyAEB2gH_AWZpbGU6Ly8vQzovVXNlcnMvc2hpbi9EZXNrdG9wLyVFOSU5QiU4NiVFNSU5MCU4OCVFNSU4NiU5OSVFNyU5QyU5Ri8lRTUlODUlQUQlRTYlOUMlQUMlRTYlOUMlQTglRTMlODElQTclRTUlOEYlOEIlRTklODElOTQlRTMlODElQUUlRTUlQTglOTglRTMlODElQUUlRTclQjUlOTAlRTUlQTklOUElRTUlQkMlOEYlRTMlODElQUIlRTMlODIlQTYlRTMlODIlQTQlRTMlODMlODMlRTMlODMlODElRTklOUIlODYlRTUlOTAlODglMjAtJTIwJUU2JUI1JTlDJakCbLEBNh3URj7IArjO1xCoAwHoA1DoA6UC6ANk9QMAAADE&amp;num=1&amp;sig=AGiWqtwzQrz3P5ezgRKNlp9DnBldtJe5Sg&amp;client=ca-rakuten-blog_js&amp;adurl=http://www.kekkonbiyori.jp"; 
+google_ad.visible_url = "kekkonbiyori.jp"; 
+google_ad.line1 = "\x26#31070;\x26#31038;\x26#12391;\x26#25369;\x26#24335; \x26#20140;\x26#37117;\x26#32080;\x26#23130;\x26#26085;\x26#21644;"; 
+google_ad.line2 = "\x26#20140;\x26#37117;\x26#12398;\x26#31070;\x26#31038;\x26#25369;\x26#24335;\x26#30456;\x26#35527;\x26#20250;\x26#38283;\x26#20652;"; 
+google_ad.line3 = "\x26#31070;\x26#31038;\x26#25369;\x26#24335;\x26#12503;\x26#12521;\x26#12531;\x26#12391;\x26#32080;\x26#23130;\x26#28310;\x26#20633;\x26#12434;\x26#12469;\x26#12509;\x26#12540;\x26#12488;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BuWCNpii4S_O0Hoa26wPpx5CPCIHM8acBue_K3Q3AjbcBgIenDhACGAIg1LeUBigDOABQiq25z_v_____AWCJo9KEqBSgAeu_yesDugEJNzI4eDkwX2pzyAEB2gH_AWZpbGU6Ly8vQzovVXNlcnMvc2hpbi9EZXNrdG9wLyVFOSU5QiU4NiVFNSU5MCU4OCVFNSU4NiU5OSVFNyU5QyU5Ri8lRTUlODUlQUQlRTYlOUMlQUMlRTYlOUMlQTglRTMlODElQTclRTUlOEYlOEIlRTklODElOTQlRTMlODElQUUlRTUlQTglOTglRTMlODElQUUlRTclQjUlOTAlRTUlQTklOUElRTUlQkMlOEYlRTMlODElQUIlRTMlODIlQTYlRTMlODIlQTQlRTMlODMlODMlRTMlODMlODElRTklOUIlODYlRTUlOTAlODglMjAtJTIwJUU2JUI1JTlDJYACAakCbLEBNh3URj7IAunzmQ-oAwHoA1DoA6UC6ANk9QMAAADE&amp;num=2&amp;sig=AGiWqtzAm1TjTlQQIVXJx4uLyNpDrTCThw&amp;client=ca-rakuten-blog_js&amp;adurl=http://konkatsu-ex.jp/promo/international/%3Fref_code%3Dlis_ad_ga"; 
+google_ad.visible_url = "konkatsu-ex.jp"; 
+google_ad.line1 = "\x26#24999;\x26#12428;\x26#12398;\x26#22806;\x26#22269;\x26#20154;\x26#12392;\x26#32080;\x26#23130;\x26#12375;\x26#12383;\x26#12356;"; 
+google_ad.line2 = "\x26#20154;\x26#27671;\x26#12539;\x26#23455;\x26#32318;\x26#12398;\x26#12354;\x26#12427;\x26#32080;\x26#23130;\x26#30456;\x26#35527;\x26#25152;\x26#12394;\x26#12425;\x26#12289;"; 
+google_ad.line3 = "\x26#22806;\x26#22269;\x26#20154;\x26#12392;\x26#12398;\x26#20986;\x26#20250;\x26#12356;\x26#12434;\x26#23436;\x26#20840;\x26#12469;\x26#12509;\x26#12540;\x26#12488;\x26#65281;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BW5OFpii4S_O0Hoa26wPpx5CPCJCuh84BnPn9kBDAjbcBgJChDxADGAMg1LeUBigDOABQjdr0nQdgiaPShKgUugEJNzI4eDkwX2pzyAEB2gH_AWZpbGU6Ly8vQzovVXNlcnMvc2hpbi9EZXNrdG9wLyVFOSU5QiU4NiVFNSU5MCU4OCVFNSU4NiU5OSVFNyU5QyU5Ri8lRTUlODUlQUQlRTYlOUMlQUMlRTYlOUMlQTglRTMlODElQTclRTUlOEYlOEIlRTklODElOTQlRTMlODElQUUlRTUlQTglOTglRTMlODElQUUlRTclQjUlOTAlRTUlQTklOUElRTUlQkMlOEYlRTMlODElQUIlRTMlODIlQTYlRTMlODIlQTQlRTMlODMlODMlRTMlODMlODElRTklOUIlODYlRTUlOTAlODglMjAtJTIwJUU2JUI1JTlDJakCbLEBNh3URj7IAsrZvRGoAwHoA1DoA6UC6ANk9QMAAADE&amp;num=3&amp;sig=AGiWqtwxPdVzwT7qa25j4I86dPxc_jJrOQ&amp;client=ca-rakuten-blog_js&amp;adurl=http://wol.nikkeibp.co.jp/article/column/20091214/105256/%3Fcd%3Dad%26M%3Dwol%26KW%3D000085"; 
+google_ad.visible_url = "wol.nikkeibp.co.jp/"; 
+google_ad.line1 = "\x26#12497;\x26#12540;\x26#12486;\x26#12451;\x26#12540;\x26#26381;\x26#12289;\x26#20170;\x26#24180;\x26#12398;\x26#27969;\x26#34892;"; 
+google_ad.line2 = "\x26#12450;\x26#12521;\x26#12469;\x26#12540;\x26#12425;\x26#12375;\x26#12367;\x26#33853;\x26#12385;\x26#30528;\x26#12365;\x26#12394;\x26#12364;\x26#12425;\x26#12418;"; 
+google_ad.line3 = "\x26#12420;\x26#12387;\x26#12401;\x26#12426;\x26#20027;\x26#24441;\x26#12395;\x26#12394;\x26#12426;\x26#12383;\x26#12356;\x26#65281;\x26#26085;\x26#32076;WOMAN"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dfile:///C:/Users/shin/Desktop/%2525E9%25259B%252586%2525E5%252590%252588%2525E5%252586%252599%2525E7%25259C%25259F/%2525E5%252585%2525AD%2525E6%25259C%2525AC%2525E6%25259C%2525A8%2525E3%252581%2525A7%2525E5%25258F%25258B%2525E9%252581%252594%2525E3%252581%2525AE%2525E5%2525A8%252598%2525E3%252581%2525AE%2525E7%2525B5%252590%2525E5%2525A9%25259A%2525E5%2525BC%25258F%2525E3%252581%2525AB%2525E3%252582%2525A6%2525E3%252582%2525A4%2525E3%252583%252583%2525E3%252583%252581%2525E9%25259B%252586%2525E5%252590%252588%252520-%252520%2525E6%2525B5%25259C%2525E7%252594%2525B0%2525E3%252583%25259E%2525E3%252582%2525AD%2525E5%2525AD%252590%2525E3%252582%2525B8%2525E3%252583%2525A3%2525E3%252583%2525BC%2525E3%252583%25258A%2525E3%252583%2525AB%252520-%252520%2525E6%2525A5%2525BD%2525E5%2525A4%2525A9%2525E3%252583%252596%2525E3%252583%2525AD%2525E3%252582%2525B0%2525EF%2525BC%252588Blog%2525EF%2525BC%252589.htm%26hl%3Dja%26client%3Dca-rakuten-blog_js%26adU%3Dkekkonbiyori.jp%26adT%3D%25E7%25A5%259E%25E7%25A4%25BE%25E3%2581%25A7%25E6%258C%2599%25E5%25BC%258F%2B%25E4%25BA%25AC%25E9%2583%25BD%25E7%25B5%2590%25E5%25A9%259A%25E6%2597%25A5%25E5%2592%258C%26adU%3Dkonkatsu-ex.jp%26adT%3D%25E6%2586%25A7%25E3%2582%258C%25E3%2581%25AE%25E5%25A4%2596%25E5%259B%25BD%25E4%25BA%25BA%25E3%2581%25A8%25E7%25B5%2590%25E5%25A9%259A%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%26adU%3Dwol.nikkeibp.co.jp/%26adT%3D%25E3%2583%2591%25E3%2583%25BC%25E3%2583%2586%25E3%2582%25A3%25E3%2583%25BC%25E6%259C%258D%25E3%2580%2581%25E4%25BB%258A%25E5%25B9%25B4%25E3%2581%25AE%25E6%25B5%2581%25E8%25A1%258C%26gl%3DJP\x26usg\x3dAFQjCNEOQn80DtrS8l05aoreXBb84_mYtQ"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

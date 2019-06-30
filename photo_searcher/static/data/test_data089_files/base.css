@@ -1,0 +1,559 @@
+/*
+	The body definitions define how the page should globally look
+*/
+html {
+	height: 100%; /* for Mozilla */
+	margin: 0;  /* for Opera */
+	padding: 0; /* for Opera */
+}
+
+body {
+	width: 800px;
+	height: 100%;
+	padding: 0px 30px;
+	
+	background: white;
+
+	font-family:Meiryo,"MS UI Gothic", Osaka, "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "Trebuchet MS", verdana, arial, sans-serif;
+	color: black;
+}
+
+div#header {
+	margin: 0;
+	padding: 0;
+}
+
+div#mainbody {
+	margin: 0;
+	padding: 0;
+}
+
+div#footer {
+	clear: both; /* clear floating(#contents and #menu) */
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+	
+	font-size: small;
+	text-align: right;
+}
+
+/* definitions applying to the contents block */
+div#contents {
+	float: left;
+	width: 560px;
+   padding: 0 10px;
+	
+	line-height: 160%;
+	font-size: 86%;
+}
+
+/* definitions applying to the menu block */
+div#menu {
+	float: left;
+	width: 200px;
+    padding: 0 10px;
+	color: #777;
+	font-size: small;
+}
+
+
+/*
+	Definitions for elements in the header block.
+*/
+h1 {
+	margin: 0;
+	padding: 10px 0;
+	font-size: 15px;
+	text-align: left;
+	letter-spacing: 0.2em;
+}
+h1 a, h1 a:hover {
+	background-color: transparent;
+	
+	color: black;
+	text-decoration: none;
+}
+
+/*
+	Definitions for elements in the contents block.
+*/
+h2 {
+	margin: 15px 0;
+	padding: 0;
+
+	color: #ccc;
+	font-size: 16px;
+	letter-spacing: 0.3em;
+	line-height: 110%;
+}
+#contents .btnspace {
+	margin: 20px 0px;
+	padding: 0;
+	text-align: center;
+}
+
+/*
+	Definitions for elements in the menu block.
+*/
+#menu h2 {
+	background: url(img/bg_menuhead.gif);
+	margin: 20px 0 10px;
+	padding: 5px 3px;
+	
+	color: gray;
+	font-size: small;
+	letter-spacing: 0.2em;
+	line-height: 100%;
+}
+#menu h2.nobg {
+	background: transparent;
+}
+
+#menu p {
+	margin: 5px 0;
+}
+#menu ul {
+	margin: 0;
+}
+
+
+/*
+	Some rules that apply to lists in the menu block
+	- navigation (ul.link)
+	- categorylist
+*/
+
+ul.link {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.link li {
+	padding-left: 14px;
+	background: url(img/ico_link.gif) left no-repeat;
+}
+
+ul.categorylist {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.categorylist li {
+	padding-left: 14px;
+	background: url(img/ico_cat.gif) left no-repeat;
+}
+ul.categorylist li.nocat {
+	padding-left: 14px;
+	background: url(img/ico_cat2.gif) left no-repeat;
+}
+
+
+/* 
+	Definitions for the item listings like they are done on the main page and in archives
+	- h3.item is the title of an item (<h3 class="item">)
+	- .itembody is the item contents
+	- .iteminfo contains the time of posting and the name of the author, and the amount of comments
+	
+	anchors in the iteminfo (.iteminfo a) are not underlined and bold
+*/
+
+h3 {
+	margin: 1em 0;
+}
+
+/* item title */
+h3.item {
+	padding-left: 28px;
+	background: url(img/ico24_title.gif) left no-repeat;
+}
+
+div.itembody {	
+	width: 540px; /* for IE (to enable overflow:auto)*/
+	overflow: auto;
+	margin: 5px 0;	
+}
+
+div.iteminfo, div.iteminfo-short {	
+	border-top: 2px dotted #ccc;
+	margin-top: 10px;
+	padding: 2px;
+
+	color: gray;
+	font-size: small;
+}
+div.iteminfo-short {
+	padding-bottom: 40px;
+}
+div.iteminfo a, div.iteminfo-short a {
+	font-weight: bold;
+	text-decoration: none;
+}
+div.iteminfo-r {
+	float: right;
+}
+div.iteminfo-l {
+	float: left;
+}
+
+/*
+	Definitions of how comments listings look like on item pages
+	- h3.comment contains the name of the comment author
+	- .commentbody contains the text from the comment
+	- .commentinfo contains the time of commenting
+*/
+
+/* comment title */
+h3.comment {
+	margin-bottom: 10px;
+}
+
+div.commentbody {
+	/* text-align: justify;*/
+}
+
+div.commentinfo {	
+	color: gray;
+	font-size: small;
+}
+
+
+/*
+	Definitions for lists on archive list page
+*/
+ul.archivelist {
+	list-style: none;
+	margin: 20px 0;
+	padding: 0;
+}
+ul.archivelist li {
+	display: inline;	
+	padding-right: 5px;
+
+	color: #ccc;
+	font-size: large;
+	letter-spacing: 0.2em;
+	line-height: 150%;
+}
+ul.archivelist a { 
+	text-decoration: none;
+}
+
+
+/*
+	Some rules that apply to contents generated using the markup buttons 
+	"add left box" and "add right box"
+*/
+
+.leftbox {
+	float: left;
+	border-right: 5px;	
+	margin-right: 5px;
+	padding-right: 2px;
+}
+.rightbox {
+	float: right;
+	border-left: 5px;	
+	margin-left: 5px;
+	padding-left: 2px;
+}
+
+
+/*
+	Some general rules:
+	- images never have a border (even when they are inside a hyperlink)
+	- elements having class="skip" are not shown
+	- item lists using <ul class="nobullets"> have no list-item bullets
+	- highlighted text (in search results) have a yellow background
+	- forms
+	- 'new item' mark next to the item title
+*/
+
+img {
+	border: none;
+}
+
+.skip {
+	display: none;
+}
+
+ul.nobullets {
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.highlight {
+	background-color: yellow;
+}
+
+form {
+	margin: 5px 0;
+}
+input.formfield {
+	font-family: "Osaka" "Trebuchet MS", verdana, arial, sans-serif; /* for Mac (mojibake) */	
+}
+div.searchform input.formfield {
+	width: 180px;
+}
+
+span.newitem {
+	color: red;
+	font-size: x-small;
+}
+
+
+
+
+
+div#footer {
+	font-size: small;
+	text-align: center;
+}
+
+/* definitions applying to the contents block */
+div#contents {
+	/* contents left, menu right */
+	/* if you want to move contents block to right, set "float: right" */
+	float: left; /* [change layout] */
+	
+	/* total #contents width = 10 + 490 + 10 = 510 */
+	width: 540px; /* [change width: contents] must be equal to itembody width */
+    padding: 0 10px;
+	
+	/* background of the contents block */
+	background: transparent; /* [change color] */
+	
+	line-height: 160%;
+	font-size: 86%;
+}
+
+/* definitions applying to the menu block */
+div#menu {
+	/* total #menu width = 10 + 200 + 10 = 220 */
+	width: 200px; /* [change width: menu] */
+    padding: 0 10px;
+
+	/* background of the menu block */
+	background: transparent; /* [change color] */
+
+	color: #777; /* [change color] */
+	font-size: small;
+}
+
+
+/*
+	Definitions for elements in the header block.
+*/
+h1 {
+	text-align: left;
+	font-size:16px;
+	letter-spacing: 0.2em;
+}
+#blogbbtv_list
+{
+	margin:0;
+	padding:0;
+	font-size:9px;
+	text-align:right;
+}
+#blogbbtv_login
+{
+	text-align:right;
+	font-size:9px;
+	margin:0;
+	padding:0;
+	height:30px;
+}
+/*
+	Definitions for elements in the contents block.
+*/
+#header_detail
+{
+	/* end small header image specific lines */
+	font-size: 9px;
+	text-align: right;
+	height:100px;
+}
+
+#header_detail img
+{
+	float:left;
+	border:0;
+}
+
+#contents h2 {
+	color: #ccc; /* [change color] */
+	font-size: 18px;
+	letter-spacing: 0.3em;
+	line-height: 110%;
+}
+
+
+/*
+	Definitions for elements in the menu block.
+*/
+#menu h2 {
+	background: url(img/bg_menuhead.gif);
+	
+	color: gray; /* [change color] */
+	font-size: small;
+	letter-spacing: 0.2em;
+	line-height: 100%;
+}
+
+
+/*
+	Definitions for elements in the item block.
+*/
+h3.item {
+	padding-left: 28px;
+	background: url(img/ico24_title.gif) left no-repeat;
+}
+
+div.itembody {	
+	/* for IE (to enable overflow:auto) */
+	width: 540px; /* [change width: contents] must be equal to #contents width */
+	
+	overflow: auto;
+	margin: 5px 0;	
+}
+
+div.iteminfo, 
+div.iteminfo-short {	
+	border-top: 2px dotted #ccc;
+	margin-top: 10px;
+	padding: 2px;
+
+	color: gray; /* [change color] */
+	font-size: small;
+}
+div.iteminfo-short {
+	padding-bottom: 40px;
+}
+div.iteminfo a, 
+div.iteminfo-short a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* New item mark next to item title */
+span.newitem {
+	color: red; /* [change color] */
+	font-size: x-small;
+}
+
+
+/*
+	----------
+	---------- SECTION 2: anchors and writing format for articles
+	----------
+*/
+
+/*
+	Definitions for anchors
+*/
+
+a {
+	text-decoration: none;
+	color: #336;
+}
+a:visited {
+	color: #888;
+}
+
+#header a, #header a:visited {
+	color: black;
+}
+
+#mainbody a:hover {
+	background-color: #ccc;
+	color: orange;
+}
+#mainbody a.nohover:hover {
+	background-color: transparent;	
+}
+
+#contents .itembody a,
+#contents .commentbody a {
+	text-decoration: underline;
+}
+#contents .iteminfo a,
+#contents .iteminfo-short a, {
+	color: #666;
+}
+
+
+/*
+	Definitions for elements in the item body block
+	(writing format for articles)
+*/
+h4 {
+	margin: 2em 0 1em;
+	text-decoration: underline;
+}
+
+h5 {
+	border-left: 5px solid #666;
+	padding-left: 5px;
+}
+
+.center {
+	text-align: center;
+}
+
+div.itembody blockquote {
+	border: 1px solid #666;
+	background: transparent url(img/ico_quote.gif) no-repeat top right;
+	margin: 1em;
+	padding: 10px;
+	line-height: 130%;
+}
+div.itembody pre {
+	width: 460px; /* [change width: contents] considering margin and UI width */
+	overflow: scroll;
+	border: 1px solid #ccc;
+	margin: 0;
+	padding: 10px;
+	background: #f0f0f0 url(img/ico_code.gif) no-repeat top right; /* [change color] */
+	
+	line-height: 110%;	
+}
+div.itembody cite {
+	border-left: 5px solid #ccc;
+	margin: 0 1em;
+	padding: 0;
+	padding-left: 5px;
+	
+	font-style: normal;
+	font-size: smaller;
+}
+
+div.itembody div.postit {
+	border: 1px solid #666;
+	border-left: 5px solid #aaa;
+	margin: 0.5em 1em;
+	padding: 10px;
+	
+	line-height: 130%;
+	font-size: smaller;
+}
+
+div.itembody div.note {
+	border-left: 5px solid #ccc;
+	margin: 0.5em 1em;
+	padding: 10px;
+	
+	line-height: 130%;
+	font-size: smaller;
+}
+
+div.itembody a.ico {
+	padding-left: 14px;
+	background: url(img/ico_link.gif) left no-repeat;
+}
+
+div.itembody samp {
+	background-color: #eee;
+}
+

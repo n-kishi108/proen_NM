@@ -1,0 +1,51 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B_hkKxVa5S5IKg4rpA8aM5d8Hz7rWrAHb1MmSFMCNtwHAyroVEAEYASDJ9-8RKAM4AFDFlY30A2CJo9KEqBSgAdns2ugDyAEB2gFWZmlsZTovLy9DOi9Vc2Vycy9zaGluL0Rlc2t0b3AvJUU5JTlCJTg2JUU1JTkwJTg4JUU1JTg2JTk5JUU3JTlDJTlGL2Jsb2ctZW50cnktMTc3Lmh0bWypAmpwrTs3tUY-yAKH1qUOqAMB6AOxA_UDAAACxA&amp;num=1&amp;sig=AGiWqtwbVlzLhwych5GtVc8WGV9mSLeypA&amp;client=ca-pub-0001957403984000&amp;adurl=http://www.nikkei.co.jp/ps/ayataka/"; 
+google_ad.visible_url = "www.nikkei.co.jp/ps/ayataka"; 
+google_ad.line1 = "\x26#32190;\x26#40441;\x26#12398;\x26#24149;\x26#26411;\x26#21608;\x26#36938;\x26#32000;\x26#34892;"; 
+google_ad.line2 = "\x26#26085;\x26#26412;\x26#32076;\x26#28168;\x26#26032;\x26#32862;"; 
+google_ad.line3 = "\x26#22320;\x26#26041;\x26#32025;7\x26#32025;\x26#36899;\x26#21512;\x26#20225;\x26#30011;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B-xBuxVa5S5IKg4rpA8aM5d8HuIT8ggG4o6TkDsCNtwGAttwFEAIYAiDJ9-8RKAM4AFCE5PO0AWCJo9KEqBTIAQHaAVZmaWxlOi8vL0M6L1VzZXJzL3NoaW4vRGVza3RvcC8lRTklOUIlODYlRTUlOTAlODglRTUlODYlOTklRTclOUMlOUYvYmxvZy1lbnRyeS0xNzcuaHRtbIACAakCanCtOze1Rj6oAwHoA7ED9QMAAALE&amp;num=2&amp;sig=AGiWqtwfZEoFEGYqOQwmyv0zM_eaSlA7pQ&amp;client=ca-pub-0001957403984000&amp;adurl=http://www.bakumatsu.jp/offer/"; 
+google_ad.visible_url = "www.bakumatsu.jp"; 
+google_ad.line1 = "\x26#24149;\x26#26411;\x26#12502;\x26#12525;\x26#12460;\x26#12540;\x26#21215;\x26#38598;\x26#20013;"; 
+google_ad.line2 = "\x26#24149;\x26#26411;\x26#12398;\x26#12502;\x26#12525;\x26#12460;\x26#12540;\x26#22823;\x26#21215;\x26#38598;\x26#20013;\x26#65281;\x26#65288;\x26#28961;\x26#26009;\x26#65289;"; 
+google_ad.line3 = "\x26#24149;\x26#26411;\x26#12398;\x26#29105;\x26#12356;\x26#39746;\x26#12406;\x26#12388;\x26#12369;\x26#12414;\x26#12379;\x26#12435;\x26#12363;\x26#12290;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=Bo7tjxVa5S5IKg4rpA8aM5d8H-sW3kAH8mKC-DsCNtwHAw5MHEAMYAyDJ9-8RKAM4AFC7s6-wBmCJo9KEqBTIAQHaAVZmaWxlOi8vL0M6L1VzZXJzL3NoaW4vRGVza3RvcC8lRTklOUIlODYlRTUlOTAlODglRTUlODYlOTklRTclOUMlOUYvYmxvZy1lbnRyeS0xNzcuaHRtbKkCanCtOze1Rj7IApL8lQ6oAwHoA7ED9QMAAALE&amp;num=3&amp;sig=AGiWqty-sY18wSSQY5l6xGoydR2re3PRWA&amp;client=ca-pub-0001957403984000&amp;adurl=http://travel.rakuten.co.jp/special/ryoma/index.html%3Fs_kwcid%3DTC%7C16679%7C%25E7%25AB%259C%25E9%25A6%25AC%25E6%25AD%25B4%25E5%258F%25B2%7C%7CC%7C%7C3792462942"; 
+google_ad.visible_url = "travel.rakuten.co.jp"; 
+google_ad.line1 = "\x26#22338;\x26#26412;\x26#31452;\x26#39340;\x26#12422;\x26#12363;\x26#12426;\x26#12398;\x26#22320;\x26#12408;\x26#12398;\x26#26053;"; 
+google_ad.line2 = "\x26#12298;\x26#31452;\x26#39340;\x26#12299;\x26#12422;\x26#12363;\x26#12426;\x26#12398;\x26#22320;\x26#12398;\x26#35251;\x26#20809;\x26#12395;\x26#12458;\x26#12473;\x26#12473;\x26#12513;"; 
+google_ad.line3 = "\x26quot;\x26#31452;\x26#39340;\x26#12503;\x26#12521;\x26#12531;\x26quot;\x26#12418;\x26#28288;\x26#36617;! \x26#27005;\x26#22825;\x26#12488;\x26#12521;\x26#12505;\x26#12523;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dfile:///C:/Users/shin/Desktop/%2525E9%25259B%252586%2525E5%252590%252588%2525E5%252586%252599%2525E7%25259C%25259F/blog-entry-177.html%26hl%3Dja%26client%3Dca-pub-0001957403984000%26adU%3Dwww.nikkei.co.jp/ps/ayataka%26adT%3D%25E7%25B6%25BE%25E9%25B7%25B9%25E3%2581%25AE%25E5%25B9%2595%25E6%259C%25AB%25E5%2591%25A8%25E9%2581%258A%25E7%25B4%2580%25E8%25A1%258C%26adU%3Dwww.bakumatsu.jp%26adT%3D%25E5%25B9%2595%25E6%259C%25AB%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25AC%25E3%2583%25BC%25E5%258B%259F%25E9%259B%2586%25E4%25B8%25AD%26adU%3Dtravel.rakuten.co.jp%26adT%3D%25E5%259D%2582%25E6%259C%25AC%25E7%25AB%259C%25E9%25A6%25AC%25E3%2582%2586%25E3%2581%258B%25E3%2582%258A%25E3%2581%25AE%25E5%259C%25B0%25E3%2581%25B8%25E3%2581%25AE%25E6%2597%2585%26gl%3DJP\x26usg\x3dAFQjCNHsOq-nveEi8_7nY2bhRvT2El5EUA"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

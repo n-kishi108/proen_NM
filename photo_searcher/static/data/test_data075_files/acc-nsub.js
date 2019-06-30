@@ -1,0 +1,10 @@
+document.write("<div id=\"accNav\">");
+document.write("<ul>");
+document.write("<li>");
+document.write("<a href=\"#contents\">–{•¶‚Ö</a>");
+document.write("</li>");
+document.write("<li>");
+document.write("<a href=\"#gNavB\">ŠeŒ€ê‚Ö‚ÌƒŠƒ“ƒN</a>");
+document.write("</li>");
+document.write("</ul>");
+document.write("</div>");

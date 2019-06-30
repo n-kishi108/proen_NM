@@ -1,0 +1,51 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BOKzJbZC1S9nbN5Cy6QOl5JzHCOyoxu8BnsmushLAjbcBwKGHcBABGAEgk_GcEygDOABQ16WXyf______AWCJ672E4BOgAeCv8fgDsgERbmV3cy5saXZlZG9vci5jb23IAQHaAURodHRwOi8vbmV3cy5saXZlZG9vci5jb20vYXJ0aWNsZS9pbWFnZV9kZXRhaWwvNDUyMzU0NC8_aW1nX2lkPTkwOTc3MakCej6iqe_kRj7IAsb7uA6oAwHoA_sD6AOgBPUDAAAABPUDBAAAEA&amp;num=1&amp;sig=AGiWqty9xdtzjXcEmLZZ_9f8F8A8l4f-cQ&amp;client=ca-livedoor-infoentame_js&amp;adurl=http://www.reve21.co.jp/adv-woman/%3Fad%3Dadw"; 
+google_ad.visible_url = "www.reve21.co.jp"; 
+google_ad.line1 = "\x26#25244;\x26#12369;\x26#27611;\x26#12398;\x26#24745;\x26#12415;\x26#12399;\x26quot;\x26#12522;\x26#12540;\x26#12502;21\x26quot;"; 
+google_ad.line2 = "\x26#12414;\x26#12378;\x26#12399;\x26#12289;\x26#27671;\x26#36605;\x26#12395;\x26#28961;\x26#26009;\x26#30456;\x26#35527;\x26#12290;\x26#20170;\x26#12384;\x26#12369;\x26#12362;\x26#24471;"; 
+google_ad.line3 = "\x26#30330;\x26#27611;\x26#23455;\x26#24863;\x26#12467;\x26#12540;\x26#12473;\x26#12364;4,900\x26#20870;\x26#12290;4\x26#26376;13\x26#26085;\x26#36804;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BMONybZC1S9nbN5Cy6QOl5JzHCKvXr5EBh_eAqA3AjbcBwIe-KRACGAIgk_GcEygDOABQm_yQmvz_____AWCJ672E4BOgAfWGze8DsgERbmV3cy5saXZlZG9vci5jb23IAQHaAURodHRwOi8vbmV3cy5saXZlZG9vci5jb20vYXJ0aWNsZS9pbWFnZV9kZXRhaWwvNDUyMzU0NC8_aW1nX2lkPTkwOTc3MakCej6iqe_kRj6oAwHoA_sD6AOgBPUDAAAABPUDBAAAEA&amp;num=2&amp;sig=AGiWqtwc_QYsYD4FXJHyz4tFD8yfwG43Qw&amp;client=ca-livedoor-infoentame_js&amp;adurl=http://www.enjoys-darts.com/"; 
+google_ad.visible_url = "www.enjoys-darts.com/"; 
+google_ad.line1 = "\x26#19990;\x26#30028;\x26#12398;\x26#12480;\x26#12540;\x26#12484;\x26#12486;\x26#12463;\x26#12491;\x26#12483;\x26#12463;"; 
+google_ad.line2 = "\x26#20253;\x26#35500;\x26#12398;\x26#12480;\x26#12540;\x26#12484;\x26#12503;\x26#12524;\x26#12540;\x26#12516;\x26#12540;\x26#12364;"; 
+google_ad.line3 = "\x26#12486;\x26#12463;\x26#12491;\x26#12483;\x26#12463;\x26#12398;\x26#20840;\x26#12390;\x26#12434;\x26#21021;\x26#20844;\x26#38283;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BmYcabZC1S9nbN5Cy6QOl5JzHCKfR6aMBzYS6nQ7AjbcBkM9TEAMYAyCT8ZwTKAM4AFCi85-j_v____8BYInrvYTgE7IBEW5ld3MubGl2ZWRvb3IuY29tyAEB2gFEaHR0cDovL25ld3MubGl2ZWRvb3IuY29tL2FydGljbGUvaW1hZ2VfZGV0YWlsLzQ1MjM1NDQvP2ltZ19pZD05MDk3NzGoAwHoA_sD6AOgBPUDAAAABPUDBAAAEA&amp;num=3&amp;sig=AGiWqtwMfSnYGReUejAjszmGM6ZRaYqmeA&amp;utm_campaign=organic&amp;utm_creative=ha&amp;utm_size=0&amp;dc=gh3sma&amp;client=ca-livedoor-infoentame_js&amp;adurl=http://www.google.co.jp/intl/ja/landing/otto/index-b.html%23utm_source%3Dctpt"; 
+google_ad.visible_url = "www.google.co.jp"; 
+google_ad.line1 = "\x26#26144;\x26#30011;\x26#12434;\x26#25658;\x26#24111;\x26#12391;\x26#12481;\x26#12455;\x26#12483;\x26#12463;"; 
+google_ad.line2 = "Google\x26#12514;\x26#12496;\x26#12452;\x26#12523;\x26#26908;\x26#32034;\x26#12391;"; 
+google_ad.line3 = "\x26#12356;\x26#12388;\x26#12391;\x26#12418;\x26#12393;\x26#12371;\x26#12391;\x26#12418;\x26#26144;\x26#30011;\x26#26908;\x26#32034;\x26#12290;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://news.livedoor.com/article/image_detail/4523544/%253Fimg_id%253D909771%26hl%3Dja%26client%3Dca-livedoor-infoentame_js%26adU%3Dwww.reve21.co.jp%26adT%3D%25E6%258A%259C%25E3%2581%2591%25E6%25AF%259B%25E3%2581%25AE%25E6%2582%25A9%25E3%2581%25BF%25E3%2581%25AF%2526quot%253B%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%259621%2526quot%253B%26adU%3Dwww.enjoys-darts.com/%26adT%3D%25E4%25B8%2596%25E7%2595%258C%25E3%2581%25AE%25E3%2583%2580%25E3%2583%25BC%25E3%2583%2584%25E3%2583%2586%25E3%2582%25AF%25E3%2583%258B%25E3%2583%2583%25E3%2582%25AF%26adU%3Dwww.google.co.jp%26adT%3D%25E6%2598%25A0%25E7%2594%25BB%25E3%2582%2592%25E6%2590%25BA%25E5%25B8%25AF%25E3%2581%25A7%25E3%2583%2581%25E3%2582%25A7%25E3%2583%2583%25E3%2582%25AF%26gl%3DJP%26hideleadgen%3D1\x26usg\x3dAFQjCNGupRHuQ-lZbNpuJv61IpRB40jT5g"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

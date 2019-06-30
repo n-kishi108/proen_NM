@@ -1,0 +1,871 @@
+@charset "UTF-8";
+
+
+*{word-break: break-all;
+	font-family:"verdana","helvetica","osaka","ＭＳ ゴシック",ans-serif;
+word-break: break-all;
+}
+
+textarea,select,input {
+font-family: "新ゴ Pro W3","Hiragino Kaku GothicPro","Osaka","Verdana","Helvetica","Arial","ＭＳ ゴシック","sans-serif";
+}
+
+
+body{
+	color:#000;
+	margin:0px;
+	background:#E0E0E0;
+	text-align:center;
+}
+
+form{
+	margin:0px;
+	padding:0px;
+}
+
+table.form{
+	margin:25px 0px 0px 13px;
+}
+
+img{
+	border:none;
+}
+
+ul.rss{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	text-align:center;
+}
+
+ul.rss li	{
+	border-right:#999 1px solid;
+	display:inline;
+	font-size:12px;
+	font-style:normal;
+	font-weight:bold;
+	letter-spacing:0.2px;
+	margin-right:0.3em;
+	padding-right:0.5em;
+	padding-left:0.2em;
+}
+
+ul.rss a:link{
+	color:#333333;
+	text-decoration:none;
+}
+
+ul.rss a:visited	{
+	color:#333333;
+	text-decoration:none;
+}
+
+ul.rss a:hover{
+	color:#999999;
+	text-decoration:none;
+}
+
+ul.rss a:active	{
+	color:#333333;
+	text-decoration:none;
+}
+
+a{color:#4B4B4B;text-decoration:underline;}
+a:link{color:#4B4B4B;text-decoration:underline;}
+a:visited{color:#4B4B4B;text-decoration:underline;}
+a:active{color:#4B4B4B;text-decoration:underline;}
+a:hover{color:#4B4B4B;text-decoration:underline;}
+
+a.acalendar{color:#4B4B4B;text-decoration:underline;}
+a.acalendar:link{color:#4B4B4B;text-decoration:underline;}
+a.acalendar:visited{color:#4B4B4B;text-decoration:underline;}
+a.acalendar:active{color:#4B4B4B;text-decoration:underline;}
+a.acalendar:hover{color:#4B4B4B;text-decoration:underline;}
+
+a.acontinues{color:#4B4B4B;text-decoration:underline;}
+a.acontinues:link{color:#4B4B4B;text-decoration:underline;}
+a.acontinues:visited{color:#4B4B4B;text-decoration:underline;}
+a.acontinues:active{color:#4B4B4B;text-decoration:underline;}
+a.acontinues:hover{color:#4B4B4B;text-decoration:underline;}
+
+a.amenu{color:#4B4B4B;text-decoration:underline;}
+a.amenu:link{color:#4B4B4B;text-decoration:underline;}
+a.amenu:visited{color:#4B4B4B;text-decoration:underline;}
+a.amenu:active{color:#4B4B4B;text-decoration:underline;}
+a.amenu:hover{color:#4B4B4B;text-decoration:underline;}
+
+#container{ 
+	font-size:12px;
+	width:740px;
+	background-color:#ffffff;
+	margin:0px auto;
+	text-align:left;
+}
+
+#banner,#subbanner{
+	background:#EE716B url(../_img/reallabo/public/catch.jpg) left bottom;
+	padding:0px;
+	height:100px;
+	}
+
+#banner a{color:#fff;text-decoration:none;}
+#banner a:link{color:#fff;text-decoration:none;}
+#banner a:visited{color:#fff;text-decoration:none;}
+#banner a:active{color:#fff;text-decoration:underline;}
+#banner a:hover{color:#fff;text-decoration:underline;}
+
+#subbanner a{color:#fff;text-decoration:none;}
+#subbanner a:link{color:#fff;text-decoration:none;}
+#subbanner a:visited{color:#fff;text-decoration:none;}
+#subbanner a:active{color:#fff;text-decoration:underline;}
+#subbanner a:hover{color:#fff;text-decoration:underline;}
+
+h1,h2,h3{
+	margin:0px;
+	padding:0px;
+}
+
+.blogtitle{
+	font-size:30px;
+	font-weight:bold;
+	padding:20px 0px 0px 20px;
+	text-align:left;
+	letter-spacing:2px;
+}
+
+.description{
+	color:#22375B;
+	font-size:12px;
+	padding:4px 0px 0px 45px;
+	text-align:left;
+	letter-spacing:2px;
+}
+
+
+#content{
+	width:545px;
+	float:right;
+	background-color:#ffffff;
+	padding:20px 10px 20px 5px; 
+}
+
+#links{
+	width:160px;
+	float:left;
+	text-align:left;
+	margin:0px 0px 0px 0px;
+	padding:20px 5px 20px 5px; 
+	background-color:#ffffff;
+	overflow:hidden;
+}
+
+#links2{
+	width:160px;
+	float:right;
+	text-align:left;
+	margin:0px 0px 0px 0px;
+	padding:20px 5px 20px 5px; 
+	background-color:#ffffff;
+	overflow:hidden;
+}
+
+
+#footer{
+	clear:both;
+}
+
+#copyright{
+	background:#787878 url(/_img/simple_gray/foot.gif) bottom;
+	width:100%;
+	height:16px;
+	font-size:10px;
+	font-weight:bold;
+	color:#fff;
+	margin:0px;
+	padding:0px;
+	line-height:16px;
+	text-align:center;
+}
+
+.blog{
+	margin:0px 0px 0px 0px;
+}
+
+.date{
+	border-top:1px solid #E0E0E0;
+	border-left:1px solid #E0E0E0;
+	border-right:1px solid #E0E0E0;
+	border-bottom:1px solid #E0E0E0;
+	background-color:#CCCCCC;
+	background-position:1px 1px;
+	color:#fff;
+	font-size:12px;
+	letter-spacing:2px;
+	padding:5px 0px 5px 5px;
+	background-image: url(../_img/reallabo/public/tit_side.gif);
+}
+
+.blogbody{
+	background:#fff;
+	margin:0px 0px 10px 0px;
+	padding:8px;
+	border-left:1px solid #E0E0E0;
+	border-right:1px solid #E0E0E0;
+	border-bottom:1px solid #E0E0E0;
+}
+
+.title{
+	color:#000;
+	font-size:12px;
+	font-weight:bold;
+	height:10px;
+}
+
+.main{
+	width:502px;
+	color:#000;
+	font-size:12px;
+	padding:15px 0px 5px 0px;
+	overflow:auto;
+         line-height:135%;
+}
+
+.main img{
+	margin:0px 5px 5px 5px;
+}
+
+.main-continues{
+	font-size:10px;
+}
+
+.posted{
+	color:#000;
+	font-size:10px;
+	text-align:right;
+	margin:0px 0px 25px 0px;
+}
+
+a.aposted{color:#4B4B4B;text-decoration:underline;font-weight:bold;font-size:10px;}
+a.aposted:link{color:#4B4B4B;text-decoration:underline;font-weight:bold;}
+a.aposted:visited{color:#4B4B4B;text-decoration:underline;font-weight:bold;}
+a.aposted:active{color:#4B4B4B;text-decoration:underline;font-weight:bold;}
+a.aposted:hover{color:#4B4B4B;text-decoration:underline;font-weight:bold;}
+
+.menu{
+	color:#000;
+	font-size:10px;
+	text-align:right;
+}
+
+.comments-head{
+	color:#000;
+	font-size:10px;
+	font-weight:bold;
+	padding:0px 0px 0px 0px;
+	height:10px;
+}
+
+.comments-body{
+	font-size:12px;
+	line-height:135%;
+	margin:20px 0px 15px 13px;
+}
+
+.comments-post{
+	color:#000;
+	font-size:10px;
+	text-align:right;
+	margin:0px 0px 25px 0px;
+}
+
+.trackback-url{
+	color:#691815;
+	font-size:10px;
+	font-weight:bold;
+	margin:20px 0px 15px 0px;
+}
+
+#trackback-text{
+	width:250px;
+	border:1px solid #E0E0E0;
+}
+
+.trackback-body{
+	font-size:12px;
+	line-height:135%;
+	margin:20px 0px 15px 13px;
+}
+
+.trackback-post{
+	color:#000;
+	font-size:10px;
+	text-align:right;
+	margin:0px 0px 25px 0px;
+	font-weight:bold;
+}
+
+a.atrackback-post{color:#4B4B4B;text-decoration:underline;font-weight:bold;}
+a.atrackback-post:link{color:#4B4B4B;text-decoration:underline;font-weight:bold;}
+a.atrackback-post:visited{color:#4B4B4B;text-decoration:underline;font-weight:bold;}
+a.atrackback-post:active{color:#4B4B4B;text-decoration:underline;font-weight:bold;}
+a.atrackback-post:hover{color:#4B4B4B;text-decoration:underline;font-weight:bold;}
+
+label{
+	font-size:10px;
+	font-weight:bold;
+}
+
+#author{
+	width:200px;
+	border:1px solid #E0E0E0;
+}
+#email{
+	width:200px;
+	border:1px solid #E0E0E0;
+}
+#url{
+	width:200px;
+	border:1px solid #E0E0E0;
+}
+#text{font-size:12px;
+	width:240px;
+	height:150px;
+	border:1px solid #E0E0E0;
+}
+.pagetop{
+	font-size:10px;
+	text-align:right;
+	margin:0px 0px 25px 0px;
+}
+	.calendarhead{
+		border-top			: 1px none #666;
+	 	border-left			: 1px none #666;
+	 	border-right			: 1px none #666;
+	 	color:#333;
+		font-size:12px;
+	    font-weight:bold;
+		letter-spacing:2px;
+		padding:0px 0px 2px 0px;
+		text-align:left;
+		padding:3px 0px 3px 15px;
+
+	}
+	.calendartable{
+		margin:0px auto 10px auto;
+		width:156px;
+		text-align:left;
+		background:#fff;
+		border-top:1px solid #E0E0E0;
+		border-left:1px solid #E0E0E0;
+		border-right:1px solid #E0E0E0;
+		border-bottom	: 1px solid #E0E0E0;
+		border-spacing:0px;
+	}
+	.calendarweek{
+		color:#CA081B;
+		font-size:10px;
+		font-weight: bold;
+	}
+
+	.calendarwd{
+	/*	border-left	: 1px solid #E0E0E0;
+ 		border-right	: 1px solid #E0E0E0;*/                 
+	background-color:#EAD7DB;
+		background-position:-2px 0px;
+		color		:#fff;
+		font-size:10px;
+        font-weight:bold;
+		letter-spacing		: 2px;
+		padding:2px 0px 2px 5px;
+	}
+	.calendard{
+    	empty-cells:show;
+    	border-top:1px solid #efefef;
+		border-right:1px solid #efefef;
+		text-align: center;
+    }
+	.calender{
+		font-size:10px;
+		padding:2px 2px;
+		
+	}
+
+.sidetitle{
+	border-top:1px solid #CE0818;
+	border-left:1px solid #CE0818;
+	border-right:1px solid #CE0818;
+	border-bottom:1px solid #CE0818;
+
+	/*background-position:1px 1px;*/
+	color:#CE0818;
+	font-size:12px;
+
+	letter-spacing:2px;
+	padding:5px 5px 5px 5px;
+	width:148px;
+}
+
+.side{
+	width:148px;
+	font-size:12px;
+	line-height:140%;
+	margin:0px 0px 10px 0px;
+	padding:5px 5px 5px 5px;
+
+}
+.side .text{
+	width:80px;
+}
+a.aside{color:#4B4B4B;text-decoration:underline;}
+a.aside:link{color:#4B4B4B;text-decoration:underline;}
+a.aside:visited{color:#4B4B4B;text-decoration:underline;}
+a.aside:active{color:#4B4B4B;text-decoration:underline;}
+a.aside:hover{color:#4B4B4B;text-decoration:underline;}
+
+a.arss{color:#4B4B4B;text-decoration:underline;}
+a.arss:link{color:#4B4B4B;text-decoration:underline;}
+a.arss:visited{color:#4B4B4B;text-decoration:underline;}
+a.arss:active{color:#4B4B4B;text-decoration:underline;}
+a.arss:hover{color:#4B4B4B;text-decoration:underline;}
+
+.photo{
+	text-align:center;
+}
+.photo img{
+	width:120px;
+}
+
+
+.nickname{
+	color:#2b5695;
+	
+	font-weight:bold;
+	margin:10px 0px;
+}
+
+.message{
+	
+}
+
+.quotetable{
+}
+
+.quote{
+	color:#000;
+	font-size:10px;
+	padding:1px;
+}
+
+.blogtimes{
+	margin:0px 0px 16px 0px;
+	text-align:center;
+}
+
+.powered{
+	text-align:center;
+	margin:0px 0px 10px 0px;
+}
+
+.syndicate{
+	font-size:10px;
+	text-align:center;
+}
+.checkers{
+	font-size:10px;
+	margin-top:10px;
+}
+
+a.adtitle{font-weight:bold;text-decoration:underline;}
+a.adtitle:link{font-weight:bold;text-decoration:underline;}
+a.adtitle:visited{font-weight:bold;text-decoration:underline;}
+a.adtitle:active{font-weight:bold;text-decoration:underline;}
+a.adtitle:hover{font-weight:bold;text-decoration:underline;}
+
+a.addescription{color:black;text-decoration:none;}
+a.addescription:link{color:black;text-decoration:none;}
+a.addescription:visited{color:black;text-decoration:none;}
+a.addescription:active{color:black;text-decoration:none;}
+a.addescription:hover{color:black;text-decoration:none;}
+
+a.adurl{color:#0000FF;text-decoration:none;}
+a.adurl:link{color:#0000FF;text-decoration:none;}
+a.adurl:visited{color:#0000FF;text-decoration:none;}
+a.adurl:active{color:#0000FF;text-decoration:none;}
+a.adurl:hover{color:#0000FF;text-decoration:none;}
+
+a.adld{text-decoration:underline;}
+a.adld:link{text-decoration:underline;}
+a.adld:visited{text-decoration:underline;}
+a.adld:active{text-decoration:underline;}
+a.adld:hover{text-decoration:underline;}
+
+body.ad{
+	background:#f7p39f;
+}
+
+/* ここから プラス部分 */
+
+.header #logo {
+	width:91px;
+	float:left;
+}
+
+
+/* dd head */
+#headder .checkLoginBtn
+{
+	position:absolute;
+	top:12px;
+	left:605px;
+}
+.checkLoginBtn
+{
+	width:100px;
+	height:30px;
+	text-indent:-9000px;
+	line-height:0%;
+	font-size:0%;
+    background: url(../_img/reallabo/btn_login.gif) 0 0% no-repeat;
+	margin:0 0 0 30px;
+}
+.checkLoginBtn a
+{
+	text-decoration:none;
+	display:block;
+	width:100px;
+	height:30px;
+    background: url(../_img/reallabo/btn_login.gif) 0 0% no-repeat;
+}
+
+/* dd head2 */
+.headerp {
+	padding-top:5px;
+	margin-left:5px;
+}
+#headder{
+	width:735px;
+}
+#headder
+{
+	position:relative;
+	height:60px;
+	width:735px;
+    background: url(../_img/reallabo/headder_default.gif) 0% 0% no-repeat;
+	margin:10px 0 0 0px;
+}
+
+#headder h1
+{
+    margin:0 0 0 0;
+    padding:0;
+	height:45px;
+	width:81px;
+	text-indent:-9000px;
+	line-height:0%;
+	font-size:0%;
+}
+
+#headder h1 a
+{
+	display:block;
+    margin:0 0 0 0;
+    padding:0;
+	height:45px;
+	width:81px;
+	text-indent:-9000px;
+	line-height:0%;
+	font-size:0%;
+	background:none;
+	text-decoration:none;
+}
+
+/*-------------------------------
+hadderMenu設定
+-------------------------------*/
+
+#hadderMenu
+{
+	position:absolute;
+	top:30px;
+	left:90px;
+	width:450px;
+}
+
+#headder #hadderMenu ul
+{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+
+#hadderMenu ul li
+{
+	text-indent:-9000px;
+	line-height:0%;
+	font-size:0%;
+	display:block;
+
+	height:15px;
+	float:left;
+    background: url(../_img/reallabo/headder_menu2.gif) 0% 0px no-repeat;
+	text-decoration:none;
+	margin:0 10px 0 0;
+	padding:0 0 0 0;
+}
+
+#hadderMenu ul li a
+{
+	text-indent:-9000px;
+	line-height:0%;
+	font-size:0%;
+	display:block;
+
+	height:15px;
+
+    background: url(../_img/reallabo/headder_menu2.gif) 0% 0px no-repeat;
+	text-decoration:none;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+
+
+/*--------HM1-------*/
+
+#hadderMenu ul li#HM1
+{
+    width:65px;
+	background-position: 0px -60px;
+}
+
+#HM1 a,
+#HM1 a:link,
+#HM1 a:visited 
+{
+    width:65px;
+	background-position: 0px 0px;
+}
+
+#HM1 a:active{
+	background-position: 0px -30px;
+}
+
+#HM1 a:hover {
+	background-position: 0px -30px;
+}
+
+/*--------HM2-------*/
+
+#hadderMenu ul li#HM2
+{
+    width:65px;
+	background-position: -72px -60px;
+}
+
+#HM2 a,
+#HM2 a:link,
+#HM2 a:visited 
+{
+    width:65px;
+	background-position: -72px 0px;
+}
+
+#HM2 a:active{
+	background-position: -72px -30px;
+}
+
+#HM2 a:hover {
+	background-position: -72px -30px;
+}
+
+/*--------HM3-------*/
+
+#hadderMenu ul li#HM3
+{
+    width:65px;
+	background-position: -144px -60px;
+}
+
+#HM3 a,
+#HM3 a:link,
+#HM3 a:visited 
+{
+    width:65px;
+	background-position: -144px 0px;
+}
+
+#HM3 a:active{
+	background-position: -144x -80px;
+}
+
+#HM3 a:hover {
+	background-position: -144px -30px;
+}
+
+/*--------HM4-------*/
+
+#hadderMenu ul li#HM4
+{
+    width:50px;
+	background-position: -218px -60px;
+}
+
+#HM4 a,
+#HM4 a:link,
+#HM4 a:visited 
+{
+    width:50px;
+	background-position: -218px 0px;
+}
+
+#HM4 a:active{
+	background-position: -218px -30px;
+}
+
+#HM4 a:hover {
+	background-position: -218px -30px;
+}
+
+/*--------HM5-------*/
+
+#hadderMenu ul li#HM5
+{
+    width:43px;
+	background-position: -435px -60px;
+}
+
+#HM5 a,
+#HM5 a:link,
+#HM5 a:visited 
+{
+    width:43px;
+	background-position: -435px 0px;
+}
+
+#HM5 a:active{
+	background-position: -435px -30px;
+}
+
+#HM5 a:hover {
+	background-position: -435px -30px;
+}
+
+
+/*--------HM6（追加）-------*/
+
+#hadderMenu ul li#HM6
+{
+    width:100px;
+	background-position: -277px -60px;
+}
+
+#HM6 a,
+#HM6 a:link,
+#HM6 a:visited 
+{
+    width:100px;
+	background-position: -277px 0px;
+}
+
+#HM6 a:active{
+	background-position: -277px -30px;
+}
+
+#HM6 a:hover {
+	background-position: -277px -30px;
+}
+
+/*-------------------------------
+footer設定
+-------------------------------*/
+
+#footer
+{
+	margin-top:12px;
+	width:740px;
+	height:80px;
+    background: url(../_img/reallabo/footer_bg.gif) 0px 0% no-repeat;
+	position:relative;
+}
+
+.credit
+{
+	font-size:80%;
+	width:740px;
+	height:30px;
+	text-align:right;
+	position:absolute;
+	left:0px;
+	top:55px;
+}
+
+.credit p
+{
+	line-height:140%;
+}
+
+/*-------------------------------
+フッターメニュー
+-------------------------------*/
+
+#FM2,
+#FM1
+{
+	width:740px;
+	text-align:right;
+	padding:0 0 0 0;
+	margin:0;
+}
+
+#FM1
+{
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:10px;
+	left:0px;
+}
+
+#FM2
+{
+	position:absolute;
+	top:30px;
+	left:0px;
+}
+
+
+#FM1 ul,
+#FM2 ul
+{
+	padding: 0 0 0 0;
+	margin:0;
+}
+
+#FM1 ul li,
+#FM2 ul li
+{
+	display: inline;
+
+	padding: 0 0 0 0;
+	margin:0;
+}
+#FM1 ul li a,
+#FM2 ul li a
+{
+	font-size:90%;
+	padding: 0 0 0 5px;
+	margin: 0 5px 0 0px;
+	border-left: solid 1px #cccccc;
+	background:none;
+}
+
+#FM1 ul li.firstItem a,
+#FM2 ul li.firstItem a
+{
+	border-left: none;
+}
+
+
+.bookmark		{
+	padding			: 10px 10px 20px 10px;
+	margin			: 0px;
+	line-height		: 190%;
+}

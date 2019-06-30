@@ -1,0 +1,75 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BefmQfZq1S7KEFJnG6QOCzMnpB7HH2z_tyrvaBcCNtwGA5r8zEAEYASDpj9EKKAU4AFDA8-vB-_____8BYInrvYTgE7IBE2pvdXJuYWwubXljb20uY28uanDIAQHaATVodHRwOi8vam91cm5hbC5teWNvbS5jby5qcC9uZXdzLzIwMTAvMDIvMjMvMDEyLz9ydD1uYakCzuASo4_lRj6oAwHoAyLoA_sD6AO2AfUDAAAAxPUDBAAAAA&amp;num=1&amp;sig=AGiWqtza9HDfEW1taUYC-nOG56yc6HxJaQ&amp;client=ca-mycom_js&amp;adurl=http://www.nichigei-juken.com"; 
+google_ad.visible_url = "www.nichigei-juken.com"; 
+google_ad.line1 = "\x26#26085;\x26#33464;\x26#21463;\x26#39443;\x26#12394;\x26#12425;\x26#26085;\x26#33464;\x26#21463;\x26#39443;.COM"; 
+google_ad.line2 = "\x26#26085;\x26#22823;\x26#33464;\x26#34899;\x26#23398;\x26#37096;\x26#12398;\x26#12371;\x26#12392;\x26#12394;\x26#12425;"; 
+google_ad.line3 = "\x26#26085;\x26#33464;\x26#21463;\x26#39443;.COM\x26#12434;\x26#12372;\x26#35239;\x26#12367;\x26#12384;\x26#12373;\x26#12356;\x26#12290;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BRZjafZq1S7KEFJnG6QOCzMnpB8qBvrgBmsSTihHAjbcBwICXGxACGAIg6Y_RCigFOABQltToyP3_____AWCJ672E4BOgAbj2h-wDsgETam91cm5hbC5teWNvbS5jby5qcMgBAdoBNWh0dHA6Ly9qb3VybmFsLm15Y29tLmNvLmpwL25ld3MvMjAxMC8wMi8yMy8wMTIvP3J0PW5hqQLO4BKjj-VGPsgC-L_lD6gDAegDIugD-wPoA7YB9QMAAADE9QMEAAAA&amp;num=2&amp;sig=AGiWqtx8aRAYkqkW0pSdnDL2S_cyqoPUZA&amp;client=ca-mycom_js&amp;adurl=http://www.s-20.com/"; 
+google_ad.visible_url = "www.s-20.com"; 
+google_ad.line1 = "\x26#33521;\x26#35486;\x26#12399;\x26#22806;\x26#22269;\x26#20154;\x26#12395;\x26#25945;\x26#12431;\x26#12427;\x26#12394;"; 
+google_ad.line2 = "\x26#12354;\x26#12427;\x26#26178;\x26#38291;\x26#24111;\x26#12395;1\x26#26085;20\x26#20998;\x26#21193;\x26#24375;\x26#12377;\x26#12427;\x26#12392;"; 
+google_ad.line3 = "\x26#33521;\x26#35486;\x26#12506;\x26#12521;\x26#12506;\x26#12521;\x26#12395;\x26#12394;\x26#12426;\x26#12414;\x26#12377;\x26#12290;\x26#12394;\x26#12380;\x26#12394;\x26#12425;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BSVBmfZq1S7KEFJnG6QOCzMnpB_mkt4MB78fQ2wrAjbcBgJChDxADGAMg6Y_RCigFOABQnLbLqQdgieu9hOAToAH8upH_A7IBE2pvdXJuYWwubXljb20uY28uanDIAQHaATVodHRwOi8vam91cm5hbC5teWNvbS5jby5qcC9uZXdzLzIwMTAvMDIvMjMvMDEyLz9ydD1uYYACAakCzuASo4_lRj6oAwHoAyLoA_sD6AO2AfUDAAAAxPUDBAAAAA&amp;num=3&amp;sig=AGiWqtziJXaFkDlDdvGnzRBE5Mt71JeBdA&amp;client=ca-mycom_js&amp;adurl=http://www.hositu.com"; 
+google_ad.visible_url = "www.hositu.com"; 
+google_ad.line1 = "\x26#21270;\x26#31911;\x26#27700;\x26#12356;\x26#12425;\x26#12378;\x26#20094;\x26#29157;\x26#32908;\x26#25913;\x26#21892;\x26#27861;"; 
+google_ad.line2 = "\x26#21270;\x26#31911;\x26#27700;\x26#12418;\x26#20083;\x26#28082;\x26#12418;\x26#12356;\x26#12425;\x26#12394;\x26#12356;\x26#12473;\x26#12461;\x26#12531;\x26#12465;\x26#12450;!"; 
+google_ad.line3 = "\x26#12414;\x26#12378;\x26#30693;\x26#12427;\x26#12409;\x26#12365;7\x26#12388;\x26#12398;\x26#12509;\x26#12452;\x26#12531;\x26#12488;\x26#12392;\x26#12399;?"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 4; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=Bzi6qfZq1S7KEFJnG6QOCzMnpB_rbsZUBsMPLohHAjbcBwMq6FRAEGAQg6Y_RCigFOABQ8s-90_7_____AWCJ672E4BOgAfrSpfkDsgETam91cm5hbC5teWNvbS5jby5qcMgBAdoBNWh0dHA6Ly9qb3VybmFsLm15Y29tLmNvLmpwL25ld3MvMjAxMC8wMi8yMy8wMTIvP3J0PW5hqQLO4BKjj-VGPsgC7sGWDagDAegDIugD-wPoA7YB9QMAAADE9QMEAAAA&amp;num=4&amp;sig=AGiWqtykRagIa_-C6rkqg4rdCpMtPouqzg&amp;client=ca-mycom_js&amp;adurl=http://www.irhpress.co.jp/pickup/h0258.shtml"; 
+google_ad.visible_url = "www.irhpress.co.jp/"; 
+google_ad.line1 = "\x26#23455;\x26#37682; \x26#24746;\x26#39764;\x26#12392;\x26#12398;\x26#23550;\x26#35441;"; 
+google_ad.line2 = "\x26#24746;\x26#39764;\x26#12364;\x26#25126;\x26#20105;\x26#12420;\x26#12486;\x26#12525;\x26#12408;\x26#12398;\x26#38306;\x26#19982;\x26#12434;\x26#35388;\x26#35328;"; 
+google_ad.line3 = "\x26#12381;\x26#12398;\x26#22768;\x26#12434;\x26#20844;\x26#38283;\x26#21454;\x26#37682;\x26#12375;\x26#12383;\x26#34909;\x26#25731;\x26#12398;\x26#19968;\x26#20874;!"; 
+google_ad.regionname = ""; 
+google_ads[3] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 5; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "site"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=Beb2lfZq1S7KEFJnG6QOCzMnpB_6JossBwLjazBCOl4KYFaCOWRAFGAUg6Y_RCigFOABQuIqWigdgieu9hOATsgETam91cm5hbC5teWNvbS5jby5qcMgBAdoBNWh0dHA6Ly9qb3VybmFsLm15Y29tLmNvLmpwL25ld3MvMjAxMC8wMi8yMy8wMTIvP3J0PW5hwAIByALcx8ARqAMB6AMi6AP7A-gDtgH1AwAAAMT1AwQAAAA&amp;num=5&amp;sig=AGiWqtw-c2wz5Iin3dhxbXreP_YwNYsc-w&amp;client=ca-mycom_js&amp;adurl=http://www.intel.co.jp/ja_JP/itcenter/%3Fcid%3Dijkk:ggl%7Cvpro_jp_itpronews_pt%7CjpC9C31%7Cpt"; 
+google_ad.visible_url = "Intel.com/jp/ITcenter"; 
+google_ad.line1 = "2010 \x26#26368;\x26#26032;\x26#12503;\x26#12525;\x26#12475;\x26#12483;\x26#12469;\x26#12540;"; 
+google_ad.line2 = "\x26#12452;\x26#12531;\x26#12486;\x26#12523;\x26#174;\x26#12398;IT\x26#12475;\x26#12531;\x26#12479;\x26#12540;\x26#12391;\x26#12399;\x26#26368;\x26#26032;\x26#25216;\x26#34899;\x26#12392;"; 
+google_ad.line3 = "\x26#12503;\x26#12525;\x26#12475;\x26#12483;\x26#12469;\x26#12540;\x26#12434;\x26#27096;\x26#12293;\x26#12394;\x26#35282;\x26#24230;\x26#12363;\x26#12425;\x26#35299;\x26#35500;"; 
+google_ad.regionname = ""; 
+google_ads[4] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://journal.mycom.co.jp/news/2010/02/23/012/%253Frt%253Dna%26hl%3Dja%26client%3Dca-mycom_js%26adU%3Dwww.nichigei-juken.com%26adT%3D%25E6%2597%25A5%25E8%258A%25B8%25E5%258F%2597%25E9%25A8%2593%25E3%2581%25AA%25E3%2582%2589%25E6%2597%25A5%25E8%258A%25B8%25E5%258F%2597%25E9%25A8%2593.COM%26adU%3Dwww.s-20.com%26adT%3D%25E8%258B%25B1%25E8%25AA%259E%25E3%2581%25AF%25E5%25A4%2596%25E5%259B%25BD%25E4%25BA%25BA%25E3%2581%25AB%25E6%2595%2599%25E3%2582%258F%25E3%2582%258B%25E3%2581%25AA%26adU%3Dwww.hositu.com%26adT%3D%25E5%258C%2596%25E7%25B2%25A7%25E6%25B0%25B4%25E3%2581%2584%25E3%2582%2589%25E3%2581%259A%25E4%25B9%25BE%25E7%2587%25A5%25E8%2582%258C%25E6%2594%25B9%25E5%2596%2584%25E6%25B3%2595%26adU%3Dwww.irhpress.co.jp/%26adT%3D%25E5%25AE%259F%25E9%258C%25B2%2B%25E6%2582%25AA%25E9%25AD%2594%25E3%2581%25A8%25E3%2581%25AE%25E5%25AF%25BE%25E8%25A9%25B1%26adU%3DIntel.com/jp/ITcenter%26adT%3D2010%2B%25E6%259C%2580%25E6%2596%25B0%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25BB%25E3%2583%2583%25E3%2582%25B5%25E3%2583%25BC%26gl%3DJP\x26usg\x3dAFQjCNHjBgO258-6RGr0Zk2etex-tu71rQ"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

@@ -1,0 +1,51 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BNCrEME21S57YLIvO6wOYwrjTB-3ntyHRlaa2BcCNtwGA_qwNEAEYASDUt5QGKAM4AFDUrIPM-v____8BYInrvYTgE7IBE3BsYXphLnJha3V0ZW4uY28uanC6AQk3Mjh4OTBfanPIAQHaATtodHRwOi8vcGxhemEucmFrdXRlbi5jby5qcC9oYW1hZGFtYWtpa28vZGlhcnkvMjAwNzA4MDQwMDAwL4ACAakCzWgTpXXxRj6oAwHoA6UC6ANE9QMAAADE9QMGAAAA&amp;num=1&amp;sig=AGiWqtyJwzF_iQXJ-qG_ohjMp6taLUFY0A&amp;client=ca-rakuten-blog_js&amp;adurl=http://www.lechiffon.com"; 
+google_ad.visible_url = "www.lechiffon.com"; 
+google_ad.line1 = "\x26#12489;\x26#12524;\x26#12473;\x26#12395;\x26#12371;\x26#12384;\x26#12431;\x26#12427;\x26#32080;\x26#23130;\x26#20889;\x26#30495;"; 
+google_ad.line2 = "\x26#27700;\x26#25144;\x26#12398;\x26#35079;\x26#21512;\x26#22411;\x26#12454;\x26#12455;\x26#12487;\x26#12451;\x26#12531;\x26#12464;\x26#23554;\x26#38272;\x26#20889;\x26#30495;\x26#39208;"; 
+google_ad.line3 = "\x26#12489;\x26#12524;\x26#12473;\x26#12471;\x26#12519;\x26#12483;\x26#12503;\x26#20341;\x26#35373;\x26#12391;\x26#22311;\x26#20498;\x26#30340;\x26#12394;\x26#21697;\x26#25539;\x26#12360;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BtyNnME21S57YLIvO6wOYwrjTB6SC9IEBvuCuiA7AjbcBgJfIHRACGAIg1LeUBigDOABQgLKWxwNgieu9hOAToAGG9KH-A7IBE3BsYXphLnJha3V0ZW4uY28uanC6AQk3Mjh4OTBfanPIAQHaATtodHRwOi8vcGxhemEucmFrdXRlbi5jby5qcC9oYW1hZGFtYWtpa28vZGlhcnkvMjAwNzA4MDQwMDAwL4ACAakCzWgTpXXxRj6oAwHoA6UC6ANE9QMAAADE9QMGAAAA&amp;num=2&amp;sig=AGiWqtyYHhSYo7N5TPlQaxXlXOu1v6pSUg&amp;client=ca-rakuten-blog_js&amp;adurl=http://www.kimonoichiba.com/index.html"; 
+google_ad.visible_url = "www.kimonoichiba.com"; 
+google_ad.line1 = "\x26#12362;\x26#12375;\x26#12419;\x26#12428;\x26#12394;\x26#30528;\x26#29289;\x26#12434;\x26#36023;\x26#12358;\x26#12394;\x26#12425;"; 
+google_ad.line2 = "\x26#20140;\x26#37117;\x26#12365;\x26#12418;\x26#12398;\x26#24066;\x26#22580;\x26#12290;10\x26#26085;\x26#20197;\x26#20869;\x26#36820;\x26#21697;OK\x26#65281;"; 
+google_ad.line3 = "5250\x26#20870;\x26#20197;\x26#19978;\x26#36865;\x26#26009;\x26#28961;\x26#26009;\x26#12290;\x26#24120;\x26#12395;\x26#12509;\x26#12452;\x26#12531;\x26#12488;5%"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BuPsLME21S57YLIvO6wOYwrjTB6D6nn-Q6_6pDsCNtwGA0vg-EAMYAyDUt5QGKAM4AFDm9MGK_P____8BYInrvYTgE7IBE3BsYXphLnJha3V0ZW4uY28uanC6AQk3Mjh4OTBfanPIAQHaATtodHRwOi8vcGxhemEucmFrdXRlbi5jby5qcC9oYW1hZGFtYWtpa28vZGlhcnkvMjAwNzA4MDQwMDAwL4ACAakCzWgTpXXxRj6oAwHoA6UC6ANE9QMAAADE9QMGAAAA&amp;num=3&amp;sig=AGiWqtydGaSX76LnAtcjgzGVSMNovjjPcw&amp;client=ca-rakuten-blog_js&amp;adurl=http://www.hokenichiban.com"; 
+google_ad.visible_url = "www.hokenichiban.com"; 
+google_ad.line1 = "\x26#35199;\x26#27494;\x26#31569;\x26#27874;6\x26#38542; \x26#33576;\x26#22478;\x26#20445;\x26#38522;\x26#24066;\x26#22580;"; 
+google_ad.line2 = "\x26#65318;\x26#65328;\x26#12395;\x26#12424;\x26#12427;\x26#28961;\x26#26009;\x26#20445;\x26#38522;\x26#30456;\x26#35527;\x26#23455;\x26#26045;\x26#20013;\x26#65281;"; 
+google_ad.line3 = "\x26#20445;\x26#38522;\x26#36015;\x26#33988;\x26#12490;\x26#12499; \x26#12452;\x26#12540;\x26#12450;\x26#12473;\x26#12388;\x26#12367;\x26#12400;\x26#24215;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://plaza.rakuten.co.jp/hamadamakiko/diary/200708040000/%26hl%3Dja%26client%3Dca-rakuten-blog_js%26adU%3Dwww.lechiffon.com%26adT%3D%25E3%2583%2589%25E3%2583%25AC%25E3%2582%25B9%25E3%2581%25AB%25E3%2581%2593%25E3%2581%25A0%25E3%2582%258F%25E3%2582%258B%25E7%25B5%2590%25E5%25A9%259A%25E5%2586%2599%25E7%259C%259F%26adU%3Dwww.kimonoichiba.com%26adT%3D%25E3%2581%258A%25E3%2581%2597%25E3%2582%2583%25E3%2582%258C%25E3%2581%25AA%25E7%259D%2580%25E7%2589%25A9%25E3%2582%2592%25E8%25B2%25B7%25E3%2581%2586%25E3%2581%25AA%25E3%2582%2589%26adU%3Dwww.hokenichiban.com%26adT%3D%25E8%25A5%25BF%25E6%25AD%25A6%25E7%25AD%2591%25E6%25B3%25A26%25E9%259A%258E%2B%25E8%258C%25A8%25E5%259F%258E%25E4%25BF%259D%25E9%2599%25BA%25E5%25B8%2582%25E5%25A0%25B4%26gl%3DJP\x26usg\x3dAFQjCNEiKvpmvn6bU5z9vev-GIysDHOUFQ"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

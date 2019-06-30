@@ -1,0 +1,396 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-size:small;
+_font-size:x-small;
+line-height: 150%;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+color:#cccccc;
+background-repeat:repeat;
+background-color:#ffffff;
+background-position:center top;
+text-align:center;
+background-image:url('/images/article/00020/bg.gif');
+background-attachment:fixed;
+}
+
+a {
+text-decoration: none;
+}
+
+a:link {
+color: #ffcc00;
+	}
+
+a:visited {
+color: #ffcc00;
+	}
+
+a:active {
+color: #FF0909;
+	}
+
+a:hover {
+	color: #FF0909;
+	}
+
+
+h1, h2, h3, h4, h5 {
+ margin: 0px;
+ padding: 0px;
+}
+
+#outline {
+margin-right: auto;
+margin-left: auto;
+text-align: left;
+padding: 0px;
+width: 760px;
+background-color:#000000;
+}
+
+#pluslogo{
+width: 760px;
+background-color:#000000;
+text-align:right;
+}
+
+
+
+#header {
+font-family:Arial,Helvetica,sans-serif;
+background-image:url(/images/article/00020/head.jpg);
+color: #000000;
+text-align: left;
+height: 190px;
+margin: 0px 0px 0px 0px;
+width: 760px;
+background-position:bottom;
+background-repeat:no-repeat;
+border-top-color:#515151;
+border-top-style:dotted;
+border-top-width:1px;
+}
+
+
+#header a {
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+
+#header a:hover {
+	color: #D61010;
+	text-decoration: none;
+	}
+	
+#header h1 {
+ font-size: 14px;
+ font-weight: bold;
+ text-align: left;
+ padding: 10px 15px 0px 220px;
+ margin-top: 0px 0px 0px 0px;
+}
+
+#header h2 {
+	font-size: 12px;
+ text-align: left;
+ padding: 5px 15px 0px 220px;
+	color: #FFFFFF;
+	}
+
+/*main--------------------------------------------------*/
+
+/*メイン部分*/
+#main {
+float: right;
+width: 560px;
+overflow: hidden;
+margin-top:-110px;
+}
+
+
+/*エントリボックス*/
+.content {
+padding: 10px;
+margin:10px 10px 10px 10px;
+border-width:1px;
+border-color:#444444;
+background-color:#000000;
+border-style:solid;
+background-image:url('/images/article/00020/content_bg.gif');
+background-repeat:repeat-x;
+}
+
+
+/*エントリの本文*/
+.content p {
+	font-weight: normal;
+	text-align: left;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	}
+
+pre{
+font-size:small;
+_font-size:x-small;
+line-height: 150%;
+}
+
+/*コメントの本文*/
+.content #comment p {
+ padding-left: 15px;
+ margin-bottom: 10px;
+font-size:small;
+_font-size:x-small;
+ }
+
+/*エントリのタイトル*/
+.content h3 {
+font-size:small;
+color:#ffffff;
+margin: 0px 0px 5px 0px;
+padding: 2px 0px 2px 5px;
+font-weight:bold;
+border-left-color:#FBA62F;
+border-left-style:solid;
+border-left-width:18px;
+border-bottom-color:#515151;
+border-bottom-style:dotted;
+border-bottom-width:1px;
+}
+
+/*トラックバックURL｜トラックバック一覧｜コメント一覧｜コメントする*/
+.content h5 {
+font-size:small;
+_font-size:x-small;
+margin: 15px 0px 0px 0px;
+padding: 0px 0px 0px 5px;
+width:100%;
+text-align:left;
+border-left-color:#49BB3D;
+border-left-style:solid;
+border-left-width:14px;
+font-weight:bold;
+}
+
+/*エントリの日付*/
+.content h5.date {
+font-size:small;
+_font-size:x-small;
+ margin: 15px 0px 5px 0px;
+ padding: 1px 0px 1px 0px;
+ width:100%;
+ text-align:left;
+ border:none;
+}
+
+/*トラックバックのタイトル*/
+.content h6 {
+font-size:small;
+_font-size:x-small;
+	margin: 15px 0px 5px 0px;
+	padding: 1px 0px 1px 0px;
+	width:100%;
+	}
+
+/*トラックバックURL*/
+.content h6.tb_url {
+ font-weight:normal;
+ padding-left: 15px;
+}
+
+/*コメントのタイトル*/
+.content #comment h6 {
+font-size:small;
+_font-size:x-small;
+	width:100%;
+	line-height:20px;
+	}
+
+/*エントリのposted by*/
+.content p.posted {
+ text-align: right;
+ border-top-style:dotted;
+ border-top-width:1px;
+ border-top-color:#666666;
+}
+
+/*コメントのposted by*/
+.content #comment p.posted {
+    border-top: none;
+    text-align: right;
+    border-bottom-style:dotted;
+    border-bottom-width:1px;
+    border-bottom-color:#666666;
+}
+
+/*トラックバック引用文*/
+.content #trackback p.posted {
+ text-align: left;
+ padding-left: 15px;
+ border:none;
+}
+
+/*HR区切り線*/
+hr {
+width:95%;
+text-align: center;
+border-style:solid;
+border-color:#aaaaaa;
+height:1px;
+}
+
+/*-----------------------------------------------------------*/
+
+#sub {
+float: left;
+width: 198px;
+line-height:16px;
+overflow: hidden;
+padding: 0px;
+margin-top: -50;
+}
+
+.sidebar {
+	padding: 7px;
+	}
+
+.sidebar h2 {
+font-size:small;
+_font-size:x-small;
+font-weight: bold;
+text-align:left;
+margin: 10px 0px 0px 0px;
+padding: 2px 2px 2px 7px;
+color: #ffffff;
+border-left-color:#AF0D0D;
+border-left-style:solid;
+border-left-width:16px;
+}
+
+.sidebar ul {
+	padding-left: 0px;
+	margin: 0px;
+	margin-bottom: 3px;
+	}
+
+.sidebar ul ul {
+	margin-bottom: 0px;
+	}
+
+.sidebar #categories ul {
+	padding-left: 0px;
+	}
+
+.sidebar li {
+	font-weight: normal;
+	text-align:left;
+	margin: 0px 0px 0px 0px;
+	padding: 2px 2px 2px 7px;
+	display:block;
+ 	list-style-type:none;
+	}
+
+.sidebar #categories li{
+	font-weight: normal;
+ 	text-align:left;
+ 	margin: 0px 0px 0px 0px;
+ 	padding: 2px 2px 2px 7px;
+ 	display:block;
+ 	list-style-type:none;
+	}
+
+
+#calendar {
+margin-bottom: 11px;
+}
+
+#calendar table {
+font-size: small;
+_font-size:x-small;
+margin-top:5px;
+	padding: 2px;
+	border-collapse: collapse;
+	border: 0px;
+	width: 180;
+	}
+
+#calendar th {
+	text-align: center;
+	font-weight: normal;
+font-size:small;
+_font-size:x-small;
+	}
+
+#calendar td {
+text-align: center;
+font-size:small;
+_font-size:x-small;
+}
+
+
+.photo {
+	text-align: left;
+	margin-bottom: 20px;
+	}
+
+#comment-data {
+	float: left;
+	width: 180px;
+	padding-right: 15px;
+	margin-right: 15px;
+	text-align: left;
+	border-right: 1px dotted #BBB;
+	}
+
+textarea[id="comment-text"] {
+	width: 80%;
+	}
+
+.commenter-profile img {
+	vertical-align: middle;
+	border-width: 0;
+	}
+
+
+#profile p{
+margin:5 10 5 10;
+}
+
+
+/*rss----------------------------------------------------*/
+
+#rss{
+text-align:center;
+margin-top:10px;
+}
+
+/*----------------------------------------------------*/
+
+
+#infobox{
+border-width:1px;
+border-color:#444444;
+border-style:solid;
+}
+
+#info h2{
+font-size:small;
+_font-size:x-small;
+font-weight: bold;
+text-align:left;
+margin: 3px 0px 0px 0px;
+padding: 2px 2px 2px 7px;
+color: #ffffff;
+background-color:#444444;
+border-width:1px;
+border-color:#444444;
+border-style:solid;
+}
+
+img.profile{
+}

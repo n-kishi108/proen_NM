@@ -1,0 +1,454 @@
+@charset "utf-8";
+@import "secondtab.css";
+
+body  {
+	font: 100%;
+	margin: 0; 
+	padding: 0;
+	text-align: center;
+	color: #000000;
+	font-family:sans-serif;
+}
+
+h1 {font-size:23px;margin-top:0px;}
+.black a {text-decoration:none; color: #333333;}
+.black a:hover {text-decoration:underline; color: #FF3300;}
+.fontbk18b{font-size:16px; font-weight:bold; color:#000000;}
+.fontbk18b a{text-decoration:none; color:#000000}
+.fontbk18b a:hover{text-decoration:none; color:#0000FF}
+.fontbk14_150{font-size:14px; line-height:150%;}
+.fontbk16_150{line-height:150%;}
+
+.titleBar li { position:relative; line-height:150%; list-style-type:none;}
+/* .titleBar span.timestamp {display:block; position:absolute; right:0; top:0; color:#000; font-size:90%; }*/ 
+.titleBar span.timestamp {display:block; position:absolute; right:0; top:0; color:#000; font-size:12px; } 
+
+
+.font12{font-size:12px;}
+.font12 a{text-decoration:none;}
+
+.font12_150{font-size:12px;line-height:150%;}
+.font12 a{text-decoration:none;}
+
+ul {margin: 0 0 0 22px; padding:0;}
+
+li {margin:0; padding:0; line-height:150%; list-style:none;}
+
+.catlist{text-align:right}
+.catlist a{text-decoration:none;}
+
+
+#container { 
+	width: 980px;
+        border:solid 1px #CCCCCC;;
+	margin: 0 auto;
+        padding: 4px;
+	text-align: left;
+} 
+#container_in { 
+	width: 980px;
+        background:#FFFFFF;
+	margin: 0 auto;
+        padding: 0;
+	text-align: left;
+} 
+
+#header { 
+	position:relative;
+	height:105px;
+	padding: 0 10px 0 20px;  /* この余白は、その下に表示される div のエレメントの左揃えと一致します。#header でテキストの代わりにイメージが使用される場合は、必要に応じて、余白を削除してください。 */
+}
+#header .logo{
+	position:absolute;
+	top:8px;
+	left:5px;
+	width:75px;
+	height:95px;
+	}
+#header .bejin{
+	position:absolute;
+	top:10px;
+	left:85px;
+	}
+#header .topbana{
+	position:absolute;
+	top:8px;
+	left:250px;
+	width:730px;
+	height:95px;
+	} 
+
+/*-----------------------------------------------
+ タブ部分スタイルシート　2007/12/05 OIKAWA
+-----------------------------------------------*/
+
+#tabmenu { 
+	float:left;
+	width:970px;
+	padding:0 5px 5px;
+} 
+
+/*---------------------------------------------------------
+ パンくず部分スタイルシート　2007/12/05 OIKAWA
+---------------------------------------------------------*/
+.kuzu {
+	position:relative;
+	clear:both;
+	z-index:2;
+	font-size: 80%;
+	font-style: normal;
+	text-align: left;
+	margin: 0px;
+	padding-left: 5px;
+	color: #999999;
+	width: 840px;
+	display: block;	
+	line-height:115%;
+    }
+
+.kuzu a {
+	margin-right:2px;
+　　text-decoration:none;
+	font-size: 100%;
+	}
+.kuzu a:visited {
+　　text-decoration:none;
+	font-size: 100%;
+	}
+
+/*---------------------------------------------------------
+ PR部分スタイルシート　2009/2/27 SAITO
+---------------------------------------------------------*/
+
+.pr_big_box{
+	position:relative;
+	clear:both;
+	width:670px;
+	z-index:2;
+	display:block;
+	margin:0;
+	font-size:12px;	
+}
+
+.pr_box {
+	height:20px;
+	position:relative;
+	overflow:hidden;
+	width:670px;
+}
+
+.pr_box .prText {
+	position:relative;
+	z-index:2;
+	width:100px;
+	top:6px;
+}
+.pr_box .pr_back {
+	display:block;
+	padding:3px 2px 2px 70px;
+	width:590px;
+	z-index:1;
+	position:relative;
+	top:-11px;
+}
+
+.pr_back a:hover {
+	background:#FFEEEE;
+	width:670px;
+	display:block;
+	padding:3px 2px 2px 70px;
+	z-index:1;
+	position:relative;
+	left:-70px;
+	top:-3px;
+}
+
+.pr_back:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+	top:-3px;
+	width:670px;
+}
+
+
+/*---------------------------------------------------------
+ 記録リンク部分スタイルシート　2007/12/05 OIKAWA
+---------------------------------------------------------*/
+
+
+#kiroku {
+	clear:both;
+        padding:0 5px;
+	text-align:leftt;
+	}
+
+
+/*---------------------------------------------------
+ 右サイドバー部分スタイルシート　2007/12/05 OIKAWA
+---------------------------------------------------*/
+
+#sidebar1 {
+	float: right;
+	width: 300px;
+	padding: 5px 0 10px;
+}
+
+#sidebar1 .adbox {
+	text-align:center;
+	vertical-align:middle;
+	padding:0 0px 5px;
+}
+
+#sidebar1 .swfBox {
+	width: 300px;
+	padding-: 0;
+	margin-bottom: 5px;
+}
+
+#sidebar1 .rightBox {
+	width: 300px;
+	padding: 0;
+	margin-top: 5px;
+}
+
+
+#sidebar1 .linkBox {
+	width: 298px;
+	padding:0;
+	margin:5px 0;
+	border-top:10px solid #666666;
+}
+
+#sidebar1 .linkBox .menu {
+}
+
+#sidebar1 .linkBox .menu a {
+	display:block;
+	margin:0;
+	width:286px;
+	background-color:#FFFFFF;
+	border-right:solid 1px #666666;
+	border-bottom:solid 1px #666666;
+	border-left:solid 1px #666666;
+	padding:5px;
+	text-decoration:none;
+	font-size:15px;
+	font-weight:bold; 
+	color:#000033;
+}
+#sidebar1 .linkBox .menu a:hover {
+	border-color:#666666;
+	background-color:#DDEEFF;
+	color:#000000;
+}
+
+#sidebar1 .conBox {
+	width: 288px;
+	background:url(http://img.47news.jp/sports/localsports/images/bg_topBox.jpg) repeat-x;
+	padding:5px;
+	margin-top:5px;
+	border:solid 1px #CCCCCC;
+}
+
+#sidebar1 .conBox h2 {
+	font-size: 18px;
+	width: 275px;
+	padding:0 5px 0 5px;
+	margin:0 0 10px 0;
+	border-bottom:dotted 1px #999999;
+}
+
+/*---------------------------------------------------
+ メイン部分スタイルシート　2007/01/24 OIKAWA
+---------------------------------------------------*/
+
+#mainContent {
+	float:left; 
+	margin: 0;
+	padding: 0;
+} 
+
+#mainContent .MainBox {
+	width:675px;
+	margin:0;
+	padding:0;
+}
+
+#mainContent .MainBox .leftBox {
+	float:left;
+	width:675px;
+	margin:0;
+	padding:0;
+}
+
+#mainContent .MainBox .box_bar_top {
+	width:675px;
+	margin:10px 0;
+	padding:0;
+	}
+
+#mainContent .MainBox .box_bar {
+	background:url(http://img.47news.jp/sports/localsports/images/bg_topBox.jpg) repeat-x;
+	width:673px;
+	margin:0;
+	padding:4px 0 4px 0;
+	border-bottom:1px solid #DDDDDD;
+	}
+	
+#mainContent .MainBox .content {
+	width:671px;
+	margin:0;
+	padding:0 5px 10px 5px;
+}	
+
+
+#mainContent .MainBox .catContent {
+	width:669px;
+	background:#F1F1F1;
+	margin:0;
+	padding:10px 0 10px 5px;
+}	
+
+#mainContent .MainBox .topContent {
+	width:663px;
+	margin:0;
+	padding:10px 0 10px 5px;
+}	
+
+#mainContent .MainBox .topContent li {
+position:relative;
+line-height:150%;
+list-style-image: url('http://img.47news.jp/images/dsicon.gif');
+padding:0 7em 0 0;
+}
+
+#mainContent .MainBox .topContent span.timestamp {display:block; position:absolute; right:0; top:0; color:#000; font-size:90%; }
+
+
+#mainContent .MainBox .topContent .topImg img {
+	float:right;
+        background:#CCCCCC;
+	margin:0 10px;;
+	padding:1px;
+}	
+
+
+
+/*---------------------------------------------------
+ フッター部分スタイルシート　2007/12/05 OIKAWA
+---------------------------------------------------*/
+
+#footer {
+	width:966px; 
+	padding: 10px 5px;
+	margin:5px auto;
+	border:solid 1px #CCCCCC; 
+} 
+
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+
+/*---------------------------------------------------
+ コンテンツ部分スタイルシート　2008/01/16 NAKAMURA
+---------------------------------------------------*/
+
+.frameline {
+	margin: 10px 0px 5px 0px;
+	border:solid 1px #CCCCCC; 
+} 
+.frameline-sky {
+	margin: 10px 0px 5px 0px;
+	border:solid 1px #0099CB; 
+}
+.noframeline {
+	margin: 10px 0px 5px 0px;
+} 
+
+
+/*---------------------------------------------------
+ メニューリスト部分スタイルシート　2008/01/27 OIKAWA
+---------------------------------------------------*/
+.menulist     {
+               position:relative;
+              }
+
+
+.menulist a  {
+               display:inline-block;
+               margin:0px;
+               width:140px;
+               border:solid 1px #777777;
+               padding:0;
+               text-decoration:none;
+               font-size:15px;
+               font-weight:bold; 
+               color:black;
+              }
+
+.menulist a:hover {
+               padding:5px;
+               border-color:black;
+               background-color:#ccff99;
+              }
+
+
+/*---------------------------------------------------
+ 画像表示スタイルシート　2008/08/26 MOTOHASHI
+---------------------------------------------------*/
+#ImageFile {
+	zoom: 57%;
+} 
+
+/*---------------------------------------------------
+ ランキング用CSS　2010/01/19 SAITO
+---------------------------------------------------*/
+ol#sideRank{
+	padding:0 10px 0 0;
+	margin:0;
+}
+
+li.sideRank1{
+	background:url(http://img.47news.jp/images/rank1.jpg) no-repeat;
+	padding:0 0 2px 28px;
+	list-style-position:outside;
+}
+
+li.sideRank2{
+	background:url(http://img.47news.jp/images/rank2.jpg) no-repeat;
+	padding:0 0 2px 28px;
+	list-style-position:outside;
+}
+
+li.sideRank3{
+	background:url(http://img.47news.jp/images/rank3.jpg) no-repeat;
+	padding:0 0 2px 28px;
+	list-style-position:outside;
+}
+
+li.sideRank4{
+	background:url(http://img.47news.jp/images/rank4.jpg) no-repeat;
+	padding:0 0 2px 28px;
+	list-style-position:outside;
+}
+
+li.sideRank5{
+	background:url(http://img.47news.jp/images/rank5.jpg) no-repeat;
+	padding:0 0 2px 28px;
+	list-style-position:outside;
+}

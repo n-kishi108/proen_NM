@@ -1,0 +1,9 @@
+
+
+
+
+
+                                var amzn_wdgt={"popoverBorderColor":"#dcd9b5","backgroundColor":"#ffffff","titleTextColor":"#000000","tag":"akihabaracraw-22","width":325,"cloudFontSize":"14px","serviceVersion":"20070822","marketPlace":"JP","titleFont":"Verdana","titleFontSize":"13px","templateId":"8006","title":"プロダクトクラウド ウィジェット","theme_version":"0","category":"All","height":280,"curvedCorners":true,"hoverBackgroundColor":"#cc6600","hoverTextColor":"#ffffff","showAmazonLogoAsText":true,"showTitle":false,"cloudTextColor":"#003399","showPopovers":false,"cloudFont":"Verdana"}
+        amzn_wdgt.ID = "V20070822/JP/akihabaracraw-22/8006/25feba05-e8d7-43f8-87bf-63790ee2e6f9";
+        document.write('<script charset="utf-8" type="text/javascript" src="http://wms.assoc-amazon.jp/20070822/JP/js/8006.js"></script>')
+    

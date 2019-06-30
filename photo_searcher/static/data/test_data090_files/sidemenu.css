@@ -1,0 +1,100 @@
+@charset "Shift_JIS";
+
+
+
+
+#rightMenu{
+}
+
+#sidebar #rightArea {
+    width:181px;
+    margin:0 auto;
+    height:50px;
+    padding-top:50px;
+    text-align:center;
+}
+
+#rightMenu a {
+        color:#990000;
+}
+
+#rightMenu a:hover{
+	color:#c25700;
+}
+
+.rightMenu_h {
+	font-size: 10px;
+	font-weight: bold;
+	text-align: left;
+	margin: 0px;
+	line-height: 120%;
+}
+
+.rightMenu_h a {
+	color: #990000 !important;
+}
+
+
+.rightMenu_p{
+	font-size: 10px;
+	margin: 4px 0px 0px;
+	color: #990000 !important;
+	text-align: left;
+	line-height: 120%;
+}
+
+.rightMenuBanner_txt{
+	font-size: 12px;
+	margin: 4px 0px 0px;
+	color: #666666;
+	text-align: center;
+	line-height: 120%;
+}
+
+.rightMenuLink_txt{
+	font-size: 12px;
+	margin: 4px 0px 10px;
+	color: #666666;
+	line-height: 120%;	
+}
+
+
+#------------------------{}
+
+
+
+
+.rightMenuParts{
+	margin-left: 12px;
+	margin-bottom: 16px;
+	margin-top: 0px;
+	padding: 0px;
+	margin-right: 0px;
+}
+.rightMenuPartsRight{
+	float:left;
+	padding-left: 4px;
+	margin: 0px;
+	padding-bottom: 0px;
+}
+#rightMenu_title{
+	margin-left: 12px;
+	text-align: left;
+	margin-bottom: 20px;
+	padding-top: 12px;
+}
+
+
+#------------------------{}
+
+.rightMenuParts img{
+	float:left;
+}
+
+.rightMenuBanner{
+	font-size: 12px;
+	clear: both;
+	text-align: center;
+	width: 160px;
+	margin-left: 12px;
+}

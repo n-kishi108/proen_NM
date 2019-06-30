@@ -1,0 +1,51 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BIhYVnZq1S4uACJbQ7wPi4ODrB4OG4H3HruGqDsCNtwHAupkGEAEYASCT8ZwTKAM4AFCd2IXR_P____8BYInrvYTgE7IBEW5ld3MubGl2ZWRvb3IuY29tyAEB2gFEaHR0cDovL25ld3MubGl2ZWRvb3IuY29tL2FydGljbGUvaW1hZ2VfZGV0YWlsLzM4NTExNTAvP2ltZ19pZD01MTM2NjipAs7gEqOP5UY-yALlzbUNqAMB6AO4AegD2QHoA6MG6AP7A_UDBAAABPUDBAAAEA&amp;num=1&amp;sig=AGiWqtwKn8rAqaoRvXzx54d0RyccLEQeCQ&amp;client=ca-livedoor-infoentame_js&amp;adurl=http://www.e-mallsystem.net/"; 
+google_ad.visible_url = "www.e-mallsystem.net/"; 
+google_ad.line1 = "\x26#12471;\x26#12519;\x26#12483;\x26#12500;\x26#12531;\x26#12464;\x26#12514;\x26#12540;\x26#12523;\x26#27083;\x26#31689;"; 
+google_ad.line2 = "\x26#12514;\x26#12540;\x26#12523;\x26#12469;\x26#12452;\x26#12488;\x26#12398;\x26#27083;\x26#31689;\x26#12395;\x26#24517;\x26#35201;\x26#12394;\x26#27231;\x26#33021;\x26#12434;"; 
+google_ad.line3 = "\x26#32178;\x26#32645;\x26#12375;\x26#12383;\x26#12471;\x26#12473;\x26#12486;\x26#12512;\x26#12289;\x26#12377;\x26#12368;\x26#12395;\x26#36939;\x26#21942;\x26#21487;\x26#33021;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "site"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BKWQinZq1S4uACJbQ7wPi4ODrB4DhmnzIy_fXENSDzdcNgJmbEBACGAIgk_GcEygDOABQyZTz0gJgieu9hOATsgERbmV3cy5saXZlZG9vci5jb23IAQHaAURodHRwOi8vbmV3cy5saXZlZG9vci5jb20vYXJ0aWNsZS9pbWFnZV9kZXRhaWwvMzg1MTE1MC8_aW1nX2lkPTUxMzY2OKkCzuASo4_lRj7AAgGoAwHoA7gB6APZAegDowboA_sD9QMEAAAE9QMEAAAQ&amp;num=2&amp;sig=AGiWqtyJZRxqBQuZ4ypPGDZojZXjBRO8sA&amp;client=ca-livedoor-infoentame_js&amp;adurl=http://7cm-up.jp/shoes_c6.html"; 
+google_ad.visible_url = "7cm-up.jp/"; 
+google_ad.line1 = "\x26#28608;\x26#23433;7800\x26#20870; \x26#36523;\x26#38263;\x26#12450;\x26#12483;\x26#12503;\x26#38772;"; 
+google_ad.line2 = "7cm\x26#32972;\x26#12434;\x26#39640;\x26#12367;\x26#12377;\x26#12427;\x26#12502;\x26#12540;\x26#12484; \x26#39640;\x26#21697;\x26#36074; \x26#20302;\x26#20385;\x26#26684;"; 
+google_ad.line3 = "\x26#35504;\x26#12395;\x26#12418;\x26#27671;\x26#20184;\x26#12363;\x26#12428;\x26#12378;\x26#12395;\x26#36523;\x26#38263;\x26#12364;\x26#39640;\x26#12367;\x26#12394;\x26#12427;\x26#65281;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=Bk8hJnZq1S4uACJbQ7wPi4ODrB-fflI0B9dr45wLAjbcBgKDCHhADGAMgk_GcEygDOABQxYy8xgdgieu9hOATsgERbmV3cy5saXZlZG9vci5jb23IAQHaAURodHRwOi8vbmV3cy5saXZlZG9vci5jb20vYXJ0aWNsZS9pbWFnZV9kZXRhaWwvMzg1MTE1MC8_aW1nX2lkPTUxMzY2OIACAakCzuASo4_lRj6oAwHoA7gB6APZAegDowboA_sD9QMEAAAE9QMEAAAQ&amp;num=3&amp;sig=AGiWqtzwPMsh1QzO0aKQxrPgF7KQV-FhAQ&amp;client=ca-livedoor-infoentame_js&amp;adurl=http://www.checkfield.co.jp/"; 
+google_ad.visible_url = "www.checkfield.co.jp/"; 
+google_ad.line1 = "\x26#12507;\x26#12540;\x26#12512;\x26#12506;\x26#12540;\x26#12472;\x26#12398;\x26#21046;\x26#20316;"; 
+google_ad.line2 = "\x26#12507;\x26#12540;\x26#12512;\x26#12506;\x26#12540;\x26#12472;\x26#12398;\x26#20225;\x26#30011;\x26#12539;\x26#21046;\x26#20316;\x26#12539;\x26#36939;\x26#29992;\x26#12363;\x26#12425;"; 
+google_ad.line3 = "\x26#20013;\x26#22533;\x26#20225;\x26#26989;\x26#12398;\x26#21046;\x26#20316;\x26#23455;\x26#32318;\x26#22810;\x26#25968;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://news.livedoor.com/article/image_detail/3851150/%253Fimg_id%253D513668%26hl%3Dja%26client%3Dca-livedoor-infoentame_js%26adU%3Dwww.e-mallsystem.net/%26adT%3D%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%2583%25E3%2583%2594%25E3%2583%25B3%25E3%2582%25B0%25E3%2583%25A2%25E3%2583%25BC%25E3%2583%25AB%25E6%25A7%258B%25E7%25AF%2589%26adU%3D7cm-up.jp/%26adT%3D%25E6%25BF%2580%25E5%25AE%25897800%25E5%2586%2586%2B%25E8%25BA%25AB%25E9%2595%25B7%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E9%259D%25B4%26adU%3Dwww.checkfield.co.jp/%26adT%3D%25E3%2583%259B%25E3%2583%25BC%25E3%2583%25A0%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E3%2581%25AE%25E5%2588%25B6%25E4%25BD%259C%26gl%3DJP%26hideleadgen%3D1\x26usg\x3dAFQjCNFD3_3Wl-xCjZ7l4aRxs-Js7E6SPw"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

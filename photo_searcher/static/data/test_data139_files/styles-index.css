@@ -1,0 +1,432 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin:0px;
+padding:0px;
+text-align:center;
+background-color:#FFF;
+color:#000000;
+}
+#container{
+text-align:center;
+margin: 10px auto 0px auto;
+padding:0px;
+width:769px;
+}
+a{
+ text-decoration: underline;
+color:#87B400;
+ }
+#banner{
+font-family:arial, Helvetica;
+height:275px;
+margin:0px;
+padding:0px 0px 0px 160px;
+text-align:left;
+background-image:url(http://blog.seesaa.jp/img/bg/gerbera/header.jpg);
+background-repeat:no-repeat;
+}
+h1 {
+margin:0px;
+padding: 50px 10px 10px 0px;
+font-size:18px;
+font-weight:bolder;
+}
+h1 a{
+color:#FFF;
+font-family:arial, Helvetica;
+text-decoration: none;
+font-weight:bolder;
+}
+h2 {
+}
+h3 {
+font-size:12px;
+font-weight:bolder;
+font-family:arial, Helvetica;
+margin-top:10px;
+margin-bottom:5px;
+padding:3px 0px 5px 20px;
+background-image:url(http://blog.seesaa.jp/img/bg/gerbera/title.gif);
+background-repeat:no-repeat;
+}
+h3 a{
+font-weight:bolder;
+color:#666;
+}
+.description {
+color:#FFF;
+margin:0px 10px 10px 0px;
+font-size:12px;
+font-family:sans-serif;
+font-weight:bolder;
+}
+.navi {
+font-size:12px;
+text-align:center;
+padding:0px 0px 5px 0px;
+}
+#content {
+float:left;
+width:500px;
+text-align:center;
+margin-top:10px;
+margin-left:4px;
+}
+.blog {
+margin:0px;
+text-align:left;
+margin-left:15px;
+}
+.blogbody {
+margin:0px;
+padding:0px;
+}
+.date{
+font-size: 12px; 
+font-weight:bolder;
+font-family:arial, Helvetica;
+color:#FFA11D;
+margin:0px;
+padding:5px 5px 7px 8px;
+background-image:url(http://blog.seesaa.jp/img/bg/gerbera/date.gif);
+background-repeat:no-repeat;
+background-position:bottom;
+}
+.title{
+font-weight:bolder;
+text-align:left;
+}
+.title a{
+border:none;
+text-decoration: none;
+font-weight:bolder;
+}
+.text{
+color: #000000;
+font-size: 12px;
+margin-top:0px;
+padding:0px 10px 0px 20px;
+line-height:18px;
+}
+.text    img{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #666666;
+	border-bottom-color: #666666;
+	border-left-color: #CCCCCC;
+	padding: 7px;
+	margin-bottom: 10px;
+}
+.posted{ 
+font-size: 10px; 
+padding:10px 10px 10px 20px;
+text-align:left;
+}
+#links-left {
+}
+#links {
+font-weight:normal;
+width:226px;
+float:left;
+margin-top:10px;
+margin-left:20px;
+}
+#calendar {
+font-weight:normal;
+text-align:center;
+padding-left:10px;
+}
+#calendar table {
+width:184px;
+padding-bottom:10px;
+text-align:center;
+background-color:#F6F7E2;
+background-image:url(http://blog.seesaa.jp/img/bg/gerbera/cal_bottom.gif);
+background-repeat:no-repeat;
+background-position:bottom;
+}
+#calendar th{
+font-size:12px;
+font-weight:bold;
+padding:7px 3px;
+background-color:#E6F7A0;
+}
+.calendarhead {
+background-image:url(http://blog.seesaa.jp/img/bg/gerbera/cal_head.jpg);
+background-repeat:no-repeat;
+color:#87B400;
+font-size:12px;
+font-weight:bolder;
+padding:5px 0px 3px 0px;
+}
+.calendarhead a {
+color:#87B400;
+text-decoration:none;
+}
+.calendarhead .calendarday {
+color:#87B400;
+}
+.calendarhead .calendarday a{
+color:#87B400;
+text-decoration:none;
+}
+.calendarday {
+font-size:12px;
+padding:2px;
+}
+.sidetitle {
+background-image:url(http://blog.seesaa.jp/img/bg/gerbera/side_title.gif);
+background-repeat:no-repeat;
+color:#666;
+font-size:12px;
+font-weight:bolder;
+padding:3px 0px 10px 25px;
+text-align:left;
+}
+.side {
+color:#000000;
+font-size:12px;
+font-weight:normal;
+line-height:18px;
+margin-bottom:10px;
+padding:10px 15px 10px 15px;
+text-align:left;
+}
+.side-tag {
+color:#8B8B8B;
+font-size:12px;
+font-weight:normal;
+margin-bottom:10px;
+padding:10px 15px 10px 15px;
+text-align:left;
+}
+.side-tag a{
+font-size:12px;
+text-decoration:none;
+}
+.side input{
+border:1px solid #E9E9E9;
+}
+.input-submit{
+background-color:#A1C239;
+color:#FFF;
+padding:2px;
+}
+.powered {
+padding:0px;
+text-align:center;
+}
+.syndicate {
+font-size:10px;
+padding:5px 30px 0px 0px;
+padding-bottom:10px;
+}
+input{
+border:1px solid #E9E9E9;
+}
+#comments {
+margin-top:25px;
+margin-left:15px;
+text-align:left;
+}
+#comments form{
+padding-left:10px;
+margin-top:5px;
+}
+#comments input{
+max-width:250px;
+border:1px solid #E9E9E9;
+}
+#comments textarea{
+max-width:400px;
+border:1px solid #E9E9E9;
+}
+.comments-head{ 
+margin:0px;
+padding:0px 0px 10px 20px;
+background-image:url(http://blog.seesaa.jp/img/bg/gerbera/title.gif);
+background-repeat:no-repeat;
+font-size:12px;
+font-weight:bold;
+}
+.comments-body {
+padding:5px 5px 0px 0px;
+font-size: 12px;
+}
+.comments-post{ 
+font-size: 10px; 
+padding:10px 10px 10px 20px;
+text-align:left;
+}
+#trackback {
+font-size: 12px;
+padding:10px 10px 10px 10px;
+margin-bottom:10px;
+margin-left:15px;
+text-align:left;
+border:1px dotted #666;
+}
+#footer{
+clear:left;
+padding:20px 0px; 5px 0px
+text-align:center;
+}
+.copyright{
+font-size:80%;
+width:100%;
+text-align:center;
+}
+#diet-container{
+    padding:5px;
+}
+.diet-title{
+    padding:2px 10px 2px 5px;
+    font-size:12px;
+    color:#D77D62;
+    width:90px;
+    margin-top:5px;
+}
+.diet-content{
+    padding-left:10px;font-size:12px;
+}
+#diet-foods{
+    padding-left:10px;
+    font-size:12px;
+}
+.food-title{
+    width:20%;
+    clear:left;
+    float:left;
+}
+.food-content{
+    width:75%;
+    padding-top:10px;
+}
+blockquote{
+border:1px solid #ccc;
+padding:5px;
+margin:10px;
+}
+
+
+.tag-word{
+margin:20px 0px 0px 0px;
+line-height:1.4em;
+}
+.tag{
+padding:10px;
+position:relative;
+margin-left:15px;
+font-size:12px;
+}
+#tag_cloud{
+border:1px solid #CCC;
+padding:10px;
+text-align:left;
+position:relative;
+}
+#tag_cloud a {
+padding:2px;
+}
+.tag-title{
+font-size:16px;
+font-weight:bold;
+text-align:left;
+}
+.tag-body{
+margin:10px 0px;
+padding:10px 0px 0px 0px;
+position:relative;
+}
+.tag-service{
+text-align:left;
+font-weight:bold;
+border-bottom:1px solid #CCC;
+padding:0px 0px 5px 0px;
+clear:left;
+position:relative;
+}
+.tag-search{
+text-align:right;
+padding:5px 0px;
+margin-bottom:10px;
+font-weight:bold;
+position:relative;
+}
+.tag-article{
+padding:0px 10px 10px 10px;
+text-align:left;
+position:relative;
+}
+.tag-article-title{
+text-align:left;
+padding:0px 0px 5px 0px;
+font-weight:bold;
+position:relative;
+}
+.tag-article-posted{
+font-weight:normal;
+position:relative;
+}
+.tag-article-summary{
+padding:0px 10px;
+line-height:1.4em;
+position:relative;
+}
+.tag-more{
+text-align:right;
+margin:10px 0px;
+clear:left;
+position:relative;
+}
+.tag-photos{
+float:left;
+margin:10px;
+position:relative;
+width:140px;
+height:200px;
+}
+.tag-photos-title{
+line-height:1.4em;
+padding:5px 0px;
+text-align:left;
+position:relative;
+}
+.tag-audios{
+margin:5px;
+position:relative;
+}
+.tag-audios-title{
+text-align:left;
+font-weight:bold;
+padding:0px 0px 5px 0px;
+position:relative;
+}
+.tag-audios-posted{
+font-weight:normal;
+position:relative;
+}
+.tag-videos{
+float:left;
+margin:10px;
+position:relative;
+}
+.tag-videos-title{
+line-height:1.4em;
+padding:5px 0px;
+text-align:left;
+position:relative;
+}
+.tag-navi{
+clear:left;
+text-align:center;
+margin:10px 0px;
+position:relative;
+}

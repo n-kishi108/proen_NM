@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+
+/* top main */
+
+#news_list {
+margin: 0 0 0 10px;
+}
+
+
+#news_list ul{
+margin: 0px 40px 20px 5px;
+float: left;
+list-style: none;
+}
+
+#news_list li {
+padding: 5px 0 5px 10px;
+vertical-align: middle;
+line-height: 110%;
+background-image: url(/inc/images/common/arrow_gray.gif) ;
+background-repeat: no-repeat ;
+background-position: center left; 
+}
+
+
+
+#news_list ul a {
+color: #494949;
+display: block;
+}
+
+#news_list ul a:hover {
+color: #FFFFFF;
+text-decoration: none;
+background-position: left top;
+margin: 0;
+background-image: url(/inc/images/top/back_dot.gif) ;
+}
+#news_list h4 {
+height: 40px;
+margin-left: 0;
+margin-bottom: 15px;
+}
+
+#news_list h4 p {
+padding: 5px 40px 5px 20px;
+font-size: 100%;
+}
+
+#news_list .sakuhin td{
+padding: 8px ;
+}

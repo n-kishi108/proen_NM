@@ -1,0 +1,75 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BzGWkNCq4S9zcBpva6QOz2Jj2C93In74B95iRtA_AjbcBwLSgLhABGAEg6Y_RCigFOABQ9LD8xgdgiaPShKgUyAEB2gH_AWZpbGU6Ly8vQzovVXNlcnMvc2hpbi9EZXNrdG9wLyVFOSU5QiU4NiVFNSU5MCU4OCVFNSU4NiU5OSVFNyU5QyU5Ri8lRTYlQjIlOTYlRTclQjglODQlRTUlOUIlQkQlRTklOUElOUIlRTYlOTglQTAlRTclOTQlQkIlRTclQTUlQUQlRTMlODElQUUlRTMlODMlQTklRTMlODIlQTQlRTMlODMlQjMlRTMlODMlOEElRTMlODMlODMlRTMlODMlOTclRTMlODElOEMlRTclOTklQkElRTglQTElQTglMjAtJTIwJUU0JUI4JTk2JUU3JTk1JThDJUUzJTgxJUFFJakCbLEBNh3URj7IAqnimQSoAwHoAyLoA8YE6APlBfUDAAAAxA&amp;num=1&amp;sig=AGiWqtwUsAg8_Y1Hj-Ho9TfME6CR5skGLA&amp;client=ca-mycom_js&amp;adurl=http://www.apple.com/jp/getamac/whymac/%3Fcid%3DMAR-JP-GOOGC-MAC"; 
+google_ad.visible_url = "www.apple.com"; 
+google_ad.line1 = "Mac\x26#12364;\x26#22909;\x26#12365;\x26#12395;\x26#12394;\x26#12427;\x26#29702;\x26#30001;"; 
+google_ad.line2 = "\x26#26368;\x26#20808;\x26#31471;\x26#12398;intel\x26#12503;\x26#12525;\x26#12475;\x26#12483;\x26#12469;\x26#25645;\x26#36617;\x26#12398;Mac\x26#12391;"; 
+google_ad.line3 = "\x26#39514;\x26#12365;\x26#12398;\x26#12473;\x26#12500;\x26#12540;\x26#12489;\x26#12434;\x26#20307;\x26#39443;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B1T0-NCq4S9zcBpva6QOz2Jj2C5a5xL8Bto-89hHAjbcBwKumLRACGAIg6Y_RCigFOABQmdau-v7_____AWCJo9KEqBSgAfbDtO0DyAEB2gH_AWZpbGU6Ly8vQzovVXNlcnMvc2hpbi9EZXNrdG9wLyVFOSU5QiU4NiVFNSU5MCU4OCVFNSU4NiU5OSVFNyU5QyU5Ri8lRTYlQjIlOTYlRTclQjglODQlRTUlOUIlQkQlRTklOUElOUIlRTYlOTglQTAlRTclOTQlQkIlRTclQTUlQUQlRTMlODElQUUlRTMlODMlQTklRTMlODIlQTQlRTMlODMlQjMlRTMlODMlOEElRTMlODMlODMlRTMlODMlOTclRTMlODElOEMlRTclOTklQkElRTglQTElQTglMjAtJTIwJUU0JUI4JTk2JUU3JTk1JThDJUUzJTgxJUFFJakCbLEBNh3URj7IApKPtRCoAwHoAyLoA8YE6APlBfUDAAAAxA&amp;num=2&amp;sig=AGiWqtwmFmU2UNNcij_ZassUF248A7-8Aw&amp;client=ca-mycom_js&amp;adurl=http://ac.ebis.ne.jp/tr_set.php%3Fargument%3DRwKYVd62%26ai%3Da4b14b85c8db48"; 
+google_ad.visible_url = "eonet.jp"; 
+google_ad.line1 = "eo\x26#20809;-\x26#20844;\x26#24335;\x26#12469;\x26#12452;\x26#12488;"; 
+google_ad.line2 = "\x26#12493;\x26#12483;\x26#12488;\x26#12418;\x26#38651;\x26#35441;\x26#12418;\x26#12486;\x26#12524;\x26#12499;\x26#12418;!"; 
+google_ad.line3 = "eo\x26#20809;\x26#12394;\x26#12425;\x26#20840;\x26#37096;\x26#12414;\x26#12392;\x26#12417;\x26#12390;\x26#12392;\x26#12387;\x26#12390;\x26#12418;\x26#12362;\x26#12488;\x26#12463;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BYRV1NCq4S9zcBpva6QOz2Jj2C_rbsZUBsMPLohHAjbcBgLSJExADGAMg6Y_RCigFOABQ8s-90_7_____AWCJo9KEqBSgAfrSpfkDyAEB2gH_AWZpbGU6Ly8vQzovVXNlcnMvc2hpbi9EZXNrdG9wLyVFOSU5QiU4NiVFNSU5MCU4OCVFNSU4NiU5OSVFNyU5QyU5Ri8lRTYlQjIlOTYlRTclQjglODQlRTUlOUIlQkQlRTklOUElOUIlRTYlOTglQTAlRTclOTQlQkIlRTclQTUlQUQlRTMlODElQUUlRTMlODMlQTklRTMlODIlQTQlRTMlODMlQjMlRTMlODMlOEElRTMlODMlODMlRTMlODMlOTclRTMlODElOEMlRTclOTklQkElRTglQTElQTglMjAtJTIwJUU0JUI4JTk2JUU3JTk1JThDJUUzJTgxJUFFJakCbLEBNh3URj7IAu7Blg2oAwHoAyLoA8YE6APlBfUDAAAAxA&amp;num=3&amp;sig=AGiWqtyRxw14sDhvKOvoS9Up4CCk_ksPlA&amp;client=ca-mycom_js&amp;adurl=http://www.irhpress.co.jp/pickup/h0258.shtml"; 
+google_ad.visible_url = "www.irhpress.co.jp/"; 
+google_ad.line1 = "\x26#23455;\x26#37682; \x26#24746;\x26#39764;\x26#12392;\x26#12398;\x26#23550;\x26#35441;"; 
+google_ad.line2 = "\x26#24746;\x26#39764;\x26#12364;\x26#25126;\x26#20105;\x26#12420;\x26#12486;\x26#12525;\x26#12408;\x26#12398;\x26#38306;\x26#19982;\x26#12434;\x26#35388;\x26#35328;"; 
+google_ad.line3 = "\x26#12381;\x26#12398;\x26#22768;\x26#12434;\x26#20844;\x26#38283;\x26#21454;\x26#37682;\x26#12375;\x26#12383;\x26#34909;\x26#25731;\x26#12398;\x26#19968;\x26#20874;!"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 4; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BXCIVNCq4S9zcBpva6QOz2Jj2C7ath84BkIjVrQ7AjbcBgLSJExAEGAQg6Y_RCigFOABQloC0tPz_____AWCJo9KEqBTIAQHaAf8BZmlsZTovLy9DOi9Vc2Vycy9zaGluL0Rlc2t0b3AvJUU5JTlCJTg2JUU1JTkwJTg4JUU1JTg2JTk5JUU3JTlDJTlGLyVFNiVCMiU5NiVFNyVCOCU4NCVFNSU5QiVCRCVFOSU5QSU5QiVFNiU5OCVBMCVFNyU5NCVCQiVFNyVBNSVBRCVFMyU4MSVBRSVFMyU4MyVBOSVFMyU4MiVBNCVFMyU4MyVCMyVFMyU4MyU4QSVFMyU4MyU4MyVFMyU4MyU5NyVFMyU4MSU4QyVFNyU5OSVCQSVFOCVBMSVBOCUyMC0lMjAlRTQlQjglOTYlRTclOTUlOEMlRTMlODElQUUlqQJssQE2HdRGPsgCytm9EagDAegDIugDxgToA-UF9QMAAADE&amp;num=4&amp;sig=AGiWqtwtkeo6-GDmsxwiFKUbFWs927U_Cw&amp;client=ca-mycom_js&amp;adurl=http://wol.nikkeibp.co.jp/article/column/20090924/104202/%3Fcd%3Dad%26M%3Dwol%26KW%3D000039"; 
+google_ad.visible_url = "wol.nikkeibp.co.jp/"; 
+google_ad.line1 = "\x26#12497;\x26#12477;\x26#12467;\x26#12531;\x26#20006;\x26#12415;\x26#12395;\x26#20351;\x26#12360;\x26#12427;\x26#25658;\x26#24111;"; 
+google_ad.line2 = "\x26#22899;\x26#24615;\x26#12395;\x26#12418;\x26#20154;\x26#27671;\x26#12398;\x26quot;\x26#12479;\x26#12483;\x26#12481;\x26#12497;\x26#12493;\x26#12523;\x26#25658;\x26#24111;\x26quot;"; 
+google_ad.line3 = "\x26#20181;\x26#20107;\x26#12391;\x26#12398;\x26#27963;\x26#29992;\x26#26041;\x26#27861;\x26#12399; \x26#26085;\x26#32076;WOMAN Online"; 
+google_ad.regionname = ""; 
+google_ads[3] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 5; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BbHvQNCq4S9zcBpva6QOz2Jj2C4SAiawBnP_2kw_AjbcBgODGWxAFGAUg6Y_RCigFOABQ0uSg3QZgiaPShKgUoAHUwb7xA8gBAdoB_wFmaWxlOi8vL0M6L1VzZXJzL3NoaW4vRGVza3RvcC8lRTklOUIlODYlRTUlOTAlODglRTUlODYlOTklRTclOUMlOUYvJUU2JUIyJTk2JUU3JUI4JTg0JUU1JTlCJUJEJUU5JTlBJTlCJUU2JTk4JUEwJUU3JTk0JUJCJUU3JUE1JUFEJUUzJTgxJUFFJUUzJTgzJUE5JUUzJTgyJUE0JUUzJTgzJUIzJUUzJTgzJThBJUUzJTgzJTgzJUUzJTgzJTk3JUUzJTgxJThDJUU3JTk5JUJBJUU4JUExJUE4JTIwLSUyMCVFNCVCOCU5NiVFNyU5NSU4QyVFMyU4MSVBRSWpAmyxATYd1EY-yAKuwPUJqAMB6AMi6APGBOgD5QX1AwAAAMQ&amp;num=5&amp;sig=AGiWqtyTdoWY-DgOlrbrWc0Pi3Gy2Vt7Zw&amp;client=ca-mycom_js&amp;adurl=http://www.001.kddi.com/lineup/mt/index.html%3Fadid%3Dadwlis0001mt"; 
+google_ad.visible_url = "www.001.kddi.com"; 
+google_ad.line1 = "\x26#12465;\x26#12540;\x26#12479;\x26#12452;\x26#12418;\x26#22269;\x26#38555;\x26#38651;\x26#35441;\x26#12399;001"; 
+google_ad.line2 = "KDDI\x26#12394;\x26#12425;\x26#25658;\x26#24111;\x26#12363;\x26#12425;\x26#12418;\x26#31777;\x26#21336;\x26#12289;\x26#12362;\x26#12488;\x26#12463;\x26#12395;"; 
+google_ad.line3 = "\x26#22269;\x26#38555;\x26#38651;\x26#35441;!24\x26#26178;\x26#38291;\x26#22343;\x26#19968;\x26#26009;\x26#37329;\x26#12290;"; 
+google_ad.regionname = ""; 
+google_ads[4] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dfile:///C:/Users/shin/Desktop/%2525E9%25259B%252586%2525E5%252590%252588%2525E5%252586%252599%2525E7%25259C%25259F/%2525E6%2525B2%252596%2525E7%2525B8%252584%2525E5%25259B%2525BD%2525E9%25259A%25259B%2525E6%252598%2525A0%2525E7%252594%2525BB%2525E7%2525A5%2525AD%2525E3%252581%2525AE%2525E3%252583%2525A9%2525E3%252582%2525A4%2525E3%252583%2525B3%2525E3%252583%25258A%2525E3%252583%252583%2525E3%252583%252597%2525E3%252581%25258C%2525E7%252599%2525BA%2525E8%2525A1%2525A8%252520-%252520%2525E4%2525B8%252596%2525E7%252595%25258C%2525E3%252581%2525AE%2525E3%252583%25258A%2525E3%252583%252599%2525E3%252582%2525A2%2525E3%252583%252584%2525E3%252581%25258C%2525E6%252598%2525A0%2525E7%252594%2525BB%2525E7%25259B%2525A3%2525E7%25259D%2525A3%2525E3%252583%252587%2525E3%252583%252593%2525E3%252583%2525A5%2525E3%252583%2525BC%252520_%252520%2525E3%252582%2525A8%2525E3%252583%2525B3%2525E3%252582%2525BF%2525E3%252583%252586%2525E3%252582%2525A4%2525E3%252583%2525B3%2525E3%252583%2525A1%2525E3%252583%2525B3%2525E3%252583%252588%252520_%252520%2525E3%252583%25259E%2525E3%252582%2525A4%2525E3%252582%2525B3%2525E3%252583%25259F%2525E3%252582%2525B8%2525E3%252583%2525A3%2525E3%252583%2525BC%2525E3%252583%25258A%2525E3%252583%2525AB.htm%26hl%3Dja%26client%3Dca-mycom_js%26adU%3Dwww.apple.com%26adT%3DMac%25E3%2581%258C%25E5%25A5%25BD%25E3%2581%258D%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%25E7%2590%2586%25E7%2594%25B1%26adU%3Deonet.jp%26adT%3Deo%25E5%2585%2589-%25E5%2585%25AC%25E5%25BC%258F%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%26adU%3Dwww.irhpress.co.jp/%26adT%3D%25E5%25AE%259F%25E9%258C%25B2%2B%25E6%2582%25AA%25E9%25AD%2594%25E3%2581%25A8%25E3%2581%25AE%25E5%25AF%25BE%25E8%25A9%25B1%26adU%3Dwol.nikkeibp.co.jp/%26adT%3D%25E3%2583%2591%25E3%2582%25BD%25E3%2582%25B3%25E3%2583%25B3%25E4%25B8%25A6%25E3%2581%25BF%25E3%2581%25AB%25E4%25BD%25BF%25E3%2581%2588%25E3%2582%258B%25E6%2590%25BA%25E5%25B8%25AF%26adU%3Dwww.001.kddi.com%26adT%3D%25E3%2582%25B1%25E3%2583%25BC%25E3%2582%25BF%25E3%2582%25A4%25E3%2582%2582%25E5%259B%25BD%25E9%259A%259B%25E9%259B%25BB%25E8%25A9%25B1%25E3%2581%25AF001%26gl%3DJP\x26usg\x3dAFQjCNGHSlHbRm8q6r5JmtaKHCCUy3fRZQ"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

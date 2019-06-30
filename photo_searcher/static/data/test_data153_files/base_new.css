@@ -1,0 +1,1043 @@
+/* CSS Document */
+body {
+    background:#FFFFFF none repeat scroll 0%;
+    color:#2C2C2C;
+    font-family:"ＭＳ Ｐゴシック","ＭＳ ゴシック",sans-serif;
+    font-size:12px;
+    line-height:140%;
+    margin:0pt;
+    padding:0pt;
+    text-align:center;
+}
+
+.chart .guide .program {
+    font-family:"MS Gothic","ＭＳ ゴシック",sans-serif;
+}
+
+td {
+    text-align:left;
+}
+
+img {
+    border: none;
+}
+
+.pull_button {
+    cursor: pointer;
+}
+
+.box-out {
+    border-style: solid;
+    border-width: 1px;
+    padding: 0px;
+}
+
+.box-in {
+    border-style: solid;
+    border-width: 0px;
+    color: white;
+    font-weight:bold;
+    font-size:12px;
+    padding:4px;
+}
+
+.stationmenuentry {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px 1px 0px 1px;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -2px;
+    visibility: hidden;
+}
+
+.category-1 {
+    background-color: #d3f9e3;
+}
+
+.category-4 {
+    background-color: #fdbc12;
+}
+
+.category-3 {
+    background-color: #ffffcc;
+}
+
+.category-6 {
+    background-color: #bfdefe;
+}
+
+.category-5 {
+    background-color: #f0e0fb;
+}
+
+.category-7 {
+    background-color: #f9d8e1;
+}
+
+.weekday-6 {
+    color: #3366cc;
+}
+
+.weekday-7 {
+    color:#ee0000;
+}
+
+.function-109 {
+    display: none;
+}
+
+.function-111 {
+    display: none;
+}
+
+.function-112 {
+    display: none;
+}
+
+.function-301 {
+    display: none;
+}
+
+.performer-21 {
+    display: none;
+}
+
+.performer-42 {
+    display: none;
+}
+
+.performer-43 {
+    display: none;
+}
+
+.performer-44 {
+    display: none;
+}
+
+.performer-53 {
+    display: none;
+}
+
+.performer-54 {
+    display: none;
+}
+
+.performer-55 {
+    display: none;
+}
+
+.performer-56 {
+    display: none;
+}
+
+.performer-60 {
+    display: none;
+}
+
+.performer-62 {
+    display: none;
+}
+
+.performer-63 {
+    display: none;
+}
+
+.performer-64 {
+    display: none;
+}
+
+.performer-65 {
+    display: none;
+}
+
+.performer-66 {
+    display: none;
+}
+
+.performer-67 {
+    display: none;
+}
+
+.performer-68 {
+    display: none;
+}
+
+.performer-69 {
+    display: none;
+}
+
+.performer-6A {
+    display: none;
+}
+
+.performer-6B {
+    display: none;
+}
+
+.performer-6C {
+    display: none;
+}
+
+.performer-6D {
+    display: none;
+}
+
+.performer-6E {
+    display: none;
+}
+
+.performer-6F {
+    display: none;
+}
+
+.performer-6G {
+    display: none;
+}
+
+.performer-6H {
+    display: none;
+}
+
+.performer-70 {
+    display: none;
+}
+
+.performer-71 {
+    display: none;
+}
+
+.performer-90 {
+    display: none;
+}
+
+/*-----------------------------------*/
+
+.guidebottom {
+    width:100%;
+}
+
+.guidebottom .rec {
+    vertical-align:top;
+}
+
+.guidebottom .recommendation {
+    width:659px;
+}
+
+.guidebottom .recommendation .body {
+    height: 480px;
+    vertical-align: top;
+}
+
+.guidebottom .recommendation .body table {
+    height: 480px;
+}
+
+.guidebottom .recommendation .body table .date {
+    height: 1em;
+}
+
+.guidebottom .recommendation .body table .time {
+    vertical-align: middle;
+}
+
+.ad {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#colgguide {
+    padding-left:5px;
+    background: right no-repeat;
+    background-image: url('/digitalguide/img/chart/gguides-c-black.gif');
+}
+
+#panel #form {
+    width:672px;
+}
+
+#panel #form img {
+    vertical-align: bottom;
+}
+
+#panel #input_search_keyword, #panel #input_search_kperson {
+    width: 200px;
+}
+
+#panel #search_submit {
+    width:70px;
+}
+
+ .accessranking {
+    width:300px;
+    margin-top:-1px;
+}
+
+.accessranking .body {
+    border-width: 1px;
+    border-style: solid;
+    padding: 4px 8px 4px 8px;
+}
+
+.accessranking .body .date {
+    font-size: 12px;
+    padding-bottom:8px;
+}
+
+.accessranking .body img {
+    border: none;
+    vertical-align:top;
+    margin:2px;
+}
+
+.accessranking .body .rank {
+    line-height:20px;
+}
+
+.accessranking .body .nr-1 {
+    font-weight:bold;
+}
+
+.accessranking .body .nr-2 {
+    font-weight:bold;
+}
+
+.accessranking .body .nr-3 {
+    font-weight:bold;
+    padding-top:1px;
+    padding-bottom:10px;
+}
+
+.accessranking .body .table td {
+    vertical-align:top;
+}
+
+.accessranking .note {
+    text-align:left;
+    font-size:10px;
+    padding-top:5px;
+}
+
+.sukapa {
+	font-size:14px;
+	padding-top: 5px;
+}
+
+.chart .pager {
+    text-align: right;
+    padding-right:5px;
+}
+
+.chart .menu {
+    table-layout: fixed;
+    width:959px;
+    height:63px;
+}
+
+.chart #flying {
+    position: absolute;
+    position:absolute;
+    visibility: hidden;
+    background-color:white;
+}
+
+.chart .menu td {
+    font-family:'Lucida Grande','Verdana',"ＭＳ Ｐゴシック",sans-serif;
+    font-size-adjust:none;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    font-size:14px;
+    vertical-align:middle;
+    white-space:nowrap;
+}
+
+.chart .menu .title {
+    padding-left: 8px;
+}
+
+.chart .title img {
+    vertical-align:bottom;
+    margin-bottom:1px;
+}
+
+.chart .menu .genre {
+    table-layout: fixed;
+    width:100%;
+}
+
+.chart .menu .genre .text {
+    width: 130px;
+    font-size:12px;
+}
+
+.chart .menu .genre .check {
+    width:20px;
+    border-width: 1px 0px 1px 1px;
+    border-color:white;
+    border-style:solid;
+}
+
+.chart .menu .genre .category {
+    border-width: 1px 1px 1px 0px;
+    border-color:white;
+    border-style:solid;
+    font-size:12px;
+}
+
+.chart .menu .genre td {
+    color: black;
+    padding: 0px 2px 0px 0px;
+    text-align:center;
+}
+
+.chart .detailoption {
+    text-align:center;
+}
+
+.chart .detailoption a {
+    font-size:12px;
+}
+
+.chart .detailoption .selected:hover {
+	text-decoration:none;
+}
+
+.chart .navtime a:hover {
+	color: white;
+}
+
+.chart .detailoption .selected {
+    font-weight:bold;
+    cursor:default;
+    font-size:14px;
+}
+
+.chart .detailoption .text {
+    padding: 2px 12px 2px 12px;
+    background-color:white;
+    border-style: solid;
+    border-width: 1px;
+    font-size:14px;
+}
+
+.chart .menu .navtime {
+    text-align:center;
+}
+
+.chart .navtime a {
+    font-size:12px;
+    white-space:nowrap;
+}
+
+.chart .menu .help {
+    width:175px;
+    text-align:center;
+}
+
+.chart .menu .help img {
+    vertical-align:middle;
+    float:right;
+    margin-right: 10px;
+}
+
+.chart .menu .channelnav {
+    width: 185px;
+}
+
+.chart .menu .channelnav img {
+    vertical-align:middle;
+}
+
+.chart .guide {
+    table-layout:fixed;
+    width:961px;
+}
+
+.chart .guide .head td, .chart .guide .foot td {
+    height: 40px;
+    vertical-align:middle;
+    text-align:center;
+    font-weight:bold;
+    padding:2px;
+}
+
+.chart .guide .hour {
+    width: 24px;
+    color: black;
+    text-align:center;
+    font-weight:bold;
+    padding-top:4px;
+    vertical-align:top;
+}
+
+.chart .guide .head .station {
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+}
+
+.chart .guide .head .station a,.chart .guide .foot .station a {
+    color:white;
+}
+
+.chart .guide .station .channel_cd {
+    font-size:10px;
+    background-color:white;
+    font-weight:normal;
+    padding:0px 1px 0px 1px;
+    color: #2C2C2C;
+}
+
+.chart .guide .foot .station {
+    border-top-style: solid;
+    border-top-width: 4px;
+}
+
+.chart img {
+    border: none;
+    margin: 0px;
+}
+
+.chart .guide .program {
+    color:#535353;
+    overflow:hidden;
+    vertical-align:top;
+    border-color:#999999;
+    border-style:solid;
+    border-width: 0px 1px 1px 0px;
+    padding: 4px;
+    text-align:left;
+}
+
+.chart .guide .program a {
+    font-weight:bold;
+}
+
+.chart .guide .program .subtitle {
+    font-weight:bold;
+}
+
+.chart .guide .program .iepg {
+    vertical-align:bottom;
+    float:right;
+}
+
+.chart .bottomnav {
+    width:960px;
+    height:111px;
+}
+
+.chart .bottomnav .navtime {
+    text-align:right;
+    padding: 6px;
+}
+
+.chart .bottomnav .bottommenu {
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    height:72px;
+}
+
+.chart .bottomnav img {
+    vertical-align:middle;
+}
+
+.chart .bottomnav .detailoption {
+    text-align:right;
+    padding-right:8px;
+    vertical-align: middle;
+}
+
+.chart .bottomnav .range {
+    padding-left: 10px;
+}
+
+.timeselect td {
+    border-width: 1px 1px 1px 0px;
+    width:18px;
+    height:18px;
+    text-align: center;
+}
+
+.timeselect .hour-5 {
+    border-width: 1px 1px 1px 1px;
+}
+
+#gbranding {
+    display: none;
+}
+
+.detail {
+    width:715px;
+}
+
+#detail-draghandle {
+    cursor: move;
+}
+
+.detail .line {
+    line-height:2px;background-image:url(../img/detail/line.png);background-position:4px bottom;background-repeat:repeat-x;margin-bottom:2px;
+    clear: left;
+}
+
+.detail .kaisetu {
+    margin: 5px 0px 5px 70px;
+    margin-left:70px;
+}
+
+.detail .kaisetuimg {
+    float:left;
+    margin: 3px 0px 20px 2px;
+}
+
+.detail .head a {
+    float:right;
+}
+
+.detail .title {
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+    height:24px;
+    padding:4px;
+    background-image:url(../img/detail/line.png);
+    background-position:4px bottom;
+    background-repeat:repeat-x;
+}
+
+.detail .title img {
+    vertical-align: middle;
+    margin-right:2px;
+}
+
+.detail .image {
+    vertical-align:top;
+    padding:2px;
+}
+
+.detail .image img {
+    float: right;
+}
+
+.detail .data {
+    vertical-align:top;
+    padding:4px 4px 0px 4px;
+    font-size:12px;
+    line-height:15px;
+}
+
+.detail .data img {
+    margin:2px 8px 2px 1px;
+    vertical-align:bottom;
+}
+
+.detail .bottomdata {
+    padding: 0px 4px 4px 4px;
+    background-image:url(../img/detail/line.png);
+    background-position:4px bottom;
+    background-repeat:repeat-x;
+    line-height:20px;
+}
+
+.detail .bottomdata .actor {
+    padding-right:4px;
+}
+
+.detail .bottomdata img {
+    margin:4px;
+    float:right;
+    border: none;
+}
+
+.detail .desc {
+    padding:4px;
+}
+
+.detail .searchhead {
+    display: none;
+    background-repeat:no-repeat;
+    padding-left: 4px;
+    font-size:10px;
+    line-height:20px;
+}
+
+.detail .closebutton img {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.detail .search .searchbody {
+    padding: 6px;
+    line-height:20px;
+    display: none;
+}
+
+.detail .search .result {
+    margin-bottom:4px;
+}
+
+.onerec {
+    width:957px;
+}
+
+.onerec td {
+    vertical-align:top;
+    text-align:left;
+}
+
+.onerec .left {
+    width:652px;
+}
+
+.onerec .spacer {
+    width:7px;
+}
+
+.onerec .left .head {
+    height:30px;
+    vertical-align:middle;
+    font-size:14px;
+    line-height:30px;
+    padding-left:8px;
+    margin:0px;
+    text-align:left;
+}
+
+.onerec .left .body {
+    height:191px;
+    padding:15px;
+    background-repeat:no-repeat;
+}
+
+.onerec .left .body .content {
+    table-layout:fixed;
+    width: 622px;
+    height: 191px;
+}
+
+.onerec .left .body .content img {
+    vertical-align:middle;
+}
+
+.onerec .left .body .content .title {
+    height: 16px;
+    width: 385px;
+}
+
+.onerec .left .body .content .title .text {
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+.onerec .left .body .content .date {
+    height: 16px;
+}
+
+.onerec .left .body .content .time {
+    height: 16px;
+}
+
+.onerec .left .body .content .station {
+    height: 16px;
+}
+
+.onerec .left .body .content .picture img {
+    vertical-align:top;
+    float:right;
+}
+
+.onerec .left .body .content .desc {
+    padding-left: 40px;
+    padding-top: 4px;
+    background-image:url(../img/onerec/explain.gif);
+    background-repeat:no-repeat;
+    background-position: 0px 5px;
+    height: 110px;
+    overflow: hidden;
+}
+
+.onerec .left .body .content .desc .text {
+    height:10em;
+    overflow:auto;
+}
+
+.recommendation {
+    width:300px;
+    margin-top:-1px;
+}
+
+.recommendation .body {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.recommendation .body .date {
+    padding-left:4px;
+}
+
+.recommendation .body .time {
+    vertical-align:top;
+    padding-left:4px;
+    width:40px;
+    background-image:url(../img/detail/line.png);
+    background-repeat:repeat-x;
+    background-position:top;
+}
+
+.recommendation .body .program {
+    padding:3px;
+    background-image:url(../img/detail/line.png);
+    background-repeat:repeat-x;
+    background-position:top;
+}
+
+.recommendation .body .first {
+    background-image:none;
+}
+
+.sametimebelt {
+    width:850px;
+    text-align:left;
+    font-size:12px;
+    margin: 0px 75px 0px 75px;
+}
+
+.sametimebelt .guide {
+    width:100%;
+    table-layout:fixed;
+    border-collapse:collapse;
+}
+
+.sametimebelt .guide .station {
+    color:white;
+    font-size:12px;
+    line-height:30px;
+    text-align:center;
+    border-width: 1px;
+    border-style: solid;
+    font-weight: bold;
+}
+
+.sametimebelt .guide .station a {
+    color: white;
+    font-size: 12px;
+}
+
+.sametimebelt .guide .list {
+    border-width: 1px;
+    border-style: solid;
+    vertical-align:top;
+    padding:0px 4px 4px 4px;
+}
+
+.sametimebelt .guide .program {
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    padding: 4px 0px 4px 0px;
+}
+
+.sametimebelt .guide .program .time {
+    font-size:10px;
+}
+
+.sametimebelt .guide a {
+    font-size:10px;
+}
+
+.searchresult .head {
+    color:white;
+    font-size:12px;
+    padding:5px;
+}
+
+.searchresult .head .title {
+    font-weight:bold;
+    font-size: 12px;
+}
+
+.searchresult .head a {
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+.searchresult .head a:hover {
+    color:white;
+}
+
+.detail .head a:hover {
+    color:white;
+}
+
+.searchresult .head .selected {
+    font-weight:bold;
+    font-size: 12px;
+}
+
+.searchresult .body {
+    padding:5px;
+}
+
+.searchresult .body .programs {
+    table-layout:fixed;
+    border-collapse:collapse;
+    margin:10px 0px 10px 0px;
+    width:100%;
+}
+
+.searchresult .body .programs td {
+    border-width:1px;
+    border-style:solid;
+    padding:4px;
+    border-color: #cccccc;
+    font-size:10px;
+    line-height: 20px;
+}
+
+.searchresult .body .programs td img {
+    vertical-align:top;
+    position:relative;
+    top: 3px;
+}
+
+.searchresult .body .programs .head td {
+    font-size:12px;
+}
+
+.searchbar {
+    width:201px;
+    float:right;
+}
+
+.searchbar form {
+    margin:0px;
+}
+
+.searchbar select {
+    width: 130px;
+}
+
+.searchbar button {
+    font-size:10px;
+    padding: 0px;
+    width:75px;
+    height:2em;
+    line-height:1em;
+    vertical-align:middle;
+}
+
+.searchbar .body {
+    border-style: solid;
+    border-width: 1px;
+    background-repeat:no-repeat;
+    background-position: center 40px;
+}
+
+.searchbar .body table {
+    table-layout:fixed;
+}
+
+.searchbar .body td {
+    padding: 7px;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+.searchbar .body .logic {
+    text-align:center;
+    border-bottom-width:1px;
+    border-bottom-style: solid;
+    border-bottom-color: #dedcdf;
+}
+
+.searchbar .body .text {
+    text-align:center;
+    border-bottom-width:1px;
+    border-bottom-style: solid;
+    padding: 4px;
+}
+
+.searchbar .body .text input {
+    width:186px;
+    border: 1px solid #7f9db9;
+}
+
+.searchbar .body .date {
+    font-size:12px;
+    line-height:20px;
+    text-align:left;
+    padding-left:7px;
+    border-bottom-width:1px;
+    border-bottom-style: dotted;
+}
+
+.searchbar .body .date input {
+    vertical-align:middle;
+    margin:0px;
+    margin-right:2px;
+    padding:0px;
+}
+
+.searchbar .body .time {
+    font-size:12px;
+    line-height:20px;
+    border-bottom-width:1px;
+    border-bottom-style: dotted;
+}
+
+.searchbar .body .time input {
+    vertical-align:middle;
+    margin:0px;
+    margin-right:2px;
+    padding:0px;
+}
+
+.searchbar .body .type {
+    vertical-align:top;
+    border-bottom-width:1px;
+    border-bottom-style: dotted;
+}
+
+.searchbar .body .go {
+    text-align:center;
+}
+
+.searchbar .body .go button {
+    width:100px;
+    text-align:center;
+    font-size:10px;
+    height:2em;
+    line-height:1em;
+    vertical-align:middle;
+}
+
+#guideextension_dock {
+    background-position:bottom;
+}
+
+#guideextension {
+    display:none;
+    padding:6px 12px 6px 12px;
+}
+
+#guideextension .content {
+    table-layout:fixed;
+    background-color:white;
+}
+
+#guideextension .content img {
+    vertical-align: middle;
+}
+
+.searchnav td {
+    font-size:12px;
+}
+
+.searchnav .left, .searchnav .right {
+    font-size: 10px;
+}
+
+.bottomnav .timetext, #guideextension .timetext {
+    vertical-align: middle;
+}

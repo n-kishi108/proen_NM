@@ -1,0 +1,67 @@
+/* ===== globalHeader ===== */
+
+body {margin:0px;}
+
+#glglobalHeader{
+width:100%;
+min-height:30px;
+margin:0 0 16px 0;
+padding:0;
+color:#fff;
+text-align:left;
+background-color:#B2B2B2;
+}
+
+#glglobalHeader img {
+border:0px;
+margin: 2 0 2 2;
+}
+
+#glglobalHeader p{
+margin:0;
+padding:0;
+}
+
+#glglobalHeader p a{
+color:#fff;
+}
+
+#gllogo{
+float:left;
+width:166px;
+}
+
+#glUtilityLinks{
+margin-left:0;
+margin-right:10px;
+text-align:right;
+}
+
+#glUtilityLinks p{
+display:inline;
+height:auto;
+/* \*/
+_height:1%;
+/* */
+font-size:0.75em;
+line-height:30px;
+text-align:right;
+vertical-align:middle;
+}
+
+#glglobalHeader hr{
+display:none;
+}
+
+#jsAdvise{
+color:#f00;
+font-size:0.75em;
+font-weight:bold;
+text-align:center;
+}
+
+/*---------------- */
+
+.clearFix{
+display:inline-table;
+}

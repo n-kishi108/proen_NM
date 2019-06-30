@@ -1,0 +1,9 @@
+if (self._FC2COUNTER168584)
+{
+	_FC2COUNTER168584.disp_img = function()
+	{
+document.writeln('<a href="http://counter.fc2.com/" target="_blank"><nobr><img border="0" src="http://panel.counter1.fc2.com/cimg/93/00000093/0.gif" alt="FC2&#28961;&#26009;&#12459;&#12454;&#12531;&#12479;&#12540;"" title="FC2&#28961;&#26009;&#12459;&#12454;&#12531;&#12479;&#12540;"" style="display:inline;margin:0px;padding:0px;border:none;"><img border="0" src="http://panel.counter1.fc2.com/cimg/93/00000093/5.gif" alt="FC2&#28961;&#26009;&#12459;&#12454;&#12531;&#12479;&#12540;"" title="FC2&#28961;&#26009;&#12459;&#12454;&#12531;&#12479;&#12540;"" style="display:inline;margin:0px;padding:0px;border:none;"><img border="0" src="http://panel.counter1.fc2.com/cimg/93/00000093/4.gif" alt="FC2&#28961;&#26009;&#12459;&#12454;&#12531;&#12479;&#12540;"" title="FC2&#28961;&#26009;&#12459;&#12454;&#12531;&#12479;&#12540;"" style="display:inline;margin:0px;padding:0px;border:none;"><img border="0" src="http://panel.counter1.fc2.com/cimg/93/00000093/1.gif" alt="FC2&#28961;&#26009;&#12459;&#12454;&#12531;&#12479;&#12540;"" title="FC2&#28961;&#26009;&#12459;&#12454;&#12531;&#12479;&#12540;"" style="display:inline;margin:0px;padding:0px;border:none;"><img border="0" src="http://panel.counter1.fc2.com/cimg/93/00000093/0.gif" alt="FC2&#28961;&#26009;&#12459;&#12454;&#12531;&#12479;&#12540;"" title="FC2&#28961;&#26009;&#12459;&#12454;&#12531;&#12479;&#12540;"" style="display:inline;margin:0px;padding:0px;border:none;"><img border="0" src="http://panel.counter1.fc2.com/cimg/93/00000093/4.gif" alt="FC2&#28961;&#26009;&#12459;&#12454;&#12531;&#12479;&#12540;"" title="FC2&#28961;&#26009;&#12459;&#12454;&#12531;&#12479;&#12540;"" style="display:inline;margin:0px;padding:0px;border:none;"></nobr></a>')
+     }
+     _FC2COUNTER168584.disp_img();
+     if(document.URL.indexOf('counterfc2com') != -1) document.writeln(_FC2COUNTER168584.debug);
+}

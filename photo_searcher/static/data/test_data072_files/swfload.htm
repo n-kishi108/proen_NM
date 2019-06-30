@@ -1,0 +1,62 @@
+/*
+    Copyright 2009 So-net Media Networks Corporation. All rights reserved.
+*/
+
+jsLoaded = true;
+var d = document;
+if (navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"] && navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin) {
+  if (navigator.plugins && navigator.plugins["Shockwave Flash"])
+    pos = navigator.plugins["Shockwave Flash"].description.indexOf("Shockwave Flash");
+    pos += 16;
+    var npd = navigator.plugins["Shockwave Flash"].description;
+    var swver = '';
+    
+    if(npd.substr(pos+1,1)=='.')
+    {
+    	swver = navigator.plugins["Shockwave Flash"].description.substr(pos,1);
+    }else
+    {
+    	swver = navigator.plugins["Shockwave Flash"].description.substr(pos,2);
+    }
+    if (swver >= minFlashVer)
+      plugin = 1;
+}
+else if (navigator.userAgent && navigator.userAgent.indexOf("MSIE")>=0
+   && (navigator.userAgent.indexOf("Windows")>=0)) {
+  d.write('<SCRIPT LANGUAGE=VBScript>');
+  d.write('on error resume next ');
+  d.write(unescape("%0A"));
+  d.write('if ( minFlashVer = 3 ) then plugin = ( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.3")))');
+  d.write(unescape("%0A"));
+  d.write('if (( minFlashVer <= 4) and (plugin <= 0 )) then plugin = ( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.4")))');
+  d.write(unescape("%0A"));
+  d.write('if (( minFlashVer <= 5) and (plugin <= 0 )) then plugin = ( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.5")))');
+  d.write(unescape("%0A"));
+  d.write('if (( minFlashVer <= 6) and (plugin <= 0 )) then plugin = ( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.6")))');
+  d.write(unescape("%0A"));
+  d.write('if (( minFlashVer <= 7) and (plugin <= 0 )) then plugin = ( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.7")))');
+  d.write(unescape("%0A"));
+  d.write('if (( minFlashVer <= 8) and (plugin <= 0 )) then plugin = ( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.8")))');
+  d.write(unescape("%0A"));
+  d.write('if (( minFlashVer <= 9) and (plugin <= 0 )) then plugin = ( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.9")))');
+  d.write(unescape("%0A"));
+  d.write('if (( minFlashVer <= 10) and (plugin <= 0 )) then plugin = ( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.10")))');
+  d.write(unescape("%0A"));
+  d.write('if (( minFlashVer <= 11) and (plugin <= 0 )) then plugin = ( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.11")))');
+  d.write("</SCR"+"IPT> ");
+}
+if ( plugin ) {
+  d.write('<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"');
+  d.write('  codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version='+minFlashVer+',0,0,0" ');
+  d.write(' ID=movie WIDTH='+width+' HEIGHT='+height+'>');
+  d.write(' <PARAM NAME=movie VALUE="'+flashName+'?clickTAG='+clickTAG.replace(/&/g,"%26")+'"> <PARAM NAME=quality VALUE=high>  ');
+  d.write(' <EMBED src="'+flashName+'?clickTAG='+clickTAG.replace(/&/g,"%26")+'" quality=high  ');
+  d.write(' swLiveConnect=FALSE WIDTH='+width+' HEIGHT='+height);
+  d.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="https://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">');
+  d.write(' </EMBED>');
+  d.write(' </OBJECT>');
+} else if (!(navigator.appName && navigator.appName.indexOf("Netscape")>=0 && navigator.appVersion.indexOf("2.")>=0)){
+  d.write('<a href="'+clickTAG+'" TARGET="_new">');
+  d.write('<IMG SRC="'+altImgName+'" WIDTH='+width+' HEIGHT='+height+' BORDER="0"></a>');
+}
+

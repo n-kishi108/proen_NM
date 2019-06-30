@@ -1,0 +1,378 @@
+@charset "UTF-8";
+
+/* VERSION=20080604031 */
+
+body {
+
+}
+
+#colContent {
+	position: relative;
+}
+
+#getBlogpartsPage {
+	width: 770px;
+	margin: 0 auto;
+	background: url(/images/bg_blogparts_generator.png) no-repeat;
+}
+
+#getBlogpartsPage .header {
+	position: relative;
+	padding: 10px 0 0 15px;
+}
+
+#getBlogpartsPage .header h1 {
+	font-size: 150%;
+	color: #490;
+	display: inline;
+}
+
+#getBlogpartsPage .header h1 img {
+	vertical-align: bottom;
+	margin-right: 5px;
+}
+
+#getBlogpartsPage .header .catch {
+	margin-left: 5px;
+	display: inline;
+}
+
+#getBlogpartsPage .nav {
+	margin: 15px 0 20px 0;
+}
+
+#getBlogpartsPage .nav li {
+	display: inline;
+	margin-right: 3px;
+}
+
+#getBlogpartsPage .header .bannerLink {
+	position: absolute;
+	top: 13px;
+	right: 0;
+}
+
+#getBlogpartsPage .content {
+	width: 730px;
+	margin: 1em auto;
+}
+
+#getBlogpartsPage .linkToTop {
+	margin: 10px 0 15px 0;
+	text-align: right;
+	font-size: 85%;
+}
+
+#getBlogpartsPage .getBlogparts,
+#homeGetBlogpartsPage {
+	padding-right: 210px;
+	border: 1px solid #999;
+}
+
+.homeSponsor_blogpartsPage #homeGetBlogpartsPage {
+	padding-right: 410px;
+}
+
+#getBlogpartsPage .getBlogparts {
+	margin: 0 15px;
+}
+
+#getBlogpartsPage .generator,
+#homeGetBlogpartsPage .generator {
+	border-right: 1px #999999 dotted;
+}
+
+#getBlogpartsPage .palette,
+#homeGetBlogpartsPage .palette {
+	float: left;
+	width: 100%;
+}
+
+#getBlogpartsPage .head,
+#homeGetBlogpartsPage .head {
+	margin: 5px 0 0 10px;
+}
+
+#getBlogpartsPage .palette .steps,
+#homeGetBlogpartsPage .palette .steps {
+	margin-left: 20px;
+}
+
+#homeGetBlogpartsPage .palette .urlBlock p {
+	font-size: 90%;
+	margin-bottom: 0.8em;
+}
+
+#homeGetBlogpartsPage .palette dl dd #callerListController #newCaller {
+	width: 80%;
+}
+
+#getBlogpartsPage textarea.codeViewer,
+#homeGetBlogpartsPage textarea.codeViewer {
+	width: 80%;
+	height: 8em;
+	margin-bottom: 40px;
+	padding: 0.5em;
+	line-height: 1.2;
+	white-space: normal;
+	font-size: 10px;
+	
+	
+}
+
+#getBlogpartsPage .previewer,
+#homeGetBlogpartsPage .previewer {
+	margin-right: -210px;
+	border: 0px;
+	position: relative;
+	width: 210px;
+	float: right;
+	padding: 0 auto;
+	text-align: center;
+}
+
+.homeSponsor_blogpartsPage #homeGetBlogpartsPage .previewer {
+	margin-right: -410px;
+	width: 410px;
+}
+
+#getBlogpartsPage .previewer .titlePrevew,
+#homeGetBlogpartsPage .previewer .titlePrevew {
+	position: absolute;
+	top: 0;
+	right: -1px;
+}
+
+#getBlogpartsPage .previewer iframe,
+#homeGetBlogpartsPage .previewer iframe {
+	margin: 1em auto;
+}
+
+.palette h3 {
+	color: #F60;
+	font-size: 120%;
+}
+
+.palette .note {
+	margin-bottom: 1.5em;
+	font-size: 90%;
+}
+
+.palette dt.step {
+	width: 50px;
+	float: left;
+	font-weight: bold;
+	font-size: 90%;
+}
+.palette h4 {
+	margin-bottom: 1em;
+	font-size: 90%;
+}
+
+.palette .urlBlock h4 {
+	margin-bottom: 0;
+}
+
+.palette .designBlock,
+.palette .categorySelector,
+.palette .urlBlock {
+	margin-bottom: 2em;
+}
+
+.palette dl dd dl,
+.palette dl dd textarea,
+.palette dl dd .designBlock,
+.palette dl dd .categorySelector,
+.palette .urlBlock {
+	margin-left: 50px;
+}
+
+.palette dl dd #callerListController #newCaller {
+	width: 350px;
+}
+
+#callerListController .button {
+cursor: pointer;
+}
+
+.palette dl dd #callerListController #callerList td {
+	padding-left: 1em;
+	font-size: 90%;
+}
+
+.palette dl dd dl dt,
+.palette dl dd dl dd {
+	float: left;
+}
+
+.palette dl dd dl dt {
+	width: 30px;
+	color: #666;
+}
+
+.palette dl dd dl dd {
+	width: 40%;
+}
+
+.palette .categorySelector .option label{
+	padding-right: 0.8em;
+	white-space: nowrap;
+	font-size: 90%;
+}
+
+.option {
+	display: inline;
+	cursor: pointer;
+}
+
+.layoutSelector .option {
+	display: block;
+}
+
+.linkBlogpartsUsers {
+	margin-top: 5px;
+	font-size: 90%;
+	color: #490;
+}
+
+#homeGetBlogpartsPage .caution {
+	font-size: 90%;
+	color: #999;
+}
+
+#colContent .btnWhats {
+	position: absolute;
+	right: 0;
+	top: -30px;
+}
+
+
+#getBlogpartsPage .btnWhats {
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+
+/*-------------------------------------------------*/
+
+.keywordPage .generator,
+.keywordCommentPage .generator,
+.keywordConnectPage .generator,
+.keywordTrackbackPage .generator
+ {
+	margin:0pt -10px 5px;
+	padding:5px 10px 0pt;
+	text-align: center;
+	border-top:1px solid #88BB22;
+}
+
+.userPage .generator .headBlogparts {
+	margin: 0 15px;
+	padding: 3px;
+	border-width: 1px 1px 0 1px;
+	border-style: solid;
+	border-color: #999;
+}
+
+.keywordPage .generator .headBlogparts,
+.keywordCommentPage .generator .headBlogparts,
+.keywordConnectPage .generator .headBlogparts {
+	margin-bottom: 5px;
+}
+
+.userPage .generator h2,
+.keywordPage .generator h2,
+.keywordCommentPage .generator h2,
+.keywordConnectPage .generator h2,
+.keywordTrackbackPage .generator h2
+{
+	float: left;
+	color: #490;
+}
+
+.userPage .generator h2 img,
+.keywordPage .generator h2 img,
+.keywordCommentPage .generator h2 img,
+.keywordConnectPage .generator h2 img,
+.keywordTrackbackPage .generator h2 img
+{
+	margin-right:5px;
+	vertical-align:baseline;
+}
+
+.userPage .generator h2 .notes,
+.keywordPage .generator h2 .notes,
+.keywordCommentPage .generator h2 .notes,
+.keywordConnectPage .generator h2 .notes,
+.keywordTrackbackPage .generator h2 .notes
+{
+	color: #333;
+	font-weight: lighter;
+	font-size: 90%;
+}
+
+.user .generator h4,
+.keywordPage .generator h4,
+.keywordCommentPage .generator h4,
+.keywordConnectPage .generator h4,
+.keywordTrackbackPage .generator h4
+{
+	margin-bottom: 3px;
+	font-size: 90%;
+}
+
+.keywordPage .generator h4 input,
+.keywordCommentPage .generator h4 input,
+.keywordConnectPage .generator h4 input,
+.keywordTrackbackPage .generator h4 input
+{
+	margin-left: 5px;
+}
+
+.userPage .generator .closeBtn,
+.keywordPage .generator .closeBtn,
+.keywordCommentPage .generator .closeBtn,
+.keywordConnectPage .generator .closeBtn,
+.keywordTrackbackPage .generator .closeBtn
+{
+	float: right;
+}
+
+.keywordPage .generator .button,
+.keywordCommentPage .generator .button,
+.keywordConnectPage .generator .button,
+.keywordTrackbackPage .generator .button
+{
+	cursor: pointer;
+}
+
+.keywordPage .generator .previewer,
+.keywordCommentPage .generator .previewer,
+.keywordConnectPage .generator .previewer,
+.keywordTrackbackPage .generator .previewer
+{
+	margin-bottom: 15px;
+}
+
+.keywordPage .generator .linkBlogpartsUsers,
+.keywordCommentPage .generator .linkBlogpartsUsers,
+.keywordConnectPage .generator .linkBlogpartsUsers,
+.keywordTrackbackPage .generator .linkBlogpartsUsers
+{
+	width: 100%;
+	text-align: right;
+}
+
+.keywordPage .generator textarea.codeViewer,
+.keywordCommentPage .generator textarea.codeViewer,
+.keywordConnectPage .generator textarea.codeViewer,
+.keywordTrackbackPage .generator textarea.codeViewer
+{
+	width: 400px;
+	height: 5em;
+	margin-bottom: 10px;
+	padding: 0.5em;
+	font-size: 10px;
+	line-height: 1.2;
+	white-space: normal;
+}

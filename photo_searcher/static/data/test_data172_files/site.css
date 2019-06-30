@@ -1,0 +1,1034 @@
+@charset "EUC-JP";
+
+/* Information
+==================================================
+livedoor Blog CSS
+ Name   : yokohamafc04
+ Layout : 2カラム
+
+ Update : 2009.10.23
+==================================================
+*/
+
+
+/* Table of Contents
+==================================================
+	01. Text - フォント・リンク
+	02. Layout - 全体の枠組み
+	03. Title - ブログタイトルエリア
+	04. SubTitle - アーカイブタイトルエリア
+	05. Pager - ページャ
+	06. Main - 記事エリア
+	07. Option - トラックバック・コメントエリア
+	08. Sub & Extra - プラグインエリア
+	09. Header & Footer - ヘッダー・フッター
+	10. Others - ADエリア etc.
+==================================================
+*/
+
+
+/* =============================================== */
+/** 01. Text - フォント・リンク */
+/* ----------------------------------------------- */
+
+* {
+	word-break: break-all;
+}
+
+body
+, textarea {
+	font-family:Arial,Helvetica,sans-serif;
+}
+
+body {
+	color: #000000;
+}
+
+a:link
+, a:visited {
+	color: #000000;
+}
+
+a:hover
+, a:active {
+	color: #0099cc;
+}
+
+table#header a:link
+, table#header a:active
+, table#header a:visited
+, table#header a:hover {}
+
+h1#blog-title a:link
+, h1#blog-title a:active
+, h1#blog-title a:visited {
+	color: #006699;
+	text-decoration: none;
+}
+
+h1#blog-title a:hover {
+	color: #006699;
+	text-decoration: underline;
+}
+
+p#blog-description {
+	color: #006699;
+}
+
+h2.archives-title {
+	color: #000;
+}
+
+h2.article-title a:link
+, h2.article-title a:active
+, h2.article-title a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+h2.article-title a:hover {
+	text-decoration: underline;
+}
+
+ul.article-post li a {
+}
+
+div.pager a {}
+
+div.article-date-outer {
+	color: #fff;
+}
+
+ul.ping-info li.ping-date
+, ul.comment-info li.comment-date {
+	color: #8d8d8d;
+}
+
+div.article-body a:link
+, div.article-body a:active {}
+
+div.article-body a:visited {}
+
+div.article-option h3 {
+	color: #000;
+}
+
+.trackback-set a
+, .comment-set a {}
+
+div.comment-auth-announcement p a {
+	font-weight: bold;
+}
+
+div.sidetitle {
+	color: #fff;
+}
+
+div.sidetitle a {
+	color: #fff;
+}
+
+div.calendarhead {
+	color: #fff;
+}
+
+div.calendarhead a {
+	color: #fff;
+}
+
+div.side a:link
+, div.side a:active {
+}
+
+div.side a:visited {
+}
+
+div.side a:hover {
+}
+
+div#footer-outer p
+, div#footer-outer p a {
+	color: #000000;
+}
+
+div.official-url-outer p.official-url {
+	color: #fff;
+}
+
+div.official-url-outer p.official-url a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+/* =============================================== */
+/** 02. Layout - レイアウト（全体の枠組み） */
+/* ----------------------------------------------- */
+
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 760px;
+	text-align: center;
+	background: #3399cc;
+}
+
+div#container {
+	background: #3399cc url(http://parts.blog.livedoor.jp/img/usr/yokohamafc04/bg.gif) repeat-x left top;
+}
+
+div#content {
+	zoom: 1;
+	width: 760px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 10px 0;
+}
+
+div#main
+, div#sub
+, div#extra {
+	overflow: hidden;
+}
+
+div#main {
+	float: left;
+	display: inline;
+	width: 550px;
+	margin: 0 0 0 10px;
+}
+
+div#main div.column-inner {}
+
+div#sub {
+	float: right;
+	display: inline;
+	width: 180px;
+	margin: 0 10px 0 0;
+}
+
+div#sub div.column-inner {}
+
+div#extra {
+	clear: right;
+	float: right;
+	display: inline;
+	width: 180px;
+	margin: 0 10px 0 0;
+	padding-bottom: 20px;
+}
+
+div#extra div.column-inner {}
+
+/* ----------------------------------------------- */
+/** clearfix */
+
+div#container:after
+, div#content:after
+, ul.article-navigator:after
+, ul.archives-navigator:after
+, div.article-body:after
+, div.article-body div.article-body-more:after
+, div#trackback-form ul:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+/** hasLayout */
+div.blog-title-outer
+, h2.archives-title
+, div.article-body
+, div.article-footer
+, h2.article-title
+, div.pager
+, ul
+, div.index-navigator-outer {
+	height: 1%;
+}
+
+/** peek-a-boo bug */
+div#trackback-form
+, div#trackbacks-list
+, div#comments-list
+, div#comment-form {
+	height: 1%;
+}
+
+/* =============================================== */
+/** 03. Title - ブログタイトルエリア */
+/* ----------------------------------------------- */
+div.official-url-outer {
+	width: 760px;
+	margin: 0 auto;
+	height: 20px;
+}
+
+div.official-url-outer p.official-url {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	text-align: right;
+	padding: 2px 10px;
+}
+
+div.official-url-outer p.official-url a {
+	font-weight: bold;
+	letter-spacing: 0.2em;
+}
+
+div.blog-title-outer {
+	width: 760px;
+	margin: 0 auto;
+	background: url(http://parts.blog.livedoor.jp/img/usr/yokohamafc04/head.jpg) no-repeat left top;
+	text-align: left;
+	height: 200px;
+}
+
+div.blog-title-outer-2 {}
+
+div.blog-title-outer-3 {}
+
+h1#blog-title {
+	margin: 0;
+	padding: 10px 0 5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+div.blog-description-outer {}
+
+p#blog-description {
+	margin: 0;
+	padding: 0 0 5px;
+	line-height: 1.35;
+	font-size: 12px;
+}
+
+/* =============================================== */
+/** 04. SubTitle - アーカイブタイトルエリア */
+/* ----------------------------------------------- */
+
+div.archives-title-outer {
+	margin-bottom: 10px;
+	background: #fff;
+}
+
+div.archives-title-outer-2 {
+}
+
+div.archives-title-outer-3 {}
+
+h2.archives-title {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 12px;
+}
+
+/* =============================================== */
+/** 05. Pager - ページャ */
+/* ----------------------------------------------- */
+
+div.pager {
+	margin-bottom: 10px;
+	text-align: left;
+	background: #fff;
+}
+
+div.pager-inner {}
+
+div.index-navigator-outer
+, div.archives-pager-outer
+, div.article-pager-outer {
+}
+
+/* ----------------------------------------------- */
+/** IndexNavigator - トップページ */
+
+ul.index-navigator {
+	padding: 0;
+	font-size: 12px;
+}
+
+ul.index-navigator li a {
+	padding: 0 7px;
+}
+
+/* ----------------------------------------------- */
+/** ArchivesPager - アーカイブページ */
+
+ul.archives-pager {
+	list-style-type: none;
+	padding-top: 0;
+	font-size: 12px;
+}
+
+ul.archives-pager li {
+	padding: 2px 5px;
+}
+
+ul.archives-pager li a {
+	padding: 0 5px;
+}
+
+ul.archives-pager li.both {
+	border-left: 1px solid #575e69;
+}
+
+/* ----------------------------------------------- */
+/** ArticlePager - 個別記事ページ */
+
+ul.article-pager {
+	padding-top: 0;
+	font-size: 12px;
+}
+
+ul.article-pager li {
+	float: left;
+	width: 49%;
+	line-height: 1.25;
+}
+
+/* = special tech ... borderの高さを揃えるため */
+ul.article-pager {
+	overflow: hidden;
+}
+
+ul.article-pager li {
+	padding-top: 1px;/* 1px余白（上部） */
+	padding-bottom: 100px;
+	margin-bottom: -99px;/* 1px余白（下部） */
+}
+
+ul.article-pager li a {
+	display: block;
+	margin: 0 10px;
+}
+
+ul.article-pager li.prev {
+	text-align: right;
+}
+
+ul.article-pager li.next {
+	text-align: left;
+}
+
+ul.article-pager li.both {
+	border-left: 1px solid #8d8d8d;
+}
+
+/* =============================================== */
+/** 06. Main - 記事エリア */
+/* ----------------------------------------------- */
+
+div.article-outer {
+	margin-bottom: 10px;
+	text-align: left;
+	background: #fff;
+}
+
+div.article-outer-2 {
+	padding-bottom: 6px;
+	height: 1%;
+}
+
+div.article-outer-3 {}
+
+/* ----------------------------------------------- */
+/** 記事ヘッダー */
+
+div.article-header {}
+
+/*** 日付 */
+div.article-date-outer {
+	font-size: 12px;
+	margin-top: 5px;
+	text-align: center;
+	background: #55aaff;
+	width: 110px;
+	font-weight: bold;
+	padding: 3px;
+	border-right: 1px solid #003366;
+	border-bottom: 1px solid #003366;
+}
+div.article-date-outer span.article-date {
+	margin-right: 0.25em;
+}
+div.article-date-outer span.article-time {}
+
+
+/*** 記事タイトル */
+div.article-title-outer {}
+
+h2.article-title {
+	margin: 0;
+	padding: 10px 5px 10px 40px;
+	font-size: 12px;
+	font-weight: bold;
+	color:#333;
+	min-height: 23px;
+	background: url(http://parts.blog.livedoor.jp/img/usr/yokohamafc04/bg_maintop.gif) no-repeat left bottom;
+}
+
+* html h2.article-title {
+	height: 23px;
+}
+
+/* ----------------------------------------------- */
+/** 記事本文 */
+
+div.article-body {
+	padding: 10px 0 5px;
+	line-height: 1.5;
+	font-size: 12px;
+}
+
+div.article-body-inner {
+	width: 100%;
+	overflow: hidden;
+}
+
+/*** 続きを読む */
+div.article-body span.article-continue {
+	display: block;
+	margin-top: 1em;
+}
+
+div.article-body div.article-body-more
+, div.article-body div.article-body-private {
+	clear: both;
+	margin-top: 1em;
+}
+
+/*** blockquote & pre */
+div.article-body blockquote
+, div.article-body pre {
+	font-family: "ＭＳ Ｐゴシック","ヒラギノ丸ゴ Pro W4","Osaka",verdana,arial,sans-serif;
+	margin: 5px 0;
+}
+
+/*** img */
+div.article-body img.pict {
+	margin: 0 5px 5px 0;
+}
+
+/*** 共通テーマ */
+body.default_2008 dl.common-theme {
+	margin: 15px 0 0;
+}
+
+/*** 記事タグ */
+body.default_2008 dl.article-tags {
+	margin: 15px 0 0;
+}
+
+
+
+/*** プライベートモード */
+div.private-mode-announcement {
+	border-color: #858585;
+	line-height: 1.35;
+	font-size: 12px;
+}
+
+/* ----------------------------------------------- */
+/** 記事フッター */
+
+div.article-footer {
+	padding: 0;
+}
+
+ul.article-post {
+	margin: 10px 0 0;
+	padding: 3px;
+	text-align: right;
+	background: #eee;
+	border-bottom: 2px solid #999;
+	border-top: 1px dashed #ccc;
+}
+
+ul.article-post li {
+	min-height: 16px;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+ul.article-post li.article-author a {
+	color: #000;
+}
+
+/* =============================================== */
+/** 07. Option - トラックバック＆コメントエリア */
+/* ----------------------------------------------- */
+
+div#article-options {
+	padding: 10px 0;
+}
+
+div.article-option {
+	padding: 15px 0;
+}
+
+div.article-option h3 {
+	margin: 0 0 10px;
+	padding: 0;
+	font-size: 12px;
+	background: url(http://parts.blog.livedoor.jp/img/usr/yokohamafc04/bg_tb.gif) no-repeat left top;
+	padding: 10px 5px 3px 40px;
+	height: 30px;
+}
+
+/*** 指定しやすいようstyleReset */
+	h4.ping-title
+	, ul.ping-info
+	, ul.ping-info li
+	, ul.comment-info
+	, ul.comment-info li {
+		padding: 0;
+		margin: 0;
+	}
+
+	ul.ping-info li
+	, ul.comment-info li {
+		list-style-type: none;
+	}
+
+/* ----------------------------------------------- */
+/** トラックバックURL */
+
+div#trackback-form ul {
+	margin: 0 30px;
+	padding: 0;
+}
+
+div#trackback-form ul li {
+	list-style-type: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+div#trackback-form ul li.trackback-form-url {
+	width: 100%;
+	margin-right: -90px;
+}
+
+div#trackback-form ul li.trackback-form-url span input {
+	width: 100%;
+}
+
+div#trackback-form ul li.trackback-form-url span {
+	display: block;
+	padding-right: 100px;
+	/* >> trackbackURL とsubmitボタンとの余白 100px-90px=10px となる */
+}
+
+div#trackback-form ul li.trackback-form-submit {
+	width: 80px;
+}
+
+div#trackback-form ul li.trackback-form-submit input {}
+
+/* ----------------------------------------------- */
+/** トラックバック一覧 */
+
+.trackback-set {
+	padding: 0 0 10px 10px;
+	font-size: 12px;
+}
+
+h4.ping-title {
+	display: inline;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+ul.ping-info {
+	display: inline;
+}
+
+ul.ping-info li.ping-blog-name {
+	display: inline;
+	margin-left: 20px;
+}
+
+ul.ping-info li.ping-blog-name span {
+	margin: 0 10px;
+}
+
+ul.ping-info li.ping-date {
+	display: inline;
+	margin-left: 10px;
+}
+
+ul.ping-info li.ping-excerpt {
+	display: block;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+ul.ping-info li.ping-excerpt img.trackback-rating {}
+
+/* ----------------------------------------------- */
+/** コメント一覧 */
+
+li.comment-set {
+	padding: 0 0 10px 10px;
+	font-size: 12px;
+}
+
+ul.comment-info li.comment-author {
+	display: inline;
+}
+
+ul.comment-info li.comment-date {
+	display: inline;
+	margin-left: 10px;
+}
+
+ul.comment-info li {
+	display: inline;
+}
+
+ul.comment-info li.comment-body {
+	display: block;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+ul.comment-info li.comment-body img.trackback-rating {}
+
+/* ----------------------------------------------- */
+/** コメントフォーム */
+
+div#comment-form-body {
+	padding: 15px 0 15px 50px;
+}
+
+div#comment-form-body table {
+	border: 0;
+	width: 90%;
+	line-height: 25px;
+	font-size: 12px;
+}
+
+div#comment-form-body table th {
+	width: 3em;
+	padding-right: 5px;
+	text-align: right;
+	font-weight: normal;
+}
+
+input#author {
+	width: 65%;
+}
+
+input#email {
+	width: 65%;
+}
+
+input#url {
+	width: 85%;
+}
+
+input#bake {
+	margin: 0 0 0 5px;
+}
+
+textarea#text {
+	width: 90%;
+	height: 250px;
+}
+
+input.button {
+	margin-top: 10px;
+	width: 80px;
+}
+
+div#comment-form-body table tr.input-etc td {
+	padding-top: 6px;
+}
+
+label.input-rating {
+	margin-left: 20px;
+}
+
+label.input-rating select {
+	margin-left: 3px;
+}
+
+label.input-rating-face {
+	margin-left: 5px;
+}
+
+label.input-rating-star {}
+
+div#comment-form-body table tr.submit td {
+	text-align: center;
+}
+
+/*** コメント認証 */
+div.comment-auth-announcement {
+	margin: 10px 0;
+	border-color: #858585;
+	font-size: 12px;
+}
+
+div.comment-auth-announcement p a {
+	margin: 0 3px;
+}
+
+div#error{
+	font-size: 12px;
+}
+
+
+/* ----------------------------------------------- */
+/** 関連記事 */
+
+div.related-articles{
+	padding: 30px 0 0;
+}
+div.related-articles h3{
+	color: #000;
+	margin: 0 0 10px;
+	padding: 0;
+	font-size: 12px;
+}
+div.related-articles ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+}
+div.related-articles ul li{
+	background: url(http://parts.blog.livedoor.jp/img/usr/yokohamafc04/point_li.gif) no-repeat left top;
+	padding: 0 0 5px 12px;
+}
+
+
+/* =============================================== */
+/** 08. Sub & Extra - プラグインエリア */
+/* ----------------------------------------------- */
+
+div.sidewrapper {
+	margin-bottom: 10px;
+}
+
+div.sidetitlebody {}
+
+div.sidetitle {
+	min-height: 14px;
+	padding: 3px 3px 3px 25px;
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+	background: #55aaff url(http://parts.blog.livedoor.jp/img/usr/yokohamafc04/bg_sideh2.gif) no-repeat left top;
+}
+
+* html div.sidetitle {
+	height: 14px;
+}
+
+div.sidetop
+, div.sidebottom {
+	display: none;
+}
+
+div.side {
+	text-align: center;
+	font-size: 12px;
+	padding: 10px 0;
+	line-height: 1.3;
+}
+
+div.sidebody {
+	padding: 0 0 5px 12px;
+	text-align: left;
+	background: url(http://parts.blog.livedoor.jp/img/usr/yokohamafc04/point_li.gif) no-repeat left top;
+}
+
+/* ----------------------------------------------- */
+/** カレンダー */
+
+div.calendarheadbody {}
+div.calendarheadbody div.calendarhead {
+	height: 14px;
+	padding: 3px 3px 3px 25px;
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+	background: #55aaff url(http://parts.blog.livedoor.jp/img/usr/yokohamafc04/bg_sideh2.gif) no-repeat left top;
+}
+
+div.caltop
+, div.calbottom {
+	display: none;
+}
+
+div.calbody {
+	padding: 10px;
+}
+
+table.caltbl {
+	width: 160px;
+	margin: 0 auto;
+	border: 0;
+}
+div.calbody table.calendartable {}
+td.caltblwkbg {}
+td.calendarwd {}
+td table.caltblwk td {
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+}
+
+td table.caltblwk td.weekday {}
+td table.caltblwk td.sat {}
+td table.caltblwk td.sun {}
+td table.caltblwk td span.calendarweek {}
+td.caltbldaybg {}
+td table.caltblday {
+	margin: 0 auto;
+	width: 160px;
+	color: #8d8d8d;
+	font-size: 12px;
+}
+td table.caltblday td {
+	width: 20px;
+	height: 24px;
+	padding: 0;
+	text-align: center;
+}
+td table.caltblday td.caloff {}
+td table.caltblday td.calendard {}
+td table.caltblday td.calon {}
+td table.caltblday td.calon a {}
+td table.caltblday td.calendardbg {}
+td table.caltblday td span.calendar {}
+
+
+/* ----------------------------------------------- */
+/** プロフィール（プラグイン） */
+
+.nickname {
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.message {
+	text-align: left;
+	line-height: 1.25;
+}
+
+/* ----------------------------------------------- */
+/** LDServices */
+
+ul#ld-services {
+	padding-top: 20px;
+}
+
+/* =============================================== */
+/** 09. Header & Footer - ヘッダー・フッター */
+/* ----------------------------------------------- */
+/** Header */
+
+table#header {
+	font-size: 75%;
+	background: #fff;
+}
+
+/* ----------------------------------------------- */
+/** Footer */
+
+div.footer-outer {
+	background: #3399cc;
+}
+
+div.footer-outer-2 {
+	width: 760px;
+	margin: 0 auto;
+	padding: 10px 0;
+	background: #fff;
+}
+
+div#footer {
+	display: inline;
+}
+
+div#footer p {
+	font-size: 10px;
+	display: inline;
+}
+
+p.copyright {
+	margin: 0;
+	padding: 0;
+}
+
+p.designedby {
+	margin: 0 10px 0 0;
+	padding: 0;
+	font-size: 10px;
+	display: inline;
+}
+
+/* =============================================== */
+/** 10. Others - ADエリア etc. */
+/* ----------------------------------------------- */
+/** ADエリア */
+
+div#ad {
+	margin: 25px auto 0;
+	text-align: center;
+}
+
+div#ad iframe {
+	margin: 10px auto;
+}
+
+div.gAdsense {
+	padding: 10px 0;
+}
+
+body.ad {
+	background: transparent;
+	text-align: left;
+}
+
+a.adtitle {
+	color: #0000ff;
+	font-weight: bold;
+}
+
+a.adtitle span {
+	font-size: 90%;
+}
+
+a.addescription {
+	color: #000000;
+}
+
+a.addescription span {
+	font-size: 82%;
+}
+
+a.adurl {
+	color: #1b8d1c;
+	text-decoration: none;
+}
+
+a.adurl span {
+	font-size: 82%;
+}
+
+a.adld {
+	color: #666666;
+	text-decoration: underline;
+	font-size: 110%;
+}
+.ads-become a{}

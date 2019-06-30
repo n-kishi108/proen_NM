@@ -1,0 +1,617 @@
+@charset "EUC-JP";
+/*
+-----------------------------------------------------
+livedoor Blog CSS
+FileName: FORMAL Diary
+
+Version:  2007.12.10
+
+New
+・main 修正（後ろのリンク誤動作-Firefox- 修正のため）
+・pre 追加
+-----------------------------------------------------
+*/
+
+	body{
+		margin:0;
+		padding:0;
+		color:#bdbdbd;
+		font-family:arial,sans-serif;
+		text-align:center;
+		background:#222222;
+	}
+
+	a{color:#ffb000;text-decoration:none;}
+	a:link{}
+	a:visited{}
+	a:active{}
+	a:hover{color:#ffcc00;text-decoration:underline;}
+
+	#header{
+		background:#000000;
+		border-bottom:1px solid #494949;
+		font-size:12px;
+		color:#f5f5f5;
+	}
+	#header a{color:#f5f5f5;}
+
+	#container{
+		width:804px;
+		margin:0 auto;
+		padding:0;
+		text-align:center;
+		word-break:break-all;
+	}
+
+	#banner,#subbanner{
+		text-align:left;
+		margin-bottom:13px;
+	}
+
+	#banner a{color:#ececec;text-decoration:none;}
+	#banner a:link{}
+	#banner a:visited{}
+	#banner a:active{}
+	#banner a:hover{text-decoration:underline;}
+	
+	h1,h2,h3{margin:0;padding:0;}
+
+	.blogtitle{
+		font-size:18px;
+		font-weight:bold;
+		text-align:left;
+		margin-bottom:5px;
+	}
+
+	.description{
+		color:#bdbdbd;
+		font-size:11px;
+		text-align:left;
+		line-height:150%;
+	}
+
+	#blogcontainer{
+		width:775px;
+		text-align:center;
+		margin:0 auto;
+		padding-top:10px;
+	}
+
+	#content{
+		width:550px;
+		float:right;
+		text-align:center;
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+
+
+	#blog{
+		width:550px;
+		text-align:left;
+		margin:0 auto;
+	}
+
+	#links{
+		width:200px;
+		float:left;
+		padding-top:40px;
+		padding-bottom:30px;
+	}
+	
+	#linksbody{
+	}
+
+	#categorytitlebody{
+	}
+
+	#categorytitle{
+		font-size:18px;
+		font-weight:normal;
+		color:#ececec;
+		text-align:right;
+		margin-bottom:10px;
+	}
+
+	.fullbody{
+		text-align:left;
+	}
+
+	.datetop,#articletop{
+	}
+
+	.datebody{}
+	.date{
+		color:#3c3c3c;
+		font-size:48px;
+		font-weight:normal;
+		text-align:right;
+		padding:0 5px 13px 5px;
+		background:url(http://parts.blog.livedoor.jp/img/usr/formal_diary/columnbg_top.gif) no-repeat 0 100%;
+		letter-spacing:-2px;
+	}
+
+	.blogbodytop{
+	}
+
+	.blogbody{
+		background:#3c3c3c;
+		padding:15px 25px 15px;
+	}
+
+	.blogbodybottom{
+		background:url(http://parts.blog.livedoor.jp/img/usr/formal_diary/line_long.gif) no-repeat 0 100%;
+		padding:5px 0;
+	}
+
+	.blogtext{
+		margin-right:105px;
+	}
+
+	.blogtextbody{
+		width:100%; 
+	}
+
+	.title{
+		color:#ececec;
+		font-size:18px;
+		font-weight:bold;
+		text-align:left;
+	}
+
+	.title a{color:#ececec;text-decoration:none;}
+	.title a:link{text-decoration:none;}
+	.title a:visited{}
+	.title a:active{}
+	.title a:hover{color:#ececec;text-decoration:underline;}
+
+
+	.main,.mainmore,.article_tags{
+		font-size:12px;
+		text-align:left;
+		line-height:150%;
+		padding:10px 0;
+	}
+	/* clearfix */
+	.main:after {
+		content: "."; 
+		display: block; 
+		height: 0; 
+		clear: both; 
+		visibility: hidden;
+	}
+
+	.posted{
+		width:85px;
+		float:right;
+		background:url(http://parts.blog.livedoor.jp/img/usr/formal_diary/line_short2.gif) repeat-x 0 100%;
+	}
+	.inposted{}
+
+	.posturl,.postcomment,.posttb,.postclip,.postcategory1,.postcategory2{
+		font-size:12px;
+		text-align:left;
+		padding:8px 3px;
+		background:url(http://parts.blog.livedoor.jp/img/usr/formal_diary/line_short2.gif) repeat-x 0 0;
+	}
+
+	.posted a{}
+	.posted a:link{}
+	.posted a:visited{}
+	.posted a:active{}
+	.posted a:hover{}
+
+	.articletimes{
+		text-align:right;
+		color:#8a8a8a;
+		padding:10px 0;
+		font-size:12px;
+	}
+
+	blockquote
+	,pre{
+		color:#8a8a8a;
+		background:#343434;
+		margin:10px 0;
+		padding:10px;
+		text-align:left;
+	}
+	
+	.pict{
+		border:5px solid #ffffff;
+		margin:5px;
+	}
+
+	a.continues{}
+	a.continues:link{}
+	a.continues:visited{}
+	a.continues:active{}
+	a.continues:hover{}
+
+	.nextpage{
+		font-size:12px;
+		padding:5px;
+		text-align:center;
+	}
+
+	.nextpage a{}
+	.nextpage a:link{}
+	.nextpage a:visited{}
+	.nextpage a:active{}
+	.nextpage a:hover{}
+
+	.dateend{
+		clear:both;
+		background:url(http://parts.blog.livedoor.jp/img/usr/formal_diary/columnbg_bottom.gif) no-repeat 0 0;
+		padding:6px 0;
+		margin-top:-10px;
+		margin-bottom:25px;
+	}
+
+	.blogtop{
+		color:#bdbdbd;
+		font-size:12px;
+		text-align:right;
+		background:url(http://parts.blog.livedoor.jp/img/usr/formal_diary/icon_sankaku.gif) no-repeat 0 50%;
+		margin-left:275px;
+		margin-bottom:15px;
+	}
+
+	.menu{
+		color:#8a8a8a;
+		font-size:12px;
+		text-align:center;
+		padding:15px 0;
+		}
+
+	.menu a{}
+	.menu a:link{}
+	.menu a:visited{}
+	.menu a:active{}
+	.menu a:hover{}
+
+	.comblogbodybottom{
+		background:#3c3c3c url(http://parts.blog.livedoor.jp/img/usr/formal_diary/line_long.gif) no-repeat 0 50%;
+		padding:20px 0;
+	}
+
+		#articlebody{
+			text-align:left;
+		}
+
+		#articlebottom{
+			margin-top:-40px;
+			clear:both;
+			background:#3c3c3c url(http://parts.blog.livedoor.jp/img/usr/formal_diary/columnbg_bottom.gif) no-repeat 0 100%;
+			padding:6px 0 34px;
+		}
+
+	#trackbacktop,#commenttop,.formbodytop{}
+
+	.trackbackurltop{}
+
+	.trackbackurlbody{
+		padding:0 25px;
+		text-align:left;
+		background:#3c3c3c;
+	}
+
+	.trackbackurlttl{
+		color:#ececec;
+		font-size:18px;
+		font-weight:bold;
+		text-align:left;
+		padding-bottom:10px;
+	}
+
+	.trackbackurl{text-align:left;background:#3c3c3c;padding:0px 0 40px;}
+	.trackbackurl table{width:367px;}
+	input.trackbackbox{width:297px;}
+
+	.trackbackurlbottom{}
+
+	a.posttitle{}
+	a.posttitle:link{}
+	a.posttitle:visited{}
+	a.posttitle:active{}
+	a.posttitle:hover{}
+
+	#trackback,#comment{
+		padding:0 25px;
+		text-align:left;
+		background:#3c3c3c;
+		margin:0 auto;
+	}
+
+	.trackbackhead,.commenthead,.takecommenthead{
+		color:#ececec;
+		font-size:18px;
+		font-weight:bold;
+		text-align:left;
+		padding-bottom:10px;
+	}
+
+	#trackbackbody,#commentbody{padding-bottom:40px;}
+
+	.trackbackttl,.commentttl{font-size:12px;}
+	.trackbacktext,.commenttext{
+		font-size:12px;
+		padding:5px 0 15px 15px;
+		line-height:140%;
+	}
+	#commentbottom,#trackbackbottom,.formbodybottom{}
+
+	#takecomment{}
+	#takecommentbody{}
+
+	.loginon,.loginoff{
+		font-size:12px;
+		padding:10px 0px;
+		text-align:center;
+		font-weight:normal;
+		border:solid #5a5a5a;
+		border-width:1px 1px 0;
+		background:#4a4a4a;
+	}
+
+	.loginon a{}
+	.loginon a:link{}
+	.loginon a:visited{}
+	.loginon a:active{}
+	.loginon a:hover{}
+
+	.loginoff a{}
+	.loginoff a:link{}
+	.loginoff a:visited{}
+	.loginoff a:active{}
+	.loginoff a:hover{}
+
+	#error{
+		font-size:12px;
+		text-align:left;
+		padding:10px 20px;
+		border:solid #5a5a5a;
+		border-width:1px 1px 0;
+		background:#4a4a4a;
+		font-weight:bold;
+		line-height:130%;
+	}
+	#error span{font-weight:normal;}
+
+	.commentpostbody{
+		padding:0px 25px 40px;
+		background:#3c3c3c;
+	}
+
+	#formbody{
+		text-align:center;
+		border:solid #5a5a5a;
+		border-width:1px;
+		background:#4a4a4a;
+		width:500px;
+	}
+
+	.form{
+		background:#4a4a4a;
+/*		margin:0px auto;*/
+		width:100%;
+		text-align:center;
+	}
+	
+	.form th{
+		width:90px;
+		font-size:12px;
+		font-weight:normal;
+		padding:2px;
+		text-align:right;
+	}
+
+	.form td{
+		font-size:12px;
+		padding:2px;
+		text-align:left;
+	}
+
+	.form td.submit{
+		background:#434343;
+		text-align:center;
+	}
+
+	.form th.auther{
+		padding-top:10px;
+	}
+
+	input#author{width:260px;margin-top:10px;}
+	input#email{width:260px;}
+	input#url{width:260px;}
+	input#bake{}
+	textarea#text{width:370px;height:100px;margin-bottom:10px;}
+	input.button{margin:10px 0px;width:80px;}
+	
+	#blogcommentbottom{}
+
+
+	.calendarheadbody{
+		background:url(http://parts.blog.livedoor.jp/img/usr/formal_diary/line_short1.gif) no-repeat 0 0;
+		padding-top:10px;
+	}
+
+	.calendarhead{
+		color:#ececec;
+		font-size:14px;
+		text-align:center;
+		padding:10px 0;
+		font-weight:bold;
+	}
+	
+	.calendarhead a{color:#ececec;text-decoration:none;}
+	.calendarhead a:link{}
+	.calendarhead a:visited{}
+	.calendarhead a:active{}
+	.calendarhead a:hover{color:#ececec;text-decoration:underline;}
+	
+	.calendarpre,.calendarnext{
+		font-size:14px;
+		font-weight:normal;
+	}
+	
+	.caltop{}
+	.calbody{
+		text-align:center;
+		padding:0 5px;
+	}
+
+	.caltbl{
+		width:190px;
+		margin:0 auto;
+		text-align:center;
+	}
+
+	.caltblwkbg{}
+	.calendarwd{
+		background:url(http://parts.blog.livedoor.jp/img/usr/formal_diary/calendar1.gif) no-repeat 50% 0;
+		padding:12px 0;
+	}
+	.calendarwd td{}
+	.caltblwk{}
+	.caltblwk td{}
+	.calendarweek{display:none;}
+	.weekday{}
+	.sun{}
+	.sat{}
+
+	.caltbldaybg{}
+	.caltblday{
+		font-size:12px;
+		color:#8a8a8a;
+	}
+
+	.caltblday td{
+		position:center;
+		text-align:center;
+		padding:5px 0px;
+	}
+
+	.calon{}
+	.caloff{}
+	.calendard{
+		empty-cells:show;
+		background:url(http://parts.blog.livedoor.jp/img/usr/formal_diary/calendar2.gif) no-repeat 50% 50%;
+	}
+	
+	.calendardbg{
+		background:url(http://parts.blog.livedoor.jp/img/usr/formal_diary/calendar2.gif) no-repeat 50% 50%;
+	}
+	.calendar{}
+
+
+	.caltblday a{}
+	.caltblday a:link{}
+	.caltblday a:visited{}
+	.caltblday a:active{}
+	.caltblday a:hover{}
+
+	.calbottom{
+		margin-bottom:15px;
+	}
+
+	.sidetitlebody{
+		background:url(http://parts.blog.livedoor.jp/img/usr/formal_diary/line_short1.gif) no-repeat 0 0;
+		padding-top:10px;
+	}
+
+	.sidetitle{
+		color:#ececec;
+		font-size:12px;
+		text-align:left;
+		padding:10px 0;
+	}
+
+	.sidetitle a{color:#ececec;text-decoration:none;}
+	.sidetitle a:link{}
+	.sidetitle a:visited{}
+	.sidetitle a:active{}
+	.sidetitle a:hover{color:#ececec;text-decoration:underline;}
+
+	.sidetop{
+	}
+
+	.side{
+		font-size:12px;
+		text-align:center;
+		line-height:130%;
+		padding:0px 15px 10px;
+	}
+	
+	.sidebody{
+		padding:3px 0 3px 0px;
+		text-align:left;
+	}
+
+	.sidebottom{
+		margin-bottom:10px;
+	}
+
+	.side a{}
+	.side a:link{}
+	.side a:visited{}
+	.side a:active{}
+	.side a:hover{}
+
+	a.ttllink{color:#ececec;text-decoration:none;}
+	a.ttllink:link{}
+	a.ttllink:visited{}
+	a.ttllink:active{}
+	a.ttllink:hover{color:#ececec;text-decoration:underline;}
+
+	input.sf{width:122px;margin-right:3px;}
+	.moblogbody,.linkme,.skypeme{text-align:center;}
+	.afbody{text-align:center;padding-bottom:10px;}
+	.afbody img{margin-bottom:3px;}
+	.photo{text-align:center;}
+	.nickname{text-align:left;font-size:12px;font-weight:bold;margin:10px 0;}
+	.message{text-align:left;font-size:12px;margin-bottom:10px;}
+	.blogtimes{margin:20px 0;text-align:center;}
+	.point{text-align:center;}
+
+	.elsehead{
+		padding:3px 0 4px;
+	}
+	.elsebody{text-align:center;}
+	.elsebottom{
+		padding:3px 0 4px;
+	}
+
+	
+	#footer{}
+
+	#ad{text-align:left;}
+	#ad iframe{width:380px;margin-top:20px;}
+
+
+	body.ad{background:#3c3c3c;}
+
+	a.adtitle{color:#ffb000;font-weight:normal;text-decoration:none;}
+	a.adtitle:link{}
+	a.adtitle:visited{}
+	a.adtitle:active{}
+	a.adtitle:hover{font-weight:normal;text-decoration:underline;}
+	
+	a.addescription{color:#bdbdbd;text-decoration:none;}
+	a.addescription:link{}
+	a.addescription:visited{}
+	a.addescription:active{}
+	a.addescription:hover{color:#bdbdbd;text-decoration:none;}
+	
+	a.adurl{color:#bdbdbd;text-decoration:none;}
+	a.adurl:link{}
+	a.adurl:visited{}
+	a.adurl:active{}
+	a.adurl:hover{color:#bdbdbd;text-decoration:none;}
+
+	a.adld{color:#8a8a8a;text-decoration:none;}
+	a.adld:link{}
+	a.adld:visited{}
+	a.adld:active{}
+	a.adld:hover{color:#8a8a8a;text-decoration:none;}
+	

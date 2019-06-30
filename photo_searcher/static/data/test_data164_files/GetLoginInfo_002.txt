@@ -1,0 +1,9 @@
+var oLoginInfoData = {
+				MemberID	:"",
+				LoginName	:"",
+				Point		:"",
+				CartNumber	:"\u0030",
+				CartPrice	:"\u0030\u5186"
+			};
+
+if(this.onGetLoginInfo)	onGetLoginInfo(oLoginInfoData);

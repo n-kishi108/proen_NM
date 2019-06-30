@@ -1,0 +1,128 @@
+.tuki-link {
+    background-color:#EBF6B9;
+    font-size:12pt;
+}
+
+.hajime {
+	font-size: 10pt;
+	padding: 0.5em;
+	width: 30em;
+	/*height: 3em;*/
+    text-align:left;
+	text-indent:1em;
+	background-color: #CAFFCA;
+}
+
+
+.hizuke {
+    /*margin-left: 20%;
+    */;
+}
+
+.hizuke {
+	padding: 0;
+	font-size: 12pt;
+	width: 6em;
+	text-align: right;
+	color: #FFFF99;
+	background-color: #009900;
+}
+
+.dan1 {
+	background-color :#CAFFCA ;
+	/*margin-left : 5% ;	*/
+	/*margin-right : 0em ;	*/
+}
+
+.dan1 {
+    padding:1em 1em;
+    /*width: 300px;*/
+    font-size: 10pt;
+    text-indent:1em;
+	/*float:left;*/
+}
+
+
+.shashin{
+	background-color :#caffca ;
+	border-width : 10px;
+    border-style:solid;
+    border-color:#009900;
+    /*float:left;*/
+}
+
+.shashin_zen{
+	margin : 0px ;
+	background-color :#fbdc9a ;
+}
+
+.shashin_zen{
+    padding: 0px;
+	border-width : 5px;
+    border-style:solid;
+    border-color:#755102;
+    /*float:left;*/
+}
+
+
+.modoru {
+    */margin-left:20%;*/
+    color:#009900;
+    font-size: 10pt;
+    /*width: 20em;*/
+    text-align:center;
+}
+
+.shashin2{
+   /* padding: 20px;*/
+	border-width : 10px 10px 0px 10px;
+    border-style:solid;
+    border-color:#755102;
+    /*float:left;*/
+}
+
+.dan3 {
+    border-width: 0px 10px 10px 10px;
+    border-style:solid;
+    border-color:#0C10FA;
+    background-color:#A8DEF9;
+    padding:1em 1em;
+    font-size: 10pt;
+    text-indent:1em;
+    text-align:center;
+}
+
+.shashin0210{
+   /* padding: 20px;*/
+	border-width : 2px;
+    border-style:solid;
+    border-color:#0C10FA;
+    float:right;
+}
+
+.yotei_mae{
+    font-size: 10pt;
+    color:#999393;
+}
+	
+.yotei_ato{
+    font-size: 10pt;
+}
+
+.style3 {font-size: 10pt;
+}
+
+.style4 {font-size: 10pt;
+		color: #999999; 
+}
+
+.style7 {color: #FFFFFF}
+
+.okinawa {
+	font-size: 12pt;
+	color:#666666;
+}
+
+td {
+	color:#333333;
+}

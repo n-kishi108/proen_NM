@@ -1,0 +1,280 @@
+a02/* CSS Document */
+
+div,p,tr,td {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+ul,li	{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+a img	{
+	border: 0px;
+}
+.float_clear {
+	clear: both;
+}
+#contents_eria {
+	background-color: #FFFFFF;
+	width: 933px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 7px;
+	padding-left: 10px;
+}
+#topic_path {	/* パンくずリスト */
+	font-size: 10px;
+	color: #6d6d6d;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 7px;
+}
+#main_contents {	/* メインコンテンツエリア */
+	width: 740px;
+	float: left;
+	margin-right: 7px;
+	margin-bottom: 20px;
+	margin-top: 3px;
+}
+#r_menu {	/* レフトメニューエリア */
+	float: right;
+	width: 186px;
+	margin-bottom: 20px;
+}
+#course_menu {
+	background-image: url(../k_img/common/km_bg.gif);
+	background-repeat: repeat-y;
+}
+#course_menu ul {
+	padding-left: 3px;
+}
+#school_info_side {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 3px;
+}
+#school_info_side #school_info_side_title {
+	clear: both;
+	width: 180px;
+	margin-right: auto;
+	margin-bottom: auto;
+	padding-top: 15px;
+}
+#school_info_side #school_info_side_box {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #adadad;
+	border-left-width: 1px;
+	border-left-color: #adadad;
+	width: 178px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #adadad;
+}
+#school_info_side #school_info_side_box #osae {
+	width: 170px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#school_info_side #school_info_side_ft {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+/* 学科一覧へ ボタン */
+#km_011 {
+	float: left;
+	width: 103px;
+}
+#km_012-014 {
+	float: left;
+	width: 74px;
+}
+#km_015 {
+	float: left;
+	width: 9px;
+}
+
+.r_menu_banner {
+	padding-top: 10px;
+	clear: both;
+	width: 170px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.r_menu_banner li {
+	padding-bottom: 10px;
+}
+#osae_bg {
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+#osae {
+
+}
+#osae_bg li {
+	background-image: url(../k_img/common/km_osae_04.gif);
+	background-repeat: no-repeat;
+	padding-left: 10px;
+	line-height: 18px;
+	background-position: 0px 6px;
+}
+
+
+/* スペース */
+.sp_pt10px {
+	padding-top: 10px;
+}
+
+/* h3の下 */
+#h3_low_link{
+	height: 20px;
+	padding-top: 5px;
+	padding-left: 10px;
+	float: left;
+	width: 728px;
+	border: 1px solid #D8D8D8;
+	margin-bottom: 15px;
+
+}
+.course_s_1l{
+	background:url(../img/link_aikon.gif) no-repeat center left;
+	list-style-type: none;
+	float:left;
+	padding-left:12px;
+	margin-right: 12px;
+}
+.course_s_1l2{
+	background:url(../img/link_aikon.gif) no-repeat center left;
+	list-style-type: none;
+	list-style-position: inside;
+	float:left;
+	padding-left:7px;
+}
+#h3_low_txt{
+	width: 720px;
+	float: left;
+	margin-bottom: 25px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/* h4 */
+#h4_t {
+	background-image: url(../k_img/common/h4.gif);
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 740px;
+	float: left;
+	padding-top: 8px;
+	padding-bottom: 15px;
+	text-indent: 20px;
+	color: #002D7E;
+	font-weight: bold;
+	font-size: 14px;
+}
+.h4_t {
+	background-image: url(../k_img/common/h4.gif);
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 740px;
+	float: left;
+	padding-top: 8px;
+	padding-bottom: 15px;
+	text-indent: 5px;
+	color: #002D7E;
+	font-weight: bold;
+	font-size: 14px;
+}
+.h4_low_txt{
+	width: 720px;
+	float: left;
+	margin-bottom: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+/* h5 */
+#h5_t{
+	float: left;
+	height: 22px;
+	width: 715px;
+	background-image: url(../k_img/common/h5.gif);
+	background-repeat: repeat-x;
+	padding-top: 6px;
+	color: #002D7E;
+	margin-bottom: 5px;
+	font-weight: bold;
+	margin-left: 10px;
+	display:inline;
+	text-indent: 3px;
+}
+.h5_low_txt{
+	width: 710px;
+	float: left;
+	margin-bottom: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.bold_b {
+	color: #002D7E;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+/* TOPページに戻る */
+.p_top {
+	background-image: url(../k_img/common/p_top.gif);
+	background-repeat: no-repeat;
+	float: right;
+	height: 17px;
+	width: 89px;
+	text-indent: -9999px;
+	margin-bottom: 25px;
+	clear: both;
+}
+.p_top2 {
+	background-image: url(../k_img/common/p_top.gif);
+	background-repeat: no-repeat;
+	float: right;
+	height: 17px;
+	width: 89px;
+	text-indent: -9999px;
+	margin-bottom: 0px !important;
+	margin-bottom: 25px;
+}
+.p_top3 {
+	background-image: url(../k_img/common/p_top.gif);
+	background-repeat: no-repeat;
+	float: right;
+	height: 17px;
+	width: 89px;
+	text-indent: -9999px;
+	margin-bottom: 25px;
+}
+.red {
+	font-size: 10px;
+	color: #d21211;
+	font-weight: normal;
+}
+.red2 {
+	font-size: 12px;
+	color: #d21211;
+	font-weight: bold;
+	line-height: 20px;
+}
+#anka{
+	float: left;
+	width: 740px;
+}

@@ -1,0 +1,75 @@
+a {
+color:#454545; 
+text-decoration:none;
+}
+
+a:hover {
+color:#0099E1; 
+text-decoration:underline;
+}
+
+.normal  {
+font-size:12px; 
+line-height:18px; 
+font-family: "‚l‚r ‚oƒSƒVƒbƒN", "Osaka","Helvetica","Arial"; 
+color:#454545; 
+}
+
+.title {
+font-size:18px; 
+line-height:24px; 
+font-family: "‚l‚r ‚oƒSƒVƒbƒN", "Osaka","Helvetica","Arial"; 
+color:#454545; 
+}
+
+.subtitle {
+font-size:16px; 
+line-height:20px; 
+font-family: "‚l‚r ‚oƒSƒVƒbƒN", "Osaka","Helvetica","Arial"; 
+color:#454545; 
+}
+
+.small  {
+font-size:10px; 
+line-height:14px; 
+font-family: "‚l‚r ‚oƒSƒVƒbƒN", "Osaka","Helvetica","Arial"; 
+color:#666666; 
+}
+
+.date  {
+font-size:12px; 
+line-height:18px; 
+font-family: "‚l‚r ‚oƒSƒVƒbƒN", "Osaka","Helvetica","Arial"; 
+color:#AAAAAA; 
+}
+
+.normalanimal  {
+font-size:12px; 
+line-height:18px; 
+}
+
+
+li{
+margin:0px 0px 20px 0px;
+}
+
+li{
+margin:0px 0px 2px 0px;
+}
+
+.aright{
+text-align:right;
+}
+
+.padl50{
+text-alogn:left;
+padding-left:80px;
+}
+
+.padl100{
+width:95%;
+/*float:right;*/
+text-alogn:left;
+padding-left:55%;
+}
+

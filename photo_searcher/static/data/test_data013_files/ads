@@ -1,0 +1,51 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BnzI42Cm4S7PjNIu66QOK74XYB4Tn_4QBlJW01BDAjbcBwJ3YEBABGAEg1LeUBigDOABQ7duUWWCJo9KEqBSgAfKp_OsDugEJNzI4eDkwX2pzyAEB2gH_AWZpbGU6Ly8vQzovVXNlcnMvc2hpbi9EZXNrdG9wLyVFOSU5QiU4NiVFNSU5MCU4OCVFNSU4NiU5OSVFNyU5QyU5Ri8lRTQlQkIlOEElRTUlQkElQTYlRTMlODElOTMlRTMlODElOUQlRTMlODAlODF3aXRoJUUzJTgyJTgyJUUzJTgyJTgyJUUzJTgxJTlGJUUzJTgyJTkzJUU3JUI1JTkwJUU1JUE5JTlBJUU1JUJDJThGJUUzJTgyJUEyJUUzJTgzJTgzJUUzJTgzJTk3JUUzJTgxJUE3JUUzJTgxJTk3JUUzJTgyJTg1JUUyJTk4JTg2JTIwLSUyMCVFMyU4MqkCbLEBNh3URj7IAsTx5AmoAwH1AwAAAMQ&amp;num=1&amp;sig=AGiWqtxe8THPS1EvTtGn-Vf3Daemub2W5w&amp;client=ca-rakuten-blog_js&amp;adurl=http://www.watabe-wedding.co.jp/wedding_photo/%3Fcid%3Dp_ppc_goct_photo_sphoto_0058777%26s_kwcid%3DTC%7C9481%7C%25E6%258A%25AB%25E9%259C%25B2%25E5%25AE%25B4%25E5%2586%2599%25E7%259C%259F%7C%7CC%7C%7C4376993500"; 
+google_ad.visible_url = "watabe-wedding.co.jp"; 
+google_ad.line1 = "\x26#22823;\x26#20154;\x26#27671;\x26#12501;\x26#12457;\x26#12488;\x26#12454;\x26#12455;\x26#12487;\x26#12451;\x26#12531;\x26#12464;"; 
+google_ad.line2 = "\x26#27598;\x26#24180;\x26#12289;10,000\x26#32068;\x26#20197;\x26#19978;\x26#12398;\x26#12459;\x26#12483;\x26#12503;\x26#12523;\x26#21033;\x26#29992; !"; 
+google_ad.line3 = "\x26#12362;\x26#24471;\x26#12394;\x26#12503;\x26#12521;\x26#12531;\x26#12418;\x26#12290;\x26#12527;\x26#12479;\x26#12505;\x26#12454;\x26#12455;\x26#12487;\x26#12451;\x26#12531;\x26#12464;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B83dE2Cm4S7PjNIu66QOK74XYB_yPookBxrK3qQLAjbcBgMjQBxACGAIg1LeUBigDOABQzO3bUmCJo9KEqBS6AQk3Mjh4OTBfanPIAQHaAf8BZmlsZTovLy9DOi9Vc2Vycy9zaGluL0Rlc2t0b3AvJUU5JTlCJTg2JUU1JTkwJTg4JUU1JTg2JTk5JUU3JTlDJTlGLyVFNCVCQiU4QSVFNSVCQSVBNiVFMyU4MSU5MyVFMyU4MSU5RCVFMyU4MCU4MXdpdGglRTMlODIlODIlRTMlODIlODIlRTMlODElOUYlRTMlODIlOTMlRTclQjUlOTAlRTUlQTklOUElRTUlQkMlOEYlRTMlODIlQTIlRTMlODMlODMlRTMlODMlOTclRTMlODElQTclRTMlODElOTclRTMlODIlODUlRTIlOTglODYlMjAtJTIwJUUzJTgyqQJssQE2HdRGPsgChsyLDagDAfUDAAAAxA&amp;num=2&amp;sig=AGiWqtwFfX2FRAWP-EWbrKLD_47mMRYdYQ&amp;client=ca-rakuten-blog_js&amp;adurl=http://c.p-advg.com/adpCnt/r%3Fmid%3D733132%26lid%3D51"; 
+google_ad.visible_url = "www.37sumai.com/"; 
+google_ad.line1 = "\x26#20889;\x26#30495;\x26#29983;\x26#27963;\x26#12398;\x26#24773;\x26#22577;\x26#28288;\x26#36617;"; 
+google_ad.line2 = "\x26#20303;\x26#12414;\x26#12356;\x26#12395;\x26#38306;\x26#12377;\x26#12427;\x26#30693;\x26#35672;\x26#12420;\x26#12502;\x26#12525;\x26#12464;\x26#12289;\x26#39080;\x26#27700;\x26#31561;"; 
+google_ad.line3 = "\x26#8216;\x26#12415;\x26#12435;\x26#12377;\x26#12414;\x26#8217;\x26#12364;\x26#26286;\x26#12375;\x26#12395;\x26#24441;\x26#31435;\x26#12388;\x26#24773;\x26#22577;\x26#25552;\x26#20379;!"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BSWK22Cm4S7PjNIu66QOK74XYB_LQ6qsB2pe_kwvAjbcBgJmbEBADGAMg1LeUBigDOABQz7zjrQFgiaPShKgUoAG41svtA7oBCTcyOHg5MF9qc8gBAdoB_wFmaWxlOi8vL0M6L1VzZXJzL3NoaW4vRGVza3RvcC8lRTklOUIlODYlRTUlOTAlODglRTUlODYlOTklRTclOUMlOUYvJUU0JUJCJThBJUU1JUJBJUE2JUUzJTgxJTkzJUUzJTgxJTlEJUUzJTgwJTgxd2l0aCVFMyU4MiU4MiVFMyU4MiU4MiVFMyU4MSU5RiVFMyU4MiU5MyVFNyVCNSU5MCVFNSVBOSU5QSVFNSVCQyU4RiVFMyU4MiVBMiVFMyU4MyU4MyVFMyU4MyU5NyVFMyU4MSVBNyVFMyU4MSU5NyVFMyU4MiU4NSVFMiU5OCU4NiUyMC0lMjAlRTMlODKpAmyxATYd1EY-yAKS6eERqAMB9QMAAADE&amp;num=3&amp;sig=AGiWqtw-HseXDuTxH3SHTMfjxzK4AOD4tQ&amp;client=ca-rakuten-blog_js&amp;adurl=http://career.infoseek.rakuten.co.jp/jr/%3Fcid%3Dgocjr00938%26s_kwcid%3DContentNetwork%7C2894080010"; 
+google_ad.visible_url = "career.infoseek.rakuten.co.jp"; 
+google_ad.line1 = "\x26#20181;\x26#20107;\x26#25506;\x26#12375;\x26#12394;\x26#12425;\x26#27005;\x26#22825;\x26#20181;\x26#20107;\x26#24066;\x26#22580;"; 
+google_ad.line2 = "\x26#22311;\x26#20498;\x26#30340;\x26#12394;\x26#27714;\x26#20154;\x26#25968; \x26#20181;\x26#20107;\x26#24773;\x26#22577;\x26#12434;\x26#27598;\x26#26085;\x26#26356;\x26#26032;"; 
+google_ad.line3 = "\x26#22320;\x26#22495;\x26#12420;\x26#32887;\x26#31278;\x26#12289;\x26#12371;\x26#12384;\x26#12431;\x26#12426;\x26#26465;\x26#20214;\x26#12363;\x26#12425;\x26#26908;\x26#32034;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dfile:///C:/Users/shin/Desktop/%2525E9%25259B%252586%2525E5%252590%252588%2525E5%252586%252599%2525E7%25259C%25259F/%2525E4%2525BB%25258A%2525E5%2525BA%2525A6%2525E3%252581%252593%2525E3%252581%25259D%2525E3%252580%252581with%2525E3%252582%252582%2525E3%252582%252582%2525E3%252581%25259F%2525E3%252582%252593%2525E7%2525B5%252590%2525E5%2525A9%25259A%2525E5%2525BC%25258F%2525E3%252582%2525A2%2525E3%252583%252583%2525E3%252583%252597%2525E3%252581%2525A7%2525E3%252581%252597%2525E3%252582%252585%2525E2%252598%252586%252520-%252520%2525E3%252582%252582%2525E3%252582%252582%2525E2%252598%252586%2525E3%252581%2525A8%2525E3%252580%252581%2525E3%252581%2525AE%2525EF%2525BD%25259E%2525E3%252582%252593%2525E3%252581%2525B3%2525E3%252582%25258A%2525E7%252594%25259F%2525E6%2525B4%2525BB%252520-%252520%2525E6%2525A5%2525BD%2525E5%2525A4%2525A9%2525E3%252583%252596%2525E3%252583%2525AD%2525E3%252582%2525B0%2525EF%2525BC%252588Blog%2525EF%2525BC%252589.htm%26hl%3Dja%26client%3Dca-rakuten-blog_js%26adU%3Dwatabe-wedding.co.jp%26adT%3D%25E5%25A4%25A7%25E4%25BA%25BA%25E6%25B0%2597%25E3%2583%2595%25E3%2582%25A9%25E3%2583%2588%25E3%2582%25A6%25E3%2582%25A7%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%26adU%3Dwww.37sumai.com/%26adT%3D%25E5%2586%2599%25E7%259C%259F%25E7%2594%259F%25E6%25B4%25BB%25E3%2581%25AE%25E6%2583%2585%25E5%25A0%25B1%25E6%25BA%2580%25E8%25BC%2589%26adU%3Dcareer.infoseek.rakuten.co.jp%26adT%3D%25E4%25BB%2595%25E4%25BA%258B%25E6%258E%25A2%25E3%2581%2597%25E3%2581%25AA%25E3%2582%2589%25E6%25A5%25BD%25E5%25A4%25A9%25E4%25BB%2595%25E4%25BA%258B%25E5%25B8%2582%25E5%25A0%25B4%26gl%3DJP\x26usg\x3dAFQjCNG_tO4sDC53EqKpFqgsdmGl0x5yFA"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

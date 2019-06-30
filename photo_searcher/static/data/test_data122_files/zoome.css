@@ -1,0 +1,484 @@
+.layer_on {
+    position         : absolute;
+    top              : 0;
+    left             : 0;
+    visibility       : visible;
+    background-color : #ccc;
+    z-index          : 999;
+    filter           : alpha(opacity=70);
+    -moz-opacity     : 0.70;
+    padding-top      : 20%;
+}
+
+.layer_off {
+    visibility       : hidden;
+    display          : none;
+    position         : absolute;
+    top              : -100px;
+    left             : -100px;
+}
+
+.layer_message {
+    position         : absolute;
+    top              : 0;
+    left             : 0;
+    text-align       : center;
+    font-weight      : bold;
+    width            : 60%;
+    background-color : #efa;
+    color            : red;
+    font-size        : 14px;
+    border           : dashed 2px #666;
+    padding          : 30px;
+}
+
+.info2{
+padding-top:10px;
+border-top:1px dashed #ccc;
+}
+
+.info_mate {
+background:url(/img/www/info_mate.gif) left top no-repeat;
+padding:0 0 4px 22px;
+}
+
+.info_message {
+background:url(/img/www/info_message.gif) left top no-repeat;
+padding:0 0 4px 22px;
+}
+
+.info_comment {
+background:url(/img/www/info_comment.gif) left top no-repeat;
+padding:0 0 4px 22px;
+}
+
+.info_circle {
+background:url(/img/www/info_circle.gif) left top no-repeat;
+padding:0 0 4px 22px;
+}
+
+.clearFix{
+display: block;
+}
+
+.overray{
+width:120px;
+height:90px;
+margin:0 auto;
+position:absolute;
+top:0;
+left:0;
+}
+.overray_img{
+width:120px;
+height:90px;
+margin:0 auto;
+position:relative;
+}
+.overrays{
+width:90px;
+height:68px;
+margin:0 auto;
+position:absolute;
+top:0;
+left:0;
+}
+.overrays_img{
+width:90px;
+height:68px;
+margin:0 auto;
+position:relative;
+}
+
+#theme_box {
+border:1px dashed #333;
+font-size:16px;
+font-weight:bold;
+line-height:20px;
+text-align:left;
+margin:5px auto 15px;
+padding:10px 13px 5px;
+word-wrap:break-word;
+word-break:break-all;
+}
+.tag {
+font-size:12px;
+font-weight:normal;
+text-align:right;
+padding-top:5px;
+}
+.tag img {
+vertical-align:middle;
+}
+
+/* navi1 -------------------------------------------------------------------*/
+
+#navi1 {
+    width               : 100%;
+    height              : 27px;
+    background		    : url("/img/www/navi_kanri_bg.gif") repeat-x;
+	font-family			: MS-PGothic,'£Í£Ó £Ð¥´¥·¥Ã¥¯','¥Ò¥é¥®¥Î³Ñ¥´ Pro W3','Hiragino Kaku Gothic Pro',Osaka,'¥á¥¤¥ê¥ª',Meiryo,sans-serif;
+	font-size			: 13px;
+	line-height			: 1.2;
+    text-align          : center;
+}
+#navi1 .navi1_detail {
+    width               : 980px;
+	margin				: 0 auto;
+}
+#navi1 ul {
+    list-style          : none;
+}
+
+#navi1_list {
+    display             : none;
+}
+
+#navi1 .cell {
+    float               : left;
+}
+
+#navi1 .cell a {
+    display             : block;
+    height              : 27px;
+    overflow            : hidden;
+    text-indent         : -9999px;
+    background-repeat   : no-repeat;
+}
+
+#navi1 .cell a:hover {
+    background-position : 0 -27px;
+}
+
+#navi1 .menu {
+    display             : none;
+    position            : absolute;
+    background-color    : #fee;
+    border-color        : #fcc;
+    border-style        : solid;
+    border-width        : 0 1px 1px;
+    text-align          : left;
+}
+
+#navi1 .menu li {
+    width               : 110px;
+    height              : 18px;
+    line-height         : 18px;
+    border-color        : #fcc;
+    border-style        : solid;
+    border-width        : 1px 0 0;
+    padding             : 0 5px;
+    white-space         : nowrap;
+}
+
+#navi1 .menu li a {
+    height              : 18px;
+    overflow            : visible;
+    line-height         : 18px;
+    text-indent         : 0;
+    background          : none;
+    color: #36c;
+    text-decoration: underline;
+}
+
+#navi1 .menu li a:hover {
+    color: #f66;
+}
+
+#navi1 .pull {
+    float               : left;
+}
+
+#navi1 .pull a {
+    display             : block;
+    width               : 15px;
+    height              : 27px;
+    overflow            : hidden;
+    text-indent         : -9999px;
+    background-image    : url("/img/www/navi_kanri_pull.gif");
+}
+
+#navi1 .pull a:hover {
+    background-position : 0 -27px;
+}
+
+#navi1_my         a { background : url("/img/www/navi_kanri_my.gif");         }
+#navi1_kanri      a { background : url("/img/www/navi_kanri_kanri.gif");      }
+#navi1_contribute a { background : url("/img/www/navi_kanri_contribute.gif"); }
+#navi1_clist      a { background : url("/img/www/navi_kanri_clist.gif");      }
+#navi1_myclip     a { background : url("/img/www/navi_kanri_myclip.gif");     }
+#navi1_meito      a { background : url("/img/www/navi_kanri_meito.gif");      }
+#navi1_ashiato    a { background : url("/img/www/navi_kanri_ashiato.gif");    }
+#navi1_prof       a { background : url("/img/www/navi_kanri_prof.gif");       }
+#navi1_circle     a { background : url("/img/www/navi_kanri_circle.gif");     }
+#navi1_set        a { background : url("/img/www/navi_kanri_set.gif");        }
+#navi1_message    a { background : url("/img/www/navi_kanri_message.gif");    }
+#navi1_point      a { background : url("/img/www/navi_kanri_point.gif");    }
+
+#navi1_my         a { width : 26px; }
+#navi1_kanri      a { width : 76px; }
+#navi1_contribute a { width : 76px; }
+#navi1_clist      a { width : 82px; }
+#navi1_myclip     a { width : 84px; }
+#navi1_meito      a { width : 65px; }
+#navi1_ashiato    a { width : 70px; }
+#navi1_prof       a { width : 89px; }
+#navi1_circle     a { width : 72px; }
+#navi1_set        a { width : 76px; }
+#navi1_message    a { width : 76px; }
+#navi1_point      a { width : 68px; }
+
+
+/*--------------------------------------------------------------------------*/
+
+.url_info_str_button input {
+    color        : #000;
+    background   : #ece9d8;
+    border-color : #696969;
+    border-style : solid;
+    border-width : 1px;
+}
+
+
+object{position:relative;z-index:1;}
+
+
+/*paging--------------------------------------------------------------------*/
+
+.change_page {
+}
+
+ul.change_page_ul {
+	display				: block;
+	font-family			: MS-PGothic,'£Í£Ó £Ð¥´¥·¥Ã¥¯','¥Ò¥é¥®¥Î³Ñ¥´ Pro W3','Hiragino Kaku Gothic Pro',Osaka,'¥á¥¤¥ê¥ª',Meiryo,sans-serif;
+	font-size			: 13px;
+	line-height			: 22px;
+	font-weight			: bold;
+	margin				: 0;
+	padding				: 0;
+}
+
+ul.change_page_ul li {
+	float				: right;
+	list-style-image	: none;
+	list-style-position	: outside;
+	list-style-type		: none;
+}
+
+ul.change_page_ul li.change_page_li {
+	margin-left			: 3px;
+}
+
+ul.change_page_ul li.link a:hover {
+	border				: 1px solid #f66;
+	background-color	: #fcc;
+	text-decoration		: none;
+}
+ul.change_page_ul li.link a {
+	border				: 1px solid #f66;
+	background-color	: #fff;
+	color				: #f66;
+	padding				: 2px 4px 1px;
+	text-decoration		: none;
+}
+
+ul.change_page_ul li span.now {
+	background-color	: #f66;
+	border				: 1px solid #f66;
+	color				: #fff;
+	padding				: 2px 4px 1px;
+	text-decoration		: none;
+} 
+
+ul.change_page_ul li.next a:hover {
+	background-color	: #fcc;
+	background-repeat 	: no-repeat;
+	background-position	: center center;
+	border				: 1px solid #f66;
+	text-decoration		: none;
+	overflow			: hidden;
+}
+
+ul.change_page_ul li.next a {
+	background-color	: #fff;
+	background-repeat 	: no-repeat;
+	background-position	: center center;
+	border				: 1px solid #f66;
+	color				: #f66;
+	text-decoration		: none;
+	overflow			: hidden;
+	padding				: 2px 4px 1px;
+}
+
+ul.change_page_ul li.back a:hover {
+	background-color	: #fcc;
+	background-repeat 	: no-repeat;
+	background-position	: center center;
+	border				: 1px solid #f66;
+	text-decoration		: none;
+	overflow			: hidden;
+}
+
+ul.change_page_ul li.back a {
+	background-color	: #fff;
+	background-repeat 	: no-repeat;
+	background-position	: center center;
+	border				: 1px solid #f66;
+	color				: #f66;
+	text-decoration		: none;
+	overflow			: hidden;
+	padding				: 2px 4px 1px;
+}
+
+
+/*tab--------------------------------------------------------------------*/
+
+#tab {
+	background		    : url(/img/www/tab_bg.gif) repeat-x;
+    width               : 980px;
+    height              : 31px;
+	margin				: 5px auto 8px;
+    text-align          : left;
+}
+
+#tab ul {
+	height				: 25px;
+    list-style          : none;
+}
+
+#tab li {
+    float               : left;
+	margin-left			: 4px;
+}
+
+#tab li a {
+    display             : block;
+    height              : 25px;
+    overflow            : hidden;
+    text-indent         : -9999px;
+    background-repeat   : no-repeat;
+}
+
+#tab li a:hover {
+    background-position : 0 -25px;
+}
+
+#tab .tab_top        a { background : url(/img/www/tab_top.gif) no-repeat;width:54px; }
+#tab .tab_01         a { background : url(/img/www/tab_01.gif) no-repeat;width:96px; }
+#tab .tab_02         a { background : url(/img/www/tab_02.gif) no-repeat;width:96px; }
+#tab .tab_03         a { background : url(/img/www/tab_03.gif) no-repeat;width:96px; }
+#tab .tab_04         a { background : url(/img/www/tab_04.gif) no-repeat;width:96px; }
+#tab .tab_05         a { background : url(/img/www/tab_05.gif) no-repeat;width:96px; }
+#tab .tab_rank       a { background : url(/img/www/tab_rank.gif) no-repeat;width:96px; }
+#tab .tab_new        a { background : url(/img/www/tab_new.gif) no-repeat;width:96px; }
+#tab .tab_about      a { background : url(/img/www/tab_about.gif) no-repeat;width:96px; }
+#tab .tab_info       a { background : url(/img/www/tab_info.gif) no-repeat;width:156px; }
+
+/*ads---------------------------------------------------------------------*/
+#super_ad { display : none }
+#super_ad2 { display : block }
+#from_ads01 { display : none }
+#from_ads02 { display : none }
+#from_ads03 { display : none }
+#from_ads04 { display : none }
+#from_ads05 { display : none }
+#from_ads06 { display : none }
+#from_ads08 { display : none }
+#from_ads10 { display : none }
+#from_ads11 { display : none }
+
+.header_ad { height : 90px ; margin : 0 auto 10px }
+.ads01 { height : 780px }
+.ads02 { height : 120px }
+.ads03 { height : 275px ; _height : 270px }
+.ads04 { height : 100px }
+.ads05 { height : 90px ; margin-bottom : 10px }
+.ads06 { padding: 0 0 5px; }
+.ads08 { height : 203px }
+.ads09 { float : left; padding : 0 2px 0 4px; }
+.ads10 { height : 100px }
+.ads11 { height : 100px }
+.ad_client { width :980px ; margin : 5px auto; text-align : center }
+.footer_ad { margin-bottom : 10px }
+
+/*ads(mypage,circle)-------------------------------------------------------------*/
+#super_ad { display : none; }
+#ad_box { display : none }
+#ad_box2 { display : none }
+
+.to_super_ad {
+	height: 90px;
+}
+.ad1_top {
+	width: 728px;
+	height: 90px !important;
+	margin: 0 auto;
+	overflow: visible !important;
+}
+.ads_box {
+	height : 60px;
+	margin : 10px 0;
+	overflow: visible !important;
+}
+.ads_box2 {
+	height : 250px;
+	margin-bottom : 10px;
+	overflow: visible !important;
+}
+.ads_box2_kougei {
+	height : 113px;
+	margin-bottom : 10px;
+	overflow: visible !important;
+}
+.ads_box3 {
+	position: relative;
+	height : 20px;
+	line-height : 20px;
+}
+/*ads(manage)-------------------------------------------------------------*/
+#kikaku_ad1 { display : none }
+
+.ad1 { float : left ; width : 300px ; padding : 5px 0 0 }
+
+/*ads(home)-------------------------------------------------------------*/
+#to_home_ad { display : none; }
+.to_home_ad { height : 60px; }
+
+/*home,manage-------------------------------------------------------------*/
+.home_link_new {
+    background-image    : url("/img/www/icon_new.gif");
+    background-repeat   : no-repeat;
+    line-height         : 20px;
+    text-align          : left;
+	text-indent			: 20px;
+}
+.home_link_info {
+    background-image    : url("/img/www/icon_info2.gif");
+    background-repeat   : no-repeat;
+    line-height         : 20px;
+    text-align          : left;
+	padding-left		: 20px;
+}
+.home_link_guide {
+    background-image    : url("/img/www/icon_guide.gif");
+    background-repeat   : no-repeat;
+    line-height         : 20px;
+    text-align          : left;
+	padding-left		: 20px;
+}
+.home_link_guide2 {
+    background-image    : url("/img/guide/guide_bg.gif");
+    background-repeat   : no-repeat;
+    line-height         : 20px;
+    text-align          : left;
+	padding-left		: 20px;
+}
+
+/*¼Ú¤êÃÖ¤­-----------------------------------------------------------------*/
+.li_invite {
+    background: url(/img/www/li_invite.gif) no-repeat left center;
+    padding: 0 3px 0 14px;
+}
+.adspace2 {
+height:10px;
+}

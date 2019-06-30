@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------------------
+TITLE     : wwwl.nikkansports.com W杯バレー2007 CSS
+DATE     : 2007/10/26
+URL       : http://www5.nikkansports.com/sports/volley/wcup/2007/photo/vwc07photo.css
+DESIGNER : 
+--------------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------
+Win、Mac版IE4には適用させず
+---------------------------------------------------------------- */
+
+@import "/sports/volley/wcup/2007/photo/vwc07photo_macie45.css";
+
+body {
+	color: #333333;
+	font: 100% "MS PGothic", Osaka, "ＭＳ Ｐゴシック", "HiraginoKakugo Pro W3", "ヒラギノ角ゴ Pro W3", sans-serif;
+	background: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol, dl, dt, dd, p, div, input, form, fieldset, legend {
+	margin: 0;
+	padding: 0;
+}
+
+h1 { font-size: 130%; }
+h2 { font-size: 120%; }
+h3 { font-size: 110%; }
+h4 { font-size: 100%; }
+.txt3 { font-size: 100%; }
+.txt2 { font-size: 90%; }
+.txt1 { font-size: 80%; }
+.txt3h { font-size: 100%; line-height: 1.5em; }
+.txt2h { font-size: 90%; line-height: 1.45em; }
+.txt1h { font-size: 80%; line-height: 1.3em; }
+
+p { margin-top: 1.5em; }
+
+.helpNavi {
+	width: 200px;
+	position: absolute;
+	top: -99999px;
+}
+
+.helpNavi a {
+	text-decoration: none;
+	background: transparent;
+}
+
+
+img.photo { border: solid 1px #666666; }
+
+
+a img {
+	color: #FFFFFF;
+	background: transparent;
+	border: 0px none;
+	vertical-align: bottom;
+}

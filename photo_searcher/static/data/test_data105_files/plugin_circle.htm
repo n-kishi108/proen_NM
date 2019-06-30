@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>plugin</title>
+<style type="text/css">
+	html{border:none;}
+	body{margin:0;}
+</style>
+<link href="plugin_profile_data/plugin.css" rel="stylesheet" 
+type="text/css">
+<script type="text/javascript">
+var iframeHeight = function(){
+	if(!window.parent.document) return false;
+	
+	try { // !IE
+		document.styleSheets[0].insertRule( 'html' + '{overflow:hidden;}', document.styleSheets[0].cssRules.length );
+	} catch (e) { // IE
+		document.styleSheets[0].addRule( 'html', '{overflow:hidden;}');
+	}
+	
+	height = document.getElementsByTagName('div')[0].offsetHeight;
+	window.parent.document.getElementById('plg_circle').style.height = height + 'px';
+	
+	setTimeout('iframeHeight()',750)
+}
+
+try {
+	window.addEventListener('load', iframeHeight, false);
+} catch (e) {
+	window.attachEvent('onload', iframeHeight);
+}
+</script>
+</head><body>
+<div class="pluginLevel" id="plugCircle">
+	
+
+	
+	<div class="noText">まだ設定されておりません。</div>
+	<p><a href="http://mypagehelp.atja.jp/e596.html" title="参加サークルとは？" 
+target="_parent">参加サークルとは？</a></p>
+	
+
+	
+</div>
+</body></html>

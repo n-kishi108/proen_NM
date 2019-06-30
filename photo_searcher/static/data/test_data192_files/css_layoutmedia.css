@@ -1,0 +1,166 @@
+#layout1media,
+	#layout2media,
+	#layout3media {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: block;
+	clear: both;
+	}
+	#gamespace #layout1media {width: 144px;}
+	#layout1media {width: 158px;}
+	#layout1media.right {
+	margin-right: 0;
+	margin-left: 5px;
+	float: right;
+	clear: right;
+	}
+	#layout1media.left {
+	margin-right: 5px;
+	margin-left: 0;
+	float: left;
+	clear: left;
+	}
+	#layout2media,
+	#layout3media {width: 100%;}
+	#gamespace #layout1media #layoutmedia_wrap,
+	#layout1media #layoutmedia_wrap {width: 100%;}
+	#gamespace #layout3media.item1 #layoutmedia_wrap {width: 140px;}
+	#layout3media.item1 #layoutmedia_wrap {width: 154px;}
+	#gamespace #layout3media.item2 #layoutmedia_wrap {width: 280px;}
+	#layout3media.item2 #layoutmedia_wrap {width: 308px;}
+	#gamespace #layout3media #layoutmedia_wrap,
+	#gamespace #layoutmedia_wrap {width: 420px;}
+	#layout3media #layoutmedia_wrap,
+	#layoutmedia_wrap {width: 462px;}
+	#layoutmedia_wrap {
+	margin: 0 auto 10px ! important;
+	padding: 0 ! important;
+	text-align: left;
+	float: none;
+	display: block;
+	clear: both;
+	position: relative;
+	zoom: 1;
+	}
+	#layoutmedia_wrap:after {
+	height: 0;
+	content: ".";
+	visibility: hidden;
+	display: block;
+	clear: both;
+	}
+	#layout1media #layoutmedia_wrap ul#layoutmedia {width: 150px;}
+	#layoutmedia_wrap ul#layoutmedia {
+	width: 100%;
+	margin: 0 ! important;
+	padding: 0 ! important;
+	text-align: center;
+	list-style: none;
+	float: none;
+	display: block;
+	clear: both;
+	zoom: 1;
+	}
+	#layoutmedia_wrap ul#layoutmedia:after {
+	height: 0;
+	content: ".";
+	visibility: hidden;
+	display: block;
+	clear: both;
+	}
+	#layout1media #layoutmedia_wrap ul#layoutmedia li {clear: both;}
+	#layout1media.right #layoutmedia_wrap ul#layoutmedia li {border-right: solid 6px #FFF ! important;}
+	#layout1media.left #layoutmedia_wrap ul#layoutmedia li {border-left: solid 6px #FFF ! important;}
+	#layoutmedia_wrap ul#layoutmedia li {
+	margin: 0 ! important;
+	padding: 0 0 10px ! important;
+	text-align: left;
+	vertical-align: top;
+	list-style: none;
+	float: left;
+	background: none ! important;
+	border: solid 2px #FFF;
+	display: block;
+	clear: none;
+	}
+	#layoutmedia_wrap ul#layoutmedia li a.media_l {
+	margin: 0;
+	padding: 0;
+	border: none;
+	display: block;
+	clear: none;
+	position: relative;
+	}
+	* html #layoutmedia_wrap ul#layoutmedia li a.media_l {display: inline-block;}
+	#layoutmedia_wrap ul#layoutmedia li img {
+	margin: 0;
+	padding: 0;
+	display: inline-block ! important;
+	clear: none;
+	}
+	*:first-child+html #layoutmedia_wrap ul#layoutmedia li img {display: block ! important;}
+	#layoutmedia_wrap ul#layoutmedia li a:hover img {
+	opacity: 0.7;
+	filter:progid:DXImageTransform.Microsoft.Alpha(Enabled=1,Style=0,Opacity=70);
+	}
+	#layoutmedia_wrap ul#layoutmedia li img.glass {
+	width: 18px;
+	height: 18px;
+	margin: -18px 0 0 0 ! important;
+	padding: 0 ! important;
+	display: inline-block ! important;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	visibility: hidden;
+	opacity: 0.7;
+	filter:progid:DXImageTransform.Microsoft.Alpha(Enabled=1,Style=0,Opacity=70);
+	}
+	#layoutmedia_wrap ul#layoutmedia li a img.glass {visibility: visible;}
+	*:first-child+html #layoutmedia_wrap ul#layoutmedia li img.glass {display: block ! important;}
+	#layoutmedia_wrap ul#layoutmedia li p {
+	margin: 0 ! important;
+	padding: 5px 5px 0 ! important;
+	font-size: 12px ! important;
+	line-height: 1.5em ! important;
+	text-align: left;
+	display: block;
+	clear: both;
+	}
+	#layoutmedia_wrap ul#layoutmedia li p,
+	#layoutmedia_wrap ul#layoutmedia li p a {color: #666 ! important;}
+	#layoutmedia_wrap ul#layoutmedia li p.credit {
+	font-size: 10px ! important;
+	line-height: 1.1em ! important;
+	}
+	#layoutmedia_wrap ul#layoutmedia li p.credit,
+	#layoutmedia_wrap ul#layoutmedia li p.credit a {color: #999 ! important;}
+	#gamespace #layout2media ul#layoutmedia li,
+	#gamespace #layout2media ul#layoutmedia li img {width: 206px;}
+	#gamespace #layout1media ul#layoutmedia li,
+	#gamespace #layout1media ul#layoutmedia li img,
+	#gamespace #layout3media ul#layoutmedia li,
+	#gamespace #layout3media ul#layoutmedia li img {width: 136px;}
+	#gamespace #layoutmedia_wrap ul#layoutmedia li img.glass {width: 18px;}
+	#layout2media ul#layoutmedia li,
+	#layout2media ul#layoutmedia li img {width: 227px;}
+	#layout1media ul#layoutmedia li,
+	#layout1media ul#layoutmedia li img,
+	#layout3media ul#layoutmedia li,
+	#layout3media ul#layoutmedia li img {width: 150px;}
+	.article#static hr,
+	#block_story hr,
+	.leaf_body hr,
+	.article_body hr {
+	width: 100%;
+	height: 1px;
+	margin: 0;
+	padding: 0;
+	content: ".";
+	visibility: hidden;
+	border: none;
+	float: none;
+	display: block;
+	clear: both;
+	}

@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/* 全体 */
+body{
+	text-align:center;
+	font-family:"ＭＳ Ｐゴシック",Verdana,Osaka,sans-serif;
+	background-color:#FFFFFF;
+	color:#333333;
+	font:13px arial,helvetica,clean,sans-serif;
+	line-height:1.22em;
+}
+
+#wrapper{width:290px;text-align:left;position:relative;padding:5px 5px 0px 5px;}
+
+/* float解除 */
+.clearfix:after{
+	content:" "; 
+	display:block; 
+	height:0; 
+	visibility:hidden; 
+	clear:both; 
+}
+* html.clearfix{
+	/*\*/height:1%;/* for WinIE*/ 
+/*	display:inline-table;/* for MacIE*/
+}
+
+/* リンク */
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+/* ロゴブロック */
+#wrapper a.logoBlock{
+	background:transparent url(../../img/poweredby_ORAPI300x250.gif) no-repeat 0px 0px;
+	position:absolute;
+	z-index:99;
+	top:225px;
+	left:0px;
+	display:block;
+	width:300px;
+	height:25px;
+}
+
+/* プロダクトブロック */
+.productsBlock{
+	width:290px;
+	height:66px;
+	border-bottom:1px dotted #CCCCCC;
+	padding:3px 0px 3px 0px;
+}
+html>body .productsBlock{margin:0px 0px 0px 0px;}
+.productsBlock img.product{float:left;border:1px solid #EEEEEE;background-color:#FFFFFF;margin:0px 5px 0px 0px;}
+.productsBlock img.product:hover{border:1px solid #F39800;background-color:#FFFFFF;}
+.productsBlock .description{
+	font-size:96%;
+	color:#666666;
+	height:3.8em;
+	line-height:1.3em;
+	overflow:hidden;
+	text-align:left;
+	padding:0px;
+}
+.productsBlock .description b{color:#CC3300;font-weight:bold;font-size:105%;}
+.productsBlock a.button{display:none;}
+.productsBlock a.detail{display:none;}
+.productsBlock a.button span{display:none;}
+.productsBlock a.link{
+	font-size:80%;
+	line-height:130%;
+	display:block;
+	height:1.4em;
+	line-height:1.3em;
+	overflow:hidden;
+	color:#C38743;
+	text-decoration:underline;
+	padding:0px;
+}
+.productsBlock a.link:hover{text-decoration:none;}

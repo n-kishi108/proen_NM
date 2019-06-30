@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>plugin</title>
+<style type="text/css">
+	html{border:none;}
+	body{margin:0;}
+</style>
+<link href="plugin_profile_data/plugin.css" rel="stylesheet" 
+type="text/css">
+<script type="text/javascript">
+var iframeHeight = function(){
+	if(!window.parent.document) return false;
+	
+	try { // !IE
+		document.styleSheets[0].insertRule( 'html' + '{overflow:hidden;}', document.styleSheets[0].cssRules.length );
+	} catch (e) { // IE
+		document.styleSheets[0].addRule( 'html', '{overflow:hidden;}');
+	}
+	
+	height = document.getElementsByTagName('div')[0].offsetHeight;
+	window.parent.document.getElementById('plg_profile').style.height = height + 'px';
+	
+	setTimeout('iframeHeight()',750)
+}
+
+try {
+	window.addEventListener('load', iframeHeight, false);
+} catch (e) {
+	window.attachEvent('onload', iframeHeight);
+}
+</script>
+</head><body>
+<div class="pluginLevel" id="plugProfile">
+	
+	<div class="profilePhoto">
+	<a 
+href="http://saakuru.atja.jp/my/profile.php?sid=ti-da.net&amp;profile_mid=15193"
+ target="_parent">
+	<img src="plugin_profile_data/imgProf.jpg" alt="ツネボー" width="100">
+	</a>
+	</div>
+	<p class="profileName">ツネボー</p>
+	<table border="0" cellpadding="0" cellspacing="0">
+		
+		
+		
+	</table>
+	
+	<br>
+	<p>
+	<a 
+href="http://saakuru.atja.jp/my/profile.php?sid=ti-da.net&amp;profile_mid=15193"
+ target="_parent">プロフィールをもっと見る</a>
+	</p>
+	
+
+	
+
+	
+</div>
+</body></html>

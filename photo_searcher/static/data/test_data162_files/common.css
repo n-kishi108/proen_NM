@@ -1,0 +1,11 @@
+﻿@charset "utf-8";
+/* 2008.2.08 */
+
+/* Hides from IE-mac \*/
+@import "/common/css/reset.css";/* reset \*/
+@import "/common/css/layout.css";/* layout \*/
+@import "/common/css/base.css";/* base \*/
+@import "/common/css/free_area.css";/* free-area \*/
+/* End hide from IE-mac */
+@charset "utf-8";
+

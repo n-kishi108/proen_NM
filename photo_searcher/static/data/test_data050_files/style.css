@@ -1,0 +1,144 @@
+
+
+body{
+margin:0px;
+padding0px;
+}
+
+
+div#common_header
+{
+	width: 833px;
+	margin: 8px auto 16px auto;
+        margin:-top:8px;
+	position: relative;
+	text-align: left;
+}
+div#common_header img
+{
+	border: 0;
+}
+div#common_header ul
+{
+	list-style-type: none;
+	padding: 0;
+}
+
+div#common_header p
+{
+	margin: 8px 0;
+	padding: 0;
+}
+div#common_header h1
+{
+	margin: 8px;
+	line-height: 1;
+	padding: 0;
+}
+div#common_header div#title
+{
+	margin: 8px;
+	line-height: 1;
+	padding: 0;
+}
+div#common_header ul
+{
+	background-image: url(../image/template/header_background.png);
+	background-repeat: no-repeat;
+	height: 38px;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+	width: 788px;
+}
+div#common_header ul li
+{
+	background-image: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+div#common_header p#header_photo_contest
+{
+	left: 465px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 20px;
+	-top: 29px;
+}
+
+.header_photo_contest
+{
+	float:right;
+	margin-left: 300px;
+	padding: 0;
+	position: absolute;
+	top: 20px;
+	-top: 29px;
+}
+
+
+div#common_footer
+{
+	width: 838px;
+	clear: both;
+	font-size: 10px;
+	margin: 0 auto 20px auto;;
+	text-align: left;
+	font-family: "ＭＳ Ｐゴシック", "Osaka";
+	line-height: 100%;
+}
+div#common_footer a:link, div#common_footer a:visited
+{
+	color: #473300!important;
+}
+div#common_footer address
+{
+	padding: -30;
+	margin: -30 10px 0 0;
+	display: block;
+	font-style: normal;
+	text-align: right;
+	color: #666;
+}
+div#common_footer ul.logo
+{
+	background-image: url(file/image/template/foot_logo.png);
+	background-repeat: no-repeat;
+	width: 104px;
+	height: 14px;
+	background-position: 4px 0px;
+	margin: 0px 5px -14px;
+	padding: 0px 5px -14px;
+}
+div#common_footer address a:link, div#common_footer address a:visited
+{
+	color: #666!important;
+	text-decoration: none;
+}
+div#common_footer ul.navigation
+{
+	background-image: url(../image/template/footer_background.gif);
+	background-position: 4px 0;
+	background-repeat: no-repeat;
+	height: 28px;
+	margin: 10px 0 0 -4px;
+	padding: 7px 0 0 24px;
+	width: 833px;
+	color: #767271;
+}
+div#common_footer ul.navigation li
+{
+	background-image: none;
+	border-style: solid;
+	border-width: 0 0 0 1px;
+	display: inline;
+	margin: 0;
+	padding: 0 8px;
+	font-size: 100%;
+}
+div#common_footer ul.navigation li.last_item
+{
+	border-right-width: 1px;
+}

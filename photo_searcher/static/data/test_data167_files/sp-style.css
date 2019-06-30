@@ -1,0 +1,470 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------------------
+
+TITLE    : nikkansports.com ポータル部 スポーツページ用 CSS
+DATE     : 2006/04/21
+URL      : http://wwww.nikkansports.com/css/sports/sp-style.css
+DESIGNER : Chiaki Hatanaka
+
+--------------------------------------------------------------------- */
+
+
+
+
+
+/* Main Menu
+------------------------------------------------------- */
+body#sports li#menuSports a,
+body#sports li#menuSports a:visited,
+body#sports li#menuSports a:hover,
+body#sports li#menuSports a:active {
+	height: 28px;
+	background: url(/img/main-menu.gif) no-repeat -242px -98px;
+	top: -1px;
+	z-index: 3;
+}
+
+
+
+
+/* Genre Title
+------------------------------------------------------- */
+#genreTitle h2 a {
+	width: 325px;
+	background: url(/img/title-sp.gif) no-repeat;
+}
+
+
+
+
+/* Genre Menu
+------------------------------------------------------- */
+#genreMenu {
+	height: 23px;
+	font-size: 80%;
+	background: url(/img/genre-menu_bg_off.gif) repeat-x;
+	list-style: none;
+}
+
+#genreMenu li {
+	width: 14%;
+	height: 23px;
+	text-align: center;
+	line-height: 1.55em;
+	float: left;
+}
+
+#genreMenu li.last { width: 16%; }
+/* Hides from IE5-mac \*/
+	*html #genreMenu li.last { width: 15.7%; }
+/* End hide from IE5-mac */
+
+ol#genreMenu li#menuGolf,
+ol#genreMenu li#menuSumo { width: 13%; }
+
+ol#genreMenu li#menuMotor {
+	width: 16%;
+	font-size: 95%;
+	line-height: 1.7em;
+}
+
+#genreMenu li a {
+	height: 23px;
+	background: url(/img/genre-menu_icon.gif) no-repeat right;
+	display: block;
+}
+
+
+#genreMenu li.top { background: url(/img/genre-menu_left2.gif) no-repeat left; }
+
+#genreMenu li.last { float: right; }
+
+#genreMenu li.last a { background: url(/img/genre-menu_right2.gif) no-repeat right; }
+
+#genreMenu h2 {
+	font-size: 100%;
+	font-weight: normal;
+	line-height: 1.7em;
+	background: url(/img/genre-menu_bg_on.gif) repeat-x;
+}
+
+#genreMenu h2 span {
+	background: url(/img/genre-menu_left_on.gif) no-repeat left;
+	display: block;
+}
+
+#genreMenu h2 span a { background: url(/img/genre-menu_right_on.gif) no-repeat right; }
+
+
+
+/* ----- Sports Top ----- */
+body#sports li#menuSportsTop { background: url(/img/genre-menu_bg_on2.gif) repeat-x; }
+
+body#sports li#menuSportsTop span {
+	background: url(/img/genre-menu_left2.gif) no-repeat left;
+	display: block;
+}
+
+body#sports li#menuSportsTop span a { background: url(/img/genre-menu_icon_on.gif) no-repeat right; }
+
+
+
+/* ----- Theme Page ----- */
+#golf ol#genreMenu li.top span,
+#motor ol#genreMenu li.top span,
+#sumo ol#genreMenu li.top span,
+#usa ol#genreMenu li.top span,
+#rugby ol#genreMenu li.top span,
+#goto ol#genreMenu li.top span {
+	background: url(/img/genre-menu_left.gif) no-repeat left;
+	display: block;
+}
+
+#golf ol#genreMenu li.last a,
+#motor ol#genreMenu li.last a,
+#sumo ol#genreMenu li.last a,
+#usa ol#genreMenu li.last a,
+#rugby ol#genreMenu li.last a {
+	background: url(/img/genre-menu_right.gif) no-repeat right;
+	display: block;
+}
+
+#goto ol#genreMenu li.last a {
+	background: url(/img/genre-menu_right_on2.gif) no-repeat right;
+	display: block;
+}
+
+#golf ol#genreMenu li#menuSportsTop,
+#motor ol#genreMenu li#menuSportsTop,
+#sumo ol#genreMenu li#menuSportsTop,
+#usa ol#genreMenu li#menuSportsTop,
+#rugby ol#genreMenu li#menuSportsTop,
+#goto ol#genreMenu li#menuSportsTop,
+#bj ol#genreMenu li#menuSportsTop { background: url(/img/genre-menu_bg_off.gif) repeat-x; }
+
+#golf ol#genreMenu li#menuSportsTop span,
+#motor ol#genreMenu li#menuSportsTop span,
+#sumo ol#genreMenu li#menuSportsTop span,
+#usa ol#genreMenu li#menuSportsTop span,
+#rugby ol#genreMenu li#menuSportsTop span,
+#goto ol#genreMenu li#menuSportsTop span,
+#bj ol#genreMenu li#menuSportsTop span {
+	background: url(/img/genre-menu_left.gif) no-repeat left;
+	display: block;
+}
+
+#motor ol#genreMenu li#menuSportsTop span a,
+#sumo ol#genreMenu li#menuSportsTop span a,
+#usa ol#genreMenu li#menuSportsTop span a,
+#rugby ol#genreMenu li#menuSportsTop span a,
+#goto ol#genreMenu li#menuSportsTop span a,
+#bj ol#genreMenu li#menuSportsTop span a { background: url(/img/genre-menu_icon.gif) no-repeat right; }
+
+#golf ol#genreMenu li#menuSportsTop span a,
+#motor ol#genreMenu li#menuGolf a,
+#sumo ol#genreMenu li#menuMotor a,
+#usa ol#genreMenu li#menuSumo a,
+#rugby ol#genreMenu li#menuUsa a,
+#goto ol#genreMenu li#menuRugby a { background: url(/img/genre-menu_icon2.gif) no-repeat right; }
+
+
+
+
+/* Theme Menu
+------------------------------------------------------- */
+#themeMenu {
+	height: 21px;
+	background: url(/img/theme-menu_bg.gif) repeat-x;
+	clear: both;
+}
+
+#themeMenu div {
+	height: 21px;
+	background: url(/img/theme-menu_left.gif) no-repeat left top;
+}
+
+#themeMenu div ol {
+	height: 21px;
+	font-size: 80%;
+	list-style: none;
+	background: url(/img/theme-menu_right.gif) no-repeat right top;
+}
+
+#themeMenu div ol li {
+	height: 21px;
+	line-height: 1.5em;
+	background: url(/img/theme-menu_line.gif) no-repeat right;
+	float: left;
+}
+
+#themeMenu div ol li a {
+	padding: 5px 15px 5px;
+	height: 21px;
+}
+
+
+
+/* ----- Contents Page ----- */
+#gfSchedule li#menuGFschedule,
+#f1Schedule li#menuMTf1,
+#mtSchedule li#menuMTschedule,
+#mtColumn li#menuMTcolumn,
+#smScore li#menuSMscore,
+#smRank li#menuSMrank,
+#nbScore li#menuNba,
+#nbSchedule li#menuNba,
+#nbStandings li#menuNba,
+#nbPlayoff li#menuNba,
+#nbAllstar li#menuNba,
+#nbTeam li#menuNba,
+#nfScore li#menuNfl,
+#nfSchedule li#menuNfl,
+#nfStandings li#menuNfl,
+#nfPlayoff li#menuNfl,
+#nfTeam li#menuNfl,
+#nhScore li#menuNhl,
+#nhSchedule li#menuNhl,
+#nhStandings li#menuNhl,
+#nhPlayoff li#menuNhl,
+#nhTeam li#menuNhl,
+#goBacknumber li#menuGObacknumber,
+#goBook li#menuGObook,
+#goProfile li#menuGOprofile,
+#goSa li#menuGOsa {
+	line-height: 1.7em;
+	height: 21px;
+	background: url(/img/theme-menu_bg_on.gif) repeat-x;
+}
+
+#mtSchedule li#menuMTschedule span,
+#mtColumn li#menuMTcolumn span,
+#smRank li#menuSMrank span,
+#nfScore li#menuNfl span,
+#nfSchedule li#menuNfl span,
+#nfStandings li#menuNfl span,
+#nfPlayoff li#menuNfl span,
+#nfTeam li#menuNfl span,
+#nhScore li#menuNhl span,
+#nfSchedule li#menuNhl span,
+#nhStandings li#menuNhl span,
+#nhPlayoff li#menuNhl span,
+#nhTeam li#menuNhl span,
+#goBook li#menuGObook span,
+#goProfile li#menuGOprofile span,
+#goSa li#menuGOsa span {
+	background: url(/img/theme-menu_left_on.gif) no-repeat left 0;
+	display: block;
+}
+
+#gfSchedule li#menuGFschedule span a,
+#f1Schedule li#menuMTf1 span a,
+#mtSchedule li#menuMTschedule span a,
+#mtColumn li#menuMTcolumn span a,
+#smScore li#menuSMscore span a,
+#smRank li#menuSMrank span a,
+#nbScore li#menuNba span a,
+#nbSchedule li#menuNba span a,
+#nbStandings li#menuNba span a,
+#nbPlayoff li#menuNba span a,
+#nbAllstar li#menuNba span a,
+#nbTeam li#menuNba span a,
+#nfScore li#menuNfl span a,
+#nfSchedule li#menuNfl span a,
+#nfStandings li#menuNfl span a,
+#nfPlayoff li#menuNfl span a,
+#nfTeam li#menuNfl span a,
+#nhScore li#menuNhl span a,
+#nhSchedule li#menuNhl span a,
+#nhStandings li#menuNhl span a,
+#nhPlayoff li#menuNhl span a,
+#nhTeam li#menuNhl span a,
+#goBacknumber li#menuGObacknumber span a,
+#goBook li#menuGObook span a,
+#goProfile li#menuGOprofile span a,
+#goSa li#menuGOsa span a {
+	height: 21px;
+	background: url(/img/theme-menu_right_on.gif) no-repeat right 1px;
+}
+
+#mtSchedule li#menuMTf1,
+#mtColumn li#menuMTschedule,
+#smRank li#menuSMkensyo,
+#nfScore li#menuNba,
+#nfSchedule li#menuNba,
+#nfStandings li#menuNba,
+#nfPlayoff li#menuNba,
+#nfAllstar li#menuNba,
+#nfTeam li#menuNba,
+#nhScore li#menuNfl,
+#nhStandings li#menuNfl,
+#nhPlayoff li#menuNfl,
+#nhTeam li#menuNfl,
+#goBook li#menuGObacknumber,
+#goProfile li#menuGObook,
+#goSa li#menuGOprofile { background: none; }
+
+
+
+
+/* Contents Menu
+------------------------------------------------------- */
+#f1Schedule li#menuf1schedule,
+#nbScore li#menuNBscore,
+#nbSchedule li#menuNBschedule,
+#nbStandings li#menuNBstandings,
+#nbPlayoff li#menuNBplayoff,
+#nbAllstar li#menuNBallstar,
+#nbTeam li#menuNBteam,
+#nfScore li#menuNFscore,
+#nfSchedule li#menuNFschedule,
+#nfStandings li#menuNFstandings,
+#nfPlayoff li#menuNFplayoff,
+#nfTeam li#menuNFteam,
+#nhScore li#menuNHscore,
+#nhSchedule li#menuNHschedule,
+#nhStandings li#menuNHstandings,
+#nhPlayoff li#menuNHplayoff,
+#nhTeam li#menuNHteam,
+#bjScore li#menuBJscore,
+#bjSchedule li#menuBJschedule,
+#bjStandings li#menuBJstandings { background: url(/img/contents-menu_icon_on.gif) no-repeat 0 0.3em; }
+
+.goSaContents h3#contentsTitle,
+#bjScore h3#contentsTitle,
+#bjSchedule h3#contentsTitle,
+#bjStandings h3#contentsTitle { margin-bottom: 0; }
+
+
+
+
+/* Top News Area
+------------------------------------------------------- */
+#topNews { clear: none; }
+
+#topNews h2 { margin: 1em 0; }
+
+#topNews p#news {
+	margin-bottom: 1em;
+	font-size: 90%;
+	line-height: 1.6em;
+}
+
+#topNews p#news2 {
+	margin: 0 0 1em 0;
+	padding-bottom: 1em;
+	font-size: 90%;
+	line-height: 1.6em;
+	border-bottom: 1px dotted #333333;
+}
+
+
+/* ----- Top News List ----- */
+#topNewsList {
+	margin-right: 15px;
+	float: left;
+}
+
+#topNewsList ul.newsList { margin: 0 0 15px 24px; }
+/* Hides from IE5-mac \*/
+	*html #topNewsList ul.newsList { margin: 0 0 0 24px; }
+/* End hide from IE5-mac */
+
+#AD120x60 {
+	margin-top: 4px;
+	padding: 0;
+	width: 120px;
+	float: left;
+}
+
+
+
+
+/* AD Area
+------------------------------------------------------- */
+#AD_Area {
+	margin: 0 0 15px;
+	padding: 0;
+	height: 45px;
+	clear: both;
+}
+
+#AD160x45 {
+	margin: 0;
+	width: 160px;
+	float: left;
+}
+
+ul#textAD {
+	margin-left: 170px;
+	padding-top: 2px;
+	height: 43px;
+	font-size: 80%;
+	line-height: 1.6em;
+	list-style: none;
+	border-top: 1px dashed #666666;
+	border-bottom: 1px dashed #666666;
+}
+
+ul#textAD li {
+	padding-left: 20px;
+	background: url(/img/list_mark03.gif) no-repeat 8px 0.55em;
+}
+
+
+
+
+/* Recommend
+------------------------------------------------------- */
+#recommend {
+	margin-bottom: 15px;
+	padding: 1px;
+	background: #C5C5C5;
+	border: 1px solid #999999;
+	clear: both;
+}
+
+#recommend dt {
+	padding: 3px 7px 3px 21px;
+	font-size: 80%;
+	background: #C5C5C5 url(/img/icon_recommend.gif) no-repeat 3px 0.2em;
+	float: left;
+}
+/* Hides from IE5-mac \*/
+	*html #recommend dt { background-position: 3px 0.15em; }
+/* End hide from IE5-mac */
+
+#recommend dd {
+	padding: 3px 0;
+	font-size: 80%;
+	text-indent: 7px;
+	background: #F3F3F3;
+}
+
+/* Hides from Safari */
+#recommend dt {
+	background: #C5C5C5 url(/img/icon_recommend.gif) no-repeat 3px 0.25em;
+	font-weight: bold;#
+}
+/* End hide from Safari */
+
+
+
+
+/* 300ｘ250 AD Area
+------------------------------------------------------- */
+p#AD300x250 {
+	margin: 0.5em 0 15px;
+	width: auto;
+	float: left;
+	clear: left;
+}
+/* Hides from IE5-mac \*/
+	*html p#AD300x250 { margin: 0.5em 0; }
+/* End hide from IE5-mac */
+
+
+p#AD300x250 a { margin-right: 5px; }
+
+
+

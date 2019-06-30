@@ -1,0 +1,563 @@
+@charset "UTF-8";
+
+/*フォト*/
+*	{		
+	font-family					: "verdana", "helvetica", "osaka", "ＭＳ Ｐゴシック", sans-serif;
+}
+
+textarea {
+font-family: "ヒラギノ明朝 Pro W6", "Osaka", "ＭＳ Ｐゴシック", "trebuchet MS", "trebuchet", "verdana", "arial", "sans-serif";
+}
+
+
+/*ボディ*/
+	body{
+	color:#000;
+	margin:0px;
+	background:#006633 url(http://admin.ti-da.net/_img/photo_green/photrogb02.jpg) top left repeat;
+                text-align:center;
+	}
+
+/*フォーム*/	
+	form{
+		margin:0px;
+		padding:0px;
+                 text-align:left;
+	}
+/*テーブル作成*/
+	table.form{
+	margin:25px 0px 0px 13px;
+                 text-align:left;
+	}
+	
+	img	{
+	border:none;
+	}
+
+ul.rss		{
+	margin						: 0px;
+	padding						: 0px;
+	width							: 100%;
+	text-align				: center;
+}
+
+ul.rss li	{
+	border-right				: #999 1px solid;
+	display							: inline;
+	font-size						: 12px;
+	font-style					: normal;
+	font-weight					: bold;
+	letter-spacing			: 0.2px;
+	margin-right				: 0.3em;
+	padding-right				: 0.5em;
+	padding-left				: 0.2em;
+}
+
+ul.rss a:link		{
+	color								: #333333;
+	text-decoration			: none;
+}
+
+ul.rss a:visited	{
+	color								: #333333;
+	text-decoration			: none;
+}
+
+ul.rss a:hover		{
+	color								: #999999;
+	text-decoration			: none;
+}
+
+ul.rss a:active	{
+	color								: #333333;
+	text-decoration			: none;
+}
+
+	a{color:#816F79;text-decoration:none;}
+	a:link{color:#816F79;text-decoration:none;}
+	a:visited{text-decoration:none;}
+	a:active{}
+	a:hover{color:#816F79;text-decoration:underline;}
+
+	a.acalendar{color:#816F79;text-decoration:none;}
+	a.acalendar:link{color:#816F79;text-decoration:none;}
+	a.acalendar:visited{text-decoration:none;}
+	a.acalendar:active{}
+	a.acalendar:hover{color:#816F79;text-decoration:underline;}
+
+	a.acontinues{color:#816F79;text-decoration:none;}
+	a.acontinues:link{color:#816F79;text-decoration:none;}
+	a.acontinues:visited{text-decoration:none;}
+	a.acontinues:active{}
+	a.acontinues:hover{color:#816F79;text-decoration:underline;}
+
+	a.amenu{color:#816F79;text-decoration:none;}
+	a.amenu:link{color:#816F79;text-decoration:none;}
+	a.amenu:visited{text-decoration:none;}
+	a.amenu:active{}
+	a.amenu:hover{color:#816F79;text-decoration:underline;}
+
+/*全体のレイアウト*/
+	#container{font-size:small;
+		width:740px;
+		background-color:#ffffff;
+		margin:0px auto;
+                 border-top-width: 1px;
+	         border-right-width: 1px;
+	         border-bottom-width: 1px;
+	         border-left-width: 1px;
+	         border-right-style: solid;
+	         border-left-style: solid;
+	         border-top-color: #C4D2C1;
+	         border-right-color: #C4D2C1;
+	         border-bottom-color: #C4D2C1;
+	         border-left-color: #C4D2C1;
+                 text-align:left;
+	}
+
+/*サイトのタイトル・サブタイトル・概要が入るところ*/
+	#banner,#subbanner{
+		background:#fff url(http://admin.ti-da.net/_img/photo_green/photrog2.jpg) left;
+		padding:0px 0px 0px 0px;
+		height: 150px;
+	}
+
+/*　サイトのタイトル・概要が入るところのリンク　*/
+	#banner a{color:#fff;text-decoration:none;}
+	#banner a:link{color:#fff;text-decoration:none;}
+	#banner a:visited{text-decoration:none;}
+	#banner a:active{}
+	#banner a:hover{color:#fff;text-decoration:underline;}
+
+	#subbanner a{color:#fff;text-decoration:none;}
+	#subbanner a:link{color:#fff;text-decoration:none;}
+	#subbanner a:visited{text-decoration:none;}
+	#subbanner a:active{}
+	#subbanner a:hover{color:#fff;text-decoration:underline;}
+
+
+/*　サイトのh1,h2,h3のマージンなど配置　*/
+	h1,h2,h3{margin:0px;padding:0px;}
+
+
+/*　ブログタイトルの概要　*/
+	.blogtitle{
+		font-size:30px;
+		font-weight:bold;
+		padding:70px 0px 0px 10px;
+		text-align:left;
+		letter-spacing:2px;
+	}
+
+	.description{
+		color:#FFFFFF;
+		font-size:12px;
+		padding:4px 200px 0px 15px;
+		text-align:left;
+		letter-spacing:2px;
+	}
+
+
+	#content{
+		width:540px;
+		float:right;
+	}
+
+
+/*サイド概要指定*/	
+	#links{
+		width:185px;
+		float:left;
+		text-align:left;
+		margin:10px 0px 0px 0px;
+		padding:20px 0px 0px 10px;
+                  background: url()  no-repeat 0px 0px;
+		background-color:#FFFFFF;
+ 
+	}
+
+/*フッタ*/
+	#footer{
+		    clear:both;
+
+	}
+
+/*コピーライト*/
+	#copyright				{
+		background		: #006633 bottom;
+		width			: 100%;
+		height			: 16px;
+		font-size			: 10px;
+		font-weight		: bold;
+		color			: #FFFFFF;
+		margin						: 0px;
+		padding						: 0px;
+		line-height				: 16px;
+		text-align				: center;
+	}
+
+/*　エントリー指定　*/
+	.blog{  
+		margin:30px 10px 20px 15px;
+	}
+
+.date{
+	background: no-repeat 1px 1px;
+	color: #666666;
+	font-size: 12px;
+	letter-spacing: 0px;
+	padding: 5px 10px 5px 15px;
+	font-weight: bold;
+	text-align: right;
+
+}
+
+.blogbody{background:#fff;
+		 
+   		 padding:0px;
+   		background-repeat:repeat-y;
+		background-position:center top;
+		
+		width:515px;
+		text-align:left;
+		margin:0px;
+		border-top: 1px solid #816F79;
+				border-right: 1px solid #816F79;
+						border-left: 1px solid #816F79;
+							border-bottom: 1px solid #816F79;
+
+}
+
+.title{
+		color:#1E3231;
+		font-size:13px;
+		font-weight:bold;
+		height:18px;
+                background:#C4D2C1 no-repeat 0px 0px;
+	         background-repeat: no-repeat;
+	         background-position: top center;
+	         padding: 6px 10px 5px 10px;
+	 	
+	}
+
+
+.title_s{
+		color		: #666666;
+		font-size:12px;
+		font-weight:bold;
+		height:16px;
+                text-align:left;
+	        padding: 4px 10px 4px 10px;
+	background:#C4D2C1;	 	
+	}
+
+
+.main{
+	color:#000;
+	font-size:12px;
+	line-height:160%;
+	margin:15px 20px 0px;
+         width:475px;
+         
+}
+
+.main img{
+margin:0px 5px 0px 5px;
+}
+
+.main-continues{
+font-size:10px;
+}
+
+
+	.box_bottom {
+		background-repeat:no-repeat;
+		background-position:center top;
+		background-image:url(http://www.awazon.net/~sawada/nagararich/img/cornerbottom_s.gif);
+		width:515px;
+		height:8px;
+		margin:0px;
+		padding:0px;
+
+
+	}
+
+
+
+
+.posted{
+color:#000;
+font-size:10px;
+text-align:right;
+margin:10px 10px 25px 0px;
+}
+
+	a.aposted{color:#816F79;text-decoration:none;font-weight:bold;font-size:10px;}
+	a.aposted:link{color:#816F79;text-decoration:none;font-weight:bold;}
+	a.aposted:visited{text-decoration:none;font-weight:bold;}
+	a.aposted:active{text-decoration:none;font-weight:bold;}
+	a.aposted:hover{color:#816F79;text-decoration:underline;font-weight:bold;}
+
+
+.menu{
+color:#000;
+font-size:10px;
+
+padding:0px 0px 10px 0px;
+}
+
+.comments-head{
+color:#006600;
+font-size:10px;
+font-weight:bold;
+padding:0px 0px 15px 20px;
+height:10px;
+
+}
+
+.comments-body{
+	color:#000;
+	font-size:12px;
+	line-height:135%;
+	margin:16px auto 15px;
+margin:0px 10px 25px 20px;
+
+}
+
+
+.comments-post{
+color:#000;
+font-size:10px;
+text-align:right;
+margin:0px 20px 25px 0px;
+		text-align:right;
+}
+
+	.trackback-url{
+		color:#691815;
+		font-size:12px;
+		font-weight:bold;
+		margin:10px 0px 15px 13px;
+		text-align:left;
+	}
+
+.trackback-body{
+	font-size:12px;
+	line-height:135%;
+	margin:20px 0px 15px 13px;
+}
+
+.trackback-post{
+color:#000;
+font-size:10px;
+text-align:right;
+margin:0px 0px 25px 0px;
+}
+
+	a.atrackback-post{color:#816F79;text-decoration:none;font-weight:bold;}
+	a.atrackback-post:link{color:#816F79;text-decoration:none;font-weight:bold;}
+	a.atrackback-post:visited{text-decoration:none;font-weight:bold;}
+	a.atrackback-post:active{font-weight:bold;}
+	a.atrackback-post:hover{color:#816F79;text-decoration:underline;font-weight:bold;}
+
+label{
+font-size:10px;
+font-weight:bold;
+}
+
+#author{width:200px;border:1px solid #CCCCCC;}
+	#email{width:200px;border:1px solid #CCCCCC;}
+	#url{width:200px;border:1px solid #CCCCCC;}
+	#text{font-size:12px;width:400px;height:200px;border:1px solid #CCCCCC;}
+
+
+
+.pagetop{
+font-size:10px;
+text-align:right;
+margin:0px 10px 10px 0px;
+background-position: 1px;
+padding-top: 10px;
+}
+
+.calendarhead{
+	color												:#666;
+	font-size										:12px;
+	font-weight									:bold;
+	letter-spacing							:2px;
+	padding											:0px 0px 2px 0px;
+	text-align									:center;
+		border-top									:1px none #4E5B0C;
+
+
+	border-bottom								:1px solid #816F79;
+		width												:183px;
+}
+
+.calendartable{
+	margin											:0px auto 20px auto;
+	padding											:0px;
+	width												:183px;
+	text-align									:left;
+	background									:#fff
+	border-top									:1px solid #816F79;
+
+	border-bottom								:1px solid #816F79;
+	empty-cells:show;
+	border-spacing:0px;
+	border-collapse:collapse;
+}
+
+.calendarweek{
+	color												:#4E5B0C;
+	font-size										:12px;
+	font-weight									:bold;
+	position										:center;
+}
+
+.calendarwd{
+	border-top									:1px none #44231A;
+	border-left									:none;
+	border-right								:none;
+		border-bottom	: 1px solid #816F79;
+	background									:#C4D2C1;
+	background-position					:-2px 0px;
+	color												:#fff;
+	font-size										:12px;
+	letter-spacing							:2px;
+	padding											:5px 0px 5px 5px;
+}
+.calendard{
+	text-align:center;
+}
+.calendar{
+	font-size										:12px;
+	padding											:4px 2px 4px 2px;
+	position										:center;
+}
+
+.sidetitle{
+		border-bottom	: 2px solid #336624;
+
+		background	: #url() no-repeat left;
+                background-position:left center;
+		color		: #666666;
+		font-size		: 12px;
+                  font-weight       :bold;
+		letter-spacing	: 2px;
+		padding:2px 0px 2px 5px;
+
+}
+
+	.sidebody{
+		border-bottom: 1px dotted #999999;
+				margin:0px 0px 5px 0px;
+	}
+
+
+.side{
+		font-size:12px;
+		line-height:160%;
+		margin:3px 0px 5px 0px;
+                padding:5px;
+}
+
+	a.aside{color:#816F79;text-decoration:none;}
+	a.aside:link{color:#816F79;text-decoration:none;}
+	a.aside:visited{color:#816F79;text-decoration:none;}
+	a.aside:hover{color:#816F79;text-decoration:underline;}
+
+	a.arss{color:#816F79;text-decoration:none;}
+	a.arss:link{color:#816F79;text-decoration:none;}
+	a.arss:visited{text-decoration:none;}
+	a.arss:active{}
+	a.arss:hover{color:#816F79;text-decoration:underline;}
+
+
+
+.photo{text-align:center;}
+.nickname{color:#2b5695;font-size:xx-small;font-weight:bold;margin:10px 0px;}
+.message{font-size:xx-small;}
+.quotetable{}
+.quote{color:#000;font-size:xx-small;padding:1px;}
+.blogtimes{margin:0px 0px 16px 0px;text-align:center;}
+.powered{
+text-align:center;
+margin:0px 0px 10px 0px;
+}
+
+.syndicate{
+font-size:xx-small;
+text-align:center;
+}
+.checkers{
+font-size:xx-small;
+margin-top:10px;
+}
+
+a.adtitle{font-weight:bold;text-decoration:none;}
+a.adtitle:link{font-weight:bold;text-decoration:none;}
+a.adtitle:visited{font-weight:bold;text-decoration:none;}
+a.adtitle:active{font-weight:bold;text-decoration:none;}
+a.adtitle:hover{font-weight:bold;text-decoration:underline;}
+
+a.addescription{color:black;text-decoration:none;}
+a.addescription:link{color:black;text-decoration:none;}
+a.addescription:visited{color:black;text-decoration:none;}
+a.addescription:active{color:black;text-decoration:none;}
+a.addescription:hover{color:black;text-decoration:underline;}
+
+a.adurl{color:green;text-decoration:none;}
+a.adurl:link{color:#0000FF;text-decoration:none;}
+a.adurl:visited{color:#0000FF;text-decoration:none;}
+a.adurl:active{color:#0000FF;text-decoration:none;}
+a.adurl:hover{color:#0000FF;text-decoration:underline;}
+
+a.adld{text-decoration:none;}
+a.adld:link{text-decoration:none;}
+a.adld:visited{text-decoration:none;}
+a.adld:active{text-decoration:none;}
+a.adld:hover{text-decoration:underline;}
+body.ad{background:#f7p39f;}
+
+
+.photo{
+width:159px;
+	border:1px solid #816F79;
+	overflow:hidden;
+	text-align:center;
+	background:#C4D2C1;
+	float:left;
+	padding:3px;
+	margin:10px 2px 5px 2px;
+}
+.photo img{
+height:160px;
+width:120px;
+border:1px solid #000;
+margin:0px 4px;
+
+}
+.photo h3.title{
+margin:5px 0px 5px 0px;
+padding:0px;
+background:none;
+display:block;
+width:160px;
+height:15px;
+overflow:hidden;
+font-weight:normal;
+color:#333333;
+}
+
+.photo h2.date{
+margin:0px 0px 2px 0px;
+padding:0px;
+border:none;
+background:none;
+font-weight:normal;
+colof:#666;
+width:159px;
+font-size:11px;
+                text-align:center;
+}

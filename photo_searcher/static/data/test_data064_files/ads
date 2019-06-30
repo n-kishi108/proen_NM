@@ -1,0 +1,63 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B-C7ARYG4S_CKEoPg6wOW8KjoBs-61qwB29TJkhTAjbcBwK_MEhABGAEggMbkAygEOABQxZWN9ANgiaPShKgUoAHZ7NroA8gBAdoBUWZpbGU6Ly8vQzovVXNlcnMvc2hpbi9EZXNrdG9wLyVFOSU5QiU4NiVFNSU5MCU4OCVFNSU4NiU5OSVFNyU5QyU5Ri9wb3N0XzhjMmYuaHRtbKkCbLEBNh3URj7IAofWpQ6oAwHoA7ED9QMAAALE&amp;num=1&amp;sig=AGiWqtwct_roe85nbGYwrOoG9N55vULSSA&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://www.nikkei.co.jp/ps/ayataka/"; 
+google_ad.visible_url = "www.nikkei.co.jp/ps/ayataka"; 
+google_ad.line1 = "\x26#32190;\x26#40441;\x26#12398;\x26#24149;\x26#26411;\x26#21608;\x26#36938;\x26#32000;\x26#34892;"; 
+google_ad.line2 = "\x26#26085;\x26#26412;\x26#32076;\x26#28168;\x26#26032;\x26#32862;"; 
+google_ad.line3 = "\x26#22320;\x26#26041;\x26#32025;7\x26#32025;\x26#36899;\x26#21512;\x26#20225;\x26#30011;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BtWeGRYG4S_CKEoPg6wOW8KjoBuWV2YYBk5-5hA_AjbcBwN6BChACGAIggMbkAygEOABQgJCC_QFgiaPShKgUoAHJvpTuA8gBAdoBUWZpbGU6Ly8vQzovVXNlcnMvc2hpbi9EZXNrdG9wLyVFOSU5QiU4NiVFNSU5MCU4OCVFNSU4NiU5OSVFNyU5QyU5Ri9wb3N0XzhjMmYuaHRtbKkCbLEBNh3URj7IAqvYpwqoAwHoA7ED9QMAAALE&amp;num=2&amp;sig=AGiWqty6XKEII5r7_og2l7Fd6b8reBhZFA&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://english-native.net"; 
+google_ad.visible_url = "english-native.net"; 
+google_ad.line1 = "\x26#33521;\x26#35486;\x26#12506;\x26#12521;\x26#12506;\x26#12521;\x26#12395;\x26#12394;\x26#12428;\x26#12414;\x26#12375;\x26#12383;"; 
+google_ad.line2 = "\x26#25991;\x26#27861;\x26#12434;\x26#19968;\x26#20999;\x26#30693;\x26#12425;\x26#12394;\x26#12367;\x26#12390;\x26#12418;\x26#12289;\x26#12371;\x26#12398;\x26#26041;\x26#27861;\x26#12391;"; 
+google_ad.line3 = "\x26#33521;\x26#35486;\x26#12399;\x26#35441;\x26#12379;\x26#12414;\x26#12377;\x26#12290;\x26#20170;\x26#12377;\x26#12368;\x26#12371;\x26#12385;\x26#12425;\x26#12434;\x26#30906;\x26#35469;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BaFHxRYG4S_CKEoPg6wOW8KjoBvXlv8cBpcGV-BPAjbcBgL2DFBADGAMggMbkAygEOABQndzJhgJgiaPShKgUoAH_iMvnA8gBAdoBUWZpbGU6Ly8vQzovVXNlcnMvc2hpbi9EZXNrdG9wLyVFOSU5QiU4NiVFNSU5MCU4OCVFNSU4NiU5OSVFNyU5QyU5Ri9wb3N0XzhjMmYuaHRtbKkCbLEBNh3URj7IAqWOkhGoAwHoA7ED9QMAAALE&amp;num=3&amp;sig=AGiWqtxopbUi4T6pwKfGadpCxURBtLW5Fg&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://www.opt-online.jp/products/detail63.html"; 
+google_ad.visible_url = "www.opt-online.jp"; 
+google_ad.line1 = "\x26#20809;\x26#12501;\x26#12449;\x26#12452;\x26#12496;\x26#12398;\x26#27508;\x26#21490;\x26#12364;\x26#12431;\x26#12363;\x26#12427;"; 
+google_ad.line2 = "\x26#20809;\x26#12501;\x26#12449;\x26#12452;\x26#12496;\x26#25216;\x26#34899;\x26#38283;\x26#30330;\x26#21490;\x26#12398;\x26#24517;\x26#35501;\x26#12398;\x26#19968;\x26#20874;"; 
+google_ad.line3 = "\x26#12458;\x26#12503;\x26#12488;\x26#12458;\x26#12531;\x26#12521;\x26#12452;\x26#12531;\x26#12372;\x26#36092;\x26#20837;\x26#12391;\x26#12365;\x26#12414;\x26#12377;\x26#12290;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 4; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BEP80RYG4S_CKEoPg6wOW8KjoBriE_IIBuKOk5A7AjbcBgLbcBRAEGAQggMbkAygEOABQhOTztAFgiaPShKgUyAEB2gFRZmlsZTovLy9DOi9Vc2Vycy9zaGluL0Rlc2t0b3AvJUU5JTlCJTg2JUU1JTkwJTg4JUU1JTg2JTk5JUU3JTlDJTlGL3Bvc3RfOGMyZi5odG1sgAIBqQJssQE2HdRGPqgDAegDsQP1AwAAAsQ&amp;num=4&amp;sig=AGiWqtxvHRVxl8KKPR4QWAwFeo-3T1CnHw&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://www.bakumatsu.jp/offer/"; 
+google_ad.visible_url = "www.bakumatsu.jp"; 
+google_ad.line1 = "\x26#24149;\x26#26411;\x26#12502;\x26#12525;\x26#12460;\x26#12540;\x26#21215;\x26#38598;\x26#20013;"; 
+google_ad.line2 = "\x26#24149;\x26#26411;\x26#12398;\x26#12502;\x26#12525;\x26#12460;\x26#12540;\x26#22823;\x26#21215;\x26#38598;\x26#20013;\x26#65281;\x26#65288;\x26#28961;\x26#26009;\x26#65289;"; 
+google_ad.line3 = "\x26#24149;\x26#26411;\x26#12398;\x26#29105;\x26#12356;\x26#39746;\x26#12406;\x26#12388;\x26#12369;\x26#12414;\x26#12379;\x26#12435;\x26#12363;\x26#12290;"; 
+google_ad.regionname = ""; 
+google_ads[3] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dfile:///C:/Users/shin/Desktop/%2525E9%25259B%252586%2525E5%252590%252588%2525E5%252586%252599%2525E7%25259C%25259F/post_8c2f.html%26hl%3Dja%26client%3Dca-nifty-cocolog-user_js%26adU%3Dwww.nikkei.co.jp/ps/ayataka%26adT%3D%25E7%25B6%25BE%25E9%25B7%25B9%25E3%2581%25AE%25E5%25B9%2595%25E6%259C%25AB%25E5%2591%25A8%25E9%2581%258A%25E7%25B4%2580%25E8%25A1%258C%26adU%3Denglish-native.net%26adT%3D%25E8%258B%25B1%25E8%25AA%259E%25E3%2583%259A%25E3%2583%25A9%25E3%2583%259A%25E3%2583%25A9%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258C%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%26adU%3Dwww.opt-online.jp%26adT%3D%25E5%2585%2589%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%2590%25E3%2581%25AE%25E6%25AD%25B4%25E5%258F%25B2%25E3%2581%258C%25E3%2582%258F%25E3%2581%258B%25E3%2582%258B%26adU%3Dwww.bakumatsu.jp%26adT%3D%25E5%25B9%2595%25E6%259C%25AB%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25AC%25E3%2583%25BC%25E5%258B%259F%25E9%259B%2586%25E4%25B8%25AD%26gl%3DJP%26hideleadgen%3D1\x26usg\x3dAFQjCNFfTLPa2Gqq6B9xHDvs_sF_qzIqrA"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

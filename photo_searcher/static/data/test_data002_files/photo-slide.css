@@ -1,0 +1,112 @@
+﻿@charset "utf-8";
+
+/*____________________________________
+
+フォトスライド用CSS
+_______________________________________*/
+
+div.Slide-Body{
+	margin-top:5px;
+	text-align:center;
+}
+
+/*
+写真ナビゲーション
+---------------------------------------*/
+div.SlideNavi{
+	text-align:center;
+	margin-bottom:15px;
+	width:100%;
+}
+div.Slide-Body div.SlideNavi ul{
+	width:217px;
+	height:19px;
+	margin:0 auto;
+	font-size:10px;
+	line-height:100%;
+}
+
+div.Slide-Body div.SlideNavi ul li{
+	display:block;
+	float:left;
+	height:19px;
+}
+
+div.Slide-Body div.SlideNavi ul li a{
+	width:100%;
+	height:100%;
+	display:block;
+	text-indent:-9999px;
+}
+
+div.Slide-Body div.SlideNavi ul li.Prev{
+	width:60px;
+}
+div.Slide-Body div.SlideNavi ul li.Prev a{
+	background:url(/image/photo/btn_slide_prev.gif) no-repeat left top;
+}
+div.Slide-Body div.SlideNavi ul li.List{
+	width:96px;
+}
+div.Slide-Body div.SlideNavi ul li.List a{
+	background:url(/image/photo/btn_slide_list.gif) no-repeat left top;
+}
+div.Slide-Body div.SlideNavi ul li.Next{
+	width:61px;
+}
+div.Slide-Body div.SlideNavi ul li.Next a{
+	background:url(/image/photo/btn_slide_next.gif) no-repeat left top;
+}
+
+div.Slide-Body div.SlideNavi ul li a:link{
+	background-position:left top;
+}
+
+div.Slide-Body div.SlideNavi ul li a:hover{
+	background-position:left bottom;
+}
+
+/*
+キャプション
+-----------------------------------------------*/
+div.Slide-Body div.caption{
+	font-size:80%;
+	line-height:130%;
+	margin:-5px auto 15px;
+	padding:5px 3px;
+	width:80%;
+	text-align:left;
+}
+
+/*
+続きを読む
+-----------------------------------------------*/
+p.More{
+	background:transparent url(/image/ico_arrow_black.gif) no-repeat scroll 100% 50%;
+	font-size:80%;
+	text-align:right;
+	padding-right:14px;
+}
+/* 
+写真
+-----------------------------------------------*/
+
+div.SlidePhoto{
+	margin-bottom:15px;
+	text-align:center;
+}
+
+/* 
+写真下記事 
+-----------------------------------------------*/
+
+div.Slide-Body h2{
+	font-size:100%;
+	margin-bottom:10px;
+}
+
+div.Slide-Body p{
+	font-size:90%;
+	line-height:170%;
+	margin-bottom:10px;
+}

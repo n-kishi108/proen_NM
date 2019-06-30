@@ -1,0 +1,722 @@
+@charset "euc-jp";
+/* -----------------------------------------------------------
+CSS Information
+
+ file name:auct_common.css
+ author:Yahoo! JAPAN
+ auth level:css/00/comm/
+ last updated:2010.2.1
+----------------------------------------------------------- */
+/*----------------------------------------------------------------------------------------------BASE*/
+body{
+	text-align:center;
+}
+h1,h2,h3,h4,h5,h6,p,div,pre,dl,dt,dd,strong,em,img,fieldset,form{
+	margin:0;
+	padding:0;
+}
+fieldset{
+	margin:0;
+	padding:0;
+	border:0;
+}
+.clr{
+	clear:both;
+}
+/*----------------------------------------------------------------------------------------------.wrapper*/
+.wrapper{
+	padding:0;
+	margin:0 auto;
+	display:block;
+	text-align:left;
+}
+.wrapper a:link{
+	text-decoration:none;
+	color:#1546a7;
+}
+.wrapper a:hover{
+	text-decoration:underline;
+	color:#1546a7;
+}
+.wrapper a:visited{
+	color:#800080;
+	text-decoration:none;
+}
+/*----------------------------------------------------------------------------------------------.wrapper950*/
+.wrapper950{
+	width:950px;
+	margin:0 auto 0 auto;
+	padding:0;
+	text-align:left;
+}
+.wrapper950 a:link{
+	text-decoration:none;
+	color:#1546a7;
+}
+.wrapper950 a:visited{
+	color:#800080;
+	text-decoration:none;
+}
+.wrapper950 a:hover{
+	text-decoration:underline;
+}
+/*===========================
+	category path
+===========================*/
+.decNoDlm{
+	margin-top:15px;
+}
+/*----------------------------------------------------------------------------------------------#mastHead*/
+#mastHead{
+	color:#000000;
+}
+#mastHead a:link{
+	text-decoration:underline;
+	color:#0000ff;
+}
+#mastHead a:visited{
+	text-decoration:underline;
+	color:#800080;
+}
+#mastHead a:hover{
+	text-decoration:underline;
+	color:#0000ff;
+}
+#mastHead a:active{
+	text-decoration:underline;
+	color:#0000ff;
+}
+/*----------------------------------------------------------------------------------------------#modFootLink*/
+#modFootLink{
+	line-height:1.5;
+	text-align:center;
+}
+#modFootLink  a:hover{
+	text-decoration:underline;
+}
+#modFootLink .decTx01{
+	margin-bottom:15px;
+}
+#modFootLink .decBtm{
+	margin-bottom:25px;
+}
+#modFootLink.decBtm01{
+	margin-bottom:25px;
+}
+/*----------------------------------------------------------------------------------------------#Footer*/
+#Footer a:link{
+	text-decoration:underline;
+	color:#0000ff;
+}
+#Footer a:visited{
+	text-decoration:underline;
+	color:#800080;
+}
+#Footer a:hover{
+	text-decoration:underline;
+	color:#0000ff;
+}
+#Footer a:active{
+	text-decoration:underline;
+	color:#0000ff;
+}
+/*----------------------------------------------------------------------------------------------#modLoginBar*/
+#modLoginBar{
+	display:block;
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) top repeat-x #f0f0f0;
+}
+#modLoginBar .decBg01{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top left;
+}
+#modLoginBar .decBg02{
+	background:url(/images/auct/template/ui/auc_mod/bg_001.gif) repeat-y top right;
+}
+#modLoginBar .decBg03{
+	background:url(/images/auct/template/ui/auc_mod/loginbar_bg_01.gif) no-repeat top left;
+}
+#modLoginBar .decBg04{
+	background:url(/images/auct/template/ui/auc_mod/loginbar_bg_02.gif) no-repeat top right;
+}
+/*===========================
+	table
+===========================*/
+#modLoginBar table{
+	width:100%;
+}
+#modLoginBar table td{
+	width:48%;
+	margin:0;
+	padding:8px 10px 6px 10px;
+	vertical-align:top;
+	font-size:75%;
+}
+#modLoginBar p{
+	vertical-align:bottom;
+}
+#modLoginBar ul{
+	margin:0;
+	padding:0;
+	float:right;
+}
+#modLoginBar ul li{
+	margin:0;
+	padding:0;
+	float:left;
+	list-style:none;
+	vertical-align:bottom;
+}
+#modLoginBar table td a:link{
+	text-decoration:none;
+}
+#modLoginBar table td a:hover{
+	text-decoration:underline;
+}
+/*----------------------------------------------------------------------------------------------#modTitBar*/
+#modTitBar{
+	border-top:#f1c43d solid 1px;
+	background:url(/images/auct/template/ui/auc_mod/titbar_bg_01.gif) top repeat-x #fbc624;
+}
+#modTitBar .decBg01{
+	background:url(/images/auct/template/ui/auc_mod/titbar_bg_02.gif) repeat-y top left;
+}
+#modTitBar .decBg02{
+	background:url(/images/auct/template/ui/auc_mod/titbar_bg_02.gif) repeat-y top right;
+}
+#modTitBar .decBg03{
+	background:url(/images/auct/template/ui/auc_mod/titbar_bg_03.gif) no-repeat bottom left;
+}
+#modTitBar .decBg04{
+	background:url(/images/auct/template/ui/auc_mod/titbar_bg_04.gif) no-repeat bottom right;
+}
+/*===========================
+	table
+===========================*/
+#modTitBar table td{
+	padding:8px 0 8px 10px;
+	margin:0;
+}
+#modTitBar h1{
+	font-size:100%;
+}
+#modTitBar table td img{
+	margin-right:5px;
+}
+/*----------------------------------------------------------------------------------------------#modSearchBox*/
+#modSearchBox{
+	width:100%;
+	margin-bottom:15px;
+	background:url(/images/auct/template/ui/auc_mod/search_bg_05.gif) repeat-x #f0efef;
+}
+#modSearchBox .decBg01{
+	background:url(/images/auct/template/ui/auc_mod/bg_010.gif) repeat-x bottom;
+}
+#modSearchBox .decBg02{
+	background:url(/images/auct/template/ui/auc_mod/bg_010.gif) repeat-y top left;
+}
+#modSearchBox .decBg03{
+	background:url(/images/auct/template/ui/auc_mod/bg_010.gif) repeat-y top right;
+}
+#modSearchBox .decBg04{
+	background:url(/images/auct/template/ui/auc_mod/search_bg_01.gif) no-repeat top left;
+}
+#modSearchBox .decBg05{
+	background:url(/images/auct/template/ui/auc_mod/search_bg_03.gif) no-repeat top right;
+}
+#modSearchBox .decBg06{
+	background:url(/images/auct/template/ui/auc_mod/search_bg_02.gif) no-repeat bottom left;
+}
+#modSearchBox .decBg07{
+	padding:10px 15px;
+	background:url(/images/auct/template/ui/auc_mod/search_bg_04.gif) no-repeat bottom right;
+}
+/* TEXT BOX LINE */
+/* ON */
+.decFormTxtBox input,.decFormTxtArea textarea{
+	padding:1px 5px;
+	*padding:2px 5px;
+}
+/*----------------------------------------------------------------------------------------------.ptsSearchBody*/
+.ptsSearchBody{
+	display:block;
+	margin:3px 0;
+	padding:0;
+	font-size:small;
+	color:#333333;
+}
+.ptsSearchBody th{
+ 	white-space:nowrap;
+ 	text-align:right;
+}
+.ptsSearchBody p{
+	margin-top:5px;
+}
+/*===========================
+	form
+===========================*/
+.ptsSearchBody .decForm01{
+	border:#848484 solid 1px;
+	padding:1px 5px;
+	*padding:2px 5px;
+	color:#333333;
+}
+.ptsSearchBody .decForm02{
+	border:#848484 solid 1px;
+	color:#333333;
+}
+/*----------------------------------------------------------------------------------------------#modCtgPath*/
+#modCtgPath{
+	margin:9px 10px;
+	font-size:75%;
+}
+#modCtgPath a:link{
+	text-decoration:none;
+}
+#modCtgPath a:hover{
+	text-decoration:underline;
+}
+/*----------------------------------------------------------------------------------------------.modPageTop*/
+.modPageTop{
+	margin-top:20px;
+	text-align:right;
+	font-size:85%;
+}
+.modPageTop a:hover{
+	text-decoration:underline;
+}
+.modPageTop p{
+	float:right;
+	padding-left:15px;
+	background:url(/images/auct/template/ui/auc_mod/ic_029.gif) no-repeat left center;
+}
+/*----------------------------------------------------------------------------------------------.decFormTxtBox*/
+/* ON */
+.decFormTxtBox input{
+	padding:1px 5px;
+	*padding:2px 5px;
+	color:#333333;
+	border:#848484 solid 1px;
+}
+.decFormTxtBox span{
+	font-size:90%;
+}
+/* OFF */
+.decFormTxtBoxOff input{
+	border:#e4e4e4 solid 1px;
+}
+.decFormTxtBoxOff{
+	color:#bcbbbb;
+}
+.decFormTxtBoxOff span{
+	font-size:90%;
+	color:#bcbbbb;
+}
+/* PASS WORD */
+.decFormTxtBox input.decInptPwd{
+  *font-size:80%;
+}
+/*----------------------------------------------------------------------------------------------.decFormTxtArea*/
+/* ON */
+.decFormTxtArea textarea {
+	padding:1px 5px;
+	*padding:2px 5px;
+	color:#333333;
+	border:#848484 solid 1px;
+}
+/* OFF */
+.decFormTxtAreaOff textarea {
+	border:#e4e4e4 solid 1px;
+}
+/*----------------------------------------------------------------------------------------------.decFormRadio*/
+.decFormRadio p,
+.decFormRadioOff p{
+	margin-bottom:5px;
+	padding:4px 0 4px 20px;
+	background:url(/images/auct/template/ui/auc_mod/ic_016.gif) no-repeat left;
+}
+.decFormRadio .decBg01,
+.decFormRadioOff .decBg01{
+	margin-bottom:15px;
+	font-size:0;
+}
+.decFormRadio .decBg02,
+.decFormRadioOff .decBg02{
+	width:25%;
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+.decFormRadio .decTx01,
+.decFormRadioOff .decTx01{
+	float:left;
+}
+.decFormRadio .decTx02,
+.decFormRadioOff .decTx02{
+	float:right;
+}
+/* OFF */
+.decFormRadioOff {
+	color:#bdbcbc;
+}
+/*----------------------------------------------------------------------------------------------.decFormSelect*/
+.decFormSelect select{
+	color:#333333;
+}
+.decFormSelect select,
+.decFormSelectOff select{
+	margin-right:8px;
+}
+.decFormSelect p,
+.decFormSelectOff p{
+	float:right;
+}
+.decFormSelect .decTx02,
+.decFormSelectOff .decTx02{
+	float:left;
+}
+.decFormSelect span,
+.decFormSelectOff span{
+	margin-right:20px;
+	position:relative;
+	top:2px;
+	right:5px;
+}
+/* OFF */
+.decFormSelectOff{
+	color:#bdbcbc;
+}
+/*----------------------------------------------------------------------------------------------.decFormCheck*/
+.decFormCheck,
+.decFormCheckOff{
+	width:100%;
+}
+.decFormCheck ul,
+.decFormCheckOff ul{
+	margin:0;
+	padding:0;
+	float:left;
+}
+.decFormCheck ul li,
+.decFormCheckOff ul li{
+	margin:0;
+	padding:0;
+	line-height:150%;
+}
+.decFormCheck p,
+.decFormCheckOff p{
+	float:right;
+	margin:0;
+	padding:0;
+	color:#333333;
+}
+.decFormCheck .decTx01{
+	display:block;
+	float:left;
+	width:auto;
+	margin:0 3px 0 10px;
+	border:none;
+}
+.decFormCheck .decTx02{
+	clear:both;
+	margin:10px 0 20px 0;
+	line-height:150%;
+}
+/* OFF */
+.decFormCheckOff{
+	color:#bdbcbc;
+}
+.decFormCheckOff .decTx02{
+	margin:10px 0 20px 0;
+	line-height:150%;
+	color:#bdbcbc;
+}
+/*----------------------------------------------------------------------------------------------.decEditInfo*/
+.decEditInfo{
+	display:block;
+	margin:10px 0 20px 0;
+	font-size:85%;
+	font-weight:bold;
+}
+.decEditInfo a:hover{
+	text-decoration:underline;
+}
+.decEditInfo span{
+	width:auto;
+	margin-right:10px;
+	padding:5px;
+	border:#ff7000 solid 2px;
+	color:#ff7000;
+	line-height:0;
+}
+/*----------------------------------------------------------------------------------------------.decErrorBox*/
+.decErrorBox{
+	margin:20px 0;
+	padding:10px 15px;
+	border:#ff0000 solid 2px;
+	font-size:85%;
+	line-height:150%;
+	color:#ff0000;
+}
+.decErrorBox p{
+	padding:3px 0 3px 25px;
+	background:url(/images/auct/template/ui/auc_mod/ic_021.gif) no-repeat left;
+}
+.decErrorPoint{
+	border-collapse:collapse;
+	border:#ff0000 solid 2px;
+}
+.decTxErr{
+	padding:5px;
+	color:#ff0000;
+}
+.decTxErrAlrt{
+	margin:5px;
+	padding:3px 0 3px 25px;
+	color:#ff0000;
+	background:url(/images/auct/template/ui/auc_mod/ic_021.gif) no-repeat left;
+}
+
+/*----------------------------------------------------------------------------------------------#modBnsDeal*/
+#modBnsDeal{
+	width:950px;
+	margin:0 auto;
+	padding:0;
+}
+#modBnsDeal h1,
+#modBnsDeal h2,
+#modBnsDeal h3,
+#modBnsDeal h4{font-size:100%;}
+/*----------------------------------------------------------------------------------------------#modBnsBar*/
+#modBnsBar{
+	background:url(/images/auct/template/ui/auc_mod/bg_11001.png) top repeat-x #fec721;
+}
+#modBnsBar .decBg01{
+	background:url(/images/auct/template/ui/auc_mod/bg_11004.png) repeat-y top left;
+}
+#modBnsBar .decBg02{
+	background:url(/images/auct/template/ui/auc_mod/bg_11004.png) repeat-y top right;
+}
+#modBnsBar .decBg03{
+	background:url(/images/auct/template/ui/auc_mod/bg_11002.png) no-repeat top left;
+}
+#modBnsBar .decBg04{
+	background:url(/images/auct/template/ui/auc_mod/bg_11003.png) no-repeat bottom left;
+}
+/*===========================
+	table
+===========================*/
+#modBnsBar table td{
+	padding:8px 0 8px 10px;
+	margin:0;
+}
+#modBnsBar table td img{
+	margin-right:5px;
+}
+/*----------------------------------------------------------------------------------------------#modBnsBox*/
+
+#modBnsBox{
+	margin:0 0 30px 0;
+	padding:0;
+	display:block;
+	clear:both;
+}
+#modBnsBox p{
+	margin:0;
+	display:block;
+	clear:both;
+}
+/*===========================
+	untHeader
+===========================*/
+#modBnsBox .untHeader{
+	margin:0 0 15px 0;
+	padding:0;
+	display:block;
+	clear:both;
+}
+#modBnsBox .untHeader h2{
+	padding:8px 5px 4px 5px;
+	border-bottom:#e2e2e2 solid 1px;
+	font-weight:bold;
+	line-height:100%;
+	background-color:#f1f1f1;
+	margin-bottom:6px;
+}
+/*===========================
+	untBody01
+===========================*/
+#modBnsBox .untBody01{
+	margin:0 0 20px 0;
+	padding:14px 0 0 0;
+	font-size:85%;
+	line-height:1.6;
+	color:#333333;
+	display:block;
+	clear:both;
+}
+/*===========================
+	untBody02
+===========================*/
+#modBnsBox .untBody02{
+	margin:0 10px 20px 10px;
+	line-height:1.6;
+	font-size:85%;
+	color:#333333;
+	display:block;
+	clear:both;
+}
+#modBnsBox .untBody02 h3{
+	margin:0 0 10px 0;
+	line-height:1;
+	display:block;
+}
+#modBnsBox .untBody02 h4{
+	margin:0 0 10px 0;
+	font-weight:normal;
+	line-height:1;
+	display:block;
+}
+#modBnsBox .untBody02 h4.decTit01{
+	font-weight:bold;
+	margin:0;
+}
+#modBnsBox .untBody02 a:hover{
+	text-decoration:underline;
+}
+#modBnsBox .untBody02 ul{
+	margin:0;
+	padding:0;
+}
+#modBnsBox .untBody02 ul.decList01{
+	margin:0 0 10px 0;
+	padding:0;
+	display:block;
+}
+#modBnsBox .untBody02 ul li{
+	margin:0;
+	padding:0 0 0 10px;
+	list-style:none;
+	background:url(/images/auct/template/ui/auc_mod/ic_002.gif) no-repeat left 0.65em;
+}
+#modBnsBox .untBody02 p.decTx01{
+	margin:0 0 15px 0;
+}
+#modBnsBox .untBody02 p.decTx02{
+	margin:0 0 10px 0;
+}
+/*========decTable01==========*/
+#modBnsBox .untBody02 .decTable01{
+	margin:0 0 15px 0;
+	padding:0;
+	display:block;
+	clear:both;
+}
+#modBnsBox .untBody02 .decTable01 table{
+	border-collapse:collapse;
+	margin:0;
+}
+#modBnsBox .untBody02 .decTable01 th{
+	padding:4px 25px 3px 25px;
+	border:#dddddd solid 1px;
+	line-height:1.6;
+	text-align:center;
+	font-weight:normal;
+	white-space:nowrap;
+	background:#e7f0fe;
+	vertical-align:middle;
+}
+#modBnsBox .untBody02 .decTable01 th.decTx03{
+	width:22%;
+	*width:24%;
+	padding:4px 3px 3px 3px;
+}
+/*IE8*/
+html>/**/body #modBnsBox .untBody02 .decTable01 th.decTx03 {  
+    width: 24%\9; 
+}
+/*IE8*/
+#modBnsBox .untBody02 .decTable01 th.decTx04{
+	width:24%;
+	padding:4px 5px 3px 5px;
+}
+#modBnsBox .untBody02 .decTable01 td{
+	color:#333333;
+	padding:4px 5px 3px 5px;
+	border:#dddddd solid 1px;
+	line-height:1.6;
+	text-align:left;
+	vertical-align:middle;
+}
+#modBnsBox .untBody02 .decTable01 td.decTx01{
+	text-align:center;
+}
+#modBnsBox .untBody02 .decTable01 td.decTx01 span{
+	font-size:85%;
+}
+/*========decTable02==========*/
+#modBnsBox .untBody02 .decTable02{
+	margin:0;
+	padding:0;
+	display:block;
+	clear:both;
+}
+#modBnsBox .untBody02 .decTable02 table{
+	border-collapse:collapse;
+	margin:0;
+}
+#modBnsBox .untBody02 .decTable02 th{
+	line-height:1.6;
+	text-align:left;
+	font-weight:normal;
+	white-space:nowrap;
+}
+#modBnsBox .untBody02 .decTable02 td{
+	color:#333333;
+	line-height:1.6;
+	text-align:left;
+}
+/*========decBox01==========*/
+#modBnsBox .untBody02 .decBox01{
+	width:928px;
+	margin:0;
+	font-size:95%;
+	line-height:1.6;
+}
+#modBnsBox .untBody02 .decBox01 .decBg01{
+	width:100%;
+	background:url(/images/auct/template/ui/auc_mod/bg_11005.png) repeat-y left top;
+}
+#modBnsBox .untBody02 .decBox01 .decBg02{
+	background:url(/images/auct/template/ui/auc_mod/bg_11006.png) no-repeat left top;
+}
+#modBnsBox .untBody02 .decBox01 .decBg03{
+	padding:10px;
+	background:url(/images/auct/template/ui/auc_mod/bg_11007.png) no-repeat left bottom;
+}
+#modBnsBox .untBody02 .decBox01 ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#modBnsBox .untBody02 .decBox01 li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	background:none;
+}
+/* ------------------------------------------------------
+	LOGIN BAR ADDITIONAL
+------------------------------------------------------- */
+#modLoginBar table td{
+	margin:0;
+ 	vertical-align:top;
+	font-size:75%;
+}
+#modLoginBar table td.decTd01{
+	width:66%;
+	padding:8px 0px 6px 10px;
+}
+#modLoginBar table td.decTd02{
+	width:34%;
+	padding:8px 10px 6px 5px;
+}
+/*end*/

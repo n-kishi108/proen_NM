@@ -1,0 +1,425 @@
+@charset "EUC-JP";
+
+* {
+margin: 0;
+padding: 0;
+zoom:1;
+}
+html {
+	font-size: small;
+}
+body {
+	background: #666;
+	overflow-y: scroll;
+}
+body, table, form, select, input, textarea {
+	font-family: Arial, Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #444444;
+	font-size: 0.91em;
+	line-height: 1.82;
+	letter-spacing: 0;
+}
+
+/* =================================== */
+/* レイアウトの設定 */
+/* =================================== */
+#wrapper_body {
+	width: 960px;
+	background: url(http://imaging.jugem.jp/template/30days_2/img/wrapper_body.png) top center no-repeat;
+	padding: 30px 0 0 0;
+	margin: 26px auto;
+}
+#wrapper_bottom {
+	width: 960px;
+	background: url(http://imaging.jugem.jp/template/30days_2/img/wrapper_bottom.png) bottom center no-repeat;
+	padding: 0 0 30px 0;
+	margin: 0 auto;
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	background: url(http://imaging.jugem.jp/template/30days_2/img/wrapper.png) top repeat-y;
+}
+#wrapper_inner {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0;
+	background: url(http://imaging.jugem.jp/template/30days_2/img/wrapper_inner.jpg) top center no-repeat;
+	height: 1%;
+}
+#header {
+	padding: 14px 30px 0 30px;
+	margin: 0 0 33px 0;
+}
+
+/* #main,#side用のblock */
+#content {
+	width: 940px;
+	padding: 0;
+	margin: 0 auto;
+}
+#main {
+	float: left;
+	width: 700px;
+	margin: 0;
+	padding: 0;
+}
+#side {
+	float:right;
+	width: 240px;
+	padding: 3px 0 12px 0;
+	margin: 0;
+}
+
+/*ページ送り*/
+#page_area {
+	margin: 0;
+}
+
+/* フッター */
+address {
+	padding: 0 30px;
+	margin: 0;
+	text-align: left;
+	font-style: normal;
+	font-size: 0.91em;
+	color: #888888;
+	line-height: 1;
+	height: 1%;
+}
+/*フッター画像*/
+#footer {}
+
+/* =================================== */
+/* リンクカラーの設定 */
+/* =================================== */
+/* 全般 */
+a { color: #444444; text-decoration: underline; }
+a:link { color: #444444; text-decoration: underline; }
+a:visited { color: #444444; text-decoration: underline; }
+a:active { color: #76736d; text-decoration: none; }
+a:hover	{ color: #76736d; text-decoration: none;}
+
+/* ヘッダー */
+#header a { color: #444444; text-decoration: none; }
+#header a:link { color: #444444; text-decoration: none; }
+#header a:visited { color: #444444; text-decoration: none; }
+#header a:active { color: #76736d; text-decoration: none; }
+#header a:hover { color: #76736d; text-decoration: none; background:none; }
+
+/* サイドコンテンツ */
+#side a { color: #444444; text-decoration: none; font-style: italic; }
+#side a:link { color: #444444; text-decoration: none; font-style: italic; }
+#side a:visited { color: #444444; text-decoration: none; font-style: italic; }
+#side a:active { color: #76736d; text-decoration: none; font-style: italic; }
+#side a:hover { color: #76736d; text-decoration: none; font-style: italic; }
+
+/* カレンダーcell */
+.calendar .cell a { color: #2A2666; text-decoration: none; background:#e8e8e8; display:block; font-style: italic;margin: 1px;}
+.calendar .cell a:link { color: #2A2666; text-decoration: none; }
+.calendar .cell a:visited { color: #2A2666; text-decoration: none; }
+.calendar .cell a:active { color: #2A2666; text-decoration: underline; }
+.calendar .cell a:hover { color: #26CFFF; text-decoration: underline; }
+
+/* =================================== */
+/* 装飾の設定 */
+/* =================================== */
+blockquote {
+	border: 1px dotted #CCC;
+	padding: 12px;
+	margin: 12px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+	font: 0/0 sans-serif;
+}
+.submit {}
+
+
+/* =================================== */
+/* #header */
+/* =================================== */
+#header h1 {
+	padding: 0;
+	margin: 0 0 5px 0;
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 1;
+}
+#header p {
+	margin: 0;
+	padding: 0;
+	line-height: 1.3;
+}
+
+/* =================================== */
+/* #main */
+/* =================================== */
+
+/*エントリーナビゲーション*/
+#main .entry_navi{
+	margin:0 0 10px 0;
+	padding-top: 20px;
+	text-align: center;
+}
+
+/* エントリー部分全体 */
+.entry_area {
+	width: 640px;
+	padding: 0;
+	margin: 0 auto 60px auto;
+}
+
+/* エントリータイトル */
+span.entry_header_date {
+	color: #666666;
+	font-style: italic;
+	line-height: 1;
+	float: left;
+	display: inline;
+	padding: 3px 0 0 0;
+	margin: 0 12px 0 0;
+}
+#main h2 {
+	font-size: 1.17em;
+	padding: 0;
+	line-height: 1.17;
+	float: left;
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+/* エントリー時刻 */
+#main .entry_date {
+	padding: 5px;
+}
+/* エントリー本文 */
+#main .entry {
+margin: 0.91em 0;
+}
+/* エントリー情報 */
+.entry_footer {
+	text-align: right;
+	margin: 30px 0 0 0;
+	padding: 0;
+	line-height: 1;
+}
+#main ul.state li {
+	display: inline;
+	border-left: 1px solid #666;
+	padding: 0 0 0 5px;
+	font-size: 0.91em;
+}
+#main ul.state li.state_img {
+	display: inline;
+	border-left: 1px solid #666;
+	padding: 0 0 0 5px;
+	margin: 0 0 0 5px;
+	vertical-align: middle;
+}
+#main ul.state li a {
+	font-style: italic;
+}
+.entry_moreread {
+	font-style: italic;
+	padding: 0 0 0 0.91em;
+}
+
+/*コメント、TB、プロフィールタイトル*/
+dt.title {
+	border-bottom: 1px solid #dadada;
+	margin: 0 0 12px 0;
+	padding: 0 0 6px 0;
+	font-weight:bold;
+	line-height: 1;
+}
+
+/* コメント本文 */
+.com_desc {
+	padding: 0 0 0 1em;
+}
+
+/* コメントユーザー情報 */
+dl#com_area dd {
+	padding: 6px 0;
+	margin: 10px 0 20px 0;
+	border-bottom: 1px dotted #dadada;
+	text-align: right;
+	font-size: 0.91em;
+}
+dl#com_area dd a {
+	font-style: italic;
+}
+dl#com_area dd ul {
+	list-style-type: none;
+}
+
+dl#com_area dd li {
+	display:inline;
+	border-left:1px solid #666;
+	padding-left:5px;
+}
+
+/* コメントフォーム */
+dl#com_form dd {
+	padding: 0 0 10px 1em;
+}
+dl#com_form dd input.input {
+	border: 1px solid #cccccc;
+	margin: 0 0 6px 0;
+	padding: 3px;
+	width: 200px;
+}
+
+/* コメントフォーム textarea */
+dl#com_form dd textarea {
+	border: 1px solid #cccccc;
+	width: 400px;
+	margin: 0 0 10px 0;
+	padding: 3px;
+}
+
+/* TBフォーム */
+dl#tb_form dd {
+	padding: 0 0 10px 1em;
+}
+dl#tb_form dd input.input {
+	border: 1px solid #cccccc;
+	margin: 0 0 6px 0;
+	padding: 3px;
+	width: 400px;
+}
+
+/* TBタイトル */
+dl#tb_area dt.tb_title {
+	padding: 0 10px;
+}
+
+/* TB本文 */
+dl#tb_area dd {
+	padding: 0 10px;
+}
+
+/* TBユーザー情報 */
+dl#tb_area dd.tb_state {
+	padding: 5px 10px;
+	margin: 5px 0 15px 0;
+	text-align:right;
+}
+.tb_state ul {
+	list-style-type:none;
+}
+.tb_state li {
+	display:inline;
+	border-left:1px solid #666;
+	padding-left:5px;
+}
+span.form_line input {
+	line-height: 1;
+	vertical-align: middle;
+}
+
+/* =================================== */
+/* サイドコンテンツ */
+/* =================================== */
+.side_content {
+	width: 200px;
+	margin: 0 auto;
+}
+/*サイドコンテンツヘッダー画像*/
+#side .side_header {}
+
+/*サイドコンテンツフッター画像*/
+#side .side_footer {}
+
+#side dl {
+	margin: 0 0 24px 0;
+}
+
+/* サイドタイトル */
+#side dt {
+	padding: 0;
+	margin: 0 0 8px 0;
+	font-weight: bold;
+	line-height: 1;
+}
+#side dd{
+	padding: 0 0 12px 6px;
+	line-height: 1.2em;
+}
+#side dd.calendar {
+	padding: 0 0 12px 0;
+	line-height: 1.2em;
+}
+#side ul {
+	margin: 0;
+}
+#side li {
+	padding: 0;
+	margin: 0 0 6px 0;
+	line-height: 1.2em;
+	list-style: none;
+}
+
+/* サイト内検索 */
+#side_search {
+	margin: 0 0 10px 0;
+}
+#side input.search {
+	border: 1px solid #CCC;
+	padding: 3px;
+	margin: 0;
+}
+
+/*カレンダー*/
+.calendar table {
+	width: 100%;
+}
+.calendar_month {
+	text-align: center;
+	margin: 6px 0 0 0;
+}
+.cell {
+	width: 22px;
+	height: 22px;
+	background: #fdfdfd;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #eaeaea;
+}
+
+/* =================================== */
+/* ページ送り */
+/* =================================== */
+.page_navi {
+	text-align: center;
+	}
+.page_top {
+	float:right;
+	width:150px;
+	text-align:right;
+}
+
+/* =================================== */
+/* clearFix */
+/* =================================== */
+.clearFix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.clearFix { display: inline-block; }
+/* Hides from IE-mac \*/
+* html .clearFix { height: 1%; }
+.clearFix { display: block; }
+/* End hides from IE-mac \*/

@@ -1,0 +1,10 @@
+document.write('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="160" height="160">');
+document.write('<param name="movie" value="http://bbs.diet-pinky.com/flash/cal_pink.swf">');
+document.write('<param name="bgcolor" value="#FFFFFF">');
+document.write('<param name="menu" value="false">');
+document.write('<param name="quality" value="high">');
+document.write('<param name="scale" value="noscale">');
+document.write('<param name="wmode" value="transparent">');
+document.write('<param name="allowScriptAccess" value="always">');
+document.write('<embed src="http://bbs.diet-pinky.com/flash/cal_pink.swf" quality="high" wmode="transparent" bgcolor="#FFFFFF" width="160" height="160" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>');
+document.write('</object>');

@@ -1,0 +1,229 @@
+document.write('<a href="http://www.ashia.to/rss/confirm/id/46029/code/2" style=""><img src="http://ashia.to/img/_btn/mod_banner_normal.gif" style="cursor: pointer;" border="0"></a>');
+
+function ashiatoFloaterFactory(controller)
+{
+    var floater = document.createElement('div');
+    floater.controller = controller;
+    floater.className = 'ashiato';
+
+    if (document.defaultView) {
+        floater.style.setProperty('top', 31+'px', '');
+          floater.style.setProperty('left', '1px', '');
+          floater.style.setProperty('position', 'absolute', '');
+    } else {
+        floater.style.top = 31+'px';
+          floater.style.left = '1px';
+          floater.style.position = 'absolute';
+    }
+
+    var icon = document.createElement('img');
+    icon.width = 140;
+    icon.height = 18;
+    icon.src = 'http://ashia.to/images/client/default/logo.gif';
+
+    var top = document.createElement('div');
+    top.className = 'ashiato-top';
+    top.id = 'ashiatotop'
+    top.controller = controller;
+    top.onclick = function (){
+        this.controller.openlist();
+    }
+    top.onmouseover = function () {
+       this.style.cursor = "pointer";
+       this.controller.closeProfile();
+    }
+    top.appendChild(icon);
+
+    floater.appendChild(top);
+
+    return floater;
+}
+
+function ashiatoListFactory(controller)
+{
+    var list = document.createElement('table');
+    list.className = 'ashiato-list-off';
+
+    var tbody = document.createElement('tbody');
+    list.body = tbody;
+    list.appendChild(tbody);
+    return list;
+}
+
+function ashiatoController()
+{
+    this.logs = new Array();
+    this.profiles = new Array();
+    this.loader = 0;
+
+    this.floater = ashiatoFloaterFactory(this);
+    this.list = ashiatoListFactory(this);
+    this.floater.appendChild(this.list);
+    this.profile_top = 10 + 31;
+    this.pflag = 0;
+
+    this.setMember = function (id,name,date,relation,sex,title,url,bbs_usable){
+        var number = this.logs.length;
+        this.logs[number] = ashiatoLogFactory(this,number,id,name,date,relation);
+        this.list.body.appendChild(this.logs[number]);
+        this.profiles[number] = ashiatoProfileFactory(this,number,id,name,sex,title,url,bbs_usable);
+    }
+
+    this.setRegist = function (){
+        var number = this.logs.length;
+        this.logs[number] = ashiatoRegistRowFactory(this, number);
+        this.list.body.appendChild(this.logs[number]);
+        this.profiles[number] = ashiatoRegistDetailFactory();
+    }
+
+     this.setGuest = function (){
+        var number = this.logs.length;
+        this.logs[number] = ashiatoGuestRowFactory(this, number);
+        this.list.body.appendChild(this.logs[number]);
+        this.profiles[number] = ashiatoRegistDetailFactory();
+    }
+
+
+    this.openlist = function (){
+        if(this.list.className == 'ashiato-list-off'){
+            if (this.loader==0) {
+                var script = document.createElement('script');
+                script.src = 'http://ashia.to/client/member.php?id=46029&enc=euc';
+        if (document.characterSet) {
+          var charset = document.characterSet;
+        } else if(document.charset) {
+          var charset = document.charset;
+        }
+        if (charset) script.src = script.src + "&charset=" + charset;
+                document.body.appendChild(script);
+                this.loader = 1;
+            }
+            this.list.className = 'ashiato-list';
+        }else{
+            this.list.className = 'ashiato-list-off';
+        }
+    }
+
+    this.openProfile = function (number){
+        if (this.open != number) {
+            if(typeof(this.open) == 'number'){
+                document.body.removeChild(this.profiles[this.open]);
+            }
+
+            var start = 0;
+
+      var top = (number*21) + this.profile_top + start;
+      var profile_height = 330;
+      var bottom = top + profile_height +40;
+      if (window.innerHeight) {
+          if (window.innerHeight < bottom) {
+        top = window.innerHeight - profile_height;
+          }
+      } else {
+                var clientHeight = document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight;
+                if (clientHeight) {
+      if (start + clientHeight < bottom) {
+                            top = start + clientHeight -  profile_height;
+      }
+    }
+            }
+
+            if (top < start) {
+                top = start;
+            }
+
+            if (document.defaultView) {
+                 this.profiles[number].style.setProperty('top', top+'px', '');
+            } else {
+               this.profiles[number].style.top = top;
+            }
+            this.profiles[number].setImage();
+            document.body.appendChild(this.profiles[number]);
+            this.open = number;
+        }
+    }
+
+    this.closeProfile = function (number){
+        if(typeof(this.open) == 'number' && this.open != number){
+            document.body.removeChild(this.profiles[this.open]);
+            this.open = 'close';
+        }
+    }
+
+    this.display = function () {
+    var ashiato_search = document.getElementsByTagName('script');
+    var flag = 0;
+    for (var i=0; i<ashiato_search.length; i++) {
+        if (ashiato_search[i].src == 'http://ashia.to/client/js.php?id=46029&enc=euc') {
+        if (!this.self) {
+           this.self = ashiato_search[i];
+        }
+        }
+    }
+        document.body.appendChild(this.floater);
+
+        var logger = document.createElement('script');
+        var ref;
+        if (parent.frames.length > 0) {
+            ref = parent.document.referrer;
+        } else {
+            ref = document.referrer;
+        }
+        ref = encodeURIComponent(ref);
+        ref = ref.replace(/\./g,'%2e');
+        logger.src = 'http://ashia.to/client/logging.php?id=46029&referer=' + ref;
+
+        if (typeof(this.self) != 'undefined' ) {
+      this.self.parentNode.appendChild(logger);
+    } else {
+      document.body.appendChild(logger);
+    }
+    }
+
+  this.setRecommend = function () {
+    var script = document.createElement('script');
+    script.src =  'http://ashia.to/client/rensou.php?id=46029';
+        if (typeof(this.self) != 'undefined' ) {
+      this.self.parentNode.appendChild(script);
+    } else {
+      document.body.appendChild(script);
+    }
+  }
+  this.setUnderbar = function () {
+    var script = document.createElement('script');
+    script.src =  'http://ashia.to/client/underbar.php?id=46029';
+        if (typeof(this.self) != 'undefined' ) {
+      this.self.parentNode.appendChild(script);
+    } else {
+      document.body.appendChild(script);
+    }
+  }
+}
+function ashiatoDisplay()
+{
+    ashiato.display();
+}
+
+function ashiatoSetup()
+{
+    var css = document.createElement('link');
+    css.type = 'text/css';
+    css.rel = 'stylesheet';
+    css.href = 'http://www.ashia.to/css/client/default.css';
+
+    if (document.body.attachEvent) {
+        css.onload = ashiatoDisplay;
+    }
+
+    document.getElementsByTagName('head')[0].appendChild(css);
+    if (!css.onload) ashiato.display();
+}
+
+if ( typeof(ashiato) == "undefined" ) {
+  ashiato = new ashiatoController();
+  if (window.attachEvent) {
+      window.attachEvent('onload', ashiatoSetup);
+  } else {
+      ashiatoSetup();
+  }
+}

@@ -1,0 +1,151 @@
+body{
+	_background-color:#ffffff;
+	background-color:#ffffff;
+	color:#000000;
+	background-image:url("images/bg_blue.gif");
+	background-repeat:repeat-x;
+	background-attachment:relative;
+	background-position: left top
+	font-size: small;
+}
+
+td{
+	font-size: x-small;
+}
+
+a:link {
+	color:#9b5e5e;
+	}
+a:visited {
+	color:#9b5e5e;
+	}
+a:active {
+	color:#9b5e5e;
+	}
+a:hover {
+	color:#9b5e5e;
+	}
+
+.blogname{
+	font-size:large;
+	font-weight:bold;
+
+}
+
+.main{
+	width:780px;
+}
+
+.head_link{
+	color:#9b5e5e;
+	font-size:small;
+}
+
+
+td.menu_left{
+	background-image:url("images/table_bg.gif");
+	background-repeat:repeat;
+	background-attachment:absolute;
+	background-position: center center;
+}
+
+p. menu_left{
+	font-size:small;
+}
+
+.title_category_list{
+	background-color:#ffffff;
+	background-image:url("images/btn_blue.gif");
+	background-repeat:no-repeat;
+	background-attachment:absolute;
+	background-position: center center;
+	font-size:medium;
+	font-weight:bold;
+	color:#eeeeff;
+}
+
+.title_subcategory_list{
+	background-color:#ffffff;
+	background-image:url("images/btn_blue_sub.gif");
+	background-repeat:no-repeat;
+	background-attachment:absolute;
+	background-position: center center;
+	font-size:medium;
+	font-weight:bold;
+	color:#eeeeff;
+}
+
+
+.entry_title_list a:link {
+	color:#000000;
+	}
+.entry_title_list a:visited {
+	color:#000000;
+	}
+.entry_title_list a:active {
+	color:#000000;
+	}
+.entry_title_list a:hover {
+	color:#000000;
+	}
+
+
+td.entry_title_list {
+	line-height: 130%;
+	margin-top: 5px;
+	margin-right: 5px;
+	overflow:hidden;
+	font-size:small;
+}
+
+
+.title_entry{
+	background-image:url("images/title_bg_blue.gif");
+	background-repeat:repeat-x;
+	background-attachment:absolute;
+	background-position: left top;
+	font-size:medium;
+	font-weight:bold;
+	color:#ffffff;
+	overflow:hidden;
+}
+
+
+.title_entry a:link {
+	color:#ffffff;
+	}
+.title_entry a:visited {
+	color:#ffffff;
+	}
+.title_entry a:active {
+	color:#ffffff;
+	}
+.title_entry a:hover {
+	color:#ffffff;
+	}
+
+
+.title_entry_date{
+	background-image:url("images/title_bg_blue.gif");
+	background-repeat:repeat-x;
+	background-attachment:absolute;
+	background-position: left top;
+	font-size:small;
+	font-weight:bold;
+	color:#ffffff;
+	overflow:hidden;
+}
+
+.entry p{
+	font-size:small;
+	padding-left:10px;
+	line-height: 150%;
+	margin-top: 10px;
+}
+
+
+.copyright{
+	clear:both;
+	font-size:x-small;
+	margin: 10px 0px 0px 0px;
+}

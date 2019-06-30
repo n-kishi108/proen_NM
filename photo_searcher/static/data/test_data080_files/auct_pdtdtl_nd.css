@@ -1,0 +1,443 @@
+@charset "euc-jp";
+/* -----------------------------------------------------------
+CSS Information
+
+ file name:auct_pdtdtl_nd.css
+ author:Yahoo! JAPAN
+ auth level:css/00/page/
+ last updated:2009.5.21
+----------------------------------------------------------- */
+/* ------------------------------------------------------
+LOGIN BAR B
+------------------------------------------------------- */
+#modLoginBarB table td{
+	font-size:75%;
+}
+/* ------------------------------------------------------
+LOGIN BAR C
+------------------------------------------------------- */
+#modLoginBarC table td{
+	font-size:75%;
+}
+/* ------------------------------------------------------
+TITLE BAR B
+------------------------------------------------------- */
+#modTitBarB table td{
+	color:#000000; /* MAIN COLOR/TEXT/DEFAULT */
+}
+/* ------------------------------------------------------
+TITLE BAR C
+------------------------------------------------------- */
+#modTitBarC table td{
+	color:#000000; /* MAIN COLOR/TEXT/DEFAULT */
+}
+/* ------------------------------------------------------
+INFORMATION OF THE ITEM
+------------------------------------------------------- */
+#modPdtInfo .untHead td{
+	color:#333333;
+}
+#modPdtDtlInfo .untHead h3{
+	margin:0;
+}
+#modPdtDtlInfo .untHead td p{
+	margin:0;
+	padding:0 10px 0 0;
+}
+#modPdtInfo .untBody{
+	*width:100%;
+	padding-right:25px;
+	*padding-right:15px;
+}
+#modPdtInfo .untBody .pts01{
+	color:#333333;
+}
+/* IE7 */
+*:first-child+html #modPdtDtlInfo .untBody .pts01 li img.decBgOff{
+	margin:2px;
+}
+/* /IE7 */
+#modPdtDtlInfo .untBody .pts01 li img.decBgOff{
+	*margin:2px;
+}
+#modPdtInfo .untBody .pts02{
+	color:#333333;
+}
+#modPdtInfo .untBody .pts03{
+	width:100%;
+	position:relative;
+}
+#modPdtInfo .untBody .pts03 th{
+	color:#333333;
+	line-height:200%;
+}
+#modPdtInfo .untBody .pts03 td{
+	color:#333333;
+	line-height:200%;
+}
+#modPdtInfo .untBody .pts04{
+	width:100%;
+	position:relative;
+	color:#333333;
+}
+#modPdtInfo .untBody .pts04 th{
+	color:#333333;
+	line-height:140%;
+}
+#modPdtInfo .untBody .pts04 td{
+	color:#333333;
+	line-height:140%;
+}
+/* ------------------------------------------------------
+INFORMATION OF THE ITEM [B]
+------------------------------------------------------- */
+#modPdtInfoB .untHead td{
+	color:#333333;
+}
+#modPdtInfoB .untHead .decBg01 td{
+	color:#333333; /* MAIN COLOR/TEXT/DEFAULT */
+}
+#modPdtDtlInfoB .untHead h3{
+	margin:0;
+}
+#modPdtDtlInfoB .untHead td p{
+	margin:0;
+	padding:0 10px 0 0;
+}
+#modPdtInfoB .untBody{
+	*width:100%;
+	padding-right:25px;
+	*padding-right:15px;
+}
+#modPdtInfoB .untBody .pts03{
+	width:100%;
+	position:relative;
+}
+#modPdtInfoB .untBody .pts03 th{
+	line-height:200%;
+}
+#modPdtInfoB .untBody .pts03 td{
+	line-height:200%;
+}
+#modPdtInfoB .untBody .pts04{
+	width:100%;
+	position:relative;
+}
+#modPdtInfoB .untBody .pts04 th{
+	line-height:140%;
+}
+#modPdtInfoB .untBody .pts04 td{
+	line-height:140%;
+}
+/* ------------------------------------------------------
+INFORMATION OF THE EXHIBITOR
+------------------------------------------------------- */
+/** BODY **/
+#modSellInfo .untBody{
+	*width:275px;
+}
+#modSellInfo .untBody .pts01 th, #modSellInfo .untBody .pts01 td{
+	color:#333333;
+	font-size:85%;
+	line-height:150%;
+}
+#modSellInfo .untBody .pts01 table.decBg02 td,#modSellInfo .untBody .pts01 table.decBg02 th{
+	line-height:130%;
+}
+/* ------------------------------------------------------
+INFORMATION OF THE EXHIBITOR [B]
+------------------------------------------------------- */
+/** BODY **/
+#modSellInfoB .untBody{
+	*width:275px;
+}
+#modSellInfoB .untBody .pts01 th, #modSellInfoB .untBody .pts01 td{
+	font-size:85%;
+	line-height:150%;
+}
+#modSellInfoB .untBody .pts01 table.decBg02 td,#modSellInfoB .untBody .pts01 table.decBg02 th{
+	line-height:130%;
+}
+/* ------------------------------------------------------
+ITEM DETAILS INFORMATION
+------------------------------------------------------- */
+#modPdtDtlInfo .untHead td{
+	color:#333333;
+}
+#modPdtDtlInfo .untBody{
+	*width:100%;
+}
+#modPdtDtlInfo .decNDoc01{
+	*text-align:center;
+}
+#modPdtDtlInfo .decNDoc02{
+}
+#modPdtDtlInfo .untBody .pts01{
+	*text-align:left;
+}
+#modPdtDtlInfo .untBody .pts02 .decTx01{
+	margin:0;
+	color:#333333;
+}
+#modPdtDtlInfo .untBody .pts03 th, #modPdtDtlInfo .untBody .pts03 td, #modPdtDtlInfo .untBody .pts03 h4{
+	color:#333333;
+	line-height:150%;
+}
+#modPdtDtlInfo .untBody .pts04{
+	*width:100%;
+}
+#modPdtDtlInfo .untBody .pts04 th, #modPdtDtlInfo .untBody .pts04 td{
+	color:#333333;
+	font-size:85%;
+	line-height:150%;
+}
+#modPdtDtlInfo .untFoot .decBg01{
+	*width:100%;
+	*margin:0 5px;
+}
+#modPdtDtlInfo .untFoot .decBg02{
+	*width:100%;
+	*margin:0 5px;
+}
+/* ------------------------------------------------------
+ITEM DETAILS INFORMATION [B]
+------------------------------------------------------- */
+#modPdtDtlInfoB .untHead td{
+	color:#333333; /* MAIN COLOR/TEXT */
+}
+#modPdtDtlInfoB .untHead h3{
+	color:#333333; /* MAIN COLOR/TEXT */
+}
+#modPdtDtlInfoB .untBody{
+	*width:100%;
+}
+#modPdtDtlInfoB .decNDoc01{
+	*text-align:center;
+}
+#modPdtDtlInfoB .untBody .pts01{
+	*text-align:left;
+}
+#modPdtDtlInfoB .untBody .pts01 li img.decBgOff{
+	*margin:2px;
+}
+#modPdtDtlInfoB .untBody .pts02 .decTx01{
+	margin:0;
+}
+#modPdtDtlInfoB .untBody .pts03 th, #modPdtDtlInfoB .untBody .pts03 td, #modPdtDtlInfoB .untBody .pts03 h4{
+	line-height:150%;
+}
+#modPdtDtlInfoB .untBody .pts04{
+	*width:100%;
+}
+#modPdtDtlInfoB .untBody .pts04 th, #modPdtDtlInfoB .untBody .pts04 td{
+	font-size:85%;
+	line-height:150%;
+}
+#modPdtDtlInfoB .untFoot .decBg01{
+	*width:100%;
+	*margin:0 5px;
+}
+#modPdtDtlInfoB .untFoot .decBg02{
+	*width:100%;
+	*margin:0 5px;
+}
+/* ------------------------------------------------------
+TABLE INFORMATION (BLUE)
+------------------------------------------------------- */
+.decInfoTable{
+	*width:100%;
+	margin:0 5px;
+}
+.decInfoTable th{
+	color:#333333;
+	line-height:150%;
+}
+.decInfoTable td{
+	color:#333333;
+	line-height:150%;
+}
+#modPdtDtlInfoB .untBody .decInfoTable th, #modPdtDtlInfoB .untBody .decInfoTable td{
+	color:#000000;
+}
+/* ------------------------------------------------------
+TABLE INFORMATION (BLUE) [B]
+------------------------------------------------------- */
+.decInfoTableB{
+	*width:100%;
+	margin:0 5px;
+}
+.decInfoTableB th{
+	line-height:150%;
+}
+.decInfoTableB td{
+	line-height:150%;
+}
+/* ------------------------------------------------------
+STEP OF TRADE
+------------------------------------------------------- */
+#modTradeStep .pts01{
+	margin-bottom:20px;
+	color:#333333;
+	font-size:85%;
+	line-height:150%;
+}
+#modTradeStep td.pts01a{
+	background:none;
+}
+#modTradeStep td.pts01a img{
+	margin:0;
+	padding:0;
+	padding-bottom:0;
+}
+#modTradeStep td .pts01c td{
+	font-size:85%;
+	line-height:150%;
+}
+/* ------------------------------------------------------
+LIST TABLE
+------------------------------------------------------- */
+.modListTable{
+	width:100%;
+	margin:0 0 25px 0;
+	text-align:left;
+	font-size:85%;
+	color:#333333;
+}
+.modListTable a:hover{
+	text-decoration:underline;
+}
+.modListTable h2{
+	padding:8px 15px;
+	font-size:100%;
+	color:#ffffff;
+	background:#759ede;
+}
+.modListTable table{
+	border-collapse:collapse;
+	line-height:100%;
+	text-align:left;
+}
+/* */
+.modListTable table th{
+	line-height:100%;
+	font-size:85%;
+	color:#333333;
+}
+.modListTable table td{
+	font-size:85%;
+	color:#333333;
+}
+/* */
+.modListTable .decNDoc{
+	padding:0 15px;
+}
+/* ------------------------------------------------------
+AD
+------------------------------------------------------- */
+#modAdCt{
+	text-align:center;
+}
+#modAdCt table{
+	margin:0 auto;
+	text-align:left;
+}
+/* ------------------------------------------------------
+SUCCESSFUL BID
+------------------------------------------------------- */
+#modAlertBox .untHead .decBid td img{
+	*margin-right:10px;
+}
+/* ------------------------------------------------------
+CAR COMMENT
+------------------------------------------------------- */
+.decCarCmt .decNDoc{
+	width:100%;
+}
+/*----------------------------------------------------------------------------------------------.modUsrPrv*/
+.modUsrPrv{
+	width:100%;
+	margin-bottom:15px;
+}
+.modUsrPrv a:link{
+	color:#0000ff;
+	text-decoration:underline;
+}
+.modUsrPrv a:visited{
+	color:#800080;
+	text-decoration:underline;
+}
+.modUsrPrv h1{
+	display:block;
+	font-size:2em;
+	font-weight:bold;
+	margin:.67em 0;
+}
+.modUsrPrv h2{
+	display:block;
+	font-size:1.5em;
+	font-weight:bold;
+	margin:.83em 0;
+}
+.modUsrPrv h3{
+	display:block;
+	font-size:1.17em;
+	font-weight:bold;
+	margin:1em 0;
+}
+.modUsrPrv h4{
+	display:block;
+	font-weight:bold;
+	margin:1.33em 0;
+}
+.modUsrPrv h5{
+	display:block;
+	font-size:0.83em;
+	font-weight:bold;
+	margin:1.67em 0;
+}
+.modUsrPrv h6{
+	display:block;
+	font-size:0.67em;
+	font-weight:bold;
+	margin:2.33em 0;
+}
+.modUsrPrv p,
+.modUsrPrv dl{
+	display:block;
+	margin:1em 0;
+}
+.modUsrPrv div,
+.modUsrPrv form{
+	display:block;
+}
+.modUsrPrv ul dl,
+.modUsrPrv ol dl,
+.modUsrPrv dir dl,
+.modUsrPrv menu dl,
+.modUsrPrv dl ul,
+.modUsrPrv dl ol,
+.modUsrPrv dl dir,
+.modUsrPrv dl menu,
+.modUsrPrv dl dl{
+	margin-top:0;margin-bottom:0;
+}
+.modUsrPrv pre[_moz_quote=true]{
+	color:blue;
+}
+.modUsrPrv dt{
+	display:block;
+}
+.modUsrPrv dd{
+	display:block;
+	-moz-margin-start:40px;
+}
+.modUsrPrv strong{
+	font-weight:bolder;
+}
+.modUsrPrv img[usemap], object[usemap]{
+	color:blue;
+}
+.modUsrPrv table{
+	color:#333333;
+}
+/*end*/

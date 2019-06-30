@@ -1,0 +1,66 @@
+@charset "euc-jp";
+/* -----------------------------------------------------------
+CSS Information
+
+ file name:auct_ads.css
+ author:Yahoo! JAPAN
+ auth level:css/00/comm/
+ last updated:2009.6.5
+----------------------------------------------------------- */
+/*----------------------------------------------------------------------------------------------common*/
+#modAdCt a:link,
+#modAdSts a:link,
+#modAdSqm a:link,
+#modAdFtComm a:link{
+	text-decoration:underline;
+	color:#0000ff;
+}
+#modAdCt a:visited,
+#modAdSts a:visited,
+#modAdSqm a:visited,
+#modAdFtComm a:visited{
+	text-decoration:underline;
+	color:#800080;
+}
+#modAdCt a:hover,
+#modAdSts a:hover,
+#modAdSqm a:hover,
+#modAdFtComm a:hover{
+	text-decoration:underline;
+	color:#0000ff;
+}
+#modAdCt a:active,
+#modAdSts a:active,
+#modAdSqm a:active,
+#modAdFtComm a:hover{
+	text-decoration:underline;
+	color:#0000ff;
+}
+/*----------------------------------------------------------------------------------------------#modAdCt*/
+#modAdCt{
+	margin:0 auto 10px auto;
+}
+#modAdCt table{
+	margin:0 auto;
+}
+.test{
+	width:30%;
+	text-align:right;
+}
+/*----------------------------------------------------------------------------------------------#modAdSts,#modAdFtComm*/
+#modAdSts,
+#modAdFtComm{
+	margin:20px auto 0 auto;
+	text-align:left;
+}
+#modAdSts table{
+	text-align:left;
+}
+/*----------------------------------------------------------------------------------------------#modAdNe*/
+#modAdNe{
+	text-align:center;
+}
+#modAdNe p{
+	margin:0 auto 10px auto;
+}
+/*end*/

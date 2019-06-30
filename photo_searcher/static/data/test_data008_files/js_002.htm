@@ -1,0 +1,63 @@
+var _adpds_flash_version;
+if(_adpds_flash_version == undefined) {
+	var _adpdsGetFlashVersion = function() {
+		var _mac=(navigator.userAgent.indexOf("Mac")!=-1);
+
+		if (document.all) {
+			if(_mac) {
+				if(window["sample"]) return ((window["sample"].FlashVersion() & 0xffff0000) >> 16);
+			} else {
+				try {
+					var _axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash");
+					return Math.floor(_axo.FlashVersion() / 0x10000);
+				} catch(e) {
+				}
+			}
+		} else {
+			if(navigator.plugins && navigator.plugins["Shockwave Flash"]) {
+				try{
+					var info = navigator.plugins["Shockwave Flash"].description.split(" ");
+					return parseInt(info[2]);
+				} catch(e) {
+				}
+			}
+		}
+		try{
+			var version = 0;
+			var words = navigator.plugins["Shockwave Flash"].description.split(" ");
+
+			for (var i = 0; i < words.length; ++i){
+				if (isNaN(parseInt(words[i]))) continue;
+				version = words[i];
+				break;
+			}
+			return version;
+		} catch(e) {
+		}
+		return 0;
+	}
+
+	_adpds_flash_version = _adpdsGetFlashVersion();
+}
+
+var _adpds_redirect = escape('http://ds.advg.jp/adpds_deliver/p/r?adpds_sid=36&adpds_fid=23374&adpds_cpn=105001&adpds_bid=105003&adpds_cid=21888&adpds_nocache=127036046317838150960').replace('+', '%2B');
+
+if (_adpds_flash_version >= 6) {
+	document.write('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"');
+	document.write(' codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"');
+	document.write('  width=300 height=250>');
+	document.write('<param name="wmode" VALUE="window">');
+	document.write('<param name="movie" VALUE="http://img.adplan-ds.com/D36/cd_bnr_mx_syusei.swf?clickthru=' + _adpds_redirect + '&targetTAG=_new">');
+	document.write('<param name="menu" VALUE="false">');
+	document.write('<param name="quality" VALUE="high">');
+	document.write('<param name="allowScriptAccess" VALUE="always">');
+	document.write('<embed src="http://img.adplan-ds.com/D36/cd_bnr_mx_syusei.swf?clickthru=' + _adpds_redirect + '&targetTAG=_new"');
+	document.write(' swLiveConnect="FALSE"  width=300 height=250 wmode="window" menu="false" quality="high" allowScriptAccess="always"');
+	document.write(' type="application/x-shockwave-flash"');
+	document.write(' pluginspace="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">');
+	document.write('</embed>');
+	document.write('</object>');
+} else {
+	document.write('<a href="http://ds.advg.jp/adpds_deliver/p/r?adpds_sid=36&adpds_fid=23374&adpds_cpn=105001&adpds_bid=105003&adpds_cid=21888&adpds_nocache=127036046317838150960" target="_new"><img src="http://img.adplan-ds.com/D36/cd_bnr.gif" width=300 height=250></a>');
+}
+

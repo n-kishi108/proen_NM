@@ -1,0 +1,268 @@
+@charset "EUC-JP";
+
+/*ユーザーがカスタマイズ不可のCSS*/
+
+/*----------------------------------------------------------*/
+/* ヘッダー                                                 */
+/*----------------------------------------------------------*/
+.header_s {
+    width: 100%;
+    height: 30px;
+    background: #fff;
+	font-family: MS-PGothic,'ＭＳ Ｐゴシック','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Osaka,'メイリオ',Meiryo,sans-serif;
+	font-size: 13px;
+	line-height: 1.2;
+}
+.header_s a:link,
+.header_s a:visited,
+.header_s a:active {
+	color: #36c;
+}
+.header_s a:hover {
+	color: #f66;
+	text-decoration: underline;
+}
+.header_top a:hover {
+	color: #f66;
+	text-decoration: underline;
+}
+.header_s_logo {
+    width: 150px;
+    float: left;
+}
+.header_s_right {
+    padding: 0 10px 0 0;
+    text-align: right;
+    float: right;
+}
+.gnavi_s_btn {
+    float: left;
+    padding: 0 0 0 3px;
+}
+.gnavi_s_sub {
+    padding: 10px 5px 0 0;
+    float: left;
+}
+.li_faq {
+    background: url(/img/www/li_faq.gif) no-repeat left center;
+    padding: 0 3px 0 14px;
+}
+.li_toko {
+    background: url(/img/www/li_toko.gif) no-repeat left center;
+    padding: 0 3px 0 14px;
+}
+.li_new {
+    background: url(/img/www/li_new.gif) no-repeat left center;
+    padding: 0 3px 0 14px;
+}
+.li_login {
+    background: url(/img/www/li_login.gif) no-repeat left center;
+    padding: 0 3px 0 14px;
+}
+.li_logout {
+    background: url(/img/www/li_logout.gif) no-repeat left center;
+    padding: 0 3px 0 14px;
+}
+
+/* 検索（共通） */
+.search_top {
+    width: 100%;
+    height: 40px;
+    background: url(/img/www/search_bg_.gif) repeat-x #ccc;
+    float: left;
+	color: #666;
+	font-family: MS-PGothic,'ＭＳ Ｐゴシック','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Osaka,'メイリオ',Meiryo,sans-serif;
+    text-align: center;
+	font-size: 13px;
+	line-height: 1.2;
+}
+.search_top a:link,
+.search_top a:visited,
+.search_top a:active {
+	color: #36c;
+	text-decoration: underline;
+}
+.search_box {
+    width: 980px;
+    padding: 6px 0 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.search_logo {
+    float: left;
+    padding: 0;
+}
+.search_select {
+    float: left;
+    padding: 8px 1em 0 240px;
+}
+.search_select a {
+    text-decoration: none !important;
+}
+span.tab_on {
+    color: #fff;
+    background: #5ca7fc;
+    padding: 2px 3px 1px;
+}
+span.tab_off {
+    padding: 2px 3px 1px;
+    text-decoration: underline !important;
+}
+.search_keyword {
+    padding: 5px 1em 0 0;
+}
+.search_keyword input {
+    width: 268px;
+    height: 22px;
+    float: left;
+    padding: 2px;
+    border: 1px solid #aaa;
+	color: #333;
+	font-family: Verdana,MS-PGothic,'ＭＳ Ｐゴシック','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Osaka,'メイリオ',Meiryo,sans-serif;
+	font-size: 13px;
+}
+.search_button {
+    float: left;
+    padding: 0 1em 0 0;
+}
+.search_detail {
+    float: left;
+    margin-top: 3px;
+    padding: 0 0 0 14px;
+    background-image: url(/img/www/li_more.gif);
+	background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.search_top a {
+	color: #36c;
+	text-decoration: underline;
+}
+.search_detail a:hover {
+	color: #f66;
+}
+
+
+/*----------------------------------------------------------*/
+/* サークルTOP：ログイン                                    */
+/*----------------------------------------------------------*/
+div.circle_login {
+    background       : #eee;
+    border           : 1px #ccc solid;
+    margin           : 0 0 8px;
+}
+div.circle_login_detail {
+    width            : 298px;
+    padding          : 0;
+    margin           : 0;
+    text-align       : center;
+}
+.circle_login_box {
+    width           : 298px;
+    float           : left;
+    padding         : 0;
+    margin          : 0;
+}
+
+.circle_login_button {
+    padding         : 9px 47px;
+    margin          : 0;
+}
+
+.circle_login_text {
+    padding         : 6px 12px 0;
+    margin          : 0px;
+    color           : #666;
+    font-size       : 11px;
+    font-weight     : bold;
+    text-align      : left;
+    word-break      : break-all;
+    word-wrap       : break-word;
+}
+
+.login_button1 {
+    float           : left;
+    padding         : 3px 6px 0 0;
+    width           : 97px;
+    height          : 35px;
+}
+
+.login_button2 {
+    width           : 97px;
+    height          : 35px;
+    padding         : 3px 0 0 3px;
+    float           : left;
+}
+
+
+/*----------------------------------------------------------*/
+/* パーマリンク(メディアスペースの動画単体)：ログイン       */
+/*----------------------------------------------------------*/
+.media_telop_body_login {
+    visibility      : visible;
+    width           : 100%;
+    padding         : 10px 0;
+    text-align      : left;
+}
+.media_telop_body_login_box {
+    background      : #eee;
+    border          : 1px #ccc solid;
+    padding         : 10px 0 5px;
+    text-align      : left;
+}
+.media_telop_body_login_box_body{
+    padding         : 0 0 0 27px;
+    text-align      : left;
+}
+.media_telop_body_login_box_body a{
+    width           : 100%;
+}
+.media_telop_body_login_button{
+    padding         : 4px 0 9px 0;
+}
+
+
+/*----------------------------------------------------------*/
+/* 管理系のアラートBOX：非カスタム                　　　　　*/
+/*----------------------------------------------------------*/
+div.circle_mode{
+    text-align      : center;
+}
+div.circle_alert {
+    padding         : 15px 10px 10px;
+    color           : #f00;
+    font-size       : 14px;
+    line-height     : 16px;
+    font-weight     : bold;
+}
+div.circle_alert_detail {
+    padding         : 0 10px 25px;
+    font-size       : 13px;
+    line-height     : 16px;
+    font-weight     : bold;
+}
+.circle_alert_button {
+}
+
+
+/*----------------------------------------------------------*/
+/* 広告関連                                       　　　　　*/
+/*----------------------------------------------------------*/
+#super_ad { display : none ; height : 100px }
+#super_ad2 { display : block }
+#circle_ad { display : none }
+#from_ads07 { display : none }
+
+.to_super_ad { height : 100px; }
+.ad1_top { height : 90px }
+.ad1_top_apptown { height: 300px; margin-bottom : 10px }
+.circle_ads { height : 250px ;  text-align: center }
+.ads07 { height : 90px }
+.ad_client {
+	margin      	: 5px 0;
+	text-align  	: center;
+	width       	: 100%;
+}
+
+/*プレーヤー*/
+#zp{ display : block !important }

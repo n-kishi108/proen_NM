@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul.download {list-style-image:url(zip.gif);}
+ul.download li {padding-left:5px; font-size:11px;}
+#info {height:500px;}
+/* ================================================================ 
+
+=================================================================== */
+#nav47, 
+#nav47 ul.topMenu {padding:0 0 5px 0; margin:0; list-style:none; font: 12px verdana, sans-serif;  position:relative; z-index:200;}
+#nav47 ul {padding:2px 0 0 0; margin:2px 0 0 0; list-style:none; font: 12px verdana, sans-serif;  position:relative; z-index:200; background:url(images/in_menu_bg.png) repeat-y; width:155px;}
+#nav47 {height:25px; width:950px; padding:0; background:url(images/top_menu_bg.jpg) repeat-x bottom;}
+
+#nav47 table {border-collapse:collapse;}
+#nav47 li {float:left; padding:0 2px; margin:0;}
+#nav47 li li {float:none;height:25px; width:149px;padding:0 0 0 6px; margin:0;letter-spacing:100%;}
+/* a hack for IE5.x and IE6 */
+#nav47 li a li {float:left;}
+
+#nav47 li.mainMenu a {display:block; color:#333333; height:25px; padding:0 10px 0 10px; line-height:25px; text-decoration:none;}
+#nav47 li li a {height:18px; line-height:25px; float:none; color:#333333; padding:0 0 2px 10px;}
+
+#nav47 li.mainMenu:hover {position:relative; z-index:300; height:25px;}
+#nav47 li:hover {position:relative; z-index:300; color:#333333;height:25px;}
+#nav47 li.mainMenu a.topMenuOver:link { font-weight:bold;}
+#nav47 li.mainMenu a:hover {position:relative; z-index:300; text-decoration:underline; color:#333333;height:25px;}
+#nav47 li.mainMenu li a:hover {position:relative; z-index:300; text-decoration:underline; color:#333333; margin:0; padding:0 0 2px 4px; height:18px; border-left:solid 6px #F19601;}
+#nav47 a:hover {position:relative; z-index:300; text-decoration:underline; color:#333333;height:25px; }
+
+#nav47 :hover ul {left:0; top:22px;}
+/* another hack for IE5.5 and IE6 */
+#nav47 a:hover ul {left:-10px;}
+
+#nav47 ul {position:absolute; left:-9999px; top:-9999px;}
+
+/* it could have been this simple if all browsers understood */
+/* show next level */
+#nav47 li:hover li:hover > ul {left:-15px; margin-left:100%; top:-1px;}
+/* keep further levels hidden */
+#nav47 li:hover > ul ul {position:absolute; left:-9999px; top:-9999px; width:auto;}
+/* show path followed */
+#nav47 li:hover > a.topMenuOver { background:url(images/main_top_bg.jpg) repeat-x; color:#333333;}
+#nav47 li:hover > a {text-decoration:underline; color:#333333;}
+
+
+/* but IE5.x and IE6 need this lot to style the flyouts*/
+/* show next level */
+#nav47 a:hover a:hover ul,
+#nav47 a:hover a:hover a:hover ul,
+#nav47 a:hover a:hover a:hover a:hover ul,
+#nav47 a:hover a:hover a:hover a:hover a:hover ul
+{left:100%; top:-1px;}
+
+/* keep further levels hidden */
+#nav47 a:hover ul ul,
+#nav47 a:hover a:hover ul ul,
+#nav47 a:hover a:hover a:hover ul ul,
+#nav47 a:hover a:hover a:hover a:hover ul ul
+{position:absolute; left:-9999px; top:-9999px;}
+
+.no_space{
+	padding:0;
+	margin:5px 0 0 0;
+}
+
+
+/*-----右側のフォントサイズ変更ボタン----------*/
+
+	
+li.nomalFont a.nomalF {
+	display: block;
+	width: 34px;
+	height: 20px;
+	background:url(images/nomal_btn.jpg) no-repeat;
+	text-indent:-9999px;
+}
+
+li.nomalFont a.nomalF:hover {
+	background:url(images/nomal_btn_on.jpg) no-repeat;
+}
+
+li.bigFont a.bigF {
+	display: block;
+	width:20px;
+	height:25px;
+	background:url(images/big_btn.jpg) no-repeat;
+	text-indent:-9999px;
+}
+
+li.bigFont a.bigF:hover {
+	background:url(images/big_btn_on.jpg) no-repeat;
+}
+
+
+.menuListfoot{background:url(images/in_menu_bg_foot.png) bottom no-repeat;height:33px;}

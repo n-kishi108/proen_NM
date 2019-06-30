@@ -1,0 +1,257 @@
+#yahooIdentityContactCard dl,
+#yahooIdentityContactCard dt,
+#yahooIdentityContactCard dd,
+#yahooIdentityContactCard ul,
+#yahooIdentityContactCard ol,
+#yahooIdentityContactCard li,
+#yahooIdentityContactCard h1,
+#yahooIdentityContactCard h2,
+#yahooIdentityContactCard h3,
+#yahooIdentityContactCard h4,
+#yahooIdentityContactCard h5,
+#yahooIdentityContactCard h6,
+#yahooIdentityContactCard pre,
+#yahooIdentityContactCard form,
+#yahooIdentityContactCard input,
+#yahooIdentityContactCard p,
+#yahooIdentityContactCard blockquote,
+#yahooIdentityContactCard fieldset,
+#yahooIdentityContactCard div {
+margin: 0;
+padding: 0;
+}
+
+#yahooIdentityContactCard h1,
+#yahooIdentityContactCard h2,
+#yahooIdentityContactCard h3,
+#yahooIdentityContactCard h4,
+#yahooIdentityContactCard h5,
+#yahooIdentityContactCard h6 {
+font-size: 100%;
+font-weight: normal;
+}
+
+#yahooIdentityContactCard ul li,
+#yahooIdentityContactCard ol li {
+list-style: none;
+}
+
+#yahooIdentityContactCard table {
+margin:0;
+padding:0;
+border-collapse: collapse;
+border-spacing: 0;
+font-size: 100%;
+}
+
+#yahooIdentityContactCard caption {
+text-align: left;
+}
+
+#yahooIdentityContactCard table,
+#yahooIdentityContactCard pre,
+#yahooIdentityContactCard code,
+#yahooIdentityContactCard select,
+#yahooIdentityContactCard input,
+#yahooIdentityContactCard textarea,
+#yahooIdentityContactCard kbd,
+#yahooIdentityContactCard var,
+#yahooIdentityContactCard ins,
+#yahooIdentityContactCard del,
+#yahooIdentityContactCard samp {
+font-size: 100%;
+}
+
+#yahooIdentityContactCard address,
+#yahooIdentityContactCard cite,
+#yahooIdentityContactCard dfn,
+#yahooIdentityContactCard em,
+#yahooIdentityContactCard strong,
+#yahooIdentityContactCard var,
+#yahooIdentityContactCard th,
+#yahooIdentityContactCard ins,
+#yahooIdentityContactCard del,
+#yahooIdentityContactCard samp {
+font-weight: normal;
+font-style: normal;
+}
+
+#yahooIdentityContactCard a img {
+border: 0;
+}
+
+#yahooIdentityContactCard hr.separation {
+display: none;
+}
+
+#yahooIdentityContactCard fieldset {
+border: none;
+}
+
+#yahooIdentityContactCard .floatClear {
+  clear: both;
+  font-size: 0;
+}
+
+#yahooIdentityContactCard .clearFix{
+display:inline-block;
+}
+
+#yahooIdentityContactCard .clearFix:after{
+display:block; 
+clear:both; 
+visibility:hidden;
+height:0;
+content:".";
+}
+
+/* Hides from IE-mac \*/
+* html #yahooIdentityContactCard .clearFix{
+height:1%;
+}
+
+#yahooIdentityContactCard .clearFix{
+display:block;
+}/* End hide from IE-mac */
+
+/* ----------------------------------------------------
+ * yahooIdentityContactCard
+ * ---------------------------------------------------- */
+ 
+#yahooIdentityContactCard {
+font-size:75.4%;
+line-height:1.56em;
+color:#666;
+background:#fff;
+text-align:left;
+/*text-align:center;*/
+    width:150px;
+}
+
+#yahooIdentityContactCard .generic_bannerTitle {
+color:#555;
+}
+#yahooIdentityContactCard .generic_bannerTitle .title {
+font-weight:700;
+}
+#yahooIdentityContactCard .generic_bannerTitle .state {
+font-size:83.7%;
+}
+#yahooIdentityContactCard .yahooIdentityContactCardWrap .friendCard {
+width:56px;
+float:left; 
+padding:10px 8px 0 10px;
+}
+
+#yahooIdentityContactCard .yahooIdentityContactCardWrap .friendCardSpecial {
+width:56px;
+float:left; 
+padding:8px 10px 0 8px;
+_padding:8px 6px 0 8px;
+}
+
+#yahooIdentityContactCard .yahooIdentityContactCardWrap .friendCard .friendImg {
+border:1px solid #ccc;
+height:52px;
+padding:1px;
+width:52px;
+}
+#yahooIdentityContactCard .yahooIdentityContactCardWrap .friendCardSpecial .friendImg {
+border:4px solid #B7CFE7;
+padding:0;
+height:52px;
+width:52px;
+}
+
+#yahooIdentityContactCard .yahooIdentityContactCardWrap .avt {
+height:52px;
+width:52px;
+overflow:hidden;
+position:relative;
+}
+
+#yahooIdentityContactCard .yahooIdentityContactCardWrap .avt img {
+position:relative;
+top:-24px;
+left:-24px;
+}
+
+#yahooIdentityContactCard .yahooIdentityContactCardWrap .avt img.noAvatar {
+left: -6px;
+top: -3.2px;
+}
+
+#yahooIdentityContactCard .yahooIdentityContactCardWrap table tr td {
+vertical-align:middle;
+text-align:center;
+width:52px;
+height:52px;
+margin:0;
+padding:0;       
+}
+
+#yahooIdentityContactCard .yahooIdentityContactCardWrap .friendName {
+font-size:83.7%;
+line-height:103%;
+text-align:center;
+padding-top:2px;
+width:56px;
+}
+
+#yahooIdentityContactCard .yahooIdentityContactCardWrap .friendCardSpecial .friendName {
+font-size:83.7%;
+line-height:103%;
+text-align:center;
+padding:0 2px;
+width:56px;
+}
+
+#yahooIdentityContactCard .yahooIdentityContactCardFooter {
+text-align:right;
+padding:8px;
+}
+#yahooIdentityContactCard .yahooIdentityContactCardFooter img {
+position:relative;
+top:3px;
+margin-right:2px;
+}
+
+.yahooIdentityContactCardRo {
+	background:url(../img/roundcorner/yahooIdentityContactCardRo_cecece.gif) top right no-repeat;
+	margin:0;
+	padding:0;
+}
+
+.yahooIdentityContactCardLo {
+	background:url(../img/roundcorner/yahooIdentityContactCardLo_cecece.gif) top left no-repeat;
+	margin:0;
+	padding:0;
+}
+
+.yahooIdentityContactCardRu {
+	background:url(../img/roundcorner/yahooIdentityContactCardRu_cecece.gif) bottom right no-repeat;
+	margin:0;
+	padding:0;
+}
+
+.yahooIdentityContactCardLu {
+	background:url(../img/roundcorner/yahooIdentityContactCardLu_cecece.gif) bottom left no-repeat;
+	margin:0;
+	padding:0;
+}
+
+#yahooIdentityContactCard .contactCardTitleWrap {
+  padding:5px 0 0 7px;
+}
+
+#yahooIdentityContactCard .yahooIdentityContactBadgePanelRowNoFriends {
+margin:8px 0 0 0;
+text-align:center;
+}
+
+#yahooIdentityContactCard a{
+	text-decoration:none;
+}
+#yahooIdentityContactCard a:hover{
+	text-decoration:underline;
+}

@@ -1,0 +1,35 @@
+/* CSS Document */
+
+@import "css_print/template.css";
+@import "css_print/main.css";
+
+@import "css_print/bridge06_8-9.css";
+@import "css_print/c_guide.css";
+
+@import "css_print/gakuji-houkoku.css";
+
+@import "css_print/career.css";
+
+@import "css_print/g_message.css";
+@import "css_print/guide.css";
+@import "css_print/highschool_c.css";
+@import "css_print/itee.css";
+@import "css_screen/kyujin.css";
+@import "css_print/kyujin_ex.css";
+@import "css_print/kyushoku_cs_minasama.css";
+@import "css_print/kyusyoku_tourokuhyou.css";
+
+@import "css_creens/links.css";
+@import "css_print/nakano_study.css";
+@import "css_print/nisshopckentei.css";
+@import "css_print/press.css";
+@import "css_print/renkei.css";
+@import "css_print/sitemap.css";
+@import "css_print/dantai.css";
+
+
+@import "css_print/specialist.css";
+@import "css_print/tainyu.css";
+@import "css_print/w_dual.css";
+
+@import "css_print/yoko.css";

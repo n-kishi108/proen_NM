@@ -1,0 +1,51 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BLbIdik61S47HK4_g6wO3ndToBr-GopUBr5_l4grAjbcBgK3iBBABGAEg3qaUCigDOABQ4dvf3_v_____AWCJ672E4BOgAeXNi_sDsgEJYW1lYmxvLmpwyAEB2gExaHR0cDovL2FtZWJsby5qcC9zLWNvbnRpZ28vZW50cnktMTAxNTM1MjczMjguaHRtbIACAakCzWgTpXXxRj6oAwHoA6UC6AO9BOgDpgLoA_gD9QMAAADE9QMEAAAA&amp;num=1&amp;sig=AGiWqtzUlQEo-vPwiK-ns0LFNq7pUWMWlg&amp;client=ca-cyberagent-ameblo_js&amp;adurl=http://shop.gallery2.co.jp/shop/brand/%3Fbi%3D117"; 
+google_ad.visible_url = "shop.gallery2.co.jp/shop/"; 
+google_ad.line1 = "\x26#20154;\x26#27671;\x26#12398;\x26#12450;\x26#12473;\x26#12524;\x26#12479;\x26#21830;\x26#21697;\x26#12398;\x26#36890;\x26#36009;"; 
+google_ad.line2 = "\x26#12454;\x26#12455;\x26#12450;\x26#12539;\x26#12496;\x26#12483;\x26#12464;\x26#12289;\x26#12461;\x26#12515;\x26#12483;\x26#12503;\x26#31561;\x26#12364;\x26#20805;\x26#23455;!"; 
+google_ad.line3 = "\x26#21106;\x26#24341;\x26#29305;\x26#20856;\x26#28288;\x26#36617;\x26#12290;\x26#12459;\x26#12540;\x26#12489;\x26#12289;\x26#12467;\x26#12531;\x26#12499;\x26#12491;\x26#25173;\x26#21487;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=Bei5Iik61S47HK4_g6wO3ndToBoTn_4QBlJW01BDAjbcBgL2DFBACGAIg3qaUCigDOABQ8Pbd6Adgieu9hOAToAHyqfzrA7IBCWFtZWJsby5qcMgBAdoBMWh0dHA6Ly9hbWVibG8uanAvcy1jb250aWdvL2VudHJ5LTEwMTUzNTI3MzI4Lmh0bWypAs1oE6V18UY-yALE8eQJqAMB6AOlAugDvQToA6YC6AP4A_UDAAAAxPUDBAAAAA&amp;num=2&amp;sig=AGiWqtyIxzSkmjCB3r3038aD4th5Z5jlcg&amp;client=ca-cyberagent-ameblo_js&amp;adurl=http://www.watabe-wedding.co.jp/wedding_photo/%3Fcid%3Dp_ppc_goct_photo_sphoto_0058777%26s_kwcid%3DTC%7C9481%7C%25E7%25B5%2590%25E5%25A9%259A%25E5%25BC%258F%25E5%2586%2599%25E7%259C%259F%7Cameblo.jp%7CC%7C%7C4376993500"; 
+google_ad.visible_url = "watabe-wedding.co.jp"; 
+google_ad.line1 = "\x26#22823;\x26#20154;\x26#27671;\x26#12501;\x26#12457;\x26#12488;\x26#12454;\x26#12455;\x26#12487;\x26#12451;\x26#12531;\x26#12464;"; 
+google_ad.line2 = "\x26#27598;\x26#24180;\x26#12289;10,000\x26#32068;\x26#20197;\x26#19978;\x26#12398;\x26#12459;\x26#12483;\x26#12503;\x26#12523;\x26#21033;\x26#29992; !"; 
+google_ad.line3 = "\x26#12362;\x26#24471;\x26#12394;\x26#12503;\x26#12521;\x26#12531;\x26#12418;\x26#12290;\x26#12527;\x26#12479;\x26#12505;\x26#12454;\x26#12455;\x26#12487;\x26#12451;\x26#12531;\x26#12464;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BfbWzik61S47HK4_g6wO3ndToBu3ntyHRlaa2BcCNtwGAkKEPEAMYAyDeppQKKAM4AFDUrIPM-v____8BYInrvYTgE7IBCWFtZWJsby5qcMgBAdoBMWh0dHA6Ly9hbWVibG8uanAvcy1jb250aWdvL2VudHJ5LTEwMTUzNTI3MzI4Lmh0bWyAAgGpAs1oE6V18UY-qAMB6AOlAugDvQToA6YC6AP4A_UDAAAAxPUDBAAAAA&amp;num=3&amp;sig=AGiWqtyWdDVSLOgt4dQPYCr0WdzP0EvD0w&amp;client=ca-cyberagent-ameblo_js&amp;adurl=http://www.lechiffon.com"; 
+google_ad.visible_url = "www.lechiffon.com"; 
+google_ad.line1 = "\x26#12489;\x26#12524;\x26#12473;\x26#12395;\x26#12371;\x26#12384;\x26#12431;\x26#12427;\x26#32080;\x26#23130;\x26#20889;\x26#30495;"; 
+google_ad.line2 = "\x26#27700;\x26#25144;\x26#12398;\x26#35079;\x26#21512;\x26#22411;\x26#12454;\x26#12455;\x26#12487;\x26#12451;\x26#12531;\x26#12464;\x26#23554;\x26#38272;\x26#20889;\x26#30495;\x26#39208;"; 
+google_ad.line3 = "\x26#12489;\x26#12524;\x26#12473;\x26#12471;\x26#12519;\x26#12483;\x26#12503;\x26#20341;\x26#35373;\x26#12391;\x26#22311;\x26#20498;\x26#30340;\x26#12394;\x26#21697;\x26#25539;\x26#12360;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://ameblo.jp/s-contigo/entry-10153527328.html%26hl%3Dja%26client%3Dca-cyberagent-ameblo_js%26adU%3Dshop.gallery2.co.jp/shop/%26adT%3D%25E4%25BA%25BA%25E6%25B0%2597%25E3%2581%25AE%25E3%2582%25A2%25E3%2582%25B9%25E3%2583%25AC%25E3%2582%25BF%25E5%2595%2586%25E5%2593%2581%25E3%2581%25AE%25E9%2580%259A%25E8%25B2%25A9%26adU%3Dwatabe-wedding.co.jp%26adT%3D%25E5%25A4%25A7%25E4%25BA%25BA%25E6%25B0%2597%25E3%2583%2595%25E3%2582%25A9%25E3%2583%2588%25E3%2582%25A6%25E3%2582%25A7%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%26adU%3Dwww.lechiffon.com%26adT%3D%25E3%2583%2589%25E3%2583%25AC%25E3%2582%25B9%25E3%2581%25AB%25E3%2581%2593%25E3%2581%25A0%25E3%2582%258F%25E3%2582%258B%25E7%25B5%2590%25E5%25A9%259A%25E5%2586%2599%25E7%259C%259F%26gl%3DJP\x26usg\x3dAFQjCNGvFvugTf8jcqD7BmIW1kSyytS8Cw"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

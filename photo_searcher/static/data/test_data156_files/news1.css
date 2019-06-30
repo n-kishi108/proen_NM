@@ -1,0 +1,166 @@
+td,tr,div,body {font-family:MS PGothic; font-size:12px; color:#393939; line-height:18px}
+a {selector-dummy: expression(this.hideFocus=true); cursor:hand} 
+
+.news{font-size:16px; line-height:20px; text-decoration:underline; color:#1E5FCA}
+A.news:link {COLOR: #1E5FCA; font-size:16px; TEXT-DECORATION: underline; }
+A.news:visited {COLOR: #1E5FCA; font-size:16px; TEXT-DECORATION: underline; }
+A.news:active {COLOR: #1E5FCA; font-size:16px; TEXT-DECORATION: underline; }
+A.news:hover {COLOR: #1E5FCA; font-size:16px; TEXT-DECORATION: underline;  }
+
+.news_kr{font-size:16px; line-height:16px; text-decoration:underline; color:#1E5FCA}
+A.news_kr:link {COLOR: #1E5FCA; line-height:16px; font-size:16px; TEXT-DECORATION: underline; }
+A.news_kr:visited {COLOR: #1E5FCA; line-height:16px; font-size:16px; TEXT-DECORATION: underline; }
+A.news_kr:active {COLOR: #1E5FCA; line-height:16px; font-size:16px; TEXT-DECORATION: underline; }
+A.news_kr:hover {COLOR: #1E5FCA; line-height:16px; font-size:16px; TEXT-DECORATION: underline;  }
+
+A.news_more:link {COLOR: #1E5FCA; font-size:12px; TEXT-DECORATION: underline; }
+A.news_more_n:link {COLOR: #1E5FCA; font-size:12px; TEXT-DECORATION: underline; }
+
+
+.07_menu{font-size:12px; text-decoration:underline; color:#FFFFFF}
+A.07_menu:link {COLOR: #FFFFFF; font-size:12px; TEXT-DECORATION: underline; }
+A.07_menu:visited {COLOR: #FFFFFF; font-size:12px; TEXT-DECORATION: underline; }
+A.07_menu:active {COLOR: #FFFFFF; font-size:12px; TEXT-DECORATION: underline; }
+A.07_menu:hover {COLOR: #FFFFFF; font-size:12px; TEXT-DECORATION: underline;  }
+
+.07_menu_over{font-size:12px; text-decoration:underline; color:#0E3F78}
+A.07_menu_over:link {COLOR: #0E3F78; font-size:12px; TEXT-DECORATION: underline; font-weight:bold}
+A.07_menu_over:visited {COLOR: #0E3F78; font-size:12px; TEXT-DECORATION: underline; font-weight:bold}
+A.07_menu_over:active {COLOR: #0E3F78; font-size:12px; TEXT-DECORATION: underline; font-weight:bold}
+A.07_menu_over:hover {COLOR: #0E3F78; font-size:12px; TEXT-DECORATION: underline; font-weight:bold}
+
+
+
+.menu_n{font-size:16px; color:#393939}
+.news_n{font-size:16px}
+.light15px{color:#393939; line-height:15px}
+.15px{color:#666666; line-height:15px}
+.title{font-size:18px; color:#1E5FCA; font-weight:bold}
+.title_focus{font-size:16px; color:#1E5FCA; text-decoration:underline; font-weight:bold}
+.title_new{font-size:18px; color:#393939; font-weight:bold; line-height:22px}
+.title_media{font-size:16px; color:#1E5FCA; font-weight:bold}
+.stitle{ color:#1E5FCA; font-weight:bold}
+.menu{font-size:12px; color:#1E5FCA; font-weight:bold; padding-left:10}
+
+A:link {COLOR: #393939; TEXT-DECORATION: none; }
+A:visited {COLOR: #393939; TEXT-DECORATION: none; }
+A:active {COLOR: #1E5FCA; TEXT-DECORATION: none; }
+A:hover {COLOR: #1E5FCA; TEXT-DECORATION: underline;  }
+
+.light15px A:link {COLOR: #666666; TEXT-DECORATION: none; }
+.light15px A:visited {COLOR: #666666; TEXT-DECORATION: none; }
+.light15px A:active {COLOR: #1E5FCA; TEXT-DECORATION: none; }
+.light15px A:hover {COLOR: #1E5FCA; TEXT-DECORATION: underline;  }
+
+.more A:link {color: #1E5FCA; font-size:8pt;TEXT-DECORATION: underline; padding-right:10}
+.more A:visited {color: #1E5FCA; font-size:8pt;TEXT-DECORATION: underline; padding-right:10}
+.more A:active {color:#1E5FCA; font-size:8pt; TEXT-DECORATION: underline; padding-right:10}
+.more A:hover {	color:#1E5FCA; font-size:8pt; TEXT-DECORATION: underline; padding-right:10}
+
+.orange A:link {COLOR: #393939; TEXT-DECORATION: none}
+.orange A:visited {COLOR: #393939; TEXT-DECORATION: none}
+.orange A:active {COLOR: #1E5FCA; TEXT-DECORATION: none}
+.orange A:hover {COLOR: #1E5FCA; TEXT-DECORATION: underline}
+
+.sm1{font-size:11px; color:#969696}
+.sm1 A:link {font-size:11px;COLOR: #969696; TEXT-DECORATION: none}
+.sm1 A:visited {font-size:11px;COLOR: #969696; TEXT-DECORATION: none}
+.sm1 A:active {font-size:11px;COLOR: #E24176; TEXT-DECORATION: underline}
+.sm1 A:hover {font-size:11px;COLOR: #E24176; TEXT-DECORATION: underline}
+
+h1 { font-size:20px; font-weight:bold; font-family:MS PGothic; color:#FFFFFF; border-bottom:2px solid #8446B0; padding:0 0 0 10; margin:0 0 0 0; background:#8446B0; }
+h2 { font-size:12px; font-weight:bold; font-family:MS PGothic; color:#393939; border-bottom:1px solid #cccccc; padding:0 0 0 10; margin:5 0 5 0; background:#EBEBEB; }
+h3 { font-size:12px; font-weight:bold; font-family:MS PGothic; color:#393939; border-bottom:1px solid #cccccc; padding:0 0 0 10; margin:0 0 5 0; background:#EBEBEB; }
+#header {width:100%; position:absolute; top:0; left:0;}
+#contents {width:100%; position:absolute; top:200; left:0; margin:0; padding:0 0 0 0}
+
+.qna_text {COLOR: #275D1E; font-size:14px; font-weight:bold}
+A.qna_text:link {COLOR: #275D1E; TEXT-DECORATION: underline; font-size:14px; font-weight:bold}
+A.qna_text:visited {COLOR: #275D1E; TEXT-DECORATION: underline; font-size:14px; font-weight:bold}
+A.qna_text:active {COLOR: #275D1E; TEXT-DECORATION: underline; font-size:14px; font-weight:bold}
+A.qna_text:hover {COLOR: #275D1E; TEXT-DECORATION: underline; font-size:14px; font-weight:bold}
+
+#paging {clear:both; font-size:16px; margin:0px 0px 0px 0px; text-align:left; width:100%}
+#paging a {border:1px solid #D9D9D9;height:23px;text-decoration:none; font-size:16px; }
+#paging a:hover {border:1px solid #1E5FCA; color:#FFFFFF; background-color:#1E5FCA; font-size:16px; }
+#paging .sel {border:1px solid #1E5FCA; color:#1E5FCA;font-weight:bold;height:23px;padding:4px 7px 4px 7px; font-size:16px; }
+#paging .numBox {color:#000;padding:4px 7px 4px 7px; color:#1E5FCA; text-decoration:underline; font-size:16px; }
+#paging .list {border:1px solid #D9D9D9; color:#1E5FCA; height:23px;padding:4px 7px 4px 7px; font-size:16px; }
+
+
+/* 20080804_ÉäÉjÉÖÅ[ÉAÉã */
+.ft_12_nm {COLOR: #393939; font-size:12px; line-height:130%}
+A.ft_12_nm:link {COLOR: #393939; TEXT-DECORATION: none; font-size:12px; line-height:120%}
+A.ft_12_nm:visited {COLOR: #393939; TEXT-DECORATION: none; font-size:12px; line-height:120%}
+A.ft_12_nm:active {COLOR: #393939; TEXT-DECORATION: none; font-size:12px; line-height:120%}
+A.ft_12_nm:hover {COLOR: #393939; TEXT-DECORATION: underline; font-size:12px; line-height:120%}
+
+.ft_12_b {COLOR: #393939; font-size:12px; line-height:130%}
+A.ft_12_b:link {COLOR: #3666C8; TEXT-DECORATION: underline; font-size:12px; line-height:120%}
+A.ft_12_b:visited {COLOR: #3666C8; TEXT-DECORATION: underline; font-size:12px; line-height:120%}
+A.ft_12_b:active {COLOR: #3666C8; TEXT-DECORATION: underline; font-size:12px; line-height:120%}
+A.ft_12_b:hover {COLOR: #3666C8; TEXT-DECORATION: underline; font-size:12px; line-height:120%}
+
+.txt10{font-size:10px; color:#393939}
+A.txt10:link {font-size:10px;COLOR: #393939; TEXT-DECORATION:  underline; }
+A.txt10:visited {font-size:10px;COLOR: #393939; TEXT-DECORATION:  underline;}
+A.txt10:active {font-size:10px;COLOR: #393939; TEXT-DECORATION: underline;}
+A.txt10:hover {font-size:10px;COLOR: #393939; TEXT-DECORATION: underline;}
+
+.txt10_gm{font-size:10px; color:#393939; font-family:MS UI Gothic, MS PGothic;}
+A.txt10_gm:link {font-size:10px;COLOR: #393939; TEXT-DECORATION:  underline; font-family:MS UI Gothic, MS PGothic; line-height:100%}
+A.txt10_gm:visited {font-size:10px;COLOR: #393939; TEXT-DECORATION:  underline; font-family:MS UI Gothic, MS PGothic; line-height:100%}
+A.txt10_gm:active {font-size:10px;COLOR: #393939; TEXT-DECORATION: underline; font-family:MS UI Gothic, MS PGothic; line-height:100%}
+A.txt10_gm:hover {font-size:10px;COLOR: #393939; TEXT-DECORATION: underline; font-family:MS UI Gothic, MS PGothic; line-height:100%}
+
+.txt12{font-size:12px; color:#393939}
+A.txt12:link {font-size:12px;COLOR: #393939; TEXT-DECORATION:  underline}
+A.txt12:visited {font-size:12px;COLOR: #393939; TEXT-DECORATION:  underline}
+A.txt12:active {font-size:12px;COLOR: #393939; TEXT-DECORATION: underline}
+A.txt12:hover {font-size:12px;COLOR: #393939; TEXT-DECORATION: underline}
+
+
+.txt14{font-size:14px; color:#393939}
+A.txt14:link {font-size:14px;COLOR: #393939; TEXT-DECORATION:  underline}
+A.txt14:visited {font-size:14px;COLOR: #393939; TEXT-DECORATION:  underline}
+A.txt14:active {font-size:14px;COLOR: #393939; TEXT-DECORATION: underline}
+A.txt14:hover {font-size:14px;COLOR: #393939; TEXT-DECORATION: underline}
+
+
+.1228{font-size:12px; text-decoration:underline; color:#1E5FCA}
+A.1228:link {COLOR: #1E5FCA; font-size:12px; TEXT-DECORATION: underline; }
+A.1228:visited {COLOR: #1E5FCA; font-size:12px; TEXT-DECORATION: underline; }
+A.1228:active {COLOR: #1E5FCA; font-size:12px; TEXT-DECORATION: underline; }
+A.1228:hover {COLOR: #1E5FCA; font-size:12px; TEXT-DECORATION: underline;  }
+
+
+/* 20100125 Poll*/
+.poll_gy{font-size:12px; color:#969696}
+.poll_gy A:link {font-size:12px;COLOR: #1E5FCA; TEXT-DECORATION: underline}
+.poll_gy A:visited {font-size:12px;COLOR: #1E5FCA; TEXT-DECORATION: underline}
+.poll_gy A:active {font-size:12px;COLOR: #1E5FCA; TEXT-DECORATION: underline}
+.poll_gy A:hover {font-size:12px;COLOR: #1E5FCA; TEXT-DECORATION: underline}
+
+.poll_dotline { background-image:url(/Images/dot_bg.gif); height:21px; }
+.poll_tit { font-size:14px}
+
+.ft_16_nm {COLOR: #393939; font-size:16px;}
+A.ft_16_nm:link {COLOR: #393939; TEXT-DECORATION: underline; font-size:16px; line-height:18px;}
+A.ft_16_nm:visited {COLOR: #393939; TEXT-DECORATION: underline; font-size:16px; line-height:18px;}
+A.ft_16_nm:active {COLOR: #393939; TEXT-DECORATION: underline; font-size:16px; line-height:18px;}
+A.ft_16_nm:hover {COLOR: #393939; TEXT-DECORATION: underline; font-size:16px; line-height:18px;}
+
+.ft_16_b {COLOR: #1E5FCA; font-size:16px; }
+A.ft_16_b:link {COLOR: #1E5FCA; TEXT-DECORATION: underline; font-size:16px; line-height:18px;}
+A.ft_16_b:visited {COLOR: #1E5FCA; TEXT-DECORATION: underline; font-size:16px; line-height:18px;}
+A.ft_16_b:active {COLOR: #1E5FCA; TEXT-DECORATION: underline; font-size:16px; line-height:18px;}
+A.ft_16_b:hover {COLOR: #1E5FCA; TEXT-DECORATION: underline; font-size:16px; line-height:18px;}
+
+
+.poll_tit{font-size:12px; color:#FFFFFF}
+
+
+A.pic_t:link {color:#1E5FCA;text-decoration: underline}
+A.pic_t:visited {color:#1E5FCA;text-decoration: underline}
+A.pic_t:active  {color:#1E5FCA;text-decoration:underline}
+A.pic_t:hover  {color:#1E5FCA;text-decoration:underline }

@@ -1,0 +1,969 @@
+/*  
+Theme Name: Nagasaki-Heiankaku
+Theme URI: http://www.nagasaki-heiankaku.jp/
+Description:
+Version: 1.0
+Author: Tsukasa Ohsumi
+Author URI: http://www.kameyama-grp.co.jp/
+
+*/
+
+
+
+
+/* 基本構成
+---------------------------------------------------- */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	_font-size: 62.5%;
+	*font-family: "メイリオ", Meiryo, Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+	text-align: center;
+	line-height: 1.4;
+}
+
+#wrapper {
+	width: 750px;
+	font-size: 120%;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+}
+
+p,ul,ol,dl {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+img { border: none;}
+
+hr { clear: both;}
+
+a{
+	color: #CC0000;
+	text-decoration: none;
+}
+a:hover{
+	color: #003399;
+	text-decoration: none;
+}
+a:visited{
+	color: #555555;
+	text-decoration: none;
+}
+
+
+
+
+
+/* ヘッダー
+---------------------------------------------------- */
+
+#header {
+	margin: 0;
+	padding: 0;
+	width: 750px;
+	height: 100px;
+	background-image: url(../../../../img/header.png);
+	background-repeat: no-repeat;
+}
+
+
+h1{
+	float: left;
+	margin: 0;
+	padding-left: 20px;
+	font-size: 100%;
+}
+h1 a{
+	display: block;
+	width: 235px;
+	height: 90px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background-image: url(../../../../img/logo.png);
+}
+h1 a:hover{
+	background: transparent url(../../../../img/logo.png);
+}
+
+
+
+
+
+
+
+/* フッター
+---------------------------------------------------- */
+
+
+#footer {
+	width: 750px;
+	height: 45px;
+	background-image: url(../../../../img/footer.png);
+	background-repeat: no-repeat;
+}
+
+#footer p{
+	font-size: 1em;
+	text-align: center;
+	margin: 0 auto;
+	padding: 15px 0 0;
+}
+
+
+
+
+
+
+
+/* テキストナビゲーション
+---------------------------------------------------- */
+
+.txt_navi {
+	float: right;
+	height: 20px;
+	font-size: 0.88em;
+	margin: 5px 0 0;
+	padding: 0 20px 0 0;
+}
+
+.txt_navi li{
+	display: inline;
+	margin: 0;
+	padding: 0 0.6em;
+	border-left: 1px solid #888888;
+	list-style-type: none;
+}
+
+.txt_navi li.fin{
+	border-right: 1px solid #888888;
+}
+
+.txt_navi a{ color: #999999;}
+.txt_navi a:hover{ color: #990000;}
+
+
+
+
+
+
+
+/* タブビゲーション
+---------------------------------------------------- */
+
+.tab {
+	float: right;
+	width: 380px;
+	height: 35px;
+	margin: 30px 0 0;
+	padding: 0 12px 0 0;
+}
+	
+
+.tab ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.tab li{
+	float: left;
+	display: inline;
+	width: 95px;
+	height: 25px;
+	font-size: 0.88em;
+	margin: 0;
+	padding: 0;
+}
+
+.tab li a{
+	display: block;
+	width: 95px;
+	height: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: #003399;
+	margin: 0;
+	padding: 15px 0 0;
+	background: url(../../../../img/tab.png) no-repeat;
+}
+.tab li a:hover{
+	color: #666666;
+	background: transparent url(../../../../img/tab.png) 0 -35px no-repeat;
+}
+.tab li a#koko{
+	color: #990000;
+	background: transparent url(../../../../img/tab.png) 0 -35px no-repeat;
+}
+
+
+
+
+
+
+
+/* コンテンツ部分
+---------------------------------------------------- */
+
+
+.cont {
+	clear: both;
+	width: 720px;
+	background: url(../../../../img/body_bg.png);
+	background-repeat: repeat-y;
+	background-position: left top;
+	float: left;
+	margin: 0;
+	padding: 0 15px 5px;
+}
+
+.top {
+	clear: both;
+	width: 750px;
+	height: 15px;
+	margin: 0;
+	padding: 0;
+	text-indent: -9999px;
+	background: url(../../../../img/top.png);
+	background-repeat: no-repeat;
+}
+
+.end {
+	clear: both;
+	width: 750px;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+	text-indent: -9999px;
+	background: url(../../../../img/end.png);
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+/* サイドバー
+---------------------------------------------------- */
+
+#side {
+	float: right;
+	width: 175px;
+	font-size: 1.1em;
+	margin: 0 auto 25px;
+	padding: 25px 0 0;
+}
+
+
+small, #side ul ul li, #side ul ol li, .nocomments, .postmetadata, blockquote, strike {
+	color: #777;
+	}
+	
+#side h2 {
+	font-size: 1.05em;
+	margin: 5px 0 0 15px;
+	padding: 0;
+	}
+#side ul ul li:before {
+	content: "\00BB \0020";
+	}
+#side ul, #side ul ol {
+	margin: 0;
+	padding: 0;
+	}
+
+#side ul li {
+	list-style-type: none;
+	list-style-image: none;
+	margin-bottom: 15px;
+	}
+
+#side ul p, #side ul select {
+	margin: 5px 15px 8px;
+	}
+
+#side ul ul, #side ul ol {
+	font-size: 0.92em;
+	margin: 5px 0 0 20px;
+	}
+
+#side ul ul ul, #side ul ol {
+	margin: 0 0 0 20px;
+	}
+
+ol li, #side ul ol li {
+	list-style: decimal outside;
+	}
+
+#side ul ul li, #side ul ol li {
+	margin: 3px 0 0;
+	padding: 0;
+	}
+	
+#side #searchform #s {
+	width: 108px;
+	padding: 2px;
+	}
+
+#side #searchsubmit {
+	padding: 1px;
+	}
+#side form {
+	margin: 0;
+	}
+	
+.kiji li{
+	margin-bottom: 0.5em;
+	padding-bottom: 0.15em;
+	border-bottom: 1px dashed #666666;
+	}
+
+
+
+
+
+
+
+
+
+
+
+.alt {
+	background-color: #f8f8f8;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	}
+
+small {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 0.9em;
+	margin-left: 0.5em;
+	}
+
+
+
+.pagetitle {margin-bottom: 2em;}
+
+
+.entry {
+	margin: 1em 0 1em 10px;
+	}
+	
+.entry ul{
+	font-size: 0.96em;
+	list-style-type: disc;
+	margin-bottom: 20px;
+	p*adding-left: 1.5em;
+	}
+.entry li{ margin-bottom: 0.25em;}
+	
+.entry p{
+	margin: 0 0 0.35em 0;
+	}
+
+.entry p a:visited {
+	color: #b85b5a;
+	}
+
+.commentlist li, #commentform input, #commentform textarea {
+	font: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+.commentlist li {
+	font-weight: bold;
+	}
+
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+	}
+
+.commentlist p {
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+	}
+
+#commentform p {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+.commentmetadata {
+	font-weight: normal;
+	}
+
+
+
+code {
+	font: 1.1em 'Courier New', Courier, Fixed;
+	}
+
+acronym, abbr, span.caps
+{
+	font-size: 0.9em;
+	letter-spacing: .07em;
+	}
+
+#wp-calendar #prev a, #wp-calendar #next a {
+	font-size: 9pt;
+	}
+
+#wp-calendar a {
+	text-decoration: none;
+	}
+
+#wp-calendar caption {
+	font: bold 1.3em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	text-align: center;
+	}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	}
+/* End Typography & Colors */
+
+
+
+/* Begin Structure */
+
+.narrowcolumn {
+	float: left;
+	font-size: 0.92em;
+	padding: 35px 0 20px 20px;
+	margin: 0;
+	width: 500px;
+	}
+	
+
+
+.widecolumn {
+	float: left;
+	font-size: 0.92em;
+	padding: 35px 0 20px 20px;
+	margin: 0;
+	width: 500px;
+	}
+
+.post {
+	width: 500px;
+	font-size: 1.1em;
+	margin: 0 0 100px;
+	text-align: justify;
+	}
+
+.post h2{
+	font-size: 1.3em;
+	margin: 0 0 0.75em 0;
+	padding: 3px 2px 2px 8px;
+	border-bottom-color: #990000;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: #990000;
+	border-left-style: solid;
+	border-left-width: 8px;
+}
+.post h2 a{
+	color: #990000;
+	text-decoration: none;
+}
+.post h2 a:hover{
+	color: #330000;
+	text-decoration: none;
+}
+.post h3{
+	font-size: 1.25em!important;
+	background: none;
+}
+
+.post h4{
+	font-size: 1.2em;
+	margin: 3px 0 0.35em 0;
+	padding: 0;
+}
+.post h5{
+	font-size: 1.15em!important;
+}
+.post h6{
+	font-size: 1.1em!important;
+}
+
+.post img{
+	margin-bottom: 1em;
+}
+
+.post hr {
+	display: block;
+	}
+
+.widecolumn .post {
+	margin: 0;
+}
+
+.narrowcolumn .postmetadata {
+	font-size: 0.92em;
+	padding: 5px 5px 0;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #666666;
+	}
+
+.widecolumn .postmetadata {
+	font-size: 0.92em;
+	margin: 30px 20px 30px 0;
+	}
+
+.widecolumn .smallattachment {
+	text-align: center;
+	float: left;
+	width: 128px;
+	margin: 5px 5px 5px 0px;
+}
+
+.widecolumn .attachment {
+	text-align: center;
+	margin: 5px 0px;
+}
+
+.postmetadata {
+	clear: left;
+}
+
+
+/* End Structure */
+
+
+
+
+
+
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 0 0 0 13px;
+	margin: 0 0 15px 0;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 0 13px 0 0;
+	margin: 0 0 15px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	clear: both;
+	float: left
+	}
+
+.img_r {
+	float: right;
+	margin: 0;
+	padding: 0 0 10px 5px;
+	}
+
+.img_l {
+	float: left;
+	margin: 0;
+	padding: 0 5px 10px 0;
+	}
+	
+.img_r2 {
+	float: right;
+	margin: 0;
+	padding: 0 0 15px 9px;
+	}
+
+.img_l2 {
+	float: left;
+	margin: 0;
+	padding: 0 9px 15px 0;
+	}
+/* End Images */
+
+
+
+/* Begin Lists
+
+	Special stylized non-IE bullets
+	Do not work in Internet Explorer, which merely default to normal bullets. */
+
+html>body u*l {
+	margin-left: 0px;
+	padding: 0 0 0 30px;
+	list-style: none;
+	padding-left: 10px;
+	text-indent: -10px;
+	} 
+
+html>body .entry l*i {
+	margin: 7px 0 8px 10px;
+	}
+	
+.entry p {
+	line-height: 1.5;
+	margin-bottom: 0.65em;
+	}
+
+.entry ol {
+	padding: 0 0 0 35px;
+	margin: 0;
+	}
+
+.entry ol li {
+	margin: 0;
+	padding: 0;
+	}
+
+.postmetadata {margin-top: 35px;}
+
+.postmetadata ul, .postmetadata li {
+	display: inline;
+	list-style-type: none;
+	list-style-image: none;
+	}
+
+
+/* End Entry Lists */
+
+
+
+/* Begin Form Elements */
+#searchform {
+	margin: 10px auto;
+	padding: 5px 3px; 
+	text-align: center;
+	}
+
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+select {
+	width: 130px;
+	}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+#commentform textarea {
+	width: 96%;
+	padding: 2px;
+	}
+
+#commentform #submit {
+	margin: 0 15px 0;
+	float: right;
+	}
+/* End Form Elements */
+
+
+
+/* Begin Comments*/
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	margin: 15px 0 3px;
+	padding: 5px 10px 3px;
+	list-style: none;
+	}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+	}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+/* End Comments */
+
+
+
+
+
+/* Begin Calendar */
+#wp-calendar {
+	empty-cells: show;
+	margin: 10px auto 0;
+	width: 155px;
+	}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+	}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+	}
+
+#wp-calendar a {
+	display: block;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	width: 100%;
+	}
+
+#wp-calendar td {
+	padding: 3px 0;
+	text-align: center;
+	}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+	background-color: #fff; }
+/* End Calendar */
+
+
+
+/* Begin Various Tags & Classes */
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+blockquote {
+	margin: 15px 30px 0 10px;
+	padding-left: 20px;
+	border-left: 5px solid #ddd;
+	}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+	}
+
+.center {
+	text-align: center;
+	}
+
+hr {
+	display: none;
+	}
+
+a img {
+	border: none;
+	}
+
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 60px;
+	}
+/* End Various Tags & Classes*/
+
+
+
+
+
+
+
+
+
+
+/* 予約フォーム用パーツ
+---------------------------------------------------- */
+.yoyaku {
+	width: 215px;
+	margin: 0.5em auto 1.5em;
+	padding: 0;
+	font-size: 100%;
+}
+.yoyaku  a{
+	display: block;
+	width: 215px;
+	height: 60px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(images/yoyaku.png) no-repeat;
+}
+.yoyaku  a:hover{
+	background: transparent url(images/yoyaku.png) 0 -60px no-repeat;
+}
+
+
+
+
+
+
+
+
+
+/* 求人フォーム用パーツ
+---------------------------------------------------- */
+
+.recruit {
+	width: 500px;
+	margin: 15px auto;
+	padding: 0;
+}
+
+.recruit h4{
+	font-size: 1.3em;
+	color: #444444;
+	margin: 0 0 0.75em 0;
+	padding: 3px 2px 2px 8px;
+	border-bottom-color: #990000;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: #990000;
+	border-left-style: solid;
+	border-left-width: 8px;
+}
+
+.recruit table{
+	border: 1px solid #956411;
+	border-collapse: separate;
+	border-spacing: 2px;
+	margin: 10px auto;
+}
+
+.recruit th{
+	padding: 5px;
+	color: #444444;
+	text-align: right;
+	white-space: nowrap;
+	padding-left: 1em;
+	padding-right: 0.25em;
+	border-right: 1px solid #956411;
+	border-bottom: 1px solid #956411;
+	background-color: #ECD9C6;
+}
+.recruit td{
+	padding: 5px;
+	vertical-align: top;
+	border-right: 1px solid #956411;
+	border-bottom: 1px solid #956411;
+	background-color: #FCF1E0;
+}
+
+.order {
+	width: 215px;
+	text-align: center;
+	margin: 15px 142px 1.5em;
+	padding: 0;
+	font-size: 100%;
+}
+.order a{
+	display: block;
+	width: 215px;
+	height: 60px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(images/order.png) no-repeat;
+}
+.order a:hover{
+	background: transparent url(images/order.png) 0 -60px no-repeat;
+}
+
+
+
+
+
+
+
+
+/* '08 盆まえに
+---------------------------------------------------- */
+.sou_box2 {
+	margin: 30px 0 50px 75px;
+}
+.sou_box2 p{
+	margin: 0 0 0.75em 0;
+}
+
+.bonmae {
+	clear: both;
+	margin: 1em 0 2em;
+	padding: 0;
+}
+.bon_t {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0 auto 0.25em;
+	padding: 0;
+}
+.bon_t span{
+	font-size: 0.92em;
+	font-weight: normal;
+	padding-left: 0.75em;
+}
+.bon_t2 {
+	font-size: 0.92em;
+	line-height: 1.4;
+	margin: 0 auto 0.35em;
+	padding: 0;
+}
+.bonmae img{
+	float: left;
+	margin: 0;
+	padding: 0 15px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

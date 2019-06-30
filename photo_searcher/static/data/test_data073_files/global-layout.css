@@ -1,0 +1,49 @@
+@charset "Shift_JIS";
+
+/* リンク
+---------------------------------------------------- */
+a:link {
+  color: #3366CC;
+  background: transparent;
+}
+a:visited {
+  color: #191970;
+  background: transparent;
+}
+a:hover{
+  color: #FFFFFF;
+  background: #3366ff;
+}
+
+/* 見出しの指定（table_html作成用）
+---------------------------------------------------- */
+h1 {
+ color : #3A5A89;
+ font-size : large;
+ line-height:1.1em;
+}
+
+h2 {
+ color : #333333;
+ font-size : medium;
+}
+
+h3 {
+ color : #666666;
+ font-size : small;
+}
+
+
+/* テキストの指定（table_html作成用）
+---------------------------------------------------- */
+.text-s {
+/* Netscape/Firefox への対応 */
+ clear:both;
+ font-size:small;
+ line-height:1.3em;
+}
+
+.text-xs {
+ font-size:x-small;
+ line-height:1.3em;
+}

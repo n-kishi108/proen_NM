@@ -1,0 +1,1 @@
+var blogConfig = {"disallow_anon_comments":1,"moderate_feedback_trackbacks":null,"hatena_bookmark":0}

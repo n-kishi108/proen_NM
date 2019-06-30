@@ -1,0 +1,25 @@
+
+function checkPlugin(mimeType, comNames){
+	comNames = [].concat(comNames);
+	if(navigator.userAgent.indexOf('MSIE')==-1){
+		return !!navigator.mimeTypes[mimeType];
+	}
+	for(var i=comNames.length-1 ; comNames[i] ; i-- ){
+		try{
+			new ActiveXObject(comNames[i]);
+			return true;
+		}catch(e){
+		}
+	}
+	return false;
+}
+if(checkPlugin('application/x-shockwave-flash','ShockwaveFlash.ShockwaveFlash')){
+cb = "so" + Math.floor(Math.random()*100000);
+document.write ('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="150" height="140" id="player">');
+document.write ('<param name="movie" value="http://dl.video.nifty.com/blog_player.swf?id=0808091804069602029&skin=simple&mode=4&user_id=0000011836&tag=&color=FF6699&cb='+cb+'" />');
+document.write ('<param name="wmode" value="transparent" />');
+document.write ('<embed src="http://dl.video.nifty.com/blog_player.swf?id=0808091804069602029&skin=simple&mode=4&user_id=0000011836&tag=&color=FF6699&cb='+cb+'" type="application/x-shockwave-flash" wmode="transparent"  bgcolor="#ffffff" name="player" width="150" height="140" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');
+document.write ('</object>');
+}else{
+document.write ('<a href="http://video.nifty.com/cs/catalog/video_FAQ/a/1.htm#FAQ070317000425"><img src="http://dl.video.nifty.com/images/plugin_err.jpg" width="150" height="140" alt="FlashPlayer7.0ˆÈã‚ª•K—v‚Å‚·B" /></a>');
+}

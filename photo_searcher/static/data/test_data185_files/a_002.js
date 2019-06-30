@@ -1,0 +1,2 @@
+document.write("<!-- SpaceID=2078860507 loc=Z noad-spid -->\n");
+document.write("<img width=1 height=1 style=\"position:absolute;\" alt=\"\" src=\"http://b3.yahoo.co.jp/b?P=5wYF4MvY99_n8sf.SzV_tlS1hTP6QUu1V94AAS_3&T=143g2abtp%2fX%3d1270175710%2fE%3d2078860507%2fR%3djp_sports%2fK%3d5%2fV%3d8.1%2fW%3d0R%2fY%3djp%2fF%3d3887556249%2fQ%3d-1%2fS%3d1%2fJ%3d6AF6D8CB&U=125iqpkor%2fN%3dyRqoAcvY8V8-%2fC%3d-2%2fD%3dZ%2fB%3d-2\">");

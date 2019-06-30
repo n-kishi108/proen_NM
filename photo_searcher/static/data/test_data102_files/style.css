@@ -1,0 +1,523 @@
+@charset "UTF-8";
+
+/*yakei
+	back_obj										:#787878;画像と同じ色
+	line												:#484848;テーブルデコレーション色
+	back_bg											:#E0E0E0;bodyバック色
+	link_txt										:#fff;フォント色
+	url													:http://admin.ti-da.net/_img/simple_gray/head.gif;画像
+*/
+
+*{
+	font-family									:"verdana","helvetica","osaka","ＭＳ Ｐゴシック",ans-serif;
+}
+
+textarea,select,input {
+font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku GothicPro","Osaka","Verdana","Helvetica","Arial","ＭＳ Ｐゴシック","sans-serif";
+}
+
+body{
+	color												:#000;
+	margin											:0px;
+	background									:#000;
+        text-align:center;
+}
+
+form{
+	margin											:0px;
+	padding											:0px;
+}
+
+table.form{
+	margin											:25px 0px 0px 13px;
+}
+
+img{
+	border											:none;
+}
+
+ul.rss{
+	margin											:0px;
+	padding											:0px;
+	width												:100%;
+	text-align									:center;
+}
+
+ul.rss li	{
+	border-right								:#999 1px solid;
+	display											:inline;
+	font-size										:12px;
+	font-style									:normal;
+	font-weight									:bold;
+	letter-spacing							:0.2px;
+	margin-right								:0.3em;
+	padding-right								:0.5em;
+	padding-left								:0.2em;
+}
+
+ul.rss a:link		{
+	color												:#fff;
+	text-decoration							:none;
+}
+
+ul.rss a:visited	{
+	color												:#fff;
+	text-decoration							:none;
+}
+
+ul.rss a:hover		{
+	color												:#fff;
+	text-decoration							:none;
+}
+
+ul.rss a:active	{
+	color												:#fff;
+	text-decoration							:none;
+}
+
+a															{color:#fff;text-decoration:underline;}
+a:link												{color:#fff;text-decoration:underline;}
+a:visited											{color:#fff;text-decoration:underline;}
+a:active											{color:#fff;text-decoration:none;}
+a:hover												{color:#fff;text-decoration:none;}
+
+a.acalendar										{color:#fff;text-decoration:underline;}
+a.acalendar:link							{color:#fff;text-decoration:underline;}
+a.acalendar:visited						{color:#fff;text-decoration:underline;}
+a.acalendar:active						{color:#fff;text-decoration:none;}
+a.acalendar:hover							{color:#fff;text-decoration:none;}
+
+a.acontinues									{color:#fff;text-decoration:underline;}
+a.acontinues:link							{color:#fff;text-decoration:underline;}
+a.acontinues:visited					{color:#fff;text-decoration:underline;}
+a.acontinues:active						{color:#fff;text-decoration:none;}
+a.acontinues:hover						{color:#fff;text-decoration:none;}
+
+a.amenu										{color:#c6c6c6;text-decoration:underline;}
+a.amenu:link									{color:#fff;text-decoration:underline;}
+a.amenu:visited								{color:#fff;text-decoration:underline;}
+a.amenu:active								{color:#fff;text-decoration:none;}
+a.amenu:hover									{color:#fff;text-decoration:none;}
+
+#container{font-size:small;
+	width												:740px;
+	background-color						:#000;
+	margin											:0px auto;
+        text-align:left;
+}
+
+#banner,#subbanner{
+	background									:#000 url(http://admin.ti-da.net/_img/yakei/yakeihead.jpg) left bottom;
+	padding											:0px 10px 10px 10px;
+         height:207px; 	}
+
+#banner a											{color:#fff;text-decoration:none;}
+#banner a:link								{color:#fff;text-decoration:none;}
+#banner a:visited							{color:#fff;text-decoration:none;}
+#banner a:active							{color:#fff;text-decoration:underline;}
+#banner a:hover								{color:#fff;text-decoration:underline;}
+
+#subbanner a									{color:#fff;text-decoration:none;}
+#subbanner a:link							{color:#fff;text-decoration:none;}
+#subbanner a:visited					{color:#fff;text-decoration:none;}
+#subbanner a:active						{color:#fff;text-decoration:underline;}
+#subbanner a:hover						{color:#fff;text-decoration:underline;}
+
+h1,h2,h3{
+	margin											:0px;
+	padding											:0px;
+}
+
+.blogtitle{
+	font-size										:30px;
+	font-weight									:bold;
+	padding											:20px 0px 0px 10px;
+	text-align									:left;
+	letter-spacing							:2px;
+}
+
+.description{
+	color												:#fff;
+	font-size										:12px;
+	padding											:4px 0px 0px 35px;
+	text-align									:left;
+	letter-spacing							:2px;
+}
+
+
+#content{
+	width:570px;
+	float:right;
+	background-color						:#000;
+}
+
+#links{
+	width:160px;
+	float:left;
+	text-align									:left;
+	margin											:0px 0px 0px 0px;
+	padding											:20px 0px 0px 10px; 
+	background-color					:#000;
+	overflow:hidden;
+}
+
+
+#footer{
+	clear												:both;
+}
+
+#copyright{
+	background									:#000;
+	width												:100%;
+	height											:16px;
+	font-size										:10px;
+	font-weight									:bold;
+	color												:#ffd782;
+	margin											:0px;
+	padding											:0px;
+	line-height									:16px;
+	text-align									:center;
+}
+/* パン屑メニュー */
+.topicpass {
+font-size:10px;
+line-height:16px;
+vertical-align:bottom;
+margin:0 0 5px;
+padding:0;
+color:#FFF;
+}
+.blog{
+	margin											:20px 10px 20px 15px;
+overflow: hidden;
+}
+
+.date{  
+	border-top									:1px solid #484848;
+	border-left									:1px solid #484848;
+	border-right								:1px solid #484848;
+	border-bottom								:1px solid #484848;
+	background									:#000;
+	background-position					:1px 1px;
+	color												:#fff;
+	font-size										:12px;
+	letter-spacing							:2px;
+	padding											:5px 0px 5px 5px;
+}
+
+.blogbody{
+	background									:#000;
+	margin											:0px 0px 10px 0px;
+	padding											:8px;
+	border-left									:1px solid #484848;
+	border-right								:1px solid #484848;
+	border-bottom								:1px solid #484848;
+}
+
+.title{
+	color												:#ffd782;
+	font-size										:12px;
+	font-weight									:bold;
+	height											:10px;
+}
+
+.main{
+	width												:527px;
+	color												:#fff;
+	font-size										:12px;
+	padding											:15px 0px 15px 0px;
+	overflow:auto;
+         line-height:135%;
+}
+
+.main img{
+	margin											:0px 5px 0px 5px;
+}
+
+.main-continues{
+	font-size										:x-small;
+}
+
+.posted{
+	color												:#c6c6c6;
+	font-size										:10px;
+	text-align									:right;
+	margin											:0px 0px 25px 0px;
+}
+
+a.aposted											{color:#c6c6c6;text-decoration:underline;font-weight:bold;font-size										:10px;}
+a.aposted:link								{color:#c6c6c6;text-decoration:underline;font-weight:bold;}
+a.aposted:visited							{color:#c6c6c6;text-decoration:underline;font-weight:bold;}
+a.aposted:active							{color:#c6c6c6;text-decoration:none;font-weight:bold;}
+a.aposted:hover								{color:#c6c6c6text-decoration:none;font-weight:bold;}
+
+.menu{
+	color												:#000;
+	font-size										:10px;
+	text-align									:right;
+}
+
+.comments-head{
+	color												:#fff;
+	font-size										:12px;
+	font-weight									:bold;
+	padding											:0px 0px 0px 0px;
+	height:10px;
+}
+
+.comments-body{
+	font-size										:12px;
+	line-height									:135%;
+	margin											:20px 0px 15px 13px;
+         color:#fff;
+}
+
+.comments-post{
+	color												:#fff;
+	font-size										:12px;
+	text-align									:right;
+	margin											:0px 0px 25px 0px;
+}
+
+.trackback-url{
+	color												:#fff;
+	font-size										:12px;
+	font-weight									:bold;
+	margin											:20px 0px 15px 13px;
+         
+}
+
+.trackback-body{
+	font-size										:12px;
+	line-height									:135%;
+	margin											:20px 0px 15px 13px;
+         color:#fff;
+}
+
+.trackback-post{
+	color												:#fff;
+	font-size										:12px;
+	text-align									:right;
+	margin											:0px 0px 25px 0px;
+	font-weight									:bold;
+}
+
+a.atrackback-post							{color:#fff;text-decoration:underline;font-weight:bold;}
+a.atrackback-post:link				{color:#fff;text-decoration:underline;font-weight:bold;}
+a.atrackback-post:visited			{color:#fff;text-decoration:underline;font-weight:bold;}
+a.atrackback-post:active			{color:#fff;text-decoration:none;font-weight:bold;}
+a.atrackback-post:hover				{color:#fff;text-decoration:none;font-weight:bold;}
+
+label{
+	font-size										:x-small;
+	font-weight									:bold;
+	color:#fff;
+}
+
+#author{
+	width												:200px;
+	border											:1px solid #484848;
+	color:#000;
+	font-size:12px;
+}
+#email{
+	width												:200px;
+	border											:1px solid #484848;
+	color:#000;
+	font-size:12px;
+}
+#url{
+	width												:200px;
+	border											:1px solid #484848;
+	color:#000;
+	font-size:12px;
+}
+#text{   font-size:12px;
+	width												:400px;
+	height											:200px;
+	border											:1px solid #484848;
+	color:#000;
+	font-size:12px;
+}
+.pagetop{
+	font-size										:12px;
+	text-align									:right;
+	margin											:0px 0px 25px 0px;
+         color:#fff;
+}
+.calendarhead{
+	color												:#fff;
+	font-size										:9px;
+	font-weight									:bold;
+	letter-spacing							:2px;
+	padding											:0px 0px 2px 0px;
+	text-align									:center;
+}
+
+.calendartable{
+	margin											:0px auto 20px auto;
+	padding											:0px;
+	width												:160px;
+	text-align									:left;
+	background									:#000
+	border-top									:1px solid #484848;
+	border-left									:1px solid #484848;
+	border-right								:1px solid #484848;
+	border-bottom								:1px solid #484848;
+	empty-cells:show;
+	border-spacing:0px;
+	border-collapse:collapse;
+}
+
+.calendarweek{
+	color												:#ffd782;
+	font-size										:9px;
+	font-weight									:bold;
+
+}
+
+.calendarwd{
+	border-top									:1px solid #484848;
+	border-left									:none;
+	border-right								:none;
+	border-bottom								:1px solid #484848;
+	background									:#000;
+	background-position					:-2px 0px;
+	color                                                   :#ffd782;
+	font-size										:12px;
+	letter-spacing							:2px;
+	padding											:5px 0px 5px 5px;
+}
+.calendard{
+	text-align:center;
+}
+.calendar{
+	font-size										:12px;
+	padding											:4px 2px 4px 2px;
+
+         color:#fff;
+}
+
+.sidetitle{
+	border-top		:1px solid #484848;
+	border-left		:1px solid #484848;
+	border-right		:1px solid #484848;
+	border-bottom		:1px solid #484848;
+	background		:#000;
+	background-position	:1px 1px;
+	color			:#ffd782;
+	font-size		:12px;
+	letter-spacing		:2px;
+	padding			:5px 0px 5px 5px;
+	width			:153px;
+}
+
+.side{
+	font-size		:12px;
+	line-height		:140%;
+	margin			:0px 0px 10px 0px;
+	padding			:8px;
+	border-left		:1px solid #484848;
+	border-right		:1px solid #484848;
+	border-bottom		:1px solid #484848;
+	width			:142px;
+}
+
+.side .text{
+	width:80px;
+}
+
+.photo img{
+	width:120px;
+}
+
+.sidebody{ color:#fff; }
+
+a.aside												{color:#fff;text-decoration:underline;}
+a.aside:link									{color:#fff;text-decoration:underline;}
+a.aside:visited								{color:#fff;text-decoration:underline;}
+a.aside:active								{color:#fff;text-decoration:none;}
+a.aside:hover									{color:#fff;text-decoration:none;}
+
+a.arss												{color:#fff;text-decoration:underline;}
+a.arss:link										{color:#fff;text-decoration:underline;}
+a.arss:visited								{color:#fff;text-decoration:underline;}
+a.arss:active									{color:#fff;text-decoration:none;}
+a.arss:hover									{color:#fff;text-decoration:none;}
+
+.photo{
+	text-align									:center;
+}
+
+.nickname{
+	color												:#2b5695;
+	
+	font-weight									:bold;
+	margin											:10px 0px;
+}
+
+.message{
+	
+}
+
+.quotetable{
+}
+
+.quote{
+	color												:#fff;
+	font-size										:x-small;
+	padding											:1px;
+}
+
+.blogtimes{
+	margin											:0px 0px 16px 0px;
+	text-align									:center;
+}
+
+.powered{
+	text-align									:center;
+	margin											:0px 0px 10px 0px;
+}
+
+.syndicate{
+	font-size										:x-small;
+	text-align									:center;
+}
+.checkers{
+	font-size										:x-small;
+	margin-top:10px;
+}
+
+a.adtitle											{font-weight:bold;text-decoration:underline;}
+a.adtitle:link								{font-weight:bold;text-decoration:underline;}
+a.adtitle:visited							{font-weight:bold;text-decoration:underline;}
+a.adtitle:active							{font-weight:bold;text-decoration:underline;}
+a.adtitle:hover								{font-weight:bold;text-decoration:underline;}
+
+a.addescription								{color:black;text-decoration:none;}
+a.addescription:link					{color:black;text-decoration:none;}
+a.addescription:visited				{color:black;text-decoration:none;}
+a.addescription:active				{color:black;text-decoration:none;}
+a.addescription:hover					{color:black;text-decoration:none;}
+
+a.adurl												{color:#0000FF;text-decoration:none;}
+a.adurl:link									{color:#0000FF;text-decoration:none;}
+a.adurl:visited								{color:#0000FF;text-decoration:none;}
+a.adurl:active								{color:#0000FF;text-decoration:none;}
+a.adurl:hover									{color:#0000FF;text-decoration:none;}
+
+a.adld												{text-decoration:underline;}
+a.adld:link										{text-decoration:underline;}
+a.adld:visited								{text-decoration:underline;}
+a.adld:active									{text-decoration:underline;}
+a.adld:hover									{text-decoration:underline;}
+
+body.ad{
+	background									:#f7p39f;
+}
+/* Powered by てぃーだブログ */
+.adFooter{
+	font-size: 9px;
+	line-height: 150%;
+	text-align: center;
+}

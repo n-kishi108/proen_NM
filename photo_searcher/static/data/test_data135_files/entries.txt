@@ -1,0 +1,1 @@
+Ten.JSONP.callback({"entries":[{"stars":[{"quote":"","name":"flatfish-masa"}],"can_comment":0,"uri":"http://f.hatena.ne.jp/flatfish-masa/20060225143225"}],"rks":null,"can_comment":0});

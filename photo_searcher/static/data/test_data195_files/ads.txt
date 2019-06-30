@@ -1,0 +1,51 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BEzvkzpK1S_3XMZnA6QPs54WnB7KV2rABzsPOvRHAjbcBwObWThABGAEgk_GcEygDOABQoPnx4QNgieu9hOAToAGY67T3A7IBEW5ld3MubGl2ZWRvb3IuY29tyAEB2gFEaHR0cDovL25ld3MubGl2ZWRvb3IuY29tL2FydGljbGUvaW1hZ2VfZGV0YWlsLzQyMzMzMTIvP2ltZ19pZD03MjAxMjCAAgGpAvha7bhP5EY-yAK6nr0OqAMB6AP7A-gDuAH1AwAAAAT1AwQAABA&amp;num=1&amp;sig=AGiWqtx8an5kDawXVn7Q7sPKo-cS8EIiWg&amp;client=ca-livedoor-infoentame_js&amp;adurl=http://www.abm.co.jp/haken/campaign/landing_f/index.html"; 
+google_ad.visible_url = "www.abm.co.jp"; 
+google_ad.line1 = "\x26#12456;\x26#12531;\x26#12472;\x26#12491;\x26#12450;\x26#27966;\x26#36963;\x26#20805;\x26#23455;\x26#12398;ABM"; 
+google_ad.line2 = "\x26#20581;\x26#24247;\x26#20445;\x26#38522;\x26#26009;\x26#12398;\x26#33258;\x26#24049;\x26#36000;\x26#25285;\x26#12364;3\x26#20998;\x26#12398;1\x26#12394;\x26#12393;\x26#12289;"; 
+google_ad.line3 = "\x26#22823;\x26#25163;\x26#12394;\x26#12425;\x26#12391;\x26#12399;\x26#12398;\x26#20805;\x26#23455;\x26#12375;\x26#12383;\x26#31119;\x26#21033;\x26#21402;\x26#29983;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BwWxIzpK1S_3XMZnA6QPs54WnB5bQoHvEjpeYC8CNtwHAiZEcEAIYAiCT8ZwTKAM4AFCVxOmzAWCJ672E4BOgAZLXhv8DsgERbmV3cy5saXZlZG9vci5jb23IAQHaAURodHRwOi8vbmV3cy5saXZlZG9vci5jb20vYXJ0aWNsZS9pbWFnZV9kZXRhaWwvNDIzMzMxMi8_aW1nX2lkPTcyMDEyMIACAakC-FrtuE_kRj6oAwHoA_sD6AO4AfUDAAAABPUDBAAAEA&amp;num=2&amp;sig=AGiWqtzYpkNhNKtvjjXkGsrhKqbg9SAY9A&amp;client=ca-livedoor-infoentame_js&amp;adurl=http://www.fusen-kobo.com/campaign/club02/%3FAD%3Dgoogle"; 
+google_ad.visible_url = "www.fusen-kobo.com"; 
+google_ad.line1 = "\x26#27927;\x26#28655;\x26#12395;\x26#24375;\x26#12356;T\x26#12471;\x26#12515;\x26#12484;"; 
+google_ad.line2 = "\x26#37096;\x26#27963;\x26#12289;\x26#12469;\x26#12540;\x26#12463;\x26#12523;\x26#12398;\x26#12458;\x26#12522;\x26#12472;\x26#12490;\x26#12523;T\x26#12471;\x26#12515;\x26#12484;"; 
+google_ad.line3 = "\x26#20170;\x26#12394;\x26#12425;5250\x26#20870;\x26#20197;\x26#19978;\x26#12391;\x26#36865;\x26#26009;\x26#28961;\x26#26009;\x26#12290;\x26#20195;\x26#24341;OK"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B6paizpK1S_3XMZnA6QPs54WnB-Sbs3bG087CDcCNtwHArfkfEAMYAyCT8ZwTKAM4AFDD5pmHB2CJ672E4BOgAfrb-_UDsgERbmV3cy5saXZlZG9vci5jb23IAQHaAURodHRwOi8vbmV3cy5saXZlZG9vci5jb20vYXJ0aWNsZS9pbWFnZV9kZXRhaWwvNDIzMzMxMi8_aW1nX2lkPTcyMDEyMIACAakC-FrtuE_kRj6oAwHoA_sD6AO4AfUDAAAABPUDBAAAEA&amp;num=3&amp;sig=AGiWqtyn_Z-XhCSFMfekcB7n-9syO6438Q&amp;client=ca-livedoor-infoentame_js&amp;adurl=http://www.vportal.biz/"; 
+google_ad.visible_url = "www.vportal.biz"; 
+google_ad.line1 = "\x26#12509;\x26#12540;\x26#12479;\x26#12523;\x26#12469;\x26#12452;\x26#12488;\x26#27083;\x26#31689;"; 
+google_ad.line2 = "\x26#22823;\x26#25163;\x26#12509;\x26#12540;\x26#12479;\x26#12523;\x26#12398;\x26#25216;\x26#34899;\x26#21147;\x26#12434;\x26#32080;\x26#38598;\x26#65281;"; 
+google_ad.line3 = "\x26#21453;\x26#38911;\x26#12398;\x26#20932;\x26#12356;\x26#12509;\x26#12540;\x26#12479;\x26#12523;\x26#12469;\x26#12452;\x26#12488;\x26#12434;\x26#27083;\x26#31689;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://news.livedoor.com/article/image_detail/4233312/%253Fimg_id%253D720120%26hl%3Dja%26client%3Dca-livedoor-infoentame_js%26adU%3Dwww.abm.co.jp%26adT%3D%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E6%25B4%25BE%25E9%2581%25A3%25E5%2585%2585%25E5%25AE%259F%25E3%2581%25AEABM%26adU%3Dwww.fusen-kobo.com%26adT%3D%25E6%25B4%2597%25E6%25BF%25AF%25E3%2581%25AB%25E5%25BC%25B7%25E3%2581%2584T%25E3%2582%25B7%25E3%2583%25A3%25E3%2583%2584%26adU%3Dwww.vportal.biz%26adT%3D%25E3%2583%259D%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%25AB%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E6%25A7%258B%25E7%25AF%2589%26gl%3DJP%26hideleadgen%3D1\x26usg\x3dAFQjCNFXImKKgNFU5V-i8DKS47kMPzU7oQ"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

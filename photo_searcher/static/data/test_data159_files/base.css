@@ -1,0 +1,4675 @@
+@charset "UTF-8";
+
+/* VERSION=2010030101 */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fff;
+	color: #333;
+}
+
+
+/* =Font
+---------------------------------------- */
+body {
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+* html body {
+	word-break: break-all;
+}
+
+textarea, input {
+	font-family: sans-serif;
+}
+
+body, form {
+	font-size: small;
+}
+
+.container,
+textarea, input {
+	font-size: 105%;
+}
+
+
+/* =Links
+---------------------------------------- */
+a:link {
+	color: #038;
+}
+
+a:visited {
+	color:#069;
+}
+
+a:hover, a:active {
+	color: #F60;
+}
+
+a img {
+	border: none;
+}
+
+
+/* =Content
+---------------------------------------- */
+#content p, #content li, #content dt, #content dd, #content h2, #content h3, #content h4, #content h5 {
+	line-height: 1.5em;
+}
+
+/* =Structure
+---------------------------------------- */
+div.container {
+	position: relative;
+	text-align: left;
+	min-width: 930px;
+}
+
+#content {
+	padding: 0 20px 10px 20px;
+}
+
+.homePage #content {
+	padding-left: 20px;
+}
+
+#colMypage {
+	padding-left: 180px;
+}
+
+#colContent {
+	float: right;
+	width: 100%;
+}
+
+#colNavigation {
+	margin-left: -180px;
+	width: 160px;
+}
+
+/* =Structure / cols
+---------------------------------------- */
+.colAB {
+	clear: both;
+	padding-right: 320px;
+}
+
+.colAB .colA {
+	float: left;
+	width: 100%;
+}
+
+.colAB .colB {
+	float: left;
+	padding-left: 20px;
+	margin-right: -320px;
+	width: 300px;
+}
+
+.colBAC .colAWrap {
+	float: left;
+	width: 100%;
+}
+
+.colBAC .colA {
+	margin: 0 320px 0 180px;
+}
+
+.colBAC .colB {
+	float: left;
+	margin-left: -100%;
+	width: 160px;
+	background: #F2FADF;
+}
+
+.colBAC .colC {
+	float: left;
+	padding-left: 20px;
+	margin-left: -320px;
+	width: 300px;
+}
+
+
+
+/* =Header
+---------------------------------------- */
+div.ticker {
+	padding: 5px 0 4px 5px;
+	font-size: 11px;
+	text-align: left;
+	background: #EEE;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+div.ticker * {
+	display: inline;
+}
+
+div.ticker a {
+	text-decoration: none;
+}
+
+div.ticker .catchCopy {
+	font-weight: bold;
+	margin-right: 1em;
+}
+
+div.ticker li {
+	border-left: 2px #fff ridge;
+	padding: 0 2px;
+}
+
+div.loginSection {
+	position: absolute;
+	top: 3px;
+	right: 5px;
+
+	font-size: 13px;
+}
+
+div.loginSection a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+div.loginSection a span {
+	font-size: 11px;
+}
+
+body div.siteHeader {
+	position: relative;
+	min-width: 900px;
+	height: 133px;
+	margin-bottom: 20px;
+	text-align: center;
+	border-bottom: 1px solid #CCC;
+}
+
+body div.siteHeader h1.logo {
+	width: 146px;
+	height: 49px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 2;
+}
+
+*+html>/**/body div.siteHeader h1.logo {
+	top: 8px;
+}
+
+body div.siteHeader .figHeaderTwitter {
+	position: absolute;
+	top: 16px;
+	left: 130px;
+	width: 46px;
+	height: 26px;
+	z-index: 5;
+}
+
+/*ハロウィン--------------------*/
+body div.siteHeader h1.halloween {
+	width: 146px;
+	height: 49px;
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	z-index: 2;
+}
+
+*+html>/**/body div.siteHeader h1.halloween {
+	top: -12px;
+}
+
+html:not([lang*=""]) body div.siteHeader h1.halloween {
+	top: 0px;
+}
+
+body div.siteHeader h1.xmas {
+	display:;
+	width: 146px;
+	height: 52px;
+	position: absolute;
+	top: 17px;
+	left: 20px;
+	z-index: 2;
+}
+
+head~/**/body div.siteHeader h1.xmas {
+	top: 5px;
+}
+
+html:not([lang*=""]) body div.siteHeader h1.xmas {
+	top: 17px;
+}
+
+body div.siteHeader h1.xmasGreen {
+	width: 166px;
+	height: 69px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+
+head~/**/body div.siteHeader h1.xmasGreen {
+	top: -12px;
+}
+
+html:not([lang*=""]) body div.siteHeader h1.xmasGreen {
+	top: 0px;
+}
+
+body div.siteHeader .iconXmas {
+	position: absolute;
+	top: 12px;
+	left: 133px;
+	z-index: 5;
+}
+
+head~/**/body div.siteHeader .iconXmas {
+	top: 0px;
+}
+
+html:not([lang*=""]) body div.siteHeader .iconXmas {
+	top: 12px;
+}
+
+body div.siteHeader h1.newyear {
+	width: 146px;
+	height: 49px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+
+body div.siteHeader .whats {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 2;
+}
+
+.headerBannerSection {
+	position: absolute;
+	width: 100%;
+	padding: 0 auto;
+	text-align: center;
+	
+}
+
+body.msie .headerBannerSection {
+	position: static;
+	width: 100%;
+	padding: 0 auto;
+	text-align: center;
+}
+
+.headerBannerSection .banner {
+	margin-top: 12px;
+	margin-left: 176px;
+	margin-right: 282px;
+}
+
+.gst .headerBannerSection .banner {
+	margin-top: 12px;
+	margin-left: 176px;
+	margin-right: 240px;
+}
+
+/* =Footer
+---------------------------------------- */
+
+.siteFooter {
+	clear: both;
+	padding: 10px 0;
+	border-top: 1px solid #490;
+	margin: 10px;
+	text-align: center;
+	font-size: 80%;
+	background: #FFF;
+}
+
+.siteFooter .footerLink {
+	margin-bottom: 0.5em;
+}
+
+.siteFooter .footerLink li {
+	display: inline;
+	margin-right: 5px;
+	padding-right: 5px;
+	border-right: 1px solid #666;
+}
+
+.siteFooter .footerLink li.end {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.siteFooter .serviceList {
+	margin: 5px auto 10px;
+	text-align: left;
+	font-size: 10px;
+}
+
+.siteFooter .serviceList ul {
+	width: 100%;
+	text-align: center;
+	background: #EEE;
+}
+
+.siteFooter .serviceList li {
+	display: -moz-inline-box;  
+    display: inline-block;  
+    /display: inline;  
+    /margin-right: 3px;  
+	width: 250px;
+	height: 45px;
+	margin: 5px 0px;
+	padding: 0px 10px 0px;
+	/zoom: 1;
+	text-align: left;
+	border-right: 1px dashed #CCC;
+}
+
+.siteFooter .serviceList li.end {
+	border-right: 0;
+}
+
+.siteFooter .serviceList li .icon {
+	float: left;
+	margin-right: 10px;
+	vertical-align: bottom;
+}
+
+.siteFooter .serviceList li a {
+	color: #333;
+	text-decoration: none;
+}
+
+.siteFooter .serviceList li p {
+	padding-top: 7px;
+}
+
+.siteFooter .serviceList li strong {
+	font-size: 12px;
+}
+
+
+/* =Navigation
+---------------------------------------- */
+div.navigation {
+	display: block;
+	width: 100%;
+	height: 25px;
+	position: absolute;
+	top: 105px;
+	left: 0;
+	color: #FFF;
+	text-align: left;
+	background: url(http://static.kanshin.com/img/sp_bg.png?2009100501) 0px -60px repeat-x;
+}
+
+
+.navigation ul {
+	margin-left: 25px;
+}
+.navigation ul li {
+	float: left;
+	margin-right: 15px;
+	height: 23px;
+	line-height: 23px;
+}
+
+.navigation ul li a {
+	display: block;
+	color: #FFF !important;
+	text-decoration: none;
+}
+
+.navigation ul li a:hover,
+.navigation ul li a:active {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+.navigation ul .sokenProject {
+	background: url(http://static.kanshin.com/img/sp_ic.png?2009100501) 0px -576px no-repeat;
+}
+
+.navigation ul .sokenProject span {
+	margin-left: 18px;
+}
+
+.navigation ul .current {
+	padding-left: 6px;
+	margin-top: 5px;
+	background: #FFF url(http://static.kanshin.com/img/sp_bg.png?2009100501) 0px -220px no-repeat;
+}
+
+.navigation ul .soken.current strong {
+	margin-left: 5px; 
+}
+
+.navigation ul .sokenIcon {
+	display: block;
+	width: 13px;
+	height: 19px;
+	float: left;
+	background: url(http://static.kanshin.com/img/sp_ic.png?2009100501) -90px -659px no-repeat;
+}
+
+
+.navigation ul .current a {
+	display: block;
+	background: #FFF url(http://static.kanshin.com/img/sp_bg.png?2009100501) right -250px no-repeat;
+}
+
+.navigation ul .current ul {
+	position: absolute;
+	left: 0;
+	top: 28px;
+	width: 800px;
+	color: #490;
+}
+
+.navigation ul .current li {
+	height: 20px;
+	line-height: 20px;
+	font-size: 90%;
+}
+
+.navigation ul .current a {
+	padding-right: 6px;
+	color: #490 !important;
+}
+
+
+.navigation ul .current li li,
+.navigation ul .current li a {
+	display: inline;
+}
+
+.navigation ul .current li a {
+	padding: 0;
+	color: #666 !important;
+	background: none;
+}
+.navigation ul .current .navMy {
+	color: #f90;
+}
+
+.navigation li.searchForm {
+	float: right;
+}
+
+.navigation li.searchForm input.txt {
+	width: 163px;
+	border: 1px solid #333;
+}
+
+.navigation li.searchForm input.btn {
+	font-size: 12px;
+}
+
+.navigation li.helpLink,
+.navigation li.bbsLink {
+	position: absolute;
+	top: 26px;
+	float: clear;
+	font-size: 90%;
+}
+
+.navigation li.helpLink {
+	right: 3em;
+}
+
+.navigation li.bbsLink {
+	right: 0;
+}
+
+.navigation ul li.helpLink a:link,
+.navigation ul li.helpLink a:visited,
+.navigation ul li.bbsLink a:link,
+.navigation ul li.bbsLink a:visited {
+	color: #003388 !important;
+}
+
+#navSub {
+	position: absolute;
+	left: 185px;
+	top: 17px;
+	font-size: 95%;
+}
+
+#navSub li {
+	display: inline;
+	margin-right: 5px;
+}
+
+#navSub li a {
+	color: #490;
+	text-decoration: none;
+}
+
+#navSub li a:hover,
+#navSub li a:active {
+	text-decoration: underline;
+}
+
+#fixedNavi {
+	position: fixed;
+	z-index: 2;
+	top: auto;
+	left: auto;
+	bottom: 0;
+	right: 0;
+	
+	background: transparent;
+}
+
+#fixedNavi a.box {
+	display: block;
+	width: 100px;
+	height: 16px;
+	
+	background: #fff;
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.90;
+	opacity: 0.90;
+}
+
+#fixedNavi a.box #button_on,
+#fixedNavi a.box:active #button_on,
+#fixedNavi a.box:visited #button_on {
+	display: none;
+}
+#fixedNavi a.box:hover #button_on {
+	display: block;
+	z-index: 10;
+}
+
+#fixedNavi a.box #button_off,
+#fixedNavi a.box:active #button_off,
+#fixedNavi a.box:visited #button_off {
+	display: block;
+}
+
+#fixedNavi a.box:hover #button_off {
+	display: none;
+	z-index: 1;
+}
+
+/* =Tab
+---------------------------------------- */
+.contentTab {
+	padding: 0 10px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.contentTab li {
+	float: left;
+	padding-left: 6px;
+	margin-right: 5px;
+	background: url(http://static.kanshin.com/img/sp_bg.png?2009100501) 0px -490px no-repeat;
+	font-size: 80%;
+}
+
+.contentTab li a {
+	display: block;
+	padding-right: 6px;
+	text-decoration: none;
+	background: url(http://static.kanshin.com/img/sp_bg.png?2009100501) right -440px no-repeat;
+	border-width: 1px 0 0 0;
+}
+
+.contentTab li .bg {
+	background: url(http://static.kanshin.com/img/sp_bg.png?2009100501) 0 -540px repeat;
+}
+
+.contentTab .current {
+	background: url(http://static.kanshin.com/img/sp_bg.png?2009100501) 0px -330px no-repeat;
+	border-bottom: 1px solid #fff;
+	margin-bottom: -1px;
+}
+
+.contentTab .current strong {
+	display: block;
+	padding-right: 6px;
+	background: url(http://static.kanshin.com/img/sp_bg.png?2009100501) right -280px no-repeat;
+}
+
+.contentTab .current .bg {
+	background: url(http://static.kanshin.com/img/sp_bg.png?2009100501) 0px -380px repeat-x;
+}
+
+
+ul#productSearchService {
+	position: relative;
+	margin-bottom: 0;
+	background: url(http://static.kanshin.com/img/sp_bg.png?2009100501) 0px 0px repeat-x;
+}
+ul#productSearchService li.tab {
+	display: block;
+	float: left;
+	width: 150px;
+	height: 25px;
+	margin-right: 2px;
+	background: url(http://static.kanshin.com/img/sp_bg.png?2009100501) 0px -30px repeat-x;
+}
+ul#productSearchService li.tab a {
+	display: block;
+	width: 99%;
+	height: 24px;
+	margin: 0;
+	padding: 0 auto;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px 1px 0 1px;
+	border-color: #CCC;
+}
+ul#productSearchService li.tab a:hover {
+	background: #ffffff;
+}
+ul#productSearchService li.tab a:active,
+ul#productSearchService li.tab a.active {
+	background: #99CC33;
+}
+
+
+/* =Keyword
+---------------------------------------- */
+.keywordPage .eyecoRecomendSection {
+	text-align: right;
+	font-size: 12px;
+	background: #E55E41 url(http://static.kanshin.com/images/title_keyword_eyeco_store_09wt_2.png) no-repeat 4px 2px;
+	padding: 4px 7px 3px 3px;
+}
+
+.keywordPage .eyecoRecomendSection a {
+	color: #FFF;	
+}
+
+.keywordPage .eyecoRecomendSection p img {
+	margin-right: 7px;
+	vertical-align: baseline;
+}
+
+.keywordPage .eyecoRecomendSection p a {
+	text-decoration: none;
+}
+
+.keywordPage .awards2008Nominate {
+	margin-bottom: 2px;
+	background: #C80000 url(http://static.kanshin.com/assets/awards/4/images/nominate_kwpage_right.png) right no-repeat;
+}
+
+.keywordPage .awards2008Nominate a {
+	display: block;
+	width: 100%;
+	height: 20px;
+}
+
+#keyword {
+	padding: 10px 0 0 10px;
+	border: 2px solid #8b2;
+	margin-bottom: 10px;
+}
+#keyword div.keywordBodySection {
+	padding-right: 175px;
+}
+
+#keyword .sponsorCatchcopy {
+	font-size: 120%;
+}
+
+#keyword h1 {
+	margin-bottom: 5px;
+	color: #370;
+	font-size: 130%;
+	line-height: 1.2em;
+}
+
+#keyword h1 img {
+	vertical-align: middle;
+}
+
+#keyword h1 ruby {
+	display: inline-table;
+}
+
+#keyword h1 ruby>rb {
+	display: table-row-group;
+}
+
+#keyword h1 ruby>rt {
+	display: table-header-group;
+}
+
+#keyword .sponsorKW h1 ruby {
+	display: inline-table;
+}
+
+#keyword .sponsorKW h1 ruby>rb {
+	display: table-row-group;
+}
+
+#keyword .sponsorKW h1 ruby>rt {
+	display: table-footer-group;
+}
+
+#keyword #titleYomi {
+	color: #999;
+	font-weight: normal;
+	font-size: 65%;
+}
+
+#keyword .sponsorKW #titleYomi {
+	margin-bottom: 1em;
+}
+
+#keyword h1 rp {
+	display: none;
+}
+
+#keyword .colMain,
+#keyword .colSub {
+	padding-bottom: 10px;
+}
+
+#keyword .colMain {
+	float: left;
+	width: 100%;
+}
+
+#keyword .colMain h1,
+#keyword .colMain p,
+#keyword .colMain ul {
+	margin-right: 10px;
+}
+
+#keyword .colMain ul.entryImages {
+	float: right;
+}
+
+#keyword .colMain .entryImages li{
+/**	text-align: right; **/
+	text-align: center;
+	position: relative;
+	margin: 0 0 5px 5px;
+}
+
+#keyword div.colSub {
+	float: left;
+	width: 165px;
+	margin-right: -175px;
+	padding-left: 10px;
+}
+
+#keyword div.colSub h2 {
+	font-weight: lighter;
+}
+
+/**********<********/
+
+#keyword .colSub .profile {
+	margin-bottom: 5px;
+	font-size: 95%;
+}
+
+#keyword .colSub .profile a {
+	text-decoration : none;
+}
+
+#keyword .colSub .profile .fig {
+	float: left;
+	margin-right: 5px;
+}
+
+#keyword .colSub .profile span.head {
+	font-weight: bold;
+}
+
+#keyword .colSub .profile span.content {
+	font-size: 85%;
+	color: #666;
+}
+
+/**********>********/
+
+#keyword .kwSub {
+	padding: 5px;
+	margin-bottom: 5px;
+	font-size: 90%;
+	background: #EEE;
+}
+
+#keyword .kwSub a {
+	text-decoration: none;
+}
+
+#keyword .kwSub ul {
+	margin-bottom: 5px;
+}
+
+#keyword .kwSub img{
+	vertical-align: middle;
+}
+
+#keyword .kwSub dd {
+	margin: 0 0 5px 5px;
+}
+
+#keyword .colSub .nav {
+	text-align: right;
+}
+
+#keyword .colSub .nav li {
+	margin-bottom: 5px;
+}
+
+#keyword .footer {
+	clear: both;
+	padding: 5px 10px 0;
+	border-top: 1px solid #8b2;
+	line-height: 1em;
+	font-size: 90%;
+	margin:0 0 5px -10px;
+	text-align: left;
+}
+
+/*******<*******/
+
+.keywordToolSection h2 {
+	font-size: 90%;
+	color: #999;
+	margin-top: 10px;
+}
+
+#keyword ul.externalToolSection {
+	margin-bottom: 5px;
+}
+
+#keyword ul.externalToolSection {
+	width: 100%;
+	padding: 0;
+	text-align: left;
+}
+
+#keyword ul.externalToolSection li {
+	float: left;
+}
+
+#keyword div.userKeywordSection {
+	padding: 5px;
+	background: #F1F9DC;
+}
+
+/**********>********/
+#keyword div.badges a {
+	font-size: 10px;
+	text-decoration: none;
+}
+
+#keyword div.badges .badgePickup {
+	margin: 0 10px 5px 10px;
+}
+/**********>********/
+#keyword div.userKeywordSection h2 a {
+	color: #666;
+	font-size: 90%;
+	text-decoration: none;
+}
+
+#keyword div.userKeywordSection ul {
+	width: 100%;
+}
+
+#keyword div.userKeywordSection li {
+	width: 77px;
+}
+
+#keyword div.userKeywordSection li.left {
+	float: left;
+}
+
+#keyword div.userKeywordSection li.right {
+	float: right;
+}
+
+#keyword div.userKeywordSection li a {
+	display: block;
+	width: 60px;
+	margin: 0 auto;
+	font-size: 80%;
+	line-height:1em !important;
+	text-align: center;
+	text-decoration: none;
+}
+
+#keyword div.userKeywordSection li a img {
+	margin-bottom:2px;
+}
+
+#keyword div.userKeywordSection li .text {
+	background:#EAEFF3 none repeat scroll 0%;
+	height:50px;
+	padding:5px;
+	width:50px;
+}
+/**********>********/
+
+/**********>********/
+#keyword .colSub #keywordAttribute .title,
+#keyword .colSub #mappedKeywordAttribute .title {
+	color: #999;
+	font-size: 90%;
+}
+
+#keyword .colSub #keywordAttribute li span.key,
+#keyword .colSub #mappedKeywordAttribute li span.key {
+	font-weight: bold;
+}
+
+#keyword .colSub #keywordAttribute li span.value,
+#keyword .colSub #mappedKeywordAttribute li span.value {
+	font-weight: normal;
+}
+
+#keyword .colSub #mappedKeywordAttribute {
+	border: 1px solid #ccc;
+	padding: 3px;
+}
+
+#keyword .colSub #mappedKeywordAttribute li {
+	list-style: none outside;
+}
+/**********>********/
+
+
+/*******<*******/
+
+#keyword #recommendKeywords.footer {
+	background: #E9F4D3;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+}
+
+#keyword #recommendKeywords.footer h2 {
+	color: #222;
+	margin-bottom: 2px;
+	font-weight: normal;
+}
+
+#keyword #recommendKeywords.footer h2 span {
+	color: #c60;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+#keyword #recommendKeywords.footer a {
+	font-weight: bold;
+}
+
+#keyword #recommendKeywords.footer a img {
+	vertical-align: middle;
+}
+
+/*-----old
+#keyword #recommendKeywords.footer a img.categoryFig {
+	border: solid 1px #ccc;
+	padding: 7px 5px;
+	background: #fff;
+}
+--------*/
+
+#keyword #recommendKeywords.footer .recommendKeywords {
+	font-size: 95%;
+}
+
+#keyword #recommendKeywords.footer .recommendKeywords * {
+	display: block;
+	float: left;
+}
+
+#keyword #recommendKeywords.footer .recommendKeywords li {
+	margin-right: 10px;
+	line-height: 2.5em;
+}
+
+#keyword #recommendKeywords.footer .recommendKeywords li img {
+	margin-right: 3px;
+}
+
+#keyword #recommendKeywords.footer .recommendKeywords a {
+	text-decoration: none;
+}
+
+#keyword #recommendKeywords.footer .recommendKeywords .category {
+	position: relative;
+}
+
+#keyword #recommendKeywords.footer .recommendKeywords .category .categoryIconFig {
+	border: solid 1px #ccc;
+	background: #fff;
+	width: 30px;
+	height: 30px;
+	margin-right: 3px;
+}
+
+#keyword #recommendKeywords.footer .recommendKeywords .category img {
+	position: absolute;
+	top: 7px;
+	left: 6px;
+}
+
+#otherResult {
+	text-align: right;
+	margin-top: -5px;
+	margin-bottom: 10px;
+	color: #490;
+	font-size: 90%;
+}
+
+#otherResult a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*******>*******/
+.collectionHavingThis,
+.communityHavingThis {
+	border-bottom: 1px solid #CCC;
+}
+
+.collectionHavingThis {
+	margin-bottom: 10px;
+}
+
+.communityHavingThis {
+	margin-bottom: 20px;
+}
+
+.collectionHavingThis .iconCollection,
+.communityHavingThis .iconCommunity {
+	float: left;
+}
+
+.collectionHavingThis h2,
+.communityHavingThis h2 {
+	margin-bottom: 5px;
+	color: #490;
+	font-size: 90%;
+}
+
+.collectionHavingThis ul,
+.communityHavingThis ul {
+	padding: 0 30px 5px 30px;
+}
+
+.collectionHavingThis li,
+.communityHavingThis li{
+	float: left;
+	width: 33%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.collectionHavingThis div.btnPrev,
+.communityHavingThis div.btnPrev {
+	float: left;
+}
+
+.collectionHavingThis div.btnNext,
+.communityHavingThis div.btnNext {
+	float: right;
+}
+/*******>*******/
+
+
+/* MISC: =Keyword Components
+---------------------------------------- */
+#comment,
+#connect,
+#trackback {
+	border-bottom: 1px dotted #999;
+	width: 100%;
+}
+
+#comment h2,
+#connect h2,
+#trackback h2 {
+	margin-bottom: 0;
+}
+
+.externalToolSection {
+	font-size: 11px;
+}
+
+.externalToolSection li {
+	height: 18px;
+	padding-right: 2px;
+}
+
+.externalToolSection li a {
+	text-decoration: none;
+}
+
+.externalToolSection li img {
+	vertical-align: middle;
+}
+
+.externalToolSection .icon {
+	text-decoration: none;
+	background-image: url(http://static.kanshin.com/img/sp_ic.png?2009100501);
+	background-repeat: no-repeat;
+}
+
+.externalToolSection .twitter .icon {
+	width: 14px;
+	height: 16px;
+	background-position: 0px -950px;
+}
+
+.externalToolSection .tumblr .icon {
+	width: 16px;
+	height: 16px;
+	background-position: -20px -950px;
+}
+
+.externalToolSection .hatena_bm .icon {
+	width: 16px;
+	height: 16px;
+	background-position: -40px -948px;
+}
+
+.externalToolSection .yahoo_bm .icon {
+	width: 15px;
+	height: 15px;
+	background-position: -60px -949px;
+}
+
+.externalToolSection .delicious .icon {
+	width: 10px;
+	height: 16px;
+	background-position: -80px -947px;
+}
+
+.externalToolSection .livedoor_clip .icon {
+	width: 16px;
+	height: 16px;
+	background-position: -100px -948px;
+}
+
+.externalToolSection .facebook .icon {
+	width: 14px;
+	height: 16px;
+	background-position: -120px -949px;
+}
+
+/* =Comment
+---------------------------------------- */
+#comment {
+	border-bottom: none;
+}
+
+#comment .body,
+#commentForm {
+	border: 1px dotted #999;
+	background-color: #FAFAE0;
+}
+
+#comment .body {
+	padding: 10px 10px 0;
+}
+
+/* =new --------------------------- */
+#comment h2 .icon {
+	width: 23px;
+	height: 20px;
+	float: left;
+	background: url(http://static.kanshin.com/img/sp_ic.png?2009100501) 0px -740px no-repeat;
+}
+
+
+#comment h3,
+#comment p {
+	margin-left: 13px;
+}
+
+#comment h3 {
+	font-size: 90%;
+}
+
+#comment p {
+	margin-bottom: 7px;
+	text-indent: -14px;
+}
+
+#comment .listNav {
+	margin: 0;
+}
+
+#comment .commentNotice {
+	margin-left: 27px;
+	color: #666;
+	font-size: 90%;
+}
+
+#comment .commentBye {
+	color: #999;
+}
+
+/*-------- new----------------- */
+#comment .commentBye .icon {
+	width: 12px;
+	height: 15px;
+	background: url(/img/sp_ic.png) -25px -1080px no-repeat;
+}
+
+/*------------------------ */
+
+
+#commentForm {
+	padding: 10px;
+	border-top: none;
+	text-align: center;
+}
+
+#commentForm form {
+	width: 100%;
+}
+
+#commentForm textarea {
+	margin-bottom: 5px;
+	width: 99%;
+	height: 10em;
+}
+
+/* =Connect
+---------------------------------------- */
+#connection .connectionReason {
+	padding: 0 5px;
+	margin-bottom: 5px;
+	line-height: 1.5em;
+	background-color: #EAEFF3;
+}
+
+#connection .connectionReason img {
+	vertical-align: middle;
+}
+
+#connection h2 .icon {
+	width: 12px;
+	height: 20px;
+	float: left;
+	background: url(http://static.kanshin.com/img/sp_ic.png?2009100501) 0px -720px no-repeat;
+}
+
+
+#connection .connectionReasonOut {
+	float: left;
+}
+
+#connection .connectionReasonIn {
+	text-align: right;
+}
+
+#connection .connectionReasonOut a, 
+#connection .connectionReasonIn a,
+#connection .connectionReasonOut span,
+#connection .connectionReasonIn span {
+	font-size:90%;
+}
+
+#connection .connectionReasonOut a:link, #connection .connectionReasonOut a:visited, 
+#connection .connectionReasonIn a:link, #connection .connectionReasonIn a:visited,
+#connection .connectionReasonOut span, #connection .connectionReasonIn span {
+	color:#366;
+}
+
+#connecttion .connecttionReasonOut a:hover, #connecttion .connecttionReasonOut a:active, 
+#connecttion .connecttionReasonIn a:hover, #connecttion .connecttionReasonIn a:active {
+	color: #F60;
+}
+
+#connection .connectionReasonOut .icon, 
+#connection .connectionReasonIn .icon{
+	background-image: url(http://static.kanshin.com/img/sp_ic.png?2009100501);
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 10px;
+}
+
+#connection .connectionReasonOut .icon {
+	background-position: 0 -620px;
+}
+
+#connection .connectionReasonIn .icon {
+	background-position: 0 -610px;
+}
+
+#connection .connectionReasonOut img {
+	margin-right: 3px;
+}
+
+#connection .connectionReasonIn img {
+	margin-left: 3px;
+}
+
+#connection .item {
+	margin: 0 10px 10px;
+}
+
+#connection .item .itemHead * {
+	display: inline;
+}
+
+#connection .item .itemHead h3 {
+	margin-right: 5px;
+}
+
+#connection .item .itemHead h3 a {
+	text-decoration: none;
+}
+
+#connection .item .itemHead h3 a .itemTitle {
+	text-decoration: underline;
+}
+
+#connection .item .itemHead h3 a .itemImage {
+	float: right;
+	margin: 0 0 5px 5px;
+}
+
+
+/* =Trackback
+---------------------------------------- */
+#trackback .tbKanshin,
+#trackback .tbOthers {
+	padding: 0 10px;
+}
+
+#trackback li {
+	display: inline;
+}
+
+#trackback p,
+#trackback dl {
+	margin: 0 0 10px 10px;
+}
+
+#trackback dd {
+	padding: 0 2px;
+	border: 1px solid #999;
+}
+
+/* =Profile
+---------------------------------------- */
+#profile {
+	padding: 10px;
+	border: 2px solid #8b2;
+	margin-bottom: 20px;
+}
+
+#profile h2 {
+	margin-bottom: 10px;
+	color: #C60;
+}
+
+#profile .colMain {
+	float: left;
+	width: 68%;
+}
+
+#profile .colMain h2,
+#profile .colMain p {
+	margin-right: 10px;
+}
+
+#profile .colSub {
+	float: right;
+	width: 32%;
+	text-align:right;
+}
+
+#profile .colSub .nav li {
+	margin-bottom: 5px;
+}
+
+#profile .footer {
+	clear: both;
+	padding-top: 10px;
+	line-height: 1em;
+	font-size: 80%;
+}
+
+.sponsorLabel {
+	background-color: #FFF;
+	border: 1px solid #999;
+	padding: 2px;
+	font-size: 80%;
+}
+
+
+/* MISC: =User
+---------------------------------------- */
+
+/* =userPage
+---------------------------------------- */
+body.userPage #userKeywords,
+body.userPage #userDiaries,
+body.userPage #sideUserCollections,
+body.userPage #sideUserCommunities,
+body.userPage .sponsorProjectSection,
+body.userPage .memberProjectSection {
+	margin-bottom:20px;
+	padding:10px;
+	border:2px solid #88BB22;
+}
+
+#userKeywords .body,
+#userCollections .body,
+#userCommunities .body,
+.memberProjectSection .body {
+	margin-left:0px;
+}
+
+#userKeywords .rss,
+#userDiaries .rss,
+#sideUserCollections .rss {
+	top: 10px;
+	right: 10px;
+}
+
+#userKeywords .mapLink,
+#userDiaries .mapLink,
+#sideUserCollections .mapLink {
+	top: 10px;
+	right: 100px;
+}
+
+#userDiaries h3 {
+	margin-bottom: 5px;
+	font-size: 140%;
+	color: #490;
+}
+
+#userDiaries h3 a:link,
+#userDiaries h3 a:visited {
+	color: #490;
+}
+
+body.collection_indexPage .sideList .btnNewCollection {
+	text-align: center;
+}
+
+body.community_indexPage .sideGuide .btnCommunity,
+body.community_listPage .sideGuide .btnCommunity,
+body.community_guidePage .sideGuide .btnCommunity {
+	width: 100%;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+
+/*********************/
+/*------old
+.userPage .topicpath {
+	margin-bottom: 0;
+}
+------*/
+.userPage .topicpath .count,
+.userPage .topicpath .count a {
+	color: #f60 !important;
+}
+
+.userPage .topicpath .count {
+	margin-right: 5px;
+	font-size: 140%;
+	font-weight: bold;
+}
+
+.userPage .topicpath .count span {
+	font-size: 70%;
+}
+
+#sideUserNav {
+	color: #490;
+	font-size: 120%;
+}
+
+#userKeywords,
+#userDiaries,
+#userCollections,
+#userCommunitys,
+.memberProjectSection {
+	margin-bottom: 40px;
+}
+
+#userKeywords .body,
+#userCollections .body,
+#userCommunities .body
+.memberProjectSection .body {
+	margin-left: 10px;
+}
+
+#userKeywords table,
+#userCollections table,
+#userCommunities table,
+.memberProjectSection table {
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-bottom: 1px solid #FFF;
+}
+
+#userKeywords td,
+#userCollections td,
+#userCommunities td,
+.memberProjectSection td {
+	padding: 5px 10px;
+	border: dotted #999;
+	border-width: 0 0 1px 1px;
+	vertical-align: top;
+}
+
+#userKeywords td p,
+#userCollections td p,
+#userCommunities td p,
+.memberProjectSection td p {
+	line-height:1.3em;
+	font-size:95%;
+}
+
+#userKeywords .col1,
+#userCollections .col1,
+#userCommunities .col1,
+.memberProjectSection .col1 {
+	padding-left: 0;
+	border-left: none;
+}
+
+#userKeywords .cols2 .col2, #userKeywords .cols3 .col3,
+#userCollections .col2,
+#userCommunities .col2,
+.memberProjectSection .col2 {
+	padding-right: 0;
+}
+
+#userKeywords p img,
+#userCollections p img,
+#userCommunities p img,
+.memberProjectSection p img {
+	float: right;
+	margin: 0 0 5px 5px;
+}
+
+#userKeywords .keyword .sub li,
+#userCollections .collection .sub li,
+#userCommunities .community .sub li,
+#sideUserCommunities .community .sub li,
+.sideListCommunity .community .sub li {
+	display: inline;
+	margin-right: 3px;
+	font-size: 90%;
+}
+
+#userKeywords .keyword .sub .count,
+#userCollections .collection .sub .count,
+#userCommunities .community .sub .count,
+#sideUserCommunities .community .sub .count,
+.sideListCommunity .community .sub .count {
+	color: #490;
+}
+
+/*---------new----------*/
+#userCollections .collectionKeywords li {
+	display: inline;
+}
+/*-------------------*/
+
+#userDiaries h2 {
+	margin-bottom: 0;
+}
+
+#userDiaries .entry {
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #999;
+	margin: 0 0 10px 10px;
+}
+
+#userDiaries .entry p img {
+	float: right;
+	margin: 0 0 5px 5px;
+}
+#userDiaries .entry p {
+	margin-bottom: 5px;
+	line-height:1.3em;
+	font-size:95%;
+}
+
+#userDiaries .nav {
+	text-align: right;
+}
+
+#userDiaries .nav li {
+	display: inline;
+	font-size:95%;
+}
+
+#sideUserCommunities table td,
+.sideListCommunity table td {
+	text-align: center;
+	vertical-align: top;
+	padding: 10px 5px;
+	width: 33%;
+	border: solid #CCC;
+	border-width: 0 0 1px 1px;
+}
+
+#sideUserCommunities table,
+.sideListCommunity table {
+	table-layout: fixed;
+	border-collapse: collapse;
+	border: solid #FFF;
+	border-width: 0 0 2px 2px;
+}
+
+#sideUserCommunities table td h3,
+.sideListCommunity table td h3 {
+	font-weight: normal;
+	font-size: 90%;
+}
+
+#sideUserCommunities table td a,
+.sideListCommunity table td a {
+	text-decoration: none;
+}
+
+#sideUserCommunities table td span,
+.sideListCommunity table td span {
+	color: #999;
+	font-size: 90%;
+}
+
+#userKeywords,
+#userDiaries,
+#sideUserCollections {
+	position: relative;
+}
+
+
+#userKeywords .rss,
+#userDiaries .rss,
+#sideUserCollections .rss {
+	font-size: 80%;
+	position: absolute ;
+}
+
+#userKeywords .mapLink,
+#userDiaries .mapLink,
+#sideUserCollections .mapLink {
+	font-size: 80%;
+	position: absolute ;
+	right: 100px;
+}
+
+#userKeywords .rss img,
+#userDiaries .rss img,
+#sideUserCollections .rss img,
+#userKeywords .mapLink img,
+#userDiaries .mapLink img,
+#sideUserCollections .mapLink img {
+	vertical-align: text-bottom;
+}
+
+#userKeywords .rss a,
+#userDiaries .rss a,
+#sideUserCollections .rss a,
+#userKeywords .mapLink a,
+#userDiaries .mapLink a,
+#sideUserCollections .mapLink a {
+	color: #999;
+	text-decoration: none;
+}
+
+.userKeywordPage .topicpath .showMap a{
+	color: #333;
+}
+
+body.userPage .userProjects {
+	margin-bottom:20px;
+	padding:10px;
+	border:2px solid #88BB22;
+}
+
+body.userPage .userProjects h3 {
+	margin-bottom: 10px;
+	font-size: 110%;
+	color: #490;
+}
+
+body.userPage .userProjects .sokenProject {
+	float: left;
+	padding-left: 55px;
+	margin-bottom: 10px;
+	width: 30%;
+}
+
+body.userPage .userProjects .sokenProject .title {
+	width: 100%;
+	float: right;
+	font-size: 90%;
+}
+
+body.userPage .userProjects .sokenProject .image {
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-left: -55px;
+	padding-right: 5px;
+	text-align: center;
+}
+
+body.userPage .userProjects .sokenProject .label {
+	margin-left: 5px;
+	vertical-align: middle;
+}
+/*---------------------------------------------------------------------------------------*/
+
+body.userPage .sponsorProjectSection .project {
+	margin-top: 5px;
+}
+
+body.userPage .sponsorProjectSection h3 {
+	margin-right: 0.5em;
+	display: inline;
+	font-size: 90%;
+}
+
+body.userPage .sponsorProjectSection h3 a {
+	color: #490;
+	text-decoration: none;
+}
+
+body.userPage .sponsorProjectSection .more,
+body.userPage .sponsorProjectSection .more a {
+	display: inline;
+	font-size: 90%;
+	color: #490;
+	text-decoration: none;
+}
+
+body.userPage .sponsorProjectSection .project {
+	padding-right: 140px;
+}
+
+body.userPage .sponsorProjectSection .description {
+	float:left;
+	width:100%;
+}
+
+body.userPage .sponsorProjectSection .project .image {
+	margin-right: 10px;
+	float: left;
+	width: 75px;
+	height: 75px;
+	text-align: center;
+}
+
+body.userPage .sponsorProjectSection .project .title,
+body.userPage .sponsorProjectSection .project .prize,
+body.userPage .sponsorProjectSection .project .summary {
+	padding-left: 85px;
+}
+
+body.userPage .sponsorProjectSection .project .title a {
+	color: #EA5532;
+	text-decoration: none;
+}
+
+body.userPage .sponsorProjectSection .project .prize {
+	font-weight: bold;
+	color: #F60;
+}
+
+body.userPage .sponsorProjectSection .project .prize,
+body.userPage .sponsorProjectSection .project .summary {
+	font-size: 90%;
+}
+body.userPage .sponsorProjectSection .project .data {
+	float:left;
+	margin-right:-140px;
+	padding-left:10px;
+	width:130px;
+}
+
+body.userPage .sponsorProjectSection .project .data dl {
+	margin-bottom: 5px;
+}
+
+body.userPage .sponsorProjectSection .project .data dt {
+	font-size: 90%;
+}
+
+body.userPage .sponsorProjectSection .project .data dl dt .label {
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+body.userPage .sponsorProjectSection .project .data dd {
+	font-size: 11px;
+	margin: 0;
+}
+
+body.userPage .sponsorProjectSection .project .data .category dd {
+	float: left;
+	margin: 0 5px 5px 0;
+	padding: 0 3px;
+	font-size: 80%;
+	background: #D3E7C2;
+	white-space: nowrap;
+}
+
+body.userPage .colB .memberProjectSection .sokenProject {
+	padding-left: 55px;
+	margin-bottom: 10px;
+	
+}
+
+body.userPage .colB .memberProjectSection .listHead {
+	width: 100%;
+	float: right;
+	font-size: 90%;
+}
+
+body.userPage .colB .memberProjectSection .image {
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-left: -55px;
+	padding-right: 5px;
+	text-align: center;
+}
+
+body.userPage .colB .memberProjectSection .label {
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+#profile .colMain .twitterAccount {
+	height: 16px;
+	float: left;
+	margin-top: 15px;
+	padding-right: 8px;
+	background: #C0DEED url(/images/bg_user_twitter_account.png) no-repeat right;
+}
+
+#profile .colMain .icon {
+	margin-right: 2px;
+}
+
+#profile .colMain .twitterAccount a {
+	text-decoration: none;
+	color: #000;
+	font-size: 11px;
+}
+
+body.userPage .userTweetSection {
+	border: 2px solid #69BDDD;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+body.userPage .userTweetSection h2 {
+	float: left;
+	color: #0261CF;
+}
+
+body.userPage .userTweetSection h2 img {
+	vertical-align: baseline;
+}
+
+body.userPage .userTweetSection .profile {
+	margin-bottom: 15px;
+	text-align: right;
+}
+
+body.userPage .userTweetSection .profile a {
+	text-decoration: none;
+	color: #333;
+}
+
+body.userPage .userTweetSection .profile .icon {
+	width: 20px;
+}
+
+body.userPage .userTweetSection .status {
+	border-bottom: 1px dotted #999999;
+	margin: 0 0 10px 10px;
+	padding-bottom: 10px;
+}
+
+body.userPage .userTweetSection .date {
+	color: #666;
+	font-size: 80%;
+}
+
+/*---------------------------------------------------------------------------------------*/
+.userCommunityPage .aboutCountIcon {
+	text-align: right;
+	margin-top: 5px;
+}
+.userCommunityPage .aboutCountIcon li {
+	display: inline;
+	margin-left: 1em;
+	font-size: 90%;
+}
+
+.userCommunityPage .aboutCountIcon img {
+	vertical-align:middle;
+}
+
+
+/* =communityPage
+---------------------------------------- */
+.communityPage #content,
+.communityKeywordPage #content,
+.communityUserPage #content,
+.communityDiaryPage #content,
+.communityCollectionPage #content,
+.communityBbsPage #content,
+.communityMapPage #content,
+.communityJoinPage #content,
+.communityInfoPage #content,
+.communityKeyword_postPage #content,
+.communityCollection_postPage #content {
+	padding-bottom: 60px;
+}
+
+/* =Entry
+---------------------------------------- */
+#entry {
+	margin-bottom: 10px;
+}
+
+#entry h2,
+#entry h2 a {
+	color: #490;
+	text-decoration: none;
+}
+
+#entry h2 {
+	margin-bottom: 5px;
+	font-size: 140%;
+	color: #490;
+}
+
+#entry .body {
+	margin-left: 10px;
+}
+
+#entry .date {
+	display: inline;
+	margin: 0 0 5px;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+#entry p img.entryImage, #entry ul.entryImages, .entry ul.entryImages {
+	float: right;
+}
+
+#entry ul.entryImages li, .entry ul.entryImages li {
+	text-align: center;
+	margin: 0 0 5px 5px;
+}
+
+#entry .nav {
+	text-align: right;
+}
+
+#entry .nav li {
+	line-height: 1em;
+	margin-bottom: 5px;
+}
+
+/* =Sponsor
+---------------------------------------- */
+
+.sponsorCatchcopy {
+	font-weight: bold;
+	color: #339999;
+}
+
+
+/* =Index
+---------------------------------------- */
+.indexList .indexImage {
+	width: 50px;
+	float: left;
+	text-align: center;
+}
+
+.indexList .indexHead,
+.indexList .indexContent {
+	margin-left: 60px;
+}
+
+.indexList .indexHead *,
+#indexUser .indexContent .listUserKeyword li,
+#indexConnect li {
+	display: inline;
+}
+
+.indexList .sponsorCatchcopy {
+	margin-left: 60px;
+	font-size: 100%;
+}
+
+.indexList .indexContent .sponsorCatchcopy {
+	margin-left: 35px;
+	font-size: 110%;
+}
+
+.indexList .indexHead h2 {
+	margin-right: 10px;
+}
+
+.indexList .indexHead li {
+	margin-right: 5px;
+}
+
+.indexList .indexHead img {
+	vertical-align: middle;
+}
+
+.indexList .indexHead h2 img {
+	margin-right: 3px;
+}
+
+.indexList .indexHead li.count,
+.indexList .indexHead li.count a {
+	color: #490 !important;
+	text-decoration: none;
+}
+
+.indexList .indexContent strong.key1 {
+	border-bottom: 2px solid #FF9900; 
+}
+
+.indexList .indexContent strong.key2 {
+	border-bottom: 2px solid #3399CC; 
+}
+
+.indexList .indexContent strong.key3 { 
+	border-bottom: 2px solid #669900; 
+}
+
+.indexList .indexContent strong.key4 {
+	border-bottom: 2px solid #CC9900; 
+}
+
+.indexList .indexContent strong.key5 {
+	border-bottom: 2px solid #CC6699;
+}
+
+#indexKeyword .keyword,
+#indexDiary .entry,
+#indexUser .user,
+#indexBbs .bbs {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+#indexKeyword .keyword .indexContent .collectionAdd {
+	float: right;
+}
+
+#indexConnect a {
+	text-decoration: none;
+}
+
+#indexConnect .tag0 {
+	font-size: 50%;
+}
+
+#indexConnect .tag10 {
+	font-size: 60%;
+}
+
+#indexConnect .tag20 {
+	font-size: 80%;
+}
+
+#indexConnect .tag30 {
+	font-size: 100%;
+}
+
+#indexConnect .tag40 {
+	font-size: 120%;
+}
+
+#indexConnect .tag50 {
+	font-size: 150%;
+}
+
+#indexConnect .tag60 {
+	font-size: 170%;
+}
+
+#indexConnect .tag70 {
+	font-size: 200%;
+}
+
+#indexConnect .tag80 {
+	font-size: 230%;
+}
+
+#indexConnect .tag90 {
+	font-size: 250%;
+}
+
+#indexConnect .tag100 {
+	font-size: 300%;
+}
+
+#indexBbs {
+	padding-top: 10px;
+	border-top: 1px dotted #999;
+	margin-left: 20px;
+}
+
+#indexBbs .bbs {
+	border-bottom: 1px dotted #999;
+}
+
+#indexBbs .indexHead {
+	margin-left: 0;
+}
+
+#indexBbs .indexHead h2 {
+	line-height: 2em;
+	color: #490;
+}
+
+#indexBbs .indexContent {
+	margin-left: 20px;
+}
+
+#indexBbs .indexContent .nav {
+	text-align: right;
+}
+
+
+/* MISC: =Headings
+---------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	line-height: 1em;
+}
+
+/* MISC: =List
+---------------------------------------- */
+.list {
+	margin-bottom: 20px;
+}
+
+.list h2, .list h2 a {
+	color: #490 !important;
+}
+
+.list h2 {
+	margin-bottom: 10px;
+}
+
+.list h2 a {
+	text-decoration: none;
+}
+
+.list h2 img {
+	margin-right: 5px;
+	vertical-align: baseline;
+}
+
+.listNav {
+	margin: 0 10px;
+	padding-bottom: 10px;
+	height: 1.2em;
+}
+
+.listNav .listNavAll,
+.listNav .listNone {
+	float: left;
+}
+
+.listNav .listNavAll {
+	color: #490;
+}
+
+.listNav .listNavBtn {
+	text-align: right;
+}
+
+/* MISC: =Topicpath
+---------------------------------------- */
+.topicpath {
+	margin-bottom: 10px;
+	font-size: 90%;
+	position: relative;
+}
+
+
+.topicpath h1,
+.topicpath ul, .topicpath li {
+	display: inline;
+}
+
+.topicpath h1,
+.topicpath h1 a {
+	color: #490 !important;
+}
+
+.topicpath h1 {
+	margin-right: 5px;
+	font-size: 140%;
+}
+
+.topicpath img {
+	vertical-align: baseline;
+}
+
+.topicpath li img {
+	margin-right: 3px;
+}
+
+.topicpath h1 img {
+	margin-right: 5px;
+}
+
+
+
+.topicpath a {
+	text-decoration: none;
+}
+
+
+
+
+.keywordPage .topicpath,
+.keywordCommentPage .topicpath,
+.keywordConnectPage .topicpath,
+.keywordTrackbackPage .topicpath {
+	margin-bottom: 0;
+}
+
+.diaryPage ul.externalToolSection,
+.diaryCommentPage ul.externalToolSection,
+.diaryTrackbackPage ul.externalToolSection,
+.collectionPage ul.externalToolSection {
+	margin:0;
+	padding: 0;
+	line-height: 1;
+	float: clear;
+	clear: both;
+	text-align: right;
+}
+
+.diaryPage ul.externalToolSection li img,
+.diaryCommentPage ul.externalToolSection li img,
+.diaryTrackbackPage ul.externalToolSection li img,
+.collectionPage ul.externalToolSection li img {
+	margin-right: 0;
+}
+
+.diaryPage ul.externalToolSection li,
+.diaryCommentPage ul.externalToolSection li,
+.diaryTrackbackPage ul.externalToolSection li,
+.collectionPage ul.externalToolSection li {
+	display: inline;
+
+}
+
+
+/* MISC: =Ads
+---------------------------------------- */
+.pageBottomAdSection {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: dotted #999;
+	border-width: 1px 0;
+	margin-bottom: 10px;
+}
+
+.ad300x250 {
+	width: 100%;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.ad250x250 {
+	width: 100%;
+	margin: 0 auto 10px auto;
+	text-align: center;
+}
+
+.ad468x60 {
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #999;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.ad336x280,
+.ad300x200 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.ad250,
+.ad120x600x2xA,
+.ad120x600x2xB,
+.adText45,
+.ad224,
+.adTopCenterText {
+	margin-bottom: 10px;
+}
+
+.ad250 {
+	text-align: center;
+}
+
+.ad300 {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.ad250 object {
+	z-index: 1;
+}
+
+.ad224 {
+	text-align: center;
+	
+}
+
+.ad120x600x2xA {
+	float: left;
+}
+
+.ad120x600x2xB {
+	float: right;
+}
+
+.adText45 {
+	font-size: 90%;
+	padding: 2px 5px;
+	border: 1px solid #ccc;
+	line-height: 1;
+}
+
+.adText45 li {
+	padding-left: 24px;
+	background: url(http://static.kanshin.com/images/label_pr_text.png) no-repeat 0 4px;
+}
+
+.adText45 li a {
+	text-decoration: underline;
+}
+
+.adTopCenterText {
+	font-size: 90%;
+	padding: 2px 5px;
+	border: 1px solid #ccc;
+	line-height: 1;
+}
+
+.adTopCenterText li {
+	padding-left: 26px;
+	background: url(http://static.kanshin.com/images/label_pr_text.png) no-repeat 0 4px;
+}
+
+.adListing {
+	padding: 0 5px 5px 10px;
+	margin-bottom: 20px;
+	background: #eee;
+}
+
+.adListing .title {
+	margin-bottom: -1em;
+	text-align: right;
+	font-size: 90%;
+	color: #999;
+}
+
+.adListing dd dd {
+	margin-bottom: 5px;
+	font-size: 90%;
+}
+
+.adListing a {
+	display: block;
+}
+
+.adListing dd dd a {
+	text-decoration: none;
+	color: #000 !important;
+}
+
+.adListing dd dd span {
+	color: #490;
+}
+
+.adBeacon {
+	width: 0;
+	height: 0;
+}
+
+.adSidebarBottom {
+	padding: 10px 0;
+	clear:both;	
+}
+
+.keywordSidebarSection .videoAd {
+	margin-bottom:10px;
+	background:#D6ED97;
+	text-align:center;
+	padding:5px;
+}
+
+.keywordSidebarSection .videoAd .videoAdTitle {
+	margin-bottom:3px;
+}
+
+.keywordSidebarSection .videoAd .videoAdTitle strong {
+	color:#490;
+}
+
+.keywordSidebarSection .videoAd .videoAdTitle span {
+	font-size:80%;
+}
+
+
+/*  weeklyPickupKeyword */
+
+div.pickupKeywordSection {
+	position: relative;
+	margin: 7px 0 15px 0;
+	border: 1px solid #DDDDDD;
+}
+
+div.pickupKeywordSection .title .icon {
+	width: 18px;
+	height: 14px;
+	float: left;
+	background-image: url(http://static.kanshin.com/img/sp_ic.png?2009100501);
+	background-repeat: no-repeat;
+}
+
+div.pickupKeywordSection .title .category100 {
+	background-position: 0px -68px;
+}
+
+div.pickupKeywordSection .title .category200 {
+	background-position: 0px -88px;
+}
+
+div.pickupKeywordSection .title .category300 {
+	background-position: 0px -108px;
+}
+
+div.pickupKeywordSection .title .category400 {
+	background-position: 0px -128px;
+}
+
+div.pickupKeywordSection .title .category500 {
+	background-position: 0px -148px;
+}
+
+div.pickupKeywordSection .title .category600 {
+	background-position: 0px -168px;
+}
+
+div.pickupKeywordSection .title .category700 {
+	background-position: 0px -188px;
+}
+
+div.pickupKeywordSection .title .category800 {
+	background-position: 0px -208px;
+}
+
+div.pickupKeywordSection .title .category900 {
+	background-position: 0px -228px;
+}
+
+div.pickupKeywordSection .title .category1000 {
+	background-position: 0px -248px;
+}
+
+div.pickupKeywordSection h2.weekly {
+	position: absolute;
+	top: -10px;
+	left: 5px;
+	padding: 0.2em;
+	font-size: 11px;
+	text-align: center;
+	color: #F60;
+	background: #FFC;
+	border: 1px solid #999;
+}
+
+div.pickupKeywordSection ul.weekly {
+	padding: 15px 10px 5px 10px;
+}
+
+div.pickupKeywordSection ul.weekly h3 {
+	color: #F60;
+}
+
+div.pickupKeywordSection ul.weekly .thumbnail {
+	float: right;
+	margin: 0 0 5px 5px;
+}
+
+div.pickupKeywordSection ul.weekly .description,
+div.pickupKeywordSection ul.weekly .user {
+	display: inline;
+}
+
+/* listBannerSection */
+
+div.listBannerSection {
+	width: 850px;
+	margin: 30px auto 0;
+	text-align: center;
+	font-size: 10px;
+}
+
+div.listBannerSection table {
+	width: 100%;
+	table-layout: fixed;
+	text-align: center;
+}
+
+div.listBannerSection td img {
+	margin-bottom: 5px;
+}
+
+div.listBannerSection a {
+	text-decoration: none;
+}
+
+
+/* MISC: =Side
+---------------------------------------- */
+.sideList {
+	margin-bottom: 10px;
+}
+
+.sideList h2, .sideList h2 a {
+	color: #C60 !important;
+}
+
+.sideList h2 {
+	margin-bottom: 5px;
+}
+
+.sideList h2 a {
+	text-decoration: none;
+}
+
+#sideProfile {
+	padding: 5px;
+	border: 1px solid #490;
+	margin-bottom: 15px;
+}
+
+#sideProfile p img {
+	float: right;
+	margin: 0 0 5px 5px;
+}
+
+#sideProfile .nav {
+	text-align: right;
+}
+
+#sideProfile .nav li {
+	margin-bottom: 5px;
+}
+
+#sideProfile form {
+	margin-bottom: 5px;
+}
+
+#sideProfile textarea {
+	height: 8em;
+	width: 99%
+}
+
+/**********>********/
+
+div.externalSearchSection h2 {
+	color: #490;
+}
+
+div.externalSearchSection .iconSearch {
+	float: left;
+}
+
+/*--------new --------------*/
+div.externalSearchSection div.externalSearch ul li {
+	padding-left: 7px;
+	font-size: 11px;
+	background: url(http://static.kanshin.com/img/sp_ic.png?2009100501) -150px -660px no-repeat;
+}
+
+div.externalSearchSection div.externalSearch ul li a {
+	text-decoration: none;
+}
+
+div.colA div.externalSearchSection {
+	width: 150px !important;
+}
+
+div.colA div.externalSearchSection h2 {
+	display: none;
+}
+
+div.colA div.externalSearchSection div.externalSearch {
+	width: 150px !important;
+}
+
+div.colA div.externalSearchSection div.externalSearch ul.main,
+div.colA div.externalSearchSection div.externalSearch ul.sub {
+	width: 100% !important;
+	margin: 0 !important;
+}
+
+div.colB div.externalSearchSection {
+	margin-left: -13px;
+	margin-bottom: 15px;
+	padding-left: 14px;
+	background: url(http://static.kanshin.com/images/bg_search_box.png) left top no-repeat;
+}
+
+div.colB div.externalSearchSection div.externalSearch {
+	padding: 3px 0 3px 10px;
+	background: #EEE;
+	border-style: solid;
+	border-width: 1px 1px 1px 0;
+	border-color: #88BB23;
+}
+
+div.colB div.externalSearchSection div.externalSearch ul {
+	float: left;
+	margin: 0 !important;
+}
+div.colB div.externalSearchSection div.externalSearch ul.main {
+	width: 160px;
+}
+div.colB div.externalSearchSection div.externalSearch ul.sub {
+	width: 120px;
+}
+
+/**********>********/
+
+body.keywordPage div.popularKeywordSection,
+body.keywordCommentPage div.popularKeywordSection,
+body.keywordConnectPage div.popularKeywordSection,
+body.keywordTrackbackPage div.popularKeywordSection,
+body.userPage div.popularKeywordSection {
+	margin-bottom: 15px;
+}
+
+body.keywordPage div.popularKeywordSection h2,
+body.keywordCommentPage div.popularKeywordSection h2,
+body.keywordConnectPage div.popularKeywordSection h2,
+body.keywordTrackbackPage div.popularKeywordSection h2,
+body.userPage div.popularKeywordSection h2 {
+	display: inline;
+	color: #490;
+}
+
+body.keywordPage div.popularKeywordSection h3 a,
+body.keywordCommentPage div.popularKeywordSection h3 a,
+body.keywordConnectPage div.popularKeywordSection h3 a,
+body.keywordTrackbackPage div.popularKeywordSection h3 a,
+body.userPage div.popularKeywordSection h3 a {
+	color: #666;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+body.keywordPage div.popularKeywordSection img.icon,
+body.keywordCommentPage div.popularKeywordSection img.icon,
+body.keywordConnectPage div.popularKeywordSection img.icon,
+body.keywordTrackbackPage div.popularKeywordSection img.icon,
+body.userPage div.popularKeywordSection img.icon {
+	display: inline;
+}
+
+div.popularKeywordSection a {
+	text-decoration: none;
+}
+
+div.popularKeyword li.keyword,
+div.popularKeywordSection .ad li {
+	position: relative;
+	height: 24px;
+	white-space: nowrap;
+	width: 100%;
+	overflow: hidden;
+}
+
+div.popularKeyword ul,
+div.popularKeywordSection .ad ul {
+	width: 100%;
+	overflow: hidden;
+}
+
+.popularKeyword li {
+	background-image: url(http://static.kanshin.com/img/sp_ic.png?2009100501);
+	background-repeat: no-repeat;
+}
+
+.popularKeyword .rank1 {
+	background-position: 8px -315px;
+}
+
+.popularKeyword .rank2 {
+	background-position: 8px -335px;
+}
+
+.popularKeyword .rank3 {
+	background-position: 8px -355px;
+}
+
+.popularKeyword .rank4 {
+	background-position: 8px -375px;
+}
+
+.popularKeyword .rank5 {
+	background-position: 8px -395px;
+}
+
+.popularKeyword .rank6 {
+	background-position: 8px -415px;
+}
+
+.popularKeyword .rank7 {
+	background-position: 8px -435px;
+}
+
+.popularKeyword .rank8 {
+	background-position: 8px -455px;
+}
+
+.popularKeyword .rank9 {
+	background-position: 8px -475px;
+}
+
+.popularKeyword .rank10 {
+	background-position: 8px -495px;
+}
+
+.popularKeywordSection .ad .typeB {
+	background: url(http://static.kanshin.com/img/sp_ic.png?2009100501) 5px -515px no-repeat;
+}
+
+
+
+div.popularKeyword li.odd,
+div.popularKeywordSection .ad li.odd {
+	background-color: #FFF;
+}
+
+div.popularKeyword li.even,
+div.popularKeywordSection .ad li.even {
+	background-color: #EEE;
+}
+
+
+div.popularKeyword .keyword b {
+	background-image: url(http://static.kanshin.com/img/sp_ic.png?2009100501);
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 20px;
+	float: left;
+	margin: 3px 0px 0px 8px;
+	vertical-align: middle;
+}
+
+.popularKeyword .rank1 b {
+	background-position: 0px -320px;
+}
+
+.popularKeyword .rank2 b {
+	background-position: 0px -340px;
+}
+
+.popularKeyword .rank3 b {
+	background-position: 0px -360px;
+}
+
+.popularKeyword .rank4 b {
+	background-position: 0px -380px;
+}
+
+.popularKeyword .rank5 b {
+	background-position: 0px -400px;
+}
+
+.popularKeyword .rank6 b {
+	background-position: 0px -420px;
+}
+
+.popularKeyword .rank7 b {
+	background-position: 0px -440px;
+}
+
+.popularKeyword .rank8 b {
+	background-position: 0px -460px;
+}
+
+.popularKeyword .rank9 b {
+	background-position: 0px -480px;
+}
+
+.popularKeyword .rank10 b {
+	background-position: 0px -500px;
+}
+
+.popularKeywordSection .ad .typeB b {
+	background: url(http://static.kanshin.com/img/sp_ic.png?2009100501) 0px -518px no-repeat;
+	height: 20px;
+	width: 22px;
+	margin: 4px 0px 0px 8px;
+	vertical-align: middle;
+}
+
+
+div.popularKeyword .thumbnail,
+div.popularKeywordSection .ad .thumbnail {
+	position: absolute;
+	left: 35px;
+	top: 2px;
+	width: 20px;
+	height: 20px;
+	padding: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+div.popularKeywordSection .ad .thumbnail {
+	background: #DDD;
+}
+
+
+.popularKeyword .keyword a .titleSection,
+.popularKeywordSection .ad a .titleSection {
+	position:relative;
+	top:3px;
+	left:60px;
+}
+
+.popularKeyword .keyword a .title,
+.popularKeywordSection .ad li a .title {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.popularKeyword .keyword .user {
+	font-size: 11px;
+	color: #333;
+}
+
+
+
+div.colB div.popularKeywordSection li.rank6,
+div.colB div.popularKeywordSection li.rank7,
+div.colB div.popularKeywordSection li.rank8,
+div.colB div.popularKeywordSection li.rank9,
+div.colB div.popularKeywordSection li.rank10 {
+	display: none;
+}
+
+/**********>********/
+
+div.keywordShoppingLinkSection {
+	margin-left: -13px;
+	margin-bottom: 20px;
+	padding-left: 14px;
+	background: url(http://static.kanshin.com/images/bg_shopping_widget.png) left top no-repeat;
+}
+
+div.keywordShoppingLinkSection h2 {
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 80%;
+	font-weight: lighter;
+	text-align: center;
+}
+
+div.keywordShoppingLinkSection .amazon h2 a {
+	color: #C60;
+	text-decoration: none;
+}
+
+div.keywordShoppingLinkSection .rakuten h2 a {
+	color: #900;
+	text-decoration: none;
+}
+
+div.keywordShoppingLinkSection .valueCommerce h2 a {
+	color: #E80;
+	text-decoration: none;
+}
+
+div.keywordShoppingLinkSection .item {
+	float: left;
+	width: 125px;
+	height: 170px;
+	margin: 0 9px;
+}
+
+div.keywordShoppingLinkSection .item p {
+	font-size: 10px;
+}
+
+div.keywordShoppingLinkSection .item .thumbnail {
+	width: 100%;
+	margin-bottom: 5px;
+	padding: 0 auto;
+	text-align: center;
+}
+
+div.keywordShoppingLinkSection .item .thumbnail img {
+	margin: 0 auto;
+}
+
+div.keywordShoppingLinkSection div#shoppingLinkItemList {
+	position: relative;
+	padding: 10px 0;
+	border-style: solid;
+	border-width: 1px 1px 1px 0;
+	border-color: #88BB23;
+}
+
+div.keywordShoppingLinkSection div#shoppingLinkItemList .notice {
+	position: absolute;
+	bottom: -15px;
+	right: 5px;
+}
+
+div.keywordShoppingLinkSection div#shoppingLinkItemList .notice a {
+	font-size: 70%;
+	color: #666;
+}
+
+/**********>********/
+
+div.latestCampaignSection {
+	margin-bottom: 15px;
+}
+
+div.latestCampaignSection h2 {
+	color: #F60;
+}
+
+div.latestCampaignSection li.campaign {
+	width: 145px;
+	height: 55px;
+	float: left;
+	margin: 5px 5px 5px 0;
+	font-size: 11px;
+}
+
+div.latestCampaignSection li.campaign .image {
+	width: 40px;
+	height: 40px;
+	margin-right: 5px;
+	float: left;
+}
+
+div.latestCampaignSection li.campaign .title {
+	font-weight: bold;
+	line-height: 1.1 !important;
+}
+
+div.latestCampaignSection li.campaign .description {
+	line-height: 1.1 !important;
+}
+
+/**********>********/
+
+
+#sideOwnerKeywords {
+	margin-bottom: 5px;
+}
+
+#sideOwnerKeywords h2 img {
+	margin: 0 5px 5px 0;
+	vertical-align: middle;
+}
+
+.sideKeywordsImage li {
+	float: left;
+	margin-bottom: 5px;
+	height: 60px;
+	width: 33%;
+}
+
+.sideKeywordsImage li a {
+	display: block;
+	margin: 0 auto;
+	height: 100%;
+	width: 60px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 80%;
+	line-height: 1em !important;
+}
+
+.sideKeywordsImage li a img {
+	margin-bottom: 2px;
+}
+
+.sideKeywordsImage li .text {
+	padding: 5px;
+	width: 50px;
+	height: 50px;
+	background: #EAEFF3;
+}
+
+.sideKeywordsText li {
+	display: inline;
+	margin-right: 5px;
+}
+
+
+.sideSearch {
+	padding-left: 13px;
+	margin: 0 0 10px -11px;
+	background: #eee url(http://static.kanshin.com/images/bg_search_box.png) no-repeat;
+}
+
+.sideSearch .body {
+	border: solid #88BB23;
+	border-width: 1px 1px 1px 0;
+}
+
+.sideSearch h2,
+.sideSearch h3 {
+	margin-left: 15px;
+	color: #490;
+}
+
+.sideSearch form {
+	padding: 5px 0 0 10px;
+}
+
+.sideSearch input.txt {
+	width: 175px;
+}
+
+.sideSearchBox {
+	padding-bottom: 10px;
+}
+
+.sideSearchNav {
+	border-top: 1px dotted #999;
+	padding: 10px;
+	color: #490;
+}
+
+.sideRegend {
+	font-size: 90%;
+	color: #490;
+}
+
+.sideRegend img {
+	vertical-align: baseline;
+}
+
+#sideSearchCategory li {
+	float: left;
+	margin-right: 5px;
+	color: #490;
+	font-size: 80%;
+	white-space: nowrap;
+}
+
+#sideSearchCategory li a {
+	text-decoration: none;
+}
+
+#sideSearchCategory li img {
+	vertical-align: top;
+	margin-right: 1px;
+}
+
+#sideSearchCategory .current {
+	color: #c60;
+}
+
+#sideListHotword li,
+#sideListConnect li {
+	display: inline;
+	margin-right: 5px;
+}
+
+#sideListHotword li a,
+#sideListConnect li a {
+	text-decoration: none;
+}
+
+#sideListConnect .tag0 {
+	font-size: 45%;
+}
+
+#sideListConnect .tag10 {
+	font-size: 50%;
+}
+
+#sideListConnect .tag20 {
+	font-size: 55%;
+}
+
+#sideListConnect .tag30 {
+	font-size: 60%;
+}
+
+#sideListConnect .tag40 {
+	font-size: 65%;
+}
+
+#sideListConnect .tag50 {
+	font-size: 70%;
+}
+
+#sideListConnect .tag60 {
+	font-size: 85%;
+}
+
+#sideListConnect .tag70 {
+	font-size: 100%;
+}
+
+#sideListConnect .tag80 {
+	font-size: 110%;
+}
+
+#sideListConnect .tag90 {
+	font-size: 130%;
+}
+
+#sideListConnect .tag100 {
+	font-size: 150%;
+}
+
+#sideListConnectLatest p {
+	margin: 0 0 10px 15px;;
+	text-indent: -15px;
+}
+
+#sideListConnectLatest #listHotKeyword .comment {
+	background: url(/img/sp_ic.png) -25px -1100px no-repeat;
+	width: 12px;
+	height: 10px;
+	margin-right:3px;
+}
+
+.keyword_indexPage #sideListConnectLatest p img {
+	background: url(http://static.kanshin.com/img/sp_ic.png?2009100501) 0 -600px no-repeat;
+	width: 14px;
+	height: 10px;
+}
+
+
+#sideNavDiary {
+	font-size: 90%;
+}
+
+#sideNavDiary li {
+	display: inline;
+}
+
+#sideNavDiary dd {
+	margin-bottom: 5px;
+}
+
+.sideTips {
+	margin: 20px 0 10px;
+}
+
+.sideTips h2 {
+	color: #c60;
+}
+
+.sideTips li {
+	list-style: circle;
+	margin-left: 20px;
+	font-size: 90%;
+}
+
+.sideGuide {
+	padding: 10px 10px 0;
+	margin-bottom: 10px;
+	background: #eee;
+}
+
+.sideGuide h2 {
+	color: #f60;
+}
+
+.sideGuide p,
+.sideGuide ul {
+	padding-bottom: 10px;
+	font-size: 90%;
+}
+
+.sideGuide ul {
+	padding-left: 20px;
+}
+
+.sideGuide li {
+	margin-bottom: 5px;
+	list-style: disc;
+}
+
+#sideListHotword p {
+	margin: -2px 0 5px;
+	font-size: 80%;
+	color: #777;
+}
+
+.sideListCollection h2, .sideListCollection h2 a,
+.sideListCommunity h2, .sideListCommunity h2 a,
+.memberProjectSection h2, .memberProjectSection h2 a {
+	color: #490 !important;
+}
+
+.sideListCollection .collection,
+.sideListCommunity .community {
+	margin-bottom: 20px;
+}
+
+.sideListCollection .collection h3 img {
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+.sideListCollection .collection .footer ul {
+	text-align: right;
+	font-size: 90%;
+}
+
+.sideListCollection .collection .body p img,
+.sideListCommunity .community .body p img {
+	float: right;
+	margin: 0 0 5px 5px;
+}
+
+.collectionKeywords {
+	font-size: 90%;
+	vertical-align: middle;
+}
+
+.collectionKeywords * {
+	display: block;
+	float: left;
+}
+
+/* ----------------- old
+.collectionKeywords * {
+	display: inline;
+}
+ ------------------------ */
+ 
+.collectionKeywords li {
+	margin-right: 5px;
+}
+
+.collectionKeywords a {
+	text-decoration: none;
+}
+
+
+/* ----------------- new ------------------------ */
+.collectionKeywords .category {
+	position: relative;
+	border: solid 1px #ccc;
+	height: 30px;
+	width: 30px;
+}
+
+.collectionKeywords .category img {
+	position: absolute;
+	top: 7px;
+	left: 6px;
+}
+
+/* -----------------delete?
+.listCollection .collectionKeywords {
+	clear: both;
+	padding: 3px;
+	border: 1px dotted #9cc;
+}
+------------------- */
+
+/* =MISC
+---------------------------------------- */
+iframe {
+	padding: 0;
+	border: none;
+	margin: 0;
+}
+
+input {
+	vertical-align: middle;
+}
+
+li {
+	list-style: none;
+}
+
+.navPage,
+.navDiary {
+	display: block !important;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 90%;
+}
+
+.navPage li,
+.navDiary li {
+	display: inline;
+	padding: 0 3px;
+}
+
+.navPage strong {
+	font-size: 130%;
+}
+
+.navDiary,
+.navPagePrev,
+.navPageNext {
+	color: #490;
+}
+
+.navDiary {
+/*	text-align: right;*/
+	margin-bottom: 5px;
+}
+
+.diaryPageNavTop {
+	border-bottom:1px dotted #999999;
+	margin-bottom:10px;
+}
+
+.date {
+	color: #555;
+}
+
+.btn {
+	float: none !important;
+	margin: 0 !important;
+	vertical-align: middle;
+}
+
+a.btnHelp {
+	padding: 0 3px;
+	border: 1px solid #999;
+	background: #AAA;
+	line-height: 1em;
+	color: #FFF !important;
+	font-size: 85%;
+	text-decoration: none;
+}
+
+a.btnHelp:hover, a.btnHelp:active {
+	border-color: #F60;
+}
+
+a.btnEdit {
+	color: #777 !important;
+	text-decoration: none;
+}
+
+a.btnEdit:hover, a.btnEdit:active {
+	color: #222 !important;
+}
+
+.icon,
+img.iconCategory,
+.iconCategory img,
+.iconUser,
+.icCat,
+.icUsr {
+	margin-right: 3px;
+	vertical-align: middle;
+}
+
+/*--------	カテゴリアイコン　ユーザーアイコン --------- */
+
+.icCat {
+	background: url(/img/sp_ic.png) no-repeat;
+	height: 14px;
+	width: 19px;
+}
+
+.icCat100 {
+	background-position: 0 -68px;
+}
+
+.icCat200 {
+	background-position: 0 -88px;
+}
+
+.icCat300 {
+	background-position: 0 -108px;
+}
+
+.icCat400 {
+	background-position: 0 -128px;
+}
+
+.icCat500 {
+	background-position: 0 -148px;
+}
+
+.icCat600 {
+	background-position: 0 -168px;
+}
+
+.icCat700 {
+	background-position: 0 -188px;
+}
+
+.icCat800 {
+	background-position: 0 -208px;
+}
+
+.icCat900 {
+	background-position: 0 -228px;
+}
+
+.icCat1000 {
+	background-position: 0 -248px;
+}
+
+.icUsr {
+	background: url(/img/sp_ic.png) no-repeat;
+	height: 16px;
+	width: 20px;
+}
+
+.icUsrNormal {
+	background-position: 0px -970px;
+	width: 11px;
+}
+
+.icUsr100kw {
+	background-position: -20px -970px;
+}
+
+.icUsr200kw {
+	background-position: -40px -970px;
+}
+
+.icUsr300kw {
+	background-position: -60px -970px;
+}
+
+.icUsr400kw {
+	background-position: -80px -970px;
+}
+
+.icUsr500kw {
+	background-position: -100px -970px;
+}
+
+.icUsr600kw {
+	background-position: -0px -990px;
+}
+
+.icUsr700kw {
+	background-position: -20px -990px;
+}
+
+.icUsr800kw {
+	background-position: -40px -990px;
+}
+
+.icUsr900kw {
+	background-position: -60px -990px;
+}
+
+.icUsr1000kw {
+	background-position: -80px -990px;
+	width: 30px;
+}
+
+.icUsrStaff {
+	background-position: -120px -990px;
+	width: 34px;
+}
+
+.userPage .icUsr.icLarge {
+	height: 30px;
+	width: 26px;
+}
+
+.userPage .icLarge.icUsrNormal {
+	background-position: 0px -1010px;
+}
+
+.userPage .icLarge.icUsr100kw {
+	background-position: -26px -1010px;
+}
+
+.userPage .icLarge.icUsr200kw {
+	background-position: -52px -1010px;
+}
+
+.userPage .icLarge.icUsr300kw {
+	background-position: -78px -1010px;
+}
+
+.userPage .icUsr.icLarge.icUsr400kw {
+	background-position: -104px -1010px;
+}
+
+.userPage .icUsr.icLarge.icUsr500kw {
+	background-position: -130px -1010px;
+}
+
+.userPage .icUsr.icLarge.icUsr600kw {
+	background-position: 0px -1045px;
+}
+
+.userPage .icUsr.icLarge.icUsr700kw {
+	background-position: -26px -1045px;
+}
+
+.userPage .icUsr.icLarge.icUsr800kw {
+	background-position: -52px -1045px;
+}
+
+.userPage .icUsr.icLarge.icUsr900kw {
+	background-position: -78px -1045px;
+}
+
+.userPage .icUsr.icLarge.icUsr1000kw {
+	background-position: -104px -1045px;
+	width: 26px;
+}
+
+.userPage .icUsr.icLarge.icUsrStaff {
+	background-position: -130px -1045px;
+}
+
+
+
+/*------------ IE 6用 -------------- */
+
+.keywordPickup.icUsrNormal {
+	background-position: 0px -970px;
+	width: 15px;
+}
+
+.keywordPickup .icUsr100kw {
+	background-position: -20px -970px;
+}
+
+.keywordPickup .icUsr200kw {
+	background-position: -40px -970px;
+}
+
+.keywordPickup .icUsr300kw {
+	background-position: -60px -970px;
+}
+
+.keywordPickup .icUsr400kw {
+	background-position: -80px -970px;
+}
+
+.keywordPickup.icUsr500kw {
+	background-position: -100px -970px;
+}
+
+.keywordPickup.icUsr600kw {
+	background-position: -0px -990px;
+}
+
+.keywordPickup.icUsr700kw {
+	background-position: -20px -990px;
+}
+
+.keywordPickup.icUsr800kw {
+	background-position: -40px -990px;
+}
+
+.keywordPickup.icUsr900kw {
+	background-position: -60px -990px;
+}
+
+.keywordPickup.icUsr1000kw {
+	background-position: -80px -990px;
+	width: 30px;
+}
+
+.keywordPickup.icUsrStaff {
+	background-position: -120px -990px;
+	width: 34px;
+}
+
+
+
+
+/*------------	カテゴリアイコン　ここまで -------------- */
+
+.searchMsg {
+	padding: 5px 0;
+	border: dotted #999;
+	border-width: 1px 0;
+	margin-bottom: 10px;
+}
+
+
+.sideSearch .subCategory {
+	background: url(http://static.kanshin.com/images/bg_arrow_down_left.png) 10px 0 no-repeat;
+	padding: 10px 10px 10px 35px;
+	font-size: 80%;
+}
+
+.sideSearch .subCategory li {
+	display: inline;
+	color: #490;
+	margin-right: 5px;
+}
+
+.sideSearch .subCategory li a {
+	text-decoration: none;
+}
+
+.sideSearch .subCategory li.current {
+	color: #c60;
+}
+
+
+.noneMsg {
+	color: #999;
+}
+
+.explanation {
+	margin-bottom: 20px;
+}
+
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+
+
+.clearfix {
+	display: inline-block;
+}
+
+
+/* Hides from IE-mac \*/
+.clearfix {
+	display: block;
+}
+/* End hide from IE-mac */
+
+
+ul.horizontalSelect li {
+	float: left;
+	margin-right: 10px;
+}
+
+.keyword_indexPage #sideListHotword ul li {
+	display: block;
+}
+
+#adKeywordIndexHeadAd {
+	position: absolute;
+	right: 270px;
+	top: 23px;
+	background: url(http://static.kanshin.com/images/label_pr_text.png) no-repeat;
+	padding-left: 24px;
+}
+
+#adKeywordIndexHeadAd a {
+	text-decoration: underline;
+}
+
+/* areBtn */
+.areBtn {
+	height: 23px;
+	background: url(http://static.kanshin.com/images/bg_btn_left.png) no-repeat scroll left top;
+	float: left;
+	margin-right: 10px;
+}
+
+.areBtn a {
+	display: block;
+	background: url(http://static.kanshin.com/images/bg_btn_right.png) no-repeat scroll right top;
+	line-height: 23px;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0 10px;
+	color: #330;
+}
+
+.areBtn a:hover {
+	color: #f60;
+}
+
+
+/* areBtnGray */
+.areBtnGray {
+	height: 23px;
+	background: url(http://static.kanshin.com/images/bg_btn_gray_left.png) no-repeat scroll left top;
+	float: left;
+	margin-right: 10px;
+}
+
+.areBtnGray a {
+	display: block;
+	background: url(http://static.kanshin.com/images/bg_btn_gray_right.png) no-repeat scroll right top;
+	line-height: 23px;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0 10px;
+}
+
+.more .areBtn,
+.more .areBtnGray {
+	float: right;
+}
+
+
+
+
+/* =archivePage
+---------------------------------------- */
+.archive {
+	margin-bottom: 20px;
+}
+
+.archive .archiveHead {
+	margin-bottom: 19px;
+}
+
+.archive .archiveHead h1 {
+	float: left;
+}
+
+.archive .archiveHead h1 img {
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+.archive .archiveHead p {
+	clear: both;
+}
+
+.archive .archiveNav,
+.sideArchiveNav .archiveNav {
+	text-align: right;
+	font-size: 90%;
+	color: #490;
+}
+
+.archive .archiveNav li,
+.sideArchiveNav .archiveNav li {
+	display: inline;
+	margin-left: 5px;
+}
+
+.archive .archiveContent .archiveInfo {
+	border-bottom: 1px solid #DDD;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+.archive .archiveContent .archiveInfo h2 {
+	font-size: 150%;
+}
+
+.archive .archiveContent .archiveInfo p {
+	clear: both;
+}
+
+.archive .archiveContent .item {
+	position: relative;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #DDD;
+}
+
+.archive .archiveContent .item h4,
+.archive .archiveContent .item .itemContent {
+	margin-left: 60px;
+}
+
+.archive .archiveContent .item h4 a {
+	text-decoration: none;
+}
+
+.archive .archiveContent .item h4 a .itemImage {
+	float: left;
+	margin-left: -60px;
+}
+
+.archive .archiveContent .item h4 a .itemTitle {
+	text-decoration: underline;
+}
+
+.archive .archiveContent .item .itemFoot {
+	clear: both;
+	text-align: right;
+}
+
+#diaryArchive .archiveHead h1,
+#diaryArchive .archiveContent h2,
+#diaryArchive .archiveContent .item h3 {
+	color: #F70;
+}
+
+#diaryArchive .archiveContent .item h3 {
+	margin-bottom: 3px;
+}
+
+#diaryArchive .archiveContent .item h3 span {
+	position: absolute;
+	top: 5px;
+	right: 0;
+	color: #CCC;
+	font-size: 150%;
+}
+
+#weeklyArchive .archiveHead h1,
+#weeklyArchive .archiveContent h2,
+#weeklyArchive .archiveContent .item h3 {
+	color: #399;
+}
+
+#weeklyArchive .archiveContent .item h3 {
+	margin-bottom: 3px;
+}
+
+.sideArchiveNav {
+	margin-bottom: 10px;
+}
+
+.sideArchiveNav ul {
+	font-size: 90%;
+}
+
+.sideArchiveNav .sideArchiveNavHead {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #999;
+}
+
+.sideArchiveNav .sideArchiveNavHead h2 {
+	color: #399
+}
+
+.sideArchiveNav .sideArchiveNavContent ul li {
+	margin-bottom: 3px;
+}
+
+
+/* =message
+---------------------------------------- */
+#message {
+	margin: -10px 20px 10px 3%;
+	background-color: #ffe;
+	color:#f60;
+}
+
+#message .body {
+	padding: 5px 10px;
+	border: solid #f90;
+	border-width: 0 1px 1px;
+	overflow: hidden;
+}
+
+#message .body .quote {
+	line-height: 1.5em;
+	padding: 0.2em;
+	border: 1px #ccc dashed;
+	background-color: #fff;
+	color:#000;
+}
+
+#message .body .quote strong {
+	text-decoration: underline;
+	color:#f00;
+}
+
+/* ------------<------------------------*/
+
+#verticalAd {
+	position: absolute;
+	left: 0;
+	top: 118px;
+	width: 20px;
+	background: #eee;
+}
+
+#verticalAd a {
+	text-decoration: none;
+	display: block;
+	padding: 3px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 1em;
+}
+
+
+#specialMessageTop {
+	text-align: left;
+/*	background: #E8F5C5; */
+	background: #eee;
+	padding: 3px 5px;
+	font-size: 12px;
+	margin-bottom: 10px;
+	line-height: 1em;
+}
+
+#specialMessageTop a {
+	text-decoration: none;
+}
+
+/*------------->-----------------------*/
+
+/* help 200710 */
+
+.iconHelp {
+	padding-left: 3px;
+}
+
+.help {
+	background: #ddd;
+	border-color:#ccc #666 #666 #ccc;
+	border-style:solid;
+	border-width:2px;
+	color:#333333;
+	display:none;
+	font-size:12px;
+	font-weight:normal;
+	padding:5px 5px 8px 5px;
+	position:absolute;
+	text-align:left;
+	z-index:999;
+}
+
+.help .title {
+	color: #666;
+}
+
+
+/* =mapGuidePage
+---------------------------------------- */
+
+#mapGuidePage {
+	width: 770px;
+	margin: 0 auto 30px auto;
+	position: relative;
+	background: #fff url(http://static.kanshin.com/images/bg_map_guide.png) right top no-repeat;
+}
+
+#mapGuidePage h1 {
+	margin-bottom: 20px;
+	color: #490;
+	font-size: 180%;
+}
+
+#mapGuidePage h1 img {
+	vertical-align: bottom;
+}
+
+#mapGuidePage .read {
+	margin-left: 10px;
+}
+
+#mapGuidePage ul.nav {
+	margin: 10px 0 10px 0;
+}
+
+#mapGuidePage ul.nav li {
+	display: inline;
+	margin-right: 0.8em;
+	font-size: 90%;
+}
+
+#mapGuidePage .block {
+	margin: 50px 0 0 20px;
+}
+
+#mapGuidePage .block h3 {
+	margin: 0 0 5px -10px;
+	color: #490;
+	font-weight: bolder;
+	font-size: 120%;
+}
+
+#mapGuidePage .block h3 a {
+	text-decoration: none;
+	color: #490;
+}
+
+#mapGuidePage p.about ,
+#mapGuidePage p.notes {
+	width: 510px;
+}
+
+#mapGuidePage p.notes {
+	font-size: 84%;
+	margin-top: 0.5em;
+}
+
+#mapGuidePage .block .fig {
+	margin-top: 10px;
+}
+
+/* =Shopping Widget
+---------------------------------------- */
+.bannerTemplate {
+	display: none;
+}
+
+div.shoppingLinkSection div#shoppingLinkItemList {
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc;
+}
+
+div.shoppingLinkSection div#shoppingLinkItemList h4 {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+div.shoppingLinkSection div#shoppingLinkItemList li {
+	width: 233px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+	font-size: 90%;
+}
+
+div.shoppingLinkSection div#shoppingLinkItemList li .fig {
+	width: 64px;
+	height: 64px;
+	text-align: center;
+	float: left;
+}
+
+div.shoppingLinkSection div#shoppingLinkItemList li .text {
+	margin-left: 79px;
+	width: 150px;
+}
+
+div.shoppingLinkSection div#shoppingLinkItemList .notice {
+	margin-bottom: 15px;
+	text-align: right;
+}
+
+div.shoppingLinkSection div#shoppingLinkItemList .notice a {
+	font-size: 70%;
+	color: #666;
+}
+
+div.shoppingLinkSection {
+	margin-bottom: 5px;
+}
+
+/* =LoginButton
+---------------------------------------- */
+#loginButton {
+	position: absolute;
+	right: 18px;
+	top: 41px;
+	width: 400px;
+	z-index: 1;
+}
+
+#loginButton li {
+	margin-left: 5px;
+	display: inline;
+	float: right;
+}
+
+#loginButton li a {
+	text-decoration: none; 
+}
+
+#loginButton .whats{
+	margin: 2px 6px 0 0;
+	font-size: 105%;
+}
+
+#loginButton .whats a:link,
+#loginButton .whats a:hover, 
+#loginButton .whats a:active,
+#loginButton .whats a:visited {
+	color: #FFF;
+}
+
+#loginButton .whats a:hover, 
+#loginButton .whats a:active
+{
+	text-decoration: underline; 
+}
+
+/* CampaignClosed
+---------------------------------------- */
+#closedCampainHeaderContainer {
+	margin: 0 20px 15px;
+	padding: 15px 10px;
+	text-align: center;
+	border: 3px solid #490;
+}
+
+#closedCampainHeaderContainer .closedCampaignHeader {
+	display: block;
+	width: 600px;
+	min-height: 100px;
+	margin: 0 auto;
+	text-align: left;
+	background: url(/images/fig_uncle_91x99.png) right no-repeat;
+	color: #333;
+	text-decoration: none;
+}
+
+*html #closedCampainHeaderContainer .closedCampaignHeader {
+	height: 100px;
+}
+
+#closedCampainHeaderContainer .thanks {
+	margin-bottom: 10px;
+	font-size: 110%;
+	font-weight: bold;
+	line-height: 1.6;
+}
+
+#closedCampainHeaderContainer .endMessage {
+	color: #666;
+	font-size: 90%;
+}
+
+#closedCampainHeaderContainer strong {
+	color: #003388;
+	text-decoration: underline;
+}
+
+/* MISC: =Fn & Vs
+---------------------------------------- */
+
+div.FnHd {
+	display: none; 
+}
+
+div.VsCnfm {
+	padding: 2px;
+	border: solid 1px black; 
+	color: green;
+}
+
+span.VsLvDraft {
+	color: #c60; 
+}
+
+span.VsLvDraft:before {
+	content: "[\4E0B\66F8\304D] "
+}
+
+/*
+++++++++++++++++++++
+form page property
+++++++++++++++++++++
+*/
+
+.formPage {
+	margin-bottom: 20px;
+	width: auto;
+}
+
+/*
+++++++++++++++++++++
+form common
+++++++++++++++++++++
+*/
+
+form .error {
+	color: #f00;
+	font-weight: bold;
+}
+
+form table {
+	border: 1px solid #f90;
+	margin-top: 10px;
+	background: #eee;
+}
+
+form th,
+form td {
+	padding: 10px;
+	border-top: 1px solid #CCC;
+	vertical-align: top;
+	text-align: left;
+}
+
+.firstRow th,
+.firstRow td {
+	border-top: none;
+}
+
+form th {
+	color: #F60;
+	padding-right: 0;
+	white-space: nowrap;
+}
+
+form th span {
+	font-weight: normal;
+	font-size: 80%;
+	color: #000;
+}
+
+form td {
+	padding-right: 20px;
+	width: 100%;
+}
+
+td input.txt,
+.formPage textarea,
+.homePage textarea {
+	display: block;
+	width: 100%;
+}
+
+form td p input.txt,
+form td p textarea {
+	display: inline;
+	width: auto;
+}
+
+form .detailInfo td {
+	padding-bottom: 0;
+}
+
+form .detailInfo input.txt {
+	display: inline;
+	width: 200px;
+}
+
+form .block {
+	margin-bottom: 10px;
+}
+
+form input.ID,
+form input.PW,
+form input.name {
+	width: 160px;
+	margin-right: 10px;
+}
+
+form textarea {
+	height: 5em; 
+}
+
+.homeInvitePage form #formMessage {
+	height: 8em;
+}
+
+.homePage form #formComment {
+	height: 15em;
+}
+
+form p.downSide {
+	margin-top: 5px;
+	font-size: 85%;
+	color: #666;
+}
+
+form p.upSide {
+	margin-bottom: 5px;
+	font-size: 85%;
+	color: #666;
+}
+
+form p.rightSide {
+	text-align: right;
+}
+
+form td .label {
+	vertical-align: top;
+}
+
+form td  #keywordFig div {
+	float: left;
+	margin-right: 20px;
+	width: 45%;
+}
+
+form .currentImage {
+	margin-top: 10px;
+}
+
+form .currentImage img {
+	vertical-align: middle;
+}
+
+form .multiImages .imageContainer * {
+
+}
+
+form .multiImages .imageContainer {
+	margin: 10px 0px;
+	padding: 5px 0px 10px 10px;
+	border: 2px solid #FFF;
+}
+
+form .multiImages .imageContainer .waitStatus {
+	display: inline;
+}
+
+form .multiImages .imageContainer .addStatus {
+	display: inline;
+}
+
+form .multiImages .imageContainer .inputElement,
+form .multiImages .imageContainer .inputElement input {
+	display: inline;
+}
+
+form .multiImages .imageContainer .image {
+	display: inline;
+	width: 100px;
+	text-align: center;
+}
+
+form .multiImages .imageContainer .image img {
+	vertical-align: top;
+}
+
+form .multiImages .imageContainer .moveButton {
+	float: left;
+	width: 70px;
+	height: 33px;
+}
+
+form .multiImages .imageContainer .moveButton .upButton,
+form .multiImages .imageContainer .moveButton .downButton {
+	width: 52px;
+	height: 15px;
+}
+
+form .multiImages .imageContainer .moveButton .upButton {
+	margin-bottom: 5px;
+}
+
+form .multiImages .imageContainer .deleteButton,
+form .multiImages .imageContainer .cancelButton {
+	display: inline;
+	margin-left: 10px;
+}
+
+form .submit {
+	text-align: center;
+	padding: 10px;
+}
+
+form .submitDel {
+	text-align: right;
+}
+
+.pageNotice {
+	margin: 30px 0 20px;
+	font-size: 90%;
+}
+
+.pageNotice ul,
+.pageNotice ol {
+	margin-left: 1.5em;
+}
+
+.pageNotice h2 {
+	margin-bottom: 5px;
+}
+
+.pageNotice p {
+	margin-bottom: 10px;
+}
+
+.pageNotice ul {
+	margin-bottom: 10px;
+}
+
+.pageNotice ul li {
+	list-style: disc;
+}
+
+.pageNotice ul li li {
+	list-style: square;
+}
+
+form p.note {
+	font-size: 80%;
+}
+
+td .lastLine{
+	margin-bottom: 0;
+}
+
+.formPage .leadTxt {
+	margin: 0 0 20px 20px;
+}
+
+.formPage p select {
+	margin-right: 10px; 
+}
+
+tr.optional {
+	font-size: 85%;
+}
+
+tr.optional th {
+	color: #666;
+	font-weight: normal;
+}
+
+tr.optional td p.downSide {
+	margin-top: 2px;
+}
+
+/*
+++++++++++++++++++++
+#57 .homeModUserPage
+++++++++++++++++++++
+*/
+
+.homeModUserPage div.block {
+	margin-bottom: 50px;
+}
+
+.homeModUserPage ol {
+	margin-left: 1.5em;
+}
+
+.homeModUserPage ol li {
+	list-style: decimal;
+}
+
+.homeModUserPage textarea {
+	height: 8em;
+}
+
+.detailSetting td div {
+	margin-bottom: 5px;
+}
+
+.detailSetting .childElement {
+	margin-left: 2em;
+}
+
+
+/*
+++++++++++++++++++++
+#55 .joinAgreementPage
+++++++++++++++++++++
+*/
+
+.joinAgreementPage textarea {
+	width: 90%;
+	height: 240px;
+	padding: 1em;
+	margin: 20px auto;
+}
+
+.joinAgreementPage h2 {
+	text-align: center;
+}
+
+.joinAgreementPage .ruleTxt {
+	text-align: left;
+	border: 1px solid #CCC;
+	padding: 2em;
+	margin: 10px 10px 20px 10px;
+}
+
+.joinAgreementPage .ruleTxt h2 {
+	text-align: left;
+	margin: 1em 0 0.5em 0;
+}
+
+.joinAgreementPage .ruleTxt p {
+	margin-left: 1em;
+}
+
+.joinAgreementPage .ruleTxt h1 {
+	color: Black;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+
+/*
+joinPage 新規ユーザー登録申し込み
+*/
+
+.joinPage .noticeForFutureSponsor {
+	margin: 2em 4em;
+	font-size: 85%;
+}
+
+.joinPage .noticeForFutureSponsor p {
+	margin: 0.5em 0;
+}
+
+/*
+++++++++++++++++++++
+#00 .homeInvitePage
+++++++++++++++++++++
+*/
+
+.homeInvitePage form h2 {
+	font-size: 120%;
+	color: #f60;
+}
+
+.homeInvitePage form .block {
+	margin-bottom: 20px;
+}
+
+/* =QRcode section
+---------------------------------------- */
+.qrcodeSection {
+	width: 200px;
+	float: right;
+	margin: 10px 0;
+}
+
+.qrcodeSection h4 {
+	padding: 3px 0;
+	text-align: center;
+	font-size: 13px;
+	color: #FFF;
+	background: #490;
+}
+
+.qrcodeSection .wrapper {
+	padding: 5px 15px 10px 15px;
+	text-align: center;
+	border: 1px solid #CCC;
+	background: url(http://static.kanshin.com/images/bg_qrcode_section.png) no-repeat 98% 98%;
+}
+
+.qrcodeSection .wrapper p {
+	margin-top: 5px;
+	text-align: left;
+	font-size: 12px;
+}
+
+.qrcodeHeadSection {
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #88BB22;
+}
+
+.qrcodeHeadSection .qrcode {
+	float: left;
+	margin-top: -8px;
+	margin-left: -8px;
+}
+
+.qrcodeHeadSection p {
+	padding-right: 5px;
+	font-size: 10px;
+	line-height: 1.2;
+}
+
+
+/* =div images
+---------------------------------------- */
+
+div.btnPrev {
+	width: 17px;
+	height: 17px;
+	background: url(http://static.kanshin.com/img/sp_ic.png?2009100501) -90px -610px no-repeat;
+}
+
+div.btnNext {
+	width: 17px;
+	height: 17px;
+	background: url(http://static.kanshin.com/img/sp_ic.png?2009100501) -110px -610px no-repeat;
+}
+
+.iconSearch {
+	width: 16px;
+	height: 16px;
+	background: url(http://static.kanshin.com/img/sp_ic.png?2009100501) 0px -540px no-repeat;
+}
+

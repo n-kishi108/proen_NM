@@ -1,0 +1,368 @@
+/*** Layout ***/
+
+body
+	{
+	background-image: url(img/geobg.gif);
+	}
+
+#glcont{
+	width: 675px;
+	border:solid 1px #aaaaaa;
+	background-color: #ffffff;
+}
+
+#main {
+	width: 655px;
+	margin-top:10px;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+#c1 {
+	width: 150px;
+	vertical-align: top;
+	background-color: #eeeeee;
+
+}
+
+#c2 {
+	width: 505px;
+	vertical-align: top;
+	background-color: transparent;
+	padding-left:10px;
+
+}
+
+/*** FONT ***/
+td{
+font-size:x-small; /* win ie5.x */
+fo\nt-size:x-small; /* win ie6.x,mac ie5.x */
+line-height: 1.3em;
+}
+
+h2, h3 {
+font-size:x-small; /* win ie5.x */
+fo\nt-size:x-small; /* win ie6.x,mac ie5.x */
+line-height: 1.3em;
+}
+
+/* for gecko without mac ie5 \*/
+html>body td{
+font-size: 80%;
+line-height: 1.3em;
+}
+
+html>body h2, h3 {
+font-size:small;
+line-height: 1.3em;
+}
+
+html>body .entry h3 {
+font-size:small;
+line-height: 1.3em;
+}
+
+/* for gecko without mac ie5 end */
+small{
+font-size:100%;
+}
+
+em{
+font-style:normal;
+}
+
+
+/*** HEADER ***/
+
+#gltitle {
+	background-color: #003399;
+	width:675px;
+}
+
+#gltitle h1 {
+	font-size: 16px;
+	padding: 40px 15px 40px 15px;
+	margin:0;
+}
+
+#h1tc {
+	color: #ffffff;
+}
+
+#h4tc {
+	color: #ffffff;
+}
+
+#gltitle .owner h4	{
+	color:#ffffff;
+	font-size:12px;
+	background-color: transparent;
+	float:right;
+	padding:5px;
+	cursor:pointer;
+	cursor:hand;
+	margin:0px;
+	}
+
+#gltitle p {
+	border-bottom:1px #aaaaaa dotted;
+	font-size: x-small;
+	padding: 6px 15px 6px 15px;
+	background-color: #fff;
+}
+
+/*** h2 ***/
+
+#c1 h2 {
+	width: 150px;
+	font-weight: bold;
+	background-color: #ccccff;
+	padding: 4px;
+	border:solid 1px #bbbbbb;
+	margin:0;
+	color: #575757;
+	text-align: center;
+}
+
+#c2 h2 {
+	font-weight: bold;
+	background-color: #b0e880;
+	padding: 4px;
+	margin:0;
+	border:solid 1px #bbbbbb;
+	text-align: center;
+	color: #575757;
+}
+
+/*** LIST ***/
+ul {list-style-image: url(img/geo_house.gif); margin:10 15 0 25px;}
+
+/* wo Mac IE5.0 \*/
+*ul {list-style-image: url(img/geo_house.gif); margin:10 15 0 25px;}
+/* end wo Mac IE5.0 */
+html>body ul {list-style-image: url(img/geo_house.gif); padding-left:6px;}
+
+li {line-height:130%; vertical-align: top; padding-bottom:8px;}
+/* wo Mac IE5.0 \*/
+li { line-height:130%; vertical-align: top; padding-bottom:8px;}
+/* end wo Mac IE5.0 */
+html>body li {line-height:120%;vertical-align: top;}
+
+
+/*** GENERAL ***/
+
+.spacer10
+	 { 
+	font-size: 0;
+	line-height: 0;
+	width: 10px;
+	height:10px;
+	clear: both;
+	}
+
+.spacer15
+	 { 
+	font-size: 0;
+	line-height: 0;
+	width: 15px;
+	height:15px;
+	clear: both;
+	}
+
+.spacer20
+	 { 
+	font-size: 0;
+	line-height: 0;
+	width: 20px;
+	height:20px;
+	clear: both;
+	}
+
+img
+	{
+	border:0;
+	}
+
+p{
+	margin:0;
+}
+
+
+/*** LINK ***/
+
+a:link	{
+	text-decoration : none;
+	color: #003399;
+	background: transparent;
+	}
+
+a:visited	{
+	text-decoration : none;
+	color: #7b348c;
+	background: transparent;
+	}
+
+a:hover	{
+	text-decoration : underline;
+	color: #003399;
+	background: transparent;
+	}
+
+/*** LINK CALENDAR ***/
+
+#cal a:link	{
+	text-decoration : none;
+	color: #182e62;
+	background: #eeeeee;
+	}
+
+#cal a:visited	{
+	text-decoration : none;
+	color: #7b348c;
+	background: #eeeeee;
+	}
+
+#cal a:hover	{
+	text-decoration : underline;
+	color: #182e62;
+	background: #eeeeee;
+	}
+
+#cal .today{
+	color: #003399;
+	background: #ccccff;
+	}
+
+/*** MODULE ***/
+#cal {
+	text-align: center;
+	padding: 4px;
+	background-color: #ffffff;
+    border:1px solid #aaaaaa;
+	margin-top:10;
+}
+
+#cal th {
+	text-align: center;
+	font-size: 9px;
+	font-weight:normal;
+    border-bottom:1px solid #aaaaaa;
+	padding-bottom:3px;
+}
+
+
+#link{
+}
+
+#avator{
+	text-align: center;
+}
+
+#avator img{
+	margin:10;
+}
+
+
+/*** ENTRY ***/
+
+.entry	{
+	padding:0px;
+	margin:0px;
+}
+
+.entry h3 {
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.entry p {
+	line-height:150%;
+}
+
+p img.contents {	
+	float: right;margin-left:10px;
+	}
+
+.uinfo {
+	padding: 2px;
+	background-color: #eeeeee;
+	margin-top:10px;
+	text-align:right;
+}
+
+#glnavi {
+	color: #575757;
+	margin-top: 20px;
+}
+
+
+/*** COMMENT VIEW ***/
+#cview {
+	width: 98%;
+	vertical-align: top;
+	background-color: transparent;
+
+}
+
+#cview h2 {
+	font-weight: bold;
+	background-color: #b0e880;
+	padding: 4px;
+	margin:0;
+	border:solid 1px #bbbbbb;
+	text-align: center;
+	color: #575757;
+}
+
+#error_wcomment	{
+	color: #ff0000;
+	background: transparent;
+	font-weight:bold;
+	text-align: center;
+	margin:20 0 20 0px;
+	}
+
+.ucomment{
+}
+
+#wcomment {
+	vertical-align:top;
+	font-weight: bold;
+	margin:10 0 0 0px;
+}
+
+#wcomment .uname{
+	margin:0 20 10 0px;
+}
+
+#wcomment .email{
+	margin:0 20 10 0px;
+}
+
+#wcomment .url{
+
+}
+
+#wcomment .filed{
+	text-align:center;
+}
+
+#tbURL
+	{
+	margin-left:10px;
+	}
+
+/*** FOOTER ***/
+#footer {
+	border-top:solid 1px #aaaaaa;
+	background-color:#eeeeee;
+   	width: 675;
+	text-align: center;
+	padding:20px;
+	margin-top:8px;
+	height:50px;
+
+
+}
+

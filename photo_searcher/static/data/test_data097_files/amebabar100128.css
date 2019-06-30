@@ -1,0 +1,435 @@
+@charset "utf-8";
+/*--------------------------------------------------
+for fixed amebabar
+$Id: amebabar100128.css,v 1.2 2010/02/02 02:46:29 kosaka_tomohiro Exp $
+--------------------------------------------------*/
+/*TOC===============================================
+set
+common
+user
+official
+==================================================*/
+
+/* set
+--------------------------------------------*/
+body{
+padding-top:24px !important;
+}
+	ul#amebaBar {
+	z-index:2000;
+	position:fixed !important;
+	position:static;
+	top:0px;
+	left:0px;
+	width:100%;
+	min-width:910px;
+	height:21px;
+	margin:0 !important;
+	margin-top:-24px;
+	padding:1px 0;
+	border-bottom:1px solid #ccc;
+	background:#fff;
+	color:#333;
+	}
+		#amebaBar ul,
+		#amebaBar li{
+		margin:0;
+		padding:0;
+		list-style-type:none;
+		}
+			#amebaBar a{
+			margin:0;
+			padding:0;
+			color:#333 !important;
+			text-decoration:none !important;
+			font-family: "ＭＳ Ｐゴシック", Arial, Helvetica;
+			white-space:nowrap;
+			}
+			#amebaBar a:hover{
+			color:#333 !important;
+			text-decoration:underline !important;
+			}
+				#amebaBar a img{
+				border:0;
+				}
+
+/* common
+--------------------------------------------*/
+/* logo
+-------------------------*/
+#amebaBar li#barLogo{
+float:left;
+width:120px;
+height:21px;
+}
+#amebaBar #barLogo img{
+padding:2px 0 2px 4px;
+vertical-align:top;
+}
+#amebaBar li#barLogoTop{
+float:left;
+height:21px;
+}
+#amebaBar li#barLogoTop ul,
+#amebaBar li#barLogoTop li{
+float:left;
+}
+#amebaBar #barLogoTop img{
+padding:3px 0 2px 5px;
+vertical-align:top;
+float:left;
+}
+#amebaBar #barLogoTop ul{
+padding:6px 0 0;
+}
+#amebaBar #barLogoTop li{
+padding:0 7px;
+font-size:10px;
+line-height:1;
+border-right:1px solid #333333 !important;
+}
+#amebaBar #barLogoTop li.last{
+border:none !important;
+}
+
+/* menu text
+-------------------------*/
+#amebaBar li.barItem{
+float:right;
+height:19px;
+padding:2px 4px 0 0;
+font-size:11px;
+line-height:1;
+}
+#amebaBar li.barItem a{
+font-size:10px;
+line-height:17px;
+padding-top:2px;
+padding-bottom:2px;
+}
+/*help*/
+#amebaBar li a.menuHelp {
+background:url(/common_style/img/common/icon/help.gif) no-repeat 0 -1px;
+padding-left:13px;
+padding-right:4px;
+}
+/*pr*/
+#amebaBar li a.menuPr{
+background:url(/p_skin/cmn/img/icon_ad.gif) no-repeat 0 2px;
+padding-left:37px;
+}
+/*ranking*/
+#amebaBar li a.menuRank{
+background:url(/common_style/img/common/icon/crown1.gif) no-repeat 0 0;
+padding-left:17px;
+}
+/*regist*/
+#amebaBar li a.barRegist{
+padding-left:14px;
+background:url(/common_style/img/common/icon/ico_boy.gif) no-repeat 0 1px;
+}
+
+/* menu img swf
+-------------------------*/
+#amebaBar li.barMenuF {
+float:right;
+height:21px;
+padding:0 15px 0 0;
+}
+#amebaBar li.barMenuF embed,
+#amebaBar li.barMenuF img {
+vertical-align:top;
+}
+
+/* user
+--------------------------------------------*/
+/* barSrch
+-------------------------*/
+li#barSrch {
+float:right;
+width:215px;
+height:21px;
+padding:0 5px 0 0;
+text-align:left;
+}
+li#barSrch #barForm {
+margin:0;
+padding:0;
+width:215px;
+height:21px;
+}
+li#barSrch .barKey{
+left:19px;
+width:129px;
+height:16px;
+margin-right:5px;
+padding:3px 2px 0;
+border:1px solid #ccc;
+overflow:hidden;
+background:#ffffcb;
+font-size:12px;
+font-family: "ＭＳ Ｐゴシック", Arial, Helvetica;
+color:#777;
+line-height:14px;
+}
+li#barSrch .barButton{
+position:absolute;
+top:0px;
+right:2px;
+width:74px;
+height:21px;
+margin:1px 4px 0 0;
+padding:0;
+border:0;
+background:url(/common_style/img/common/icon/search_ameblo.gif) no-repeat 0 2px;
+text-indent:-9999px;
+cursor:pointer;
+outline:none;
+}
+
+/*checklist
+-------------------------*/
+li#barCheck {
+float:right;
+max-width:90px;
+height:19px;
+padding:2px 13px 0 0;
+background:url(/common_style/img/ameba/common/icons/icon_checklist.gif) no-repeat 0 3px;
+font-size:11px;
+overflow:hidden;
+}
+li#barCheck a{
+padding:2px 0 2px 21px;
+font-size:10px;
+line-height:17px;
+}
+
+/*pr text*/
+li#barAd{
+float:right;
+height:19px;
+padding:2px 20px 0 0;
+font-size:11px;
+}
+li#barAd a{
+padding:0 0 0 38px;
+margin:2px 0 0;
+background:url(/p_skin/cmn/img/icon_ad.gif) no-repeat 0 3px;
+line-height:17px;
+}
+li#barAd div{
+display:inline;
+}
+li#barAd a div{
+font-size:10px !important;
+}
+li#barAd div a{
+display:block;
+margin:0;
+}
+
+/*pr flash
+-------------------------*/
+li#barPrF{
+float:right;
+padding-right:15px;
+height:21px;
+}
+li#barPrF embed,
+li#barPrF img {
+vertical-align:top;
+}
+
+
+/*official
+--------------------------------------------*/
+/*barPrBlog
+-------------------------*/
+li#barPrBlog{
+position:relative;
+float:right;
+width:auto !important;
+width:180px;
+min-width:180px;
+height:19px;
+padding:2px 6px 0 0;
+font-size:11px;
+text-align:left;
+}
+li#barPrBlog a{
+font-size:10px;
+line-height:17px;
+}
+
+
+/*bannerList
+-------------------------*/
+/*set*/
+#bannerList {
+
+display:none;
+position:absolute;
+top:23px;
+left:-6px;
+z-index:50;
+/*width:560px;*/
+border:1px solid #ccc;
+border-top:0;
+text-align:left;
+overflow:hidden;
+background:#fff;
+width:229px;
+}
+#bannerList ul{
+position:relative;
+width:229px;
+}
+#bannerList ul li{
+width:177px;
+}
+#bannerList ul li a{
+display:block;
+width:177px;
+padding-left:52px;
+line-height:1.5;
+}
+
+
+
+#prListBlock{
+float:left;
+}
+#adBnnerBlock{
+float:left;
+padding:5px;
+}
+
+
+/*nowBanner*/
+li#barPrBlog #nowBanner a {
+padding:2px 0 2px 44px;
+background:url(/p_skin/cmn/img/option_header_news_bg.gif) no-repeat 0 2px;
+}
+li#barPrBlog #nowBanner a#header_amesta{
+background:url(/p_skin/cmn/img/icon_ad.gif) no-repeat 3px 2px;
+}
+
+/*ulBlog*/
+#bannerList ul#ulBlog{
+padding-top:24px;
+background:url(/common_style/img/user/amebabar/bar_newslist.gif) no-repeat 0 0;
+}
+/*ulAmesta*/
+#bannerList ul#ulAmesta{
+margin-top:2px;
+padding-top:3px;
+padding-bottom:3px;
+width:229px;
+background:url(/common_style/img/user/amebabar/bar_newslist_amesta.gif) no-repeat 0 0;
+}
+
+/* もっと見る */
+#bannerList p{
+display:block;
+text-align:right;
+width:223px;
+}
+#bannerList p a{
+background:url(/common_style/img/common/icon/detail_link1.gif) no-repeat scroll right center transparent;
+padding:0 13px 0 0;
+}
+
+
+
+
+/*old CSS
+-------------------------*/
+
+/* menu text*/
+#amebaBar li.barMenu{
+float:right;
+height:19px;
+padding:2px 4px 0 0;
+font-size:11px;
+line-height:1;
+}
+#amebaBar li.barMenu a{
+font-size:10px;
+line-height:17px;
+padding-top:2px;
+padding-bottom:2px;
+}
+
+/* barSearch*/
+li#barSearch {
+float:right;
+width:237px;
+height:21px;
+padding:0 5px 0 0;
+background:url(/common_style/img/common/icon/search.gif) no-repeat 0 2px;
+}
+li#barSearch #barForm {
+position:relative;
+margin:0;
+padding:0;
+width:237px;
+height:21px;
+}
+li#barSearch .barKey{
+position:absolute;
+top:0px;
+left:19px;
+width:129px;
+height:16px;
+margin:0;
+padding:3px 2px 0;
+border:1px solid #ccc;
+overflow:hidden;
+background:#ffffcb;
+font-size:12px;
+font-family: "ＭＳ Ｐゴシック", Arial, Helvetica;
+color:#777;
+line-height:14px;
+}
+li#barSearch .barButton{
+position:absolute;
+top:0px;
+right:2px;
+width:74px;
+height:21px;
+margin:0;
+padding:0;
+border:0;
+background:url(/common_style/img/common/icon/search_ameblo.gif) no-repeat 0 2px;
+text-indent:-9999px;
+cursor:pointer;
+outline:none;
+}
+
+/*pr text*/
+li#barPr{
+float:right;
+height:19px;
+padding:2px 20px 0 0;
+font-size:11px;
+}
+li#barPr a{
+padding:0 0 2px 37px;
+margin:2px 0 0;
+background:url(/p_skin/cmn/img/icon_ad.gif) no-repeat 0 2px;
+font-size:10px;
+line-height:17px;
+}
+li#barPr div{
+display:inline;
+font-size:10px !important;
+}
+li#barPr div a{
+padding-top:0;
+}
+
+
+li#barAd iframe{
+width:177px;
+height:19px;
+}

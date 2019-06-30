@@ -1,0 +1,51 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BhGQr2F65S6a1LJHQ7wPjtMHpB6fR6aMBzYS6nQ7AjbcBgIgnEAEYASCT8ZwTKAM4AFCi85-j_v____8BYImj0oSoFMgBAdoB_wFmaWxlOi8vL0M6L1VzZXJzL3NoaW4vRGVza3RvcC8lRTklOUIlODYlRTUlOTAlODglRTUlODYlOTklRTclOUMlOUYvJUUzJTgwJTkwJUU3JTk0JUJCJUU1JTgzJThGJUUzJTgwJTkxJUUzJTgyJUFCJUUzJTgzJUFBJUUzJTgyJUI5JUUzJTgzJTlFJUU4JUFBJUFEJUU4JTgwJTg1JUUzJTgzJUEyJUUzJTgzJTg3JUUzJTgzJUFCJUUzJTgxJThDJUU5JTlCJTg2JUU1JTkwJTg4JUVGJUJDJTgxMjAwJUU1JTkwJThEJUUzJTgxJUFFJUU1JUE1JUIzJUU2JTioAwHoA7kB6AMi6ANQ6AP7A_UDACAAxPUDQAAAAA&amp;num=1&amp;sig=AGiWqtwVdPitczff2G_l1IE4nGhLPAZgww&amp;utm_campaign=organic&amp;utm_creative=ha&amp;utm_size=0&amp;dc=gh3sma&amp;client=ca-livedoor-infoentame_js&amp;adurl=http://www.google.co.jp/intl/ja/landing/otto/index-b.html%23utm_source%3Dctpt"; 
+google_ad.visible_url = "www.google.co.jp"; 
+google_ad.line1 = "\x26#26144;\x26#30011;\x26#12434;\x26#25658;\x26#24111;\x26#12391;\x26#12481;\x26#12455;\x26#12483;\x26#12463;"; 
+google_ad.line2 = "Google\x26#12514;\x26#12496;\x26#12452;\x26#12523;\x26#26908;\x26#32034;\x26#12391;"; 
+google_ad.line3 = "\x26#12356;\x26#12388;\x26#12391;\x26#12418;\x26#12393;\x26#12371;\x26#12391;\x26#12418;\x26#26144;\x26#30011;\x26#26908;\x26#32034;\x26#12290;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BM6Nj2F65S6a1LJHQ7wPjtMHpB6Dcwp8B0KL85BHAjbcBgKm8HxACGAIgk_GcEygDOABQ7_qS7_v_____AWCJo9KEqBSgAYSKyO4DyAEB2gH_AWZpbGU6Ly8vQzovVXNlcnMvc2hpbi9EZXNrdG9wLyVFOSU5QiU4NiVFNSU5MCU4OCVFNSU4NiU5OSVFNyU5QyU5Ri8lRTMlODAlOTAlRTclOTQlQkIlRTUlODMlOEYlRTMlODAlOTElRTMlODIlQUIlRTMlODMlQUElRTMlODIlQjklRTMlODMlOUUlRTglQUElQUQlRTglODAlODUlRTMlODMlQTIlRTMlODMlODclRTMlODMlQUIlRTMlODElOEMlRTklOUIlODYlRTUlOTAlODglRUYlQkMlODEyMDAlRTUlOTAlOEQlRTMlODElQUUlRTUlQTUlQjMlRTYlOKkCO4fpAui4Rj7IAq7ftg6oAwHoA7kB6AMi6ANQ6AP7A_UDACAAxPUDQAAAAA&amp;num=2&amp;sig=AGiWqtzfVPhJEE3uC3g5tcADeedBcv728Q&amp;client=ca-livedoor-infoentame_js&amp;adurl=http://www.kenkoucorp.com/cart/entry.php%3FKNKPID%3DKNKPID_6201%26VIEW_URL%3Dhttp%253A%252F%252Fwww.kenkoucorp.com%252Fest%252F"; 
+google_ad.visible_url = "www.kenkoucorp.com"; 
+google_ad.line1 = "\x26#32654;\x26#38996;\x26#22120;\x26#29305;\x26#21029;\x26#20385;\x26#26684;980\x26#20870;"; 
+google_ad.line2 = "\x26#20170;\x26#12394;\x26#12425;\x26#23554;\x26#29992;\x26#12472;\x26#12455;\x26#12523;\x26#12392;\x26#12398;\x26#12475;\x26#12483;\x26#12488;\x26#36092;\x26#20837;\x26#12391;"; 
+google_ad.line3 = "45000\x26#20870;\x26#12398;\x26#32654;\x26#38996;\x26#22120;\x26#12364;\x26#29305;\x26#21029;\x26#20385;\x26#26684;980\x26#20870;\x26#12395;!"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BetQg2F65S6a1LJHQ7wPjtMHpB5Tcv74B9r_x9xDAjbcBgJX1KhADGAMgk_GcEygDOABQj4TVsvv_____AWCJo9KEqBSgAcT2u-cDyAEB2gH_AWZpbGU6Ly8vQzovVXNlcnMvc2hpbi9EZXNrdG9wLyVFOSU5QiU4NiVFNSU5MCU4OCVFNSU4NiU5OSVFNyU5QyU5Ri8lRTMlODAlOTAlRTclOTQlQkIlRTUlODMlOEYlRTMlODAlOTElRTMlODIlQUIlRTMlODMlQUElRTMlODIlQjklRTMlODMlOUUlRTglQUElQUQlRTglODAlODUlRTMlODMlQTIlRTMlODMlODclRTMlODMlQUIlRTMlODElOEMlRTklOUIlODYlRTUlOTAlODglRUYlQkMlODEyMDAlRTUlOTAlOEQlRTMlODElQUUlRTUlQTUlQjMlRTYlOKkCO4fpAui4Rj7IAoj6qQ-oAwHoA7kB6AMi6ANQ6AP7A_UDACAAxPUDQAAAAA&amp;num=3&amp;sig=AGiWqtzgiiKQ-spTgh0nIObvBjZFKwQWpQ&amp;client=ca-livedoor-infoentame_js&amp;adurl=http://www.eyecity.jp/%3Fgoogle_cont_1003"; 
+google_ad.visible_url = "www.eyecity.jp"; 
+google_ad.line1 = "\x26#26144;\x26#30011;\x26#12399;\x26#26368;\x26#36969;\x26#12394;\x26#12467;\x26#12531;\x26#12479;\x26#12463;\x26#12488;\x26#12391;"; 
+google_ad.line2 = "\x26#26399;\x26#38291;\x26#38480;\x26#23450;\x26#65281;\x26#12463;\x26#12540;\x26#12509;\x26#12531;GET\x26#12391;"; 
+google_ad.line3 = "\x26#12467;\x26#12531;\x26#12479;\x26#12463;\x26#12488;\x26#12364;\x26#12362;\x26#36023;\x26#24471;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dfile:///C:/Users/shin/Desktop/%2525E9%25259B%252586%2525E5%252590%252588%2525E5%252586%252599%2525E7%25259C%25259F/%2525E3%252580%252590%2525E7%252594%2525BB%2525E5%252583%25258F%2525E3%252580%252591%2525E3%252582%2525AB%2525E3%252583%2525AA%2525E3%252582%2525B9%2525E3%252583%25259E%2525E8%2525AA%2525AD%2525E8%252580%252585%2525E3%252583%2525A2%2525E3%252583%252587%2525E3%252583%2525AB%2525E3%252581%25258C%2525E9%25259B%252586%2525E5%252590%252588%2525EF%2525BC%252581200%2525E5%252590%25258D%2525E3%252581%2525AE%2525E5%2525A5%2525B3%2525E6%252580%2525A7%2525E3%252581%25258C%2525E6%252586%2525A7%2525E3%252582%25258C%2525E3%252581%2525AE%2525E7%252586%2525B1%2525E8%2525A6%252596%2525E7%2525B7%25259A%2525E3%252581%2525A7%2525E3%252581%25258F%2525E3%252581%25258E%2525E4%2525BB%252598%2525E3%252581%252591%2525EF%2525BC%252581%252520-%252520%2525E5%252586%252599%2525E7%25259C%25259F%252520-%252520livedoor%252520%2525E3%252583%25258B%2525E3%252583%2525A5%2525E3%252583%2525BC%2525E3%252582%2525B9.htm%26hl%3Dja%26client%3Dca-livedoor-infoentame_js%26adU%3Dwww.google.co.jp%26adT%3D%25E6%2598%25A0%25E7%2594%25BB%25E3%2582%2592%25E6%2590%25BA%25E5%25B8%25AF%25E3%2581%25A7%25E3%2583%2581%25E3%2582%25A7%25E3%2583%2583%25E3%2582%25AF%26adU%3Dwww.kenkoucorp.com%26adT%3D%25E7%25BE%258E%25E9%25A1%2594%25E5%2599%25A8%25E7%2589%25B9%25E5%2588%25A5%25E4%25BE%25A1%25E6%25A0%25BC980%25E5%2586%2586%26adU%3Dwww.eyecity.jp%26adT%3D%25E6%2598%25A0%25E7%2594%25BB%25E3%2581%25AF%25E6%259C%2580%25E9%2581%25A9%25E3%2581%25AA%25E3%2582%25B3%25E3%2583%25B3%25E3%2582%25BF%25E3%2582%25AF%25E3%2583%2588%25E3%2581%25A7%26gl%3DJP%26hideleadgen%3D1\x26usg\x3dAFQjCNHmWR-DMea_5ScISu-GL-pue9A2ag"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

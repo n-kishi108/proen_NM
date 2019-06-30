@@ -1,0 +1,16 @@
+@media print {
+body {
+zoom: 60%; /*縮小率*/
+}
+#menu {
+	width: 999px;
+}
+#right  {
+}
+
+#cont  {
+	clear: both;
+	float: right;
+}
+
+}

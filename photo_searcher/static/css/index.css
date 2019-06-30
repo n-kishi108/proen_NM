@@ -1,0 +1,118 @@
+html, body, main {
+    background: #fafafa;
+}
+
+main {
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    /* padding: 0 20px 50px 20px; */
+}
+
+main div.information-label {
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 0;
+}
+
+main div.information-label div.label {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding-left: 25px;
+    font-size: inherit;
+}
+
+main div.information-label div.label span {
+    display: inline-block;
+    height: 30px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #4285F4;
+    font-weight: 400;
+}
+main div.information-label div.label > span {
+    float: left;
+    overflow: hidden;
+    background-color: #fff;
+    border-top: solid 1px #dbdbdb;
+    border-bottom: solid 1px #dbdbdb;
+}
+
+main div.information-label div.label > span:first-child {
+    padding-left: 20px;
+    padding-right: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-left: solid 1px #dbdbdb;
+}
+
+main div.information-label div.label > span:last-child {
+    padding-left: 5px;
+    padding-right: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-right: solid 1px #dbdbdb;
+}
+
+main div.wrapper {
+    display: block;
+    margin: 0 20px 50px 20px;
+}
+
+main div.wrapper section.result {
+    display: block;
+    width: 100%;
+}
+
+main div.wrapper section.result p.not-found-message {
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+main div.wrapper section.result .row {
+    display: block;
+    width: 100%;
+    margin: 0;
+    font-size: 0;
+}
+
+main div.wrapper section.result .row .pane {
+    display: inline-block;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+main div.wrapper section.result .row .pane article {
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    /* background: #eee; */
+    /* border: solid 1px #dbdbdb; */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+main div.wrapper section.result .row .result-img {
+    display: block;
+    /* margin: 5px; */
+}
+
+main div.wrapper section.result .row .result-img img {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,431 @@
+*{word-break:break-all;
+font-family:"verdana","helvetica","osaka","ＭＳ Ｐゴシック",ans-serif;
+word-break:break-all;
+}
+
+textarea,select,input {
+font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku GothicPro","Osaka","Verdana","Helvetica","Arial","ＭＳ Ｐゴシック","sans-serif";
+}
+
+body{
+color:#FFF;
+margin:0;
+text-align:center;
+background:#000;
+}
+
+form{
+margin:0;
+padding:0;
+}
+
+table.form{
+margin:25px 0 0 13px;
+}
+
+img{border:none;}
+
+ul.rss{
+margin:0;
+padding:0;
+width:100%;
+text-align:center;
+}
+
+ul.rss li{
+border-right:#fff 1px solid;
+display:inline;
+font-size:88%;
+font-style:normal;
+font-weight:bold;
+letter-spacing:0.2px;
+margin-right:0.3em;
+padding-right:0.5em;
+padding-left:0.2em;
+}
+
+ul.rss a:link, ul.rss a:visited, ul.rss a:active{
+color:#fff;
+text-decoration:none;
+}
+
+ul.rss a:hover{
+color:#fff;
+text-decoration:none;
+}
+
+a{color:#FFF;text-decoration:underline;}
+a:hover{text-decoration:none;}
+
+a.acalendar{color:#FFF;text-decoration:underline;}
+a.acalendar:hover{text-decoration:none;}
+
+a.acontinues{color:#FFF;text-decoration:underline;}
+a.acontinues:hover{text-decoration:none;}
+
+a.amenu{color:#fff;text-decoration:underline;}
+a.amenu:hover{text-decoration:none;}
+
+#container{ 
+font-size:77%;
+width:800px;
+margin:0 auto;
+text-align:left;
+border:10px solid #9D5105;
+background:#000;
+
+}
+
+#banner,#subbanner{
+background:url(http://admin.hamazo.tv/_img/candle/hama12_004top.jpg) top center no-repeat;
+padding:0;
+height:230px; 
+}
+
+#banner a{color:#FFF;text-decoration:none;}
+
+#subbanner a{color:#fff;text-decoration:none;}
+#subbanner a:hover{text-decoration:underline;}
+
+h1,h2,h3,h4{
+margin:0;
+padding:0;
+}
+
+.blogtitle{
+font-size:190%;
+font-weight:bold;
+padding:30px 150px 0 20px;
+text-align:left;
+letter-spacing:0;
+color:#fff;
+height:50px;
+}
+
+.description{
+color:fff;
+font-size:93%;
+padding:0 150px 0 20px;
+text-align:left;
+letter-spacing:0;
+}
+
+#content{
+width:450px;
+float:left;
+padding:20px 5px 20px 5px; 
+}
+
+#links{
+width:160px;
+float:left;
+text-align:left;
+margin:0;
+padding:20px 5px 20px 5px; 
+overflow:hidden;
+}
+
+#links2{
+width:160px;
+float:right;
+text-align:left;
+margin:0;
+padding:20px 5px;
+overflow:hidden;
+}
+
+
+#footer{clear:both;}
+
+#copyright{
+width:100%;
+height:16px;
+font-size:83%;
+font-weight:bold;
+color:#fff;
+margin:0;
+padding:0;
+line-height:16px;
+text-align:center;
+}
+
+.blog{
+width:450px;
+margin:0;
+}
+
+.date{
+height:16px;
+background-position:1px 1px;
+color:#fff;
+font-size:88%;
+font-weight:bold;
+letter-spacing:0;
+padding:3px 0 0 10px;
+text-align:left;
+}
+
+.blogbody{
+margin:20px 0 20px 0;
+padding:8px;
+border:1px solid #9D5105;
+
+}
+
+.title{
+color:#FFF;
+font-size:100%;
+font-weight:bold;
+padding:10px 3px 10px  10px;
+text-align:left;
+background:#4E1C17;
+}
+
+.main{
+width:412px;
+color:#fff;
+font-size:88%;
+padding:15px 10px 20px  10px;
+overflow:auto;
+line-height:190%;
+}
+
+.main img{
+margin:0 5px 5px 5px;
+}
+
+.main-continues{
+font-size:83%;
+}
+
+.posted{
+color:#FFF;
+font-size:83%;
+text-align:right;
+margin:0 0 10px 0;
+}
+
+a.aposted{color:#FFF;text-decoration:underline;font-weight:bold;font-size:83%;}
+a.aposted:hover{text-decoration:none;}
+
+.menu{
+color:#FFF;
+font-size:83%;
+text-align:right;
+}
+
+.comments-head{
+color:#FFF;
+font-size:83%;
+font-weight:bold;
+padding:0;
+height:10px;
+width:410px;
+}
+
+.comments-body{
+font-size:88%;
+line-height:135%;
+margin:20px 0 15px 13px;
+width:410px;
+}
+
+.comments-post{
+color:#FFF;
+font-size:83%;
+text-align:right;
+margin:0 0 25px 0;
+width:410px;
+}
+
+.trackback-url{
+color:#FFF;
+font-size:83%;
+font-weight:bold;
+margin:20px 0 15px 0;
+width:410px;
+}
+
+#trackback-text{
+border:1px solid #CCC;
+width:410px;
+}
+
+.trackback-body{
+font-size:88%;
+line-height:135%;
+margin:20px 0 15px 13px;
+width:410px;
+}
+
+.trackback-post{
+color:#FFF;
+font-size:83%;
+text-align:right;
+margin:0 0 25px 0;
+width:410px;
+}
+
+a.atrackback-post{color:#FFF;text-decoration:underline;font-weight:bold;}
+a.atrackback-post:hover{text-decoration:none;}
+
+label{
+font-size:83%;
+font-weight:bold;
+}
+
+#author, #email, #url{
+width:200px;
+border:1px solid #FFF;
+}
+
+#text{
+font-size:88%;
+width:240px;
+height:150px;
+border:1px solid #FFF
+}
+
+.pagetop{
+font-size:83%;
+text-align:right;
+margin:0 0 25px 0;
+}
+
+.calendarhead{
+color:#FFF;
+font-size:65%;
+font-weight:bold;
+letter-spacing:2px;
+padding:0 0 2px 0;
+text-align:center;
+}
+
+.calendartable{
+margin:0 auto 10px auto;
+padding:0;
+width:160px;
+text-align:left;
+background:#000;
+border:1px solid #000;
+empty-cells:show;
+border-spacing:0;
+border-collapse:collapse;
+letter-spacing:0;
+}
+
+.calendarweek{
+color:#FFF;
+font-size:68%;
+font-weight:bold;
+letter-spacing:0;
+}
+
+.calendarwd{
+border-top:1px solid #FFF;
+border-bottom:1px solid #FFF;
+background:#000;
+background-position:-2px 0;
+color:#fff;
+font-size:65%;
+letter-spacing:2px;
+padding:5px 0 5px 5px;
+}
+
+.calendard{
+text-align:center;
+}
+
+.calendar{
+font-size:68%;
+padding:4px 2px;
+letter-spacing:0;
+}
+
+.sidetitle{
+background:url(http://admin.hamazo.tv/_img/candle/hama12_004st.jpg) no-repeat left center;
+color:#FFF;
+font-size:75%;
+font-weight:normal;
+letter-spacing:2px;
+padding:36px 0 3px 20px;
+height:20px;
+}
+
+.side{
+width:148px;
+font-size:75%;
+line-height:140%;
+margin:0 0 10px 0;
+padding:3px 5px 30px 5px;
+}
+
+.side .text{
+width:80px;
+}
+
+a.aside{color:#FFF;text-decoration:underline;}
+a.aside:hover{text-decoration:none;}
+
+a.arss{color:#FFF;text-decoration:underline;}
+a.arss:hover{text-decoration:none;}
+
+.photo{
+text-align:center;
+}
+
+
+.photo img{
+width:120px;
+}
+
+.nickname{
+color:#FFF;
+font-weight:bold;
+margin:10px 0;
+}
+
+.quote{
+color:#FFF;
+font-size:75%;
+padding:1px;
+}
+
+.blogtimes{
+margin:0 0 16px 0;
+text-align:center;
+}
+
+.powered{
+text-align:center;
+margin:0 0 10px 0;
+}
+
+.syndicate{
+font-size:83%;
+text-align:center;
+}
+
+.checkers{
+font-size:83%;
+margin-top:10px;
+}
+
+a.adtitle{font-weight:bold;text-decoration:underline;}
+a.adtitle:hover{text-decoration:none;}
+
+a.addescription{color:black;text-decoration:none;}
+a.addescription:hover{text-decoration:underline;}
+
+a.adurl{color:#FFF;text-decoration:none;}
+a.adurl:hover{text-decoration:underline;}
+
+a.adld{text-decoration:underline;}
+a.adld:hover{text-decoration:none;}
+
+h4 {color: #FFFFFF;}
+h4 a{color:#FFFFFF;text-decoration:none;}
+h4 a:link{color:#FFFFFF;text-decoration:none;}
+h4 a:visited{text-decoration:none;}
+h4 a:active{}
+h4 a:hover{color:#FFFFFF;text-decoration:underline;}

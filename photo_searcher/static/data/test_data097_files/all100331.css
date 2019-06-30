@@ -1,0 +1,1497 @@
+/*\*//*/
+@import "ie5xmac.css";
+/**/
+
+/*
+-----------------------------------------------------
+ameblo CSS Skin Settings
+FileName:   all.css
+Skin for:	all_skin
+$Date: 2010/04/01 06:09:22 $
+$Version:$
+-----------------------------------------------------
+*/
+
+/* clearFix
+-------------------------*/
+.clearFix:after { content: "."; display:block; height:0; clear:both; visibility:hidden; }
+.clearFix { display: inline-table; min-height: 1%; }
+/* Hide from mac IE5 \*/
+* html .clearFix { height: 1%; }
+.clearFix { display:block; }
+/* End Hide from mac IE5 */
+
+
+/*font-family for winIe*/
+body{
+*font-family:"ＭＳ Ｐゴシック";
+}
+
+
+/*ameblo-info*/
+#ameblo h4,
+#ameblo_gg h4,
+#ameblo_woman h4,
+#ameblo_pure h4,
+#ameblo_his h4,
+#ameblo_oisix h4,
+#ameblo_shokokai h4,
+#ameblo_hapinavi h4,
+#ameblo_official h4,
+#ameblo_smileeco h4{
+text-align:left;
+font-size:1em;
+padding:5px 7px 2px 24px;
+margin:0;
+}
+
+#ameblo #amebloInfo h4,
+#ameblo_gg #amebloInfo h4,
+#ameblo_woman #amebloInfo h4,
+#ameblo_pure #amebloInfo h4,
+#ameblo_his #amebloInfo h4,
+#ameblo_oisix #amebloInfo h4,
+#ameblo_shokokai #amebloInfo h4,
+#ameblo_hapinavi #amebloInfo h4,
+#ameblo_official #amebloInfo h4,
+#ameblo_smileeco #amebloInfo h4{
+background: url(http://stat100.ameba.jp/common_style/img/common/icon/info.gif) no-repeat 6px 2px;
+}
+#ameblo #amebloMobile h4,
+#ameblo_gg #amebloMobile h4,
+#ameblo_woman #amebloMobile h4,
+#ameblo_pure #amebloMobile h4,
+#ameblo_his #amebloMobile h4,
+#ameblo_oisix #amebloMobile h4,
+#ameblo_shokokai #amebloMobile h4,
+#ameblo_hapinavi #amebloMobile h4,
+#ameblo_official #amebloMobile h4,
+#ameblo_smileeco #amebloMobile h4{
+background: url(http://stat100.ameba.jp/common_style/img/common/icon/mobile.gif) no-repeat 6px 2px;
+}
+
+#amebloInfo .amebaLink,
+#amebloMobile .amebaLink{
+padding:0px 10px 0px 25px;
+text-align:left;
+}
+
+/*accesslog-img*/
+img.accessLog{
+display:none;
+}
+
+/*message_profile*/
+#profile p#btnMsg{
+margin-top:5px;
+}
+
+/*message_entry*/
+.foot img{
+margin:0 2px 0 2px;
+vertical-align:middle;
+text-decoration:none;
+}
+
+/*pagetop*/
+.pagetop {
+/*background: url(../img/icon_pagetop.gif) no-repeat right top;*/
+}
+a.pagetop ,
+a:link.pagetop,
+a:visited.pagetop,
+a:hover.pagetop {
+text-decoration: none;
+}
+.pagetopStr {
+display:none;
+}
+.pagetopImg {
+padding-left: 6px;
+}
+
+/* microad */
+#advertising,
+#advertising .mainMenu,
+#advertising .menu_frame,
+#advertising2,
+#advertising2official,
+#advertising3,
+#adJavaScript,
+#adJavaScript2,
+.entry .contents .mainMenu,
+.sub_main .mainMenu,
+.entry .contents .menu_frame,
+.sub_main .menu_frame{
+border:none !important;
+background:none !important;
+}
+#advertising2,
+#advertising2official,
+#advertising3{
+margin:36px 0 0;
+}
+#advertising2 h4,
+#advertising2official h4 {
+margin:0 0 10px;
+text-align:left;
+}
+#advertising .mainMenu,
+#advertising2 .mainMenu,
+#advertising2official .mainMenu,
+#advertising3 .mainMenu,
+.entry .contents .mainMenu,
+.sub_main .mainMenu{
+text-align:center !important;
+padding:4px 0 !important;
+margin:0 !important;
+}
+
+#rss .menu_frame a,
+#rss_gg .menu_frame a,
+#rss_woman .menu_frame a,
+#rss_his .menu_frame a,
+#rss_oisix .menu_frame a,
+#rss_pure .menu_frame a,
+#rss_shokokai .menu_frame a,
+#rss_hapinavi .menu_frame a,
+#rss_official .menu_frame a,
+#rss_smileeco .menu_frame a{
+display: block;
+}
+
+#rss .menu_frame p,
+#rss_official .menu_frame p,
+#rss_pure .menu_frame p{
+margin-top:10px;
+font-size:10px;
+}
+
+/* add:2006.09.22 */
+/*recent_entries_list*/
+
+#recent_entries_list p#month{
+margin:0 0 10px;
+text-align:right;
+}
+
+#recent_entries_list ul{
+display:block;
+width:100%;
+margin: 0;
+padding: 0;
+list-style-type:none;
+}
+
+#recent_entries_list li{
+margin:0 0 8px;
+padding:0 0 2px;
+list-style-type:none;
+border-bottom: 1px solid;
+}
+
+#recent_entries_list li:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+#recent_entries_list li{
+display: inline-table;
+}
+/* Hides from IE-mac \*/
+#recent_entries_list li{>height: 1%;}
+#recent_entries_list li{display: block;}
+/* End hide from IE-mac */
+
+#recent_entries_list p.newentrytitle{
+float:left;
+width:50%;
+overflow:hidden;
+word-break:break-all;/* for WinIE */
+}
+
+#recent_entries_list p.cotb{
+float:right;
+width:45%;
+padding-right:2px;
+text-align:right;
+}
+
+#recent_entries_list p.updatetime{
+clear:both;
+}
+
+#recent_entries_list p.updatetime img{
+margin-left:5px;
+}
+
+a#petaLink,
+a.petaLink{
+padding: 3px 0 3px 18px;
+background: url(http://stat100.ameba.jp/common_style/img/ameba/common/icons/peta_icon.gif) no-repeat 0 50%;
+}
+
+#officalBlogChecker{
+width:315px;
+margin-top:20px;
+margin-left:auto;
+margin-right:auto;
+}
+#sideTextAd{
+text-align:left;
+line-height:1.2em;
+padding-left:4px;
+padding-right:4px;
+}
+ul#bearingKeyword{
+margin-top:13px;
+}
+#footer_ad,
+#footer_ad_officlal{
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+#footer_ad ul,
+#footer_ad_officlal ul{
+margin:0;
+padding:0;
+list-style-type:none;
+}
+#footer_ad ul li,
+#footer_ad_officlal li{
+margin-bottom:10px;
+}
+
+#footer_ad_officlal{
+height:250px;
+overflow:visible;
+z-index:10;
+width:400px;
+}
+#footer_ad_officlal p{
+text-align:center;
+}
+.ad1,
+.ad2{
+text-align:center;
+}
+
+#footer_ad_official p.rc_catch{
+text-align:center;
+font-size:10px;
+margin:10px 0 2px;
+}
+
+#footer_ad ul:after { content: "."; display:block; height:0; clear:both; visibility:hidden; }
+#footer_ad ul { display: inline-table; min-height: 1%;width:30em;margin:0 auto; }
+/* Hide from mac IE5 \*/
+* html #footer_ad ul { height: 1%; }
+#footer_ad ul { display:block; }
+/* End Hide from mac IE5 */
+
+#footer_ad li div{display:inline !important;}
+#footer_ad li a{font-size:1em !important;}
+#footer_ad #adbox_3 li{width:15em;float:left;text-align:center;}
+#footer_ad li div li{width:15em;float:left;text-align:center;}
+#footer_ad li.eachAd{width:15em;float:left;text-align:center;}
+
+#sideTextAd div{display:inline;}
+#sideTextAd a{display:block;font-size:1em !important;}
+
+/* サイドバー会員登録ボタン */
+#ameblo ul#registerBtn{
+width:166px;
+margin:0 auto;
+padding:0;
+}
+#ameblo #registerBtn li img{
+vertical-align:top;
+}
+#ameblo #registerBtn li{
+margin:0;
+padding:0;
+}
+#ameblo #registerBtn li#caption{
+background-color:#A7D200;
+}
+#ameblo #registerBtn li#caption p{
+color:#FFFFCC;
+font-size:12px;
+padding:5px 0;
+margin:0;
+text-align:center;
+}
+
+
+/* 記事下　ランキングチェッカー */
+
+#rc_box{
+width:365px;
+margin:15px auto 0 auto;
+padding-bottom:9px;
+background:url(http://stat100.ameba.jp/p_skin/cmn/img/official_footer_footer.gif) no-repeat left bottom;
+}
+
+#rc_box a{
+color:#0066CC;
+text-decoration:none;
+}
+#rc_box a:hover{
+color:#FF0000;
+text-decoration:underline;
+}
+
+#rc_box_header{
+width:365px;
+background:url(http://stat100.ameba.jp/p_skin/cmn/img/official_footer_bg.gif) no-repeat left bottom;
+padding-bottom:9px;
+}
+
+#rc_box ul{
+width:360px;
+margin:0px;
+list-style:none;
+background:url(http://stat100.ameba.jp/p_skin/cmn/img/line_official_ad.gif) no-repeat center bottom;
+}
+
+#rc_box ul li{
+float:left;
+padding:0 0 6px 10px;
+width:108px;
+}
+
+#rc_box ul li a.label01{
+display:block;
+width:108px;
+height:14px;
+text-indent:-9999px;
+background:url(http://stat100.ameba.jp/p_skin/cmn/img/rclink_top.gif) no-repeat 0px 0px;
+/*\*/
+   overflow: hidden;
+/**/
+}
+#rc_box ul li a.label02{
+display:block;
+width:108px;
+height:14px;
+text-indent:-9999px;
+background:url(http://stat100.ameba.jp/p_skin/cmn/img/rclink_recommend.gif) no-repeat 0px 3px;
+/*\*/
+   overflow: hidden;
+/**/
+}
+#rc_box ul li a.label03{
+display:block;
+width:108px;
+height:15px;
+text-indent:-9999px;
+background:url(http://stat100.ameba.jp/p_skin/cmn/img/rclink_photo.gif) no-repeat 0px 0px;
+/*\*/
+   overflow: hidden;
+/**/
+}
+#rc_box ul li a.label04{
+display:block;
+width:108px;
+height:17px;
+text-indent:-9999px;
+background:url(http://stat100.ameba.jp/p_skin/cmn/img/rclink_pickup.gif) no-repeat 0px 0px;
+/*\*/
+   overflow: hidden;
+/**/
+}
+#rc_box ul li a.label05{
+display:block;
+width:108px;
+height:17px;
+text-indent:-9999px;
+background:url(http://stat100.ameba.jp/p_skin/cmn/img/rclink_shop.gif) no-repeat 0px 2px;
+/*\*/
+   overflow: hidden;
+/**/
+}
+#rc_box ul li a.label06{
+display:block;
+width:108px;
+height:17px;
+text-indent:-9999px;
+background:url(http://stat100.ameba.jp/p_skin/cmn/img/rclink_register.gif) no-repeat 0px 2px;
+/*\*/
+   overflow: hidden;
+/**/
+}
+
+#rc_box ul li a.label01:hover{
+background:url(http://stat100.ameba.jp/p_skin/cmn/img/rclink_top.gif) no-repeat 0px -14px;
+text-decoration:none;
+}
+#rc_box ul li a.label02:hover{
+background:url(http://stat100.ameba.jp/p_skin/cmn/img/rclink_recommend.gif) no-repeat 0px -14px;
+text-decoration:none;
+}
+#rc_box ul li a.label03:hover{
+background:url(http://stat100.ameba.jp/p_skin/cmn/img/rclink_photo.gif) no-repeat 0px -15px;
+text-decoration:none;
+}
+#rc_box ul li a.label04:hover{
+background:url(http://stat100.ameba.jp/p_skin/cmn/img/rclink_pickup.gif) no-repeat 0px -17px;
+text-decoration:none;
+}
+#rc_box ul li a.label05:hover{
+background:url(http://stat100.ameba.jp/p_skin/cmn/img/rclink_shop.gif) no-repeat 0px -15px;
+text-decoration:none;
+}
+#rc_box ul li a.label06:hover{
+background:url(http://stat100.ameba.jp/p_skin/cmn/img/rclink_register.gif) no-repeat 0px -15px;
+text-decoration:none;
+}
+
+#rc_box p.randomlink{
+width:365px;
+text-align:center;
+margin-top:8px;
+}
+
+#flashcontent {
+padding-top:15px;
+text-align:center;
+}
+
+#rc_box #flashcontent{
+width:365px;
+padding:0 0 2px;
+color:#000;
+}
+
+/* safari only \*/
+html[xmlns*=""] body:last-child #rc_box p.randomlink{padding-top:0px;}
+html[xmlns*=""] body:last-child #rc_box #flashcontent{padding:0 0 1px;}
+
+
+
+/*rc09*/
+.rc_box09{
+padding-bottom:5px !important;
+}
+
+#rc_box #rcflash09{
+width:365px;
+padding-bottom:1px;
+background:url(/p_skin/cmn/img/official_footer_bg.gif) no-repeat left bottom;
+}
+
+/* IE6,IE7 */
+#rc_box #rcflash09 { /padding-bottom:2px;}
+
+#rc_box ul.rc_head{
+padding:6px 0 6px 5px;
+}
+
+#rc_box ul.rc_head{
+/padding:6px 0 4px 5px;
+}
+
+#rc_box ul.rc_btm{
+padding:7px 0 0 5px;
+background:url(/p_skin/cmn/img/line_official_ad.gif) no-repeat 50% 0;
+}
+#rc_box ul.rc_btm a.label01{
+background-image:url(/p_skin/cmn/img/label04.gif);
+}
+#rc_box ul.rc_btm a.label02{
+background-image:url(/p_skin/cmn/img/label05.gif);
+}
+#rc_box ul.rc_btm a.label03{
+background-image:url(/p_skin/cmn/img/label06.gif);
+}
+#rc_box ul.rc_btm a.label01:hover{
+background-image:url(/p_skin/cmn/img/label04.gif);
+}
+#rc_box ul.rc_btm a.label02:hover{
+background-image:url(/p_skin/cmn/img/label05.gif);
+}
+#rc_box ul.rc_btm a.label03:hover{
+background-image:url(/p_skin/cmn/img/label06.gif);
+}
+
+/*記事 みんなのテーマ リンクまわり*/
+.entry .doGood{
+margin:16px 0 6px 0;
+padding:0 0 0 8px;
+background:url(http://stat100.ameba.jp/p_skin/cmn/img/orange_sq.gif) no-repeat left center;
+}
+
+.entry .doGood a{
+margin:0 0 0 6px;
+padding:5px 0 0px 16px;
+background:url(http://stat100.ameba.jp/common_style/img/home_common/home/ameba/allskin/ico_good.gif) no-repeat left center;
+font-size:14px;
+font-weight:bold;
+}
+
+.entry .theme_title{
+margin:0 0 6px 0;
+padding:0 0 12px 9px;
+}
+
+.entry .theme_title a{
+margin:0;
+padding:0 0 0 2px;
+}
+
+/*amember entry*/
+div.amemberEntry{
+padding:10px 0;
+text-align:center;
+}
+div.amemberEntry p.amemberEntryBtn{
+margin:0;
+padding-top:4px;
+}
+div.amemberEntry p.amemberEntryTxt {
+margin:0;
+padding:5px 0;
+font-size:0.8em;
+}
+div.amemberEntry p.amemberEntryReq{
+display:inline;
+margin:0;
+padding:5px 0 5px 20px;
+background:url(http://stat100.ameba.jp/amember/img/pc/user/ameba/common/icons/amember_icon.gif) no-repeat 0 35%;
+font-size:12px;
+}
+
+/*new_profile*/
+#new_profile li{
+text-align:left;
+}
+#new_profile #ameNaviArea li {
+border-right:1px solid #999999;
+list-style-type:none;
+display:block;
+margin:0 8px 0 0 !important;
+padding:0 8px 0 0 !important;
+float:left;
+}
+#new_profile ul#ameNaviArea {
+margin:0 auto 15px;
+font-weight:bold;
+list-style-type:none;
+text-align:left;
+display: inline-table; min-height: 1%;
+}
+
+#ameNaviArea:after { content: "."; display:block; height:0; clear:both; visibility:hidden; }
+
+#new_profile #ameNaviArea li.lastItem {
+border:none;
+padding:0 !important;
+margin:0 !important;
+}
+#new_profile ul#ameNaviArea a {
+white-space:nowrap;
+}
+#new_profile .piggLink{
+margin:0 0 12px;
+}
+#new_profile .profLink {
+margin:0 0 12px;
+}
+/*--- #profileMenu List ---*/
+#peta{
+background: url(http://stat100.ameba.jp/common_style/img/ameba/common/icons/peta_icon.gif) no-repeat 0 0 !important;
+margin-bottom:5px !important;
+padding: 2px 0 4px 21px !important;
+}
+.checkList {
+margin-bottom: 5px !important;
+padding: 2px 0 3px 21px !important;
+background: url(http://stat100.ameba.jp/common_style/img/ameba/common/icons/icon_checklist.gif) no-repeat 0 0 !important;
+}
+.comment {
+margin-bottom: 5px !important;
+padding:2px 0 3px 20px;
+background:url(http://stat100.ameba.jp/common_style/img/common/icon/open_comment.gif) no-repeat 0 0 !important;
+}
+.trackback {
+margin-bottom: 5px !important;
+padding:2px 3px 3px 18px;
+background:url(http://stat100.ameba.jp/common_style/img/common/icon/comment1.gif) no-repeat 0 0 !important;
+}
+#profile #peta{
+text-align: left !important;
+}
+#profile .checkList {
+text-align: left !important;
+}
+div#profile div.adlantiss a{
+display:inline;
+font-size:1em !important;
+}
+div#profile div.adlantiss,
+div#profile div.adlantiss div{
+display:inline;
+}
+
+/* common */
+#new_profile {
+margin-bottom:15px;
+}
+
+/*amemberProfArea*/
+#amemberProfArea{
+margin-bottom:5px;
+}
+#amemberProfArea li{
+margin:0 !important;
+padding-bottom: 5px;
+}
+#amemberProfReq2{
+background:url(http://stat100.ameba.jp/amember/img/pc/user/ameba/common/icons/amember_icon.gif) no-repeat 0 35%;
+margin:0;
+padding:5px 0 0 20px;
+}
+
+#amemberProf3{
+background:url(http://stat100.ameba.jp/amember/img/pc/user/ameba/common/icons/amember_icon.gif) no-repeat 0 0 !important;
+margin:0 !important;
+padding:4px 0 0 19px !important;
+}
+#amemberCount{
+margin:0;
+padding:5px 0 0 3px;
+}
+.link_genre {
+padding-top:15px !important;
+clear:both;
+}
+
+/*amemberThumb*/
+#amemberThumb {
+margin:0 0 0 -15px !important;
+padding:0;
+width:145px;
+overflow:hidden;
+}
+#amemberThumb img,
+#amemberThumb table{
+margin:0 !important;
+padding:0 !important;
+}
+#amemberThumb li {
+margin:10px 5px 0 0 !important;
+padding:0 !important;
+float:left !important;
+border:1px solid #CCCCCC !important;
+}
+#amemberThumb table{
+border-collapse:collapse;
+}
+#amemberThumb table td{
+height:28px;
+width:28px;
+margin:0;
+padding:0;
+border:0;
+background:#fff;
+text-align:center;
+vertical-align:middle;
+}
+#amemberThumb table td a{
+margin:0;
+padding:0;
+border:0;
+background:#fff;
+}
+#profile .menu_frame a{
+display:inline;
+background-image:none;
+padding:0;
+}
+/*adArrow*/
+.hideAdsArrow{
+background:none;
+}
+#talent .hideAdsArrow,
+#general .hideAdsArrow,
+#adList .hideAdsArrow{
+margin:0 0 25px;
+}
+.showAdsArrow{
+background:url(http://stat100.ameba.jp/common_style/img/common/icon/quicklink2.gif) no-repeat 0px 12px;
+}
+.showAdsArrow0{
+background:url(http://stat100.ameba.jp/common_style/img/common/icon/quicklink1.gif) no-repeat 0px 12px;
+}
+.showAdsArrow1{
+background:url(http://stat100.ameba.jp/common_style/img/common/icon/quicklink2.gif) no-repeat 0px 12px;
+}
+.showAdsArrow2{
+background:url(http://stat100.ameba.jp/common_style/img/common/icon/quicklink3.gif) no-repeat 0px 12px;
+}
+.showAdsArrow3{
+background:url(http://stat100.ameba.jp/common_style/img/common/icon/quicklink4.gif) no-repeat 0px 12px;
+}
+.showAdsArrow4{
+background:url(http://stat100.ameba.jp/common_style/img/common/icon/quicklink5.gif) no-repeat 0px 12px;
+}
+
+
+
+/*AdSense*/
+
+/*AdAense_CommonSettings*/
+p#gadLogo{
+text-align:right;
+}
+
+div.gadBox{
+margin: 0;
+padding: 0 0 5px;
+overflow: hidden;
+line-height: 1;
+text-align:left;
+height: 100%;
+}
+div.gadBox#adList,
+div.gadBox#talent,
+div.gadBox#general{
+padding: 5px 0 0;
+margin: 0 0 5px;
+}
+
+/*GooglAadSense Settings*/
+.gadBox#talent div#adCount0 #gAdTitle0,
+.gadBox#talent div#adCount1 #gAdTitle1,
+.gadBox#talent div#adCount2 #gAdTitle2,
+.gadBox#talent div#adCount3 #gAdTitle3{
+background:url(http://stat.ameba.jp/common_style/img/common/icon/book_a.gif) no-repeat right center;
+padding:0 20px 0 0;
+line-height:1.2;
+text-decoration:underline;
+font-weight:bold;
+font-size:1.2em;
+}
+
+.gadBox#talent div#adCount0.blockhoverTarent #gAdTitle0,
+.gadBox#talent div#adCount1.blockhoverTarent #gAdTitle1,
+.gadBox#talent div#adCount2.blockhoverTarent #gAdTitle2,
+.gadBox#talent div#adCount3.blockhoverTarent #gAdTitle3{
+background-repeat:no-repeat;
+line-height:1.2;
+text-decoration:underline;
+}
+
+/*GooglAadSense_General & AdList Settings*/
+.gadBox#adList div#adCount0 #gAdTitle0,
+.gadBox#general div#adCount0 #gAdTitle0,
+.gadBox#adList div#adCount1 #gAdTitle1,
+.gadBox#general div#adCount1 #gAdTitle1,
+.gadBox#adList div#adCount2 #gAdTitle2,
+.gadBox#general div#adCount2 #gAdTitle2,
+.gadBox#adList div#adCount3 #gAdTitle3,
+.gadBox#general div#adCount3 #gAdTitle3,
+.gadBox#adList div#adCount4 #gAdTitle4,
+.gadBox#general div#adCount4 #gAdTitle4,
+.gadBox#adList div#adCount0.blockhoverGeneral #gAdTitle0,
+.gadBox#general div#adCount0.blockhoverGeneral #gAdTitle0,
+.gadBox#adList div#adCount1.blockhoverGeneral #gAdTitle1,
+.gadBox#general div#adCount1.blockhoverGeneral #gAdTitle1,
+.gadBox#adList div#adCount2.blockhoverGeneral #gAdTitle2,
+.gadBox#general div#adCount2.blockhoverGeneral #gAdTitle2,
+.gadBox#adList div#adCount3.blockhoverGeneral #gAdTitle3,
+.gadBox#general div#adCount3.blockhoverGeneral #gAdTitle3,
+.gadBox#adList div#adCount4.blockhoverGeneral #gAdTitle4,
+.gadBox#general div#adCount4.blockhoverGeneral #gAdTitle4{
+background:url(http://stat.ameba.jp/common_style/img/common/icon/book.gif) no-repeat right center;
+padding:0 20px 0 0;
+line-height:1.2;
+text-decoration:underline;
+font-weight:bold;
+}
+.gadBox#talent div.blockTarent,
+.gadBox#adList div.blockGeneral,
+.gadBox#general div.blockGeneral{
+margin:0 0 25px;
+overflow: hidden;
+cursor: pointer;
+background:none;
+}
+.gadBox#talent div.blockhoverTarent,
+.gadBox#adList div.blockhoverGeneral,
+.gadBox#general div.blockhoverGeneral{
+margin:0 0 25px;
+overflow: hidden;
+cursor: pointer;
+background:#FFFFCC;
+}
+#main .gadBox#talent .genAnch,
+#main .gadBox#adList .genAnch,
+#main .gadBox#general .genAnch{
+display:block;
+text-decoration:none;
+}
+#main .gadBox#talent .genAnch:hover,
+#main .gadBox#adList .genAnch:hover,
+#main .gadBox#general .genAnch:hover,{
+text-decoration:none;
+}
+.gadBox#talent .gadTitle,
+.gadBox#adList .gadTitle,
+.gadBox#general .gadTitle{
+}
+.gadBox#talent .gadDisplayURL,
+.gadBox#adList .gadDisplayURL,
+.gadBox#general .gadDisplayURL{
+display:block;
+padding:3px 0 0;
+text-align:right;
+}
+.gadBox#talent .gadDescription,
+.gadBox#adList .gadDescription,
+.gadBox#general .gadDescription{
+display:block;
+padding:8px 0 0;
+color:#666666;
+line-height:1.5;
+}
+
+/*GoogleAdSense_Footer*/
+.gadBox#gadFooter{
+margin: 0 auto;
+padding: 10px 0;
+overflow: hidden;
+line-height: 1;
+text-align:left;
+height: 100%;
+width:340px;
+}
+.gadBox#gadFooter .gadTitle_footer{
+font-size:1.0em;
+text-decoration:underline;
+}
+.gadBox#gadFooter div.blockhoverGeneral .gadTitle_footer{
+text-decoration:underline;
+}
+.gadBox#gadFooter .gadDisplayURL_footer{
+font-size:0.85em;
+padding-left: 8px;
+}
+.gadBox#gadFooter .gadDescription_footer{
+font-size:0.85em;
+display: block;
+padding: 4px 0 0;
+line-height:1.1;
+}
+.gadBox#gadFooter div.hideAdsArrow{
+padding: 6px 5px 6px 20px;
+overflow: hidden;
+cursor: pointer;
+}
+.gadBox#gadFooter div.blockTarent{
+padding: 6px 5px 6px 20px;
+overflow: hidden;
+cursor: pointer;
+background:none;
+}
+.gadBox#gadFooter div.blockhoverGeneral{
+padding: 6px 5px 6px 20px;
+overflow: hidden;
+cursor: pointer;
+/*background:#EEE;*/
+/*background:#eee url(http://stat.ameba.jp/common_style/img/common/icon/amebaicon.gif) 2px 2px no-repeat;*/
+}
+.gadBox#gadFooter p#gadLogo_footer{
+padding: 0 5px 0 20px;
+text-align:right;
+font-size:0.85em;
+}
+.gadBox#gadFooter #adCount0_footer{background-image:url(http://stat.ameba.jp/blog/ucs/img/char/char2/198.gif);
+background-repeat:no-repeat;
+background-position:0px 5px;
+padding:7px 0 0 20px;
+}
+.gadBox#gadFooter #adCount1_footer{background-image:url(http://stat.ameba.jp/common_style/img/common/icon/crown2.gif);
+background-repeat:no-repeat;
+background-position:0px 5px;
+padding:7px 0 0 17px;
+}
+.gadBox#gadFooter #adCount2_footer,
+.gadBox#gadFooter #adCount3_footer{background-image:url(http://stat.ameba.jp/common_style/img/common/icon/crown3.gif);
+background-repeat:no-repeat;
+background-position:0px 5px;
+padding:7px 0 0 17px;
+}
+
+
+/* themeBox
+-------------------------*/
+div#themeBox{
+margin: 0;
+padding: 36px 0 5px;
+overflow: hidden;
+font-size:1.1em;
+text-align:left;
+height: 100%;
+}
+div#themeBox h5{
+padding:2px 0 0 20px;
+margin:0;
+background:url(http://stat100.ameba.jp/common_style/img/common/icon/brogtitle.gif) no-repeat left center;
+font-size:0.9em;
+}
+div#themeBox ul{
+padding:0 0 0 20px;
+margin:0;
+}
+div#themeBox li{
+list-style-type:none;
+padding:0;
+margin:0;
+}
+
+/* footerArea
+-------------------------*/
+/*div#footerArea{
+position:relative;
+}*/
+
+/* morePopLink
+-------------------------*/
+body:first-of-type .entry .foot{
+position:relative;/*opera9.5*/
+}
+.foot a.menuMore{
+padding:4px 0 4px 28px;
+background: url(http://stat100.ameba.jp/common_style/img/common/icon/more.gif) no-repeat 0 2px !important;
+outline:none;
+}
+.moreOff{display:none;}
+.moreOn{display:block;}
+
+#moreFrame{
+position:absolute;
+z-index:1600;
+width:147px;
+text-align:left;
+background:#eee;
+}
+#moreSubFrame{
+display:block;
+position:relative;
+top:-1px;
+left:-1px;
+width:125px;
+z-index:610;
+padding:4px 15px 1px 5px;
+border:1px solid #ccc;
+background:#fff;
+font-size:10px;
+}
+#moreSubFrame a{
+text-decoration: none;
+color:#06c;
+}
+#moreSubFrame a:visited{
+text-decoration: none;
+color:#969;
+}
+#moreSubFrame a:hover{
+text-decoration: underline;
+color:#F36;
+}
+#moreSubFrame span {
+display:block;
+padding:3px 0 7px 24px;
+}
+.menuPresent {
+background:url(http://stat100.ameba.jp/common_style/img/common/icon/present.gif) no-repeat scroll 1px 0;
+}
+.menuCheckList {
+background:url(http://stat100.ameba.jp/common_style/img/common/icon/checklist.gif) no-repeat 1px 0;
+}
+.menuRequestion {
+background:url(http://stat100.ameba.jp/common_style/img/common/icon/requestion.gif) no-repeat scroll 0 1px;
+}
+.menuMsg {
+background:url(http://stat100.ameba.jp/p_skin/cmn/img/icon_msg.gif) no-repeat scroll 2px 4px;
+}
+#moreDisplay{
+position:absolute;
+z-index:1650;
+top:2px;
+right:2px;
+height:15px;
+width:15px;
+outline:none;
+vertical-align:top;
+cursor:pointer;
+}
+#moreDisplay img{
+vertical-align:top;
+}
+#profile #amemberProfArea li{
+padding:4px 0 4px 21px !important;
+}
+
+/* designShift
+-------------------------*/
+#designShift{
+font-size:0.85em;
+}
+#designShift a{
+background:url(http://stat100.ameba.jp/common_style/img/common/icon/star02.gif) no-repeat 0 0;
+padding:0 0 3px 14px;
+}
+/*■■■AmebaGG用オススメ情報 - 基本設定*/
+#gg_pr_text h4{
+color:#666666;
+font-size:12px;
+padding:2px;
+text-align:center;
+border-top:1px dashed #666666;
+border-bottom:1px dashed #666666;
+}
+#gg_pr_text ul{
+padding:5px;
+}
+#gg_pr_text li{
+padding:5px 0;
+list-style-type:none;
+}
+#woman_pr_text h4{
+color:#666666;
+font-size:12px;
+padding:2px;
+text-align:center;
+border-top:1px dashed #666666;
+border-bottom:1px dashed #666666;
+}
+#woman_pr_text ul{
+padding:5px;
+}
+#woman_pr_text li{
+padding:5px 0;
+list-style-type:none;
+}
+/*エラー*/
+#sub_main .error{
+display:block;
+line-height:1.7em;
+text-align:center;
+}
+/*記事一覧へ戻るリンク*/
+.entryListLink{
+display:block;
+padding-top:13px;
+text-align:center;
+}
+.entryListLink a{
+background:url(http://stat.ameba.jp/common_style/img/common/icon/blog_read.gif) no-repeat 0 0;
+padding:2px 0 0 18px;
+}
+
+
+/*■■■記事 下部広告 - メインカラム*/
+#footer_ad{
+margin:20px auto 10px auto;
+text-align:center;
+}
+
+/*記事 下部ランキングチェッカー 殿堂枠*/
+
+#rc_box #Dendo{
+background-color:#FFF4FA;
+width:347px;
+margin:0 0 0 9px;
+
+}
+#DendoMdl dt{
+width:53px;
+float:left;
+padding:0 3px 0 5px;
+margin:0;
+}
+
+#DendoMdl dd{
+float:left;
+margin:0;
+padding:0;
+padding-top:5px;
+}
+#DendoMdl img{
+border:1px solid #CCCCCC;
+padding:1px;
+margin-right:5px;
+}
+#DendoMdl dd p.catch{
+color:#FF6602;
+}
+#DendoMdl dd p.blogtitle{
+font-size:0.85em;
+}
+#DendoMdl dd p.dendoLink{
+font-size:0.85em;
+text-align:right;
+width:220px;
+}
+
+#dendoBox {
+margin:0;
+padding:5px 0 0 7px;
+width:350px;
+height:50px;
+}
+#dendoBox h4 {
+float:left;
+margin:0;
+padding:3px 0 0;
+width:45px;
+}
+#dendoBox dl {
+float:left;
+margin:0;
+padding:5px 0 0;
+width:304px;
+}
+#dendoBox dt {
+float:left;
+padding-left:2px;
+width:36px;
+}
+#dendoBox dt a img {
+border: 1px solid #D8D8D8;
+}
+#dendoBox dd {
+float:left;
+font-size:0.85em;
+margin:0 0 0 7px;
+padding-right:0;
+}
+.dendoLink {
+display:block;
+margin:0;
+padding: 0px 10px 2px 0;
+display: block;
+font-size: 10px;
+text-align: right;
+}
+
+#dendoBox .dendoName {
+background:transparent url(http://stat100.ameba.jp/p_skin/cmn/img/crown.gif) no-repeat scroll 0 0;
+font-size:10px;
+padding:2px 0 3px 13px;
+color:#59625E;
+}
+
+#DendoList {
+margin: 0 0 0;
+padding: 3px 0pt 6px;
+}
+
+#supporter p {
+background:url(http://stat.ameba.jp/common_style/img/common/icon/smile.gif) no-repeat 0 5px;
+padding:7px 0 2px 18px;
+font-weight:bold;
+}
+
+
+
+
+#DendoBox {
+margin:0;
+padding:5px 0 0 7px;
+width:350px;
+}
+#DendoBox h4 {
+float:left;
+margin:0;
+padding:3px 0 0;
+width:45px;
+}
+#DendoBox dl {
+float:left;
+margin:0;
+padding:5px 0 0;
+width:304px;
+}
+#DendoBox dt {
+float:left;
+padding-left:2px;
+width:36px;
+}
+#DendoBox dt a img {
+border: 1px solid #D8D8D8;
+}
+#DendoBox dd {
+float:left;
+font-size:0.85em;
+margin:0 0 0 7px;
+padding-right:0;
+}
+#DendoBox .dendoName {
+background:transparent url(http://stat100.ameba.jp/p_skin/cmn/img/crown.gif) no-repeat scroll 0 0;
+font-size:10px;
+padding:2px 0 3px 13px;
+color:#59625E;
+}
+
+/* 記事ﾃﾞｺﾃﾝﾌﾟﾚｰﾄ */
+.mb_deco{
+width:240px;
+margin:0 auto;
+}
+
+
+
+
+
+
+
+
+/*=============== old 091202 ===============*/
+div#gadBox{
+margin: 0;
+padding: 0 0 5px;
+overflow: hidden;
+line-height: 1;
+text-align:left;
+height: 100%;
+}
+div#gadBox.adList,
+div#gadBox.talent,
+div#gadBox.general{
+padding: 5px 0 0;
+margin: 0 0 5px;
+/*border:1px solid;*/
+}
+#gadBox.talent div#adCount0 #gAdTitle0,
+#gadBox.talent div#adCount1 #gAdTitle1,
+#gadBox.talent div#adCount2 #gAdTitle2,
+#gadBox.talent div#adCount3 #gAdTitle3{
+background:url(http://stat.ameba.jp/common_style/img/common/icon/book.gif) no-repeat right center;
+padding:0 20px 0 0;
+line-height:1.2;
+text-decoration:underline;
+font-weight:bold;
+}
+#gadBox.talent div#adCount0.blockhoverTarent #gAdTitle0,
+#gadBox.talent div#adCount1.blockhoverTarent #gAdTitle1,
+#gadBox.talent div#adCount2.blockhoverTarent #gAdTitle2,
+#gadBox.talent div#adCount3.blockhoverTarent #gAdTitle3{
+background-repeat:no-repeat;
+line-height:1.2;
+text-decoration:underline;
+}
+#gadBox.adList div#adCount0 #gAdTitle0,
+#gadBox.general div#adCount0 #gAdTitle0,
+#gadBox.adList div#adCount1 #gAdTitle1,
+#gadBox.general div#adCount1 #gAdTitle1,
+#gadBox.adList div#adCount2 #gAdTitle2,
+#gadBox.general div#adCount2 #gAdTitle2,
+#gadBox.adList div#adCount3 #gAdTitle3,
+#gadBox.general div#adCount3 #gAdTitle3,
+#gadBox.adList div#adCount4 #gAdTitle4,
+#gadBox.general div#adCount4 #gAdTitle4,
+#gadBox.adList div#adCount0.blockhoverGeneral #gAdTitle0,
+#gadBox.general div#adCount0.blockhoverGeneral #gAdTitle0,
+#gadBox.adList div#adCount1.blockhoverGeneral #gAdTitle1,
+#gadBox.general div#adCount1.blockhoverGeneral #gAdTitle1,
+#gadBox.adList div#adCount2.blockhoverGeneral #gAdTitle2,
+#gadBox.general div#adCount2.blockhoverGeneral #gAdTitle2,
+#gadBox.adList div#adCount3.blockhoverGeneral #gAdTitle3,
+#gadBox.general div#adCount3.blockhoverGeneral #gAdTitle3,
+#gadBox.adList div#adCount4.blockhoverGeneral #gAdTitle4,
+#gadBox.general div#adCount4.blockhoverGeneral #gAdTitle4{
+background:url(http://stat.ameba.jp/common_style/img/common/icon/book.gif) no-repeat right center;
+padding:0 20px 0 0;
+line-height:1.2;
+text-decoration:underline;
+font-weight:bold;
+}
+
+#gadBox.talent div.blockTarent,
+#gadBox.adList div.blockGeneral,
+#gadBox.general div.blockGeneral{
+margin:0 0 25px;
+overflow: hidden;
+cursor: pointer;
+background:none;
+}
+
+#gadBox.talent div.blockhoverTarent,
+#gadBox.adList div.blockhoverGeneral,
+#gadBox.general div.blockhoverGeneral{
+margin:0 0 25px;
+overflow: hidden;
+cursor: pointer;
+background:#FFFFCC;
+}
+
+#main #gadBox.talent .genAnch,
+#main #gadBox.adList .genAnch,
+#main #gadBox.general .genAnch{
+display:block;
+text-decoration:none;
+}
+
+#main #gadBox.talent .genAnch:hover,
+#main #gadBox.adList .genAnch:hover,
+#main #gadBox.general .genAnch:hover,{
+text-decoration:none;
+}
+
+#gadBox.talent .gadTitle,
+#gadBox.adList .gadTitle,
+#gadBox.general .gadTitle{
+}
+
+
+.gadTitle_s{
+font-size:1.2em;
+background:url(http://stat.ameba.jp/common_style/img/common/icon/book_a.gif) no-repeat right center !important;
+}
+
+#gadBox.talent .gadDisplayURL,
+#gadBox.adList .gadDisplayURL,
+#gadBox.general .gadDisplayURL{
+display:block;
+padding:3px 0 0;
+text-align:right;
+}
+
+#gadBox.talent .gadDescription,
+#gadBox.adList .gadDescription,
+#gadBox.general .gadDescription{
+display:block;
+padding:8px 0 0;
+color:#666666;
+line-height:1.5;
+}
+
+
+/*GoogleAdSense_Footer*/
+
+#gadBox.footer{
+margin: 0 auto;
+padding: 10px 0;
+overflow: hidden;
+line-height: 1;
+text-align:left;
+height: 100%;
+width:340px;
+}
+
+#gadBox.footer .gadTitle_footer{
+font-size:1.0em;
+text-decoration:underline;
+}
+
+#gadBox.footer div.blockhoverGeneral .gadTitle_footer{
+text-decoration:underline;
+}
+
+#gadBox.footer .gadDisplayURL_footer{
+font-size:0.85em;
+padding-left: 8px;
+}
+
+#gadBox.footer .gadDescription_footer{
+font-size:0.85em;
+display: block;
+padding: 4px 0 0;
+line-height:1.1;
+}
+
+#gadBox.footer div.hideAdsArrow{
+padding: 6px 5px 6px 20px;
+overflow: hidden;
+cursor: pointer;
+}
+
+#gadBox.footer div.blockTarent{
+padding: 6px 5px 6px 20px;
+overflow: hidden;
+cursor: pointer;
+background:none;
+}
+
+#gadBox.footer div.blockhoverGeneral{
+padding: 6px 5px 6px 20px;
+overflow: hidden;
+cursor: pointer;
+/*background:#EEE;*/
+/*background:#eee url(http://stat.ameba.jp/common_style/img/common/icon/amebaicon.gif) 2px 2px no-repeat;*/
+}
+
+#gadBox.footer p#gadLogo_footer{
+padding: 0 5px 0 20px;
+text-align:right;
+font-size:0.85em;
+}
+
+#gadBox.footer #adCount0_footer{background-image:url(http://stat.ameba.jp/blog/ucs/img/char/char2/198.gif);
+background-repeat:no-repeat;
+background-position:0px 5px;
+padding:7px 0 0 20px;
+}
+
+#gadBox.footer #adCount1_footer{background-image:url(http://stat.ameba.jp/common_style/img/common/icon/crown2.gif);
+background-repeat:no-repeat;
+background-position:0px 5px;
+padding:7px 0 0 17px;
+}
+
+#gadBox.footer #adCount2_footer,
+#gadBox.footer #adCount3_footer{background-image:url(http://stat.ameba.jp/common_style/img/common/icon/crown3.gif);
+background-repeat:no-repeat;
+background-position:0px 5px;
+padding:7px 0 0 17px;
+}
+
+/*now*/
+.AmNwMdl{width:90%;max-width:500px;margin:0 auto 19px;padding:10px;background:#ffffff;color:#333 !important;-webkit-border-radius: 4px;-moz-border-radius: 4px;}
+.AmNwMdl a{color:#0066cc !important;text-decoration:none !important;}
+.AmNwMdl a:hover{text-decoration:underline !important}
+.AmNwMdl img{margin:0 2px 0 0 !important; !important;vertical-align:middle;}
+.AmNwMdl .AmNwD{padding:0 0 0 5px;}
+.AmNwMdl .AmNwH{border-bottom:5px solid #CCCCCC;padding:0 0 0 5px;font-weight:bold;font-size:1.33em;}
+.AmNwMdl .AmNwL{zoom:1;padding:0 5px;background:url(http://stat.ameba.jp/blog/ucs/img/ameba/icon_line.gif) repeat-x 0 100%;margin-bottom:1em;line-height:1.2;}
+.AmNwMdl .AmNwL div{padding:2px 0 0;font-size:0.855em;color:#aaa;}
+
+/*iphone*/
+#viewSwitch{
+background:url(http://stat100.ameba.jp/ipn/blog/img/body_bg.png);
+margin:0;
+padding:20px 8px;
+font-size:3em;
+font-family:HiraKaKuPro-W6;
+font-weight:bold;
+}
+#viewSwitch a.btn{
+height:70px;
+line-height:70px;
+background:#fff;
+border:1px solid #bbb;
+-webkit-border-radius:8px;
+text-align:center;
+display:block;
+color: #000;
+width:60%;
+margin:0 auto;
+text-decoration:none;
+font-family:HiraKaKuPro-W6;
+}
+#viewSwitch #poweredBy {
+display:block;
+padding:15px 0;
+text-align:right;
+
+}
+
+

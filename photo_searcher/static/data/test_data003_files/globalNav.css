@@ -1,0 +1,50 @@
+div#globalNav ul {
+	background-image:url(../../../img/header/nav2_d.png);
+}
+
+div#globalNav li a {;
+	background-image:url(../../../img/header/nav2_d.png);
+}
+
+/* ---------- 飲食店をさがす ---------- */
+div#globalNav li#ggourmet {
+	left:704px;
+}
+
+div#globalNav li#ggourmet a {
+	width:65px;
+	background-position:-704px top;
+}
+
+div#globalNav li#ggourmet a:hover {
+	background-position:-704px bottom;
+}
+
+/* ---------- ホテルをさがす ---------- */
+div#globalNav li#gtravel {
+	left:769px;
+}
+
+div#globalNav li#gtravel a {
+	width:65px;
+	background-position:-769px top;
+}
+
+div#globalNav li#gtravel a:hover {
+	background-position:-769px bottom;
+}
+
+/* ---------- 住まいをさがす ---------- */
+div#globalNav li#ghouse {
+	left:834px;
+}
+
+div#globalNav li#ghouse a {
+	width:65px;
+	background-position:-834px top;
+}
+
+div#globalNav li#ghouse a:hover {
+	background-position:-834px bottom;
+}
+

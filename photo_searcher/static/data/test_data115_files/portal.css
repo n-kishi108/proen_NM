@@ -1,0 +1,757 @@
+﻿@charset "utf-8";
+table{height:0px;}
+/* ==
+  基準用CSS STYLES FOR i-SITE PORTAL 
+== */
+body
+{
+  font-size: small;
+  padding: 0px;
+  line-height: 1.2;
+}
+
+/* IEのバグ対策につき不用意に変更してはいけません。 */
+/* ↓↓ ここから ↓↓ */
+/* Win IE & Mac Dumy \*/
+* html .BodyDef
+{
+  height: 1%;
+}
+/* Win IE & Mac Dumy */
+/* ↑↑ ここまで ↑↑ */
+
+#BaseTable, 
+#SystemMenu,
+#HeaderPane,
+#LeftPane,
+#CRPaneTd,
+#ContentPane,
+#RightPane,
+#FooterPane
+{
+  border: none 0px black;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+}
+
+/*** 一般、システム共用定義 ***/
+/* システムメニュー */
+#SystemMenu
+{
+  background-color: #2e578b;
+  font-size: 12px;
+  color: white;
+  text-align: right;
+}
+
+#SystemMenu A:link
+{
+  text-decoration: underline;
+  color: white;
+}
+
+#SystemMenu A:visited
+{
+  text-decoration: underline;
+  color: white;
+}
+
+#SystemMenu A:hover
+{
+  text-decoration: underline;
+  color: #ffff99;
+}
+
+#SystemMenu A:active
+{
+  text-decoration: underline;
+  color: white;
+}
+
+#SystemMenu span
+{
+  font-weight: bold;
+  color: red;
+}
+
+/* 通常リンク */
+A:link
+{
+  text-decoration: underline;
+  color: black;
+}
+
+A:visited
+{
+  text-decoration: underline;
+  color: #00008b;
+}
+
+A:hover
+{
+  text-decoration: underline;
+  color: #8b0000;
+}
+
+A:active
+{
+  text-decoration: underline;
+  color: black;
+}
+
+/* GENERIC */
+Table
+{
+  border-collapse: collapse;
+}
+
+P
+{
+  margin: 2px;
+  padding: 2px;
+}
+
+IMG 
+{ 
+  border:0px; 
+} 
+
+H1, H2, H3, H4, H5, H6, DT
+{
+  color: #666644;
+  margin: 2px;
+  padding: 2px;
+  height:auto;
+}
+
+H1
+{
+  font-size: xx-large;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+H2
+{
+  font-size: small;/*x-large;*/
+  font-weight: normal;
+  margin-bottom: 7px;
+}
+
+H3
+{
+  font-size: large;
+  font-weight: normal;
+  margin-bottom: 6px;
+}
+
+H4
+{
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+H5, DT
+{
+  font-size: small;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+H6
+{
+  font-size: x-small;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+DIR, MENU
+{
+  font-size: small;
+  margin-bottom: 3px;
+}
+
+ADDRESS
+{
+  font-size: x-small;
+}
+
+TFOOT, THEAD
+{
+  font-size: small;
+  color: #666644;
+}
+
+SMALL
+{
+  font-size: xx-small;
+}
+
+BIG
+{
+  font-size: xx-large;
+}
+
+PRE
+{
+  font-size: x-small;
+  padding-left: 5px;
+  padding-bottom: 3px;
+  color: #708090;
+}
+
+BLOCKQUOTE, Q
+{
+  font-family: 'ＭＳ ゴシック' , 'Osaka－等幅' , 'Courier New', 'Courier', monospace;
+  color: gray;
+}
+
+UL
+{
+  list-style: square outside;
+  margin-left:2.0em;
+  padding-left:0em;
+}
+
+UL UL
+{
+  list-style: disc outside;
+}
+
+UL UL UL
+{
+  list-style: circle outside;
+}
+
+OL
+{
+  list-style: decimal outside;
+  margin-left:2.0em;
+  padding-left:0em;
+}
+
+OL OL
+{
+  list-style: lower-alpha outside;
+}
+
+OL OL OL
+{
+  list-style: lower-roman outside;
+}
+
+/* HRは記載しないほうがよい */
+
+/*** 主にシステム用定義 ***/
+/* 汎用文字 */
+.NormalTextSmall
+{
+  font-size: xx-small;
+  color: black;
+}
+
+.NormalText
+{
+  font-size: x-small;
+  color: black;
+}
+
+.NormalTextMedium
+{
+  font-size: small;
+  color: black;
+}
+
+.NormalTextLarge
+{
+  font-size: medium;
+  color: black;
+}
+
+/* 汎用テキストボックス */
+.NormalTextBox
+{
+  font-size: small;
+}
+
+/* 小見出し用 */
+.ContentsSubTitle
+{
+  font-size: small;
+  color: #B9801E;
+}
+
+/* 編集小見出し用 */
+.EditCaption
+{
+  /*font部分はContentsSubTitle と同じにする*/
+  vertical-align: top;
+  font-size: small;
+  color: #B9801E;
+  border-bottom: 1px dotted #0871b5;
+}
+
+/* 編集汎用文字 */
+.EditContent
+{
+  /*font部分はNormalTextMediumと同じにする*/
+  vertical-align: top;
+  font-size: small;
+  color: black;
+  border-bottom: 1px dotted #0871b5;
+}
+
+/* 反転タイトル */
+.EditTitleCaption
+{
+  font-size: medium;
+  color: white;
+  background-color: #2e578b;
+}
+
+.EditTitleCaption h3
+{
+  font-size: medium;
+  margin: 0px;
+  padding: 0px;
+  color:white;
+}
+
+/* 編集時モジュールタイトル */
+.EditModuleTitle
+{
+  font-size: x-small;
+  color: white;
+  background-color: #2e578b;
+  padding-top: 1px;
+}
+
+.ModuleTitleTable
+{
+  vertical-align: bottom;
+  border:0px;
+  padding:0px;
+  width:95%;
+}
+
+.ModuleTitleTable .TitleInherit
+{
+  border:0px;
+  text-align:left;
+  padding:1px 0px;
+}
+
+.ModuleTitleTable .TitleMessage
+{
+  text-align:left;
+  padding:1px 0px;
+}
+
+.ModuleTitleTable .TitleIcon
+{
+  text-align:right;
+  padding:1px 0px;
+}
+
+/* 管理者ツールモジュールタイトル */
+.AdminModuleTitle
+{
+  font-size: small;
+  color: white;
+  background-color: #2e578b;
+}
+
+/* エラー表示 */
+.Error
+{
+  font-size: small;
+  color: red; /*crimson; */
+}
+
+/* 文字コードエラー表示 */
+.CodeError,
+.CodeErrorFloat
+{
+  border: solid 1px black;
+  color: black;
+  background-color: #ffff66;
+  margin: 2px;
+  padding: 2px;
+}
+
+.CodeErrorFloat
+{
+  float:left;
+}
+
+/* 動作状態表示 */
+.RunningStatus
+{
+  font-size: small;
+  color: #003399;
+}
+
+/* 説明表示 */
+.NotesText
+{
+  font-size: x-small;
+  color: #003399;
+}
+
+/* 反転説明表示 */
+.ReverseNotes
+{
+  font-size: x-small;
+  color: white;
+  background-color: #003399;
+  margin: 0px 2px;
+  padding: 0px 2px;
+  letter-spacing: 1px;
+}
+
+/* 補助表示 */
+.SubText
+{
+  font-size: small;
+  color: gray;
+}
+
+/* 無効表示 */
+.DisableText
+{
+  font-size: small;
+  color: #aca899;
+}
+
+/* 文責表示 */
+.Responsibility
+{
+  font-size: x-small;
+  color: gray;
+}
+
+/* BBSコード引用[quote]用 */
+.bbsquote
+{
+  font-size: small;
+  color: gray;
+}
+
+/* BBSコードcode[code]用 */
+.bbscode
+{
+  font-size: x-small;
+  color: #708090;
+}
+
+/* DOCTYPE 標準モード 調整 
+TD
+{
+  text-align: left;
+}
+*/
+
+/* 一覧表示ヘッダ用 */
+.SiteLink
+{
+  font-size: small;
+  color: white;
+  background-color: #8b4513;
+}
+
+TD.SiteLink
+{
+  text-align: center;
+}
+
+TD.SiteLink A:link
+{
+  text-decoration: underline;
+  color: white;
+}
+
+TD.SiteLink A:visited
+{
+  text-decoration: underline;
+  color: white;
+}
+
+TD.SiteLink A:hover
+{
+  text-decoration: underline;
+  color: #ffff99;
+}
+
+TD.SiteLink A:active
+{
+  text-decoration: underline;
+  color: white;
+}
+
+TR.SiteLink
+{
+  text-align: center;
+}
+
+TR.SiteLink A:link
+{
+  text-decoration: underline;
+  color: white;
+}
+
+TR.SiteLink A:visited
+{
+  text-decoration: underline;
+  color: white;
+}
+
+TR.SiteLink A:hover
+{
+  text-decoration: underline;
+  color: #ffff99;
+}
+
+TR.SiteLink A:active
+{
+  text-decoration: underline;
+  color: white;
+}
+
+/* 顔文字等アイコン代替表示 等幅フォント */
+.Icon
+{
+  font-family: 'ＭＳ ゴシック' , 'Osaka－等幅' , 'Courier New', 'Courier', monospace;
+  font-weight: normal;
+  font-size: x-small;
+  color: black;
+}
+
+A.Icon:link
+{
+  text-decoration: none;
+  color: black;
+}
+
+A.Icon:visited
+{
+  text-decoration: none;
+  color: black;
+}
+
+A.Icon:hover
+{
+  text-decoration: none;
+  color: black;
+}
+
+A.Icon:active
+{
+  text-decoration: none;
+  color: black;
+}
+
+/* コマンドリンク文字列用 */
+.CommandButton
+{
+  font-weight: normal;
+  font-size: x-small;
+  color: black;
+}
+
+A.CommandButton:link
+{
+  text-decoration: underline;
+  color: #8b0000;
+}
+
+A.CommandButton:visited
+{
+  text-decoration: underline;
+  color: #8b0000;
+}
+
+A.CommandButton:hover
+{
+  text-decoration: underline;
+  color: red;
+}
+
+A.CommandButton:active
+{
+  text-decoration: underline;
+  color: #8b0000;
+}
+
+/* 文字列ボタン用 フォントサイズは固定 */
+.ButtonImage
+{
+  font-family: 'ＭＳ Ｐゴシック', 'Osaka', 'Arial', sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: black;
+}
+
+A.ButtonImage:link
+{
+  text-decoration: none;
+  color: black;
+}
+
+A.ButtonImage:visited
+{
+  text-decoration: none;
+  color: black;
+}
+
+A.ButtonImage:hover
+{
+  text-decoration: none;
+  color: black;
+}
+
+A.ButtonImage:active
+{
+  text-decoration: none;
+  color: black;
+}
+
+/* 基本文字色 */
+.ForeColor
+{
+  color: black;
+}
+
+/* orangeTable */
+Table.orangeTable
+{
+  background-color: #fffacd;
+  border: none;
+  border-collapse: collapse;
+  margin: 1em;
+  font-size: x-small;
+}
+
+Table.orangeTable th
+{
+  padding: 0.3em 1em;
+  border-top: 1px solid #f06000;
+  border-bottom: 1px solid #f06000;
+  border-left: none;
+  border-right: none;
+  empty-cells: show;
+  background-color: #f0c090;
+}
+
+Table.orangeTable td
+{
+  padding: 0.3em 1em;
+  border-top: 1px solid #f06000;
+  border-bottom: 1px solid #f06000;
+  border-left: none;
+  border-right: none;
+  empty-cells: show;
+}
+
+Table.orangeTable thead
+{
+  color: black;
+  font-size: medium;
+}
+
+/* blueTable */
+Table.blueTable
+{
+  float: left;
+  background-color: white;
+  border-collapse: collapse;
+  border: 3px solid #306090;
+  font-size: x-small;
+}
+
+Table.blueTable th
+{
+  padding: 0.3em 2em;
+  empty-cells: show;
+  border: none;
+  color: white;
+  background-color: #306090;
+}
+
+Table.blueTable td
+{
+  padding: 0.3em 2em;
+  empty-cells: show;
+  border-top: none;
+  border-bottom: none;
+  border-left: 1px solid #306090;
+  border-right: 1px solid #306090;
+}
+
+Table.blueTable .altertd
+{
+  color: black;
+  background-color: #e0e0e0;
+}
+
+Table.blueTable thead
+{
+  color: black;
+  background-color: #f0c090;
+  font-size: medium;
+}
+
+/* 全体の内容 */
+.Contents
+{
+  font-weight: normal;
+  font-size: small;
+}
+
+/* コード等表示 等幅フォント */
+.ProgramCode
+{
+  font-family: 'ＭＳ ゴシック' , 'Osaka－等幅' , 'Courier New', 'Courier', monospace;
+  font-weight: normal;
+  font-size: small;
+  color: #404040;
+}
+
+/* 掃除ペイン */
+.EndClear
+{
+  clear: both;
+}
+
+/* 音声ブラウザ用 */
+.speak 
+{
+	position:absolute;
+	top:-9999px;
+	left:-9999px;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+	font-size: 0;
+	width: 0;
+	height: 0;
+}
+
+/* 印刷用 */
+.print_none
+{
+  margin:0px;
+  padding:0px;
+  border: none 0px black;
+  display:block;
+}
+
+@media print
+{
+div .print_none
+{
+  display:none;
+}
+}

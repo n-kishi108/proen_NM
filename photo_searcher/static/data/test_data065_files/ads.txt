@@ -1,0 +1,63 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BLSM-5Uy1S7mbDIyi7AO-oIDzBu3ntyHRlaa2BcCNtwHA1YcJEAEYASCAxuQDKAQ4AFDUrIPM-v____8BYInrvYTgE7IBHWFxdWEtbWF5dW1pLmNvY29sb2ctbmlmdHkuY29tyAEB2gFFaHR0cDovL2FxdWEtbWF5dW1pLmNvY29sb2ctbmlmdHkuY29tL3B1cmVfYmx1ZS8yMDA4LzAxL3Bvc3RfMmViMC5odG1sgAIBqQLNaBOldfFGPqgDAegDpQLoA70E9QMAAADE9QMEAAAA&amp;num=1&amp;sig=AGiWqtytYg8wv_YpX8tg6WSHPeAemz7Xng&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://www.lechiffon.com"; 
+google_ad.visible_url = "www.lechiffon.com"; 
+google_ad.line1 = "\x26#12489;\x26#12524;\x26#12473;\x26#12395;\x26#12371;\x26#12384;\x26#12431;\x26#12427;\x26#32080;\x26#23130;\x26#20889;\x26#30495;"; 
+google_ad.line2 = "\x26#27700;\x26#25144;\x26#12398;\x26#35079;\x26#21512;\x26#22411;\x26#12454;\x26#12455;\x26#12487;\x26#12451;\x26#12531;\x26#12464;\x26#23554;\x26#38272;\x26#20889;\x26#30495;\x26#39208;"; 
+google_ad.line3 = "\x26#12489;\x26#12524;\x26#12473;\x26#12471;\x26#12519;\x26#12483;\x26#12503;\x26#20341;\x26#35373;\x26#12391;\x26#22311;\x26#20498;\x26#30340;\x26#12394;\x26#21697;\x26#25539;\x26#12360;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=Buovw5Uy1S7mbDIyi7AO-oIDzBpCKiJcBuou8ww_AjbcBgIqoNxACGAIggMbkAygEOABQ8O-TNmCJ672E4BOgAbiEvv0DsgEdYXF1YS1tYXl1bWkuY29jb2xvZy1uaWZ0eS5jb23IAQHaAUVodHRwOi8vYXF1YS1tYXl1bWkuY29jb2xvZy1uaWZ0eS5jb20vcHVyZV9ibHVlLzIwMDgvMDEvcG9zdF8yZWIwLmh0bWypAs1oE6V18UY-qAMB6AOlAugDvQT1AwAAAMT1AwQAAAA&amp;num=2&amp;sig=AGiWqtx-1iytTXMsgfqKf4DraGETtGqCtg&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://www.norluss.com/syuusyoku.html"; 
+google_ad.visible_url = "www.norluss.com/syuusyoku.html"; 
+google_ad.line1 = "\x26#22823;\x26#38442;\x26#24515;\x26#25998;\x26#27211;1\x26#20998;\x26#12494;\x26#12540;\x26#12523;\x26#12473;"; 
+google_ad.line2 = "\x26#23601;\x26#32887;\x26#29992;\x26#35388;\x26#26126;\x26#20889;\x26#30495;\x26#12399;\x26#12362;\x26#20219;\x26#12379;\x26#12367;\x26#12384;\x26#12373;\x26#12356;\x26#12290;"; 
+google_ad.line3 = "HP\x26#12395;1000\x26#20870;\x26#21106;\x26#24341;\x26#12481;\x26#12465;\x26#12483;\x26#12488;\x26#12354;\x26#12426;\x26#12414;\x26#12377;\x26#12290;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BwWQy5Uy1S7mbDIyi7AO-oIDzBsfmkaIBlbPYmQ3AjbcBwLn0SRADGAMggMbkAygEOABQ4ea_hPj_____AWCJ672E4BOyAR1hcXVhLW1heXVtaS5jb2NvbG9nLW5pZnR5LmNvbcgBAdoBRWh0dHA6Ly9hcXVhLW1heXVtaS5jb2NvbG9nLW5pZnR5LmNvbS9wdXJlX2JsdWUvMjAwOC8wMS9wb3N0XzJlYjAuaHRtbKkCzWgTpXXxRj6oAwHoA6UC6AO9BPUDAAAAxPUDBAAAAA&amp;num=3&amp;sig=AGiWqtzyCYC77CKFNMAIWVhMzQzkYNwdrQ&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://www.happywedding-alloc.jp/kawagoe"; 
+google_ad.visible_url = "www.happywedding-alloc.jp/kawagoe"; 
+google_ad.line1 = "\x26#24029;\x26#36234;\x26#12391;\x26#12495;\x26#12454;\x26#12473;\x26#12454;\x26#12456;\x26#12487;\x26#12451;\x26#12531;\x26#12464;"; 
+google_ad.line2 = "\x26#32032;\x26#25973;\x26#12394;\x26#12454;\x26#12456;\x26#12487;\x26#12451;\x26#12531;\x26#12464;\x26#12434;\x26#28436;\x26#20986;\x26#12377;\x26#12427;"; 
+google_ad.line3 = "\x26#12450;\x26#12525;\x26#12465;\x26#12540;\x26#12488;\x26#12454;\x26#12456;\x26#12487;\x26#12451;\x26#12531;\x26#12464;\x26#12539;\x26#12513;\x26#12475;\x26#12490;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 4; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B--W95Uy1S7mbDIyi7AO-oIDzBpr7vpwBgKe7tRDAjbcBwO_QTxAEGAQggMbkAygEOABQ_JiCgfz_____AWCJ672E4BOgAZS_hvoDsgEdYXF1YS1tYXl1bWkuY29jb2xvZy1uaWZ0eS5jb23IAQHaAUVodHRwOi8vYXF1YS1tYXl1bWkuY29jb2xvZy1uaWZ0eS5jb20vcHVyZV9ibHVlLzIwMDgvMDEvcG9zdF8yZWIwLmh0bWypAs1oE6V18UY-yAKa_88QqAMB6AOlAugDvQT1AwAAAMT1AwQAAAA&amp;num=4&amp;sig=AGiWqtzXa0lJvB1VtbOBv2fqkCPMQef8iA&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://www.kekkonbiyori.jp"; 
+google_ad.visible_url = "kekkonbiyori.jp"; 
+google_ad.line1 = "\x26#31070;\x26#31038;\x26#12391;\x26#25369;\x26#24335; \x26#20140;\x26#37117;\x26#32080;\x26#23130;\x26#26085;\x26#21644;"; 
+google_ad.line2 = "\x26#20140;\x26#37117;\x26#12398;\x26#31070;\x26#31038;\x26#25369;\x26#24335;\x26#30456;\x26#35527;\x26#20250;\x26#38283;\x26#20652;"; 
+google_ad.line3 = "\x26#31070;\x26#31038;\x26#25369;\x26#24335;\x26#12503;\x26#12521;\x26#12531;\x26#12391;\x26#32080;\x26#23130;\x26#28310;\x26#20633;\x26#12434;\x26#12469;\x26#12509;\x26#12540;\x26#12488;"; 
+google_ad.regionname = ""; 
+google_ads[3] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://aqua-mayumi.cocolog-nifty.com/pure_blue/2008/01/post_2eb0.html%26hl%3Dja%26client%3Dca-nifty-cocolog-user_js%26adU%3Dwww.lechiffon.com%26adT%3D%25E3%2583%2589%25E3%2583%25AC%25E3%2582%25B9%25E3%2581%25AB%25E3%2581%2593%25E3%2581%25A0%25E3%2582%258F%25E3%2582%258B%25E7%25B5%2590%25E5%25A9%259A%25E5%2586%2599%25E7%259C%259F%26adU%3Dwww.norluss.com/syuusyoku.html%26adT%3D%25E5%25A4%25A7%25E9%2598%25AA%25E5%25BF%2583%25E6%2596%258E%25E6%25A9%258B1%25E5%2588%2586%25E3%2583%258E%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%25B9%26adU%3Dwww.happywedding-alloc.jp/kawagoe%26adT%3D%25E5%25B7%259D%25E8%25B6%258A%25E3%2581%25A7%25E3%2583%258F%25E3%2582%25A6%25E3%2582%25B9%25E3%2582%25A6%25E3%2582%25A8%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%26adU%3Dkekkonbiyori.jp%26adT%3D%25E7%25A5%259E%25E7%25A4%25BE%25E3%2581%25A7%25E6%258C%2599%25E5%25BC%258F%2B%25E4%25BA%25AC%25E9%2583%25BD%25E7%25B5%2590%25E5%25A9%259A%25E6%2597%25A5%25E5%2592%258C%26gl%3DJP%26hideleadgen%3D1\x26usg\x3dAFQjCNHg-rfZtHhDJFTyg6kDbCV-oKxNrw"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

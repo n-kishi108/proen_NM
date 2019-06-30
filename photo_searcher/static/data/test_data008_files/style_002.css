@@ -1,0 +1,13 @@
+/* ロゴ */
+div#header div#siteheader h1 a {
+	background-image:url(../img/header/logo.gif);
+}
+
+/* aboutus */
+div#aboutus h2 {
+	height:18px;
+	text-indent:-10000px;
+	line-height:100%;
+	background:#ccc url(../img/title/aboutus.gif) no-repeat top left;
+	margin:0 0 0.3em 0;
+}

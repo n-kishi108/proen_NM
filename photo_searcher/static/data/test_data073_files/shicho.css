@@ -1,0 +1,28 @@
+@charset "Shift_JIS";
+
+/* ƒ^ƒCƒgƒ‹
+---------------------------------------------------- */
+
+.mati-03 {
+ padding:5px;
+ font-size:xx-small;
+ text-align:right;
+}
+
+
+.sosiki-01 {
+ margin:0px;
+ padding:5px;
+ background-color:#ECEEED;
+ font-size:medium;
+ border-width:0px 0px 1px 5px;
+ border-style:solid;
+ border-color:#28568C;
+}
+
+.mati-04 {
+ font-size:small;
+ line-height:1.3em;
+ margin-left:20px;
+ margin-right:10px;
+}

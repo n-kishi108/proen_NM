@@ -1,0 +1,1 @@
+if(typeof(aa)=="undefined"){var aa={};}if(typeof(aa.l)=="undefined"){aa.l={};}aa.l.mainichinews=[{},{pkid:"032482",t:'旅行で役立つ便利で快適なアイテムとは？',u:'http://sos.allabout.co.jp/2/Cgi/r_sos.php?pckh=032482&pckd=1&ac=20&p=mainichinews&url=http://click.linksynergy.com/fs-bin/click?id=xvE1aQhURW4&offerid=138583.10000289&type=3&subid=0',d:'',i:'',g:'',ac:"20",place:"mainichinews"}];

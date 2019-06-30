@@ -1,0 +1,402 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #FFFFFF;
+}
+
+a {color: #FFFFFF;text-decoration: none;}
+a:link {color: #ff00ff; text-decoration: none;}
+a:active {color: #ff00ff; text-decoration: none;}
+a:visited {color: #ff00ff; text-decoration: none;}
+a:hover {color: #FFFFFF; text-decoration: none;}
+
+ul {
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+}
+
+li {
+	color: #355900;
+}
+
+form{
+	margin:0px;
+}
+
+.site_title {
+	font-family: "Verdana", "MS UI Gothic", "Osaka¡¾ÅùÉý";
+	font-size: 200%;
+         font-weight: bolder;
+	color: #ff8000;
+	margin: 30px 10px 10px 20px;
+         text-align: center;
+}
+
+.site_title a,
+.site_title a:link,
+.site_title a:visited,
+.site_title a:active,
+.site_title a:hover {
+	color: #ff8000;
+	text-decoration: none;
+}
+
+.description {
+	font-family: "Verdana", "MS UI Gothic", "Osaka¡¾ÅùÉý";
+	font-size: 16px;
+         font-weight: bolder;
+	color: #0000ff;
+	margin: 0px 0px 0px 20px;
+         text-align: center;
+         }
+
+blockquote {
+	font-family: "Verdana","MS UI Gothic", "Osaka¡¾ÅùÉý";
+	font-size: 11px;
+	color: #6BB300;
+	margin: 20px 10px 20px 10px;
+	padding: 10px;
+	border: 1px solid #F5F5DC;
+	border-left:  10px solid #F5F5DC;
+}
+
+.pict {
+	background: #dcdcdc;
+	margin: 15px 0px 15px 0px;
+	padding: 8px;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	align: center;
+}
+
+
+
+/* container------------------------------------------------------------ */
+#container1 {
+	margin: 0px auto 0px auto;
+	padding: 0px;
+         background: #94DB00;
+	}
+
+#container2 {
+	margin: 0px;
+	padding: 0px;
+	background: #94DB00;
+         }
+
+
+
+/* head----------------------------------------------------------------- */
+#head {
+	width: 1000px;
+	height: 120px;
+         background-image:url(http://www.educ.yonezawa.yamagata.jp/kojo/sb3/img/img0_img1_newkousya21111.jpg);
+         background-repeat:repeat;
+         background-position:center;
+}
+
+
+/* search--------------------------------------------------------------- */
+#search_box {
+	width: 750px;
+         height: 30px;
+	margin: 10px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+	text-align: right;
+         border-bottom: 1px dashed #9c9c9c;
+         }
+
+.search {
+	font-family: "Verdana", "MS UI Gothic", "Osaka¡¾ÅùÉý";
+	font-size: 10px;
+	color: #000;
+	margin: 0px 10px 5px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+
+/* left----------------------------------------------------------------- */
+#left {
+	width: 180px;
+	margin: 0px;
+	padding: 0px;
+	background: #94DB00;
+}
+
+
+.title_img {
+	margin: 0px;
+	padding: 0px;
+	}
+
+.left_title {
+	font-size: 12px;font-family:"Verdana";
+	color: #355900;
+           background: #FFFFFF;
+	margin: 5px 5px 5px 5px;
+	padding: 3px;
+	text-align: left;
+}
+
+.left_text {
+	font-family: "Verdana", "MS UI Gothic";
+	font-size: 12px;
+	color: #355900;
+	line-height: 100%;
+	margin: 1px 5px 10px 5px;
+	padding: 10px;
+}
+
+.links {
+	margin: 0px;
+	padding: 1px 0px 0px 0px;
+	background: #94DB00;
+}
+
+.recommend {
+	margin: 0px;
+	border-bottom: 1px dashed #FFF;
+}
+
+/* calendar------------------------------------------------------------- */
+
+.calendar {
+	font-size: 10px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	color: #FFFFFF;
+	}
+
+.calendar_month {
+	font-family: "Verdana";
+	margin-bottom: 12px;
+	font-size: 12px;
+	color: #005C7B;
+	}
+
+.cell {
+	font-size: 12px;
+	width:26px;
+	height:16px;
+	border: solid 1px #FFFFFF;
+	margin: 0px 0px 10px 10px;
+	padding: 6px 6px 6px 6px;
+	text-align: center;
+	color: #94DB00;
+	}
+
+
+/* mid------------------------------------------------------------------ */
+#mid {
+	width: 610px;
+	margin: 0px;
+	padding: 0px;
+	background: #94DB00;
+}
+.entry_navi{
+	margin: 4px;
+	padding: 2px 0px;
+	background: #94DB00;
+	text-align:center;
+	font-size: 12px;
+}
+
+.entry {
+	margin: 4px;
+	padding: 10px 0px 10px 0px;
+	background-color: #FFFFFF;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:right bottom;}
+
+.entry_date {
+	font-family: "Verdana";
+	font-size: 13px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	margin: 0px 10px 5px 0px;
+	padding: 3px;
+/*	background: #C54343;*/
+	background: #94DB00;
+	text-align: right;
+}
+
+.entry_title {
+	font-family: "Verdana", "MS UI Gothic", "Osaka¡¾ÅùÉý";
+	font-size: 14px;
+	font-weight: bolder;
+	color: #5B9900;
+	margin: 12px;
+}
+
+.entry_author {
+	font-family: "Verdana", "MS UI Gothic", "Osaka¡¾ÅùÉý";
+	font-size: 13px;
+	font-weight: normal;
+	color: #739900;
+	margin: 12px 12px 12px 0px;
+	text-align: right;
+}
+
+.entry_more a {text-decoration: none;}
+.entry_more a:link {color: #5B9900; text-decoration: none;}
+.entry_more a:active {color: #5B9900; text-decoration: none;}
+.entry_more a:visited {color: #5B9900; text-decoration: none;}
+.entry_more a:hover {color: #FFFFFF; text-decoration: none;}
+
+.entry_body {
+	font-family: "Verdana","MS UI Gothic", "Osaka¡¾ÅùÉý";
+	font-size: 14px;
+	line-height: 100%;
+	color: #355900;
+	margin: 3px;
+	}
+
+.entry_more {
+	font-family: "Verdana","MS UI Gothic", "Osaka¡¾ÅùÉý";
+	font-size: 13px;
+	line-height: 100%;
+	color: #355900;
+	margin: 12px;
+}
+
+.entry_more a {text-decoration: none;}
+.entry_more a:link {color: #5B9900; text-decoration: none;}
+.entry_more a:active {color: #5B9900; text-decoration: none;}
+.entry_more a:visited {color: #5B9900; text-decoration: none;}
+.entry_more a:hover {color: #FFFFFF; text-decoration: none;}
+
+.entry_state {
+	font-family: "Verdana","MS UI Gothic", "Osaka¡¾ÅùÉý";
+	font-size: 11px;
+	color: #355900;
+	margin: 20px 12px 15px 12px;
+         text-align: right;
+}
+
+.entry_state a {text-decoration: none;}
+.entry_state a:link {color: #5B9900; text-decoration: none;}
+.entry_state a:active {color: #5B9900; text-decoration: none;}
+.entry_state a:visited {color: #5B9900; text-decoration: none;}
+.entry_state a:hover {color: #FFFFFF; text-decoration: none;}
+
+
+
+/* right---------------------------------------------------------------- */
+#right {
+	width: 210px;
+	margin: 0px;
+	padding: 0px;
+	background: #94DB00;
+}
+
+
+.right_title {
+	font-size: 12px;font-family:"Verdana";
+	color: #355900;
+           background: #FFFFFF;
+	margin: 5px 5px 5px 5px;
+	padding: 3px;
+	text-align: left;
+}
+
+#commentlist,
+#tblist,
+#newentrylist,
+.right_text {
+	font-family: "Verdana", "MS UI Gothic", "Osaka¡¾ÅùÉý";
+	font-size: 14px;
+	color: #9c9c9c;
+	line-height: 100%;
+	margin: 1px 5px 10px 4px;
+	padding: 10px;
+}
+
+.border {
+	margin: 0px;
+	padding: 0px;
+	}
+
+.login {
+	width: 180;
+	font-family: "Verdana", "MS UI Gothic", "Osaka¡¾ÅùÉý";
+	font-size: 10px;
+	color: #9c9c9c;
+	margin: 0px 0px 30px 0px;
+	padding: 15px 10px 10px 0px;
+	text-align: right;
+	vertical-align: middle;
+	line-height: 100%;
+}
+
+.mailall{text-align: right;
+         margin: 0px 0px 10px 0px;
+         padding: 15px 10px 10px 0px;
+}
+
+.mailform{
+}
+
+.mailtable{
+}
+
+.mailtd{
+}
+
+.mailinput{
+}
+
+.mailtextarea{width:160px;
+              height:60px;
+}
+
+.mname{font-family: "Verdana", "MS UI Gothic", "Osaka¡¾ÅùÉý";
+       font-size: 10px;
+       color: #9c9c9c;
+
+.msite{font-family: "Verdana", "MS UI Gothic", "Osaka¡¾ÅùÉý";
+       font-size: 10px;
+       color: #9c9c9c;
+}
+
+.mmail{font-family: "Verdana", "MS UI Gothic", "Osaka¡¾ÅùÉý";
+       font-size: 10px;
+       color: #9c9c9c;
+}
+
+.mcomment{font-family: "Verdana", "MS UI Gothic", "Osaka¡¾ÅùÉý";
+          font-size: 10px;
+          color: #9c9c9c;
+}
+
+.mailbutton{
+}
+
+
+
+/* footer--------------------------------------------------------------- */
+#footer {
+	width: 1001px;
+	margin: 0px;
+	padding: 0px;
+	background: #C8FF75;
+	border-top: 1px dashed #355900;
+}
+
+.copyright {
+	font-family: "Verdana","MS UI Gothic", "Osaka¡¾ÅùÉý";
+	font-size: 9px;
+	color: #696969;
+	line-height: 130%;
+	margin: 0px;
+	padding: 6px 4px 4px 4px;
+	text-align: center;
+}
+
+.copyright a:visited,
+.copyright a:active,
+.copyright a:hover {
+	color: #696969;
+	text-decoration: none;
+}

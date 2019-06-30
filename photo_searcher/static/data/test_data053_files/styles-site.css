@@ -1,0 +1,460 @@
+html {
+    margin: 0;
+    /* setting border: 0 hoses ie6 win window inner well border */
+    padding: 0;
+}
+
+body {
+margin:0px;
+padding:0px;
+background: url(/mtimg/body.gif);
+font-size:14px;
+font-family: Meiryo, "メイリオ", "Hiragino Kaku Gothic Pro W5", "ヒラギノ角ゴ Pro W5", Osaka, "MS P Gothic", "ＭＳ Ｐゴシック", sans-serif;
+ }
+
+form { margin: 0; padding: 0; }
+a { text-decoration: underline; }
+a img { border: 0; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+h1, h2, h3, h4, h5, h6, p, ol, ul, pre, blockquote {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+
+/* standard helper classes */
+
+.clr {
+    clear: both;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    margin: 0 -1px -1px 0;
+    border: 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+/* .pkg class wraps enclosing block element around inner floated elements */
+.pkg:after {
+    content: " ";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0.1px;
+    font-size: 0.1em;
+    line-height: 0;
+}
+/* html .pkg { display: inline-block; }*/
+/* no ie mac ﾂ･*/
+/** html .pkg { height: 1%; }*/
+/*.pkg { display: block; }*/
+/* */
+
+
+
+/* page layout */
+
+
+ /* center on ie */
+
+#container {
+    position: absolute;
+	top:0px;
+	left:50%;
+    margin: 0px;
+	margin-left:-398px;
+	padding:0px;
+    width: 796px;
+    text-align: left;
+	background:#341A09 url(/mtimg/container.gif) repeat-y;
+}
+#container-inner {
+width:745px;
+margin-left:26px;
+background:url(/mtimg/footer.gif) no-repeat left bottom;
+}
+
+#banner {
+  display:none;
+ }
+#banner-inner {
+}
+#banner-inner h1, #banner-inner h2{
+margin:0px;
+padding:0px;
+font-size:1px;
+}
+/*
+#pagebody { position: relative; }
+#pagebody-inner { position: static; }
+*/
+
+#banner2 {
+ position:relative; 
+ margin-left:218px;
+ width:394px;
+ height:30px;
+ }
+
+
+#alpha, #beta, #gamma, #delta {
+    position: relative;
+    float: right;
+}
+
+#alpha {
+width:530px;
+margin-left:22px;
+/*
+background:url(mtimg/alpha.jpg) no-repeat;
+padding-top:200px;*/
+}
+
+#beta {
+margin-top:-30px;
+width:193px;
+margin-bottom:50px;
+}
+
+/*
+#alpha-inner, #beta-inner, #gamma-inner, #delta-inner {
+    position: static;
+}
+*/
+
+#alpha #info{
+margin-top:5px;
+width:530px;
+height:39px;
+background:url(/mtimg/info.jpg);
+margin:0px;
+}
+#alpha #info span{
+visibility:hidden;
+}
+
+#alpha #info-body{
+background:url(/mtimg/info-body.gif);
+padding:15px 0px;
+}
+
+#alpha #info-body .entry{
+background:url(/mtimg/entry.gif) no-repeat left center;
+margin-left:16px;
+margin-bottom:3px;
+padding-left:20px;
+}
+
+
+
+
+#ichiran{
+text-align:right;
+padding-right:10px;
+}
+#ichiran a:link{
+text-decoration:none;
+color:#d6fc00;
+}
+#ichiran a:visited{
+text-decoration:none;
+color:#d6fc00;
+}
+#ichiran a:hover{
+text-decoration:underline;
+color:#d6fc00;
+}
+
+#alpha #info-footer{
+width:530px;
+height:5px;
+background:url(/mtimg/info-footer.jpg);
+margin-bottom:10px;
+}
+
+
+
+#alpha #entryContainerHeader{
+width:530px;
+height:39px;
+margin:0px;
+margin-top:5px;
+background:url(/mtimg/info-header.jpg);
+position:relative;
+}
+#alpha #entryContainerHeader .categoryDescription{
+margin-left:15px;
+padding-top:8px;
+font-size:14px;
+color:#fff;
+margin-bottom:0px;
+line-height:1em;
+}
+#alpha #entryContainerHeader .categoryLabel{
+margin-left:15px;
+font-size:9px;
+color:#fff;
+font-family:monospace, sans-serif;
+}
+
+
+#alpha #entryContainerBody{
+background:#482102 url(/mtimg/info-body.gif);
+color:#fff;
+padding:15px;
+}
+#entryContainerBody h2, #entryContainerBody h3, #entryContainerBody h4  {
+font-size:1em;
+}
+#alpha #entryContainerFooter{
+width:530px;
+height:5px;
+background:url(/mtimg/info-footer.jpg);
+margin-bottom:10px;
+}
+#entryContainerBody #archive-title{
+font-size:1.2em;
+font-weight:normal;
+color:#D6FF00;
+border-bottom:#D6FF00 1px dotted;
+padding-left:12px;
+padding-bottom:10px;
+margin:0px;
+margin-bottom:5px;
+}
+#entryContainerBody a:link{
+color:#D6FF00;
+text-decoration:underline;
+}
+#entryContainerBody a:visited{
+color:#D6FF00;
+text-decoration:underline;
+}
+#entryContainerBody a:hover{
+color:#fff;
+text-decoration:none;
+}
+
+.trackbacks h3, .comments h3{
+margin-top:15px;
+margin-bottom:5px;
+border-top:#D6FF00 1px dotted;
+padding-top:10px;
+font-size:1em;
+}
+
+
+
+
+#alpha .categoryHeader{
+width:530px;
+height:39px;
+margin:0px;
+margin-top:5px;
+background:url(/mtimg/info-header.jpg);
+position:relative;
+}
+#alpha .categoryHeader .categoryDescription{
+margin-left:15px;
+padding-top:8px;
+font-size:14px;
+color:#fff;
+margin-bottom:0px;
+line-height:1em;
+}
+#alpha .categoryHeader .categoryLabel{
+margin-left:15px;
+font-size:9px;
+color:#fff;
+font-family:monospace, sans-serif;
+}
+#alpha .categoryBody{
+background:#482102 url(/mtimg/info-body.gif);
+color:#fff;
+padding:15px 0px;
+}
+
+
+#alpha .categoryFooter{
+width:530px;
+height:5px;
+background:url(/mtimg/info-footer.jpg);
+margin-bottom:10px;
+clear:left;
+}
+.categoryBody .date-header{
+font-size:1.2em;
+font-weight:bold;
+color:#D6FF00;
+border-bottom:#D6FF00 1px dotted;
+padding-bottom:10px;
+margin:0px;
+margin:12px;
+margin-bottom:5px;
+}
+.categoryBody .entry{
+padding-bottom:10px;
+border-bottom:#D6FF00 1px dotted;
+margin:0px 12px;
+margin-bottom:5px;
+}
+
+.categoryBody a:link{
+color:#fff;
+text-decoration:none;
+}
+.categoryBody a:visited{
+color:#fff;
+text-decoration:none;
+}
+.categoryBody a:hover{
+color:#d6ff00;
+text-decoration:underline;
+}
+
+
+.categoryBody .sub{
+/*
+background:url(/mtimg/entry.gif) no-repeat left 2px;
+padding-left:20px;
+*/
+margin-top:3px;
+margin-left:20px;
+color:#fff;
+}
+.categoryBody .sub a:link{
+color:#fff;
+text-decoration:none;
+}
+.categoryBody .sub a:visited{
+color:#fff;
+text-decoration:none;
+}
+.categoryBody .sub a:hover{
+color:#d6ff00;
+text-decoration:underline;
+}
+.categoryBody .sub .date{
+color:#d6ff00;
+font-size:0.9em;
+}
+.categoryBody .sub .cat{
+color:#d6ff00;
+font-size:0.9em;
+}
+
+
+.kelguide{
+width:504px;
+}
+.kelguide td {
+color:#fff;
+width:168px;
+font-size:12px;
+text-align:left;
+background:url(/mtimg/guide_base.gif) no-repeat;
+vertical-align:top;
+position:relative;
+}
+.kelguide td div{
+width:150px;
+height:89px;
+margin-top:8px;
+margin-left:9px;
+margin-right:9px;
+text-align:center;
+font-size:12px;
+font-weight:bold;
+}
+.kelguide td p{
+margin:0 15px;
+}
+.kelguide a:link{
+color:#fff;
+text-decoration:none;
+}
+.kelguide a:visited{
+color:#fff;
+text-decoration:none;
+}
+.kelguide a:hover{
+color:#fff;
+text-decoration:none;
+}
+.kelguide a img{
+border:none;
+}
+.kelguide a:hover img{
+text-decoration:none;
+}
+
+#youtube {
+background:#7E3A02 url(/mtimg/youtubebg.jpg) no-repeat;
+width:248px;
+height:205px;
+position:relative;
+}
+#youtube div{
+width:232px;
+height:191px;
+position:absolute;
+top:8px;
+left:9px;
+}
+
+h1{
+margin:0;
+padding:0;
+}
+
+#left-menu{
+width:194px;
+height:389px;
+background:url(/mtimg/left_menu.jpg);
+position:relative;
+font-family: Meiryo, "メイリオ", "Hiragino Kaku Gothic Pro W5", "ヒラギノ角ゴ Pro W5", Osaka, "MS P Gothic", "ＭＳ Ｐゴシック", sans-serif;
+}
+#menu_1{
+margin:0;
+padding:0;
+list-style-type:none;
+padding-top:35px;
+margin-left:15px;
+}
+#menu_1 li{
+margin:0;
+padding:0;
+margin-bottom:5px;
+font-size:12px;
+}
+
+#menu_2{
+margin:0;
+padding:0;
+list-style-type:none;
+position:absolute;
+top:315px;
+left:15px;
+}
+#menu_2 li{
+margin:0;
+padding:0;
+margin-bottom:3px;
+font-size:10px;
+}
+#fantasista{
+font-weight:bold;
+font-size:12px;
+}
+
+#left-menu a:link, #left-menu a:visited{
+color:#d6fc00;
+text-decoration:none;
+}
+#left-menu a:hover{
+color:#fff;
+text-decoration:underline;
+}

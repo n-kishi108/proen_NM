@@ -1,0 +1,74 @@
+﻿@charset "utf-8";
+
+.BrowserBlogCalendar
+{
+  color: #333333; /*	background-color: #FFFFFF;*/
+  border: 0px solid #FFFFFF;
+  padding: 0px;
+  margin: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width:180px;
+}
+
+.BrowserBlogCalendar .Title
+{
+  font-size: medium;
+  padding: 1px;
+}
+
+.BrowserBlogCalendar .NextPrev
+{
+}
+
+.BrowserBlogCalendar .Calendar
+{
+  font-size: small;
+  padding: 1px;
+}
+
+.BrowserBlogCalendar .DayHeader
+{
+  background-color:#eeeeee;
+}
+
+.BrowserBlogCalendar .Selector
+{
+  background-color:#eeeeee;
+}
+
+.BrowserBlogCalendar .Day
+{
+  background-color:white;
+}
+
+.BrowserBlogCalendar .WeekendDay
+{
+  background-color:#ffcccc;
+}
+
+.BrowserBlogCalendar .OtherMonthDay
+{
+  color:silver;
+  background-color:#ffffcc;
+}
+
+.BrowserBlogCalendar .SelectedDay
+{
+  background-color:#c0c0e0;
+}
+
+.BrowserBlogCalendar .TodayDay
+{
+  border: red 1px solid;
+}
+
+.BrowserBlogCalendar .TodayWeekendDay
+{
+  border: red 1px solid;
+}
+
+.BrowserBlogCalendar TD
+{
+  text-align:center;
+}

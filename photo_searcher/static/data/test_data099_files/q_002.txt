@@ -1,0 +1,8 @@
+
+
+
+
+                                                   var amzn_wdgt={"cols":6,"tag":"mera-22","width":"800","inner_bkgd_color":"#FFFFFF","serviceVersion":"20070822","use_default_search_term":true,"head_text_color":"#000000","marketPlace":"JP","show_image":true,"price_color":"#9C0000","rows":1,"templateId":"8002","default_search_term":"ビジネス","category":null,"height":null,"outer_bkgd_color":"#DEDEDE","show_review":true,"displayTemplate":"7","show_price":true,"border_color":"#636363","text_color":"#000000"}
+            amzn_wdgt.ID = "V20070822/JP/mera-22/8002/4d852122-9e4c-4dc9-9800-89fe0a72007b";
+	                        document.write('<script charset="utf-8" type="text/javascript" src="http://wms.assoc-amazon.jp/20070822/JP/js/8002_7.js"> </script>');
+                       

@@ -1,0 +1,147 @@
+@charset "euc-jp";
+.rte .alternative_div {
+margin:0;
+padding:0;
+}
+
+#mainContentsArea body.rte { margin: 0px; padding: 5px;}
+
+#mainContentsArea .rte{
+/* \*/
+position:relative;
+/* */
+font-size:0.75em;
+line-height:1.4;
+word-break:break-all;
+word-wrap:break-word;
+font-family:'¥Ò¥é¥®¥Î³Ñ¥´ Pro W3','Hiragino Kaku Gothic Pro','£Í£Ó £Ð¥´¥·¥Ã¥¯',sans-serif;
+}
+
+#mainContentsArea div.rte{
+width:560px;
+}
+
+#mainContentsArea .rte ul li{
+font-size:1em;
+line-height:1.4;
+}
+
+#mainContentsArea .rte img,
+#mainContentsArea .rte .popup_img {
+vertical-align:text-bottom;
+}
+
+#mainContentsArea .rte .quote3{
+margin:12px 0;
+padding:8px;
+border:3px solid #D6F7B3;
+color:#333;
+background-color:#F9FADD;
+font-size:1em;
+line-height:1.6em;
+word-break:break-all;
+word-wrap:break-word;
+clear:both;
+}
+
+#mainContentsArea .rte .quote2 {
+clear:both;
+margin:0;
+padding:8px;
+font-size:1em;
+line-height:1.6em;
+color:#4B4B4B;
+background-color:#eee;
+border:1px solid #ccc;
+word-break:break-all;
+word-wrap: break-word;
+}
+
+/* hide from Mac IE \*/
+* html #mainContentsArea .rte .quote2  {
+width:97%;
+}
+/* */ 
+
+#mainContentsArea .rte h1,
+#mainContentsArea .rte h2,
+#mainContentsArea .rte h3,
+#mainContentsArea .rte h4,
+#mainContentsArea .rte h5{
+margin-top:1em;
+margin-bottom:1.1667em;
+clear:both;
+}
+
+#mainContentsArea .rte h1{
+padding:4px;
+color:#255282;
+background-color:#E1EFED;
+font-size:1.5556em;
+}
+
+#mainContentsArea .rte h2{
+padding:4px;
+border:1px solid #dcdcdc;
+color:#fff;
+background-color:#A5A9AD;
+font-size:1.3333em;
+}
+
+#mainContentsArea .rte h3{
+padding:4px;
+color:#255282;
+background-color:#E1EFED;
+font-size:1.3333em;
+}
+
+#mainContentsArea .rte h4{
+padding:4px;
+border:1px solid #dcdcdc;
+color:#fff;
+background-color:#A5A9AD;
+font-size:1.1111em;
+}
+
+#mainContentsArea .rte h5{
+padding:4px;
+color:#255282;
+background-color:#E1EFED;
+font-size:1em;
+}
+
+.quote1:before  { content: ""; }
+.quote1:after   { content: ""; }
+#mainContentsArea .rte .quote1{
+quotes: none;
+color:#333;
+background-color:#E1FFCB;
+}
+
+#mainContentsArea .rte .alignLeft{
+float:left;
+margin:0 5px 5px 0;
+}
+
+#mainContentsArea .rte .alignRight{
+float:right;
+margin:0 0 5px 5px;
+}
+
+#mainContentsArea .rte .outImg{
+width:558px;
+text-align:center;
+overflow:hidden;
+}
+
+.rte .Apple-style-span {
+white-space: normal;
+}
+
+#mainContentsArea .rte hr{
+clear:both;
+}
+
+#mainContentsArea .rte p {
+font-size:1em;
+}

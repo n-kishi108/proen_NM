@@ -1,0 +1,2 @@
+document.write('<IMG src="http://cast.trustclick.ne.jp/beacon?be=489abff45dfc8d248bdbe8f1a16bbb7da802c9c6&uid=e799648cddf3fe638b75af6af26c1d692d35f30c" width="1" height="1" style="display:none;">');
+document.write('<A HREF="http://cast.trustclick.ne.jp/click?site=hs10038860&bid=192519&sizes=300x250&timestamp=1270190799675&uid=e799648cddf3fe638b75af6af26c1d692d35f30c&btype=30&creativeid=a00024990&targetid=t00011281" TARGET="_blank"><IMG BORDER="0" WIDTH="300" HEIGHT="250" SRC="http://motu.trustclick.ne.jp/tclk/00/024/990/4203041253.gif" ></A>');

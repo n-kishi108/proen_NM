@@ -1,0 +1,523 @@
+@charset "UTF-8";
+
+*{		
+	FONT-FAMILY: "verdana", "helvetica", "osaka", "ＭＳ Ｐゴシック", sans-serif
+	
+}
+
+textarea {
+FONT-FAMILY: "ヒラギノ明朝 Pro W6", "Osaka", "ＭＳ Ｐゴシック", "trebuchet MS", "trebuchet", "verdana", "arial", sans-serif
+}
+	body{
+		color:#000;
+		margin:0px;
+		background:url(http://img02.naturum.ne.jp/usr/penkiya7711/back_color.jpg);
+		text-align:center;
+	}
+	
+	form{
+		margin:0px;
+		padding:0px;
+	}
+
+	table.form{
+	margin:25px 0px 0px 13px;
+	}
+	
+	img	{
+	border:none;
+	}
+
+ul.rss	{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	text-align: center;
+}
+
+ul.rss li	{
+	border-right: #999 1px solid;
+	display: inline;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	letter-spacing: 0.2px;
+	margin-right: 0.3em;
+	padding-right: 0.5em;
+	padding-left: 0.2em;
+}
+
+ul.rss a:link		{
+	color								: #333333;
+	text-decoration			: none;
+}
+
+ul.rss a:visited	{
+	color								: #333333;
+	text-decoration			: none;
+}
+
+ul.rss a:hover		{
+	color								: #999999;
+	text-decoration			: none;
+}
+
+ul.rss a:active	{
+	color								: #333333;
+	text-decoration			: none;
+}
+
+	a{color:#000;text-decoration:underline;}
+	a:link{color:#000;text-decoration:underline;}
+	a:visited{text-decoration:underline;}
+	a:active{}
+	a:hover{color:#000;text-decoration:none;}
+
+
+
+	a.acalendar{color:#007955;text-decoration:underline;}
+	a.acalendar:link{color:#007955;text-decoration:underline;}
+	a.acalendar:visited{text-decoration:underline;}
+	a.acalendar:active{}
+	a.acalendar:hover{color:#007955;text-decoration:none;}
+
+	a.acontinues{color:#0066cc;text-decoration:underline;}
+	a.acontinues:link{color:#0066cc;text-decoration:underline;}
+	a.acontinues:visited{text-decoration:underline;}
+	a.acontinues:active{}
+	a.acontinues:hover{color:#0066cc;text-decoration:none;}
+
+	a.amenu{color:#0066cc;text-decoration:underline;}
+	a.amenu:link{color:#0066cc;text-decoration:underline;}
+	a.amenu:visited{color:#0066cc;text-decoration:underline;}
+	a.amenu:active{}
+	a.amenu:hover{color:#0066cc;text-decoration:none;}
+
+	#container{font-size:12px;
+
+		width:960px;
+		background-color:#fff;
+		margin:0px auto;
+                 border-top-width: 1px;
+	         border-right-width: 1px;
+	         border-bottom-width: 1px;
+	         border-left-width: 1px;
+	         border-right-style: solid;
+	         border-left-style: solid;
+	         border-top-color: #ccc;
+	         border-right-color: #ccc;
+	         border-bottom-color: #ccc;
+	         border-left-color: #ccc;
+                 text-align:left;
+	}
+
+	#banner,#subbanner{
+		background:#fff url(http://img02.naturum.ne.jp/usr/penkiya7711/title.jpg) left;
+		padding:0px 0px 0px 0px;
+		height: 240px;
+	}
+
+	#banner a{color:#fff;text-decoration:none;}
+	#banner a:link{color:#fff;text-decoration:none;}
+	#banner a:visited{text-decoration:none;}
+	#banner a:active{}
+	#banner a:hover{color:#fff;text-decoration:underline;}
+
+	#subbanner a{color:#fff;text-decoration:none;}
+	#subbanner a:link{color:#fff;text-decoration:none;}
+	#subbanner a:visited{text-decoration:none;}
+	#subbanner a:active{}
+	#subbanner a:hover{color:#fff;text-decoration:underline;}
+
+
+
+	h1,h2,h3{margin:0px;padding:0px;}
+
+	.blogtitle{
+	font-size:36px;
+	font-weight:bold;
+	padding:125px 0px 0px 0px;
+	margin:0px 20px 0px 20px;
+	text-align:left;
+	letter-spacing:2px;
+	height:44px;
+	line-height:44px;
+	width:920px;
+	display:block;
+	overflow:hidden;
+	white-space: nowrap;
+	text-indent: -6000px;
+	}
+
+	.description{
+	color:#fff;
+	font-size:12px;
+	padding:0px 20px 0px 20px;
+	text-align:left;
+	letter-spacing:2px;
+	line-height:14px;
+	height:28px;
+	margin-top:10px;
+	overflow:hidden;
+	text-indent: -6000px;
+	}
+.logo{
+	padding-left:452px;
+}
+.logo img{
+	border:none;
+}
+
+	#content{
+		width:543px;
+		float:right;
+	}
+	
+	#links{
+		width:185px;
+		float:left;
+		text-align:left;
+		padding:15px 0px 0px 12px;
+		overflow:hidden;
+	}
+	#links2{
+		width:185px;
+		float:right;
+		text-align:left;
+		padding:15px 12px 0px 12px;
+		overflow:hidden;
+	}
+
+	
+	#footer{
+		    clear:both;
+	}
+	
+	#copyright				{
+		background:#828282;
+		width			: 100%;
+		font-size			: 10px;
+		font-weight		: bold;
+		color			: #fff;
+		margin						: 0px;
+		padding						: 0px;
+
+
+		line-height				: 16px;
+		text-align				: center;
+	}
+
+	.blog{  
+		margin:15px 0px 20px 0px;
+		width:543px;
+		overflow:hidden;
+	}
+
+	.date{  
+		background-repeat:no-repeat;
+		color							: #fff;
+		font-size					: 12px;
+		letter-spacing		: 2px;
+		line-height:16px;
+		padding			: 5px 0px 5px 15px;
+	}
+
+	.blogbody{
+		margin:0px 0px 10px 0px;
+    	padding:8px;
+		width:525px;
+		overflow:hidden;
+		border-bottom:1px solid #ccc; border-left:1px solid #ccc; border-right:1px solid #ccc;          
+	}
+
+	.title{
+		color: #000;
+		font-size:12px;
+		font-weight:bold;
+		height:36px;
+	         background-repeat: no-repeat;
+	         background-position: left;
+	         padding-left: 50px;
+padding-top: 10px;
+background-image:url(http://admin.naturum.ne.jp/_img/3_targetsun/bookicon.gif);
+		background-position:1px 1px;	
+	}
+	.main{
+		color:#000;
+		font-size:12px;
+		margin:16px 0px 15px 0px;             
+		overflow-x:auto;
+		width:525px;
+        line-height:135%;
+		overflow-y:hidden;
+	}
+	.main img{
+		margin:5px;             
+	}
+html .pagetop{margin-right:8px;}
+
+	.main-continues{
+		font-size:10px;
+	}
+
+	.posted{
+		color:#000;
+		font-size:10px;
+		text-align:right;
+		margin:0px 0px 25px 0px;
+	}
+	.posted strong{color:#666666}
+
+	a.aposted{color:#0066cc;text-decoration:underline;font-weight:bold;font-size:10px;}
+	a.aposted:link{color:#0066cc;text-decoration:underline;font-weight:bold;}
+	a.aposted:visited{text-decoration:underline;font-weight:bold;}
+	a.aposted:active{text-decoration:none;font-weight:bold;}
+	a.aposted:hover{color:#0066cc;text-decoration:none;font-weight:bold;}
+
+	.menu{
+		color:#000;
+		font-size:12px;
+		text-align:right;
+	}
+
+	.comments-head{
+		color:#000;
+		font-size:12px;
+		font-weight:bold;
+		padding:0px 0px 0px 0px;
+		height:10px;
+	}
+
+	.comments-body{
+		font-size:12px;
+		line-height:135%;
+		margin:20px 0px 15px 13px;
+	}
+
+	.comments-post{
+		color:#000;
+		font-size:12px;
+		text-align:right;
+		margin:0px 0px 25px 0px;
+	}
+
+	.trackback-url{
+		color:#691815;
+		font-size:12px;
+		font-weight:bold;
+		margin:20px 0px 15px 13px;
+	}
+
+	.trackback-body{
+		font-size:12px;
+		line-height:135%;
+		margin:20px 0px 15px 13px;
+	}
+
+	.trackback-post{
+		color:#000;
+		font-size:12px;
+		text-align:right;
+		margin:0px 0px 25px 0px;
+	}
+
+	a.atrackback-post{color:#007955;text-decoration:underline;font-weight:bold;}
+	a.atrackback-post:link{color:#007955;text-decoration:underline;font-weight:bold;}
+	a.atrackback-post:visited{text-decoration:underline;font-weight:bold;}
+	a.atrackback-post:active{font-weight:bold;}
+	a.atrackback-post:hover{color:#007955;text-decoration:none;font-weight:bold;}
+
+	label{
+		font-size:10px;
+		font-weight:bold;
+	}
+
+	#author{width:200px;border:1px solid #ccc;}
+	#email{width:200px;border:1px solid #ccc;}
+	#url{width:200px;border:1px solid #ccc;}
+	#text{font-size:12px;width:400px;height:200px;border:1px solid #ccc;}
+
+	.pagetop{
+		font-size:10px;
+		text-align:right;
+		margin:0px 0px 25px 0px;
+	}
+
+		.calendarhead{
+	 	color:#333;
+		font-size:12px;
+                font-weight:bold;
+		letter-spacing:2px;
+		text-align:center;
+       padding:3px 0px 3px 3px;
+		width:178px;
+		height:27px;
+		line-height:27px;
+		margin:0px 1px 0px 1px;
+		background:url(http://admin.naturum.ne.jp/_img/3_targetsun/top_title.gif) repeat-x;
+
+	}
+
+	.calendartable{
+		margin:0px auto 0px auto;
+		width:183px;
+		text-align:left;
+		background:#fff;
+	}
+	
+	.calendarweek{
+		color:#000;
+	font-size:10px;
+	font-weight: bold;
+        
+	}
+
+	.calendarwd{
+ 		border-right	: 1px solid #efefef;
+		background	: #fff url();
+		color		:#fff;
+		font-size:10px;
+        font-weight:bold;
+		letter-spacing		: 2px;
+		padding:2px 0px 2px 5px;
+		
+	}
+	.calendard{
+                   empty-cells:show;
+                   border-top:1px solid #efefef;
+                   border-right:1px solid #efefef;
+                   text-align: center;
+          }
+	.calendardbg{}
+.category,.recententry,.archives,.comment,.trackback,.link,.search,.qrcode,.counter,.subscription,.profile,.calender{ border:1px solid #ccc; margin-bottom:10px}
+	.calender{
+		font-size:10px;
+	}
+	.side{
+		font-size:12px;
+		line-height:140%;
+		margin:0px 0px 10px 0px;
+        padding:8px 8px 8px 10px;
+	}
+.ad .sidetitle{
+		background:url(http://admin.naturum.ne.jp/_img/3_targetsun/ad_title.gif) repeat-x;
+		color:#000;
+		font-size:12px;
+        font-weight:bold;
+		padding:3px 0px 3px 10px;
+		letter-spacing:2px;
+		height:28px;
+		line-height:28px;
+		margin:0px !important;
+}
+.ad .side{ border-bottom:1px solid #ccc; border-left:1px solid #ccc; border-right:1px solid #ccc}
+.side .text{
+	width:80px;
+}
+	a.aside{color:#0066cc;text-decoration:underline;}
+	a.aside:link{color:#0066cc;text-decoration:underline;}
+	a.aside:visited{color:#0066cc;text-decoration:underline;}
+	a.aside:hover{color:#0066cc;text-decoration:none;}
+
+	a.arss{color:#007955;text-decoration:underline;}
+	a.arss:link{color:#007955;text-decoration:underline;}
+	a.arss:visited{text-decoration:underline;}
+	a.arss:active{}
+	a.arss:hover{color:#007955;text-decoration:none;}
+	
+	.photo{text-align:center;}
+	.nickname{color:#2b5695;font-weight:bold;margin:10px 0px;}
+	.message{}
+
+	.quotetable{}
+	.quote{color:#000;font-size:10px;padding:1px;}
+
+	.blogtimes{margin:0px 0px 16px 0px;text-align:center;}
+
+	.powered{
+		text-align:center;
+		margin:0px 0px 10px 0px;
+	}
+
+	.syndicate{
+		font-size:10px;
+		text-align:center;
+	}
+	.checkers{
+		font-size:10px;
+		margin-top:10px;
+	}
+
+a.adtitle{font-weight:bold;text-decoration:underline;}
+a.adtitle:link{font-weight:bold;text-decoration:underline;}
+a.adtitle:visited{font-weight:bold;text-decoration:underline;}
+a.adtitle:active{font-weight:bold;text-decoration:underline;}
+a.adtitle:hover{font-weight:bold;text-decoration:underline;}
+
+a.addescription{color:black;text-decoration:none;}
+a.addescription:link{color:black;text-decoration:none;}
+a.addescription:visited{color:black;text-decoration:none;}
+a.addescription:active{color:black;text-decoration:none;}
+a.addescription:hover{color:black;text-decoration:none;}
+
+a.adurl{color:blue;text-decoration:none;}
+a.adurl:link{color:#0000FF;text-decoration:none;}
+a.adurl:visited{color:#0000FF;text-decoration:none;}
+a.adurl:active{color:#0000FF;text-decoration:none;}
+a.adurl:hover{color:#0000FF;text-decoration:none;}
+
+a.adld{text-decoration:underline;}
+a.adld:link{text-decoration:underline;}
+a.adld:visited{text-decoration:underline;}
+a.adld:active{text-decoration:underline;}
+a.adld:hover{text-decoration:underline;}
+body.ad{background:#f7p39f;}
+
+
+/****yinhena edit [3カラム]****/
+#siteid {
+	width: 335px;
+	display: inline;/*IE6+float 横マージン膨張対策*/
+	margin: 0 0 0 30px;
+}
+#siteid p {
+	width: 305px;
+	height:45px;
+	margin:0 0 0 30px;
+	text-indent:-9999px;
+}
+#siteid a {
+	width:305px;
+	height:45px;
+	display:block;
+}
+.sidetitle{
+		background:url(http://admin.naturum.ne.jp/_img/3_targetsun/top_title.gif) repeat-x;
+		color:#000;
+		font-size:12px;
+        font-weight:bold;
+		padding:3px 0px 3px 10px;
+		letter-spacing:2px;
+		height:27px;
+		line-height:27px;
+		margin:0px 1px 0px 1px;
+	}
+.h_10{height:10px; overflow:hidden}
+.h_143{height:143px; overflow:hidden}
+.blog_title{
+	height:33px;
+	line-height:33px;
+	background:no-repeat;
+	color:#000;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:10px;
+	letter-spacing:2px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #333333;
+		}
+.blog_title h2{font-size:12px}
+.title_bor{
+		border-top:1px solid #ccc; border-left:1px solid #ccc; border-right:1px solid #ccc; padding:0px 1px 0px 1px;
+}

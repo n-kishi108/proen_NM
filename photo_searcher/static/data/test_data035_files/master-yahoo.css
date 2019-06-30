@@ -1,0 +1,31 @@
+@charset "euc-jp";
+/*** master-yahoo.css ***/
+/*** CORE FILES ***/
+@import "http://i.yimg.jp/images/css/yj2.css";
+@import url("http://i.yimg.jp/images/onbiz/css2/lrec_pe.css");
+@import "http://i.yimg.jp/yui/jp/tmpl/p/e/tmplLocal-patch_pe.css";
+@import "http://i.yimg.jp/yui/jp/tmpl/p/e/tmplCommon_pe.css";
+
+/*** BROWSER SPECIFC FILES ***/
+/* ----------------------------------------
+For macIE
+(Band Pass Filter)
+---------------------------------------- */
+/*\*//*/
+@import "http://i.yimg.jp/yui/jp/tmpl/p/e/tmplMacie5_pe.css";
+/**/
+
+/* --------------------------------------------
+For winie5
+(Mid Pass Filter)
+-------------------------------------------- */
+@media tty{
+i{content:"\";/*""*/}}@import 'http://i.yimg.jp/yui/jp/tmpl/p/e/tmplWinie50_pe.css';/*";}
+}/**/
+
+/* --------------------------------------------
+For winie5.5
+-------------------------------------------- */
+@media tty {
+i{content:"\";/*" "*/}}@m; @import 'http://i.yimg.jp/yui/jp/tmpl/p/e/tmplWinie55_pe.css'; /*";}
+}/* */ 

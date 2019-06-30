@@ -1,0 +1,398 @@
+/*** Layout ***/
+
+body	{
+	margin:0px;
+	padding:0px;
+}
+
+#glcont{
+	width: 100%;
+}
+
+#main {
+	width: 98%;
+	margin-top:15px;
+}
+
+#c1 {
+	width: 150px;
+	vertical-align: top;
+	background-color: ffffff;
+}
+
+#c2 {
+	width: 100%;
+	vertical-align: top;
+	background-color: #ffffff;
+}
+
+#c3 {
+	width: 150px;
+	vertical-align: top;
+	background-color: #ffffff;
+}
+
+/*** FONT ***/
+td{
+font-size:x-small; /* win ie5.x */
+fo\nt-size:x-small; /* win ie6.x,mac ie5.x */
+line-height: 1.3em;
+}
+
+h2, h3 {
+font-size:x-small; /* win ie5.x */
+fo\nt-size:x-small; /* win ie6.x,mac ie5.x */
+line-height: 1.3em;
+}
+
+/* for gecko without mac ie5 \*/
+html>body td{
+font-size: 80%;
+line-height: 1.3em;
+}
+
+html>body h2, h3 {
+font-size:small;
+line-height: 1.3em;
+}
+
+html>body .entry h3 {
+font-size:small;
+line-height: 1.3em;
+}
+
+/* for gecko without mac ie5 end */
+small{
+font-size:100%;
+}
+
+em{font-style:normal;}
+
+
+/*** HEADER ***/
+
+#gltitle {
+	width:100%;
+	background-image:url(img/title_bk.gif);
+}
+
+#gltitle h1 {
+	border-bottom:1px #dcdcdc solid;
+	font-size: 16px;
+	padding: 50px 15px 50px 15px;
+	margin:0;
+}
+
+
+#h1tc {
+	color: #666666;
+}
+
+#h4tc {
+	color: #666666;
+}
+
+
+#gltitle .owner h4	{
+	color:#666666;
+	font-size:12px;
+	background-color: transparent;
+	float:right;
+	padding:5px;
+	cursor:pointer;
+	cursor:hand;
+	margin:0px;
+	}
+
+#gltitle p {
+	padding: 6px 15px 6px 15px;
+	margin:0px;
+	background-color: #ffffff;
+	border-bottom:1px #dcdcdc solid;
+}
+
+/*** h2 ***/
+
+#c1 h2 {
+	width: 150px;
+	font-weight: bold;
+	padding: 4 0 4 0px;
+	margin:0;
+	color: #575757;
+	text-align: center;
+	border-bottom:1px #dcdcdc solid;
+	background-color:#ddeff9;
+}
+
+#c2 h2 {
+	font-weight: bold;
+	padding: 4 0 4 0px;
+	margin:0;
+	text-align: center;
+	color: #575757;
+	background-color:#ffffcc;
+}
+
+#c3 h2 {
+	width: 150px;
+	font-weight: bold;
+	padding: 4 0 4 0px;
+	margin:0;
+	color: #575757;
+	background-color:#ddeff9;
+	text-align: center;
+	border-bottom:1px #dcdcdc solid;
+}
+
+
+/*** LIST ***/
+ul {
+	margin:8;
+	padding-left:15;
+}
+
+li {
+	line-height:130%;
+}
+
+/*** GENERAL ***/
+
+.spacer10
+	 { 
+	font-size: 0;
+	line-height: 0;
+	width: 10px;
+	height:10px;
+	clear: both;
+	}
+
+.spacer15
+	 { 
+	font-size: 0;
+	line-height: 0;
+	width: 15px;
+	height:15px;
+	clear: both;
+	}
+
+.spacer20
+	 { 
+	font-size: 0;
+	line-height: 0;
+	width: 20px;
+	height:20px;
+	clear: both;
+	}
+
+img
+	{
+	border:0;
+	}
+
+p{
+	margin:0;
+}
+
+
+/*** LINK ***/
+
+a:link	{
+	text-decoration : none;
+	color: #003399;
+	background: transparent;
+	}
+
+a:visited	{
+	text-decoration : none;
+	color: #7b348c;
+	background: transparent;
+	}
+
+a:hover	{
+	text-decoration : underline;
+	color: #003399;
+	background: transparent;
+	}
+
+/*** LINK CALENDAR ***/
+
+#cal a:link	{
+	text-decoration : none;
+	background: #eeeeee;
+	}
+
+#cal a:visited	{
+	text-decoration : none;
+	background: #eeeeee;
+	}
+
+#cal a:hover	{
+	text-decoration : underline;
+	background: #eeeeee;
+	}
+
+#cal .today{
+	color: #003399;
+	background: #ffff99;
+	}
+
+/*** MODULE ***/
+#cal {
+	text-align: center;
+	padding: 4px;
+	background-color: #ffffff;
+	margin-top:10;
+	border:1px #dcdcdc solid;
+}
+
+#calcont
+	{
+	background-color: #ffffff;
+	padding-bottom:15px;
+	border:solid 1px #dcdcdc;
+	}
+
+#cal th{
+	text-align: center;
+	font-size: 9px;
+	font-weight:normal;
+        border-bottom:1px solid #dcdcdc;
+	padding-bottom:3px;
+}
+
+#archives	{
+	border:solid 1px #dcdcdc;
+}
+#link{
+	border:solid 1px #dcdcdc;
+}
+
+#avator{
+	text-align: center;
+	border:solid 1px #dcdcdc;
+	padding-bottom:10px;
+}
+
+#avator img{
+	margin:10;
+}
+
+#recent_content	{
+	border:solid 1px #dcdcdc;
+}
+
+#recent_comment	{
+	border:solid 1px #dcdcdc;
+}
+
+#recent_trackback	{
+	border:solid 1px #dcdcdc;
+}
+
+#tbURL
+	{
+	margin-left:10px;
+	}
+
+
+/*** ENTRY ***/
+
+.entry
+	{
+	padding:0 10 10 10px;
+
+}
+
+.entry h3 {
+	font-weight: bold;
+	text-align: center;
+	color:#F68579;
+}
+
+.entry p {
+	line-height:150%;
+	padding:0 20 0 20px;
+}
+
+p img.contents {	
+	float: right;margin-left:10px;
+	}
+
+.uinfo {
+	padding-bottom: 10px;
+	text-align:right;
+	border-bottom:1px #aaaaaa dotted;
+}
+
+#glnavi {
+	color: #575757;
+	padding:10px;
+}
+
+
+/*** COMMENT VIEW ***/
+#cview {
+	width: 98%;
+	vertical-align: top;
+	background-color: ffffff;
+
+}
+
+#cview h2 {
+	font-weight: bold;
+	padding: 4px;
+	margin:0;
+	color: #575757;
+	text-align: center;
+	border-bottom:1px #dcdcdc solid;
+	background-color:#ddeff9;
+}
+
+#error_wcomment	{
+	color: #ff0000;
+	background: transparent;
+	font-weight:bold;
+	text-align: center;
+	margin:20 0 20 0px;
+	}
+
+.ucomment{
+}
+
+.wctitle{
+	padding:0 10 0 10px;
+}
+
+#wcomment {
+	vertical-align:top;
+	font-weight: bold;
+	margin:10 0 0 0px;
+}
+
+#wcomment .uname{
+	margin:0 20 10 0px;
+}
+
+#wcomment .email{
+	margin:0 20 10 0px;
+}
+
+#wcomment .url{
+
+}
+
+#wcomment .filed{
+	text-align:center;
+}
+
+/*** FOOTER ***/
+#footer {
+
+   	width: 100%;
+	height: 50px;
+	background-color: #ffffff;
+	text-align: center;
+	padding: 4px;
+	border-top:1px #aaa9a9 solid;
+}
+

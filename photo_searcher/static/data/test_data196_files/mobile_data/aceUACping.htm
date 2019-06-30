@@ -1,0 +1,26 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=Shift_JIS"></head><body>
+<script type="text/javascript">
+var pingArray = ['http://cms.ad.yieldmanager.net/v1/cms?esig=1~ed097b82db382a1fd455fb947bcd01b57e206e42&nwid=10000040578',
+'http://cm.g.doubleclick.net/pixel?nid=aol1'
+];
+
+function readCk(name){
+var c=document.cookie,b=c.indexOf(name+'=')
+if(b>=0){b=c.indexOf('=',b)+1; if(b>0){var e=c.indexOf(';',b); if(e==-1) e=c.length; return c.substring(b,e)}}
+return '';}
+
+function writeCk(n,v,e,p,d){
+var date = new Date(), expires = "";
+date.setTime(date.getTime()+((e?e: 1)*24*60*60*1000))
+if (e) expires = "; expires="+date.toGMTString();
+document.cookie = n + "="+ v+ expires+"; path="+(p?p:"/") + "; domain=" +(d?d:"advertising.com");}
+
+function chkRTBPing(){
+if (readCk('aceRTB') == "" && readCk('ACID') != ""){var pings = '';
+for (var i=0; i< pingArray.length; i++) pings = pings + "<img src='"+pingArray[i]+"' width=1 height=1>";
+if (pings){var imgPings = document.createElement("div"); imgPings.width=0; imgPings.height=0; imgPings.style.width="0px"; imgPings.style.height="0px"; imgPings.style.display='none';imgPings.innerHTML = pings; document.body.appendChild(imgPings);}
+writeCk('aceRTB','1',30);}}
+chkRTBPing();
+</script>
+</body></html>

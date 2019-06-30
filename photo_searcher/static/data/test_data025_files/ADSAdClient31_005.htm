@@ -1,0 +1,94 @@
+
+//<![CDATA[
+function getRADIds() { return{"adid":"111000000000012210","pid":"7134845","targetid":"23249299"};}
+var inDapIF_170066136=false;
+if(typeof(inDapIF) != "undefined")
+{inDapIF_170066136=true;parent.dap_Resize(document.body.id, 300, 250);}
+var fObjforAcb_170066136=null;
+
+var MSAdsEmbed=0, MSAdsUseFlash=0, MSNadsBGCOLOR="#FFFFFF", MSNadsMENU="FALSE", MSNadsWIDTH=300, MSNadsHEIGHT=250;
+
+function dlWrite_111000000000012210()
+{
+      document.write('<a target="_blank" href="http://g.msn.com/2AD0001Y/111000000000012210.2??PID=7134845&amp;UIT=G&amp;TargetID=23249299&amp;AN=170066136&amp;PG=JNE201&amp;ASID=9c3de420e65c4979bd5fa224be56f3e4"><img src="http://ads2.msads.net/CIS/42/000/000/000/005/021.gif" width=300 height=250 border="0" alt="多機能ポータブルナビ「Strada POCKET」" /></a>');
+      acbfs_170066136("fdl");
+}
+function embedMovie_111000000000012210_DoFSCommand(command, args) {if (command=="URL1") {window.open("http://g.msn.com/2AD0001Y/111000000000012210.1??PID=7134845&amp;UIT=G&amp;TargetID=23249299&amp;AN=170066136&amp;PG=JNE201&amp;ASID=9c3de420e65c4979bd5fa224be56f3e4","_blank");}}
+var g_bShowFlash=false;
+var isFirefox_111000000000012210 = (navigator.userAgent.indexOf('Firefox') >= 0 && navigator.appVersion.indexOf("Win")>=0);
+if (isFirefox_111000000000012210)
+{
+      var plugin = (navigator.mimeTypes &&
+                        navigator.mimeTypes["application/x-shockwave-flash"] &&
+                        navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin) ?
+                        navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin : 0;
+
+      if (plugin) {
+		var descArray = plugin.description.split(" ");
+		var tempArrayMajor = descArray[2].split(".");
+		var versionMajor = parseInt(tempArrayMajor[0]);
+		g_bShowFlash = (versionMajor >= 8);
+      }
+}
+else
+{
+
+      if (navigator.appVersion.indexOf("Win")>=0 && parseFloat(navigator.appVersion.substr(navigator.appVersion.indexOf("MSIE ")+5))>=4) {document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n');document.write('on error resume next \n');document.write('g_bShowFlash = ( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.8")))\n');document.write('</SCR' + 'IPT\>');}
+}
+
+if(g_bShowFlash == true)
+{
+      var sFlashObjName_111000000000012210 = "embedMovie_111000000000012210";
+      var mainHRef = escape('http://g.msn.com/2AD0001Y/111000000000012210.1??PID=7134845&amp;UIT=G&amp;TargetID=23249299&amp;AN=170066136&amp;PG=JNE201&amp;ASID=9c3de420e65c4979bd5fa224be56f3e4');
+      var objText_111000000000012210 = 'classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="' + sFlashObjName_111000000000012210 + '" width="' + MSNadsWIDTH + '"  height="' + MSNadsHEIGHT + '" style="z-index:-1">';
+      objText_111000000000012210 += '<param name="movie" value="http://ads2.msads.net/CIS/78/000/000/000/005/001.swf?fd='+ location.hostname + '&clickTAG=' + mainHRef + '&clickTag=' + mainHRef + '">';
+      objText_111000000000012210 += '<param name="wmode" value="opaque"><param name="quality" value="high"><param name="loop" value="true"><param name="AllowScriptAccess" value="always">';
+      
+      if (isFirefox_111000000000012210)
+      {
+            var embedTag = '<EMBED NAME="embedMovie_111000000000012210" SRC="http://ads2.msads.net/CIS/78/000/000/000/005/001.swf?fd='+ window.location.hostname;
+            embedTag += '&clickTAG=' + mainHRef;
+            embedTag += '&clickTag=' + mainHRef;
+            embedTag += '" WIDTH="300" HEIGHT="250" PLAY="true" LOOP="true" QUALITY="high" SCALE="SHOWALL" swLiveConnect="true" PLUGINSPAGE="http://www.macromedia.com/go/flashplayer/" allowScriptAccess="always" WMODE="OPAQUE"></EMBED>';
+
+            document.write(embedTag);
+      }
+      else
+      {
+            if (inDapIF_170066136)
+            {
+                  document.write('<object ' + objText_111000000000012210 + '</object>');
+            }
+            else
+            {     
+                  if (document.body == null) document.write('<html><body>');
+                  document.write('<span id="ad_span_111000000000012210"><object ' + objText_111000000000012210 + '</object></span>');         
+                  if (document.body == null) document.write('</body></html>');
+            }
+            attachEvents_111000000000012210();
+      }
+      acbfs_170066136(fObjforAcb_170066136);
+}
+else
+{
+      dlWrite_111000000000012210();
+}
+
+function attachEvents_111000000000012210()
+{
+      document.all[sFlashObjName_111000000000012210].attachEvent("fscommand", function (cmd,args) {embedMovie_111000000000012210_DoFSCommand(cmd, args);});
+}
+
+function acbfs_170066136(f)
+{
+  try
+  {
+    if(inDapIF_170066136)
+    {
+      parent.ShowAcb(document.body.id, 111000000000012210, 300, 250, 'g.msn.com', '2AD0001Y',"7134845", f);
+    }
+  }
+  catch(e){}
+}
+document.close();
+//]]

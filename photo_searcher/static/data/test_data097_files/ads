@@ -1,0 +1,51 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BfRJBGoq4S53KB4fK6QPylPHSB524uJoB7YHW3RHAjbcBwJTeDxABGAEg3qaUCigDOABQrPPk4v7_____AWCJo9KEqBSgAavv9_sDsgEJYW1lYmxvLmpwyAEB2gExaHR0cDovL2FtZWJsby5qcC9zLWNvbnRpZ28vZW50cnktMTAxNTM1MjczMjguaHRtbIACAakCbLEBNh3URj6oAwHoA6UC6AOmAugDswL1AwAAAMQ&amp;num=1&amp;sig=AGiWqtxJOEIJTAY7stPG4unBt0b9bOBzvA&amp;client=ca-cyberagent-ameblo_js&amp;adurl=http://ac.ebis.ne.jp/tr_set.php%3Fargument%3DZ2C5uU9f%26ai%3Da4a45ebaf3dace"; 
+google_ad.visible_url = "www.nizikaikun.com"; 
+google_ad.line1 = "\x26#32080;\x26#23130;\x26#24335;\x26#20108;\x26#27425;\x26#20250;\x26#12399;\x26#65298;\x26#27425;\x26#20250;\x26#12367;\x26#12435;"; 
+google_ad.line2 = "\x26#24180;\x26#38291;3000\x26#20214;\x26#20197;\x26#19978;\x26#12398;\x26#12503;\x26#12525;\x26#12487;\x26#12517;\x26#12540;\x26#12473;\x26#23455;\x26#32318;\x26#25968;"; 
+google_ad.line3 = "\x26#38306;\x26#26481;,\x26#38306;\x26#35199;,\x26#26481;\x26#28023;\x26#12391;\x26#12398;\x26#65298;\x26#27425;\x26#20250;\x26#12399;\x26#12362;\x26#20219;\x26#12379;\x26#65281;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BHuw1Goq4S53KB4fK6QPylPHSB4ODssAB-by5kBTAjbcBgJChDxACGAIg3qaUCigDOABQ0N3U-wNgiaPShKgUsgEJYW1lYmxvLmpwyAEB2gExaHR0cDovL2FtZWJsby5qcC9zLWNvbnRpZ28vZW50cnktMTAxNTM1MjczMjguaHRtbKkCbLEBNh3URj6oAwHoA6UC6AOmAugDswL1AwAAAMQ&amp;num=2&amp;sig=AGiWqtzxu6zL3-4XIEnrety6L15BPriKsQ&amp;client=ca-cyberagent-ameblo_js&amp;adurl=http://www.postmedia.info"; 
+google_ad.visible_url = "www.postmedia.info"; 
+google_ad.line1 = "\x26#12502;\x26#12521;\x26#12452;\x26#12480;\x26#12523;\x26#12499;\x26#12487;\x26#12458;\x26#25774;\x26#24433;/\x26#26413;\x26#24140;"; 
+google_ad.line2 = "\x26#26413;\x26#24140;\x26#36817;\x26#37066;\x26#20986;\x26#24373;\x26#12290;\x26#23433;\x26#20385;\x26#12394;\x26#32232;\x26#38598;\x26#12394;\x26#12375;\x26#25774;\x26#24433;\x26#65374;"; 
+google_ad.line3 = "\x26#39640;\x26#21697;\x26#36074;\x26#12495;\x26#12452;\x26#12499;\x26#12472;\x26#12519;\x26#12531;\x26#25774;\x26#24433;\x26#12414;\x26#12391;\x26#12290;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BcDZWGoq4S53KB4fK6QPylPHSB-7Kj5kBpvecyBHAjbcBwNyuFxADGAMg3qaUCigDOABQzs2ov_7_____AWCJo9KEqBSgAbSl1P0DsgEJYW1lYmxvLmpwyAEB2gExaHR0cDovL2FtZWJsby5qcC9zLWNvbnRpZ28vZW50cnktMTAxNTM1MjczMjguaHRtbIACAakCbLEBNh3URj6oAwHoA6UC6AOmAugDswL1AwAAAMQ&amp;num=3&amp;sig=AGiWqtz2yPmwhfwrqp7IwDg8AZnsp1GnKw&amp;client=ca-cyberagent-ameblo_js&amp;adurl=http://www.handmade-ring.com/"; 
+google_ad.visible_url = "www.handmade-ring.com/"; 
+google_ad.line1 = "\x26#32080;\x26#23130;\x26#25351;\x26#36650;\x26#12434;\x26#65298;\x26#20154;\x26#12391;\x26#25163;\x26#20316;\x26#12426;"; 
+google_ad.line2 = "\x26#65299;\x26#26178;\x26#38291;\x26#12391;\x26#20316;\x26#12427;\x26#12289;\x26#65298;\x26#20154;\x26#12384;\x26#12369;\x26#12398;\x26#32080;\x26#23130;\x26#25351;\x26#36650;\x26#12290;"; 
+google_ad.line3 = "\x26#19990;\x26#30028;\x26#12395;1\x26#12388;\x26#12398;\x26#12458;\x26#12522;\x26#12472;\x26#12490;\x26#12523; 1\x26#26412;26,750\x26#20870;\x26#65374;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://ameblo.jp/s-contigo/entry-10153527328.html%26hl%3Dja%26client%3Dca-cyberagent-ameblo_js%26adU%3Dwww.nizikaikun.com%26adT%3D%25E7%25B5%2590%25E5%25A9%259A%25E5%25BC%258F%25E4%25BA%258C%25E6%25AC%25A1%25E4%25BC%259A%25E3%2581%25AF%25EF%25BC%2592%25E6%25AC%25A1%25E4%25BC%259A%25E3%2581%258F%25E3%2582%2593%26adU%3Dwww.postmedia.info%26adT%3D%25E3%2583%2596%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2580%25E3%2583%25AB%25E3%2583%2593%25E3%2583%2587%25E3%2582%25AA%25E6%2592%25AE%25E5%25BD%25B1/%25E6%259C%25AD%25E5%25B9%258C%26adU%3Dwww.handmade-ring.com/%26adT%3D%25E7%25B5%2590%25E5%25A9%259A%25E6%258C%2587%25E8%25BC%25AA%25E3%2582%2592%25EF%25BC%2592%25E4%25BA%25BA%25E3%2581%25A7%25E6%2589%258B%25E4%25BD%259C%25E3%2582%258A%26gl%3DJP\x26usg\x3dAFQjCNHKGYKqY0ygo_HtZJORe4CFLIAVQw"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

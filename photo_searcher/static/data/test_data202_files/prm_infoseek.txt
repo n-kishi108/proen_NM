@@ -1,0 +1,6 @@
+iyHCIQ.jsonCallback({"data":[
+	{
+		text:"インフォシーク",
+		url:"http://rd.rakuten.co.jp/s/?R2=http%3A%2F%2Fwww%2Einfoseek%2Eco%2Ejp%2F&D2=2548.0.7775558.0.10058138.2&C3=d0d0fa523ff68654f700d3dbbea78d30725ca923"
+	}
+]});

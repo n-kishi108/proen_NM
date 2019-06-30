@@ -1,0 +1,146 @@
+document.write("<style type=\"text/css\">");
+document.write("<!--");
+document.write("#ESSSEARCH_FRAME {");
+document.write("	position: fixed;");
+document.write("	_position: absolute;");
+document.write("	right: 10px;");
+document.write("	z-index: 9999;");
+document.write("	width: 250px;");
+document.write("	height: 100px;");
+document.write("	overflow: hidden;");
+document.write("}");
+document.write(".ESSSEARCH_INNER {");
+document.write("	position: relative;");
+document.write("}");
+document.write(".ESSSEARCH_TOP {");
+document.write("	position: absolute;");
+document.write("	width: 236px;");
+document.write("	height: 6px;");
+document.write("	top: 0px;");
+document.write("	left: 0px;");
+document.write("	overflow: hidden;");
+document.write("	background: transparent url(http://image.excite.co.jp/jp/mylink/img/top/dialog/ss-top.png) no-repeat;");
+document.write("}");
+document.write(".ESSSEARCH_RIGHT {");
+document.write("	position: absolute;");
+document.write("	width: 14px;");
+document.write("	height: 100px;");
+document.write("	top: 0px;");
+document.write("	left: 236px;");
+document.write("	overflow: hidden;");
+document.write("	background: transparent url(http://image.excite.co.jp/jp/mylink/img/top/dialog/ss-right.png) no-repeat;");
+document.write("}");
+document.write(".ESSSEARCH_BOTTOM {");
+document.write("	position: absolute;");
+document.write("	width: 236px;");
+document.write("	height: 23px;");
+document.write("	top: 77px;");
+document.write("	left: 0px;");
+document.write("	overflow: hidden;");
+document.write("	background: transparent url(http://image.excite.co.jp/jp/mylink/img/top/dialog/ss-bottom.png) no-repeat;");
+document.write("}");
+document.write(".ESSSEARCH_MIDDLE {");
+document.write("	position: absolute;");
+document.write("	width: 236px;");
+document.write("	height: 71px;");
+document.write("	top: 6px;");
+document.write("	left: 0px;");
+document.write("	overflow: hidden;");
+document.write("	background: transparent url(http://image.excite.co.jp/jp/mylink/img/top/dialog/ss-middle.png) no-repeat;");
+document.write("	padding: 0;");
+document.write("}");
+document.write("#ESSSEARCH_TEXT {");
+document.write("	margin: 47px 0 0 17px;");
+document.write("	width: 218px;");
+document.write("	height: 16px;");
+document.write("	overflow: hidden;");
+document.write("	text-align: left;");
+document.write("	line-height: 1.2em;");
+document.write("}");
+document.write("#ESSSEARCH_TEXT a:link, #ESSSEARCH_TEXT a:visited {");
+document.write("	color: #00f;");
+document.write("	text-decoration: underline;");
+document.write("	font-size: 15px;");
+document.write("	font-family: \"MS UI Gothic\";");
+document.write("}");
+document.write(".ESSSEARCH_X {");
+document.write("	position: absolute;");
+document.write("	top: 6px;");
+document.write("	left: 221px;");
+document.write("}");
+document.write(".ESSSEARCH_X a img {");
+document.write("	border: 0px;");
+document.write("}");
+document.write("* html .ESSSEARCH_TOP {");
+document.write("	background-color: transparent;");
+document.write("	background-image: none;");
+document.write("	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\"http://image.excite.co.jp/jp/mylink/img/top/dialog/ss-top.png\", sizingMethod=\"crop\");");
+document.write("}");
+document.write("* html .ESSSEARCH_RIGHT {");
+document.write("	background-color: transparent;");
+document.write("	background-image: none;");
+document.write("	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\"http://image.excite.co.jp/jp/mylink/img/top/dialog/ss-right.png\", sizingMethod=\"crop\");");
+document.write("}");
+document.write("* html .ESSSEARCH_BOTTOM {");
+document.write("	background-color: transparent;");
+document.write("	background-image: none;");
+document.write("	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\"http://image.excite.co.jp/jp/mylink/img/top/dialog/ss-bottom.png\", sizingMethod=\"crop\");");
+document.write("}");
+document.write("-->");
+document.write("</style>");
+document.write("<div id=\"ESSSEARCH_FRAME\" style=\"display:none;\">");
+document.write("	<div class=\"ESSSEARCH_INNER\">");
+document.write("		<div class=\"ESSSEARCH_TOP\">&nbsp;</div>");
+document.write("		<div class=\"ESSSEARCH_RIGHT\">&nbsp;</div>");
+document.write("		<div class=\"ESSSEARCH_BOTTOM\">&nbsp;</div>");
+document.write("		<div class=\"ESSSEARCH_MIDDLE\"><div id=\"ESSSEARCH_TEXT\"><a href=\"http://www.excite.co.jp/search.gw?search=%E3%83%A2%E3%83%87%E3%83%AB+%E9%9B%86%E5%90%88%E5%86%99%E7%9C%9F&charset=utf8&look=excite_jp&target=combined&sstype=search_referral\">モデル 集合写真</a></div></div>");
+document.write("		<div class=\"ESSSEARCH_X\"><a id=\"ESSSEARCH_X\" href=\"#\"><img src=\"http://image.excite.co.jp/jp/mylink/img/top/dialog/ssclose.png\"/><a></div>");
+document.write("	</div>");
+document.write("</div>");
+if(window.addEventListener)
+{
+	window.addEventListener("load", _excite_func_do_1, false);
+}else
+{
+	window.attachEvent("onload", _excite_func_do_1);
+}
+function _excite_func_de_1()
+{
+	if(window.removeEventListener)
+	{
+		window.removeEventListener("load", _excite_func_do_1, false);
+	}else
+	{
+		window.detachEvent("onload", _excite_func_do_1);
+	}
+	document.getElementById("ESSSEARCH_FRAME").parentNode.removeChild(document.getElementById("ESSSEARCH_FRAME"));
+	return false;
+}
+function _excite_func_do_1(e)
+{
+	document.getElementById("ESSSEARCH_X").onclick = function()
+	{
+		return _excite_func_de_1();
+	}
+	var sid = 'xbg';
+	var site = 'google';
+	var isb = 0;
+	for(var i = 0;i < document.getElementsByTagName("script").length;i ++)
+	{
+		if(!document.getElementsByTagName("script")[i].src) continue;
+		if(!document.getElementsByTagName("script")[i].src.match(/^http:\/\/image\.excite\.co\.jp\/jp\/succession\/front\/scroll\.js/)) continue;
+		if(document.getElementsByTagName("script")[i].src.match(/[\?&]{1}s=([a-z]{3})/)) sid = RegExp.$1;
+		if(document.getElementsByTagName("script")[i].src.match(/[\?&]{1}b=1/)) isb = 1;
+		break;
+	}
+	urchinTracker('/' + sid + '_succession_' + site + '/');
+	document.getElementById("ESSSEARCH_TEXT").getElementsByTagName("a")[0].href = "http://www.excite.co.jp/relocate/co=succession/" + sid + "/" + site + ";" + document.getElementById("ESSSEARCH_TEXT").getElementsByTagName("a")[0].href;
+	if(isb == 1)
+	{
+		document.getElementById("ESSSEARCH_FRAME").style.bottom = "10px";
+	}else
+	{
+		document.getElementById("ESSSEARCH_FRAME").style.top = "10px";
+	}
+	document.getElementById("ESSSEARCH_FRAME").style.display = "";
+}

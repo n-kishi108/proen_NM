@@ -1,0 +1,13 @@
+﻿@charset "utf-8";
+
+	@import "commons.css";/*ヘッダー、フッター、カラム等*/
+	@import "global.css";/*グローバルヘッダー*/
+	@import "portal.css";/*ポータル*/
+	@import "cms.css";/*マイページ*/
+	@import "static.css";/*キャンペーンページ等*/
+	@import "clearfix.css";/*clearfix用*/
+	
+	
+	@import "./new/commons.css";
+	@import "./new/clearfix.css";
+

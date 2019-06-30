@@ -1,0 +1,60 @@
+
+function dispExtendItemInit(dispLimit){
+	if( $$(".elementExtendList") ){
+		$$(".elementExtendList").each(function(element){
+			if( element.getElementsByClassName("elementItem") ){
+
+				var elementList = element.getElementsByClassName("elementItem");
+				if(elementList.length > dispLimit ){
+					for(var i = dispLimit-1 ; i < elementList.length; i++ ){
+						elementList[i].style.display ="none";
+					}
+
+					var addNode = document.createElement(elementList[0].tagName);
+					addNode.className="more";
+
+					var anchorNode = document.createElement('A');
+					anchorNode.href = "javascript: void(0);";
+					anchorNode.onclick = function(){ dispExtendItem(this) };
+					
+					var textNode =  document.createTextNode("‘S" + elementList.length + "Œ‚ð•\Ž¦ â");
+					
+					anchorNode.appendChild(textNode);
+					addNode.appendChild(anchorNode);
+					element.insertBefore( addNode , elementList[dispLimit-1]);
+
+				}
+			}
+		});
+	}
+
+}
+
+function dispExtendItem(el){
+	el.parentNode.style.display ="none";
+	$A(el.parentNode.parentNode.getElementsByClassName("elementItem")).each(function(n){
+		//n.style.display = n.parentNode.getStyle("display");
+		n.style.display = "block";
+	});
+}
+
+
+Event.observe(window, "load", function(){dispExtendItemInit(5)});
+
+
+
+Event.observe(window, "load", 
+	function(){
+		if($$(".post_quote")){
+			$$(".post_quote").each(function(el){
+				if(el.getHeight() > 100){
+					el.style.height="100px";
+					el.style.overflow="scroll";
+				}
+			})
+		}
+	}
+);
+
+
+ 

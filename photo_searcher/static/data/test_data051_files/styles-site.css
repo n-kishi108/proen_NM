@@ -1,0 +1,477 @@
+@charset "UTF-8";
+
+
+/* --------基本設定-------- */
+body {
+	width:910px;
+	background-color: #eaf4fc;
+}
+
+h1, h2, h3, h4, p, form {
+	padding: 0px;
+	margin: 0px;
+}
+
+.Entry-Body p, 
+.Entry-BodyEx p, 
+.comments-body p {
+	margin-bottom: 1em;
+}
+textarea,select,input {
+	font-family: "ヒラギノ角ゴPro W3","Hiragino Kaku GothicPro","Osaka","Helvetica","Arial","Verdana","ＭＳ Ｐゴシック",sans-serif;
+}
+
+/* --------リンクカラー-------- */
+a {
+	color: #0077A3;
+	text-decoration: underline;
+}
+a:link {
+	color: #0077A3;
+}
+a:visited {
+	color: #808080;
+}
+
+/* --------上記のカラーの初期設定は8E8E8E　高見-------- */
+
+
+a:active {
+	color: #0077A3;
+}
+a:hover {
+	color: #FF9600;
+}
+
+/* --------ヘッダーの設定-------- */
+#HeadContainer {
+	margin: 0px 0px 0px 0px;
+	border-top: 1px solid #B5BABC;
+	border-right: 1px solid #B5BABC;
+	border-left: 1px solid #B5BABC;
+	background-color: #ffffff;
+}
+
+/* --------上記の#Head～のpxの初期設定は左から0 26 0 26　高見-------- */
+
+
+#Header {
+	border-bottom: 0px solid #4b0082;
+}
+
+#Header img {
+  border:0;
+  }
+
+#HeadBtm {
+	width:100%;
+	height: 3px;
+	overflow: hidden;
+	background-color: #7DDCFF;
+}
+/* ブログのタイトル */
+#Header h1 {
+	padding: 5px 10px;
+	font-family: "Trebuchet MS",Verdana,Helvetica,Airal,sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: #060;
+
+}
+#Header h1 a,
+#Header h1 a:link,
+#Header h1 a:visited,
+#Header h1 a:active,
+#Header h1 a:hover {
+	color: #060;
+	text-decoration: none;
+}
+#banner {
+	float: right;
+}
+.banright {
+	margin: 10px 10px 10px 10px;
+	float: right;
+}
+/* ブログの説明文 */
+p.description {
+	padding: 0px 10px 5px 10px;
+	font-size: small;
+	color: #000;
+}
+
+/* header
+
+/* --------ヒット数の画像位置指定（高見）-------- */
+#hit{
+　position:absolute;
+　top:18px;
+　padding-left:350px;
+　}
+
+/* --------江口接骨院の広告の画像位置指定（高見）←再利用のため削除禁止-------- */
+
+#eguchi{
+　position:absolute;
+　top:80px;
+　padding-left:745px;
+　}
+
+/* --------右肩の画像位置指定（高見）-------- */
+#kwan {
+　position:absolute;
+  top:30px;
+  padding-left:730px;
+  }
+
+#kwan img {
+  border:0;
+  }
+
+/* --------基本レイアウト-------- */
+#MainArea {
+	margin-right: 190px;
+	margin-left: 190px;
+}
+#MainArea-b {
+	margin-right: 20px;
+	margin-left: 190px;
+}
+#Side1 {
+	float: left;
+	width: 190px;
+	background-color: #7DDCFF;
+}
+#Side2 {
+	float: right;
+	width: 190px;
+	background-color: #7DDCFF;
+	text-align:center;
+}
+
+/* --------メインコンテンツの設定-------- */
+#BodyContainerArea {
+	margin: 0px 0px 0px 0px;
+	border-right: 1px solid #B5BABC;
+	border-bottom: 1px solid #B5BABC;
+	border-left: 1px solid #B5BABC;
+	background-color: #FDFDFD;
+}
+
+/* --------上記の#Body～Areaのpxの初期設定は左から0 26 20 26　高見-------- */
+
+
+#BodyContainer {
+	padding-top: 0px;
+}
+/* --------エントリーの設定-------- */
+#blogBody {
+	padding: 0px 10px 10px 10px;
+}
+#MainArea-b #blogBody {
+	padding: 0px 10px 10px 10px;
+}
+.OneEntry {
+	margin-bottom: 15px;
+	border: 1px solid #D0D0D0;
+	background-color: #fff;
+}
+
+.Entry-Head {
+	padding: 3px 3px 0px 6px;
+	background-color: #ECECEC;
+}
+
+.Entry-BodyContainer {
+	padding: 6px;
+	background-color: #fff;
+}
+
+/* 日付 */
+.Entry-Date {
+	padding:2px 0 2px 0;
+	font-family: "Trebuchet MS",Verdana,Helvetica,Airal,sans-serif;
+	font-size: small;
+	font-style: italic;
+	color: #666;
+}
+
+/* --------上記の日付のpxの初期設定は左から10 0 2 0　高見-------- */
+
+
+/* エントリータイトル */
+.Entry-Title {
+	padding-left: 10px;
+	font-size:20px;
+	font-weight: bold;
+	color: #505050;
+}
+
+/* --------上記のエントリータイトルの初期設定はサイズ・middle-------- */
+
+
+/* エントリー本文 */
+.Entry-Body {
+	padding: 0px 0px 0px 0px;
+	font-size: small;
+	color: #000;
+	line-height: 150%;
+}
+
+/* --------上記のエントリー本文のpxの初期設定は左から10 10 1.5 10　高見-------- */
+
+
+
+.Entry-BodyEx {
+	padding: 0px 10px 10px 10px;
+	font-size: small;
+	color: #000;
+	line-height: 150%;
+}
+.Entry-Body img,
+.Entry-BodyEx img {
+	padding: 3px 3px 3px 3px;
+}
+
+<!--上記の.Entry～imgのpxの初期設定は左から0 10 10 0　高見-->
+
+.Entry-Body blockquote,
+.Entry-BodyEx blockquote {
+	padding: 10px;
+	border: 1px dashed #dfdfdf;
+}
+/* エントリーフッター */
+.Entry-Foot {
+	padding: 6px 10px 0px 10px;
+	border-top: 1px solid #ccc;
+	font-size: x-small;
+	color: #666;
+	line-height: 150%;
+}
+/* ページ遷移メニュー */
+.menu {
+	padding: 15px;
+	font-size: small;
+}
+
+/* --------サイドバーの設定-------- */
+/* カレンダー */
+#calendarBox {
+	margin: 0px 8px 8px 8px;
+	border: 1px solid #ccc;
+}
+.calendar {
+	font-family: "Trebuchet MS",Verdana,Helvetica,Airal,sans-serif;
+	font-size: xx-small;
+	font-weight: normal;
+	color: #666;
+	line-height: 140%;
+	text-align: center;
+}
+span.calendar{
+	padding: 2px;
+}
+
+/* サイドモジュール */
+.SideModule {
+	margin: 8px 8px 8px 8px;
+	border: 0px solid #ccc;
+}
+
+/* サイドバーの見出し */
+.Side-Head {
+	padding: 2px 2px 2px 3px;
+	font-family: "Century Gothic","Trebuchet MS",Verdana,Helvetica,Airal,sans-serif;
+	font-size: small;
+	font-weight: bold;
+	color: #505050;
+	text-align: left;
+	background-color: #fff;
+}
+
+.side-head2 {
+  padding:5px 0 5px 0;
+  font-family: "Century Gothic","Trebuchet MS",Verdana,Helvetica,Airal,sans-serif;
+  font-size:small;
+  font-weight:bold;
+  color:#505050;
+  text-align:center;
+  }
+
+/* サイドバーの本文 */
+.Side-Body {
+	padding: 15px 5px 5px 5px;
+	font-size: small;
+	color: #000;
+	line-height: 150%;
+	background-color: #FEFEFE;
+	text-align:left;
+}
+
+/* サイドバーのリスト設定 */
+.Side-Body ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+.Side-Body ul li {
+	padding: 0px 0px 5px 9px;
+}
+/* サイドバー下の情報 */
+.SideBottom {
+	padding: 6px;
+	font-family: "Century Gothic","Trebuchet MS",Verdana,Helvetica,Airal,sans-serif;
+	font-size: small;
+	text-align: left;
+	background-color: #7DDCFF;
+}
+.SideBottom p {
+	padding: 3px 0px;
+	font-size: x-small;
+	font-weight: bold;
+}
+
+.SideBottom a {
+	padding: 3px 0px;
+	font-size: x-small;
+	font-weight: bold;
+}
+
+.smallTxt {
+	font-size: x-small;
+	color: #666;
+}
+
+/* --------フッターの設定-------- */
+#Footer {
+	clear: both;
+	padding: 15px 0px 10px 0px;
+	font-size: x-small;
+	color: #666;
+	text-align: center;
+}
+
+/* --------コメント・トラックバックの設定-------- */
+#banner-commentspop {
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	font-size: small;
+	font-weight: bold;
+	color: #FFF;
+	text-align: left;
+	background: #103E5A;
+}
+.comments-head {
+	padding-top: 20px;
+	padding-left: 10px;
+	border-bottom: 1px solid #999;
+	font-size: small;
+	font-weight: bold;
+	color: #666;
+	text-align: left;
+}
+.comments-body {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	border-bottom: 1px dotted #ccc;
+	font-size: small;
+	color: #666;
+	line-height: 150%;
+	text-align: left;
+}
+.comments-post {
+	padding-left: 25px;
+	font-size: x-small;
+	color: #666;
+	text-align: left;
+}
+.trackback-url {
+	padding: 5px;
+	border: 1px dotted #ccc;
+	font-size: small;
+	color: #666;
+	line-height: 150%;
+	text-align: left;
+}
+.trackback-body {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #ccc;
+	font-size: small;
+	color: #666;
+	line-height: 150%;
+	text-align: left;
+}
+.trackback-post {
+	font-size: 8pt;
+	color: #666;
+	text-align: left;
+}
+.blog {
+	margin:0px 20px 20px 20px;
+	padding: 20px;
+	background-color: #fff;
+}
+
+/* box
+----------------------------------------------- */
+.box {
+  margin:0;
+  padding:0;
+  width:100%;
+  background-color:#FFFFFF;
+  text-align:left;
+  overflow:hidden;
+  }  
+
+.box p {
+  margin-bottom:5px;
+  color:#575757;
+  font-family:Verdana, Arial, sans-serif;
+  font-size:12px;
+  font-weight:normal;
+  line-height:150%;
+  }
+
+.box img {
+  margin:0;
+  padding:3px;
+  }
+
+.box table {
+  margin-bottom:20px;
+  width:100%;
+  border:none;
+  font-size:11px;
+  }
+
+.box th {
+  padding:2px 5px 2px 5px;
+  color:#FFFFFF;
+  border:none;
+  border-bottom:1px solid #FFFFFF;
+  border-right:1px solid #FFFFFF;
+  background-color:#7DDCFF;
+  text-align:center;
+  }
+
+.box td {
+  padding:2px 5px 2px 5px;
+  border:none;
+  border-bottom:1px solid #FFFFFF;
+  border-right:1px solid #FFFFFF;
+　background-color:#CCCCCC;
+  color:#333333;
+  text-align:left;
+	 }  
+
+.box caption {
+  margin-bottom:5px;
+  color:#333333;
+  font-weight:bold;
+  font-size:14px;
+  text-align:left;
+  }

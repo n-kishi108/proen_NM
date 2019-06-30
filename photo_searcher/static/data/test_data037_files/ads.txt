@@ -1,0 +1,63 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BAatsBZC1S7bvL5mw6QPQ3IXwCpOYz9IBj8WoyBDAjbcBgKuPEhABGAEggMbkAygEOABQnfup5vr_____AWCJ672E4BOgAdXt9PUDsgEYYW5oZWxvLmNvY29sb2ctbmlmdHkuY29tyAEB2gE7aHR0cDovL2FuaGVsby5jb2NvbG9nLW5pZnR5LmNvbS9ibG9nLzIwMDkvMDUvcG9zdC1hMTlkLmh0bWypAs7gEqOP5UY-yALTv_cRqAMB6AOzAugDvQToA7kB9QMAAADE9QMEAAAA&amp;num=1&amp;sig=AGiWqtxcGP4SStXsEaiI5PdW2bbOLzEnBw&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://ac.ebis.ne.jp/tr_set.php%3Fargument%3DehTGVVgm%26ai%3DAD4314CT"; 
+google_ad.visible_url = "www.theatre.co.jp"; 
+google_ad.line1 = "\x26#36196;\x26#12385;\x26#12419;\x26#12435; \x26#12362;\x26#12416;\x26#12388;CM\x26#12514;\x26#12487;\x26#12523;"; 
+google_ad.line2 = "\x26#12376;\x26#12414;\x26#12435;\x26#12398;\x26#12431;\x26#12364;\x26#23376;\x26#12434;CM\x26#12487;\x26#12499;\x26#12517;\x26#12540;\x26#65281;"; 
+google_ad.line3 = "\x26#36196;\x26#12385;\x26#12419;\x26#12435;\x26#12514;\x26#12487;\x26#12523; \x26#28961;\x26#26009;\x26#12458;\x26#12540;\x26#12487;\x26#12451;\x26#12471;\x26#12519;\x26#12531;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=ByBuUBZC1S7bvL5mw6QPQ3IXwCvCSjrAB6s7pqBPAjbcBgP6sDRACGAIggMbkAygEOABQjIqZxQNgieu9hOAToAHexqzoA7IBGGFuaGVsby5jb2NvbG9nLW5pZnR5LmNvbcgBAdoBO2h0dHA6Ly9hbmhlbG8uY29jb2xvZy1uaWZ0eS5jb20vYmxvZy8yMDA5LzA1L3Bvc3QtYTE5ZC5odG1sgAIBqQLO4BKjj-VGPsgC7qetEKgDAegDswLoA70E6AO5AfUDAAAAxPUDBAAAAA&amp;num=2&amp;sig=AGiWqtx2OhjvxStAmplhIId6CvgyBtq0XQ&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://okudaphoto.com/"; 
+google_ad.visible_url = "okudaphoto.com/"; 
+google_ad.line1 = "\x26#20986;\x26#24373;\x26#20889;\x26#30495;\x26#25774;\x26#24433; \x26#39640;\x26#21697;\x26#36074;\x26#20302;\x26#20385;\x26#26684;"; 
+google_ad.line2 = "\x26#32080;\x26#23130;\x26#24335;\x26#12289;\x26#12473;\x26#12490;\x26#12483;\x26#12503;\x26#12289;\x26#12473;\x26#12509;\x26#12540;\x26#12484;\x26#12411;\x26#12363;"; 
+google_ad.line3 = "18000\x26#20870;/1\x26#26178;\x26#38291;\x26#12290;\x26#12459;\x26#12483;\x26#12488;\x26#25968;\x26#21046;\x26#38480;\x26#12394;\x26#12375;\x26#12290;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B4klEBZC1S7bvL5mw6QPQ3IXwCvLNsrMBpr6jng7AjbcBwPnvDBADGAMggMbkAygEOABQp_mLzwRgieu9hOAToAHCiovwA7IBGGFuaGVsby5jb2NvbG9nLW5pZnR5LmNvbcgBAdoBO2h0dHA6Ly9hbmhlbG8uY29jb2xvZy1uaWZ0eS5jb20vYmxvZy8yMDA5LzA1L3Bvc3QtYTE5ZC5odG1sqQLO4BKjj-VGPsgC3s7CEqgDAegDswLoA70E6AO5AfUDAAAAxPUDBAAAAA&amp;num=3&amp;sig=AGiWqtz2MSM9VHhzmKjSe04GZdAwjneoMA&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://www.nihonhoeipro.co.jp/recruitment.html"; 
+google_ad.visible_url = "www.nihonhoeipro.co.jp"; 
+google_ad.line1 = "\x26quot;\x26#26085;\x26#26412;\x26#25918;\x26#26144;\x26#12503;\x26#12525;\x26quot;\x26#12514;\x26#12487;\x26#12523;\x26#21215;\x26#38598;"; 
+google_ad.line2 = "\x26#33464;\x26#33021;\x26#30028;\x26#12395;\x26#12481;\x26#12515;\x26#12524;\x26#12531;\x26#12472;\x26#12375;\x26#12414;\x26#12379;\x26#12435;\x26#12363;\x26#12290;"; 
+google_ad.line3 = "\x26#12514;\x26#12487;\x26#12523;\x26#12458;\x26#12540;\x26#12487;\x26#12451;\x26#12471;\x26#12519;\x26#12531;\x26#38283;\x26#20652;\x26#20013;\x26#12290;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 4; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BUpxwBZC1S7bvL5mw6QPQ3IXwCvnNj58B69yj2wrAjbcBgNHKCBAEGAQggMbkAygEOABQ7aDi5vn_____AWCJ672E4BOgAd_3iv0DsgEYYW5oZWxvLmNvY29sb2ctbmlmdHkuY29tyAEB2gE7aHR0cDovL2FuaGVsby5jb2NvbG9nLW5pZnR5LmNvbS9ibG9nLzIwMDkvMDUvcG9zdC1hMTlkLmh0bWypAs7gEqOP5UY-yAKLndsOqAMB6AOzAugDvQToA7kB9QMAAADE9QMEAAAA&amp;num=4&amp;sig=AGiWqtx_CQ_0YnIWmhQsAkfiNNmTPHo-aA&amp;client=ca-nifty-cocolog-user_js&amp;adurl=http://www.isl.co.jp/SILKYPIX/japanese/"; 
+google_ad.visible_url = "www.isl.co.jp/SILKYPIX/"; 
+google_ad.line1 = "\x26#37326;\x26#40165;\x26#20889;\x26#30495;\x26#12399;RAW\x26#29694;\x26#20687;\x26#12391;"; 
+google_ad.line2 = "silkypix\x26#12391;\x26#12487;\x26#12472;\x26#12459;\x26#12513;\x26#30011;\x26#20687;\x26#12434;\x26#32330;\x26#32048;\x26#20181;\x26#19978;\x26#12370;"; 
+google_ad.line3 = "\x26#12414;\x26#12378;\x26#12399;\x26#12362;\x26#35430;\x26#12375;\x26#65281;"; 
+google_ad.regionname = ""; 
+google_ads[3] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://anhelo.cocolog-nifty.com/blog/2009/05/post-a19d.html%26hl%3Dja%26client%3Dca-nifty-cocolog-user_js%26adU%3Dwww.theatre.co.jp%26adT%3D%25E8%25B5%25A4%25E3%2581%25A1%25E3%2582%2583%25E3%2582%2593%2B%25E3%2581%258A%25E3%2582%2580%25E3%2581%25A4CM%25E3%2583%25A2%25E3%2583%2587%25E3%2583%25AB%26adU%3Dokudaphoto.com/%26adT%3D%25E5%2587%25BA%25E5%25BC%25B5%25E5%2586%2599%25E7%259C%259F%25E6%2592%25AE%25E5%25BD%25B1%2B%25E9%25AB%2598%25E5%2593%2581%25E8%25B3%25AA%25E4%25BD%258E%25E4%25BE%25A1%25E6%25A0%25BC%26adU%3Dwww.nihonhoeipro.co.jp%26adT%3D%2526quot%253B%25E6%2597%25A5%25E6%259C%25AC%25E6%2594%25BE%25E6%2598%25A0%25E3%2583%2597%25E3%2583%25AD%2526quot%253B%25E3%2583%25A2%25E3%2583%2587%25E3%2583%25AB%25E5%258B%259F%25E9%259B%2586%26adU%3Dwww.isl.co.jp/SILKYPIX/%26adT%3D%25E9%2587%258E%25E9%25B3%25A5%25E5%2586%2599%25E7%259C%259F%25E3%2581%25AFRAW%25E7%258F%25BE%25E5%2583%258F%25E3%2581%25A7%26gl%3DJP%26hideleadgen%3D1\x26usg\x3dAFQjCNHPrBHEqutGHR5MHV1zUKdsj_nEMw"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

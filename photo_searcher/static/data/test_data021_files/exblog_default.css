@@ -1,0 +1,114 @@
+/*
+    記事内ライフログ用スタイル
+*/
+.lifelog-entry ul
+{
+	margin:0px;
+	padding:0px;
+}
+
+.lifelog-entry li
+{
+	list-style:none;
+}
+
+.lifelog-entry a:visited , .lifelog-entry a:link
+{
+	display:block;
+	text-decoration:none;
+	background-color:#efefef;
+	color:#404040;
+	border : 1px solid #bbbbbb;
+}
+.lifelog-entry a:hover
+{
+	display:block;
+	text-decoration:none;
+	background-color:#ffffff;
+	color:#505050;
+	border : 1px solid #bbbbbb;
+	cursor:pointer;
+}
+
+.lifelog-entry a
+{
+	zoom:1;
+}
+
+/* ライフログ タイトル */
+.lifelog-ttl
+{
+    margin:0px;
+    font-weight:bold;
+}
+
+/* ライフログ コンテンツ */
+.lifelog-sub
+{
+    margin:0px;
+}
+
+/* ライフログ 画像 */
+.lifelog-img
+{
+	margin:0px;
+	border:0px;
+	padding:5px 5px 5px 5px;
+	display:block;
+	float:left;
+	width:70px;
+}
+
+.lifelog-star
+{
+	margin:0px 0px 0px 3px;
+	padding:0px;
+	border:0px;
+}
+
+#optimize_view{
+    -moz-border-image:    url("http://md.exblog.jp/img/iphone/btnBg.png") 0 5 0 5;
+    -webkit-border-image: url("http://md.exblog.jp/img/iphone/btnBg.png") 0 5 0 5;
+    background:none repeat scroll 0 0 transparent;
+    border-width:0 5px;
+    color:#FFFFFF !important;
+    font-size:24px;
+    font-weight:bold;
+    width:210px;
+    line-height:80px;
+    padding:0 2px;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    margin:auto;
+}
+
+#pc4iphone_footer {
+    background-color:#000000;
+    background-image:url("http://md.exblog.jp/img/iphone/headerBg.png");
+    background-repeat:repeat-x;
+    border-bottom:1px solid #333333;
+    border-top:1px solid #000000;
+    margin-top:-1px;
+    min-height:80px;
+    padding:10px 8px 8px;
+}
+
+/* clear fix */
+.clearfix:after
+{
+	content:".";
+	display:block;
+	height:0px;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix
+{
+	display:inline-block;
+}
+/* hide from ie-mac \*/
+* html .clearfix{ height:1%; }
+.clearfix{ display:block; }
+/* end hide from ie-mac */
+

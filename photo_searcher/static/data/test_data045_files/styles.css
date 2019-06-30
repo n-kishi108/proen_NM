@@ -1,0 +1,795 @@
+body {
+margin: 10px 0px 0px 0px;
+border: 0;
+padding: 0;
+background: #F7F3FA url("http://bbkids.cocolog-nifty.com/takarazuka/image/bodybg.gif") repeat-y center top;
+text-align: center;
+	
+	}
+
+a {
+text-decoration: none;
+color:#993399;
+	}
+
+a:link {
+	color: #993399;
+	}
+
+a:visited {
+color:#809;/*	color: #993399;*//*0217asahi*/
+	}
+
+a:active {
+	color: #CC99CC;
+	}
+
+a:hover {
+color:#63b;/*	color: #CC99CC;*//*0217asahi*/
+text-decoration:underline;
+	}
+
+h1{
+font-size:150%;
+text-align:center;
+margin:0 auto;
+color:#FF0066;
+}
+
+h2 {
+	margin: 0px;
+	padding: 0px;
+	/*font-weight: normal;*//*0215asahi*/
+color:#FF0066;
+text-align:center;
+	}
+
+h3 {
+	margin: 0px;
+	padding: 10px 0px ;
+	font-weight: normal;
+color:#FF0066;
+text-align:center;
+font-size:medium;/*font-size:middium;*//*0215asahi*/
+	}
+	
+h4 {
+	margin: 0px;
+	padding: 15px 0px 0px 0px ;
+	font-weight: normal;
+color:#990033;
+text-align:center;
+font-size:middium;
+	}
+
+#container {
+	line-height: 140%;
+		margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	padding: 0px;
+	width: 800px;
+	
+	background:url("http://bbkids.cocolog-nifty.com/takarazuka/image/main_bg.gif") repeat-y center top;
+	margin-bottom:0px;
+	
+	}
+
+.contentbg{
+
+/*background:url("http://bbkids.cocolog-nifty.com/takarazuka/image/bottombg.gif") no-repeat center bottom;*/
+margin:auto;
+}
+
+#banner {
+        display: block;
+        background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/ttopics_titlebk.gif") no-repeat;
+        
+/*        font-family: 'Trebuchet MS', Verdana, sans-serif;*//*0215asahi*/
+        color: #000000;
+        text-align: center;
+        
+        height: 140px;
+        }
+		
+#banner-img {
+        display: none;
+        }
+		
+#banner h1 {
+visibility: hidden; 
+  padding: 15px 15px 0px 15px;
+  	font-size: xx-large;
+	font-weight: bold;      
+}
+#banner h2 {
+	font-size:12px;/*font-size: 9px;*//*0215asahi*/
+	color: #993399;
+ 	margin: 4px auto 15px auto;
+	padding-top:4px;/*padding-top:8px;*//*0215asahi*/
+        background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/menubg.gif") no-repeat center top;
+	width:500px;
+	height:30px;
+	font-weight:lighter;/*0215asahi*/
+	}
+
+div.img-link a {
+	display: block;
+	height: 140px;
+	text-decoration: none;
+	}
+
+.banner-alt {
+	display: none;
+	}
+
+
+
+#banner a {
+	color:#993399;
+	font-weight: nomal;
+	text-decoration: none;
+	}
+
+
+
+
+
+#left {
+		float: left;
+	
+	
+	width: 200px;
+	
+	
+	overflow: hidden;
+	}
+
+textarea#comment-text {
+        width: 370px;
+        }
+
+
+/*
+alternate
+#right
+float: left:
+to
+float: right;
+*/
+
+#right {
+		float: right;
+	
+	
+	width: 200px;
+	
+	
+	overflow: hidden;
+	}
+
+#center {
+		float: left;
+	width: 400px;
+	overflow: hidden;
+	
+	
+	}
+
+.content {
+	padding: 0px 20px 5px 20px;
+	
+	
+	color: #000000;
+/*	font-family: 'Trebuchet MS', Verdana, sans-serif;*//*0215asahi*/
+	font-size:medium;/*font-size: middium;*//*0215asahi*/
+	}
+
+.sidebar {
+padding-left: 10px;
+padding-right: 10px;
+	}
+
+.sidebarleft {
+	padding-left: 10px;
+	}
+
+.sidebarright {
+	padding-left:5px;
+	}
+
+.contentbg{
+ background:url("http://bbkids.cocolog-nifty.com/takarazuka/image/kijibg01.gif") no-repeat center 0px;
+}
+
+.content p {
+	color: #000000;
+/*	font-family: 'Trebuchet MS', Verdana, sans-serif;*//*0215asahi*/
+font-size:96%;/*	font-size: small;*//*0215asahi*/
+	font-weight: normal;
+line-height:130%;/*	line-height: 150%;*//*0215asahi*/
+	text-align: left;
+	margin-bottom: 10px;
+	}
+
+.content blockquote {
+	line-height: 150%;
+	}
+
+.content li {
+	line-height: 150%;
+	}
+
+.content h2 {
+	color: #000000;
+/*	font-family: 'Trebuchet MS', Verdana, sans-serif;*//*0215asahi*/
+	font-size: x-small;
+	
+	text-align: center;
+	font-weight: bold;
+	
+	
+	margin-bottom: 10px;
+	
+	}
+
+.content h3 {
+	color: #000000;
+/*	font-family: 'Trebuchet MS', Verdana, sans-serif;*//*0215asahi*/
+font-size:105%;/*	font-size: large;*//*0215asahi*/
+	
+	text-align: center;
+	font-weight: bold;
+	
+	
+	margin-bottom: 10px;
+	
+	}
+
+.content h4 {
+	color: #990000;
+/*	font-family: 'Trebuchet MS', Verdana, sans-serif;*//*0215asahi*/
+font-size:105%;/*	font-size: large;*//*0215asahi*/
+	
+	text-align: center;
+	font-weight: bold;
+	
+	
+	margin-bottom: 3px;
+	
+	}
+
+.content img {
+border:0px;
+	
+	}
+
+.content p.posted {
+	clear: both;
+	color: #000000;
+/*	font-family: 'Trebuchet MS', Verdana, sans-serif;*//*0215asahi*/
+	font-size: x-small;
+	
+	text-align: right;
+	
+	
+	
+	margin-bottom: 25px;
+	line-height: normal;
+border-top:1px dashed #000000;
+padding-top:3px;
+	
+        clear: both;
+	}
+
+#calendar {
+  	line-height: 140%;
+color:#323301;/*	color: #000000;*//*0217asahi*/
+	font-family: 'Trebuchet MS', Verdana, sans-serif;
+	font-size: x-small;
+	
+	width:180px;
+  	padding: 0px;
+	text-align: center;
+	margin-bottom: 30px;
+margin-top:5px;
+	}
+
+#calendar table {
+	border-collapse: collapse;
+	border: 0px;
+	width: 180px;
+padding-bottom:5px;
+background-color:#FFFFFF;
+	}
+
+#calendar caption {
+	color: #323301;
+	font-family: 'Trebuchet MS', Verdana, sans-serif;
+	font-size: x-small;
+	
+	text-align: center;
+	font-weight: bold;
+	background:url("http://bbkids.cocolog-nifty.com/takarazuka/image/caltop.gif") no-repeat center 0px;
+height:45px;
+	padding-top:8px;
+	
+	letter-spacing: .3em;
+	}
+
+#calendar th {
+	text-align: center;
+	font-weight: normal;
+	}
+
+#calendar td {
+	text-align: center;
+	}
+
+.calendarfoot {
+background:url("http://bbkids.cocolog-nifty.com/takarazuka/image/calbtm.gif") no-repeat center 0px;
+height:19px;
+margin-bottom:10px;
+	}
+
+.sidebar h2 {
+color:#323301;
+font-size:small;
+	height:20px;
+	text-align: center;
+ background:url("http://bbkids.cocolog-nifty.com/takarazuka/image/righth2.gif") no-repeat center 0px;
+	padding-top:23px;
+	padding:23px 0 0;margin:0 auto;
+	letter-spacing:0.1em;
+}
+
+.sidebar ul {
+	padding-left: 0px;
+	margin: 0px;
+margin-right:6px;/*0215asahi*/
+	margin-bottom: 20px;
+	}
+
+.sidebar li {
+color:#323301;/*	color: #000000;*//*0217asahi*/
+/*	font-family: 'Trebuchet MS', Verdana, sans-serif;*//*0215asahi*/
+font-size:small;/*	font-size: 10px;*//*0215asahi*/
+	text-align: left;
+line-height:150%;/*	line-height: 14px;*//*0215asahi*/
+	list-style-image: url("http://bbkids.cocolog-nifty.com/takarazuka/image/list03.gif")  ;
+list-style-position:outside;/*list-style-position:inside;*//*0216asahi*/
+	
+margin-left:25px;/*0216asahi*/
+	padding-top:0px;
+	margin-top: 0px;
+	list-style-type: none;
+	}
+
+.sidebar img {
+	border:none;
+	}
+
+.side_w_txt{
+font-size:small;/*	font-size: x-small;*//*0215asahi*/
+	line-height: 140%;
+width:170px;
+padding:5px;
+text-align:left;
+background:#FFFFFF;
+margin:0 auto;
+}
+
+
+.side_p_txt{
+font-size:small;/*	font-size: x-small;*//*0215asahi*/
+	line-height: 140%;
+width:170px;
+padding:5px;
+text-align:left;
+background:#FFF;
+margin:0 auto;
+}
+
+.photo {
+	text-align: center;
+	margin-bottom: 20px;
+	}
+
+.link-note {
+/*	font-family: 'Trebuchet MS', Verdana, sans-serif;*//*0215asahi*/
+font-size:small;/*	font-size: x-small;*//*0215asahi*/
+	line-height: 150%;
+	text-align: left;
+	padding-left: 15px;
+	padding-top:3px;
+margin-bottom:5px;/*	margin-bottom: 15px;*//*0215asahi*/
+margin-left:5px;
+/*	background: url("http://bbkids.cocolog-nifty.com/takarazuka/images/list01.gif")  no-repeat 0px 0px;*//*0216asahi*/
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/list01.gif")  no-repeat left center;/*0216asahi*/
+	}
+
+#powered {
+	font-family: 'Trebuchet MS', Verdana, sans-serif;
+	font-size: x-small;
+	line-height: 150%;
+	text-align: left;
+	color: #000000;
+	margin-top: 50px;
+	}
+
+#comment-data {
+	float: left;
+	width: 180px;
+	padding-right: 15px;
+	margin-right: 15px;
+	text-align: left;
+	border-right: 1px dotted #BBB;
+	}
+
+textarea {
+	font-family: "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3", "Osaka", "ＭＳ Ｐ明朝", "ヒラギノ明朝 Pro W3", verdana, arial, sans-serif;
+	}
+
+textarea[id="comment-text"] {
+	width: 80%;
+	}
+
+.image-full {
+		width: 370px;
+	
+	
+	}
+
+.image-thumbnail {
+	float: left;
+	width: 130px;
+	margin-bottom: 10px;
+	}
+
+.image-thumbnail img {
+	width: 115px;
+	height: 115px;
+	}
+	
+span{
+	line-height: 120%;
+	}
+
+#footerbg{
+width:800px;
+height:150px;
+background:#E5DCF3 url("http://bbkids.cocolog-nifty.com/takarazuka/image/bottombg02.gif")  no-repeat center 0px;
+margin:0 auto;
+padding:0;
+text-align:center;
+}
+#footer{
+width:800px;
+height:14px;
+background:#E5DCF3 url("http://bbkids.cocolog-nifty.com/takarazuka/image/copyright.gif")  no-repeat center 0px;
+margin:0 auto;
+padding:0;
+text-align:center;
+}
+
+#main-top{
+/*width:490px;
+height:11px;
+padding:0px;
+margin-bottom:0px;
+text-align:center;
+font-size:10px;*//*0215asahi*/
+margin:0;padding:0;/*0215asahi*/
+}
+
+
+.side_w_foot{
+width:190px;
+height:11px;
+padding:0px;
+background:url("http://bbkids.cocolog-nifty.com/takarazuka/image/left01r.gif")  no-repeat center 0px;
+margin-bottom:10px;
+}
+
+.welcometitle{
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/left01.gif")  ;
+width:190px;
+height:76px;
+}
+
+.plustitle{
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/left02.gif")  ;
+width:190px;
+height:51px;
+}
+
+.templatetitle{
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/left03.gif")  ;
+width:190px;
+height:61px;
+}
+
+.lovetitle{
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/left04.gif")  ;
+width:190px;
+height:61px;
+}
+
+.doyou{
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/doyouno.gif")  ;
+height:23px;
+}
+
+
+
+
+ol.aboutmenu { margin:4px 2px 10px 2px; text-align:left;border:1px solid #ffcccc;padding:5px;line-height:120%;background:#FDDDEE;}
+ol.aboutmenu li { padding:4px 8px 4px 0;margin:0; font-size:80%; display:inline;/*list-style:none none inside;*/ }
+dl.detail { margin:4px; text-align:left; line-height:1.4;margin-bottom:20px;}
+dl.detail dt { margin-top:4px;font-weight:bold; font-size:90%; }
+dl.detail dd { margin-left:20px;margin-bottom:8px;font-size:85%; }
+ul.detail {text-align:left; font-size:85%;line-height:1.4;list-style-image:none;list-style-type:disc;}
+
+
+#kijiwaku{
+background-color:#ffffee;
+margin:0 auto;
+padding:5px 0;
+
+}
+#kijiwaku h2{
+font-size:90%;
+margin:10px 0;padding:0;
+color:#660000;
+}
+#kijiwaku h3{
+font-size:120%;
+margin:10px 0;padding:0;
+}
+#kijiwaku h3 span{
+font-size:80%;
+color:#CC3333;
+display:block;
+}
+#kijiwaku span.data{
+font-size:80%;
+margin:0 0 25px;padding:0
+}
+#kijiwaku p{
+text-align:left;
+font-size:90%;
+line-height:1.4;
+}
+.postbtm{
+font-size:80%;
+text-align:right;
+margin:5px 0 15px;
+padding:5px 0;
+border-top:1px dashed #000000;
+}
+.kiji01{
+background:url("http://bbkids.cocolog-nifty.com/takarazuka/image/kijibg01.gif") no-repeat center 0px;
+margin:auto;
+padding:0 5px;
+}
+#kijiwaku h4 { 
+margin:2px; 
+color:#660000;
+border-bottom:1px dotted #660000;
+text-align:left; 
+background:url("http://bbkids.cocolog-nifty.com/takarazuka/image/crown.gif") no-repeat left top;
+padding:0px 0px 0px 20px;
+}
+
+.sub{
+font-size:120%;
+margin:10px 0;
+padding:0;
+text-align:center; 
+}
+
+.rightmojipr{
+width:170px;
+margin:0;padding:0 5px;
+margin-bottom:15px;
+text-align:left;
+margin:auto;
+}
+
+#superbanner{
+width:100%;
+padding:0 0 5px;/*0215asahi*/
+}
+
+.osusume{
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/tl_osusume.gif")  ;
+height:32px;
+margin-bottom:5px;
+}
+
+.osusume-txt{
+padding:5px;
+background-color:#f7f3fa;
+}
+
+#present{
+width:350px;
+padding:5px;
+border:1px dotted #999966;
+margin-bottom:10px;
+}
+
+#present h3{
+background:url("http://bbkids.cocolog-nifty.com/takarazuka/image/crown.gif") no-repeat left top;
+padding:0px 0px 0px 16px;
+text-align:left;
+margin:0px;
+}
+
+#present p{
+padding-bottom:10px;
+text-align:left;
+margin:0px;
+}
+
+
+.line{
+width:350px;
+margin-bottom:5px;
+padding:5px;
+border:1px solid #CCCC99;
+}
+
+.rensai{
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/tl_rensai.gif")  ;
+height:32px;
+margin-bottom:5px;
+}
+
+.new{
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/tl_new.gif")  ;
+height:50px;
+margin-bottom:0px;
+}
+
+.koukan{
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/tl_exchange.gif")  ;
+height:50px;
+margin-bottom:0px;
+}
+
+.girls{
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/tl_girls.gif")  ;
+height:50px;
+margin-bottom:0px;
+}
+
+.enikki{
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/tl_enikki.gif")  ;
+height:50px;
+margin-bottom:0px;
+}
+
+.guide{
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/tl_guide.gif")  ;
+height:50px;
+margin-bottom:0px;
+}
+
+.lesson{
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/tl_lesson.gif")  ;
+height:50px;
+margin-bottom:0px;
+}
+
+.legend{
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/tl_legend.gif")  ;
+height:50px;
+margin-bottom:0px;
+}
+
+.atelier{
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/tl_atelier.gif")  ;
+height:50px;
+margin-bottom:0px;
+}
+
+.letter{
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/tl_letter.gif")  ;
+height:50px;
+margin-bottom:0px;
+}
+
+#top-entrybg{
+width:350px;
+margin:8px auto 8px auto ;
+padding:5px;
+background-color:#f7f3fa;
+}
+
+#top-entrybg h3{
+margin:0px;
+padding:0px 10px;
+font-weight:normal;
+color:#000000;
+text-align:left;
+background:none;
+	}
+
+#top-entrybg .p{
+	color: #000000;
+/*	font-family: 'Trebuchet MS', Verdana, sans-serif;*//*0215asahi*/
+	font-size: small;
+	font-weight: normal;
+	line-height: 150%;
+	text-align: left;
+	margin: 0px;
+	pading:0px 10px;
+	}
+
+.txt-bk{
+	color: #000000;
+/*	font-family: 'Trebuchet MS', Verdana, sans-serif;*//*0215asahi*/
+font-size:95%;/*	font-size: small;*//*0215asahi*/
+	font-weight: normal;
+	line-height: 130%;/*line-height:150%;*//*0215asahi*/
+	text-align: left;
+	margin:0px 0px 10px 0px;
+padding-top:0px;
+	}
+
+.prof{
+ text-align:right; 
+ font-size:small; 
+ color:#666666; 
+color:#660000;
+border-top:1px dotted #660000;
+ }
+ 
+.txt-bk02{
+	color: #000000;
+/*	font-family: 'Trebuchet MS', Verdana, sans-serif;*//*0215asahi*/
+	font-size: small;
+	font-weight: normal;
+	line-height: 150%;
+	text-align: left;
+	margin:0px;
+padding-top:0px;
+	}
+	
+.txt-title{
+	color: #000000;
+/*	font-family: 'Trebuchet MS', Verdana, sans-serif;*//*0215asahi*/
+	font-size: 100%;/*font-size:middium;*//*0215asahi*/
+	font-weight: bold;/*font-weight:normal;*//*0215asahi*/
+	line-height: 150%;
+	text-align: left;
+	margin:0px;
+padding-top:0px;
+	}
+
+.cattitle{
+	color: #000000;
+/*	font-family: 'Trebuchet MS', Verdana, sans-serif;*//*0215asahi*/
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/list02.gif") no-repeat 0px 0px ;
+	font-size: 90%;/*font-size:small;*//*0215asahi*/
+	font-weight: normal;
+	line-height: 150%;
+	text-align: left;
+	margin:0px;
+padding:0px 0px 0px 8px;
+	}
+	
+.entry{
+background:url("http://bbkids.cocolog-nifty.com/takarazuka/image/kijibg01.gif") no-repeat center 0px;
+}
+.writertitle{
+background: url("http://bbkids.cocolog-nifty.com/takarazuka/image/left07.gif")  ;
+width:190px;
+height:61px;
+}
+.bbkidsinfotitle {
+background: url("http://bbkids.cocolog-nifty.com/bbkids/images/left01.gif")  ;
+width:190px;
+height:76px;
+}

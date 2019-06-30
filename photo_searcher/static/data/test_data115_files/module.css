@@ -1,0 +1,36 @@
+﻿@charset "utf-8";
+
+.BrowserBlogNewMonth
+{
+ /*	background-color: #FFFFFF;*/
+ /*	background-image: url("../../../Images/grayback.gif");*/
+  color: #333333;
+  font-size: small;
+  padding: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+  margin: 0px;
+  font-family: 'Arial', 'Helvetica', 'ＭＳ ゴシック' , 'Osaka－等幅' , monospace;
+}
+
+.BrowserBlogNewMonth .Title
+{
+  color: white;
+  font-size: medium;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.BrowserBlogNewMonth .NewMonthListHolder
+{
+  padding-top:5px;
+  padding-left:3px;
+}
+
+.BrowserBlogNewMonth .NewMonthList
+{
+  padding:3px;
+}
+

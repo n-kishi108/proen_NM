@@ -1,0 +1,698 @@
+.seesaa-floating-link {
+cursor: pointer;
+text-decoration:underline;
+}
+a.ad-link:link {text-decoration: none}
+a.ad-link:visited {text-decoration: none}
+a.ad-link:hover {text-decoration: none;}
+/*background-color*/
+.yui-panel .ads{
+width:208px;
+margin:0 auto;
+border-bottom:solid 1px #ccc;
+border-top:solid 1px #ccc;
+padding:5px 0 0 0;
+height:162px;
+}
+.ad-link{
+border: 0px;
+padding: 0px;
+margin: 0px;
+display: inline;
+font-weight: normal;
+font-size: 8px;
+visibility: visible;
+position: static;
+}
+
+.yui-panel a.ads-box{
+text-align:left;
+width:202;
+height:61px;
+overflow:hidden;
+background-color:#ECF6F6;
+padding:3px;
+margin-bottom:5px;
+cursor:pointer;
+display:block;
+}
+.yui-panel a.ads-box:hover{
+background-color:#fff;
+background-image:url(mouse_over.gif);
+background-repeat:no-repeat;
+}
+.yui-panel .ads-title{
+color:#0066CB;
+border: 0px;
+padding: 2px 0px 2px 0px;
+margin: 0px;
+display: block;
+font-weight: bold;
+font-size: 12px;
+position: static;
+text-decoration:underline;
+}
+.yui-panel .ads-text{
+color: #000000;
+border: 0px;
+padding: 0px;
+margin: 0px;
+font-size: 10px;
+background: none transparent scroll repeat 0% 0%;
+position: static;
+line-height:125%;
+display:block;
+}
+.yui-panel .ads-url{
+color: #008000;
+padding:0px 0 0 0;
+margin: 0px;
+font-size: 10px;
+line-height:14px
+display:block;
+}
+
+.yui-panel a.web-box{
+text-align:left;
+width:202;
+height:30px;
+_height:35px;
+overflow:hidden;
+background-color:#fff;
+padding:3px;
+cursor:pointer;
+display:block;
+}
+.yui-panel .web-title{
+color:#0066CB;
+border: 0px;
+padding: 2px 0px 2px 0px;
+margin: 0px;
+display: block;
+font-weight: bold;
+font-size: 12px;
+position: static;
+text-decoration:underline;
+}
+.yui-panel .web-url{
+color: #008000;
+padding:0px 0 0 0;
+margin: 0px;
+font-size: 10px;
+line-height:14px
+display:block;
+}
+
+
+/*
+Copyright (c) 2008, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.5.2
+*/
+.yui-overlay,
+.yui-panel-container {
+    visibility:hidden;
+    position:absolute;
+    z-index: 2;
+}
+
+.yui-tt {
+    visibility:hidden;
+    position:absolute;
+    color:#333;
+    background-color:#FDFFB4;
+    font-family:arial,helvetica,verdana,sans-serif;
+    padding:2px;
+    border:1px solid #FCC90D;
+    font:100% sans-serif;
+    width:auto;
+}
+
+/*
+    PLEASE NOTE: The <DIV> element used for a Tooltip's shadow is appended 
+    to its root element via JavaScript once it has been rendered.  The 
+    code that creates the shadow lives in the Tooltip's public "onRender" 
+    event handler that is a prototype method of YAHOO.widget.Tooltip.  
+    Implementers wishing to remove a Tooltip's shadow or add any other markup
+    required for a given skin for Tooltip should override the "onRender" method.
+*/
+
+.yui-tt-shadow {
+    display: none;
+}
+
+* html body.masked select {
+    visibility:hidden;
+}
+
+* html div.yui-panel-container select {
+    visibility:inherit;
+}
+
+* html div.drag select {
+    visibility:hidden;
+}
+
+* html div.hide-select select {
+    visibility:hidden;
+}
+
+.mask {
+    z-index: 1; 
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    -moz-opacity: 0.5;
+    opacity:.50;
+    filter: alpha(opacity=50);
+    background-color:#CCC;
+}
+
+/*
+
+There are two known issues with YAHOO.widget.Overlay (and its subclasses) that 
+manifest in Gecko-based browsers on Mac OS X:
+
+    1) Elements with scrollbars will poke through Overlay instances floating 
+       above them.
+    
+    2) An Overlay's scrollbars and the scrollbars of its child nodes remain  
+       visible when the Overlay is hidden.
+
+To fix these bugs:
+
+    1) The "overflow" property of an Overlay instance's root element and child 
+       nodes is toggled between "hidden" and "auto" (through the application  
+       and removal of the "hide-scrollbars" and "show-scrollbars" CSS classes)
+       as its "visibility" configuration property is toggled between 
+       "false" and "true."
+    
+    2) The "display" property of <SELECT> elements that are child nodes of the 
+       Overlay instance's root element is set to "none" when it is hidden.
+
+PLEASE NOTE:  
+  
+    1) The "hide-scrollbars" and "show-scrollbars" CSS classes classes are 
+       applied only for Gecko on Mac OS X and are added/removed to/from the 
+       Overlay's root HTML element (DIV) via the "hideMacGeckoScrollbars" and 
+       "showMacGeckoScrollbars" methods of YAHOO.widget.Overlay.
+    
+    2) There may be instances where the CSS for a web page or application 
+       contains style rules whose specificity override the rules implemented by 
+       the Container CSS files to fix this bug.  In such cases, is necessary to 
+       leverage the provided "hide-scrollbars" and "show-scrollbars" classes to 
+       write custom style rules to guard against this bug.
+
+** For more information on this issue, see:
+
+   + https://bugzilla.mozilla.org/show_bug.cgi?id=187435
+   + SourceForge bug #1723530
+
+*/
+
+.hide-scrollbars,
+.hide-scrollbars * {
+
+    overflow: hidden;
+
+}
+
+.hide-scrollbars select {
+
+    display: none;
+
+}
+
+.show-scrollbars {
+
+    overflow: auto;
+
+}
+
+.yui-panel-container.show-scrollbars {
+
+    overflow: visible;
+
+}
+
+.yui-panel-container.show-scrollbars .underlay {
+
+    overflow: auto;
+
+}
+
+.yui-panel-container.focused {
+
+}
+
+
+/* Panel underlay styles */
+
+.yui-panel-container .underlay {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+.yui-panel-container.matte {
+
+    padding: 3px;
+    background-color: #fff; 
+
+}
+
+.yui-panel-container.shadow .underlay {
+
+    top: 3px;
+    bottom: -3px;
+    right: -3px;
+    left: 20px;
+
+    opacity: .12;
+    filter: alpha(opacity=12);  /* For IE */
+
+}
+
+/* 
+   Workaround for Safari 2.x - the yui-force-redraw class is applied, and then removed when
+   the Panel's content changes, to force Safari 2.x to redraw the underlay.
+   We attempt to choose a CSS property which has no visual impact when added,
+   removed, but still causes Safari to redraw
+*/
+.yui-panel-container.shadow .underlay.yui-force-redraw {
+    padding-bottom: 1px;
+}
+
+.yui-effect-fade .underlay {
+    display:none;
+}
+
+.yui-panel {
+    visibility:hidden;
+    border-collapse:separate;
+    position:relative;
+    left:0;
+    top:0;
+    font:1em Arial;
+/*    background-color:#FFF; */
+
+    z-index:1;
+    overflow:hidden;
+}
+
+.yui-panel .hd,
+.yui-panel .hd span {
+font-size:13px;
+}
+.yui-panel .hd .hd-l-yaji{
+_height:1px;
+    line-height:100%;
+    padding:18px 4px 2px 10px;
+    $padding:18px 4px 7px 10px;
+    background-image:url(balloon_01.gif);
+    background-position:right top;
+    background-repeat:no-repeat;
+    white-space:nowrap;
+    text-align:left;
+}
+.yui-panel .hd .hd-r-yaji{
+_height:1px;
+    line-height:100%;
+    padding:18px 4px 2px 10px;
+    $padding:18px 4px 7px 10px;
+    background-image:url(balloon_02.gif);
+    background-position:right top;
+    background-repeat:no-repeat;
+    white-space:nowrap;
+    text-align:left;
+}
+.yui-panel .hd .hd-no-yaji{
+_height:1px;
+    line-height:100%;
+    padding:8px 4px 2px 10px;
+    $padding:8px 4px 2px 10px;
+    background-image:url(bg_02.gif);
+    background-position:left top;
+    background-repeat:no-repeat;
+    white-space:nowrap;
+    text-align:left;
+}
+.yui-panel .hd .hd-close-no-yaji{
+_height:1px;
+    line-height:100%;
+    padding:3px 4px 2px 10px;
+    $padding:4px 4px 2px 10px;
+    background-image:url(bg_02.gif);
+    background-position:left top;
+    background-repeat:no-repeat;
+    white-space:nowrap;
+    text-align:left;
+}
+.yui-panel .hd .hd-close-l-yaji{
+_height:1px;
+    line-height:100%;
+    padding:18px 4px 7px 10px;
+    $padding:18px 4px 7px 10px;
+    background-image:url(balloon_01.gif);
+    background-position:left top;
+    background-repeat:no-repeat;
+    white-space:nowrap;
+    text-align:left;
+}
+.yui-panel .hd .hd-close-r-yaji{
+_height:1px;
+    line-height:100%;
+    padding:18px 4px 7px 10px;
+    $padding:18px 4px 7px 10px;
+    background-image:url(balloon_02.gif);
+    background-position:left top;
+    background-repeat:no-repeat;
+    white-space:nowrap;
+    text-align:left;
+}
+.yui-panel .hd .hd-close-l-yaji a,
+.yui-panel .hd .hd-close-r-yaji a{
+	color:#ccc;
+	font-size:10px;
+	font-weight:bold;
+}
+
+
+
+.yui-panel .bd {
+    font-size:12px;
+    text-align:left;
+}
+.yui-panel .bd-l-yaji {
+    width:222px;
+    overflow:hidden;
+    padding:10px 0px 20px 0px;
+    background-image:url(balloon_03.gif);
+    background-position:left bottom;
+    background-repeat:no-repeat;
+    text-align:center;
+}
+.yui-panel .bd-r-yaji {
+    width:222px;
+    overflow:hidden;
+    padding:10px 0px 20px 0px;
+    background-image:url(balloon_04.gif);
+    background-position:left bottom;
+    background-repeat:no-repeat;
+    text-align:center;
+}
+.yui-panel .bd-no-yaji {
+    width:222px;
+    overflow:hidden;
+    padding:5px 0px 10px 0px;
+    background-image:url(bg_01.gif);
+    background-position:left bottom;
+    background-repeat:no-repeat;
+    text-align:center;
+}
+.yui-panel .bd-close-no-yaji {
+    width:222px;
+    overflow:hidden;
+    padding:0px 0px 5px 0px;
+    background-image:url(bg_01.gif);
+    background-position:left bottom;
+    background-repeat:no-repeat;
+    text-align:center;
+}
+
+
+
+
+.yui-panel .bd a{
+text-decoration:none;
+color:#0066a6;
+}
+
+.yui-panel .bd p {
+    margin:0 0 1em;
+}
+
+.yui-panel .hd-close-l-yaji .container-close,
+.yui-panel .hd-close-r-yaji .container-close,
+.yui-panel .hd-l-yaji .container-close,
+.yui-panel .hd-r-yaji .container-close {
+    position:absolute;
+    top:18px;
+    right:8px;
+    z-index:6;
+    height:13px;
+    width:13px;
+    margin:0px;
+    padding:0px 0px;
+    background:url(close.gif) no-repeat;
+    cursor:pointer;
+    visibility:inherit;
+}
+.yui-panel .hd-close-no-yaji .container-close,
+.yui-panel .hd-no-yaji .container-close{
+    position:absolute;
+    top:6px;
+    right:8px;
+    z-index:6;
+    height:13px;
+    width:13px;
+    margin:0px;
+    padding:0px 0px;
+    background:url(close.gif) no-repeat;
+    cursor:pointer;
+    visibility:inherit;
+}
+
+.yui-panel .bd .ft {
+    padding:4px;
+    overflow:hidden;
+    font-size:10px;
+    text-align:right;
+}
+.yui-panel .bd .ft a{
+text-decoration:none;
+color:#0066a6;
+}
+
+.yui-panel .bd .bd-ft {
+    padding:0px 4px 2px;
+    overflow:hidden;
+    font-size:10px;
+    text-align:right;
+}
+.yui-panel .bd-ft a{
+    font-size:10px;
+}
+.yui-panel .bd .bd-more-search {
+    height:12px;
+    padding:0px 4px 6px;
+_padding:0px 4px;
+    overflow:hidden;
+    font-size:12px;
+    text-align:left;
+}
+.yui-panel .bd .bd-more-search a{
+    font-size:12px;
+    padding-left:9px;
+    background-image:url(point.gif);
+    background-repeat:no-repeat;
+    background-position:3px 50%;
+}
+.yui-panel .bd-loading {
+    padding:3px 0 0px;
+    overflow:hidden;
+    text-align:center;
+}
+.yui-panel .bd-noitem {
+    padding:40px 10px 0px;
+    overflow:hidden;
+    text-align:center;
+}
+
+.yui-panel .bd-loading img{
+    vertical-align:middle;
+    padding-right:3px;
+}
+
+.yui-panel .search-area{
+    padding:7px 0 15px;
+    cursor:pointer;
+    width:222px;
+    margin-left:10px;
+    color:#0066a6;
+/*    text-decoration:underline; */
+}
+.yui-panel span{
+    font-size:12px;
+}
+.yui-panel b{
+    font-size:15px;
+border-bottom:dotted 1px #0066a6;
+}
+
+
+.yui-simple-dialog .bd .yui-icon {
+    background-repeat:no-repeat;
+    width:16px;
+    height:16px;
+    margin-right:10px;
+    float:left;
+}
+
+.yui-simple-dialog .bd span.blckicon {
+    background: url("blck16_1.gif") no-repeat;
+}
+
+.yui-simple-dialog .bd span.alrticon {
+    background: url("alrt16_1.gif") no-repeat;
+}
+
+.yui-simple-dialog .bd span.hlpicon {
+    background: url("hlp16_1.gif") no-repeat;
+}
+
+.yui-simple-dialog .bd span.infoicon {
+    background: url("info16_1.gif") no-repeat;
+}
+
+.yui-simple-dialog .bd span.warnicon {
+    background: url("warn16_1.gif") no-repeat;
+}
+
+.yui-simple-dialog .bd span.tipicon {
+    background: url("tip16_1.gif") no-repeat;
+}
+
+.yui-dialog .ft, 
+.yui-simple-dialog .ft {
+    padding-bottom:5px;
+    padding-right:5px;
+    text-align:right;
+}
+
+.yui-dialog form, 
+.yui-simple-dialog form {
+    margin:0;
+}
+
+.button-group button {
+    font:100 76% verdana;
+    text-decoration:none;
+    background-color: #E4E4E4;
+    color: #333;
+    cursor: hand;
+    vertical-align: middle;
+    border: 2px solid #797979;
+    border-top-color:#FFF;
+    border-left-color:#FFF;
+    margin:2px;
+    padding:2px;
+}
+
+.button-group button.default {
+    font-weight:bold;
+}
+
+.button-group button:hover, 
+.button-group button.hover {
+    border:2px solid #90A029;
+    background-color:#EBF09E;
+    border-top-color:#FFF;
+    border-left-color:#FFF;
+}
+
+.button-group button:active {
+    border:2px solid #E4E4E4;
+    background-color:#BBB;
+    border-top-color:#333;
+    border-left-color:#333;
+}
+
+
+.yui-panel span.strong{
+	background-image:url(search.gif);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	padding-left:18px;
+	font-weight:bold;
+}
+
+.yui-panel .sp-site{
+	float:left;
+	padding-left:0px;
+	width:110px;
+	text-align:left;
+}
+.yui-panel .sp-site a{
+	color:#9a9a9a;
+	font-size:10px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.yui-panel .sp-site a.y{
+	background-image:url(yahoo.gif);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	padding-left:18px;
+}
+
+.yui-panel a.sp-more{
+	color:#0166CB;
+	background-image:url(arrow.gif);
+	background-repeat:no-repeat;
+	background-position:3px 3px;
+	padding-left:10px;
+	padding-right:0px;
+	display:block;
+	text-align:right;
+	float:right;
+	font-size:10px;
+	font-weight:bold;
+	cursor:pointer;
+	width:44px;
+	_width:54px;
+}
+.yui-panel .hrborder{
+background:#c3c3c3;
+margin-bottom:5px;
+height:1px;
+}
+
+.yui-panel .web-search{
+width:208px;
+padding-top:5px;
+margin:0 auto;
+height:124px;
+}
+.yui-panel .webcnt{
+font-size:8px;
+overflow:hidden;
+text-align:right;
+float:right;
+width:60px;
+background:#fff;
+}
+.yui-panel .webcnt span{
+font-size:10px;
+}
+.yui-panel .yahoo-logo{
+text-align:right;
+padding-right:12px;
+}
+.both{clear:both;}
+.h1  {height:1px;}
+.h2  {height:2px;}
+.h3  {height:3px;}
+.h4  {height:4px;}
+.h5  {height:5px;}
+.h6  {height:6px;}
+.h7  {height:7px;}
+.h8  {height:8px;}
+.h9  {height:9px;}
+.h10 {height:10px;}

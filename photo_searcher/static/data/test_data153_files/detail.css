@@ -1,0 +1,114 @@
+table.detail {
+    width:715px;
+    margin: 0px;
+    text-align: left;
+}
+
+#detail-draghandle {
+    cursor: move;
+}
+
+.detail .line {
+    line-height:2px;background-image:url(/digitalguide/img/detail/line.png);background-position:4px bottom;background-repeat:repeat-x;margin-bottom:2px;
+    clear: left;
+}
+
+.detail .kaisetu {
+    margin: 5px 0px 5px 70px;
+    margin-left:70px;
+}
+
+.detail .kaisetuimg {
+    float:left;
+    margin: 3px 0px 20px 2px;
+}
+
+.detail .head a {
+    float:right;
+}
+
+.detail .title {
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+    height:24px;
+    padding:4px;
+    background-image:url(/digitalguide/img/detail/line.png);
+    background-position:4px bottom;
+    background-repeat:repeat-x;
+}
+
+.detail .title img {
+    vertical-align: middle;
+    margin-right:2px;
+}
+
+.detail .image {
+    vertical-align:top;
+    padding:2px;
+}
+
+.detail .image img {
+    float: right;
+}
+
+.detail .data {
+    vertical-align:top;
+    padding:4px 4px 0px 4px;
+    font-size:12px;
+    line-height:15px;
+}
+
+.detail .data img {
+    margin:2px 8px 2px 1px;
+    vertical-align:bottom;
+}
+
+.detail .bottomdata {
+    padding: 0px 4px 4px 4px;
+    background-image:url(/digitalguide/img/detail/line.png);
+    background-position:4px bottom;
+    background-repeat:repeat-x;
+    line-height:20px;
+}
+
+.detail .bottomdata .actor {
+    padding-right:4px;
+}
+
+.detail .bottomdata img {
+    margin:4px;
+    float:right;
+    border: none;
+}
+
+.detail .desc {
+    padding:4px;
+}
+
+.detail .searchhead {
+    display: none;
+    background-repeat:no-repeat;
+    padding-left: 4px;
+    font-size:10px;
+    line-height:20px;
+}
+
+.detail .closebutton img {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.detail .search .searchbody {
+    padding: 6px;
+    line-height:20px;
+    display: none;
+}
+
+.detail .search .result {
+    margin-bottom:4px;
+}
+
+.detail .head a:hover {
+    color:white;
+}

@@ -1,0 +1,51 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BrHNQ_Jq1S6i-C4eK6QOQu6XhB7-G4qgBh-WpyQ7AjbcBwLjGExABGAEgzaKdFygDOABQ4YGl7Adgieu9hOAToAHHptT5A7IBEmhvdC1zY29vcC5qdWdlbS5qcMgBAdoBIWh0dHA6Ly9ob3Qtc2Nvb3AuanVnZW0uanAvP2VpZD05NakCzuASo4_lRj7IAvvNqguoAwHoA-YC6AP7A-gDJPUDAAAAxPUDBAAAAA&amp;num=1&amp;sig=AGiWqtwnn8T3ooftjh5qvo_NMDUcMfQgMg&amp;client=ca-paperboy-jugem_js&amp;adurl=http://www.showtime.jp/e/%3Fot45005%3D200905%26p%3Dfam/drama/"; 
+google_ad.visible_url = "www.showtime.jp"; 
+google_ad.line1 = "\x26#26377;\x26#26009;\x26#21205;\x26#30011;\x26quot;ShowTime\x26quot;"; 
+google_ad.line2 = "\x26#20154;\x26#27671;\x26#28023;\x26#22806;\x26#12489;\x26#12521;\x26#12510;\x26#12364;\x26#12372;\x26#33258;\x26#23429;\x26#12398;PC\x26#12391;\x26#35211;\x26#12428;\x26#12427;!"; 
+google_ad.line3 = "\x26#35222;\x26#32884;\x26#12377;\x26#12427;\x26#12394;\x26#12425;\x26#12414;\x26#12378;\x26#12399;\x26#20250;\x26#21729;\x26#30331;\x26#37682;\x26#12290;"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BLe-X_Jq1S6i-C4eK6QOQu6XhB6KklqoBkrn6uhHAjbcBgIOBKRACGAIgzaKdFygDOABQ-MGjxANgieu9hOAToAHQ0sD5A7IBEmhvdC1zY29vcC5qdWdlbS5qcMgBAdoBIWh0dHA6Ly9ob3Qtc2Nvb3AuanVnZW0uanAvP2VpZD05NakCzuASo4_lRj7IAqzYzA6oAwHoA-YC6AP7A-gDJPUDAAAAxPUDBAAAAA&amp;num=2&amp;sig=AGiWqtxMeVSqzJHzcDJr2TVNxKli7e0ZDQ&amp;client=ca-paperboy-jugem_js&amp;adurl=http://www.sizenshokken.co.jp/shijimi/pr/lp0809/%3Fxadid%3D00859"; 
+google_ad.visible_url = "www.sizenshokken.co.jp"; 
+google_ad.line1 = "\x26#32925;\x26#33235;\x26#12398;\x26#20581;\x26#24247;\x26#12395;\x26#33258;\x26#20449;\x26#12354;\x26#12426;\x26#12414;\x26#12377;?"; 
+google_ad.line2 = "79%\x26#12398;\x26#26041;\x26#12364;\x26#21177;\x26#26524;\x26#12434;\x26#23455;\x26#24863; !\x26#12479;\x26#12454;\x26#12522;\x26#12531;\x26#31561;"; 
+google_ad.line3 = "\x26#12375;\x26#12376;\x26#12415;\x26#12398;\x26#26628;\x26#39178;\x26#12434;\x26#20957;\x26#32302;-\x26#28961;\x26#26009;\x26#12469;\x26#12531;\x26#12503;\x26#12523;\x26#23455;\x26#26045;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BJ9eM_Jq1S6i-C4eK6QOQu6XhB4C_pbwBnLu7ihHAjbcBgMb9FBADGAMgzaKdFygDOABQltToyP3_____AWCJ672E4BOgAbj2h-wDsgESaG90LXNjb29wLmp1Z2VtLmpwyAEB2gEhaHR0cDovL2hvdC1zY29vcC5qdWdlbS5qcC8_ZWlkPTk1qQLO4BKjj-VGPsgC-L_lD6gDAegD5gLoA_sD6AMk9QMAAADE9QMEAAAA&amp;num=3&amp;sig=AGiWqtzMZYHZvbsF19y5fXcmBq9odOSFDQ&amp;client=ca-paperboy-jugem_js&amp;adurl=http://www.s-20.com/"; 
+google_ad.visible_url = "www.s-20.com"; 
+google_ad.line1 = "\x26#33521;\x26#35486;\x26#12399;\x26#22806;\x26#22269;\x26#20154;\x26#12395;\x26#25945;\x26#12431;\x26#12427;\x26#12394;"; 
+google_ad.line2 = "\x26#12354;\x26#12427;\x26#26178;\x26#38291;\x26#24111;\x26#12395;1\x26#26085;20\x26#20998;\x26#21193;\x26#24375;\x26#12377;\x26#12427;\x26#12392;"; 
+google_ad.line3 = "\x26#33521;\x26#35486;\x26#12506;\x26#12521;\x26#12506;\x26#12521;\x26#12395;\x26#12394;\x26#12426;\x26#12414;\x26#12377;\x26#12290;\x26#12394;\x26#12380;\x26#12394;\x26#12425;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://hot-scoop.jugem.jp/%253Feid%253D95%26hl%3Dja%26client%3Dca-paperboy-jugem_js%26adU%3Dwww.showtime.jp%26adT%3D%25E6%259C%2589%25E6%2596%2599%25E5%258B%2595%25E7%2594%25BB%2526quot%253BShowTime%2526quot%253B%26adU%3Dwww.sizenshokken.co.jp%26adT%3D%25E8%2582%259D%25E8%2587%2593%25E3%2581%25AE%25E5%2581%25A5%25E5%25BA%25B7%25E3%2581%25AB%25E8%2587%25AA%25E4%25BF%25A1%25E3%2581%2582%25E3%2582%258A%25E3%2581%25BE%25E3%2581%2599%253F%26adU%3Dwww.s-20.com%26adT%3D%25E8%258B%25B1%25E8%25AA%259E%25E3%2581%25AF%25E5%25A4%2596%25E5%259B%25BD%25E4%25BA%25BA%25E3%2581%25AB%25E6%2595%2599%25E3%2582%258F%25E3%2582%258B%25E3%2581%25AA%26gl%3DJP\x26usg\x3dAFQjCNFMUaj-9T61-bdve7zgJEkV1-Uflg"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

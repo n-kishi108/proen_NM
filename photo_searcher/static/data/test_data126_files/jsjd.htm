@@ -1,0 +1,63 @@
+
+function emoji(){
+	emojiFilter(document.body);
+}
+
+
+function emojiFilter(el){
+	var childs = el.all;
+
+	for(var i = 0 ; i < childs.length ; i++){
+		
+		_emojiReplaceText(childs[i], 'BeforeBegin');
+		_emojiReplaceText(childs[i], 'AfterEnd');
+		try{
+			if(childs[i].tagName != "TEXTAREA" && childs[i].tagName != "INPUT" && childs[i].tagName != "OPTION" && childs[i].tagName != "SUBMIT"){
+				_emojiReplaceText(childs[i], 'AfterBegin');
+				_emojiReplaceText(childs[i], 'BeforeEnd');
+			}
+		}catch (e){
+		}
+	}
+}
+
+function _emojiReplaceText(el, mode){
+	var str = el.getAdjacentText(mode).replace(/<!--/g, "&lt;!--").replace(/-->/g, "--&gt;");
+	var check = "";
+	var i = 0;
+	var change_flag = false;
+	var code;
+	
+	var front = "<img src='http://a15mn.chip.jp/emo/";
+	var rear = ".gif' width='15' height='15' border='0' style='vertical-align: text-bottom;'>";
+	var front_leng = front.length;
+	var rear_leng = rear.length;
+	
+	// 括弧をエスケープしないとHTMLが復活してしまう
+	str = str.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+	//一文字のコードを取得
+	while(!isNaN(check = str.charCodeAt(i++))){
+		//aaa += (check.toString(16))+"\r\n";
+		//Docomo 58942 ～ 59223
+		//Au 58472 ～ 58847 (AU絵文字第一区間 [絵文字番号No.001 ～ No.376] [16進Unicode E468 ～ e5cc])
+		//Au 57927 ～ 58197 (AU絵文字第二区間 [絵文字番号No.377 ～ No.828] [16進Unicode EA80 ～ EB8E])
+		//※AU絵文字第二区間について
+		//AU公式のUnicode表では[16進Unicode EA80 ～ EB8E]となっているが、
+		//実際にJavaScriptで取得できる文字コードは数区間にずれている。
+		//これはJavaScriptで取得できるUnicodeに画像パスをあわせたほうが良い。
+		
+		//SB 57345～57906 au 57907～58847 i-mode 58942 ～ 59223
+		//if(check < 57907 ||  check > 59223)continue;
+		if(check < 57345 ||  check > 59223)continue;
+		code = check;
+		str = str.slice(0,i-1)+front+(code.toString(16))+rear+str.slice(i);
+		i += (front_leng + rear_leng + 3);//増えた文字数分移動
+		change_flag = true;
+	}
+	
+	if(change_flag){
+		el.replaceAdjacentText(mode, '');
+		el.insertAdjacentHTML(mode, str);
+	}
+}

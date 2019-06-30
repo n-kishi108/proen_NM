@@ -1,0 +1,438 @@
+body{
+	margin: 0px;
+	padding : 0px;
+	text-align:center;
+	font-family: "メイリオ","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック", "MS P Gothic","Osaka",Verdana,Arial, Helvetica, sans-serif;
+}
+
+img{
+	border: 0px;
+}
+
+strong{
+        font-weight: normal;
+}
+
+h1{
+	font-size : 12px;
+	font-weight : 400;
+	color : #000000;
+	text-align: left;
+	z-index: 1;
+	display: inline;
+}
+h2{
+	font-size : 12px;
+	font-weight : 400;
+	text-align: left;
+	letter-spacing : 1px;
+	color : #000000;
+	display: inline;
+	z-index: 1;
+	margin-left:5px;
+}
+
+#toplogo{
+	z-index: 2;
+}
+
+h3{	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: -9px;
+	margin-right: -9px;
+	font-size : 20px;
+	font-weight : bold;
+	text-align: left;
+	line-height: 1.5em;
+	letter-spacing : 1px;
+	color : #ffffff;
+	z-index: 1;
+	padding : 10px;
+	padding-left: 90px;
+	background-image: url(http://www.blog-door.com/img/centertitlebottom.png);
+	background-repeat: repeat-y;
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+h3 a:link{
+	color: #ffffff;
+}
+h3 a:visited{
+	color: #ffffff;
+}
+h3 a:active{
+	color: #ffffff;
+}
+h3 a:hover{
+	color: #00ffff;
+	text-decoration: underline;
+}
+
+
+
+
+
+#container{
+	width:1000px;
+	margin:0 auto;
+	background-color:#f0f0f0;
+}
+
+#abstract{
+	margin: 3px 10px 3px 10px;
+	padding: 5px 5px 5px 5px;
+	background-color:#ffffff;
+	font-size : 11px;
+	font-weight : 400;
+	line-height: 1.2em;
+	color : #000000
+	z-index: 1;
+}
+#abstract ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+#abstract li{
+	display : inline;
+}
+#abstract a:link{
+	color: #fa8072;
+}
+#abstract a:visited{
+	color: #fa8072;
+}
+#abstract a:active{
+	color: #fa8072;
+}
+#abstract a:hover{
+	color: #0000ff;
+	text-decoration: underline;
+}
+#subacstract{
+	padding-left:37px;
+}
+
+#inner{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#centerleft{
+	width: 780px;
+	float: left;
+}
+
+#center{
+	margin-left: 5px;
+	margin-right: 5px;
+	width:560px;
+	float:right;
+	text-align: left;
+}
+
+#left{
+	width:200px;
+	float:left;
+	text-align: left;
+        font-size:14px;
+}
+
+#right{
+	width:200px;
+	float:right;
+	text-align: left;
+        font-size:14px;
+}
+
+
+.clear{
+	clear:both;
+	line-height:0;
+	height:0;
+}
+
+#footer{
+	border-top: 1px solid gray;
+	padding-bottom: 20px;
+}
+
+#left .left_title, #right .right_title{
+	background-image: url(http://www.blog-door.com/img/righttitle.png);
+	background-repeat: no-repeat;
+	padding-left: 10px;
+	height: 30px;
+	font-size: 17px;
+	line-height: 2.0em;
+	font-weight: bold;
+	clear: both;
+	z-index: 0;
+	color: #ffffff;
+	vertical-align: bottom;
+}
+
+#left .left_list, #right .right_list, #center .center_list{
+	background-image: url(http://www.blog-door.com/img/list.gif);
+	background-repeat: no-repeat;
+	padding-left:20px;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-size:14px;
+}
+
+#center .special{
+	margin-top: 5px;
+	margin-bottom: 30px;
+	margin-left: 5px;
+	margin-right :5px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-width : 5px;
+	border-style : double;
+	border-color : gray;
+	background-color:#ffffff;
+}
+
+#center .special .special_title{
+	background-image: url(http://www.blog-door.com/img/centertitle.png);
+	background-repeat: repeat-y;
+	padding-left : 10px;
+	font-size:25px;
+	color: #ffffff;
+}
+
+#left ul, #right ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	list-style-image: url(http://www.blog-door.com/img/list.gif);
+}
+
+#left li, #right li{
+	margin : 0px 4px 0px 22px;
+}
+
+#left li img, #right li img{
+      vertical-align: middle;
+}
+
+#left .rss ul, #right .rss ul{
+      margin: 5px 0px 15px 5px;
+      text-align: left;
+      list-style-type: none;
+      list-style-image: none;
+}
+
+#left .rss ul li, #right .rss ul li{
+      margin-left: 0px;
+      padding-left: 0px;
+}
+
+#left .rss ul li img, #right .rss ul li img{
+      vertical-align: middle;
+}
+
+
+#right .rss{
+	text-align:center;
+}
+
+#right .operation{
+	text-align:left;
+	font-size:12px;
+}
+
+.itemlist{
+	margin-bottom: 20px;
+}
+
+.entry{
+	margin-top: 5px;
+	margin-bottom: 30px;
+	margin-left: 5px;
+	margin-right :5px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-width : 1px;
+	border-right-width : 3px;
+	border-bottom-width : 3px;
+	border-style : solid;
+	border-color : gray;
+	background-color:#ffffff;
+}
+
+.entry_date{
+	font-weight : bold;
+	text-align: left;
+	line-height: 1.2em;
+	letter-spacing : 1px;
+	margin-left: -9px;
+	padding-left: 90px;
+	background-image: url(http://www.blog-door.com/img/centertitlehead.png);
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+
+.more{
+}
+
+.entry_bookmark{
+	text-align: right;
+	padding-bottom : 10px;
+}
+.entry_bookmark2{
+	text-align: left;
+}
+.entry_bookmark3{
+	vertical-align: middle;
+	text-align: left;
+}
+
+.entry-footer{
+	border-top: 1px solid gray;
+	text-align: right;
+}
+
+.releation{
+	font-weight: bold;
+	text-align: left;
+}
+
+.trackback{
+	text-align: center;
+}
+.trackback_title{
+	font-weight: bold;
+	font-size: 12px;
+}
+.trackback4this{
+	text-align: left;
+	font-size: 10px;
+}
+
+.about_title{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+/* ---------------------------------------------------- */
+.yBlog{
+}
+.yImage{
+}
+.yChie{
+}
+.amazon{
+	background-color: #ffffcc;
+	border: 2px solid #ffff99;
+	padding : 10px;
+}
+
+.body_title{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.body_description{
+}
+
+.body_remarks{
+	text-align: right;
+	font-size: 12px;
+}
+
+.body_image{
+	text-align: center;
+}
+
+.more_title{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.more_description{
+}
+
+.more_remarks{
+	text-align: right;
+	font-size: 12px;
+}
+
+.more_image{
+	text-align: center;
+}
+
+
+#center .search_title{
+	background-image: url(http://www.blog-door.com/img/centertitle.png);
+	background-repeat: repeat-y;
+	padding-left : 10px;
+	font-size:25px;
+	color: #ffffff;
+}
+
+#center .searchtag{
+	margin : 10px 0px 20px 0px;
+	padding : 10px;
+}
+
+#center .searchtag li{
+	display : inline;
+}
+
+.amazontag{
+	text-align: center;
+	background-color: #c0c0c0;
+	padding: 5px;
+	border: 2px double gray;
+}
+
+.ads3gyou{
+	border:1px solid #dddddd;
+	margin:10px 0px 10px 0px;
+	padding:5px;
+	background-color: #efefef;
+}
+
+.youtubearea{
+	font-size:12px;
+	border:3px double #bbbbbb;
+	padding:5px 3px 5px 3px;
+	background-color: #ffffff;
+	text-align: center;
+}
+.youtubeareatitile{
+	padding: 5px;
+	color: #ffffff;
+	background-color: #000000;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.seminar{
+　　margin-left:40px;
+}
+
+.profile{
+       font-size:12px;
+}
+
+.pager{
+       text-align: center;
+       margin: 10px; 0px 10px 0px;
+}

@@ -1,0 +1,2609 @@
+/* DEFAULT
+*******************************/
+
+body {
+color:#fff;
+background:#3c3c3c url(/i/shared/gs5/themes/standard/bg.gif) repeat-y center;
+scrollbar-arrow-color:#CCC;
+scrollbar-3dlight-color:#111;
+scrollbar-highlight-color:#666;
+scrollbar-face-color:#444;
+scrollbar-shadow-color:#191919;
+scrollbar-track-color:#111;
+scrollbar-darkshadow-color: #191919
+}
+
+a {
+color:#fc3;
+}
+
+.form {
+color:#fff;
+background:#222;
+}
+
+
+
+/* GNE NAV
+*******************************/
+
+#gnenav {
+color:#999;
+background:#000;
+border-bottom:3px solid #333;
+}
+
+#gnenav a {
+color:#ccc;
+}
+
+#gnenav a:hover {
+color:#fff;
+}
+
+#gnenav .fr a {
+color:#fc3;
+}
+
+#gnenav .fr a:hover {
+color:#fc3;
+text-decoration:underline;
+}
+
+
+/* CONTENT LINK COLORS
+*******************************/
+
+#pc a,#online a {
+color:#9cf;
+}
+
+#playstation a {
+color:#a7a7ff;
+}
+
+#xbox a {
+color:#9c0;
+}
+
+#nintendo a {
+color:#c9f;
+}
+
+#portable a {
+color:#3c9;
+}
+
+#arcade a {
+color:#cc9a00;
+}
+
+#leftmost a {
+color:#a7a7ff;
+}
+
+#rightmost a {
+color:#9c0;
+}
+
+
+
+/* CONTENT LINK COLORS
+*******************************/
+
+#pc .content a,#online .content a {
+color:#9cf;
+}
+
+#playstation .content a {
+color:#a7a7ff;
+}
+
+#xbox .content a {
+color:#9c0;
+}
+
+#nintendo .content a {
+color:#c9f;
+}
+
+#portable .content a {
+color:#3c9;
+}
+
+#arcade .content a {
+color:#cc9a00;
+}
+
+#leftmost .content a {
+color:#a7a7ff;
+}
+
+#rightmost .content a {
+color:#9c0;
+}
+
+
+
+/* PLATFORM LINK COLORS
+*******************************/
+
+.all,
+.arc {
+color:#fc3;
+}
+
+.pc,
+.online,
+.es {
+color:#9cf;
+}
+
+.playstation,
+.ps,
+.ps2,
+.ps3,
+.psp,
+.leftmost {
+color:#a7a7ff;
+}
+
+.xbox,
+.x360,
+.xbox360 {
+color:#9c0;
+}
+
+.nintendo,
+.gc,
+.nr,
+.fc,
+.sfc,
+.rev,
+.wii,
+.ds,
+.nds,
+.gba {
+color:#c9f;
+}
+
+.portable,
+.nge,
+.giz,
+.mobile {
+color:#3c9;
+}
+
+.arcade {
+color:#cc9a00;
+}
+
+
+/* SITE HEADER
+*******************************/
+
+#header_all {
+background:#333 url(/i/shared/gs5/themes/standard/header_all.jpg) no-repeat;
+}
+
+#header_pc {
+background:#333 url(/i/shared/gs5/themes/standard/header_pc.jpg) no-repeat;
+}
+
+#header_online {
+background:#333 url(/i/shared/gs5/themes/standard/header_pc.jpg) no-repeat;
+}
+
+#header_playstation {
+background:#333 url(/i/shared/gs5/themes/standard/header_playstation.jpg) no-repeat;
+}
+
+#header_xbox {
+background:#333 url(/i/shared/gs5/themes/standard/header_xbox.jpg) no-repeat;
+}
+
+#header_nintendo {
+background:#333 url(/i/shared/gs5/themes/standard/header_nintendo.jpg) no-repeat;
+}
+
+#header_portable {
+background:#333 url(/i/shared/gs5/themes/standard/header_portable.jpg) no-repeat;
+}
+
+#header_arcade {
+background:#333 url(/i/shared/gs5/themes/standard/header_arcade.jpg) no-repeat;
+}
+
+#header_leftmost {
+background:#333 url(/i/shared/gs5/themes/standard/header_playstation.jpg) no-repeat;
+}
+
+#header_rightmost {
+background:#333 url(/i/shared/gs5/themes/standard/header_xbox.jpg) no-repeat;
+}
+
+
+/* LOGIN
+*******************************/
+
+#login .messages_txt {
+background:url(/i/shared/gs5/themes/standard/header_messages.gif) no-repeat;
+}
+
+#login .updates_txt {
+background:url(/i/shared/gs5/themes/standard/header_updates.gif) no-repeat;
+}
+
+
+
+/* GLOBAL SEARCH
+*******************************/
+
+#global_search {
+color:#ccc;
+background:#333 url(/i/shared/gs5/themes/standard/header_search.gif) repeat-x;
+border-bottom:1px solid #000;
+}
+
+
+
+/* GLOBAL NAV
+*******************************/
+
+#global_nav {
+background:#ccc url(/i/shared/gs5/themes/standard/nav.gif) repeat-x;
+border-top:1px solid #000;
+}
+
+#global_nav a {
+color:#333;
+}
+
+#global_nav a:hover {
+color:#fff;
+background:#ccc url(/i/shared/gs5/themes/standard/nav_over.gif) repeat-x;
+}
+
+#global_nav #on {
+background:#ccc url(/i/shared/gs5/themes/standard/nav_on.gif) repeat-x;
+}
+
+#global_nav .inset {
+background:url(/i/shared/gs5/themes/standard/nav_inset.gif) repeat-x bottom;
+border-right:1px solid #222;
+}
+
+#global_nav .insetleft {
+background:url(/i/shared/gs5/themes/standard/nav_insetleft.gif) no-repeat bottom left;
+border-right:1px solid #222;
+}
+
+#global_nav .insetright {
+background:url(/i/shared/gs5/themes/standard/nav_insetright.gif) no-repeat bottom right;
+}
+
+#global_nav .inset a,
+#global_nav .insetleft a,
+#global_nav .insetright a {
+color:#fff;
+}
+
+
+#pc #global_nav #on {
+color:#9cf;
+background:url(/i/shared/gs5/themes/standard/nav_inset_pc.gif) repeat-x bottom left;
+}
+
+#pc #global_nav #on a {
+color:#9cf;
+}
+
+
+#online #global_nav #on {
+color:#9cf;
+background:url(/i/shared/gs5/themes/standard/nav_inset_pc.gif) repeat-x bottom left;
+}
+
+#online #global_nav #on a {
+color:#9cf;
+}
+
+
+#playstation #global_nav #on {
+color:#a7a7ff;
+background:url(/i/shared/gs5/themes/standard/nav_inset_playstation.gif) repeat-x bottom;
+}
+
+#playstation #global_nav #on a {
+color:#a7a7ff;
+}
+
+
+#xbox #global_nav #on {
+color:#9c0;
+background:url(/i/shared/gs5/themes/standard/nav_inset_xbox.gif) repeat-x bottom;
+}
+
+#xbox #global_nav #on a {
+color:#9c0;
+}
+
+
+#nintendo #global_nav #on {
+color:#c9f;
+background:url(/i/shared/gs5/themes/standard/nav_inset_nintendo.gif) repeat-x bottom;
+}
+
+#nintendo #global_nav #on a {
+color:#c9f;
+}
+
+
+#portable #global_nav .inset#on {
+color:#6fc;
+background:url(/i/shared/gs5/themes/standard/nav_inset_portable.gif) repeat-x bottom;
+}
+
+#arcade #global_nav .inset#on {
+color:#ccbd8f;
+background:url(/i/shared/gs5/themes/standard/nav_inset_arcade.gif) repeat-x bottom;
+}
+
+#arcade #global_nav .inset#on a {
+color:#ccbd8f;
+}
+
+#leftmost #global_nav #on {
+color:#a7a7ff;
+background:url(/i/shared/gs5/themes/standard/nav_insetleft_pc.gif) repeat-x bottom left;
+}
+
+#leftmost #global_nav #on a {
+color:#a7a7ff;
+}
+
+#rightmost #global_nav #on {
+color:#9c0;
+background:url(/i/shared/gs5/themes/standard/nav_insetright_xbox.gif) no-repeat bottom right;
+}
+
+#rightmost #global_nav #on a {
+color:#9c0;
+}
+
+
+#global_nav .inset a:hover.pc,
+#global_nav .inset a:hover.online,
+#global_nav .inset a:hover.playstation,
+#global_nav .inset a:hover.xbox,
+#global_nav .inset a:hover.nintendo,
+#global_nav .inset a:hover.portable,
+#global_nav .inset a:hover.arcade {
+background:url(/i/shared/gs5/themes/standard/nav_inset_over.gif) repeat-x bottom;
+}
+
+#global_nav .insetright a:hover.pc,
+#global_nav .insetright a:hover.online,
+#global_nav .insetright a:hover.playstation,
+#global_nav .insetright a:hover.xbox,
+#global_nav .insetright a:hover.nintendo,
+#global_nav .insetright a:hover.portable,
+#global_nav .insetright a:hover.arcade,
+#global_nav .insetright a:hover.rightmost{
+background:url(/i/shared/gs5/themes/standard/nav_insetright_over.gif) no-repeat bottom right;
+}
+
+#global_nav .insetleft a:hover.pc,
+#global_nav .insetleft a:hover.online,
+#global_nav .insetleft a:hover.playstation,
+#global_nav .insetleft a:hover.xbox,
+#global_nav .insetleft a:hover.nintendo,
+#global_nav .insetleft a:hover.portable,
+#global_nav .insetleft a:hover.arcade,
+#global_nav .insetleft a:hover.leftmost {
+background:url(/i/shared/gs5/themes/standard/nav_insetleft_over.gif) repeat-x bottom left;
+}
+
+#portable #global_nav #on {
+color:#6fc;
+background:url(/i/shared/gs5/themes/standard/nav_insetright_portable.gif) no-repeat bottom right;
+}
+
+#portable #global_nav #on a {
+color:#6fc;
+}
+
+#global_nav .tab {
+background:url(/i/shared/gs5/themes/standard/nav_sep.gif) no-repeat;
+}
+
+#global_nav .tab.special {
+background:url(/i/shared/gs5/themes/standard/nav_special.gif) no-repeat;
+}
+#global_nav .tab.special a {
+color: #fff;
+}
+
+#global_nav .tab#tab_on {
+background:url(/i/shared/gs5/themes/standard/nav_sep_on.gif) no-repeat;
+}
+
+#global_nav .tab a:hover {
+color:#fff;
+background:#ccc url(/i/shared/gs5/themes/standard/nav_sep_over.gif) no-repeat;
+}
+
+
+
+/* SECONDARY NAV
+*******************************/
+
+#secondary_nav {
+background:#9F5806 url(/i/shared/gs5/themes/standard/secondnav_all.gif) repeat-x;
+border-bottom:1px solid #000;
+width: 760px;
+}
+
+#secondary_nav a {
+color:#fff;
+}
+
+#pc #secondary_nav {
+background:#2F5379 url(/i/shared/gs5/themes/standard/secondnav_pc.gif) repeat-x;
+}
+
+#online #secondary_nav {
+background:#2F5379 url(/i/shared/gs5/themes/standard/secondnav_pc.gif) repeat-x;
+}
+
+#playstation #secondary_nav {
+background:#40497D url(/i/shared/gs5/themes/standard/secondnav_playstation.gif) repeat-x;
+}
+
+#xbox #secondary_nav {
+background:#41631B url(/i/shared/gs5/themes/standard/secondnav_xbox.gif) repeat-x;
+}
+
+#nintendo #secondary_nav {
+background:#563A73 url(/i/shared/gs5/themes/standard/secondnav_nintendo.gif) repeat-x;
+}
+
+#portable #secondary_nav {
+background:#1F6F66 url(/i/shared/gs5/themes/standard/secondnav_portable.gif) repeat-x;
+}
+
+#arcade #secondary_nav {
+background:#1F6F66 url(/i/shared/gs5/themes/standard/secondnav_arcade.gif) repeat-x;
+}
+
+#memberslounge #secondary_nav{
+background:#4a0013 url(/i/shared/gs5/themes/standard/secondnav_memberslounge.gif) repeat-x;
+}
+
+#features #secondary_nav a {
+padding: 0;
+margin: 6.9px;
+}
+
+#leftmost #secondary_nav {
+background:#40497D url(/i/shared/gs5/themes/standard/secondnav_playstation.gif) repeat-x;
+}
+
+#rightmost #secondary_nav {
+background:#41631B url(/i/shared/gs5/themes/standard/secondnav_xbox.gif) repeat-x;
+}
+
+/* BREADCRUMB
+*******************************/
+
+#breadcrumb {
+background:#3F4A59;
+border-top:1px solid #000;
+border-bottom:2px solid #222;
+/* background:#4B423B url(/i/shared/gs5/themes/standard/breadcrumb.gif) repeat-x; */
+}
+
+#breadcrumb h1 {
+color:#ccc;
+}
+
+
+
+/* CONTENT
+*******************************/
+
+#content_wrap {
+color:#fff;
+}
+
+.txt1 {
+color:#fff;
+}
+
+.txt2 {
+color:#ccc;
+}
+
+.lnk1 {
+color:#fc3;
+}
+
+.lnk2 {
+color:#f90;
+}
+
+.lnk3 {
+color:#fff;
+}
+
+.error {
+color:#f93;
+}
+
+
+
+/* 60/40 SPLIT - DEFAULT COLUMNS
+*******************************/
+
+/* 2 COLUMN BGS */
+
+#col_wrap {
+background:#3F4A59 url(/i/shared/gs5/themes/standard/col_wrap_all.gif) repeat-y;
+border-top:1px solid #8aa9c2;
+}
+
+#pc #col_wrap {
+background:#2B425E url(/i/shared/gs5/themes/standard/col_wrap_pc.gif) repeat-y;
+border-top:1px solid #70A1D3;
+}
+
+#online #col_wrap {
+background:#2B425E url(/i/shared/gs5/themes/standard/col_wrap_pc.gif) repeat-y;
+border-top:1px solid #70A1D3;
+}
+
+#playstation #col_wrap {
+background:#2A2E4F url(/i/shared/gs5/themes/standard/col_wrap_playstation.gif) repeat-y;
+border-top:1px solid #649ACC;
+}
+
+#xbox #col_wrap {
+background:#37422D url(/i/shared/gs5/themes/standard/col_wrap_xbox.gif) repeat-y;
+border-top:1px solid #96AE63;
+}
+
+#nintendo #col_wrap {
+background:#3B3747 url(/i/shared/gs5/themes/standard/col_wrap_nintendo.gif) repeat-y;
+border-top:1px solid #C197EA;
+}
+
+#portable #col_wrap {
+background:#2C554C url(/i/shared/gs5/themes/standard/col_wrap_portable.gif) repeat-y;
+border-top:1px solid #72C0C0;
+}
+
+#memberslounge #col_wrap {
+background:#4c1211 url(/i/shared/gs5/themes/standard/col_wrap_memberslounge.gif) repeat-y;
+border-top:1px solid #4a0013;
+}
+
+#leftmost #col_wrap {
+background:#2A2E4F url(/i/shared/gs5/themes/standard/col_wrap_playstation.gif) repeat-y;
+border-top:1px solid #649ACC;
+}
+
+#rightmost #col_wrap {
+background:#37422D url(/i/shared/gs5/themes/standard/col_wrap_xbox.gif) repeat-y;
+border-top:1px solid #96AE63;
+}
+
+
+/* TOTAL COLUMN BGS&#65533;??1&#65533;?w??c?????R?[ */
+
+
+#total_col_wrap {
+background:#3F4A59 url(/i/shared/gs5/themes/standard/total_col_wrap_all.gif) repeat-y;
+border-top:1px solid #8aa9c2;
+}
+
+#pc #total_col_wrap {
+background:#2B425E url(/i/shared/gs5/themes/standard/total_col_wrap_pc.gif) repeat-y;
+border-top:1px solid #70A1D3;
+}
+
+#online #total_col_wrap {
+background:#2B425E url(/i/shared/gs5/themes/standard/total_col_wrap_pc.gif) repeat-y;
+border-top:1px solid #70A1D3;
+}
+
+#playstation #total_col_wrap {
+background:#2A2E4F url(/i/shared/gs5/themes/standard/total_col_wrap_playstation.gif) repeat-y;
+border-top:1px solid #649ACC;
+}
+
+#xbox #total_col_wrap {
+background:#37422D url(/i/shared/gs5/themes/standard/total_col_wrap_xbox.gif) repeat-y;
+border-top:1px solid #96AE63;
+}
+
+#nintendo #total_col_wrap {
+background:#3B3747 url(/i/shared/gs5/themes/standard/total_col_wrap_nintendo.gif) repeat-y;
+border-top:1px solid #C197EA;
+}
+
+#portable #total_col_wrap {
+background:#2C554C url(/i/shared/gs5/themes/standard/total_col_wrap_portable.gif) repeat-y;
+border-top:1px solid #72C0C0;
+}
+
+#memberslounge #total_col_wrap {
+background:#4c1211 url(/i/shared/gs5/themes/standard/total_col_wrap_memberslounge.gif) repeat-y;
+border-top:1px solid #4a0013;
+}
+
+#leftmost #total_col_wrap {
+background:#2A2E4F url(/i/shared/gs5/themes/standard/total_col_wrap_playstation.gif) repeat-y;
+border-top:1px solid #649ACC;
+}
+
+#rightmost #total_col_wrap {
+background:#37422D url(/i/shared/gs5/themes/standard/total_col_wrap_xbox.gif) repeat-y;
+border-top:1px solid #96AE63;
+}
+
+/* BIAN COLUMN BGS&#65533;??1&#65533;?w??c???R?[ */
+
+#bian_col_wrap {
+background:#3F4A59 url(/i/shared/gs5/themes/standard/total_col_wrap_all.gif) repeat-y;
+border-top:1px solid #8aa9c2;
+}
+
+#pc #bian_col_wrap {
+background:#2B425E url(/i/shared/gs5/themes/standard/total_col_wrap_pc.gif) repeat-y;
+border-top:1px solid #70A1D3;
+}
+
+#online #bian_col_wrap {
+background:#2B425E url(/i/shared/gs5/themes/standard/total_col_wrap_pc.gif) repeat-y;
+border-top:1px solid #70A1D3;
+}
+
+#playstation #bian_col_wrap {
+background:#2A2E4F url(/i/shared/gs5/themes/standard/total_col_wrap_playstation.gif) repeat-y;
+border-top:1px solid #649ACC;
+}
+
+#xbox #bian_col_wrap {
+background:#37422D url(/i/shared/gs5/themes/standard/total_col_wrap_xbox.gif) repeat-y;
+border-top:1px solid #96AE63;
+}
+
+#nintendo #bian_col_wrap {
+background:#3B3747 url(/i/shared/gs5/themes/standard/total_col_wrap_nintendo.gif) repeat-y;
+border-top:1px solid #C197EA;
+}
+
+#portable #bian_col_wrap {
+background:#2C554C url(/i/shared/gs5/themes/standard/total_col_wrap_portable.gif) repeat-y;
+border-top:1px solid #72C0C0;
+}
+
+#memberslounge #bian_col_wrap {
+background:#4c1211 url(/i/shared/gs5/themes/standard/total_col_wrap_memberslounge.gif) repeat-y;
+border-top:1px solid #4a0013;
+}
+
+#leftmost #bian_col_wrap {
+background:#2A2E4F url(/i/shared/gs5/themes/standard/total_col_wrap_playstation.gif) repeat-y;
+border-top:1px solid #649ACC;
+}
+
+#rightmost #bian_col_wrap {
+background:#37422D url(/i/shared/gs5/themes/standard/total_col_wrap_xbox.gif) repeat-y;
+border-top:1px solid #96AE63;
+}
+
+/* NO SUBNAV BGS */
+
+#shoulder {
+background:#3F4A59 url(/i/shared/gs5/themes/standard/shoulder_all.gif) repeat-x;
+}
+
+#pc #shoulder {
+background:#2B425E url(/i/shared/gs5/themes/standard/shoulder_pc.gif) repeat-x;
+}
+
+#online #shoulder {
+background:#2B425E url(/i/shared/gs5/themes/standard/shoulder_pc.gif) repeat-x;
+}
+
+#playstation #shoulder {
+background:#2A2E4F url(/i/shared/gs5/themes/standard/shoulder_playstation.gif) repeat-x;
+}
+
+#xbox #shoulder {
+background:#37422D url(/i/shared/gs5/themes/standard/shoulder_xbox.gif) repeat-x;
+}
+
+#nintendo #shoulder {
+background:#3B3747 url(/i/shared/gs5/themes/standard/shoulder_nintendo.gif) repeat-x;
+}
+
+#portable #shoulder {
+background:#2C554C url(/i/shared/gs5/themes/standard/shoulder_portable.gif) repeat-x;
+}
+
+#leftmost #shoulder {
+background:#2A2E4F url(/i/shared/gs5/themes/standard/shoulder_playstation.gif) repeat-x;
+}
+
+#rightmost #shoulder {
+background:#37422D url(/i/shared/gs5/themes/standard/shoulder_xbox.gif) repeat-x;
+}
+
+/* NECK BGS */
+
+#neck {
+background:#3F4A59 url(/i/shared/gs5/themes/standard/neck_all.gif) repeat-x top;
+}
+
+#pc #neck {
+background:#2B425E url(/i/shared/gs5/themes/standard/neck_pc.gif) repeat-x top;
+}
+
+#online #neck {
+background:#2B425E url(/i/shared/gs5/themes/standard/neck_pc.gif) repeat-x top;
+}
+
+#playstation #neck {
+background:#2A2E4F url(/i/shared/gs5/themes/standard/neck_playstation.gif) repeat-x top;
+}
+
+#xbox #neck {
+background:#37422D url(/i/shared/gs5/themes/standard/neck_xbox.gif) repeat-x top;
+}
+
+#nintendo #neck {
+background:#3B3747 url(/i/shared/gs5/themes/standard/neck_nintendo.gif) repeat-x top;
+}
+
+#portable #neck {
+background:#2C554C url(/i/shared/gs5/themes/standard/neck_portable.gif) repeat-x top;
+}
+
+#memberslounge #neck {
+background:#4c1211 url(/i/shared/gs5/themes/standard/neck_memberslounge.gif) repeat-x top;
+}
+
+#leftmost #neck {
+background:#2A2E4F url(/i/shared/gs5/themes/standard/neck_playstation.gif) repeat-x top;
+}
+
+#rightmost #neck {
+background:#37422D url(/i/shared/gs5/themes/standard/neck_xbox.gif) repeat-x top;
+}
+
+/* LONG NECK BGS */
+
+#longneck {
+background:#000 url(/i/shared/gs5/themes/standard/longneck_all.gif) repeat-x bottom;
+}
+
+#pc #longneck {
+background:#000 url(/i/shared/gs5/themes/standard/longneck_pc.gif) repeat-x bottom;
+}
+
+#online #longneck {
+background:#000 url(/i/shared/gs5/themes/standard/longneck_pc.gif) repeat-x bottom;
+}
+
+#playstation #longneck {
+background:#000 url(/i/shared/gs5/themes/standard/longneck_playstation.gif) repeat-x bottom;
+}
+
+#xbox #longneck {
+background:#000 url(/i/shared/gs5/themes/standard/longneck_xbox.gif) repeat-x bottom;
+}
+
+#nintendo #longneck {
+background:#000 url(/i/shared/gs5/themes/standard/longneck_nintendo.gif) repeat-x bottom;
+}
+
+#portable #longneck {
+background:#000 url(/i/shared/gs5/themes/standard/longneck_portable.gif) repeat-x bottom;
+}
+
+#leftmost #longneck {
+background:#000 url(/i/shared/gs5/themes/standard/longneck_playstation.gif) repeat-x bottom;
+}
+
+#rightmost #longneck {
+background:#000 url(/i/shared/gs5/themes/standard/longneck_xbox.gif) repeat-x bottom;
+}
+
+/* SIDE COLUMN ROUNDED TOP */
+
+#side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_colwrap_all.gif) no-repeat;
+}
+
+#pc #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_colwrap_pc.gif) no-repeat;
+}
+
+#online #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_colwrap_pc.gif) no-repeat;
+}
+
+#playstation #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_colwrap_playstation.gif) no-repeat;
+}
+
+#xbox #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_colwrap_xbox.gif) no-repeat;
+}
+
+#nintendo #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_colwrap_nintendo.gif) no-repeat;
+}
+
+#portable #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_colwrap_portable.gif) no-repeat;
+}
+
+#memberslounge #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_colwrap_memberslounge.gif) no-repeat;
+}
+
+#leftmost #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_colwrap_playstation.gif) no-repeat;
+}
+
+#rightmost #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_colwrap_xbox.gif) no-repeat;
+}
+
+/* BIAN COLUMN ROUNDED TOP&#65533;??6&#65533;?w??c????? */
+
+#bian_col_wrap {
+background:url(/i/shared/gs5/themes/standard/bian_colwrap_all.gif) no-repeat;
+}
+
+#pc #bian_col_wrap {
+background:url(/i/shared/gs5/themes/standard/bian_colwrap_pc.gif) no-repeat;
+}
+
+#online #bian_col_wrap {
+background:url(/i/shared/gs5/themes/standard/bian_colwrap_pc.gif) no-repeat;
+}
+
+#playstation #bian_col_wrap {
+background:url(/i/shared/gs5/themes/standard/bian_colwrap_playstation.gif) no-repeat;
+}
+
+#xbox #bian_col_wrap {
+background:url(/i/shared/gs5/themes/standard/bian_colwrap_xbox.gif) no-repeat;
+}
+
+#nintendo #bian_col_wrap {
+background:url(/i/shared/gs5/themes/standard/bian_colwrap_nintendo.gif) no-repeat;
+}
+
+#portable #bian_col_wrap {
+background:url(/i/shared/gs5/themes/standard/bian_colwrap_portable.gif) no-repeat;
+}
+
+#memberslounge #bian_col_wrap {
+background:url(/i/shared/gs5/themes/standard/bian_colwrap_memberslounge.gif) no-repeat;
+}
+
+#leftmost #bian_col_wrap {
+background:url(/i/shared/gs5/themes/standard/bian_colwrap_playstation.gif) no-repeat;
+}
+
+#rightmost #bian_col_wrap {
+background:url(/i/shared/gs5/themes/standard/bian_colwrap_xbox.gif) no-repeat;
+}
+
+/* FULL WIDTH WITH SKY COLUMNS
+*******************************/
+
+/* 2 COLUMN BGS */
+
+#sky_col_wrap {
+background:#3F4A59 url(/i/shared/gs5/themes/standard/skywrap_all.gif) repeat-y;
+border-top:1px solid #7C8796;
+}
+
+#pc #sky_col_wrap {
+background:#2B425E url(/i/shared/gs5/themes/standard/skywrap_pc.gif) repeat-y;
+border-top:1px solid #70A1D3;
+}
+
+#online #sky_col_wrap {
+background:#2B425E url(/i/shared/gs5/themes/standard/skywrap_pc.gif) repeat-y;
+border-top:1px solid #70A1D3;
+}
+
+#playstation #sky_col_wrap {
+background:#2A2E4F url(/i/shared/gs5/themes/standard/skywrap_playstation.gif) repeat-y;
+border-top:1px solid #649ACC;
+}
+
+#xbox #sky_col_wrap {
+background:#37422D url(/i/shared/gs5/themes/standard/skywrap_xbox.gif) repeat-y;
+border-top:1px solid #96AE63;
+}
+
+#nintendo #sky_col_wrap {
+background:#3B3747 url(/i/shared/gs5/themes/standard/skywrap_nintendo.gif) repeat-y;
+border-top:1px solid #C197EA;
+}
+
+#portable #sky_col_wrap {
+background:#2C554C url(/i/shared/gs5/themes/standard/skywrap_portable.gif) repeat-y;
+border-top:1px solid #72C0C0;
+}
+
+#leftmost #sky_col_wrap {
+background:#2A2E4F url(/i/shared/gs5/themes/standard/skywrap_playstation.gif) repeat-y;
+border-top:1px solid #649ACC;
+}
+
+#rightmost #sky_col_wrap {
+background:#37422D url(/i/shared/gs5/themes/standard/skywrap_xbox.gif) repeat-y;
+border-top:1px solid #96AE63;
+}
+
+/* SIDE COLUMN ROUNDED TOP */
+
+#sky_col_wrap #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_skywrap_all.gif) no-repeat;
+}
+
+#pc #sky_col_wrap #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_skywrap_pc.gif) no-repeat;
+}
+
+#online #sky_col_wrap #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_skywrap_pc.gif) no-repeat;
+}
+
+#playstation #sky_col_wrap #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_skywrap_playstation.gif) no-repeat;
+}
+
+#xbox #sky_col_wrap #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_skywrap_xbox.gif) no-repeat;
+}
+
+#nintendo #sky_col_wrap #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_skywrap_nintendo.gif) no-repeat;
+}
+
+#portable #sky_col_wrap #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_skywrap_portable.gif) no-repeat;
+}
+
+#leftmost #sky_col_wrap #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_skywrap_playstation.gif) no-repeat;
+}
+
+#rightmost #sky_col_wrap #side_col_wrap {
+background:url(/i/shared/gs5/themes/standard/side_skywrap_xbox.gif) no-repeat;
+}
+
+
+/* FULL WIDTH W/O SKY COLUMN
+*******************************/
+
+/* 2 COLUMN BGS */
+
+#full_col_wrap {
+background:#3F4A59;
+border-top:1px solid #7C8796;
+}
+
+#pc #full_col_wrap {
+background:#2B425E;
+border-top:1px solid #70A1D3;
+}
+
+#online #full_col_wrap {
+background:#2B425E;
+border-top:1px solid #70A1D3;
+}
+
+#playstation #full_col_wrap {
+background:#2A2E4F;
+border-top:1px solid #649ACC;
+}
+
+#xbox #full_col_wrap {
+background:#37422D;
+border-top:1px solid #96AE63;
+}
+
+#nintendo #full_col_wrap {
+background:#3B3747;
+border-top:1px solid #C197EA;
+}
+
+#portable #full_col_wrap {
+background:#2C554C;
+border-top:1px solid #72C0C0;
+}
+
+#leftmost #full_col_wrap {
+background:#2A2E4F;
+border-top:1px solid #649ACC;
+}
+
+#rightmost #full_col_wrap {
+background:#37422D;
+border-top:1px solid #96AE63;
+}
+
+
+
+#filter #col_wrap,
+#filter #sky_col_wrap,
+#filter #full_col_wrap,
+#hub #col_wrap,
+#hub #sky_col_wrap,
+#hub #full_col_wrap,
+#forums #col_wrap,
+#forums #sky_col_wrap,
+#forums #full_col_wrap,
+#search #col_wrap,
+#search #sky_col_wrap,
+#search #full_col_wrap,
+#special_events #col_wrap,
+#special_events #sky_col_wrap,
+#special_events #full_col_wrap {
+border-top:0px;
+}
+
+
+
+
+
+/* MODULES & BOXES
+*******************************/
+
+/* MODULE HEADERS */
+
+.module_head {
+color:#000;
+background:url(/i/shared/gs5/themes/standard/head_all.gif) no-repeat top right;
+}
+
+.module_head a,
+#main_col .module_head a {
+color:#000;
+}
+
+#pc .module_head {
+background:url(/i/shared/gs5/themes/standard/head_pc.gif) no-repeat top right;
+}
+
+#online .module_head {
+background:url(/i/shared/gs5/themes/standard/head_pc.gif) no-repeat top right;
+}
+
+#playstation .module_head {
+background:url(/i/shared/gs5/themes/standard/head_playstation.gif) no-repeat top right;
+}
+
+#xbox .module_head {
+background:url(/i/shared/gs5/themes/standard/head_xbox.gif) no-repeat top right;
+}
+
+#nintendo .module_head {
+background:url(/i/shared/gs5/themes/standard/head_nintendo.gif) no-repeat top right;
+}
+
+#portable .module_head {
+background:url(/i/shared/gs5/themes/standard/head_portable.gif) no-repeat top right;
+}
+
+#leftmost .module_head {
+background:url(/i/shared/gs5/themes/standard/head_playstation.gif) no-repeat top right;
+}
+
+#rightmost .module_head {
+background:url(/i/shared/gs5/themes/standard/head_xbox.gif) no-repeat top right;
+}
+
+#main_col .module_head h2 {
+background:#3F4A59 url(/i/shared/gs5/themes/standard/head_all.gif) no-repeat top left;
+}
+
+#pc #main_col .module_head h2 {
+background:#2B425E url(/i/shared/gs5/themes/standard/head_pc.gif) no-repeat top left;
+}
+
+#playstation #main_col .module_head h2 {
+background:#2A2E4F url(/i/shared/gs5/themes/standard/head_playstation.gif) no-repeat top left;
+}
+
+#xbox #main_col .module_head h2 {
+background:#37422D url(/i/shared/gs5/themes/standard/head_xbox.gif) no-repeat top left;
+}
+
+#nintendo #main_col .module_head h2 {
+background:#3B3747 url(/i/shared/gs5/themes/standard/head_nintendo.gif) no-repeat top left;
+}
+
+#portable #main_col .module_head h2 {
+background:#2C554C url(/i/shared/gs5/themes/standard/head_portable.gif) no-repeat top left;
+}
+
+#leftmost #main_col .module_head h2 {
+background:#2A2E4F url(/i/shared/gs5/themes/standard/head_playstation.gif) no-repeat top left;
+}
+
+#rightmost #main_col .module_head h2 {
+background:#37422D url(/i/shared/gs5/themes/standard/head_xbox.gif) no-repeat top left;
+}
+
+
+#side_col .module_head h2 {
+background:#737D8C url(/i/shared/gs5/themes/standard/head_all.gif) no-repeat top left;
+}
+
+#pc #side_col .module_head h2 {
+background:#537592 url(/i/shared/gs5/themes/standard/head_pc.gif) no-repeat top left;
+}
+
+#online #side_col .module_head h2 {
+background:#537592 url(/i/shared/gs5/themes/standard/head_pc.gif) no-repeat top left;
+}
+
+#playstation #side_col .module_head h2 {
+background:#4A6384 url(/i/shared/gs5/themes/standard/head_playstation.gif) no-repeat top left;
+}
+
+#xbox #side_col .module_head h2 {
+background:#5E7C3F url(/i/shared/gs5/themes/standard/head_xbox.gif) no-repeat top left;
+}
+
+#nintendo #side_col .module_head h2 {
+background:#5C566F url(/i/shared/gs5/themes/standard/head_nintendo.gif) no-repeat top left;
+}
+
+#portable #side_col .module_head h2 {
+background:#4E8670 url(/i/shared/gs5/themes/standard/head_portable.gif) no-repeat top left;
+}
+
+#leftmost #side_col .module_head h2 {
+background:#4A6384 url(/i/shared/gs5/themes/standard/head_playstation.gif) no-repeat top left;
+}
+
+#rightmost #side_col .module_head h2 {
+background:#5E7C3F url(/i/shared/gs5/themes/standard/head_xbox.gif) no-repeat top left;
+}
+
+/* MAIN MODULES */
+#main_col .module a .on{color:#fff;}
+
+/* SIDE MODULES */
+
+#side_col .module,
+#side_col .bubble {
+color:#ccc;
+background:url(/i/shared/gs5/themes/standard/module_302.gif) no-repeat bottom;
+}
+
+#side_col h4 {
+color:#fff;
+background:#444;
+}
+
+.more {
+color:#ccc;
+}
+
+/* BOXES */
+
+.box {
+background:#2C333E;
+border:1px solid #737D8C;
+}
+
+#pc .box {
+background:#263A52;
+border:1px solid #537592;
+}
+
+#online .box {
+background:#263A52;
+border:1px solid #537592;
+}
+
+#playstation .box {
+background:#242743;
+border:1px solid #4A6384;
+}
+
+#xbox .box {
+background:#2E3727;
+border:1px solid #5E7C3F;
+}
+
+#nintendo .box {
+background:#312E3B;
+border:1px solid #5C566F;
+}
+
+#portable .box {
+background:#264841;
+border:1px solid #4E8670;
+}
+
+#checkprices .box {
+background:#777;
+border:1px solid #333;
+}
+
+#leftmost .box {
+background:#242743;
+border:1px solid #4A6384;
+}
+
+#rightmost .box {
+background:#2E3727;
+border:1px solid #5E7C3F;
+}
+
+/* TABS & SUBNAV/SUBTABS
+*******************************/
+
+/* LINK COLORS */
+
+#tabs a {
+color:#333;
+}
+
+#subnav a {
+color:#036;
+}
+
+#pc #tabs a,
+#pc #subnav a {
+color:#036;
+}
+
+#online #tabs a,
+#online #subnav a {
+color:#036;
+}
+
+#playstation #tabs a,
+#playstation #subnav a {
+color:#006;
+}
+
+#xbox #tabs a,
+#xbox #subnav a {
+color:#240;
+}
+
+#nintendo #tabs a,
+#nintendo #subnav a {
+color:#471E7E;
+}
+
+#portable #tabs a,
+#portable #subnav a {
+color:#044;
+}
+
+#leftmost #tabs a,
+#leftmost #subnav a {
+color:#006;
+}
+
+#rightmost #tabs a,
+#rightmost #subnav a {
+color:#240;
+}
+
+#tabs .on a,
+#gamespace #tabs .tab#last_tab a,
+#subnav .on a,
+#subnav .first_on a,
+#subnav .last_on a,
+#pc #tabs .on a,
+#pc #subnav .on a,
+#pc #subnav .first_on a,
+#pc #subnav .last_on a,
+#online #tabs .on a,
+#online #subnav .on a,
+#online #subnav .first_on a,
+#online #subnav .last_on a,
+#playstation #tabs .on a,
+#playstation #subnav .on a,
+#playstation #subnav .first_on a,
+#playstation #subnav .last_on a,
+#xbox #tabs .on a,
+#xbox #subnav .on a,
+#xbox #subnav .first_on a,
+#xbox #subnav .last_on a,
+#nintendo #tabs .on a,
+#nintendo #subnav .on a,
+#nintendo #subnav .first_on a,
+#nintendo #subnav .last_on a,
+#portable #tabs .on a,
+#portable #subnav .on a,
+#portable #subnav .first_on a,
+#portable #subnav .last_on a,
+#leftmost #tabs .on a,
+#leftmost #subnav .on a,
+#leftmost #subnav .first_on a,
+#leftmost #subnav .last_on a,
+#rightmost #tabs .on a,
+#rightmost #subnav .on a,
+#rightmost #subnav .first_on a,
+#rightmost #subnav .last_on a {
+color:#fff;
+}
+
+/* TABS */
+
+#tabs .tab {
+background:url(/i/shared/gs5/themes/standard/tab.gif);
+}
+
+#tabs .tab#first_tab {
+background:url(/i/shared/gs5/themes/standard/tab_first.gif);
+}
+
+#tabs .tab#last_tab {
+background:url(/i/shared/gs5/themes/standard/tab_last.gif) top right;
+}
+
+#gamespace #tabs .tab#last_tab {
+background:url(/i/shared/gs5/themes/standard/tab_last_gamespace.gif) top right;
+}
+
+#gamespace #tabs .tab#last_tab_off {
+background:url(/i/shared/gs5/themes/standard/tab_last.gif) top right;
+}
+
+#tabs .on {
+background:url(/i/shared/gs5/themes/standard/tab_all.gif);
+}
+
+#tabs .on#first_tab {
+background:url(/i/shared/gs5/themes/standard/tab_first_all.gif);
+}
+
+#tabs .on#last_tab {
+background:url(/i/shared/gs5/themes/standard/tab_last_all.gif) top right;
+}
+
+#pc #tabs .on {
+background:url(/i/shared/gs5/themes/standard/tab_pc.gif);
+}
+
+#pc #tabs .on#first_tab {
+background:url(/i/shared/gs5/themes/standard/tab_first_pc.gif);
+}
+
+#pc #tabs .on#last_tab {
+background:url(/i/shared/gs5/themes/standard/tab_last_pc.gif) top right;
+}
+
+#pc #tabs .on {
+background:url(/i/shared/gs5/themes/standard/tab_pc.gif);
+}
+
+#pc #tabs .on#first_tab {
+background:url(/i/shared/gs5/themes/standard/tab_first_pc.gif);
+}
+
+#pc #tabs .on#last_tab {
+background:url(/i/shared/gs5/themes/standard/tab_last_pc.gif) top right;
+}
+
+#online #tabs .on {
+background:url(/i/shared/gs5/themes/standard/tab_playstation.gif);
+}
+
+#online #tabs .on#first_tab {
+background:url(/i/shared/gs5/themes/standard/tab_first_playstation.gif);
+}
+
+#online #tabs .on#last_tab {
+background:url(/i/shared/gs5/themes/standard/tab_last_playstation.gif) top right;
+}
+
+#xbox #tabs .on {
+background:url(/i/shared/gs5/themes/standard/tab_xbox.gif);
+}
+
+#xbox #tabs .on#first_tab {
+background:url(/i/shared/gs5/themes/standard/tab_first_xbox.gif);
+}
+
+#xbox #tabs .on#last_tab {
+background:url(/i/shared/gs5/themes/standard/tab_last_xbox.gif) top right;
+}
+
+#nintendo #tabs .on {
+background:url(/i/shared/gs5/themes/standard/tab_nintendo.gif);
+}
+
+#nintendo #tabs .on#first_tab {
+background:url(/i/shared/gs5/themes/standard/tab_first_nintendo.gif);
+}
+
+#nintendo #tabs .on#last_tab {
+background:url(/i/shared/gs5/themes/standard/tab_last_nintendo.gif) top right;
+}
+
+#portable #tabs .on {
+background:url(/i/shared/gs5/themes/standard/tab_portable.gif);
+}
+
+#portable #tabs .on#first_tab {
+background:url(/i/shared/gs5/themes/standard/tab_first_portable.gif);
+}
+
+#portable #tabs .on#last_tab {
+background:url(/i/shared/gs5/themes/standard/tab_last_portable.gif) top right;
+}
+
+/* SUBNAV */
+
+#subnav_wrap {
+background:#3F4A59 url(/i/shared/gs5/themes/standard/subnav_all.gif) repeat-x;
+}
+
+#pc #subnav_wrap {
+background:#2B425E url(/i/shared/gs5/themes/standard/subnav_pc.gif) repeat-x;
+}
+
+#online #subnav_wrap {
+background:#2B425E url(/i/shared/gs5/themes/standard/subnav_pc.gif) repeat-x;
+}
+
+#playstation #subnav_wrap {
+background:#2A2E4F url(/i/shared/gs5/themes/standard/subnav_playstation.gif) repeat-x;
+}
+
+#xbox #subnav_wrap {
+background:#37422D url(/i/shared/gs5/themes/standard/subnav_xbox.gif) repeat-x;
+}
+
+#nintendo #subnav_wrap {
+background:#3B3747 url(/i/shared/gs5/themes/standard/subnav_nintendo.gif) repeat-x;
+}
+
+#portable #subnav_wrap {
+background:#2C554C url(/i/shared/gs5/themes/standard/subnav_portable.gif) repeat-x;
+}
+
+#leftmost #subnav_wrap {
+background:#2A2E4F url(/i/shared/gs5/themes/standard/subnav_playstation.gif) repeat-x;
+}
+
+#rightmost #subnav_wrap {
+background:#37422D url(/i/shared/gs5/themes/standard/subnav_xbox.gif) repeat-x;
+}
+
+#filter #subnav_wrap {
+background:#3F4A59;
+padding-top:0px;
+}
+
+#filter #pc #subnav_wrap {
+background:#2B425E;
+padding-top:0px;
+}
+
+#filter #online #subnav_wrap {
+background:#2B425E;
+padding-top:0px;
+}
+
+#filter #playstation #subnav_wrap {
+background:#2A2E4F;
+padding-top:0px;
+}
+
+#filter #xbox #subnav_wrap {
+background:#37422D;
+padding-top:0px;
+}
+
+#filter #nintendo #subnav_wrap {
+background:#3B3747;
+padding-top:0px;
+}
+
+#filter #portable #subnav_wrap {
+background:#2C554C;
+padding-top:0px;
+}
+
+#filter #leftmost #subnav_wrap {
+background:#2A2E4F;
+padding-top:0px;
+}
+
+#filter #rightmost #subnav_wrap {
+background:#37422D;
+padding-top:0px;
+}
+
+#search #subnav_wrap, #uservideos #subnav_wrap {
+background:#3F4A59;
+padding-top:0px;
+}
+
+
+
+/* SUBTABS */
+
+#subnav li {
+background:url(/i/shared/gs5/themes/standard/subtab.gif) no-repeat center;
+}
+
+#subnav .first {
+background:url(/i/shared/gs5/themes/standard/subtab.gif) no-repeat left;
+}
+
+#subnav .last {
+background:url(/i/shared/gs5/themes/standard/subtab.gif) no-repeat right;
+}
+
+#subnav .on {
+background:url(/i/shared/gs5/themes/standard/subtab_all.gif) no-repeat center;
+}
+
+#subnav .first_on {
+background:url(/i/shared/gs5/themes/standard/subtab_all.gif) no-repeat left;
+}
+
+#subnav .last_on {
+background:url(/i/shared/gs5/themes/standard/subtab_all.gif) no-repeat right;
+}
+
+#pc #subnav .on {
+background:url(/i/shared/gs5/themes/standard/subtab_pc.gif) no-repeat center;
+}
+
+#pc #subnav .first_on {
+background:url(/i/shared/gs5/themes/standard/subtab_pc.gif) no-repeat left;
+}
+
+#pc #subnav .last_on {
+background:url(/i/shared/gs5/themes/standard/subtab_pc.gif) no-repeat right;
+}
+
+#online #subnav .on {
+background:url(/i/shared/gs5/themes/standard/subtab_pc.gif) no-repeat center;
+}
+
+#online #subnav .first_on {
+background:url(/i/shared/gs5/themes/standard/subtab_pc.gif) no-repeat left;
+}
+
+#online #subnav .last_on {
+background:url(/i/shared/gs5/themes/standard/subtab_pc.gif) no-repeat right;
+}
+
+#playstation #subnav .on {
+background:url(/i/shared/gs5/themes/standard/subtab_playstation.gif) no-repeat center;
+}
+
+#playstation #subnav .first_on {
+background:url(/i/shared/gs5/themes/standard/subtab_playstation.gif) no-repeat left;
+}
+
+#playstation #subnav .last_on {
+background:url(/i/shared/gs5/themes/standard/subtab_playstation.gif) no-repeat right;
+}
+
+#xbox #subnav .on {
+background:url(/i/shared/gs5/themes/standard/subtab_xbox.gif) no-repeat center;
+}
+
+#xbox #subnav .first_on {
+background:url(/i/shared/gs5/themes/standard/subtab_xbox.gif) no-repeat left;
+}
+
+#xbox #subnav .last_on {
+background:url(/i/shared/gs5/themes/standard/subtab_xbox.gif) no-repeat right;
+}
+
+#nintendo #subnav .on {
+background:url(/i/shared/gs5/themes/standard/subtab_nintendo.gif) no-repeat center;
+}
+
+#nintendo #subnav .first_on {
+background:url(/i/shared/gs5/themes/standard/subtab_nintendo.gif) no-repeat left;
+}
+
+#nintendo #subnav .last_on {
+background:url(/i/shared/gs5/themes/standard/subtab_nintendo.gif) no-repeat right;
+}
+
+#portable #subnav .on {
+background:url(/i/shared/gs5/themes/standard/subtab_portable.gif) no-repeat center;
+}
+
+#portable #subnav .first_on {
+background:url(/i/shared/gs5/themes/standard/subtab_portable.gif) no-repeat left;
+}
+
+#portable #subnav .last_on {
+background:url(/i/shared/gs5/themes/standard/subtab_portable.gif) no-repeat right;
+}
+
+#leftmost #subnav .on {
+background:url(/i/shared/gs5/themes/standard/subtab_playstation.gif) no-repeat center;
+}
+
+#leftmost #subnav .first_on {
+background:url(/i/shared/gs5/themes/standard/subtab_playstation.gif) no-repeat left;
+}
+
+#leftmost #subnav .last_on {
+background:url(/i/shared/gs5/themes/standard/subtab_playstation.gif) no-repeat right;
+}
+
+#rightmost #subnav .on {
+background:url(/i/shared/gs5/themes/standard/subtab_xbox.gif) no-repeat center;
+}
+
+#rightmost #subnav .first_on {
+background:url(/i/shared/gs5/themes/standard/subtab_xbox.gif) no-repeat left;
+}
+
+#rightmost #subnav .last_on {
+background:url(/i/shared/gs5/themes/standard/subtab_xbox.gif) no-repeat right;
+}
+
+
+/* GUMBALLS
+*******************************/
+
+#gumballs_module .module {
+background:url(/i/shared/gs5/themes/standard/module_432.gif) no-repeat bottom;
+}
+
+/* 432 BOTTOM CURVY
+******************************/
+.bc432 {
+background:url(/i/shared/gs5/themes/standard/module_432.gif) no-repeat bottom;
+}
+
+
+
+/* BROWSE
+*******************************/
+
+#col_wrap #browse_module .module {
+background:url(/i/shared/gs5/themes/standard/module_432.gif) no-repeat bottom;
+}
+
+#sky_wrap #browse_module .module {
+background:url(/i/shared/gs5/themes/standard/module_572.gif) no-repeat bottom;
+}
+
+#full_col_wrap #browse_module .module {
+background:url(/i/shared/gs5/themes/standard/module_746.gif) no-repeat bottom;
+}
+
+
+
+/* MOST POPULAR
+*******************************/
+
+/* HEADERS */
+
+#mostpopular .head_wrap {
+background:transparent;
+}
+
+#mostpopular .head_wrap #mp_0 {
+background:url(/i/shared/gs5/themes/standard/topten.gif) no-repeat;
+}
+
+/* PLATFORMS */
+
+#mostpopular .head_wrap #mp_5 {
+background:url(/i/shared/gs5/themes/standard/topten_pc.gif) no-repeat;
+}
+
+#mostpopular .head_wrap #mp_7 {
+background:url(/i/shared/gs5/themes/standard/topten_ps2.gif) no-repeat;
+}
+
+#mostpopular .head_wrap #mp_1028 {
+background:url(/i/shared/gs5/themes/standard/topten_ps3.gif) no-repeat;
+}
+
+#mostpopular .head_wrap #mp_1024 {
+background:url(/i/shared/gs5/themes/standard/topten_psp.gif) no-repeat;
+}
+
+#mostpopular .head_wrap #mp_13 {
+background:url(/i/shared/gs5/themes/standard/topten_xbox.gif) no-repeat;
+}
+
+#mostpopular .head_wrap #mp_1029 {
+background:url(/i/shared/gs5/themes/standard/topten_xbox360.gif) no-repeat;
+}
+
+#mostpopular .head_wrap #mp_11 {
+background:url(/i/shared/gs5/themes/standard/topten_gc.gif) no-repeat;
+}
+
+#mostpopular .head_wrap #mp_1031 {
+background:url(/i/shared/gs5/themes/standard/topten_rev.gif) no-repeat;
+}
+
+#mostpopular .head_wrap #mp_1026 {
+background:url(/i/shared/gs5/themes/standard/topten_ds.gif) no-repeat;
+}
+
+#mostpopular .head_wrap #mp_12 {
+background:url(/i/shared/gs5/themes/standard/topten_gba.gif) no-repeat;
+}
+
+#mostpopular .head_wrap #mp_1006 {
+background:url(/i/shared/gs5/themes/standard/topten_nge.gif) no-repeat;
+}
+
+#mostpopular .head_wrap #mp_1025 {
+background:url(/i/shared/gs5/themes/standard/topten_mobile.gif) no-repeat;
+}
+
+/* GENRES */
+
+#mostpopular .head_wrap #mp_23222 {
+background:url(/i/shared/gs5/themes/standard/topten_sports.gif) no-repeat;
+}
+
+/* FILES */
+
+#mostpopular .head_wrap #mpfiles_all {
+background:transparent url(/i/shared/gs5/themes/standard/topten_files.gif) no-repeat;
+}
+
+#mostpopular .head_wrap #mpfiles_demos {
+background:transparent url(/i/shared/gs5/themes/standard/topten_demos.gif) no-repeat;
+}
+
+#mostpopular .head_wrap #mpfiles_patches {
+background:transparent url(/i/shared/gs5/themes/standard/topten_patches.gif) no-repeat;
+}
+
+#mostpopular .head_wrap #mpfiles_maps {
+background:transparent url(/i/shared/gs5/themes/standard/topten_maps.gif) no-repeat;
+}
+
+#mostpopular .head_wrap #mpfiles_mods {
+background:transparent url(/i/shared/gs5/themes/standard/topten_mods.gif) no-repeat;
+}
+
+#mostpopular .head_wrap #mpfiles_movies {
+background:transparent url(/i/shared/gs5/themes/standard/topten_movies.gif) no-repeat;
+}
+
+#mostpopular .head_wrap #mpfiles_others {
+background:transparent url(/i/shared/gs5/themes/standard/topten_files.gif) no-repeat;
+}
+
+/* VIDEOS */
+
+#mostpopular .head_wrap #mp_videos {
+background:transparent url(/i/shared/gs5/themes/standard/topten_videos.gif) no-repeat;
+}
+
+#hub #videos #tags_module .module_head_right {background:url(/i/shared/gs5/themes/standard/head_all.gif) right #7F7F7F;
+}
+
+.vh-module {
+background:url(/i/shared/gs5/video_hub/mod-head.gif) top left no-repeat;
+}
+
+.vh-module h2 {
+background:url(/i/shared/gs5/video_hub/mod-head.gif) top right no-repeat #FFF;
+color: #000;
+}
+
+/* NEWS */
+
+#mostpopular .head_wrap #mp_news {
+background:transparent url(/i/shared/gs5/themes/standard/topten_news.gif) no-repeat;
+}
+
+
+
+/* RESULTS */
+
+#mostpopular #shoulder {
+border:1px solid #000;
+border-top:0px;
+}
+
+#mostpopular .num1 {
+background:url(/i/shared/gs5/themes/standard/topten_num1.jpg) no-repeat;
+border-right:1px solid #000;
+border-left:1px solid #000;
+border-bottom:1px solid #666;
+}
+
+#mostpopular .todays_num1 {
+background:url(/i/shared/gs5/themes/standard/todays_num1.gif) no-repeat;
+}
+
+#mostpopular .todays_num1_video {
+background:url(/i/shared/gs5/themes/standard/todays_num1_video.gif) no-repeat;
+}
+
+#mostpopular .num1 table {
+border-top:1px solid #666;
+border-bottom:1px solid #666;
+}
+
+#mostpopular .table {
+border-bottom:1px solid #000;
+}
+
+#mostpopular .table td.rank {
+border-left:1px solid #000;
+}
+
+#mostpopular .table td.score_col {
+border-right:1px solid #000;
+}
+
+#mostpopular .table td.rank,
+#mostpopular .table td.score_col {
+background:#454950;
+}
+
+#mostpopular .table .alt td.rank,
+#mostpopular .table .alt td.score_col {
+background:#32363D;
+}
+
+#mostpopular .rankings {
+background:url(/i/shared/gs5/themes/standard/module_432_v2.gif) no-repeat bottom;
+}
+
+
+/* GAMESPACE
+*******************************/
+
+#vital_stats {
+background:url(/i/shared/gs5/themes/standard/stats.gif) no-repeat bottom;
+}
+
+#vital_stats_u {
+background:url(/i/shared/gs5/themes/standard/stats_u2.gif) no-repeat top;
+}
+
+#vital_stats_r {
+background:url(/i/shared/gs5/themes/standard/stats_u2.gif) no-repeat top;
+}
+
+#vital_stats2_u {
+background:url(/i/shared/gs5/themes/standard/stats_u.gif) no-repeat bottom;
+}
+
+#vital_stats2_r {
+background:url(/i/shared/gs5/themes/standard/stats_r.gif) no-repeat bottom;
+}
+
+#sliderbox {
+background:url(/i/shared/gs5/themes/standard/slider_bg.gif) no-repeat top;
+}
+
+#side_col span.beston div.cb {
+clear:none;
+}
+
+/* STORY PAGES
+*******************************/
+
+/* EMBSCREEN */
+
+.embscreen {
+background:#2C333E;
+border:1px solid #737D8C;
+}
+
+#pc .embscreen {
+background:#263A52;
+border:1px solid #537592;
+}
+
+#online .embscreen {
+background:#263A52;
+border:1px solid #537592;
+}
+
+#playstation .embscreen {
+background:#242743;
+border:1px solid #4A6384;
+}
+
+#xbox .embscreen {
+background:#2E3727;
+border:1px solid #5E7C3F;
+}
+
+#nintendo .embscreen {
+background:#312E3B;
+border:1px solid #5C566F;
+}
+
+#portable .embscreen {
+background:#264841;
+border:1px solid #4E8670;
+}
+
+#leftmost .embscreen {
+background:#242743;
+border:1px solid #4A6384;
+}
+
+#rightmost .embscreen {
+background:#2E3727;
+border:1px solid #5E7C3F;
+}
+
+/* SEE IT */
+
+.seeit .embvideo {
+background:#2C333E;
+border:1px solid #737D8C;
+border-top:0px;
+}
+
+#pc .seeit .embvideo {
+background:#263A52;
+border:1px solid #537592;
+border-top:0px;
+}
+
+#online .seeit .embvideo {
+background:#263A52;
+border:1px solid #537592;
+border-top:0px;
+}
+
+#playstation .seeit .embvideo {
+background:#242743;
+border:1px solid #4A6384;
+border-top:0px;
+}
+
+#xbox .seeit .embvideo {
+background:#2E3727;
+border:1px solid #5E7C3F;
+border-top:0px;
+}
+
+#nintendo .seeit .embvideo {
+background:#312E3B;
+border:1px solid #5C566F;
+border-top:0px;
+}
+
+#portable .seeit .embvideo {
+background:#264841;
+border:1px solid #4E8670;
+border-top:0px;
+}
+
+#leftmost .seeit .embvideo {
+background:#242743;
+border:1px solid #4A6384;
+border-top:0px;
+}
+
+#rightmost .seeit .embvideo {
+background:#2E3727;
+border:1px solid #5E7C3F;
+border-top:0px;
+}
+
+.icon_edchoice img {
+background:url(/i/shared/gs5/themes/standard/icon_edchoice.gif) no-repeat;
+}
+
+/* FLASH AUDIO */
+
+.flashaudio {
+background:#2C333E;
+border:1px solid #737D8C;
+}
+
+#pc .flashaudio {
+background:#263A52;
+border:1px solid #537592;
+}
+
+#online .flashaudio {
+background:#263A52;
+border:1px solid #537592;
+}
+
+#playstation .flashaudio {
+background:#242743;
+border:1px solid #4A6384;
+}
+
+#xbox .flashaudio {
+background:#2E3727;
+border:1px solid #5E7C3F;
+}
+
+#nintendo .flashaudio {
+background:#312E3B;
+border:1px solid #5C566F;
+}
+
+#portable .flashaudio {
+background:#264841;
+border:1px solid #4E8670;
+}
+
+#leftmost .flashaudio {
+background:#242743;
+border:1px solid #4A6384;
+}
+
+#rightmost .flashaudio {
+background:#2E3727;
+border:1px solid #5E7C3F;
+}
+
+
+/* VIDEO PLAYER POPUP
+*******************************/
+
+#video_player #col_wrap {
+background:#2a2a2a url(/i/shared/gs5/themes/standard/videoplayer_colwrap.gif) repeat-x;
+border:0px;
+}
+
+#video_player #col_wrap #main_col .module_wrap {
+background:url(/i/shared/gs5/themes/standard/module_320_top.gif) no-repeat;
+}
+
+#video_player #col_wrap #main_col .module {
+background:url(/i/shared/gs5/themes/standard/module_320.gif) no-repeat bottom;
+}
+
+#video_player #col_wrap.wide #main_col .module_wrap {
+background:url(/i/shared/gs5/themes/standard/module_400_top.gif) no-repeat;
+}
+
+#video_player #col_wrap.wide #main_col .module {
+background:url(/i/shared/gs5/themes/standard/module_400.gif) no-repeat bottom;
+}
+
+#video_player #col_wrap.tall #main_col .module_wrap {
+background:url(/i/shared/gs5/themes/standard/module_256_top.gif) no-repeat;
+}
+
+#video_player #col_wrap.tall #main_col .module {
+background:url(/i/shared/gs5/themes/standard/module_256.gif) no-repeat bottom;
+}
+
+#video_player #side_col_wrap {
+background:transparent;
+}
+
+#video_player #side_col .module_wrap {
+background:url(/i/shared/gs5/themes/standard/module_340_top.gif) no-repeat;
+}
+
+#video_player #side_col .module {
+background:url(/i/shared/gs5/themes/standard/module_340.gif) no-repeat bottom;
+}
+
+/* TABS */
+
+#video_player #side_col .module_wrap#videopop_tabs_bg {
+background:url(/i/shared/gs5/themes/standard/videopop_tabs.gif) no-repeat;
+}
+
+#videopop_tabs {
+color:#666;
+}
+
+#videopop_tabs li {
+border-right:1px solid #999;
+}
+
+#videopop_tabs .on {
+background:url(/i/shared/gs5/themes/standard/videopop_tab_on.gif) no-repeat center;
+}
+
+#videopop_tabs a {
+color:#600;
+}
+
+#videopop_tabs .on a {
+color:#fff;
+}
+
+
+
+/* DOTS */
+
+
+.dots {
+background:url(/i/shared/gs5/themes/standard/dot.gif) repeat-x bottom;
+}
+
+.dots_top {
+background:url(/i/shared/gs5/themes/standard/dot.gif) repeat-x top;
+}
+
+
+
+/* GENERIC BUBBLE WRAP
+*******************************/
+
+#col_wrap .bubble_wrap {
+background:url(/i/shared/gs5/themes/standard/module_432_top.gif) no-repeat top;
+padding-top:6px;
+}
+
+#sky_col_wrap .bubble_wrap {
+background:url(/i/shared/gs5/themes/standard/module_572_top.gif) no-repeat top;
+padding-top:6px;
+}
+
+#full_col_wrap .bubble_wrap {
+background:url(/i/shared/gs5/themes/standard/module_746_top.gif) no-repeat top;
+padding-top:6px;
+}
+
+#col_wrap .bubble {
+background:url(/i/shared/gs5/themes/standard/module_432.gif) no-repeat bottom;
+}
+
+#sky_col_wrap .bubble {
+background:url(/i/shared/gs5/themes/standard/module_572.gif) no-repeat bottom;
+}
+
+#full_col_wrap .bubble {
+background:url(/i/shared/gs5/themes/standard/module_746.gif) no-repeat bottom;
+}
+
+
+
+/* LAST WORD
+*******************************/
+
+#lastword {
+width:432px;
+height:135px;
+color:#333;
+position:relative;
+}
+
+#lastword table {
+width:143px;
+height:135px;
+position:absolute;
+left:147px;
+overflow:hidden;
+}
+
+#lastword img {
+position:absolute;
+right:8px;
+top:22px;
+}
+
+#lastword a {
+color:#c30;
+}
+
+#lastword .lastword_regular,
+#lastword .lastword_shout,
+#lastword .lastword_whisper {
+width:432px;
+height:135px;
+}
+
+#lastword .lastword_regular {
+background:url(/i/shared/home2/lastword/lastword_regular.gif) no-repeat;
+}
+
+#lastword .lastword_regular img {
+right:7px;
+top:21px;
+}
+
+#lastword .lastword_shout {
+background:url(/i/shared/home2/lastword/lastword_shout.gif) no-repeat;
+}
+
+#lastword .lastword_shout table {
+width:123px;
+left:167px;
+}
+
+#lastword .lastword_whisper {
+background:url(/i/shared/home2/lastword/lastword_whisper.gif) no-repeat;
+}
+
+#lastword .lastword_whisper table {
+width:133px;
+left:157px;
+}
+
+
+
+/* TAGS
+***********************************/
+
+.storybtns {
+margin:4px 0px 4px 0px;
+width:421px;
+height:24px;
+float:left;
+background:url(/i/shared/gs5/themes/standard/t_tools_bg.gif) top left no-repeat;
+}
+
+.storybtns .right {
+background:url(/i/shared/gs5/themes/standard/t_tools_bg.gif) top right no-repeat;
+width:10px;
+height:24px;
+float:right;
+position:relative;
+top:0px;
+right:-10px;
+}
+
+.storybtns a {
+display:block;
+float:left;
+color:#ccc;
+font-size:10px;
+height:18px;
+margin:1px 1px 0px 1px;
+}
+
+.storybtns a div {
+padding:6px 1px 0px 22px;
+}
+
+.btn_print {
+background:url(/i/shared/gs5/themes/standard/t2_icon_print.gif) no-repeat 3px 0px;
+}
+
+.btn_email {
+background:url(/i/shared/gs5/themes/standard/t2_icon_email.gif) no-repeat 3px 0px;
+}
+
+.btn_discuss {
+background:url(/i/shared/gs5/themes/standard/t2_icon_discuss.gif) no-repeat 3px 0px;
+}
+
+.btn_comment {
+background:url(/i/shared/gs5/themes/standard/t2_icon_comment.gif) no-repeat 3px 0px;
+}
+
+.btn_tag {
+background:url(/i/shared/gs5/themes/standard/t_icon_tag.gif) no-repeat 5px 1px;
+}
+
+.btn_trackback {
+background:url(/i/shared/gs5/themes/standard/t_icon_trackback_b.gif) no-repeat 5px 3px;
+}
+.btn_hatena {
+background:url(/i/shared/gs5/themes/standard/t_icon_hatena.gif) no-repeat 5px 3px;
+}
+.btn_buzzurl {
+background:url(/i/shared/gs5/themes/standard/t_icon_buzzurl.gif) no-repeat 5px 3px;
+}
+.btn_livedoor {
+background:url(/i/shared/gs5/themes/standard/t_icon_livedoor.gif) no-repeat 5px 3px;
+}
+.btn_cool {
+/*background:url(/gamespot/i/shared/gs5/btn_cool.png) no-repeat 0 0 ;*/
+background:url(/gamespot/i/shared/gs5/btn_happy.gif) no-repeat 0 0 ;
+padding-left: 16px;
+}
+.btn_boo {
+background:url(/gamespot/i/shared/gs5/btn_boo.png) no-repeat 0 0 ;
+padding-left: 16px;
+}
+
+.btn_tag2 {
+background:url(/i/shared/gs5/themes/standard/t_icon_tag2.gif) no-repeat 0px 0px;
+padding-left: 20px;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+
+.btn_review {
+background:url(/i/shared/gs5/themes/standard/t2_icon_review.gif) no-repeat 0px 0px;
+}
+
+.btn_abuse {
+background:url(/i/shared/gs5/themes/standard/t2_icon_abuse.gif) no-repeat 3px 0px;
+}
+
+.btn_add {
+background:url(/i/shared/gs5/themes/standard/t2_icon_add.gif) no-repeat 6px 0px;
+}
+
+.btn_blog {
+background:url(/i/shared/gs5/themes/standard/t_icon_blog.gif) no-repeat 3px 0px;
+}
+
+.btn_digg {
+background:url(/i/shared/gs5/themes/standard/t_icon_digg.gif) no-repeat 5px 4px;
+}
+
+#tag-story, #tag-story-top, .tag-blog {
+background:url(/i/shared/gs5/themes/standard/t_tagform_bg.gif) no-repeat;
+}
+
+#blogit {
+background:url(/i/shared/gs5/themes/standard/t_blogform_bg.gif) no-repeat;
+}
+
+#tag-story, #tag-story-top, #blogit{
+width:431px;
+margin:0px 0px 10px 0px;
+clear:left;
+color:#ddd;
+}
+
+.tag-blog {
+padding:10px;
+width:431px;
+margin:10px 0px;
+clear:left;
+color:#ddd;
+}
+
+.comments {
+background:url(/i/shared/gs5/themes/standard/t_comments_bg.gif) no-repeat;
+width:420px;
+height:23px;
+margin:0px 0px 6px 0px;
+}
+
+.blog_comment {
+overflow: hidden;
+word-wrap: break-word;
+}
+
+/* NEW SEARCH
+**********************************/
+
+#search #neck {
+height:auto;
+}
+
+#unisearchbox {
+background:url(/i/shared/gs5/themes/standard/t_searchbox_bg.gif) repeat-x;
+width:750px;
+height:75px;
+font-size:12px;
+color:#CCC;
+}
+
+#search_search input#srchbtn {
+height:20px;
+width:70px;
+background:url('/i/shared/gs5/btn-search.gif') 0px 0px no-repeat;
+margin:4px 0px -5px 3px;
+}
+
+
+#subnav2 {
+background:url(/i/shared/gs5/themes/standard/t_subnav_bg.gif) repeat-x;
+float:left;
+width:726px;
+color:#999;
+padding-left:22px;
+}
+
+#subnav2 a {
+font-weight:normal;
+}
+
+#subnav2 li {
+padding:8px 0px 5px 0px;
+margin:0px 20px 0px 0px;
+float:left;
+}
+
+#subnav2 li.on {
+background:url(/i/shared/gs5/themes/standard/t_subtab_on.gif) no-repeat right;
+margin:0px 16px 0px 0px;
+}
+
+#subnav2 li.on a {
+background:url(/i/shared/gs5/themes/standard/t_subtab_on.gif) no-repeat 0px 0px;
+padding:8px 2px 5px 12px;
+position:relative;
+left:-8px;
+color:#fff;
+}
+
+.secondary {
+background:#1E1F1F;
+width:100%;
+height:auto;
+float:left;
+}
+
+#tagcrumb a {
+color:#ddd;
+}
+
+#tagcloud {
+background:#3F4A59;
+}
+
+#tagcloud a {
+color:#CCC;
+}
+
+#tagcloud .smallest {
+font-size:10px;
+font-weight:normal;
+color:#777;
+}
+
+#tagcloud .small {
+font-size:12px;
+font-weight:normal;
+color:#aaa;
+}
+
+#tagcloud .medium {
+font-size:12px;
+font-weight:bold;
+color:#ccc;
+}
+
+#tagcloud .large {
+font-size:15px;
+font-weight:bold;
+color:#ddd;
+}
+
+#tagcloud .largest {
+font-size:18px;
+font-weight:bold;
+color:#fff;
+}
+
+#tagcloud_all .smallest {
+font-size:12px;
+font-weight:normal;
+color:#777;
+margin:4px;
+}
+
+#tagcloud_all .small {
+font-size:13px;
+font-weight:normal;
+color:#aaa;
+margin:6px;
+}
+
+#tagcloud_all .medium {
+font-size:15px;
+font-weight:bold;
+color:#ccc;
+margin:8px;
+}
+
+#tagcloud_all .large {
+font-size:18px;
+font-weight:bold;
+color:#ddd;
+margin:10px;
+}
+
+#tagcloud_all .largest {
+font-size:24px;
+font-weight:bold;
+color:#fff;
+margin:12px;
+}
+
+#tags_module .smallest {
+font-size:10px;
+font-weight:normal;
+color:#777;
+}
+
+#tags_module .small {
+font-size:10px;
+font-weight:normal;
+color:#bbb;
+}
+
+#tags_module .medium {
+font-size:12px;
+font-weight:normal;
+color:#ccc;
+}
+
+#tags_module .large {
+font-size:12px;
+font-weight:bold;
+color:#ccc;
+}
+
+#tags_module .largest {
+font-size:12px;
+font-weight:bold;
+color:#fff;
+}
+
+#msgFriendsList
+{
+	float:left;
+	width:200px;
+	height:300px;
+	margin: 20px 0 0 20px;
+	background: #3F4A59;
+	border: #FFF 1px solid;
+	overflow:auto;
+}
+
+#msgFriendsList .msgFriendEntry
+{
+	padding: 15px 0 0 15px;
+}
+
+
+/* trackback page
+------------------------------------ */
+h2.title_trackback a {
+	color: #fff;
+	}
+.block_trackback {background-color:#768aa6;}
+.block_trackback dd.summary {color:#fff;}
+
+.codeDiv
+{
+	border: #FFF 1px dashed;
+	padding: 5px;
+	overflow:auto;
+	white-space: pre-wrap;white-space: -moz-pre-wrap;white-space: -pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;
+}
+
+/* Photo Reports thumb
+------------------------------------ */
+.photor_thumb_wrap table td img.thumba{
+}
+
+.photor_thumb_wrap table td img.thumbb{
+	border: 2px solid rgb(249, 105, 9);
+}
+
+.photor_thumb_wrap table td img.thumbhovera{
+	border: 2px solid #999999;
+}
+
+.photor_thumb_wrap table td img.thumbhoverb{
+	border: 3px solid rgb(249, 105, 9);
+}
+
+@import url(standard-2.css);

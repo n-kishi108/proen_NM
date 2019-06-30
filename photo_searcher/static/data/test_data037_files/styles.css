@@ -1,0 +1,398 @@
+body {
+	margin: 0px 0px 20px 0px;
+	border: 0;
+	padding: 0;
+		background-color: #FFFFFF;
+	
+		text-align: center;
+	
+	}
+
+a {
+	text-decoration: underline;
+	
+	font-weight: bold;
+	}
+
+a:link {
+	color: #ff6600;
+	}
+
+a:visited {
+	color: #ff9900;
+	}
+
+a:active {
+	color: #cc0000;
+	}
+
+a:hover {
+	color: #000000;
+	}
+
+a:link img {
+	border-color: #ff6600;
+	}
+a:visited img {
+	border-color: #ff9900;
+	}
+a:hover img {
+	border-color: #000000;
+	}
+a:active img {
+	border-color: #cc0000;
+	}
+
+h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+	}
+
+#container {
+	line-height: 140%;
+		margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	padding: 0px;
+	width: 800px;
+	
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	}
+
+#banner-img {
+	background: #ff6600 url("http://anhelo.cocolog-nifty.com/blog/burogutitle.jpg") no-repeat;
+	border-bottom: 1px solid #000000;
+	height: 233px;
+        padding: 0px;
+	}
+
+div.img-link a {
+	display: block;
+	height: 233px;
+	text-decoration: none;
+	}
+
+.banner-alt {
+	display: none;
+	}
+
+#banner {
+	display: none;
+	}
+
+
+
+
+#banner a {
+	color: #000000;
+	text-decoration: none;
+	}
+
+#banner h1 {
+	font-size: xx-large;
+	font-weight: bold;      
+	   
+	
+	}
+
+#banner h2 {
+	font-size: small;
+	}
+
+
+
+#left {
+		float: left;
+	
+	
+	width: 200px;
+	background-color: #FFFFFF;
+	border: 0;
+	overflow: hidden;
+	}
+
+textarea#comment-text {
+        width: 80%;
+        }
+
+
+#right {
+		float: right;
+	
+	
+	width: 200px;
+	background-color: #FFFFFF;
+	border: 0;
+	overflow: hidden;
+	}
+
+#center {
+		float: left;
+	width: 400px;
+	overflow: hidden;
+	
+	
+	}
+
+.content {
+	padding: 15px 15px 5px 15px;
+	background-color: #FFFFFF;
+	border: 0;
+	color: #000000;
+	font-family: 'MS PGothic', 'Hiragino Kaku Gothic Pro W3', Osaka, sans-serif;
+	font-size: small;
+	}
+
+.sidebar {
+	padding: 15px;
+	}
+
+.sidebar a {
+	
+	text-decoration: none;
+	font-weight: bold;
+	}
+
+.sidebar a:link {
+	color: #ff6600;
+	}
+
+.sidebar a:visited {
+	color: #ff9900;
+	}
+
+.sidebar a:active {
+	color: #cc0000;
+	}
+
+.sidebar a:hover {
+	color: #000000;
+	}
+
+
+.content p {
+	color: #000000;
+	font-family: 'MS PGothic', 'Hiragino Kaku Gothic Pro W3', Osaka, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	line-height: 150%;
+	text-align: left;
+	margin-bottom: 10px;
+	}
+
+.content blockquote {
+	line-height: 150%;
+	}
+
+.content li {
+	line-height: 150%;
+	}
+
+.content h2 {
+	color: #999999;
+	font-family: 'MS PGothic', 'Hiragino Kaku Gothic Pro W3', Osaka, sans-serif;
+	font-size: x-small;
+	border-left: 1px solid #ff9900;
+	text-align: left;
+	font-weight: bold;
+	
+	
+	margin-bottom: 10px;
+	padding: 3px;
+	}
+
+.content h3 {
+	color: #000000;
+	font-family: 'MS PGothic', 'Hiragino Kaku Gothic Pro W3', Osaka, sans-serif;
+	font-size: large;
+	border-left: 1px solid #ff6600;
+	text-align: left;
+	font-weight: bold;
+	
+	
+	margin-bottom: 10px;
+	padding: 3px;
+	}
+
+.content p.posted {
+	clear: both;
+	color: #000000;
+	font-family: 'MS PGothic', 'Hiragino Kaku Gothic Pro W3', Osaka, sans-serif;
+	font-size: x-small;
+	border: 0;
+	text-align: right;
+	
+	font-style: italic;
+	
+	margin-bottom: 25px;
+	line-height: normal;
+	
+	}
+
+#calendar {
+  	line-height: 140%;
+	color: #000000;
+	font-family: 'MS PGothic', 'Hiragino Kaku Gothic Pro W3', Osaka, sans-serif;
+	font-size: x-small;
+	
+	
+	
+  	padding: 2px;
+	text-align: center;
+	margin-bottom: 30px;
+	}
+
+#calendar table {
+	padding: 2px;
+	border-collapse: collapse;
+	border: 0px;
+	width: 100%;
+	}
+
+#calendar caption {
+	color: #000000;
+	font-family: 'MS PGothic', 'Hiragino Kaku Gothic Pro W3', Osaka, sans-serif;
+	font-size: x-small;
+	border: 1px solid #000000;
+	text-align: left;
+	font-weight: bold;
+	
+	
+	padding: 3px;
+	letter-spacing: .3em;
+	}
+
+#calendar th {
+	text-align: center;
+	font-weight: normal;
+	}
+
+#calendar td {
+	text-align: center;
+	}
+
+.sidebar h2 {
+	color: #000000;
+	font-family: 'MS PGothic', 'Hiragino Kaku Gothic Pro W3', Osaka, sans-serif;
+	font-size: x-small;
+	border: 1px solid #000000;
+	text-align: left;
+	font-weight: bold;
+	
+	
+	padding: 3px;
+	letter-spacing: .3em;
+	}
+
+.sidebar ul {
+	padding-left: 0px;
+	margin: 0px;
+	margin-bottom: 30px;
+	}
+
+.sidebar li {
+	color: #000000;
+	font-family: 'MS PGothic', 'Hiragino Kaku Gothic Pro W3', Osaka, sans-serif;
+	font-size: x-small;
+	text-align: left;
+	line-height: 150%;
+	
+	
+	
+	margin-top: 10px;
+	list-style-type: none;
+	}
+
+.sidebar img {
+	border: 1px solid #000000;
+	}
+
+#photo {
+	text-align: center;
+	margin-bottom: 20px;
+	}
+
+.link-note {
+	font-family: 'MS PGothic', 'Hiragino Kaku Gothic Pro W3', Osaka, sans-serif;
+	font-size: x-small;
+	line-height: 150%;
+	text-align: left;
+	padding: 2px;
+	margin-bottom: 15px;
+	}
+
+#powered {
+	font-family: 'MS PGothic', 'Hiragino Kaku Gothic Pro W3', Osaka, sans-serif;
+	font-size: x-small;
+	line-height: 150%;
+	text-align: left;
+	color: #000000;
+	margin-top: 50px;
+	}
+
+#comment-data {
+	float: left;
+	width: 180px;
+	padding-right: 15px;
+	margin-right: 15px;
+	text-align: left;
+	border-right: 1px dotted #BBB;
+	}
+
+textarea[id="comment-text"] {
+	width: 80%;
+	}
+
+.image-full {
+		width: 370px;
+	
+	
+	}
+
+.image-thumbnail {
+	float: left;
+	width: 130px;
+	margin-bottom: 10px;
+	}
+
+.image-thumbnail img {
+	width: 115px;
+	height: 115px;
+	}
+
+.module-qrcode {
+	font-family: 'MS PGothic', 'Hiragino Kaku Gothic Pro W3', Osaka, sans-serif;
+	font-size: x-small;
+	line-height: 150%;
+	text-align: center;
+}
+
+.content h3 a {
+	text-decoration: none;
+}
+
+.content h3 a:link {
+	color: #000000;
+}
+
+.content h3 a:visited {
+	color: #000000;
+}
+
+.content h3 a:hover {
+	color: #000000;
+}
+
+.content h3 a:active {
+	color: #000000;
+}
+
+/* user css */
+
+
+.adsense { clear:both; } 
+
+
+

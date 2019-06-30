@@ -1,0 +1,704 @@
+/*-----------------------------------------------------------------------------
+[HORIZON] Screen Stylesheet
+version: 1.0
+date: 08/2/17
+author: [Fami]
+email: [fami@mogstyle.net]
+website: [http://mogstyle.net/]
+version history: [1.0：とりあえずテスト]
+-----------------------------------------------------------------------------*/ 
+/*==================== html-body ===================*/
+body	{
+	margin:0;
+	padding:0;
+	color: #444;
+	font:76% 'メイリオ',Meiryo,'ＭＳゴシック',Verdana, Arial, sans-serif;
+	text-align:center;
+	background:#5e5f62 url("http://horizon1982.com/images/body_back.png") center top repeat-y !important;
+	background:#5e5f62 url("http://horizon1982.com/images/body_back.jpg") center top repeat-y;
+	}
+*+html>/**/body	{
+	font-size:120%;
+}
+a:link , a:visited	{
+	color:#4848a0;
+	}
+a:hover , a:active{
+	color:#EF2A9B;
+	}
+* 
+ {
+ margin: 0;
+ padding: 0;
+ border: 0;
+}
+.clearfix:after	{
+	content:".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.clearfix { display: inline-block; }
+/* exlude MacIE5 \*/
+* html .clearfix { height: 1% }
+.clearfix {display:block;}
+/* end MacIE5 */
+.clear	{
+	clear:both;
+}
+/*==================== frameset =====================*/
+#wrapper	{
+	text-align:left;
+	margin:0 auto;
+	width:930px !important;
+	width:990px;
+	padding:0 30px;
+	position:relative;
+	z-index:1;
+	background:#ebe6e3 url("http://horizon1982.com/images/back_body2.jpg") top center repeat-x;
+	border-left:solid 1px #444;
+	border-right:solid 1px #444;
+}
+#home #wrapper	{
+	background:#ebe6e3 url("http://horizon1982.com/images/back_body.jpg") top center repeat-x;
+}
+#header	{
+	width:930px;
+	height:140px !important;
+	height:160px;
+	padding:0 0 20px !important;
+	padding:0;
+}
+#container	{
+	background:url("http://horizon1982.com/images/back_main_right.png") right top repeat-y !important;
+	background:url("http://horizon1982.com/images/back_main_right.gif") right top repeat-y;
+	position:relative;
+	z-index:2;
+}
+#member #container	{
+	background:none !important;
+	padding:0 0 20px 0;
+}
+/*==================== hearder =====================*/
+#logo a	{
+	text-indent:-9999px;
+	overflow:hidden;
+	width:204px;
+	height:90px;
+	margin:39px 0 0;
+	float:left;
+	background:url("http://horizon1982.com/images/logo.jpg") left top no-repeat;
+}
+ul#top_navi	{
+	float:right;
+	margin:0;
+	padding:0;
+}
+#top_navi li	{
+	float:left;
+	text-align:center;
+	width:110px;
+	list-style:none;
+}
+#top_navi li a	{
+	display:block;
+	padding:75px 0 0;
+	height:85px !important;
+	height:160px;
+	margin:0;
+	color:#aaa;
+	text-decoration:none;
+	font-size:10px;
+	line-height:16px;
+	background:url("http://horizon1982.com/images/back_toplist.jpg") right bottom no-repeat;
+}
+#top_navi li.li_last a	{
+	background:none;
+}
+#top_navi li a strong	{
+	font-family:"Arial";
+	font-size:15px;
+	display:block;
+	color:#f9f9f9;
+}
+#top_navi li a strong span	{
+	color:#ff4ca0;
+}
+#top_navi li a:hover , #top_navi li a:active	{
+	color:#f9f9f9;
+}
+#info_wrap	{
+	position:relative;
+	height:160px;
+}
+#home #info_wrap	{
+	position:relative;
+	height:300px;
+}
+#top_info	{
+	width:930px;
+	height:160px;
+	background:url("http://horizon1982.com/images/mesh2.png") right top no-repeat !important;
+	background:url("http://horizon1982.com/images/mesh2.gif") 378px top no-repeat;
+	float:left;
+	z-index:2;
+	position:absolute;
+	left:0;
+	top:0;
+}
+#home #top_info	{
+	height:300px;
+	background:url("http://horizon1982.com/images/mesh.png") right top no-repeat !important;
+	background:url("http://horizon1982.com/images/mesh.gif") 378px top no-repeat;
+}
+#home #top_info h2	{
+	width:350px;
+	height:56px;
+	background:url("http://horizon1982.com/images/topinfo_text.png") left top no-repeat !important;
+	background:url("http://horizon1982.com/images/topinfo_text.gif") left top no-repeat;
+	text-indent:-9999px;
+	margin:45px 0 20px;
+}
+#top_info h2	{
+	width:350px;
+	height:160px;
+	text-indent:-9999px;
+	margin:0;
+}
+#about #top_info h2	{
+	background:url("http://horizon1982.com/images/h2_about.gif") left top no-repeat;
+}
+#activity #top_info h2	{
+	background:url("http://horizon1982.com/images/h2_activity.gif") left top no-repeat;
+}
+#member #top_info h2	{
+	background:url("http://horizon1982.com/images/h2_member.gif") left top no-repeat;
+}
+#blog #top_info h2	{
+	background:url("http://horizon1982.com/images/h2_blog.gif") left top no-repeat;
+}
+#home #top_info p	{
+	width:350px;
+	line-height:24px;
+}
+#topimg_wrap	{
+	position:absolute;
+	right:0;
+	top:0;
+	z-index:1;
+	width:550px;
+	height:160px;
+	overflow:hidden;
+}
+#home #topimg_wrap	{
+	width:550px;
+	height:300px;
+}
+.topimage	{
+	border:0;
+}
+ul#info_button	{
+	padding:0;
+	width:350px;
+	margin:15px 0 0;
+	text-align:center;
+	font-size:90%;
+	}
+#info_button li{
+	float:right;
+	padding:10px 0 0;
+	margin:0 0 0 10px;
+	display:block;
+	list-style:none;
+	background:url("http://horizon1982.com/images/button1.gif");
+	width:142px;
+	height:22px !important;
+	height:32px;
+}
+#info_button li a{
+	color:#5d5d50;
+}
+#info_button li a:hover,#info_button li a:active{
+	color:#000;
+}
+/*==================== main_right =====================*/
+#main_right	{
+	width:490px !important;
+	width:550px;
+	float:right;
+	padding:40px 30px 0 30px;
+	line-height:1.8em;
+}
+#main_wrap	{
+	padding:30px 0;
+}
+#main_right h2,#main_left h2	{
+	width:490px;
+	color:#524940;
+	font-family:Arial;
+	font-weight:normal;
+	font-size:18px;
+	border-bottom:solid 2px #89837d;
+	margin:0 0 2px;
+	text-transform: uppercase;
+	background:url("http://horizon1982.com/images/icon01.png") 475px 8px no-repeat !important;
+	background:url("http://horizon1982.com/images/icon01.gif") 475px 8px no-repeat;
+}
+#main_right h2 a	{
+	font-size:70%;
+	color:#524940;
+	padding:0 0 0 23px;
+	display:block;
+	font-weight:bold;
+	text-decoration:none;
+	background:url("http://horizon1982.com/images/icon_check_l.png") left 2px no-repeat;
+}
+#main_right h2 a:hover	{
+	color:#EF2A9B;
+}
+#main_left h2	{
+	width:350px;
+	background:url("http://horizon1982.com/images/icon01.png") 335px 8px no-repeat !important;
+	background:url("http://horizon1982.com/images/icon01.gif") 335px 8px no-repeat;
+}
+#main_right h2:first-letter , #main_left h2:first-letter	{
+	color:#d32577;
+	font-size:20px;
+	font-weight:bold;
+}
+#main_right p.posted_date , #main_left p.posted_date	{
+	text-align:right;
+	color:#666;
+	font-size:80%;
+	margin:0 0 8px;
+}
+.article	{
+	margin:0 0 40px 0;
+	
+}
+p	{
+	line-height:1.8em;
+}
+#main_right p	{
+	margin:0 0 1.8em 0;
+}
+h3	{
+	font-size:105%;
+	margin:8px 0 5px;
+}
+.h3_date	{
+	font-weight:normal;
+	font-size:10px;
+}
+h4	{
+	font-size:100%;
+	font-weight:normal;
+	text-decoration:underline;
+}
+dl.recent	{
+	width:472px !important;
+	width:488px;
+	border:solid 1px #ccc;
+	background:#f7f4f1;
+	padding:8px;
+	margin:0 0 10px 0;
+}
+dl.recent dt	{
+	float:left;
+	margin:0 8px 0 0;
+	padding:4px;
+	background:#fefbf7;
+	overflow: hidden;
+	width: 71px !important;
+	width: 81px;
+	height:71px !important;
+	height: 81px;
+	border:solid 1px #ccc;
+}
+dl.recent dd	{
+	float:right;
+	width:383px;
+	line-height:1.4em;
+}
+dl.recent dd h3	{
+	margin:5px 0 5px 0;
+}
+#main_right dl.recent dd p , dl.memory dd p	{
+	line-height:1.4em;
+	margin:3px 0 3px 0;
+}
+#main_right dl.recent dd p.recent_posted ,dl.memory dd p.recent_posted	{
+	line-height:1.4em;
+	font-size:80%;
+	color:#666;
+	text-align:right;
+}
+#main_right dl.recent dd p.recent_posted a , dl.memory dd p.recent_posted a	{
+	color:#666;
+}
+#main_right dl.recent dd p.recent_posted a:hover , dl.memory dd p.recent_posted a:hover	{
+	color:#000;
+}
+dl.memory	{
+	width:334px !important;
+	width:350px;
+	border:solid 1px #ccc;
+	background:#f7f4f1;
+	padding:8px;
+	margin:0 0 10px 0;
+}
+dl.memory dt	{
+	float:left;
+	margin:0 8px 0 0;
+	padding:4px;
+	background:#fefbf7;
+	overflow: hidden;
+	width: 71px !important;
+	width: 81px;
+	height:71px !important;
+	height: 81px;
+	border:solid 1px #ccc;
+}
+dl.memory dd	{
+	float:right;
+	width:253px;
+	line-height:1.4em;
+}
+#main_left dl.memory dd p	{
+	width:247px;
+}
+dl.memory dd h3	{
+	margin:0;
+	font-size:100%;
+}
+
+.member_box	{
+	width:274px !important;
+	width:290px;
+	height:178px;
+	overflow:hidden;
+	margin:9px;
+	padding:8px;
+	float:left;
+	border:solid 1px #666;
+	background:#f7f4f1;
+	line-height:1.8em;
+}
+.member_box h3	{
+	width:180px;
+	margin:0 0 0 10px;
+	float:right;
+	border-bottom:solid 1px #888;
+	background:url("http://horizon1982.com/images/icon01.png") 170px 7px no-repeat !important;
+	background:url("http://horizon1982.com/images/icon01.gif") 170px 7px no-repeat;
+}
+.member_img	{
+	float:left;
+	padding:5px;
+	border:solid 1px #aaa;
+}
+.member_inbox	{
+	margin:0 0 5px 0;
+	padding:0 0 5px 0;
+	border-bottom:solid 1px #888;
+	line-height:1.6em;
+}
+dl.dl_member	{
+	width:180px;
+	margin:5px 0 0 10px;
+	float:right;
+}
+dl.dl_member dt	{
+	width:65px;
+	float:left;
+	padding:0 0 0 15px;
+	background:url("http://horizon1982.com/images/icon_check.png") left 2px no-repeat;
+	overflow:hidden;
+}
+dl.dl_member dd	{
+	width:100px;
+	float:right;
+	overflow:hidden;
+}
+.comment_wrap	{
+	background:#f7f4f1;
+	padding:10px;
+	margin:0 0 15px 0;
+	border-top:solid 1px #ddd;
+	border-left:solid 1px #ddd;
+	border-right:solid 1px #ccc;
+	border-bottom:solid 1px #ccc;
+}
+.comment_img	{
+	float:left;
+	padding:0;
+	margin:0 4px;
+	border:solid 1px #aaa;
+}
+.comment_meta	{
+	padding:3px 0;
+	border-top:solid 1px #ccc;
+	border-bottom:solid 1px #ddd;
+	background:#fff;
+	font-size:80%;
+}
+.comment_meta strong	{
+	font-size:110%;
+}
+.repliy_margin	{
+	margin:0 0 0 30px;
+}
+.comment_content	{
+	margin:10px 0 10px 10px;
+}
+.reply_link	{
+	font-size:80%;
+	text-align:right;
+}
+.comments-open-content	{
+	background:#f7f4f1;
+	padding:20px;
+	margin:0 0 40px 0;
+	border-top:solid 1px #ddd;
+	border-left:solid 1px #ddd;
+	border-right:solid 1px #ccc;
+	border-bottom:solid 1px #ccc;
+}
+#comment-form-name , #comment-form-email , #comment-form-url	{
+	float:left;
+	width:230px;
+}
+#comment-form-remember-me	{
+	float:right;
+	width:200px;
+}
+.comments-open-content label	{
+	display:block;
+}
+#comments-open-footer	{
+	margin:10px 0 0 0;
+}
+.author_box	{
+	width:328px !important;
+	width:348px;
+	margin:0 0 40px 0;
+	padding:10px;
+	border-top:solid 1px #ddd;
+	border-left:solid 1px #ddd;
+	border-right:solid 1px #ccc;
+	border-bottom:solid 1px #ccc;
+	background:#f7f4f1;
+	line-height:1.8em;
+}
+.author_box h3	{
+	width:235px;
+	margin:0 0 0 10px;
+	float:right;
+	border-bottom:solid 1px #888;
+	background:url("http://horizon1982.com/images/icon01.png") 220px 7px no-repeat !important;
+	background:url("http://horizon1982.com/images/icon01.gif") 220px 7px no-repeat;
+}
+#main_left .author_box p	{
+	width:328px;
+}
+.author_img	{
+	float:left;
+	padding:5px;
+	border:solid 1px #aaa;
+}
+.author_inbox	{
+	margin:0 0 5px 0;
+	padding:0 0 5px 0;
+	border-bottom:solid 1px #888;
+	line-height:1.6em;
+}
+dl.dl_author	{
+	width:235px;
+	margin:5px 0 0 10px;
+	float:right;
+}
+dl.dl_author dt	{
+	width:80px;
+	float:left;
+	padding:0 0 0 15px;
+	background:url("http://horizon1982.com/images/icon_check.png") left 2px no-repeat;
+	overflow:hidden;
+}
+dl.dl_author dd	{
+	width:140px;
+	float:right;
+	overflow:hidden;
+}
+/*==================== main_left =====================*/
+#main_left	{
+	width:358px;
+	float:left;
+	padding:40px 0 0 0;
+	line-height:1.8em;
+}
+#main_left p	{
+	width:350px;
+}
+dl.dl_catelist , dl.dl_recent_blog	{
+	line-height:2em;
+	margin:0 0 40px 0;
+	width:350px;
+}
+dl.dl_catelist dt	{
+	width:140px;
+	float:left;
+	padding:0 0 0 18px;
+	background:url("http://horizon1982.com/images/icon_check.png") left 7px no-repeat;
+}
+dl.dl_catelist dd	{
+	width:192px;
+	float:right;
+	font-size:80%;
+	color:#666;
+}
+dl.dl_recent_blog dt	{
+	padding:0 0 0 18px;
+	background:url("http://horizon1982.com/images/icon_check.png") left 5px no-repeat;
+}
+dl.dl_recent_blog dd	{
+	padding:0 0 0 18px;
+	font-size:80%;
+}
+dl.dl_recent_comment dt	{
+	padding:0 0 0 18px;
+	background:url("http://horizon1982.com/images/icon_check.png") left 5px no-repeat;
+}
+dl.dl_recent_comment dd	{
+	margin:0 0 0 18px;
+	padding:0 0 0 18px;
+	font-size:80%;
+	background:url("http://horizon1982.com/images/icon_comment.png") left 5px no-repeat;
+}
+dl.dl_recent_comment dd a	{
+	font-size:120%;
+}
+/*==================== footer =====================*/
+#footer	{
+	height:36px !important;
+	height:60px;
+	width:930px !important;
+	width:992px;
+	padding:24px 30px 0 30px;
+	text-align:center;
+	background:url("http://horizon1982.com/images/footer_back.png") left top repeat-x;
+	color:#eee;
+	border-left:solid 1px #444;
+	border-right:solid 1px #444;
+	text-align:left;
+	margin:0 auto;
+	position:relative;
+	z-index:1;
+}
+#footer ul{
+	padding:0;
+	margin:0;
+	text-align:center;
+	font-size:90%;
+	}
+#footer li{
+	float:left;
+	padding:0;
+	margin:0 5px 0;
+	display:inline;
+	list-style:none;
+	}
+.foot	{
+	float:right;
+	margin:0;
+	padding:0;
+	text-indent:0;
+	line-height:15px;
+	}
+ul.widget-list {
+	overflow:hidden;
+	margin:5px 0 30px 0;
+}
+li.item {
+	float: left;
+	margin: 0 7px 7px 0;
+	padding:4px;
+	background:#edebea;
+	overflow: hidden;
+	width: 72px !important;
+	width: 82px;
+	height:72px !important;
+	height: 82px;
+	border:solid 1px #aaa;
+}
+a .asset-img-thumb	{
+	border:solid 1px #edebea;
+	width:70px;
+	height:70px;
+	display:block;
+	cursor: url("http://horizon1982.com/js/highslide/graphics/zoomin.cur"), pointer;
+}
+a:hover .asset-img-thumb	{
+	border:solid 1px #000;
+}
+/*================ highslide ==============*/
+.highslide {
+ 
+ outline: none;
+}
+.highslide img {
+ border: 2px solid gray;
+}
+.highslide:hover img {
+ border: 2px solid white;
+}
+.highslide-image {
+ border: 2px solid white;
+}
+.highslide-image-blur {
+}
+.highslide-caption {
+ display: none;
+ border: 2px solid white;
+ border-top: none;
+ font-family: Verdana, Helvetica;
+ font-size: 10pt;
+ padding: 5px;
+ background-color:#fff;
+}
+.highslide-display-block {
+ display: block;
+}
+.highslide-display-none {
+ display: none;
+}
+.highslide-loading {
+ display: block;
+ color: white;
+ font-size: 9px;
+ font-weight: bold;
+ text-transform: uppercase;
+ text-decoration: none;
+ padding: 3px;
+ border-top: 1px solid white;
+ border-bottom: 1px solid white;
+ background-color: black;
+ /*
+ padding-left: 22px;
+ background-image: url(highslide/graphics/loader.gif);
+ background-repeat: no-repeat;
+ background-position: 3px 1px;
+ */
+}
+a.highslide-credits,
+a.highslide-credits i {
+ padding: 2px;
+ color: silver;
+ text-decoration: none;
+ font-size: 10px;
+}
+a.highslide-credits:hover,
+a.highslide-credits:hover i {
+ color: white;
+ background-color: gray;
+}

@@ -1,0 +1,983 @@
+/* CSS Document */
+@charset "EUC-JP";
+
+
+/*
+------------ 基 本 設 定 ------------
+*/
+
+/* ---- 全体構造 ----*/
+
+body {
+ font-size: 12px;
+ font-style: normal;
+ line-height: 130%;
+ font-weight: normal;
+ color: #eeeeee;
+ background-color: #000000;
+ margin: 0px;
+ padding: 0px;
+}
+
+#wrapper {
+ width: 835px;
+ background-image: url(images/cmn/side3.jpg);
+ background-repeat: repeat-y;
+ background-position: top right;
+}
+
+#container {
+ width: 801px;
+ float: left;
+}
+
+#sideline {
+ width: 34px;
+ float: right;
+}
+
+#header {
+ width: 801px;
+}
+
+#navigation {
+ width: 801px;
+}
+
+#content {
+ width: 801px;
+}
+
+#main {
+ width: 594px;
+ float: right;
+}
+
+#side {
+ width: 207px;
+ float: left;
+}
+
+#footer {
+ width: 801px;
+ clear: both;
+}
+
+
+/* ---- 基本リンク設定 ----*/
+a:link {
+ color: #eeeeee;
+ text-decoration: none;
+ }
+a:vlink {
+ color: #eeeeee;
+ text-decoration: none;
+ }
+a:visited {
+ color: #eeeeee;
+ text-decoration: none;
+ }
+a:hover {
+ color: #CC5E17;
+ text-decoration: underline;
+ }
+
+/* ---- 共通設定 ----*/
+
+/* Macでの文字化け対策 */
+textarea,select,input {
+ font-family: "ヒラギノ角ゴ Pro W3","Hiragino KakuGothicPro","Osaka","Verdana","Helvetica","Arial","ＭＳ Ｐゴシック","sans-serif";
+}
+
+table {
+ margin: 0px;
+ padding: 0px;
+}
+
+th,td {
+ font-size:12px;
+}
+
+
+
+/*
+------------ 詳 細 設 定 ------------
+*/
+
+
+
+
+/* ---- NAVIGATION ---- */
+
+.navi {
+ width: 801px;
+}
+
+
+
+/* ---- CONTENT ----*/
+
+#content {
+ background-image: url(images/cmn/back.jpg);
+ background-repeat: no-repeat;
+ background-position: top right;
+}
+
+/* トップページ限定 */
+
+.main_top {
+ width: 387px;
+ float: left;
+}
+
+.main_side {
+ width: 207px;
+ float: right;
+}
+
+.main_headline {
+ width: 379px;
+ background-image: url(images/top/main_headline_bg.jpg);
+ background-repeat: no-repeat;
+}
+
+.main_headline ul {
+ width: 345px;
+ padding: 20px 0 5px 0;
+ margin: 0 0 0 20px;
+}
+
+.main_headline li {
+ padding-left: 15px;
+ margin: 0 0 5px 0;
+ background-image: url(images/top/p_main.gif);
+ background-repeat: no-repeat;
+}
+
+.main_rocblog {
+ width: 379px;
+ background-image: url(images/top/main_cnt_bg.jpg);
+ background-repeat: repeat-y;
+}
+
+.main_rocblog_list {
+ width: 379px;
+ text-align: center;
+ padding: 5px 0;
+}
+
+.main_rocblog_list img {
+ margin: 5px 3px 0;
+}
+
+/* その他ページ */
+.sub_menu {
+ width: 202px;
+ margin: 10px 0 10px 3px;
+}
+
+.sub_menu ul {
+ width: 202px;
+ margin: 5px 0;
+ padding: 0;
+}
+
+.sub_menu li {
+ width: 185px;
+ margin: 5px 0 0 17px;
+ padding: 0;
+}
+
+.side_cnt {
+ width: 207px;
+ background-image: url(images/cmn/side/side_cnt_bg.jpg);
+ background-repeat: repeat-y;
+ margin: 10px 0 15px;
+ text-align: center;
+}
+
+.side_body {
+ width: 185px;
+ margin: 7px auto 0;
+ text-align: center;
+}
+
+.side_cnt_nextg {
+ width: 207px;
+ background-image: url(images/cmn/side/side_nextg_bg.jpg);
+ background-repeat: repeat-y;
+ margin: 10px 0 15px;
+ text-align: center;
+ color: #000000;
+}
+
+.main_cnt {
+ width: 590px;
+ margin: 10px 0 0 4px;
+}
+
+.main_flame {
+ width: 582px;
+ background-image: url(images/cmn/mflame_bg.gif);
+ background-repeat: repeat-y;
+ text-align: center; 
+}
+
+.main_flame_body {
+ width: 540px;
+ margin: 0 auto;
+ text-align: left;
+ }
+
+
+/* ROCBLOG */
+
+.main_blog {
+ width: 586px;
+ margin: 0 0 0 8px;
+}
+
+.blog {
+ width: 414px;
+ font-size: 12px;
+ line-height: 130%;
+ color: #eeeeee;
+ margin: 0 0 0 7px;
+ float: left;
+}
+
+.main_rss {
+ width: 576px;
+ text-align: right;
+ margin: 2px 0;
+}
+
+.blog_flm {
+ width: 414px;
+ border: 1px solid #555555;
+ margin: 0;
+ text-align: center;
+}
+
+.blog_ent {
+ width: 400px;
+ border-top: solid 1px #555555;
+ border-bottom: solid 1px #555555;
+ margin: 0 auto;
+ text-align: left;
+}
+
+.blog_tit {
+ width: 400px;
+ font-size: 20px;
+ text-align: left;
+}
+
+.blog_tit img {
+ vertical-align: middle;
+}
+
+.blog_date {
+ width: 400px;
+ text-align: right;
+ margin: 5px 0 0;
+}
+
+.blog_txt {
+ width: 390px;
+ margin: 10px;
+ line-height: 130%;
+ font-size: 12px;
+ text-align: left;
+}
+
+.blog_cat {
+ width: 185px;
+ margin: 5px 5px 3px;
+ line-height: 130%;
+ font-size: 12px;
+ text-align: left;
+ float: left;
+}
+
+.blog_ct {
+ width: 200px;
+ margin: 5px 5px 3px;
+ line-height: 130%;
+ font-size: 12px;
+ text-align: right;
+ float: right;
+}
+
+.blog_sub {
+ width: 155px;
+ float: right;
+ margin: 0;
+}
+
+.blog_sub ul img {
+ vertical-align: middle;
+}
+
+.blog_sub ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 1px 1px 1px 8px;
+ }
+ 
+ .blog_sub li {
+ list-style-type: none;
+ padding: 0;
+ margin: 0 0 4px 0;
+ }
+
+/* MEMBER */
+.memb_list {
+ width: 137px;
+ float: left;
+ margin:  5px 0 5px 6px;
+}
+
+.memb_list_body {
+ width: 137px;
+ background-image: url(/images/member/memb_listbg.gif);
+ background-repeat: repeat-y;
+ text-align: center;
+}
+
+.memb_fr {
+ border: 2px solid #cccccc;
+ background-color: #000000;
+ margin: 10px 0 0 40px;
+}
+
+.memb_tr {
+ background-color: #333333;
+}
+
+
+.memb_tbl th {
+ font-size: 12px;
+ line-height: 130%;
+ color: #eeeeee;
+ border-left: solid 1px #cccccc;
+ text-align: left;
+ padding: 6px 6px 6px 8px;
+}
+
+.memb_tbl td {
+ font-size: 12px;
+ line-height: 130%;
+ color: #eeeeee;
+ border-left: solid 1px #cccccc;
+ padding: 6px 6px 6px 8px;
+}
+
+
+.memb_name {
+ font-size:14px;
+ text-align: center;
+ padding: 5px 0 5px 0;
+}
+
+/* GAME */
+
+ul.game_list {
+ margin: 5px 0;
+ padding: 0;
+}
+
+.game_list li {
+ margin: 0 0 5px 15px;
+ padding: 0;
+}
+/* PHOTO */
+
+ul.p_list {
+ font-size: 12px;
+ line-height: 130%;
+ color: #eeeeee;
+ list-style-type: disc;
+ margin: 5px 0;
+ padding: 0
+}
+
+.p_list li {
+ margin: 0 0 5px 15px;
+ padding: 0
+ list-style-type: disc;
+}
+
+
+/* RECRUIT */
+
+.rec_img {
+ width: 520px;
+ margin: 0 auto;
+ text-align: center;
+}
+
+.rec_img img {
+ margin: 5px;
+}
+
+/* ---- SIDE CONTENTS ----*/
+
+.side_tbl {
+ border: 1px solid #eeeeee;
+ border-collapse: collapse;
+ margin: 5px auto 0;
+}
+
+.side_tbl td {
+ padding: 2px;
+ border: 1px solid #eeeeee;
+ border-collapse: collapse;
+ font-size: 12px;
+ height: 21px;
+}
+
+.side_tbl th {
+ padding: 2px;
+ border: 1px solid #eeeeee;
+ border-collapse: collapse;
+ font-size: 12px;
+ height: 0px;
+}
+
+.tr_bg1 {
+ background-color:#333333;
+}
+
+.tr_bg2 {
+ background-color:#666666;
+}
+
+
+
+/* ---- FOOTER ----*/
+
+#footer {
+ text-align: right;
+ margin: 10px 0 0;
+}
+
+.foot {
+ width: 801px;
+ border-top: 1px #ffffff solid;
+ padding: 10px 0;
+ margin: 3px 0 0;
+ text-align: center;
+}
+
+/* -------------------------------------------------------------------------- */
+
+
+
+/* ---- 設定 ----*/
+
+
+
+.style2 {
+	color: #eeeeee;
+	font-size: 12px;
+	line-height: 130%;
+}
+.style3 {
+	font-size: 12px;
+	line-height: 130%;
+	color: #000000;
+}
+
+.style4 {color: #FF9900}
+ 
+.std {
+	padding-top: 10px;
+	border: 1px solid #eeeeee;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+.std td {
+	padding: 2px;
+	border: 1px solid #eeeeee;
+	border-collapse: collapse;
+	font-size: 12px;
+	height: 23px;
+}
+
+.std th {
+	padding: 2px;
+	border: 1px solid #eeeeee;
+	border-collapse: collapse;
+	font-size: 12px;
+	height: 23px;
+}
+
+.tm_tbl {
+	border: 1px solid #eeeeee;
+	border-collapse: collapse;
+	margin: 0;
+	margin-top: 5px;
+}
+
+.tm_tbl td {
+	padding: 2px;
+	border: 1px solid #eeeeee;
+	border-collapse: collapse;
+	font-size: 12px;
+	height: 21px;
+}
+
+.tm_tbl th {
+	padding: 2px;
+	border: 1px solid #eeeeee;
+	border-collapse: collapse;
+	font-size: 12px;
+	height: 0px;
+}
+
+.hst_tbl td {
+	font-size: 12px;
+	height: 19px;
+	line-height: 150%;
+}
+
+
+.team_txt {
+	font-size: 12px;
+	line-height: 150%;
+	color: #eeeeee;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+.team_txt2 {
+	font-size: 12px;
+	line-height: 130%;
+	color: #eeeeee;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+
+.bottom_menu {
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #eeeeee;
+	border-bottom-width: 1px;
+}
+
+.navi_btm {
+	font-size: 12px;
+	border-bottom-style: solid;
+	border-bottom-color: #eeeeee;
+	border-bottom-width: 1px;
+}
+
+ul {
+ font-size: 12px;
+ text-align: left;
+ margin: 5px 0 5px 20px;
+ list-style-type: none;
+}
+
+
+th {
+ font-weight: normal;
+}
+
+
+.req {
+	color: #FF6600;
+	font-weight:normal;
+}
+
+.notice {
+	color: #FF6600;
+	padding: 3px 0 0 2px;
+}
+
+.form_tbl td {
+ padding: 3px;
+ font-size:12px;
+}
+
+.form_tbl th {
+ padding: 7px 4px 4px 4px;
+ font-size:12px;
+}
+
+
+.photo_tbl  img {
+ text-align: center;
+}
+
+.pos {
+ color: #FF9900;
+}
+
+  .rb_tbl {
+  	font-size: 12px;
+  	line-height: 130%;
+  	color: #eeeeee;
+  	border: 1px solid #555555;
+   background-color: #000000;
+  }
+
+ .rb_tit {
+ font-size: 20px
+ }
+
+
+.comme {
+ border-bottom: dashed 1px #555555;
+ margin-bottom: 5px;
+ line-height: 130%;
+ font-size: 12px;
+}
+
+.trurl {
+ border-bottom: solid 1px #555555;
+}
+
+.track {
+ border-bottom: dashed 1px #555555;
+ margin-bottom: 5px;
+ line-height: 130%;
+ font-size: 12px;
+}
+
+.back_ent {
+ text-align: center;
+ }
+.back_ent a:link {
+ color: #eeeeee;
+ text-decoration: none;
+ font-size: 14px;
+ }
+.back_ent a:vlink {
+ color: #eeeeee;
+ text-decoration: none;
+ font-size: 14px;
+ }
+.back_ent a:visited {
+ color: #eeeeee;
+ text-decoration: none;
+ font-size: 14px;
+ }
+.back_ent a:hover {
+ color: #CC5E17;
+ text-decoration: underline;
+ font-size: 14px;
+ }
+
+
+
+.ph_r {
+ float: right;
+ margin-left: 10px; 
+}
+
+.ph_l {
+ float: left;
+ margin-right: 10px; 
+}
+
+
+
+/* ---- トップページ ---- */
+/* 2006/06/14 */
+
+.top_main {
+ width: 386px;
+ background-image: url(images/top_mbak.gif);
+ background-repeat: repeat-y;
+ background-color: #000000;
+ text-align: center;
+}
+
+.main_new {
+ width: 320px;
+ text-align: center;
+ margin: 0 auto;
+}
+
+.main_new img {
+ border: 3px solid #000000;
+}
+
+.top_photo {
+ width: 350px;
+ text-align: center;
+ margin: 0 auto;
+}
+
+.top_ent {
+ width: 300px;
+ text-align: left;
+ margin: 0 auto;
+}
+
+.top_ent_tit {
+ font-weight: bold;
+}
+
+.top_main ul {
+ width: 340px;
+ text-align: left;
+ margin: 5px auto 0 auto;
+}
+
+.top_main li {
+ width: 290px;
+ background-image: url(/images/pt_hl.gif);
+ background-repeat: no-repeat;
+ padding: 4px 0 10px 30px;
+ margin: 0;
+}
+
+/* チアページ */
+.cheer_txt {
+	font-size: 12px;
+	line-height: 130%;
+	color: #eeeeee;
+	padding-top: 5px;
+	padding-right: 43px;
+	padding-bottom: 0px;
+	padding-left: 38px;
+	margin-bottom: 0;
+}
+
+.cheer_img {
+	margin-left: 45px;
+}
+
+.cheer_textbox {
+	width: 447px;
+	margin-left: 50px;
+	margin-top: 34px;
+}
+
+.cheer_txt2 {
+	font-size: 12px;
+	line-height: 130%;
+	color: #eeeeee;
+	padding-top: 5px;
+	padding-right: 48px;
+	padding-bottom: 0px;
+	padding-left: 55px;
+}
+
+.cheer_prof {
+	float: right;
+}
+
+.cheer_devils {
+	margin-left: 110px;
+	padding-bottom: 31px;
+}
+
+/* FANZONE */
+#content_fan {
+ background-image: url(images/cmn/back2.jpg);
+ background-repeat: no-repeat;
+ background-position: top right;
+}
+
+.fan_entry {
+ padding-top: 28px;
+ padding-left: 4px;
+}
+
+.fan_flame {
+ width: 582px;
+ background-image: url(images/fanzone/fanflame_bg1.gif);
+ background-repeat: repeat-y;
+ text-align: center;
+}
+
+.fan_flame_body {
+ width: 520px;
+ margin: 0 auto;
+ text-align: left;
+}
+
+.fan_date {
+ text-align: right;
+ padding-right: 10px;
+ padding-top: 6px;
+}
+
+.fan_title {
+ font-size: 18px;
+ font-weight: bold;
+ background-image: url(images/fanzone/logomark.jpg);
+ background-repeat: no-repeat;
+ background-position: 0;
+ padding: 15px 0 17px 74px;
+ margin-bottom: 10px;
+}
+
+.fan_entry_body {
+ width: 490px;
+ padding-top: 10px;
+ padding-left: 18px;
+}
+
+.fan_entry_body img {
+ padding-bottom: 12px;
+}
+
+.fan_tbl {
+ border-collapse: collapse;
+ width: 490px;
+ margin: 10px 0 18px 0;
+}
+
+.fan_tbl th {
+ border: 1px solid #999999;
+ padding: 7px 5px 7px 10px;
+}
+
+.fan_tbl td {
+ border: 1px solid #999999;
+ padding: 7px 5px 7px 10px;
+}
+
+.fan_td_clr1 {
+ background-color: #4c4c4c;
+}
+
+.fan_td_clr2 {
+ background-color: #333333;
+}
+
+.fan_flame_body img {
+ float: left;
+ margin-right: 11px;
+}
+
+.fan_text {
+ width: 294px;
+}
+
+.fan_comm {
+ text-align: right;
+ border-bottom: dashed 1px #555555;
+ background-image: url(images/fanzone/pt_comtra.gif);
+ background-repeat: no-repeat;
+ background-position: 0 1px;
+ padding-bottom: 10px;
+}
+
+.fan_comm p {
+ text-align: left;
+ padding: 0 0 2px 24px;
+}
+
+
+.fan_form {
+ margin: 14px 25px 14px 23px;
+}
+
+.fan_formtext {
+ width: 365px;
+}
+
+.fan_formcomm {
+ width: 465px;
+ height: 164px;
+}
+
+.fan_button {
+ text-align: right;
+ margin-right: 25px;
+}
+
+.fan_tra {
+ margin: 0 10px0;
+ border-bottom: dashed 1px #555555;
+ padding: 0 10px 8px 10px;
+}
+
+.fan_tra_text {
+ padding-top: 3px;
+ padding-bottom: 3px;
+}
+
+.fan_imgtit {
+ margin-left: 10px;
+}
+
+.fan_poll_text {
+ text-align: left;
+ font-weight: bold;
+ color: #ffffff;
+}
+
+.favorite_position {
+ text-align: left;
+ padding-left: 9px;
+ background-color: #000000;
+}
+
+.fan_poll_php {
+ text-align: right;
+ padding-right: 4px;
+ padding-bottom: 20px;
+}
+
+.fan_list li{
+ background-image: url(images/fanzone/pt_comtra.gif);
+ background-repeat: no-repeat;
+ background-position: 0 1px;
+ padding-left: 18px;
+}
+
+.fan_flame2 {
+ width: 582px;
+ background-image: url(images/fanzone/fanflame_bg2.gif);
+ background-repeat: repeat-y;
+ text-align: center; 
+}
+
+.fan_flame2_body {
+ width: 540px;
+ margin: 0 auto;
+ text-align: left;
+ }
+
+.submenu_fan_list {
+ text-align: right;
+}
+
+.fan_blog_ct {
+ width: 250px;
+ margin: 5px 10px 3px 0;
+ line-height: 130%;
+ font-size: 12px;
+ text-align: right;
+ float: right;
+}
+
+.goods_sale th {
+ text-align: left;
+ vertical-align: top
+}
+
+.goods_sale td {
+ vertical-align: top;
+ text-align: left;
+}
+
+/* コメント完了 */
+.completion_text {
+ padding-left: 99px;
+ padding-bottom: 38px;
+}
+

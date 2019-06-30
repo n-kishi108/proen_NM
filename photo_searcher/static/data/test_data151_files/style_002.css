@@ -1,0 +1,39 @@
+@charset "euc-jp";
+
+
+body{
+background-image:url("../../../images/folder/bg/150/top_bg.jpg");
+}
+
+#blogUtilityLinks{
+background-color:#fea100;
+}
+
+
+#globalHeader{
+background-color:#fea100;
+}
+
+#globalHeader,
+#globalHeader p a{
+color:#fff;
+}
+
+
+#bottomAdBannerArea{
+color:#000000;
+}
+
+#bottomAdBannerArea a{
+color:#73a4fe;
+}
+
+
+#footerArea{
+color:#000000;
+}
+
+#footerArea a{
+color:#73a4fe;
+}
+

@@ -1,0 +1,160 @@
+ul , li , dl , dt , dd , p , h3 {
+font-size: 16px;
+line-height: 22px;
+}
+
+/*======================================
+   LAYOUT_COMON
+======================================*/
+h1 {
+font-size: 28px;
+line-height: 34px;
+}
+
+#date {
+font-size: 18px;
+}
+
+#foot_text {
+font-size: 14px;
+line-height: 20px;
+}
+
+#nocopy {
+font-size: 14px;
+line-height: 20px;
+}
+
+/*======================================
+   LAYOUT_CONTENTS
+======================================*/
+#contents h2 {
+font-size: 16px;
+line-height: 22px;
+}
+
+#title h2 {
+font-size: 18px;
+line-height: 24px;
+}
+
+#interviewday {
+padding-top: 8px;
+}
+
+#time {
+line-height: 22px;
+font-size: 16px;
+}
+
+#time span {
+font-size: 16px;
+}
+
+
+
+/*-------- TEXT_BOX ---------*/
+#text_box dt {
+line-height: 18px;
+}
+
+#text_box dd {
+line-height: 26px;
+}
+
+.box_l ul , .box_r ul , .box_l p , .box_r p{
+line-height: 24px;
+}
+
+.box_l dl , .box_r dl {
+line-height: 24px;
+}
+
+.box_l dt , .box_r dt {
+line-height: 24px;
+}
+
+
+.box_l dd , .box_r dd {
+line-height: 20px;
+}
+
+#contents2 h2 {
+font-size: 18px;
+line-height: 24px;
+}
+
+#contents2 h2 span {
+font-size: 20px;
+}
+
+#title ul {
+font-size: 20px;
+line-height: 26px;
+}
+
+#title li {
+font-size: 16px;
+line-height: 18px;
+}
+
+#title li span {
+font-size: 18px;
+line-height: 20px;
+}
+
+.box2_l ul , .box2_l p , .box2_r ul , .box2_r p{
+line-height: 24px;
+}
+
+.box2_l dl , .box2_r dl{
+line-height: 24px;
+}
+
+.box2_l dt , .box2_r dt {
+line-height: 24px;
+}
+
+.box2_l dd , .box2_r dd {
+line-height: 20px;
+}
+
+
+/*---------- CAST ---------*/
+.box_l ul , .box_r ul , .box_l p , .box_r p{
+line-height: 24px;
+}
+
+.box_l dl , .box_r dl {
+line-height: 24px;
+}
+
+.box_l dt , .box_r dt {
+line-height: 24px;
+}
+
+
+.box_l dd , .box_r dd {
+line-height: 20px;
+}
+
+
+
+/*============ PHOTO_SET =============*/
+.photo_175r , .photo_250r , .photo_212r , .photo_300r , .photo_400r , .photo_175l , .photo_250l , .photo_212l , .photo_300l , .photo_400l , .photo_175s2 , .photo_175s3 , .photo_175s4 , .photo_250s2 , .photo_250s3 , .photo_212s2 , .photo_212s3 , .photo_300s2 {
+font-size: 12px;
+line-height: 16px;
+}
+
+
+/*============ FONT_SET =============*/
+.sfont {font-size:14px; line-height:18px; color:#333333; font-style: none;}
+.mfont {font-size:16px; line-height:22px; color:#333333; font-style: none;}
+.mfont_b {font-size:16px; line-height:22px; color:#333333; font-weight:bold;}
+.mfont_l {font-size:16px; line-height:22px; color:#333333; font-weight:bold;}
+.mfont_ll {font-size:20px; line-height:26px; color:#333333; font-weight:bold;}
+.mfont_lll {font-size:22px; line-height:28px; color:#333333; font-weight:bold;}
+.lfont {font-size:26px;	line-height:32px; color:#333333; font-weight:bold;}
+
+.right {text-align: right;display:block;}
+.left {text-align: left;display:block;}

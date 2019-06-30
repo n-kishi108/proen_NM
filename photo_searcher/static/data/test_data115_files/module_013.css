@@ -1,0 +1,24 @@
+﻿@charset "utf-8";
+
+.BrowserLMenu_torinet_default3
+/* モジュール全体 */
+{
+  color: black;
+  font-size: 110%;
+  text-align: left;
+  margin: 0px;
+}
+
+.BrowserLMenu_torinet_default3 .waku
+{
+margin:0px;
+padding:5px;
+background-image:url("ac21.gif");
+  line-height:130%;
+}
+
+.BrowserLMenu_torinet_default3 .waku a
+{
+background-color:#eeeeee;
+padding :1px 2px 1px 2px;
+}

@@ -1,0 +1,133 @@
+@charset "euc-jp";
+
+#modules .userBadgeModule {
+z-index:5;
+position:relative;
+}
+
+#yahooIdentityUserCard {
+	width:148px;
+	font-size:100%;
+	background: transparent;
+	margin:0;
+}
+
+#yahooIdentityUserCard a{
+text-decoration:underline;
+}
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer .yahooIdentityUserCardActionButtonMain a{
+text-decoration:none;
+_position:relative;
+_top:4px;
+}
+
+*:first-child+html #yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer .yahooIdentityUserCardActionButtonMain a{
+position:relative;
+top:4px;
+}
+
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer #yahooIdentityUserCardActionButtonMenus .menu span {
+_position:relative;
+_top:4px;
+}
+
+
+
+#yahooIdentityUserCard .yahooIdentityUserCardContents {
+	font-size:75.4%;
+	color:inherit;
+	line-height:1.56em;
+	padding:0 2px;
+	background:transparent;
+	text-align:left;
+}
+
+#modules .module h2.identityModule {
+font-size:130%;
+padding:0;
+margin:0;
+font-weight:normal;
+}
+
+#modules .module h2.identityModule span {
+background:none;
+}
+
+#yahooIdentityUserCard #yahooIdentityUserCardActionButtonContainer,
+#yahooIdentityUserCard #yahooIdentityUserCardEditImageButtonContainer {
+margin:0pt 0pt 4px 8px;
+}
+
+#yahooIdentityUserCard .yahooIdentityUserCardProfInfoMoreInfo img {
+vertical-align:baseline;
+}
+
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardProfInfoWrap {
+margin:0 8px 3px;
+}
+
+/* --------serviceOriginal------- */
+
+#popularityInfoArea #popularityInfo{
+margin:0;
+padding:5px 0 0;
+background-position:1px 0;
+background-repeat:repeat-x;
+}
+
+#popularityInfoArea #popularityInfo dl{
+float:left;
+width:107px;
+margin:0;
+padding:0;
+}
+
+#popularityInfoArea #popularityInfo dl dt,
+#popularityInfoArea #popularityInfo dl dd{
+display:inline;
+margin:0;
+padding:0;
+font-size:83.7%;
+line-height:1;
+}
+
+#popularityInfoArea #popularityInfo dl dt{
+margin-right:3px;
+padding-top:5px;
+
+}
+
+#popularityInfoArea #popularityInfo dl dd img{
+margin-right:1px;
+}
+
+#popularityInfoArea #popularityInfo p{
+float:right;
+width:16px;
+margin:0;
+padding:0;
+background:none;
+text-align:right;
+}
+
+/* --------/serviceOriginal------- */
+
+#yahooIdentityUserCard .yahooIdentityUserCardContents .yahooIdentityUserCardTitleAndConnection .yahooIdentityUserCardTitleWrap .yahooIdentityUserCardTitle .wbr{
+clear:none;
+width:0;
+height:auto;
+white-space:nowrap;
+float:none;
+display:inline;
+padding:0;
+}
+
+#yahooIdentityUserCardActionButtonContainer #yahooIdentityUserCardActionButtonMenus .menu .sendTestimonial span,
+#yahooIdentityUserCardActionButtonContainer #yahooIdentityUserCardActionButtonMenus .menu .sendMessage span,
+#yahooIdentityUserCardActionButtonContainer #yahooIdentityUserCardActionButtonMenus .menu .sendMessenger span{
+_padding-top:0;
+}
+
+#yahooIdentityUserCard .yahooIdentityUserCardOfficial {
+height:22px;
+}

@@ -1,0 +1,774 @@
+
+/* co_leaf.css
+========== SUMMARY ==========
+
+0.merge style
+1.copy style
+2.co_leaf main column style
+3.co_leaf side column style
+4.co_leaf_top.htm style
+5.co_leaf_bl_detail.htm, 
+  co_leaf_pr_detail.htm style
+6.print style
+
+*/
+
+/*
+ 0. merge style
+=================================*/
+#ybz-header {
+	height:auto !important;
+}
+
+.ybz-head-box {
+	margin-bottom:2px !important;
+	height:auto !important;
+}
+
+.ybz-head-link {
+	padding:6px 8px !important;
+}
+
+#pos-lrec dt {
+	display:block !important;
+}
+
+#ybz-pr-text {
+	width:100%;
+	height:30px;
+	text-align:center;
+}
+
+/*
+ 1. copy style
+=================================*/
+/* application */
+#application {
+	margin:10px 0px;
+	border:1px solid #ccc;
+	text-align:center;
+	background-color:#ebebeb;
+	padding:5px 0px;
+}
+
+#application p {
+	width:90%;
+	padding:0px 10px 0px 10px;
+	text-align:left;
+}
+
+#application a {
+	margin-bottom:10px;
+}
+
+/* search company box */
+#src-comp-box h3 {
+	height:28px;
+	line-height:28px;
+	vertical-align:middle;
+	color:#fff;
+	background: url(http://i.yimg.jp/images/onbiz/bl/r_bg_t_box.jpg) repeat-x left;
+	padding-left:10px;
+}
+
+#src-comp-box ul {
+	border:1px solid #ccc;
+	font-size:80%;
+	line-height:130%;
+}
+
+#src-comp-box p {
+	padding:5px 5px;
+}
+
+#src-comp-box .form-box {
+	border-top:1px solid #ddd;
+	background-color:#ebebeb;
+	height:76px;
+	text-align:center;
+	line-height:250%;
+}
+
+#src-comp-box .btn {
+	margin-top:10px;
+}
+
+#src-comp-box .txt {
+	margin-left:10px;
+	margin-top:-25px;
+	margin-right:7px;
+}
+
+#src-comp-box .bg-handlens {
+	height:76px;
+	background:url(http://i.yimg.jp/images/onbiz/bl/bg_handlens.gif) no-repeat bottom left;
+}
+
+#src-comp-box #application {
+	margin-top:0px;
+	border-top:2px solid #fff;
+}
+
+/*
+ 2. co_leaf main column style
+=================================*/
+/* ybz-co-leaf-box */
+div#ybz-co-leaf-box {
+	margin-bottom:10px;
+}
+
+div#ybz-co-leaf-box-top {
+	background:url(http://i.yimg.jp/images/onbiz/bl/co_leaf_box_tc.gif) repeat-x;
+}
+
+div#ybz-co-leaf-box-center {
+	background:#000 url(http://i.yimg.jp/images/onbiz/bl/co_leaf_box_ct.jpg) no-repeat;
+	min-height:60px;
+	height: auto !important;
+	height: 60px;
+	padding:6px 10px 8px;
+	_padding-bottom:4px;
+}
+
+div#ybz-co-leaf-box-center-left {
+	float:left;
+	margin-right:10px;
+	text-align:center;
+	width:115px;
+}
+
+div#ybz-co-leaf-box-center-right {
+	color:#fff;
+}
+
+div#ybz-co-leaf-box-center-right h2 {
+	font-weight:bold;
+	font-size:107%;
+}
+
+div#ybz-co-leaf-box-center-right ul {
+	border-top:1px solid #666;
+	margin-top:5px;
+	padding-top:5px;
+}
+
+/* ff */
+html>/**/body div#ybz-co-leaf-box-center-right ul {
+	margin-left:125px;
+}
+
+html>/**/body div#ybz-co-leaf-box-center-right ul#no-img, html>/**/body div#ybz-co-leaf-box-center-right ul.no-img {
+	margin-left:0;
+}
+
+div#ybz-co-leaf-box-center-right ul#img-none {
+	margin-left:0;
+}
+
+div#ybz-co-leaf-box-center-right ul li {
+	display:inline;
+	padding:0 20px;
+}
+
+div#ybz-co-leaf-box-center-right ul li.off {
+	background:url(http://i.yimg.jp/images/onbiz/bl/co_leaf_box_arrow_off.gif) no-repeat 5px center;
+}
+
+div#ybz-co-leaf-box-center-right ul li.on {
+	background:url(http://i.yimg.jp/images/onbiz/bl/co_leaf_box_arrow_on.gif) no-repeat 5px center;
+}
+
+div#ybz-co-leaf-box-center-right ul li a {
+	color:#fff;
+}
+
+div#ybz-co-leaf-box-bottom {
+	background-color:#000;
+}
+
+/* ybz-co-leaf-subtitle */
+h2.ybz-co-leaf-subtitle {
+	font-size:93%;
+	font-weight:bold;
+	border-left:10px solid #000;
+	min-height:25px;
+	height: auto !important;
+	height: 25px;
+	margin:10px 0;
+	padding:3px 0 0 10px;
+	background:#D3D3D3 url(http://i.yimg.jp/images/onbiz/bl/co_leaf_subtitle_bg.gif) repeat-x;
+}
+
+h2.ybz-co-leaf-subtitle img {
+	float:right;
+	margin-right:5px;
+}
+
+/* ybz-co-leaf-press,
+   ybz-co-leaf-bl */
+div#ybz-co-leaf-press {
+	width:49%;
+	float:left;
+}
+
+div#ybz-co-leaf-bl {
+	width:49%;
+	float:right;
+}
+
+div.ybz-co-leaf-index {
+	font-size:85%;
+	color:#666;
+	border-bottom:1px solid #ccc;
+	padding-bottom:2px;
+	margin-bottom:8px;
+}
+
+div.ybz-co-leaf-index span, div.ybz-co-leaf-list-index-top span, div.ybz-co-leaf-list-index-bottom span {
+	font-weight:bold;
+	font-size:131%;
+	color:#000;
+}
+
+div.ybz-co-leaf-index img {
+	float:right;
+}
+
+div.ybz-co-leaf-list-index-top {
+	font-size:85%;
+	color:#666;
+	border-top:1px solid #000;
+	padding-bottom:2px;
+	margin:30px 0 8px;
+}
+
+div.ybz-co-leaf-list-index-bottom {
+	font-size:85%;
+	color:#666;
+	padding-bottom:2px;
+	margin:8px 0 30px;
+}
+
+div.ybz-co-leaf-list-index-top div#right, div.ybz-co-leaf-list-index-bottom div#right {
+	color:#000;
+	float:right;
+}
+
+div.ybz-co-leaf-list-index-top div#right span, div.ybz-co-leaf-list-index-bottom div#right span {
+	color:#666;
+	font-weight:100;
+	font-size:100%;
+}
+
+div.ybz-co-leaf-article, div.ybz-co-leaf-list-article {
+	margin-bottom:8px;
+	min-height:60px;
+	height: auto !important;
+	height: 60px;
+}
+
+div.ybz-co-leaf-list-article {
+	padding-bottom:8px;
+	border-bottom:1px solid #ccc;
+}
+
+div.ybz-co-leaf-article img, div.ybz-co-leaf-list-article img {
+	float:left;
+	margin-right:10px;
+	width:80px;
+}
+
+div.ybz-co-leaf-article div, div.ybz-co-leaf-list-article div {
+	margin-left:90px;
+	line-height:130%;
+}
+
+div.ybz-co-leaf-article div h3, div.ybz-co-leaf-list-article div h3 {
+	font-size:93%;
+	font-weight:bold;
+}
+
+div.ybz-co-leaf-article div span, div.ybz-co-leaf-list-article div span {
+	font-size:85%;
+}
+
+div.ybz-co-leaf-article div p, div.ybz-co-leaf-list-article div p {
+	font-size:85%;
+}
+
+div.ybz-co-leaf-article-end {
+	border-bottom:1px solid #ccc;
+}
+
+div.ybz-co-leaf-article .no-image {
+	float:left;
+	margin-right:10px;
+	width:82px;
+	height:62px;
+	background:url(http://i.yimg.jp/images/onbiz/no-image.gif) no-repeat;
+}
+
+div#ybz-co-leaf-press hr, div#ybz-co-leaf-bl hr {
+	border:0;
+	border-top:1px solid #ccc;
+	margin:0;
+	height:1px;
+}
+
+span.ybz-co-leaf-zeromatch {
+	font-size:93%;
+}
+
+/* ybz-co-leaf-contact */
+div#ybz-co-leaf-contact {
+	border:1px solid #A4BB1E;
+	margin:15px 0 30px;
+}
+
+div#ybz-co-leaf-contact h2 {
+	background-color:#A4BB1E;
+	text-align:center;
+	color:#fff;
+	font-weight:bold;
+}
+
+div#ybz-co-leaf-contact img {
+	margin:15px auto 5px;
+	display:block;
+}
+
+div#ybz-co-leaf-contact p {
+	text-align:center;
+	font-size:82%;
+	margin-bottom:10px;
+}
+
+/* ybz-co-leaf-navi */
+div#ybz-co-leaf-navi {
+	background-color:#eee;
+	padding:3px;
+	margin:30px 0;
+}
+
+div#ybz-co-leaf-navi ul li {
+	font-size:93%;
+	display:inline;
+	border-left:1px solid #666;
+	padding:0 3px 0 15px;
+}
+
+div#ybz-co-leaf-navi ul li.on {
+	background:url(http://i.yimg.jp/images/onbiz/bl/co_leaf_navi_arrow_on.gif) no-repeat 5px center;
+	color:#00c;
+	font-weight:bold;
+}
+
+div#ybz-co-leaf-navi ul li.off {
+	background:url(http://i.yimg.jp/images/onbiz/bl/co_leaf_navi_arrow_off.gif) no-repeat 5px center;
+}
+
+div#ybz-co-leaf-navi ul li.end {
+	border-right:1px solid #666;
+}
+
+div#ybz-co-leaf-navi span {
+	float:left;
+	font-weight:bold;
+	font-size:93%;
+	margin-right:15px;
+}
+
+/*
+ 3. co_leaf side column style
+=================================*/
+/* ybz-co-leaf-map */
+div#ybz-co-leaf-map {
+	border:1px solid #bbb;
+	text-align:center;
+	margin-bottom:10px;
+	padding-bottom:8px;
+}
+
+div#ybz-co-leaf-map h2 {
+	min-height:30px;
+	height: auto !important;
+	height: 30px;
+	font-weight:bold;
+	font-size:93%;
+	padding:5px 40px;
+	line-height:130%;
+	background:url(http://i.yimg.jp/images/sicons/maps28.gif) no-repeat 12px center;
+}
+
+div#ybz-co-leaf-map div#h2bg {
+	background:#EAEBEA url(http://i.yimg.jp/images/onbiz/bl/co_leaf_box_side_bg.jpg) repeat-x;
+}
+
+div#ybz-co-leaf-map h3 {
+	font-size:85%;
+	font-weight:bold;
+	margin-top:8px;
+}
+
+div#ybz-co-leaf-map span#place {
+	font-size:85%;
+}
+
+div#ybz-co-leaf-map div#expand {
+	background:#bcbcbc;
+	padding:5px 0;
+}
+
+div#ybz-co-leaf-map div#info {
+	font-size:108%;
+}
+
+div#ybz-co-leaf-map div#info img {
+	vertical-align:middle;
+}
+
+div#ybz-co-leaf-map span#w-status {
+	font-weight:bold;
+	margin-right:10px;
+}
+
+div#ybz-co-leaf-map span#temp, div#ybz-co-leaf-map span#temp2 {
+	color:#f00;
+	margin-right:10px;
+}
+
+div#ybz-co-leaf-map span#w-time {
+	margin-left:10px;
+}
+
+div#ybz-co-leaf-map span#announce {
+	color:#666;
+	font-size:85%;
+}
+
+/* ybz-co-leaf-transit */
+div#ybz-co-leaf-transit {
+	border:1px solid #bbb;
+	margin-bottom:10px;
+	padding-bottom:8px;
+}
+
+div#ybz-co-leaf-transit h2 {
+	background:url(http://i.yimg.jp/images/sicons/transit28.gif) no-repeat 12px center;
+	min-height:30px;
+	height: auto !important;
+	height: 30px;
+	font-weight:bold;
+	font-size:93%;
+	padding:8px 40px;
+	line-height:130%;
+	text-align:center;
+}
+
+div#ybz-co-leaf-transit div#h2bg {
+	background:#EAEBEA url(http://i.yimg.jp/images/onbiz/bl/co_leaf_box_side_bg.jpg) repeat-x;
+}
+
+div#ybz-co-leaf-transit span {
+	display:block;
+	margin:8px 0;
+	text-align:center;
+}
+
+div#ybz-co-leaf-transit div {
+	margin-bottom:8px;
+	text-align:center;
+}
+
+div#ybz-co-leaf-transit input.sta {
+	width:200px;
+	margin-left:5px;
+}
+
+div#ybz-co-leaf-transit select.sta {
+	width:204px;
+	border:1px solid #7F9DB9;
+	margin-left:5px;
+}
+
+div#ybz-co-leaf-transit input#submit {
+	text-align:left;
+	margin-left:73px;
+	_padding-left:12px;
+}
+
+*+html div#ybz-co-leaf-transit input#submit {
+	padding-left:12px;
+}
+
+/* ybz-co-leaf-ysqm */
+div#ybz-co-leaf-ysqm {
+	width:300px;
+	line-height:100%;
+}
+
+div#ybz-co-leaf-ysqm small {
+	font-size:13px;
+}
+
+/* ybz-co-leaf-outline */
+div#ybz-co-leaf-outline {
+	border:1px solid #bbb;
+	margin-bottom:10px;
+}
+
+div#ybz-co-leaf-outline h2 {
+	background:#EAEBEA url(http://i.yimg.jp/images/onbiz/bl/co_leaf_box_side_bg.jpg) repeat-x;
+	min-height:30px;
+	height: auto !important;
+	height: 30px;
+	font-weight:bold;
+	font-size:93%;
+	padding:8px 40px;
+	line-height:130%;
+	text-align:center;
+}
+
+div#ybz-co-leaf-outline table {
+	width:100%;
+	font-size:93%;
+}
+
+div#ybz-co-leaf-outline table th, div#ybz-co-leaf-outline table td {
+	border-bottom:1px solid #efefef;
+}
+
+div#ybz-co-leaf-outline table tr#end {
+	border:none;
+}
+
+div#ybz-co-leaf-outline table th {
+	width:80px;
+	text-align:right;
+	padding:3px 20px 3px 5px;
+}
+
+div#ybz-co-leaf-outline table td {
+	padding:3px 0;
+}
+
+div#ybz-co-leaf-outline table td.link {
+	line-height:130%;
+}
+
+div#ybz-co-leaf-outline table td.link span {
+	font-size:77%;
+	_font-size:65%;
+}
+
+*+html div#ybz-co-leaf-outline table td.link span {
+	font-size:65%;
+}
+
+/*
+ 4. co_leaf_top.htm style
+=================================*/
+/* ybz-co-leaf-greeting */
+p#ybz-co-leaf-greeting {
+	font-size:85%;
+	line-height:130%;
+	margin-bottom:10px;
+}
+
+/* ybz-co-leaf-brochure */
+table#ybz-co-leaf-brochure {
+	width:100%;
+	margin-bottom:20px;
+}
+
+table#ybz-co-leaf-brochure th, table#ybz-co-leaf-brochure td {
+	font-size:93%;
+	border:1px solid #ccc;
+	padding:3px 8px;
+}
+
+table#ybz-co-leaf-brochure td img.icon {
+	vertical-align:middle;
+	margin-left:5px;
+}
+
+table#ybz-co-leaf-brochure th {
+	width:100px;
+	text-align:right;
+}
+
+/*
+ 5. co_leaf_bl_detail.htm, 
+    co_leaf_pr_detail.htm style
+=================================*/
+h3#ybz-co-leaf-detail-subtitle {
+	background:#1F3496;
+	font-size:146.5%;
+	font-weight:bold;
+	padding:10px 0 10px 10px;
+	margin-bottom:10px;
+	color:#fff;
+}
+
+p#ybz-co-leaf-detail-description {
+	font-size:131%;
+	font-weight:bold;
+	line-height:120%;
+	margin-bottom:15px;
+}
+
+div#ybz-co-leaf-detail-imgbox {
+	border:1px solid #ccc;
+	text-align:center;
+	margin-bottom:15px;
+}
+
+div#ybz-co-leaf-detail-imgbox div {
+	font-size:83%;
+	line-height:140%;
+	padding:5px 0;
+	background-color:#DBDBDB;
+	border-top:1px solid #ccc;
+}
+
+h4.ybz-co-leaf-detail-h4 {
+	background:#666 url(http://i.yimg.jp/images/onbiz/bl/co_leaf_detail_h4_bg.gif) no-repeat;
+	border-bottom:1px solid #666;
+	color:#fff;
+	padding:2px 0 2px 15px;
+	font-size:108%;
+}
+
+p.ybz-co-leaf-detail-p {
+	line-height:120%;
+	margin:10px 10px 30px;
+	font-size:93%;
+}
+
+div#ybz-co-leaf-detail-a {
+	clear:all;
+	text-align:right;
+	font-size:80%;
+}
+
+h3#ybz-co-leaf-pr-detail-subtitle {
+	font-size:146.5%;
+	font-weight:bold;
+	margin:15px 0;
+}
+
+p#ybz-co-leaf-detail-date {
+	font-size:80%;
+	line-height:120%;
+	padding-bottom:5px;
+	border-bottom:5px solid #D3D3D3;
+	margin-bottom:15px;
+}
+
+ul#ybz-co-leaf-pr-detail-href {
+	margin-bottom:15px;
+	font-size:93%;
+}
+
+div#contents-footer div.plugin-bottom {
+	margin-bottom:20px;
+}
+
+.ybz-relatedlink {
+	height:70px;
+	padding-top:5px;
+	border-bottom:1px solid #ccc;
+}
+
+.ybz-relatedlink img {
+	float:left;
+}
+
+.ybz-relatedlink .no-image {
+	float:left;
+	width:82px;
+	height:62px;
+	background:url(http://i.yimg.jp/images/onbiz/no-image.gif) no-repeat;
+}
+
+.ybz-relatedlink div {
+	margin-left:90px;
+}
+
+/* ybz-co-leaf-footnavi */
+
+#ybz-co-leaf-footnavi {
+	border:1px solid #ccc;
+	text-align:center;
+	padding:0 0 10px 0;
+	margin:0 0 15px 0;
+}
+
+#ybz-co-leaf-footnavi h2 {
+	background-color:#000;
+	font-size:100%;
+	color:#fff;
+	margin:0 0 10px 0;
+	line-height:1.56;
+}
+
+#ybz-co-leaf-footnavi h2 em {
+	font-size:121.1%;
+}
+
+#ybz-co-leaf-footnavi div {
+	margin:auto;
+	min-width:625px;
+	width:75%;
+}
+
+* html #ybz-co-leaf-footnavi div {
+	width:auto !important;
+}
+
+#ybz-co-leaf-footnavi div ul {
+	background:url(http://i.yimg.jp/images/onbiz/bl/ybz-co-leaf-footnavi-bg.gif) no-repeat center bottom;
+	float:left;
+	min-width:208px;
+	width:33%;
+}
+
+#ybz-co-leaf-footnavi div ul li {
+	background:url(http://i.yimg.jp/images/onbiz/bl/ybz-co-leaf-footnavi-top.gif) no-repeat center top;
+	text-align:center;
+	min-height:30px;
+}
+
+#ybz-co-leaf-footnavi div ul li a {
+	color:#000;
+	display:block;
+	font-weight:bold;
+	margin:auto;
+	padding:5px 0 0 30px;
+	text-align:left;
+	width:178px;
+}
+
+* html #ybz-co-leaf-footnavi div ul li a {
+	padding:5px 0 5px 30px;
+}
+
+/*
+ 6. print style
+=================================*/
+@media print {
+
+div.yjmthloginarea {
+	display:none;
+}
+
+/* firefox */
+	html>/**/body div#ybz-co-leaf-top-area {
+	display:table;
+}
+
+html>/**/body div#ybz-co-leaf-press,  html>/**/body div#ybz-co-leaf-bl {
+	display:table-cell;
+	float:none;
+}
+}
