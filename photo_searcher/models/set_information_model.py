@@ -3,6 +3,7 @@ from photo_searcher import app
 from photo_searcher.helpers.file_helper import file_get_contents
 
 import random  # デバッグ用
+import os
 
 def set_show_data(keyword):
     # rows = file_get_contents('photo_searcher/static/img_list.txt')[:100]
@@ -20,9 +21,10 @@ def set_show_data(keyword):
 def search_img_data(keyword):
     path = 'photo_searcher/static/data_store/' + keyword + '.keyword'
     response = []
-    with open(path, 'r') as r:
-        for line in r:
-            img_path = line.split('\t')[2].replace('\n','')
-            res = img_path[2:]
-            response.append(res)
+    if os.path.exists(path) and os.path.isfile(path):
+        with open(path, 'r') as r:
+            for line in r:
+                img_path = line.split('\t')[2].replace('\n','')
+                res = img_path[2:]
+                response.append(res)
     return response

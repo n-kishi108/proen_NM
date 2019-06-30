@@ -21,7 +21,7 @@ def index():
     rows, row_cnt, message = set_show_data('')
 
     #レンダリング
-    return render_template('index.html', page = 'index', file = rows, row_cnt = row_cnt, message = message())
+    return render_template('index.html', page = 'index', file = rows, row_cnt = row_cnt, message = '')
 
 
 #

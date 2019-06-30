@@ -26,7 +26,7 @@
                 </div>
                 <div class="search-box">
                     <form action="/search" method="GET" enctype="application/x-www-form-urlencoded">
-                        <input type="text" name="k" {% if message %}value="{{message}}"{% endif %}placeholder="キーワードを入力" autocomplete="on">
+                        <input type="text" name="k" {% if page == 'search' and message %}value="{{message}}"{% endif %}placeholder="キーワードを入力" autocomplete="on">
                         <input type="hidden" name="page" value="1">
                     </form>
                 </div>
