@@ -21,35 +21,78 @@ def set_show_data(keyword):
 def search_img_data(keyword):
 
     #まずはor検索とand検索ができるようにする
-    keyword.replace('　', ' ')
-    keyword.replace("'", "")
-    keyword.replace('+', '')
+    rep = [
+        {
+            'before': '　',
+            'after': ' '
+        },
+        {
+            'before': "'",
+            'after': ""
+        },
+        {
+            'before': '+',
+            'after': ''
+        }
+    ]
+    for k in rep:
+        keyword.replace(k['before'], k['after'])
+
     or_split = keyword.split(' OR ') #ORで文字列を分割
-    and_candidate = []
+    res_use = []
+    res_unuse = []
     for or_element in or_split:
         #ORで区切られた要素ごとにAND処理をする
-        tmp_list = []
         sp = or_element.split(' ')
+        without = []
+        response = []
         for el in sp:
             #半角スペースで区切ったキーワードを含む画像ファイルを全て抽出
             #list(response)に書き出し、それをlist(tmp_list)にネストする
-            path = 'photo_searcher/static/data_store/' + el + '.keyword'
-            response = []
-            if os.path.exists(path) and os.path.isfile(path):
-                with open(path, 'r') as r:
-                    for line in r:
-                        img_path = line.split('\t')[2].replace('\n','')
-                        res = img_path[2:]
-                        response.append(res)
-            tmp_list.append(response)
-        and_candidate.append(and_search(tmp_list))
+            if el[:1] == '-':
+                path = 'photo_searcher/static/data_store/' + el[1:] + '.keyword'
+                without = add_key_words(path)
+                res_unuse.extend(without)
+            else:
+                path = 'photo_searcher/static/data_store/' + el + '.keyword'
+                response = add_key_words(path)
+                res_use.extend(response)
     result = []
-    for array in and_candidate:
-        result.extend(array)  # 配列結合
-    result.sort()  # ソート
-    result = list(set(result))  # 重複削除
+    for el in res_use:
+        result.append(el)
+    print('############')
+    print(result)
+    print('------')
+    result.sort()
+    print(result)
+    print('------')
+    tmp = set(result)
+    print(tmp)
+    print('------')
+    rs = list(tmp)
+    print(rs)
+    # result = list(set(result))
+    print('------')
+    print(res_unuse)
+
+    if without:
+        #一致しないワードを除外
+        for el in res_unuse:
+            if el in result:
+                result.remove(el)
     return result
 
+#使用するワードをリストに追加
+def add_key_words(path):
+    response = []
+    if len(response) > 0:
+        response.clear()
+    if os.path.exists(path) and os.path.isfile(path):
+        with open(path, 'r') as r:
+            for line in r:
+                img_path = line.split('\t')[2].replace('\n','')
+                response.append(img_path[2:])  #「..」を削除する
+    return response
 
 ########################
 #以下使ってないけど一応残す#
