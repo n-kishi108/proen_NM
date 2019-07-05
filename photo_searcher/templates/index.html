@@ -49,9 +49,9 @@
                 <section class="result">
                     {% if page == 'search' %}
                     <div class="row">
-                        {% for line in file[section * 100: (section + 1) * 100] %}
+                        {% for i in range(section * 100, (section + 1) * 100 + 1) %}
                         <div class="pane col-xs-4 col-sm-3 col-md-2">
-                            <article style="background-image: url('/static{{line}}');"></article>
+                            <article style="background-image: url('/static{{file[i]}}');" onclick="location.href='/show?img={{links[i]}}'"></article>
                         </div>
                         {% endfor %}
                     </div>
@@ -68,13 +68,13 @@
                 </section>
                 <nav aria-label="Page navigation example">
                     <ul class="pagination">
-                      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                      <li class="page-item"><a class="page-link" href="#">1</a></li>
-                      <li class="page-item"><a class="page-link" href="#">2</a></li>
-                      <li class="page-item"><a class="page-link" href="#">3</a></li>
-                      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
                     </ul>
-                  </nav>
+                </nav>
             </div>
         </main>
         <script>
