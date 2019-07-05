@@ -1,7 +1,18 @@
+
+main{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* height: calc(100% - 51px); */
+}
+main div.wapper {
+    height: inherit;
+}
 div.wrapper section.result {
     width: 100%;
     max-width: 1000px;
-    height: 1000px;
+    /* height: 1000px; */
     min-height: 100%;
     margin: 0 auto;
 }
@@ -14,4 +25,27 @@ div.wrapper section.result article#image {
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+.downloadButton {
+    position: fixed;
+    bottom: 0;
+    height: 51px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 51px;
+}
+
+.downloadButton span {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    float: right;
+    text-align: center;
+    line-height: 50px;
+    transition: background .2s;
+}
+.downloadButton span:hover {
+    background: #eee;
 }

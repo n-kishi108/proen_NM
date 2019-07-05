@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="/static/css/header.css">
         <link rel="stylesheet" href="/static/css/index.css">
         <link rel="shortcut icon" href="/static/img/favicon.png">
-
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Roboto+Mono:400,500|Material+Icons" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
         <!-- <script src="js/ajaxAction.js"></script> -->
@@ -31,7 +31,24 @@
                     </form>
                 </div>
             </div>
+            <div class="toggle">
+                <span class="material-icons">settings</span>
+            </div>
         </header>
+        <!-- <nav class="header-menu">
+            <ul>
+                <li>
+                    <div>
+                        <div>
+                            <p>ダークモード</p>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav> -->
         <main>
             {% if page == 'search' %}
             <div class="information-label">
@@ -50,9 +67,11 @@
                     {% if page == 'search' %}
                     <div class="row">
                         {% for i in range(section * 100, (section + 1) * 100 + 1) %}
+                        {% if file[i] %}
                         <div class="pane col-xs-4 col-sm-3 col-md-2">
                             <article style="background-image: url('/static{{file[i]}}');" onclick="location.href='/show?img={{links[i]}}'"></article>
                         </div>
+                        {% endif %}
                         {% endfor %}
                     </div>
                     <script>
