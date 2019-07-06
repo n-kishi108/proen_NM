@@ -15,12 +15,13 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Roboto+Mono:400,500|Material+Icons" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
+        <script src="/static/js/theme.js"></script>
         <!-- <script src="js/ajaxAction.js"></script> -->
         <script>
             const startTime = performance.now();
         </script>
     </head>
-    <body class="dark">
+    <body>
         <header>
             <div class="wrapper">
                 <div class="logo-wrapper" onclick="location.href='/'">
@@ -32,6 +33,9 @@
                         <input type="hidden" name="page" value="1">
                     </form>
                 </div>
+            </div>
+            <div class="toggle_light" onclick="toggle_light()">
+                <span class="material-icons">wb_sunny</span>
             </div>
         </header>
         <main>
