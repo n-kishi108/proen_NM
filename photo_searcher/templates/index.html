@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap-grid.css">
         <link rel="stylesheet" href="/static/css/header.css">
         <link rel="stylesheet" href="/static/css/index.css">
+        <link rel="stylesheet" href="/static/css/color.css">
         <link rel="shortcut icon" href="/static/img/favicon.png">
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Roboto+Mono:400,500|Material+Icons" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -18,7 +19,7 @@
             const startTime = performance.now();
         </script>
     </head>
-    <body>
+    <body class="dark">
         <header>
             <div class="wrapper">
                 <div class="logo-wrapper" onclick="location.href='/'">
@@ -31,9 +32,9 @@
                     </form>
                 </div>
             </div>
-            <div class="toggle">
+            <!-- <div class="toggle">
                 <span class="material-icons">settings</span>
-            </div>
+            </div> -->
         </header>
         <!-- <nav class="header-menu">
             <ul>
@@ -85,6 +86,7 @@
                     <p class="not-found-message">検索結果がありません</p>
                     {% endif %}
                 </section>
+                {% if page == 'search' %}
                 <nav aria-label="Page navigation example">
                     <ul class="pagination">
                         <li class="page-item"><a class="page-link" href="#">Previous</a></li>
@@ -94,6 +96,7 @@
                         <li class="page-item"><a class="page-link" href="#">Next</a></li>
                     </ul>
                 </nav>
+                {% endif %}
             </div>
         </main>
         <script>

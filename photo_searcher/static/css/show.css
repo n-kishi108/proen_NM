@@ -46,6 +46,6 @@ div.wrapper section.result article#image {
     line-height: 50px;
     transition: background .2s;
 }
-.downloadButton span:hover {
+/* .downloadButton span:hover {
     background: #eee;
-}
+} */
