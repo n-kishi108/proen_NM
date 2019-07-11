@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     border: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
 }
 
 ul, ol {
@@ -11,4 +16,12 @@ ul, ol {
 a {
     text-decoration: none;
     color: #000;
+}
+
+input[type='text'] {
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    -o-user-select: text;
 }
