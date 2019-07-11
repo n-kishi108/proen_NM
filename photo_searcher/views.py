@@ -35,6 +35,57 @@ def search():
     #GETパラメータの取得
     keyword = request.args.get('k')
     page = int(request.args.get('page'))  # ページ番号を取得
+    if page == 0:
+        page = 1
+    url = '/search?k=' + keyword + '&page='
+    urls = []
+    if page == 1:
+        urls = [
+            {
+                'href': url + '1',
+                'value': 'Prev'
+            },
+            {
+                'href': url + '1',
+                'value': '1'
+            },
+            {
+                'href': url + '2',
+                'value': '2'
+            },
+            {
+                'href': url + '3',
+                'value': '3'
+            },
+            {
+                'href': url + '2',
+                'value': 'Next'
+            }
+        ]
+    else:
+        urls = [
+            {
+                'href': url + str(page - 1),
+                'value': 'Prev'
+            },
+            {
+                'href': url + str(page - 1),
+                'value': str(page - 1)
+            },
+            {
+                'href': url + str(page),
+                'value': str(page)
+            },
+            {
+                'href': url + str(page + 1),
+                'value': str(page + 1)
+            },
+            {
+                'href': url + str(page + 1),
+                'value': 'Next'
+            }
+        ]
+    # print('>>' + page)
 
     # ファイルから画像リストを取得、その長さを測る
     rows, row_cnt = set_show_data(keyword)
@@ -45,7 +96,7 @@ def search():
     print(links)
 
     #レンダリング
-    return render_template('index.html', page = 'search', section = page - 1, file = rows, links = links, row_cnt = row_cnt, message = keyword)
+    return render_template('index.html', page = 'search', section = page - 1, file = rows, links = links, row_cnt = row_cnt, message = keyword, urls =  urls)
 
 @app.route('/show', methods = ['GET', 'POST'])
 def show():

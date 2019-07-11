@@ -9,10 +9,12 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap-grid.css">
         <link rel="stylesheet" href="/static/css/header.css">
         <link rel="stylesheet" href="/static/css/index.css">
+        <link rel="stylesheet" href="/static/css/color.css">
         <link rel="shortcut icon" href="/static/img/favicon.png">
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Roboto+Mono:400,500|Material+Icons" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
+        <script src="/static/js/theme.js"></script>
         <!-- <script src="js/ajaxAction.js"></script> -->
         <script>
             const startTime = performance.now();
@@ -31,9 +33,12 @@
                     </form>
                 </div>
             </div>
-            <div class="toggle">
-                <span class="material-icons">settings</span>
+            <div class="toggle_light" onclick="toggle_light()">
+                <span class="material-icons">wb_sunny</span>
             </div>
+            <!-- <div class="toggle">
+                <span class="material-icons">settings</span>
+            </div> -->
         </header>
         <!-- <nav class="header-menu">
             <ul>
@@ -85,15 +90,15 @@
                     <p class="not-found-message">検索結果がありません</p>
                     {% endif %}
                 </section>
+                {% if page == 'search' %}
                 <nav aria-label="Page navigation example">
                     <ul class="pagination">
-                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        {% for el in urls %}
+                        <li class="page-item"><a class="page-link" href="{{el['href']}}">{{el['value']}}</a></li>
+                        {% endfor %}
                     </ul>
                 </nav>
+                {% endif %}
             </div>
         </main>
         <script>
