@@ -38,11 +38,6 @@ header div.wrapper h1.logo {
     font-weight: 700;
     line-height: 51px;
     margin: 0;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
 }
 
 
