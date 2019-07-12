@@ -93,7 +93,7 @@ def search():
     links = []
     for el in rows:
         links.append(urllib.parse.quote(el).replace('/', "%2F"))
-    print(links)
+    # print(links)
 
     #レンダリング
     return render_template('index.html', page = 'search', section = page - 1, file = rows, links = links, row_cnt = row_cnt, message = keyword, urls =  urls)

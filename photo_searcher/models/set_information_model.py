@@ -19,70 +19,56 @@ def set_show_data(keyword):
 
 #キーワードに見合う画像の検索
 def search_img_data(keyword):
-
-    #まずはor検索とand検索ができるようにする
-    rep = [
-        {
-            'before': '　',
-            'after': ' '
-        },
-        {
-            'before': "'",
-            'after': ""
-        },
-        {
-            'before': '+',
-            'after': ''
-        }
-    ]
-    for k in rep:
-        keyword.replace(k['before'], k['after'])
-
-    or_split = keyword.split(' OR ') #ORで文字列を分割
-    res_use = []
-    res_unuse = []
-    for or_element in or_split:
-        #ORで区切られた要素ごとにAND処理をする
-        sp = or_element.split(' ')
-        without = []
-        response = []
-        for el in sp:
-            #半角スペースで区切ったキーワードを含む画像ファイルを全て抽出
-            #list(response)に書き出し、それをlist(tmp_list)にネストする
-            if el[:1] == '-':
-                path = 'photo_searcher/static/data_store/' + el[1:] + '.keyword'
-                without = add_key_words(path)
-                res_unuse.extend(without)
-            else:
-                path = 'photo_searcher/static/data_store/' + el + '.keyword'
-                response = add_key_words(path)
-                res_use.extend(response)
-    result = []
-    for el in res_use:
-        result.append(el)
-    print('############')
-    print(result)
-    print('------')
-    result.sort()
-    print(result)
-    print('------')
-    tmp = set(result)
-    print(tmp)
-    print('------')
-    rs = list(tmp)
-    print(rs)
+    # #ORを書くならANDの前
+    # sp = keyword.split(' OR ') #ANDで区切る
+    # result = []
+    # res_use = []
+    # for el in sp:
+    #     path = 'photo_searcher/static/data_store/' + el + '.keyword'
+    #     response = add_key_words(path)
+    #     res_use.extend(response)
+    # for el in res_use:
+    #     result.append(el)
     # result = list(set(result))
-    print('------')
-    print(res_unuse)
+    # res_use = []
+    # return result
 
-    if without:
-        #一致しないワードを除外
-        for el in res_unuse:
-            if el in result:
-                result.remove(el)
-    return result
+    #ORを書くならANDの前
+    #先頭または末尾のの不要なスペースを削除
+    while True:
+        keyword.replace('　', ' ')
+        keyword.replace('  ', ' ')
+        if keyword[:1] == ' ':
+            keyword = keyword[1:]
+        elif keyword[-1:] == ' ':
+            keyword = keyword[:-1]
+        else:
+            break
+    sp_or = keyword.split(' OR ') #ORで区切る
+    # result = []
+    res_use = []
+    for el in sp_or:
+        #AND検索
+        sp_and = el.split(' ')
+        # res_and_use = []
+        tmp_and_use = []
+        for el2 in sp_and:
+            path = 'photo_searcher/static/data_store/' + el2 + '.keyword'
+            response = add_key_words(path)
+            #キーワード毎に配列を作って格納
+            tmp_and_use.append(response)
+        
+        #キーワードに関する配列毎に共通項を抽出
+        if len(tmp_and_use) > 0:
+            tmp = set(tmp_and_use[0])
+            for el3 in tmp_and_use:
+                tmp &= set(el3)
+            # tmp = list(tmp)
+            res_use.extend(list(tmp))
+    return res_use
 
 #使用するワードをリストに追加
+#キーワードに関する画像データを返す
 def add_key_words(path):
     response = []
     if len(response) > 0:
@@ -93,53 +79,3 @@ def add_key_words(path):
                 img_path = line.split('\t')[2].replace('\n','')
                 response.append(img_path[2:])  #「..」を削除する
     return response
-
-########################
-#以下使ってないけど一応残す#
-########################
-
-#再帰的にリストの中の全ての要素の共通項を検出
-def and_search(object):
-    if len(object) < 2:
-        return object[0]
-    tmp = set(object[0]) & set(object[1])
-    object.pop(0)
-    object[0] = list(tmp)
-    
-    if len(object) >= 2:
-        and_search(object)
-    return object[0]
-
-#キーワードを分割
-def allocate_keywords_to_rightness(sp):
-    key_list, or_list, without = []
-    for el in sp:
-        #除外する文字を吐き出す
-        if el[:1] == '-':
-            without.append(el[1:])
-        if '+OR+' in el:
-            v = el.split('+OR+')
-            or_list[len(or_list):len(or_list)] = v #配列の末尾に要素を追加
-    return key_list, or_list, without
-
-#ダブルクォーテーションで囲まれた文字を返す
-def get_group_word(keyword):
-    response = []
-    arg = ''
-    switch = False
-    for char in keyword:
-        if char == '"': #もしダブルクォーテーションがきたら
-            if switch:#ここまでがグループだ
-                response.append(arg) #台詞を格納
-                arg = ''
-                switch = False
-            else: #ここからグループだと定義
-                switch = True
-        else: #他の文字なら
-            if switch:
-                arg += char
-    for el in response: #台詞部分をキーワードから削除
-        keyword.replace(el, '')
-        keyword.replace('"', '')
-        keyword.replace('  ', ' ')
-    return keyword, response
