@@ -1,0 +1,30 @@
+main .wrapper {
+    width: 100%;
+    max-width: 1400px;
+    margin: 95px auto 0 auto;
+}
+
+main .wrapper h1, main .wrapper h2, main .wrapper h3, main .wrapper h4 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+main .wrapper h1 {
+    font-size: 60px;
+}
+
+main .wrapper h2 {
+    font-size: 120px;
+}
+
+main .wrapper h3 {
+    font-size: 40px;
+}
+
+main .wrapper h4 {
+    margin-top: 50px;
+    font-size: 30px;
+    text-decoration: underline;
+}
