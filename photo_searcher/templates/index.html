@@ -1,8 +1,9 @@
 <html>
     <head>
-        <title>Photo Searcher</title>
+        <title>LOOK</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,user-scalable=0">
+        <link rel="preload" as="script" href="/static/js/style.js">
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Monsieur+La+Doulaise" />
         <link rel="stylesheet" href="/static/css/reset.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -15,16 +16,16 @@
         <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
         <script src="/static/js/theme.js"></script>
-        <!-- <script src="js/ajaxAction.js"></script> -->
         <script>
             const startTime = performance.now();
         </script>
     </head>
-    <body>
+    <body class="{{theme}}">
+        <div id="curtain"></div>
         <header>
             <div class="wrapper">
                 <div class="logo-wrapper" onclick="location.href='/'">
-                    <h1 class="logo">team Oro</h1>
+                    <h1 class="logo">LOOK</h1>
                 </div>
                 <div class="search-box">
                     <form action="/search" method="GET" enctype="application/x-www-form-urlencoded">
@@ -33,27 +34,10 @@
                     </form>
                 </div>
             </div>
-            <div class="toggle_light" onclick="toggle_light()">
-                <span class="material-icons">wb_sunny</span>
+            <div class="toggle_light" onclick="toggle()">
+                <span class="material-icons">menu</span>
             </div>
-            <!-- <div class="toggle">
-                <span class="material-icons">settings</span>
-            </div> -->
         </header>
-        <!-- <nav class="header-menu">
-            <ul>
-                <li>
-                    <div>
-                        <div>
-                            <p>ダークモード</p>
-                        </div>
-                        <div>
-
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </nav> -->
         <main>
             {% if page == 'search' %}
             <div class="information-label">
@@ -71,7 +55,7 @@
                 <section class="result">
                     {% if page == 'search' %}
                     <div class="row">
-                        {% for i in range(section * 100, (section + 1) * 100 + 1) %}
+                        {% for i in range(section * 100, (section + 1) * 100) %}
                         {% if file[i] %}
                         <div class="pane col-xs-4 col-sm-3 col-md-2">
                             <article style="background-image: url('/static{{file[i]}}');" onclick="location.href='/show?img={{links[i]}}'"></article>
@@ -101,6 +85,35 @@
                 {% endif %}
             </div>
         </main>
+        <aside id="toggle-menu" class="toggle-hide">
+            <ul>
+                <li onclick="toggle_light()">
+                    <div class="icon">
+                        <span class="material-icons">wb_sunny</span>
+                    </div>
+                    <div class="menu-text"><p>ダークテーマ</p></div>
+                </li>
+                <li onclick="incrementDisplay()">
+                    <div class="icon">
+                        <span class="material-icons" style="background: #4db6ac">view_comfy</span>
+                    </div>
+                    <div class="menu-text"><p>表示を増やす</p></div>
+                </li>
+                <li onclick="decrementDisplay()">
+                    <div class="icon">
+                        <span class="material-icons" style="background: #ff77a9">apps</span>
+                    </div>
+                    <div class="menu-text"><p>表示を減らす</p></div>
+                </li>
+                <li>
+                    <div class="icon">
+                        <span class="material-icons" style="background: #fdd835;">star</span>
+                    </div>
+                    <div class="menu-text"><p>お気に入り</p></div>
+                </li>
+            </ul>
+        </aside>
+        <div class="cover" onclick="toggle()"></div>
         <script>
             $(window).on('load' ,function() {
                 const endTime = performance.now();
@@ -108,5 +121,6 @@
                 $('#showTime').html(result);
             })
         </script>
+        <script src="/static/js/style.js"></script>
     </body>
 </html>
