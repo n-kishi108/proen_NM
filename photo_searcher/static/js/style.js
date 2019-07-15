@@ -1,27 +1,27 @@
-$.ajax({
-    url: 'localhost:5000/static/python/theme.py',
-    type: 'post',
-    dataType: 'text',
-    crossDomain: true,
-    xhrFields: {
-        withCredentials: true
-        }
-  })
-  .done(function(response) {
-    alert('通信成功')
-    alert(response)
-  })
-  .fail(function(err) {
-    alert('通信失敗')
-    console.log(err)
-  });
+// $.ajax({
+//     url: 'localhost:5000/static/python/theme.py',
+//     type: 'post',
+//     dataType: 'text',
+//     crossDomain: true,
+//     xhrFields: {
+//         withCredentials: true
+//         }
+//   })
+//   .done(function(response) {
+//     alert('通信成功')
+//     alert(response)
+//   })
+//   .fail(function(err) {
+//     alert('通信失敗')
+//     console.log(err)
+//   });
 
 
 if(localStorage.getItem('theme') == 'dark') {
     localStorage.setItem('theme', 'dark');
-    $('body').css({
-        background: 'rgb(25, 25, 25)'
-    });
+    // $('body').css({
+    //     background: 'rgb(25, 25, 25)'
+    // });
     $('#curtain').css({
         background: 'rgb(25, 25, 25)'
     });
@@ -32,9 +32,9 @@ if(localStorage.getItem('theme') == 'dark') {
     $('#toggle-menu ul li:nth-child(1) div.menu-text p').html('ライトテーマ');
 }else{
     localStorage.setItem('theme', 'light');
-    $('body').css({
-        background: 'rgb(250, 250, 250)'
-    });
+    // $('body').css({
+    //     background: 'rgb(250, 250, 250)'
+    // });
     $('#curtain').css({
         background: 'rgb(250, 250, 250)'
     });

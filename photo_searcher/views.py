@@ -17,10 +17,10 @@ import urllib.parse, math
 #
 @app.route('/')
 def index():
-    theme = get_theme()
+    # theme = get_theme()
     #レンダリング
-    return render_template('index.html', theme = theme, page = 'index', file = '', row_cnt = '', message = '')
-
+    # return render_template('index.html', theme = theme, page = 'index', file = '', row_cnt = '', message = '')
+    return render_template('index.html', page = 'index', file = '', row_cnt = '', message = '')
 
 #
 #127.0.0.1/search?をsearchメソッドにルーティング
@@ -28,7 +28,7 @@ def index():
 #
 @app.route('/search', methods = ['GET', 'POST'])
 def search():
-    theme = get_theme()
+    # theme = get_theme()
     #GETパラメータの取得
     keyword = request.args.get('k')
     page = int(request.args.get('page'))  # ページ番号を取得
@@ -69,17 +69,19 @@ def search():
         links.append(urllib.parse.quote(el).replace('/', "%2F"))
 
 	#レンダリング
-    return render_template('index.html', theme = theme, page = 'search', section = page - 1, file = rows, links = links, row_cnt = row_cnt, message = keyword, urls =  urls)
+    # return render_template('index.html', theme = theme, page = 'search', section = page - 1, file = rows, links = links, row_cnt = row_cnt, message = keyword, urls =  urls)
+    return render_template('index.html', page = 'search', section = page - 1, file = rows, links = links, row_cnt = row_cnt, message = keyword, urls =  urls)
 
 @app.route('/show', methods = ['GET', 'POST'])
 def show():
-    theme = get_theme()
+    # theme = get_theme()
     #GETパラメータの取得
     image_data = request.args.get('img').replace("%2F", '/')
     response = '/static' + image_data
 
     #レンダリング
-    return render_template('show.html', theme = theme, image_url = response)
+    # return render_template('show.html', theme = theme, image_url = response)
+    return render_template('show.html', image_url = response)
 
 @app.errorhandler(404)
 def page_not_found(error):
