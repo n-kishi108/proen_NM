@@ -58,12 +58,12 @@ def search():
                 'value': str(index+1)
             }
         )
-        urls.append(
-			{
-				'href': url + str(page + 1),
-				'value': 'Next'
-			}
-		)
+    urls.append(
+        {
+            'href': url + str(page + 1),
+            'value': 'Next'
+        }
+    )
     links = []
     for el in rows:
         links.append(urllib.parse.quote(el).replace('/', "%2F"))
