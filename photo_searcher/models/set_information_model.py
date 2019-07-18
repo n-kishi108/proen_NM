@@ -5,6 +5,7 @@ from photo_searcher.helpers.file_helper import file_get_contents
 import random  # デバッグ用
 import os
 import re
+import glob
 import execjs
 
 #views.search()で必要なデータを返す
@@ -32,32 +33,40 @@ def search_img_data(keyword):
         else:
             break
     sp_or = keyword.split(' OR ') #ORで区切る
-    # result = []
     res_use = []
     for el in sp_or:
         #AND検索
         sp_and = el.split(' ')
-        # res_and_use = []
         tmp_and_use = []
         tmp_and_unuse = []
         for el2 in sp_and:
+            pathes = []
             if(re.sub("\\D", "", el2)):
                 num = re.sub("\\D", "", el2)
-                path = 'photo_searcher/static/data_store/fc/' + num + '.keyword'
-                response = add_key_num(path)
-                print(response)
-                tmp_and_use.append(response)
+                    #数字のみ後方一致
+                pathes = glob.glob('photo_searcher/static/data_store/fc/' + num + '.keyword')
+                tmp_array = [add_key_num(path) for path in pathes]
+                if tmp_array:
+                    s = set(tmp_array[0])
+                    for t in tmp_array:
+                        s |= set(t)
+                    tmp_and_use.append(list(s))
             elif el2[0] == '-':
-                path = 'photo_searcher/static/data_store/tf/' + el2[1:] + '.keyword'
-                response = add_key_words(path)
-                #キーワード毎に配列を作って格納
-                tmp_and_unuse.extend(response)
+                pathes = glob.glob('photo_searcher/static/data_store/tf/' + el2[1:] + '.keyword')
+                tmp_array = [add_key_words(path) for path in pathes]
+                if tmp_array:
+                    s = set(tmp_array[0])
+                    for t in tmp_array:
+                        s |= set(t)
+                    tmp_and_unuse.extend(list(s))
             else:
-                path = 'photo_searcher/static/data_store/tf/' + el2 + '.keyword'
-                response = add_key_words(path)
-                #キーワード毎に配列を作って格納
-                tmp_and_use.append(response)
-        
+                pathes = glob.glob('photo_searcher/static/data_store/tf/*' + el2 + '*.keyword')
+                tmp_array = [add_key_words(path) for path in pathes]
+                if tmp_array:
+                    s = set(tmp_array[0])
+                    for t in tmp_array:
+                        s |= set(t)
+                    tmp_and_use.append(list(s))
         #キーワードに関する配列毎に共通項を抽出
         if len(tmp_and_use) > 0:
             tmp = set(tmp_and_use[0])
