@@ -3,6 +3,7 @@
         <title>LOOK</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1, viewport-fit=cover">
+        <link rel="preload" as="script" href="/static/js/style.js">
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Monsieur+La+Doulaise" />
         <link rel="stylesheet" href="/static/css/reset.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -21,6 +22,7 @@
         </script>
     </head>
     <body>
+        <div id="curtain"></div>
         <header>
             <div class="wrapper">
                 <div class="logo-wrapper" onclick="location.href='/'">
@@ -57,20 +59,9 @@
                     </div>
                     <div class="menu-text"><p>ダークテーマ</p></div>
                 </li>
-                <li>
-                    <div class="icon">
-                        <span class="material-icons" style="background: #ff77a9">apps</span>
-                    </div>
-                    <div class="menu-text"><p>画面表示</p></div>
-                </li>
-                <li>
-                    <div class="icon">
-                        <span class="material-icons" style="background: #fdd835;">star</span>
-                    </div>
-                    <div class="menu-text"><p>お気に入り</p></div>
-                </li>
             </ul>
         </aside>
+        <div class="cover" onclick="toggle()"></div>
         <script type="text/javascript">
             $(function () {
                 $('.downloadButton a').on('click', function(e){
