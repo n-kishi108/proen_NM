@@ -1,35 +1,41 @@
 <html>
     <head>
-        <title>Photo Searcher</title>
+        <title>LOOK</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,user-scalable=0">
+        <link rel="preload" as="script" href="/static/js/style.js">
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Monsieur+La+Doulaise" />
         <link rel="stylesheet" href="/static/css/reset.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap-grid.css">
         <link rel="stylesheet" href="/static/css/header.css">
         <link rel="stylesheet" href="/static/css/index.css">
+        <link rel="stylesheet" href="/static/css/color.css">
         <link rel="shortcut icon" href="/static/img/favicon.png">
-
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Roboto+Mono:400,500|Material+Icons" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
-        <!-- <script src="js/ajaxAction.js"></script> -->
+        <script src="/static/js/theme.js"></script>
         <script>
             const startTime = performance.now();
         </script>
     </head>
-    <body>
+    <body class="{{theme}}">
+        <div id="curtain"></div>
         <header>
             <div class="wrapper">
                 <div class="logo-wrapper" onclick="location.href='/'">
-                    <h1 class="logo">team Oro</h1>
+                    <h1 class="logo">LOOK</h1>
                 </div>
                 <div class="search-box">
                     <form action="/search" method="GET" enctype="application/x-www-form-urlencoded">
-                        <input type="text" name="k" {% if message %}value="{{message}}"{% endif %}placeholder="キーワードを入力" autocomplete="on">
+                        <input type="text" name="k" {% if page == 'search' and message %}value="{{message}}"{% endif %}placeholder="キーワードを入力" autocomplete="on">
                         <input type="hidden" name="page" value="1">
                     </form>
                 </div>
+            </div>
+            <div class="toggle_light" onclick="toggle()">
+                <span class="material-icons">menu</span>
             </div>
         </header>
         <main>
@@ -49,10 +55,12 @@
                 <section class="result">
                     {% if page == 'search' %}
                     <div class="row">
-                        {% for line in file[section * 100: (section + 1) * 100] %}
+                        {% for i in range(section * 100, (section + 1) * 100) %}
+                        {% if file[i] %}
                         <div class="pane col-xs-4 col-sm-3 col-md-2">
-                            <article style="background-image: url('/static{{line}}');"></article>
+                            <article style="background-image: url('/static{{file[i]}}');" onclick="location.href='/show?img={{links[i]}}'"></article>
                         </div>
+                        {% endif %}
                         {% endfor %}
                     </div>
                     <script>
@@ -66,17 +74,40 @@
                     <p class="not-found-message">検索結果がありません</p>
                     {% endif %}
                 </section>
+                {% if page == 'search' %}
                 <nav aria-label="Page navigation example">
                     <ul class="pagination">
-                      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                      <li class="page-item"><a class="page-link" href="#">1</a></li>
-                      <li class="page-item"><a class="page-link" href="#">2</a></li>
-                      <li class="page-item"><a class="page-link" href="#">3</a></li>
-                      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        {% for el in urls %}
+                        <li class="page-item"><a class="page-link" href="{{el['href']}}">{{el['value']}}</a></li>
+                        {% endfor %}
                     </ul>
-                  </nav>
+                </nav>
+                {% endif %}
             </div>
         </main>
+        <aside id="toggle-menu" class="toggle-hide">
+            <ul>
+                <li onclick="toggle_light()">
+                    <div class="icon">
+                        <span class="material-icons">wb_sunny</span>
+                    </div>
+                    <div class="menu-text"><p>ダークテーマ</p></div>
+                </li>
+                <li onclick="incrementDisplay()">
+                    <div class="icon">
+                        <span class="material-icons" style="background: #4db6ac">view_comfy</span>
+                    </div>
+                    <div class="menu-text"><p>表示を増やす</p></div>
+                </li>
+                <li onclick="decrementDisplay()">
+                    <div class="icon">
+                        <span class="material-icons" style="background: #ff77a9">apps</span>
+                    </div>
+                    <div class="menu-text"><p>表示を減らす</p></div>
+                </li>
+            </ul>
+        </aside>
+        <div class="cover" onclick="toggle()"></div>
         <script>
             $(window).on('load' ,function() {
                 const endTime = performance.now();
@@ -84,5 +115,6 @@
                 $('#showTime').html(result);
             })
         </script>
+        <script src="/static/js/style.js"></script>
     </body>
 </html>

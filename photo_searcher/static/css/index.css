@@ -1,12 +1,24 @@
 html, body, main {
-    background: #fafafa;
+    /* background: #fafafa; */
+}
+
+#curtain {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 1.0;
+    z-index: 1000;
 }
 
 main {
     display: block;
     width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
+    max-width: 1400px;
+    margin: 95px auto 0 auto;
     /* padding: 0 20px 50px 20px; */
 }
 
@@ -33,22 +45,25 @@ main div.information-label div.label span {
     height: 30px;
     line-height: 28px;
     font-size: 14px;
-    color: #4285F4;
+    /* color: #4285F4; */
     font-weight: 400;
 }
 main div.information-label div.label > span {
     float: left;
     overflow: hidden;
-    background-color: #fff;
-    border-top: solid 1px #dbdbdb;
-    border-bottom: solid 1px #dbdbdb;
+    /* background-color: #fff; */
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    /* border-top: solid 1px #dbdbdb;
+    border-bottom: solid 1px #dbdbdb; */
 }
 
 main div.information-label div.label > span:first-child {
     padding-left: 20px;
     padding-right: 5px;
     border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    /* border-bottom-left-radius: 15px; */
     border-left: solid 1px #dbdbdb;
 }
 
@@ -90,7 +105,8 @@ main div.wrapper section.result .row {
 main div.wrapper section.result .row .pane {
     display: inline-block;
     margin: 0;
-    padding: 5px;
+    /* padding: 10px 20px; */
+    padding: 1px;
     box-sizing: border-box;
 }
 
@@ -103,7 +119,7 @@ main div.wrapper section.result .row .pane article {
     /* background: #eee; */
     /* border: solid 1px #dbdbdb; */
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -115,4 +131,15 @@ main div.wrapper section.result .row .result-img {
 main div.wrapper section.result .row .result-img img {
     width: 100%;
     height: 100%;
+}
+
+.cover {
+    display: none;
+    position: fixed;
+    top: 71px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 71px);
+    background: rgba(0, 0, 0, 0.75);
+    opacity: 0.0;
 }

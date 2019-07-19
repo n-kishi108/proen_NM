@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>LOOK</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1, viewport-fit=cover">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Monsieur+La+Doulaise" />
+        <link rel="stylesheet" href="/static/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap-grid.css">
+        <link rel="stylesheet" href="/static/css/header.css">
+        <link rel="stylesheet" href="/static/css/404.css">
+        <link rel="stylesheet" href="/static/css/color.css">
+        <link rel="shortcut icon" href="/static/img/favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Roboto+Mono:400,500|Material+Icons" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
+        <script src="/static/js/theme.js"></script>
+        <!-- <script src="js/ajaxAction.js"></script> -->
+        <script>
+            const startTime = performance.now();
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="wrapper">
+                <div class="logo-wrapper" onclick="location.href='/'">
+                    <h1 class="logo">LOOK</h1>
+                </div>
+                <div class="search-box">
+                    <form action="/search" method="GET" enctype="application/x-www-form-urlencoded">
+                        <input type="text" name="k" {% if page == 'search' and message %}value="{{message}}"{% endif %}placeholder="キーワードを入力" autocomplete="on">
+                        <input type="hidden" name="page" value="1">
+                    </form>
+                </div>
+            </div>
+            <div class="toggle_light" onclick="toggle()">
+                <span class="material-icons">menu</span>
+            </div>
+        </header>
+        <main>
+            <div class="wrapper">
+                <h1>404 Page not found.</h1>
+                <h2>SORRY</h2>
+                <h3>we couldn't find that page.</h3>
+                <h4><a href="/">Try searching</a></h4>
+            </div>
+        </main>
+        <aside id="toggle-menu" class="toggle-hide">
+            <ul>
+                <li onclick="toggle_light()">
+                    <div class="icon">
+                        <span class="material-icons" style="background: #0d47a1">wb_sunny</span>
+                    </div>
+                    <div class="menu-text"><p>ダークテーマ</p></div>
+                </li>
+                <li>
+                    <div class="icon">
+                        <span class="material-icons" style="background: #fdd835;">star</span>
+                    </div>
+                    <div class="menu-text"><p>お気に入り</p></div>
+                </li>
+            </ul>
+        </aside>
+        <script type="text/javascript">
+            $(function () {
+                $('.downloadButton a').on('click', function(e){
+            
+                    var hrefPath = $(this).attr('href');       
+                    var fileName = $(this).attr('href');
+                     
+                    $target = $(e.target);
+                    $target.attr({
+                        download: fileName,
+                        href: hrefPath
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>
