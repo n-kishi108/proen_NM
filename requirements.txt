@@ -4,7 +4,7 @@ astroid==2.2.5
 certifi==2019.3.9
 chardet==3.0.4
 Click==7.0
-Django==2.2.1
+Django==2.2.10
 document==1.0
 dominate==2.3.5
 Flask==1.0.2
