@@ -26,7 +26,7 @@ Markdown==3.1.1
 MarkupSafe==1.1.0
 mccabe==0.6.1
 mecab-python3==0.996.2
-numpy==1.16.0
+numpy==1.22.0
 pandas==0.24.0
 pipenv==2018.11.26
 protobuf==3.8.0
